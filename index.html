@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Atatürk'ün 1881-1938 arasındaki hayatı; mektupları, telgrafları ve seyahatleri, dönemin sınırlarıyla çizilmiş bir harita üzerinde."
+    />
+    <title>ATAMap</title>
+    <script type="module" src="/src/main.tsx"></script>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Static first-load state (ADR-01, SPEC §4.2). Replaced when Preact mounts. -->
+      <p class="site-kunye">ATAMap</p>
+      <div class="loading" role="status">
+        <div>
+          <p class="loading__title">Harita hazırlanıyor</p>
+          <span class="loading__rule" aria-hidden="true"></span>
+        </div>
+      </div>
+    </div>
+    <noscript>
+      <p>Bu harita JavaScript gerektirir.</p>
+    </noscript>
+  </body>
+</html>

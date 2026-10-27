@@ -1,0 +1,9 @@
+Bu klasördeki sınır geometrileri türev veridir ve CC BY-NC-SA 4.0 ile yayımlanır.
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Kaynak: CShapes 2.0, International Conflict Research (ICR), ETH Zürich.
+https://icr.ethz.ch/data/cshapes/
+Değişiklikler: bölgeye kırpıldı, sadeleştirildi, TopoJSON'a dönüştürüldü; bazı dönemler
+kaynaklı elle çizimle tamamlandı (her dosyanın kaynağı data/borders.json içinde).
+
+Ticari olmayan kullanım içindir.

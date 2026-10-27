@@ -1,0 +1,7 @@
+# Hand-written project documents; formatting is deliberate.
+*.md
+data/
+dist/
+public/geo/
+public/data/
+package-lock.json

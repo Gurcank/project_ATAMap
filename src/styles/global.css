@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-ui);
+  font-size: var(--text-16);
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  position: relative;
+  height: 100dvh;
+  overflow: hidden;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+/*
+ * Shared cartouche frame: flat paper fill, 1 px double rule with a 4 px gap, no drop shadow
+ * (SPEC §3.1, §3.4). The inner rule is drawn with inset box-shadows, which stay flat.
+ */
+.cartouche {
+  background: var(--paper);
+  border: var(--rule-width) solid var(--ink);
+  box-shadow:
+    inset 0 0 0 var(--rule-gap) var(--paper),
+    inset 0 0 0 calc(var(--rule-gap) + var(--rule-width)) var(--ink);
+  padding: var(--space-16) var(--space-24);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---- First-load state (SPEC §4.2): same markup in index.html and LoadingShell ---- */
+.loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: var(--paper);
+}
+
+.loading__title {
+  font-family: var(--font-display);
+  font-size: var(--text-25);
+  margin: 0 0 var(--space-12);
+  text-align: center;
+}
+
+.loading__rule {
+  display: block;
+  width: 12rem;
+  height: var(--rule-width);
+  background: var(--ink-muted);
+  transform-origin: left;
+  animation: ink-progress 1.6s var(--ease-ink) infinite;
+}
+
+@keyframes ink-progress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .loading__rule {
+    animation: none;
+  }
+}
+
+.site-kunye {
+  position: absolute;
+  z-index: 1; /* stays above the full-bleed loading layer and the map */
+  top: var(--space-16);
+  left: var(--space-16);
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-14);
+  color: var(--ink-muted);
+}

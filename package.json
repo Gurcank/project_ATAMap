@@ -1,0 +1,61 @@
+{
+  "name": "atamap",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Atatürk'ün 1881-1938 hayatı, dönem sınırlarıyla etkileşimli harita",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "e2e": "playwright test",
+    "check:tokens": "node scripts/check-tokens.ts",
+    "check:size": "node scripts/check-size.ts",
+    "check": "npm run typecheck && npm run lint && npm run check:tokens && npm run test && npm run build && npm run check:size"
+  },
+  "dependencies": {
+    "@fontsource/alegreya-sans": "5.3.0",
+    "@fontsource/courier-prime": "5.3.0",
+    "@fontsource/eb-garamond": "5.3.0",
+    "@fontsource/old-standard-tt": "5.3.0",
+    "@preact/signals": "2.11.3",
+    "d3-geo": "3.1.1",
+    "d3-zoom": "3.0.0",
+    "preact": "10.29.8",
+    "topojson-client": "3.1.0"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.13.0",
+    "@babel/core": "7.29.7",
+    "@eslint/js": "10.0.1",
+    "@playwright/test": "1.64.0",
+    "@preact/preset-vite": "2.10.6",
+    "@types/d3-geo": "3.1.1",
+    "@types/d3-zoom": "3.0.9",
+    "@types/geojson": "7946.0.16",
+    "@types/node": "24.19.2",
+    "@types/topojson-client": "3.1.5",
+    "@types/topojson-server": "3.0.4",
+    "@types/topojson-specification": "1.0.5",
+    "eslint": "10.12.0",
+    "globals": "17.13.0",
+    "mapshaper": "0.7.85",
+    "prettier": "3.9.10",
+    "topojson-server": "3.0.1",
+    "typescript": "6.0.3",
+    "typescript-eslint": "8.71.2",
+    "vite": "8.3.4",
+    "vitest": "5.0.4",
+    "zod": "4.6.7"
+  }
+}

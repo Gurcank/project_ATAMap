@@ -13,6 +13,7 @@
 | 2026-10-27 | §7 altlık satırı | "İlk görünüm karoları" → "İlk görünüm altlığı (50m)" | ADR-05 |
 | 2026-10-27 | §7 genel bütçe | Öneri kesinleşti; MapLibre çıkarıldı, hedef 120 KB, tavan 300 KB | MapLibre 6.14.0 tek başına 287 KB gzip; harita d3-geo + SVG (ADR-03, kullanıcı kararı) |
 | 2026-10-27 | §9 A17 | Açık → kararlaştırıldı | ARCHITECTURE.md |
+| 2026-10-27 | §7 fontlar satırı | "toplam ≤ 250 KB" → açılışta inen fontlar ≤ 250 KB + belge fontları ayrıca ≤ 200 KB (kullanıcı kararı) | Türkçe için `latin-ext` zorunlu; 7 kesimin toplamı 369,4 KB ölçüldü. Kesim çıkarmak tek başına sınırı karşılamıyordu (ARCHITECTURE ADR-12) |
 
 ---
 
@@ -355,7 +356,7 @@ interface PlaceName {
 | Araç SVG'leri (at, tren, gemi, otomobil, uçak) | Bizim çizimimiz | Proje lisansı | 5 | 1:1 tuval (64×64 viewBox) | Her biri ≤ 4 KB, toplam ≤ 20 KB, satır içi |
 | İşaret ikonları (mektup mührü, telgraf formu, konuşma kürsüsü, yer noktası) | Bizim çizimimiz | Proje lisansı | 4 (+ dolu/boş, hover/aktif durumları) | 1:1 (24×24 viewBox) | Toplam ≤ 8 KB |
 | Kâğıt dokusu (A4 + kartuş) | Bizim üretimimiz (SVG gürültü filtresi veya küçük döşenen görsel) | Proje lisansı | 1-2 | Döşenebilir 1:1 | ≤ 30 KB |
-| Fontlar | Old Standard TT, Alegreya Sans, EB Garamond, Courier Prime | OFL (SOURCES §5) | 4 aile, ≤ 7 kesim | — | `latin` + `latin-ext` alt küme, WOFF2, toplam ≤ 250 KB; belge fontları yalnız A4 ilk açılışta yüklenir |
+| Fontlar | Old Standard TT, Alegreya Sans, EB Garamond, Courier Prime | OFL (SOURCES §5) | 4 aile, ≤ 7 kesim | — | `latin` + `latin-ext` alt küme, WOFF2. Açılışta inen fontlar (Old Standard TT + Alegreya Sans) ≤ 250 KB; belge fontları (EB Garamond + Courier Prime) yalnız A4 ilk açılışta yüklenir, ayrıca ≤ 200 KB *(2026-10-27)* |
 | Belge tam metinleri | Atatürk'ün kendi metni, devlet kaynağındaki basımından; yalnız aslı Latin harfli (§2.1) | Kamu malı (FSEK m.27, §2.1) | Kayıt sayısına bağlı | — | Tüm metin JSON'u ≤ 500 KB gzip; gerekirse yıla göre parçalanır |
 | Fotoğraf / belge tıpkıbasımı | — | — | **0** | — | Kapsam dışı (§8) |
 

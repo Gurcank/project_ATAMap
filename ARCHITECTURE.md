@@ -11,6 +11,7 @@
 | 2026-10-27 | §2.3 | Faz 3 kurulumunda eklenen tip ve lint paketleri tabloya işlendi |
 | 2026-10-27 | ADR-12, §5 | Font yükleme yöntemi ölçümle kesinleşti; toplam font boyutu SPEC sınırını aşıyor (ayrıntı ADR-12) |
 | 2026-10-27 | §8 | T4 ve T5 kapandı |
+| 2026-10-27 | ADR-12, §5, §8 | T7 kapandı: font sınırı açılışta ≤ 250 KB + belge fontları ≤ 200 KB olarak bölündü (kullanıcı kararı); `check:size` iki sınırı da denetliyor |
 
 ---
 
@@ -296,7 +297,7 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 
 ### ADR-12 — Fontlar: @fontsource ile kendi barındırmamız
 
-**Bağlam:** SPEC §3.3 dört OFL aile; §7 toplam ≤ 250 KB, `latin` + `latin-ext` WOFF2, belge fontları yalnız A4 ilk açılışta. Google Fonts CDN dış bağlantı ve CSP istisnası gerektirir.
+**Bağlam:** SPEC §3.3 dört OFL aile; §7 `latin` + `latin-ext` WOFF2, belge fontları yalnız A4 ilk açılışta. Sınır başlangıçta "toplam ≤ 250 KB" idi; 2026-10-27'de açılışta ≤ 250 KB + belge fontları ≤ 200 KB olarak bölündü (aşağıda). Google Fonts CDN dış bağlantı ve CSP istisnası gerektirir.
 
 **Alternatifler:**
 - Google Fonts CDN: Kolay; dış istek, gizlilik ve CSP istisnası.
@@ -310,11 +311,13 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 - Tarayıcı bir yüzü yalnız o yüzde metin çizildiğinde indirir. EB Garamond ve Courier Prime bu yüzden ilk A4 açılışına kadar inmez; ayrı dinamik import gerekmez.
 - `<link rel="preload">` henüz yok (hash'li dosya adı gerektiriyor). LCP ölçümünde gerekirse Faz 4'te bir Vite eklentisiyle eklenir.
 - **T5 sonucu:** 7 kesimin hepsi "ğĞıİşŞçÇöÖüÜ" örneğini kendi yüzüyle çiziyor; `document.fonts.check` 7/7 doğru, yedek fonta düşen glif yok. Test sayfası: `tests/visual/fonts.html` (`npm run dev` ile açılır).
-- **Boyut (ölçülen, woff2):** İlk yüklemede inen yüzler (Old Standard TT + Alegreya Sans, latin + latin-ext) **190,6 KB**: 250 KB içinde. Belge fontları (EB Garamond + Courier Prime) **+178,8 KB**, toplam **369,4 KB**. Türkçe metin her zaman `latin-ext` dosyasını da indirdiği için bu alt kümeden kaçılamıyor. En büyük kalemler EB Garamond `latin-ext` dosyaları (normal 55,6 KB + italik 44,4 KB). KB = 1024 bayt, `check:size` ile aynı.
+- **Boyut (ölçülen, woff2):** İlk yüklemede inen yüzler (Old Standard TT + Alegreya Sans, latin + latin-ext) **190,6 KB**: 250 KB içinde. Belge fontları (EB Garamond + Courier Prime) **+178,7 KB**, toplam **369,4 KB**. Türkçe metin her zaman `latin-ext` dosyasını da indirdiği için bu alt kümeden kaçılamıyor. En büyük kalemler EB Garamond `latin-ext` dosyaları (normal 55,6 KB + italik 44,4 KB). KB = 1024 bayt, `check:size` ile aynı.
 
 **Ödünleşim:** İlk A4 açılışında belge fontu birkaç yüz ms gecikebilir (swap ile metin hemen görünür, sonra yazı yüzü değişir). Kabul edildi; hover niyet süresi (150 ms) bu sırada fontu önden istemek için kullanılır.
 
-**Geri dönüş tetikleyicisi:** Toplam 250 KB'ı aştı (369,4 KB). Kesim azaltma tasarım kararıdır, kullanıcıya bırakıldı (§8 T7). Seçenekler: EB Garamond italik çıkarılır (−69,2 KB → 300,1 KB), ayrıca Alegreya Sans 700 çıkarılırsa (−44,8 KB → 255,3 KB; hâlâ sınırın üstünde). Ya da SPEC §7 sınırı "ilk yükleme ≤ 250 KB, belge fontları ayrı" diye yeniden yazılır. İlk yükleme payı (190,6 KB) `check:size` ile her derlemede denetlenir.
+*Sınır kararı (kullanıcı, 2026-10-27, T7):* Toplam 369,4 KB eski 250 KB sınırını aşıyordu. Kesim çıkarmak yetmiyordu (EB Garamond italik + Alegreya Sans 700 çıksa bile 255,3 KB). Sınır ikiye bölündü: **açılışta inen fontlar ≤ 250 KB** (ölçülen 190,6 KB) ve **belge fontları ayrıca ≤ 200 KB** (ölçülen 178,7 KB). Tasarım ve 7 kesim aynen kalır. Belge fontları yalnız belge açan ziyaretçiye iner. `check:size` iki sınırı da her derlemede denetler.
+
+**Geri dönüş tetikleyicisi:** Açılış fontları 250 KB'ı ya da belge fontları 200 KB'ı geçerse (ör. yeni kesim eklenirse) önce EB Garamond italik çıkarılır (−69,2 KB), sonra kesim listesi kullanıcıyla yeniden ele alınır.
 
 ### ADR-13 — Barındırma: Vercel Hobby
 
@@ -412,7 +415,8 @@ SPEC §7 önerisinin kesin hâli. Ölçüm `scripts/check-size.ts` (boyut) ve Li
 | Yakın zoom altlığı (10m) | ≤ 400 KB gzip / dosya | Aşarsa bölünür (ADR-05) |
 | Sınır dosyası | ≤ 150 KB gzip / tarih | Yalnız aktif + sonraki önden |
 | Belge metinleri | ≤ 500 KB gzip toplam | Yıla göre parçalı |
-| Fontlar | ≤ 250 KB toplam (SPEC §7) | **Ölçülen:** ilk yükleme 190,6 KB ✓; belge fontlarıyla toplam 369,4 KB ✗. Karar bekliyor (§8 T7, ADR-12) |
+| Açılış fontları (Old Standard TT + Alegreya Sans) | ≤ 250 KB (SPEC §7) | Ölçülen 190,6 KB ✓ |
+| Belge fontları (EB Garamond + Courier Prime) | ≤ 200 KB, ilk A4 açılışında (SPEC §7) | Ölçülen 178,7 KB ✓ (ADR-12) |
 | Araç SVG'leri | ≤ 4 KB / adet, ≤ 20 KB toplam | Satır içi |
 | İşaret ikonları | ≤ 8 KB toplam | |
 | Kâğıt dokusu | ≤ 30 KB | `feTurbulence` tercih edilir (0 KB dosya) |
@@ -483,7 +487,7 @@ ARCHITECTURE kararlarının SPEC'teki ifadelere etkisi. **SPEC'e işlendi: 2026-
 | ~~T4~~ | Paketlerin birlikte kurulumu ve peer uyarıları | **Kapandı 2026-10-27:** çakışma yok (§2.3 kurulum testi) |
 | ~~T5~~ | Fontların Türkçe glif testi | **Kapandı 2026-10-27:** 7/7 kesim geçti (ADR-12) |
 | T6 | SVG pan akıcılığı ölçümü | Faz 4 ilk dilim (ADR-03 tetikleyicisi) |
-| T7 | Toplam font boyutu 369,4 KB, SPEC §7 sınırı 250 KB | Kullanıcı kararı: kesim azaltma ya da sınırı "ilk yükleme" olarak yeniden tanımlama (ADR-12) |
+| ~~T7~~ | Toplam font boyutu 369,4 KB, SPEC §7 sınırı 250 KB | **Kapandı 2026-10-27:** sınır açılışta ≤ 250 KB + belge fontları ≤ 200 KB olarak bölündü (kullanıcı kararı, ADR-12) |
 
 ---
 

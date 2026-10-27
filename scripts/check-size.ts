@@ -9,9 +9,14 @@ const KB = 1024;
 const BUDGET = {
   initialJsTarget: 120 * KB,
   initialJsCeiling: 300 * KB,
-  // Faces needed before any document opens: Old Standard TT + Alegreya Sans (ADR-12).
+  // SPEC §7 (2026-10-27): faces needed on first load vs. faces fetched on the first A4 opening.
   initialFonts: 250 * KB,
+  documentFonts: 200 * KB,
 };
+
+// Which budget each shipped family counts against (ADR-12). A family missing here fails the check.
+const INITIAL_FONT_PREFIXES = ['old-standard-tt', 'alegreya-sans'];
+const DOCUMENT_FONT_PREFIXES = ['eb-garamond', 'courier-prime'];
 
 interface ManifestChunk {
   file: string;
@@ -47,10 +52,15 @@ const initialJs = [...initial].filter((f) => f.endsWith('.js')).reduce((sum, f) 
 const assets = readdirSync(join(DIST, 'assets'));
 const woff2 = assets.filter((f) => f.endsWith('.woff2'));
 const fontSize = (f: string) => readFileSync(join(DIST, 'assets', f)).length;
-const initialFonts = woff2
-  .filter((f) => f.startsWith('old-standard-tt') || f.startsWith('alegreya-sans'))
-  .reduce((sum, f) => sum + fontSize(f), 0);
-const allFonts = woff2.reduce((sum, f) => sum + fontSize(f), 0);
+const sumFonts = (prefixes: string[]) =>
+  woff2
+    .filter((f) => prefixes.some((p) => f.startsWith(p)))
+    .reduce((sum, f) => sum + fontSize(f), 0);
+const initialFonts = sumFonts(INITIAL_FONT_PREFIXES);
+const documentFonts = sumFonts(DOCUMENT_FONT_PREFIXES);
+const unbudgetedFonts = woff2.filter(
+  (f) => ![...INITIAL_FONT_PREFIXES, ...DOCUMENT_FONT_PREFIXES].some((p) => f.startsWith(p)),
+);
 
 const failures: string[] = [];
 console.log(
@@ -59,9 +69,15 @@ console.log(
 if (initialJs > BUDGET.initialJsCeiling) failures.push('İlk yükleme JS tavanı aşıldı');
 else if (initialJs > BUDGET.initialJsTarget) console.warn('  uyarı: hedef aşıldı (tavan altında)');
 
-console.log(`İlk yükleme fontları: ${fmt(initialFonts)}  sınır ${fmt(BUDGET.initialFonts)}`);
-if (initialFonts > BUDGET.initialFonts) failures.push('İlk yükleme font bütçesi aşıldı');
-console.log(`Tüm fontlar (belge fontları tembel): ${fmt(allFonts)}  (${woff2.length} dosya)`);
+console.log(`Açılış fontları: ${fmt(initialFonts)}  sınır ${fmt(BUDGET.initialFonts)}`);
+if (initialFonts > BUDGET.initialFonts) failures.push('Açılış font bütçesi aşıldı');
+console.log(
+  `Belge fontları (ilk A4'te): ${fmt(documentFonts)}  sınır ${fmt(BUDGET.documentFonts)}`,
+);
+if (documentFonts > BUDGET.documentFonts) failures.push('Belge font bütçesi aşıldı');
+if (unbudgetedFonts.length > 0) {
+  failures.push(`Bütçesi tanımlanmamış font dosyası: ${unbudgetedFonts.join(', ')}`);
+}
 
 if (failures.length > 0) {
   failures.forEach((f) => console.error(`HATA: ${f}`));

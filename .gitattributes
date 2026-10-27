@@ -1,0 +1,5 @@
+# Keep LF everywhere: reference transcriptions are hashed (ADR-08), so line endings must not
+# depend on the checkout platform.
+* text=auto eol=lf
+*.png binary
+*.woff2 binary

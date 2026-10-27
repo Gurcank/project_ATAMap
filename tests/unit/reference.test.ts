@@ -33,7 +33,10 @@ describe.each(withText.map((d) => [d.id, d] as const))('%s', (id, doc) => {
 
   it('reference file is unchanged since capture (sha256)', () => {
     const meta = JSON.parse(read(metaPath)) as { sha256: string };
-    const actual = createHash('sha256').update(read(refPath), 'utf8').digest('hex');
+    // Hash with LF line endings so a CRLF checkout cannot change the result.
+    const actual = createHash('sha256')
+      .update(read(refPath).replace(/\r\n/g, '\n'), 'utf8')
+      .digest('hex');
     expect(actual).toBe(meta.sha256);
   });
 

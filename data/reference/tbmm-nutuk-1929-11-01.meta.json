@@ -1,0 +1,30 @@
+{
+  "docId": "tbmm-nutuk-1929-11-01",
+  "sourceId": "tbmm-zc-d3-c13-i1-1929-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1929.pdf",
+  "pdfPages": "2-4",
+  "printedPages": "2-4",
+  "capturedAt": "2026-10-27",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-27",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır"
+  ],
+  "sha256": "668f8dfa6a52f69dcd9ab998067af8fd54c3a9610532a63c27d5ce67363dbc18",
+  "uncertain": [
+    "s.3 sağ, \"eden Türk şirketlerinin\": büyük T elle mürekkeple düzeltilmiş görünüyor; baskıdaki harf küçük t olabilir.",
+    "s.3 sol, \"sihhatı\": baskıda böyle (sıhhatı değil). Aynen alındı.",
+    "s.4 sol, \"deverede\": baskı hatası olabilir. Aynen alındı.",
+    "s.3 sağ, \"zenğinleştirecek\": baskıda ğ ile. Aynen alındı.",
+    "s.4 sol, \"iktisadi\" düzeltme işaretsiz; s.3 sol \"iktisadî\" işaretli. Aynen alındı.",
+    "s.4 sol, \"henuz\": u üzerinde nokta görünmüyor. Aynen alındı.",
+    "s.3 sağ, \"Seyri / sefain\": satır sonunda tire yok, iki kelime olarak alındı (bir sonraki satırda \"Seyrisefaini\" bitişik).",
+    "s.3 sol \"hizmet etti (Alkışlar) Bu\", s.3 sağ \"lâyıktır (...) Bunu\" ve \"söyleyebilirim (Alkışlar)\": baskıda nokta yok, eklenmedi.",
+    "s.4 sağ, \"Maliyemiz çetin\": iki kelime arasında leke var.",
+    "Tarama üzerindeki el yazısı işaretler (altı çizgiler, oklar, köşeli parantez) baskının parçası değil, alınmadı."
+  ]
+}

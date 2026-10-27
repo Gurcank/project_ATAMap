@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aktarım kontrolü</title>
+    <!-- Dev-only page (not a build input): npm run dev → /tools/review/?doc=<docId> -->
+    <script type="module" src="./review.ts"></script>
+  </head>
+  <body>
+    <main class="review">
+      <header class="review__head">
+        <h1 class="review__title">Aktarım kontrolü</h1>
+        <p class="review__meta" id="meta"></p>
+        <nav class="review__docs" id="docs" aria-label="Belgeler"></nav>
+      </header>
+      <section class="review__help">
+        <h2>Nasıl kontrol edilir</h2>
+        <ol>
+          <li>
+            Her bölümde solda tarama, sağda aynı sütunun satır satır aktarımı var. Satırları sırayla
+            karşılaştırın.
+          </li>
+          <li>
+            <span class="mark-note">Gri italik</span> satır parçaları stenograf notudur; sitede
+            gösterilmez (A20).
+          </li>
+          <li>
+            Satır sonundaki tireler sitede birleştirilir (A21). Aşağıda sitedeki son metin de var.
+          </li>
+          <li>
+            Hata bulursanız satır numarasıyla bildirin. Hepsi doğruysa "onaylıyorum" demeniz
+            yeterli.
+          </li>
+        </ol>
+        <h2>Şüpheli yerler</h2>
+        <ul id="uncertain"></ul>
+      </section>
+      <div id="sections"></div>
+      <section class="review__final">
+        <h2>Sitede görünecek metin</h2>
+        <div id="final" class="review__final-text"></div>
+      </section>
+    </main>
+  </body>
+</html>

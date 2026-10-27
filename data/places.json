@@ -1,0 +1,21 @@
+{
+  "$comment": "PlaceName kayıtları (SPEC §6). Koordinat iki telifsiz kaynaktan (SPEC A23); saklanan değer Wikidata'nınki, Natural Earth ile farkı aşağıda.",
+  "places": [
+    {
+      "id": "ankara",
+      "point": {
+        "lon": 32.83869,
+        "lat": 39.93576,
+        "sources": ["wikidata-q3640", "naturalearth-ne110m-populated-places"],
+        "$note": "Wikidata P625: 39.93576, 32.83869. Natural Earth: 39.929184, 32.862446 (yaklaşık 2,2 km doğu-güneydoğu). Şehir ölçeğinde uyumlu."
+      },
+      "names": [
+        {
+          "name": "Ankara",
+          "sources": [],
+          "$note": "Dönem adı için kaynak henüz yok. 1929 tutanağında yer adı geçmiyor. Osmanlı resmî yazışmasında farklı bir ad kullanılmış olabilir; doğrulanmadan validFrom/validTo yazılmadı."
+        }
+      ]
+    }
+  ]
+}

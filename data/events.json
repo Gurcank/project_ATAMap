@@ -1,0 +1,26 @@
+{
+  "$comment": "Event kayıtları (SPEC §6). Metinleri biz yazarız; kaynakta olmayan bilgi yok (SPEC §2).",
+  "events": [
+    {
+      "id": "tbmm-acilis-1929-11-01",
+      "date": {
+        "iso": "1929-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d3-c13-i1-1929-11-01"
+        ]
+      },
+      "title": "Meclisin üçüncü devre üçüncü içtima senesi açıldı",
+      "text": "Reisicümhur Gazi Mustafa Kemal, Büyük Millet Meclisinin üçüncü devresinin üçüncü içtima senesini bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-d3-c13-i1-1929-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1929-11-01"
+      ]
+    }
+  ]
+}

@@ -21,3 +21,6 @@ tests/e2e/__screenshots__/actual/
 *.log
 .DS_Store
 Thumbs.db
+
+# Local research material: downloaded scans (never committed, SPEC §8)
+research/

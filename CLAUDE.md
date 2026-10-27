@@ -22,7 +22,11 @@ npm run check          # typecheck + lint + check:tokens + test + build + check:
 npm run test           # Vitest (tests/unit)
 npm run e2e            # Playwright, 375/768/1280 (önce: npx playwright install chromium)
 npm run format         # Prettier (md dosyalarına dokunmaz)
+node scripts/fetch-scan.ts <docId>   # kaynak taramasını research/scans/ altına indirir
+# kontrol sayfası: npm run dev → /tools/review/?doc=<docId>
 ```
+
+Belge metni ekleme akışı (ADR-08): taramayı `data/reference/<docId>.txt` dosyasına satır satır aktar → `fullText`'i `diplomaticToText()` ile üret, elle yazma → `.meta.json`'a sha256 ve şüpheli yerleri yaz → kullanıcı kontrol sayfasından onaylayana kadar kaynak `verified: false`.
 
 Betikler (`scripts/*.ts`) Node 24'ün yerleşik tip ayıklamasıyla çalışır: `node scripts/x.ts`. Bu yüzden `enum`, `namespace`, parametre özellikleri yok (`erasableSyntaxOnly`). Yerel import'lar `.ts`/`.tsx` uzantısıyla yazılır.
 

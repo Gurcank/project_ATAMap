@@ -13,6 +13,7 @@
 | 2026-10-27 | §7 altlık satırı | "İlk görünüm karoları" → "İlk görünüm altlığı (50m)" | ADR-05 |
 | 2026-10-27 | §7 genel bütçe | Öneri kesinleşti; MapLibre çıkarıldı, hedef 120 KB, tavan 300 KB | MapLibre 6.14.0 tek başına 287 KB gzip; harita d3-geo + SVG (ADR-03, kullanıcı kararı) |
 | 2026-10-27 | §9 A17 | Açık → kararlaştırıldı | ARCHITECTURE.md |
+| 2026-10-27 | §9.2 A20-A23 | Belge metni aktarım kuralları ve koordinat kaynakları eklendi (kullanıcı kararları) | TBMM taranmış tutanaklarının incelenmesi (SOURCES §2.4.1) |
 | 2026-10-27 | §7 fontlar satırı | "toplam ≤ 250 KB" → açılışta inen fontlar ≤ 250 KB + belge fontları ayrıca ≤ 200 KB (kullanıcı kararı) | Türkçe için `latin-ext` zorunlu; 7 kesimin toplamı 369,4 KB ölçüldü. Kesim çıkarmak tek başına sınırı karşılamıyordu (ARCHITECTURE ADR-12) |
 
 ---
@@ -414,6 +415,10 @@ interface PlaceName {
 | A16 | Altlık | Natural Earth, kendimiz barındırırız. Gerekçe: kamu malı ve ücretsiz, etiketsiz olduğu için güncel ad sızmaz, dış servise ve anahtara bağımlılık yok. Mapbox ücretli kullanım koşulları ve erişim anahtarı gerektirdiği için sıfır bütçe kuralına uymuyor; MapLibre zaten Mapbox GL'in açık kaynak çatalı, kullanım deneyimi benzer |
 | A18 | Kronoloji kaynağı | Tek ana kaynak yok. Her tarih ve yer en az 2 bağımsız, ücretsiz, telifsiz, güvenilir kaynakla ya da tarihli birincil belgenin kendisiyle teyit edilir (§2.2). Ücretli *Kaynakçalı Atatürk Günlüğü* kullanılmaz |
 | A17 | Teknik yığın ve sürüm sabitleme | [ARCHITECTURE.md](ARCHITECTURE.md): Vite + Preact + d3-geo/SVG, Vercel Hobby; sürümler en az iki haftalık kararlı sürüme tam sabitlenir (ARCHITECTURE §2). Kapandı: 2026-10-27 |
+| A20 | Tutanaktaki stenograf notları ("(Alkışlar)" vb.) | A4 metnine **alınmaz**. Birebirlik testi bu notları bilinçli olarak atlar; künyede "Stenograf notları çıkarıldı" yazar |
+| A21 | Satır sonu tirelemesi (taranmış baskı) | Bölünmüş kelimeler birleştirilir (dizgi gereğidir). Paragraf, noktalama ve dönem yazımı (â, î, "Cümhuriyet") aynen kalır |
+| A22 | Elle aktarılan metnin ikinci okuması | Kullanıcı, tarama ile aktarımı yan yana karşılaştırıp onaylar. Onaydan önce kayıt `verified: false` kalır, siteye girmez |
+| A23 | Yer koordinatı kaynakları | Natural Earth populated places (kamu malı) + Wikidata (CC0). Biri yoksa başka telifsiz ikinci kaynak aranır |
 | A19 | Hakları saklı ücretsiz yayınlar teyit sayılır mı? | Hayır. Teyit için yalnız telifsiz kaynaklar ve birincil belgeler kullanılır. Hakları saklı yayınlar yalnız ipucudur (§2.2) |
 
 ---

@@ -67,7 +67,20 @@
 - [Önsöz PDF](https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/kitaponsoz.pdf) tarama görüntüsü, metni okunamadı → "düzenlenmiş" metnin nasıl hazırlandığı **doğrulanmadı**.
 - [TBMM Açık Erişim — Zabıt Ceridesi Devre 1](https://acikerisim.tbmm.gov.tr/handle/11543/1677): kayıt açıklamasına göre eski harfli.
 - Koşul: sayfada **bulunamadı**.
-- Uygunluk: "Olay" kaydı (tarih + Ankara/TBMM). Konuşma metni mektup/telgraf değildir; **site kapsamına alınıp alınmayacağı açık karardır** (SPEC §9).
+- Uygunluk: "Olay" kaydı (tarih + Ankara/TBMM). Konuşmalar SPEC A7 gereği `kind: 'konusma'` belge olarak alınır.
+
+#### 2.4.1 İnceleme sonuçları (2026-10-27)
+
+Liste sayfasında 20 konuşma var: 24 Nisan 1920 – 1 Kasım 1938. Her biri için "düzenlenmiş" HTML (`<dönem>d<yıl>yy.htm`) ve "orijinal" PDF (`<gg_aa_yyyy>.pdf`, yıl Rumi 1336-1341 veya Miladi) var. Taban adres: `https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/`.
+
+- **Düzenlenmiş HTML günümüz Türkçesine sadeleştirilmiş.** Kanıt (1 Kasım 1929): taranmış tutanakta "memleketin dahilî hayatı, huzur ve asayiş içinde", HTML'de "ülkemiz huzur ve güvenlik içinde". Benzer şekilde "dahilî siyaseti" → "iç politikası". Sayfada hazırlayan ve yöntem belirtilmiyor; karakter kodlaması da bozuk. **SPEC §2.1 gereği sadeleştirme telifli sayılır → kullanılmaz** (§7.1).
+- **Orijinal PDF'ler taranmış görüntü** (CCITT G4 / JBIG2), metin katmanı yok. Okumak için sayfa görüntüsü çıkarılıp elle aktarılır (ARCHITECTURE ADR-08, `method: 'elle'`).
+- **1 Kasım 1929 ve sonrası:** Tutanaklar Latin harfli ve dönem yazımıyla basılmış ("Cümhuriyet", "selâmlarım", "dahilî"). 1929 ve 1938 sayfaları görüntülenerek doğrulandı; 1930-1937 **açılmadı**. Bu konuşmalar tam metin adayıdır.
+- **1920 – 1 Kasım 1928:** PDF'ler de Latin harfli, ama tutanakların aslı Harf Kanunu (1 Kasım 1928) öncesine ait, yani Arap harfli. Bu Latin baskılar sonradan yapılmış harf çevirisi olmalı; basım yılı **doğrulanmadı** (TBMM Açık Erişim kaydından bakılacak). SPEC §2.1 gereği tam metin gösterilmez, künye kartı kullanılır.
+- **1 Kasım 1928:** Harf Kanunu'nun kabul edildiği oturum. Tutanağın aslı büyük olasılıkla Arap harfli → künye kartı. **Doğrulanmadı.**
+- **1 Kasım 1938:** Metin kayıtta var (Latin harfli). Konuşmayı Atatürk'ün kendisinin okumadığı biliniyor; kimin okuduğu tutanaktan **doğrulanacak** ve künyede belirtilecek.
+- Liste sayfasında 2. Dönem 2. Yasama Yılı (1 Kasım 1924) için içtima tarihi "1.3.1340" yazılmış; PDF adı `01_03_1340.pdf`. Tarih **tutarsız**; tutanağın kendisinden doğrulanacak.
+- Tutanak metninde stenograf notları var: "(Alkışlar)", "(Alkışlar, teşekkür ederiz sesleri)". Bunlar Atatürk'ün sözü değil.
 
 ### 2.5 Türk Tarih Kurumu
 - *Belleten*: "Bu dergideki çalışmalar Creative Commons Atıf-GayriTicari 4.0 Uluslararası (CC BY-NC 4.0) ile lisanslanmıştır." — [belleten.gov.tr/sayfa/hakkinda](https://belleten.gov.tr/sayfa/hakkinda). Makalelerde yayımlanan Atatürk telgraf/mektup transkripsiyonları **bu lisansla kullanılabilecek tek doğrulanmış açık kaynak**. Koşullar: atıf + ticari olmayan kullanım. Örnek: Atatürk'ün toplanmamış telgraf ve mektuplarını yayımlayan makale — [tam metin 1908](https://belleten.gov.tr/tam-metin/1908/tur).
@@ -136,6 +149,7 @@ Aşağıdaki dönemler ve değişiklikler iki açık veri setinde de ya hiç yok
 - **World Historical Gazetteer**: "public" işaretli veri setleri CC BY 4.0 ([kılavuz](https://whgazetteer.org/tutorials/guide/)). 19. yüzyıl Osmanlı yer adları için uygun bir veri seti **bulunamadı**.
 - **19th Century Ottoman Gazetteer** (Koç Üniversitesi): erişim durumu "CLOSED" — [kayıt](https://research.hub.ku.edu.tr/entities/data/bc5e147f-52b2-4128-a28d-40854439750e/full) → kullanılamaz.
 - **Historical Basemaps `places.geojson`**: README'ye göre taslak ve eksik. Lisans GPL-3.0.
+- **Koordinat kaynakları (SPEC A23, 2026-10-27):** Natural Earth populated places (kamu malı; [ne_110m GeoJSON](https://github.com/nvkelso/natural-earth-vector/tree/master/geojson)) ve Wikidata P625 ([lisans](https://www.wikidata.org/wiki/Wikidata:Licensing): yapısal veri CC0). Wikidata koordinatı saklanır; Natural Earth teyit içindir. İlk kayıt: Ankara, iki kaynak arası fark yaklaşık 2,2 km (`data/places.json`).
 - Sonuç: Yer adı katmanı elle derlenecek. Her ad DAB *Osmanlı Yer Adları* ya da kullanılan belge yayınındaki yazımla kaynaklanacak.
 
 ---
@@ -190,6 +204,8 @@ Her satırın linki ve gerekçe kaynağı §2'deki ilgili alt başlıktadır (AT
 | *Askerî Tarih Belgeleri Dergisi* | MSB/ATASE | Koşul bulunamadı |
 | *Nutuk* | TTK | Yayın hakları TTK'da (doğrulanmadı) |
 | Belleten makale ekleri | TTK | CC BY-NC 4.0; belge transkripsiyonuna uygulanıp uygulanmadığı açık karar |
+| TBMM "Düzenlenmiş Tutanaklar" (açılış konuşmaları HTML) | TBMM | Günümüz Türkçesine sadeleştirilmiş (§2.4.1); taranmış orijinaller kullanılır |
+| TBMM 1920–1928 açılış konuşmalarının Latin harfli baskıları | TBMM | Aslı Arap harfli; sonradan harf çevirisi (§2.4.1). Yalnız künye kartı |
 
 ### 7.2 Bulunamadı / erişilemedi
 - ATAM için ayrı kullanım koşulu veya telif sayfası. "Sorumluluk Reddi" sayfası 404.

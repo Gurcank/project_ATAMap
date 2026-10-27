@@ -1,0 +1,123 @@
+body {
+  overflow: auto;
+}
+
+.review {
+  max-width: 96rem;
+  margin: 0 auto;
+  padding: var(--space-24) var(--space-16) var(--space-96);
+}
+
+.review__title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--text-31);
+  margin: 0;
+}
+
+.review__meta {
+  color: var(--ink-muted);
+  font-size: var(--text-14);
+  overflow-wrap: anywhere;
+}
+
+.review__docs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.review__docs a {
+  color: var(--accent-text);
+}
+
+.review__docs .is-current {
+  font-weight: 700;
+}
+
+.review__help {
+  margin: var(--space-24) 0;
+  padding: var(--space-16) var(--space-24);
+  background: var(--panel);
+}
+
+.review__help h2,
+.pair__title,
+.review__final h2 {
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: var(--text-20);
+}
+
+.pair {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-16);
+  padding: var(--space-24) 0;
+  border-top: var(--rule-width) solid var(--ink-muted);
+}
+
+.pair__title {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+@media (min-width: 64rem) {
+  .pair {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+}
+
+/* Show one printed column: the image is twice the box width and shifted for the right column. */
+.pair__scan {
+  position: sticky;
+  top: var(--space-8);
+  overflow: hidden;
+  border: var(--rule-width) solid var(--ink-muted);
+}
+
+.pair__scan img {
+  display: block;
+  width: 200%;
+  max-width: none;
+}
+
+.pair__scan--right img {
+  margin-left: -100%;
+}
+
+.pair__missing {
+  padding: var(--space-16);
+}
+
+.pair__lines {
+  margin: 0;
+  padding-left: var(--space-48);
+  font-family: var(--font-letter);
+  font-size: var(--text-20);
+  line-height: 1.5;
+}
+
+.pair__lines li::marker {
+  font-family: var(--font-ui);
+  font-size: var(--text-12);
+  color: var(--ink-muted);
+  content: attr(data-line) '  ';
+}
+
+.pair__lines .is-paragraph {
+  text-indent: var(--space-24);
+}
+
+.mark-note {
+  color: var(--ink-muted);
+  font-style: italic;
+}
+
+.review__final-text {
+  font-family: var(--font-letter);
+  font-size: var(--text-document);
+  line-height: var(--leading-document);
+  max-width: var(--measure-document);
+}

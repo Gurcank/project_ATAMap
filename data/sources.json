@@ -1,0 +1,38 @@
+{
+  "$comment": "SourceRef kayıtları (SPEC §6). Kayıtlar bunlara `id` ile başvurur (ARCHITECTURE ADR-07). Erişim tarihleri ISO.",
+  "sources": [
+    {
+      "id": "tbmm-zc-d3-c13-i1-1929-11-01",
+      "institution": "Türkiye Büyük Millet Meclisi",
+      "citation": "T.B.M.M. Zabıt Ceridesi, Devre 3, Cilt 13, Birinci İn'ikat, 1-XI-1929 Cuma, s. 2-4 (2 - Nutuklar, 1 - Reisicümhur Gazi Hazretlerinin nutukları)",
+      "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1929.pdf",
+      "page": "2-4",
+      "accessedAt": "2026-10-27",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "Taranmış orijinal tutanak, Latin harfli (SOURCES §2.4.1). Aktarım kullanıcı tarafından taramayla karşılaştırılıp onaylandı, 2026-10-27 (SPEC A22)."
+    },
+    {
+      "id": "naturalearth-ne110m-populated-places",
+      "institution": "Natural Earth",
+      "citation": "Natural Earth, ne_110m_populated_places (GeoJSON), nvkelso/natural-earth-vector, commit 117488dc884bad03366ff727eca013e434615127",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/117488dc884bad03366ff727eca013e434615127/geojson/ne_110m_populated_places.geojson",
+      "accessedAt": "2026-10-27",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true
+    },
+    {
+      "id": "wikidata-q3640",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q3640 (Ankara), P625 koordinat, revizyon 2561365497",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q3640.json?revision=2561365497",
+      "accessedAt": "2026-10-27",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": true
+    }
+  ]
+}

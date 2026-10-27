@@ -11,6 +11,7 @@
 | 2026-10-27 | §2.3 | Faz 3 kurulumunda eklenen tip ve lint paketleri tabloya işlendi |
 | 2026-10-27 | ADR-12, §5 | Font yükleme yöntemi ölçümle kesinleşti; toplam font boyutu SPEC sınırını aşıyor (ayrıntı ADR-12) |
 | 2026-10-27 | §8 | T4 ve T5 kapandı |
+| 2026-10-27 | ADR-08, §2.3, §4 | Referans metni satır satır ("diplomatik") aktarım oldu; site metni ondan otomatik üretiliyor. `fetch-scan` betiği, `tools/review/` kontrol sayfası ve `pdfjs-dist` eklendi |
 | 2026-10-27 | ADR-12, §5, §8 | T7 kapandı: font sınırı açılışta ≤ 250 KB + belge fontları ≤ 200 KB olarak bölündü (kullanıcı kararı); `check:size` iki sınırı da denetliyor |
 
 ---
@@ -84,6 +85,7 @@ Bütçe sıfır (SPEC §1): Aşağıdaki her paket, veri ve hizmet ücretsizdir.
 | @types/d3-geo · @types/d3-zoom | **3.1.1 · 3.0.9** | 2026-07-31 · 2026-09-29 | — | MIT |
 | @types/topojson-client · -server · -specification | **3.1.5 · 3.0.4 · 1.0.5** | 2024-09-16 · 2023-11-07 · 2023-11-07 | — | MIT |
 | @types/geojson | **7946.0.16** | 2025-01-23 | — | MIT |
+| pdfjs-dist | **6.4.299** | 2026-10-03 | — Yalnız `scripts/fetch-scan.ts`: taranmış kaynak PDF'ten sayfa görüntüsü çıkarır (ADR-08). Engine: node `>=24` ✓ | Apache-2.0 |
 
 **Kurulum testi (T4, 2026-10-27):** `npm install` peer çakışması olmadan tamamlandı; `npm ls` hatasız; `npm audit` 0 açık. İki kullanımdan kaldırma uyarısı yalnız mapshaper'ın dolaylı bağımlılıklarından geliyor (`geographiclib@1.48.0`, isteğe bağlı `prebuild-install`). İkisi de yalnız derleme zamanında çalışıyor, tarayıcıya gitmiyor. mapshaper yükseltilirken yeniden bakılır.
 
@@ -237,7 +239,13 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 - Her derlemede kaynağı canlı çekmek: Kaynak sitelere bağımlılık, kaynak kapalıysa derleme kırılır; taranmış PDF'lerde metin yok.
 - Kaynaktan bir kez alınmış, sabitlenmiş referans metin + karşılaştırma testi.
 
-**Sonuç:** Her tam metinli belge için `data/reference/<docId>.txt` ve yanında `<docId>.meta.json` (kaynak URL, sayfa, alım tarihi, sha256, `method: 'otomatik' | 'elle'`). `scripts/fetch-reference.ts` metni çekilebilen kaynaklarda (ör. TBMM düzenlenmiş HTML) referansı üretir ve isteğe bağlı olarak yeniden çekip fark arar. Birim testi `fullText` ile referansı yalnız satır sonu ve ardışık boşluk normalleştirmesiyle karşılaştırır.
+**Sonuç:** Her tam metinli belge için `data/reference/<docId>.txt` ve yanında `<docId>.meta.json` (kaynak URL, sayfa, alım tarihi, sha256, `method: 'otomatik' | 'elle'`, şüpheli yerler listesi, onaylayan).
+
+*2026-10-27 güncellemesi (TBMM incelemesi sonrası):* TBMM'nin "düzenlenmiş" HTML'i sadeleştirilmiş çıktı, kullanılamıyor (SOURCES §2.4.1); kaynaklar taranmış PDF. Bu yüzden:
+- Referans dosyası taramanın **satır satır** aktarımıdır: baskı satırları, satır sonu tireleri, sayfa/sütun işaretleri (`## s.3 sol`) ve `{…}` ile işaretli stenograf notları aynen durur. Biçim `scripts/lib/diplomatic.ts` başında.
+- `fullText` bu dosyadan `diplomaticToText()` ile **otomatik** üretilir: tireler birleşir (A21), notlar çıkar (A20), dizgi boşlukları temizlenir; yazım ve noktalama değişmez. `tests/unit/reference.test.ts` eşitliği ve referansın sha256'sını denetler.
+- `node scripts/fetch-scan.ts <docId>` kaynak PDF'in sayfalarını `research/scans/` altına PNG olarak çıkarır (git'te değil, siteye girmez). `npm run dev` ile `/tools/review/?doc=<docId>` sayfası taramayı ve aktarımı sütun sütun yan yana gösterir; kullanıcı buradan onaylar (SPEC A22).
+- Metni çekilebilen kaynaklar çıkarsa `scripts/fetch-reference.ts` ile `method: 'otomatik'` yolu yine açık.
 
 **Ödünleşim:** Taranmış PDF kaynaklarında referans elle yazılır (`method: 'elle'`); bu durumda test bizim iki kopyamızı karşılaştırır, kaynağa sadakati kanıtlamaz. Bu kayıtlar raporda ayrı listelenir ve elle ikinci kişi kontrolü gerektirir.
 
@@ -373,8 +381,11 @@ ATAMap/
 │  ├─ borders/manual/         # kaynaklı elle çizimler (A14)
 │  └─ reference/              # birebir metin referansları (ADR-08)
 ├─ geo-src/                   # ham Natural Earth + CShapes; git'te değil, betik indirir
+├─ research/scans/            # fetch-scan çıktısı, kaynak taramaları; git'te değil (ADR-08)
+├─ tools/review/              # yalnız geliştirmede: tarama ↔ aktarım kontrol sayfası (ADR-08)
 ├─ scripts/
-│  ├─ build-data.ts  build-geo.ts  fetch-reference.ts  fetch-geo.ts
+│  ├─ build-data.ts  build-geo.ts  fetch-reference.ts  fetch-scan.ts  fetch-geo.ts
+│  ├─ lib/diplomatic.ts       # referans aktarımı → site metni (A20/A21)
 │  └─ check-size.ts  check-tokens.ts
 ├─ public/
 │  ├─ geo/                    # üretilmiş TopoJSON (git'te değil)

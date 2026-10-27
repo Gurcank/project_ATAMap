@@ -17,4 +17,7 @@ paths:
 - Olay metni: ≤ 240 karakter, başlık ≤ 60, geçmiş zaman, sıfatsız, kaynakta olmayan bilgi yok, kaynaktan cümle kopyalanmaz.
 - Yer adı dönem adıyla. Güncel ad yalnız `modernName` alanında (haritada asla görünmez).
 - Rumi/Hicri tarih: `original` aynen; Miladi karşılık önce kaynaktan, yoksa TTK çevirici ile ve `conversion: 'ttk-cevirici'`.
+- Taranmış tutanaktan aktarım (A20-A22): stenograf notları ("(Alkışlar)") alınmaz; satır sonu tirelemesi birleştirilir; dönem yazımı aynen. Aktarım kullanıcı onaylayana kadar `verified: false`.
+- Koordinat: Natural Earth populated places + Wikidata (CC0) (A23). Koordinatı asla bellekten yazma; kaynaktan oku ve değeri kaynaktaki gibi kaydet.
+- TBMM "düzenlenmiş" HTML metinleri sadeleştirilmiştir, kullanılmaz (SOURCES §2.4.1).
 - `tests/fixtures/` içindeki kayıtlar kurgudur; dosya başında bunu belirten bir alan/not taşır ve asla `data/` altına kopyalanmaz.

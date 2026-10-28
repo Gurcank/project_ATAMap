@@ -75,6 +75,31 @@
         "tbmm-zc-c4-i1-1931-11-01"
       ],
       "$note": "Yer: TBMM oturumu; tutanakta şehir adı geçmiyor. fromPlaceId için ayrı bir kaynak gerekiyor (açık)."
+    },
+    {
+      "id": "tbmm-nutuk-1932-11-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1932-11-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1-XI-1932 Salı",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d4-c10-i1-1932-11-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Reisicümhur Gazi Hazretleri",
+      "recipient": "Büyük Millet Meclisinin muhterem azası",
+      "originalScript": "latin",
+      "fullText": "Büyük Millet Meclisinin muhterem azası;\n\nBüyük Millet Meclisinin 4 üncü devresinin 2 nci toplanma yılını açıyorum. Yüce milletimizin değerli vekillerini, saygı ve sevgi ile selâmlarım.\n\nAziz arkadaşlarım!\n\nBeynelmilel siyasî ve iktısadî buhranlardan, beşeriyetin duymakta olduğu sıkıntı ve acı devam etmektedir.\n\nSiyasî buhranın mahiyeti, silâhları bırakma konferansının müşküllerinde hulâsa olarak müşahede edilebilir.\n\nİktısadî buhran ise, milletler arasında mübadelenin azalması ve daralması şeklinde sahasını genişletmiş ve tesirini arttırmıştır.\n\nBizim kanaatimizce beynelmilel siyasî emniyetin inkişafı için, ilk ve en mühim şart, milletlerin hiç olmazsa sulhu muhafaza fikrinde, samimî olarak birleşmesidir.\n\nBiz iktısadî genişliğin temelini de, ancak her milletin refahla yaşamağa ve ilerlemeğe hakkı olduğunu teslim eden bir zihniyetle, bütün milletlerin birlikte çalışmaları yolunun bulunmasında görüyoruz.\n\nMuhterem millet vekilleri!\n\nBütün milletlerin güçlükle göğüs germeğe uğraştığı zorluklar içinde milletimiz büyük canlılık, Hükûmetimiz yüksek isabet göstermektedir.\n\nKomşularımızla ve bütün milletlerle münasebetlerimiz ciddî, samimî sulh ve emniyet fikrine müstenit olarak inkişaf etmektedir.\n\nDostlar arasında, dürüst bir vaziyetin muhafazası bizim, daima çok ehemmiyet verdiğimiz bir esastır.\n\nBeynelmilel iktısat güçlüklerine karşı, halin icabına göre, müdafaa, muvazene, inkişaf tedbirlerini almaktayız. Karşısında bulunduğumuz her imkânı genişlik ve kolaylık yolunda tatbik etmeğe çalışıyoruz. Millî iktısadın ve paranın gösterdiği kudret ve istikrar; alınan tedbirlerin isabetine kanaat verecek mahiyettedir.\n\nBütçenin vaziyeti, tahminlerin bu yıl tahakkuk edebileceğine kuvvetli umut vermektedir. Her halde muvazeneli bir bütçenin temini, gelecek yıla düşen kaygılarımızın, yine esası kalacaktır.\n\nAziz arkadaşlar!\n\nHer zaman göz önünde bulundurduğumuz ana işlere, ara vermeden, devam etmeğe mecburuz.\n\nDemiryolu programının tatbikına devam edeceğiz.\n\nZiraat sahasında ıslah müesseselerini tamamlıyacağız.\n\nİhracat mallarımıza hariçte alıcı bulmak ve satışlarımızı genişletmek için, her tedbiri arayıp bulmak ehemmiyet verdiğimiz noktadır.\n\nMillî ihtiyaç ve menfaatlerimizin mübrem kıldığı sanayi şubelerinin bir an önce, tahakkuk ettirilmesine, hassasiyetle çalışıyoruz.\n\nİçtimaî hastalıklar ile mücadele faaliyetini arttıracağız.\n\nMillî kültürün her çığırda açılarak yükselmesini Türk Cümhuriyetinin temel dileği olarak temin edeceğiz.\n\nTürk dilinin, kendi benliğine, aslındaki güzellik ve zenginliğine kavuşması için, bütün devlet teşkilâtımızın, dikkatli, alâkalı olmasını isteriz.\n\nMuhterem arkadaşlar!\n\nMilletimiz her güçlük ve zorluk karşısında, durmadan, ilerlemekte ve yükselmektedir.\n\nBüyük türk milletinin, bu yoldaki hızını, her vasıta ile arttırmağa çalışmak, bizim, hepimizin en kutlu vazifemizdir.",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-d4-c10-i1-1932-11-01"
+      ],
+      "$note": "Yer: TBMM oturumu; tutanakta şehir adı geçmiyor. fromPlaceId için ayrı bir kaynak gerekiyor (açık). Bu tutanakta konuşmacı adı yok, yalnız \"Reisicümhur Gazi Hazretleri\" yazıyor."
     }
   ]
 }

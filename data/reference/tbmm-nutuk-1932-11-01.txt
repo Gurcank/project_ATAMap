@@ -1,0 +1,90 @@
+# T.B.M.M. Zabıt Ceridesi, Devre 4, İçtima 2, Cilt 10, Birinci İnikat, 1-XI-1932 Salı, s. 3.
+# 2 - Nutuklar, 1 - Reisicümhur Gazi Hazretlerinin nutukları.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1932.pdf (PDF s. 2)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Konuşmacı satırı ("REİSİCÜMHUR GAZİ HAZRETLERİ (şiddetli alkışlar arasında riyaset kürsüsünü teşrif
+# buyurdular).") ve ardından gelen konuşmacı çizgisi ("— Büyük Millet Meclisinin muhterem azası;")
+# konuşmanın parçası değildir; çizgi alınmadı. Sonundaki "(Sürekli alkışlar arasında kürsüden
+# indiler)" sahne notu paragraf olarak not işaretiyle verildi.
+# Bu baskıda yazı rakamla yazılmış sayıları içerir ("4 üncü", "2 nci"); aynen alındı.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.52
+¶Büyük Millet Meclisinin muhterem azası;
+¶Büyük Millet Meclisinin 4 üncü devresinin
+2 nci toplanma yılını açıyorum. Yüce milletimizin
+değerli vekillerini, saygı ve sevgi ile selâmlarım
+{(Alkışlar)}.
+¶Aziz arkadaşlarım!
+¶Beynelmilel siyasî ve iktısadî buhranlardan,
+beşeriyetin duymakta olduğu sıkıntı ve acı devam
+etmektedir.
+¶Siyasî buhranın mahiyeti, silâhları bırakma
+konferansının müşküllerinde hulâsa olarak müşa-
+hede edilebilir.
+¶İktısadî buhran ise, milletler arasında müba-
+delenin azalması ve daralması şeklinde sahasını
+genişletmiş ve tesirini arttırmıştır.
+¶Bizim kanaatimizce beynelmilel siyasî emniye-
+tin inkişafı için, ilk ve en mühim şart, milletlerin
+hiç olmazsa sulhu muhafaza fikrinde, samimî ola-
+rak birleşmesidir {(Alkışlar)}.
+¶Biz iktısadî genişliğin temelini de, ancak her
+milletin refahla yaşamağa ve ilerlemeğe hakkı ol-
+duğunu teslim eden bir zihniyetle, bütün milletle-
+rin birlikte çalışmaları yolunun bulunmasında gö-
+rüyoruz {(Alkışlar)}.
+¶Muhterem millet vekilleri!
+¶Bütün milletlerin güçlükle göğüs germeğe uğ-
+raştığı zorluklar içinde milletimiz büyük canlılık,
+Hükûmetimiz yüksek isabet göstermektedir {(Al-
+kışlar)}.
+¶Komşularımızla ve bütün milletlerle münase-
+betlerimiz ciddî, samimî sulh ve emniyet fikrine
+müstenit olarak inkişaf etmektedir {(Alkışlar)}.
+¶Dostlar arasında, dürüst bir vaziyetin muhafa-
+zası bizim, daima çok ehemmiyet verdiğimiz bir
+esastır {(Alkışlar)}.
+
+## s.2 sağ 0.52
+¶Beynelmilel iktısat güçlüklerine karşı, halin
+icabına göre, müdafaa, muvazene, inkişaf tedbir-
+lerini almaktayız. Karşısında bulunduğumuz her
+imkânı genişlik ve kolaylık yolunda tatbik etmeğe
+çalışıyoruz. Millî iktısadın ve paranın gösterdiği
+kudret ve istikrar; alınan tedbirlerin isabetine
+kanaat verecek mahiyettedir.
+¶Bütçenin vaziyeti, tahminlerin bu yıl tahakkuk
+edebileceğine kuvvetli umut vermektedir. Her
+halde muvazeneli bir bütçenin temini, gelecek yıla
+düşen kaygılarımızın, yine esası kalacaktır.
+¶Aziz arkadaşlar!
+¶Her zaman göz önünde bulundurduğumuz ana
+işlere, ara vermeden, devam etmeğe mecburuz.
+¶Demiryolu programının tatbikına devam ede-
+ceğiz {(Alkışlar)}.
+¶Ziraat sahasında ıslah müesseselerini tamamlı-
+yacağız.
+¶İhracat mallarımıza hariçte alıcı bulmak ve sa-
+tışlarımızı genişletmek için, her tedbiri arayıp
+bulmak ehemmiyet verdiğimiz noktadır {(Alkış-
+lar)}.
+¶Millî ihtiyaç ve menfaatlerimizin mübrem kıl-
+dığı sanayi şubelerinin bir an önce, tahakkuk et-
+tirilmesine, hassasiyetle çalışıyoruz.
+¶İçtimaî hastalıklar ile mücadele faaliyetini art-
+tıracağız.
+¶Millî kültürün her çığırda açılarak yükselme-
+sini Türk Cümhuriyetinin temel dileği olarak te-
+min edeceğiz {(Alkışlar)}.
+¶Türk dilinin, kendi benliğine, aslındaki güzel-
+lik ve zenginliğine kavuşması için, bütün devlet
+teşkilâtımızın, dikkatli, alâkalı olmasını isteriz
+{(Alkışlar)}.
+¶Muhterem arkadaşlar!
+¶Milletimiz her güçlük ve zorluk karşısında, dur-
+madan, ilerlemekte ve yükselmektedir {(Alkışlar)}.
+¶Büyük türk milletinin, bu yoldaki hızını, her
+vasıta ile arttırmağa çalışmak, bizim, hepimizin
+en kutlu vazifemizdir.
+¶{(Sürekli alkışlar arasında kürsüden indiler)}

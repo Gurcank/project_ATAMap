@@ -1,0 +1,30 @@
+{
+  "docId": "tbmm-nutuk-1932-11-01",
+  "sourceId": "tbmm-zc-d4-c10-i1-1932-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1932.pdf",
+  "pdfPages": "2",
+  "printedPages": "3",
+  "capturedAt": "2026-10-28",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-28",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır (, . ; : ) ! ? ve açılan parantez sonrası)",
+    "cümle notun önünde bitmişse notun sonundaki nokta nota aittir: {(Alkışlar).}"
+  ],
+  "sha256": "ddb1efaeb4cae1092d8e0bdca5f6abbe81783ce3ccdc16b7f9609be9aa7a7571",
+  "uncertain": [
+    "Sayfa numarası: içindekiler \"Havale edilen evrak 2, Nutuklar 3\" diyor; konuşma ise taramadaki tek sayfanın (PDF s. 2) üstünde, oturum başlığından hemen sonra başlıyor ve sayfanın dibinde \"— 3 —\" yazıyor. Künyeye s. 3 yazıldı.",
+    "Konuşmanın başındaki konuşmacı çizgisi (\"— Büyük Millet Meclisinin muhterem azası;\") alınmadı; konuşmacı satırı da konuşmanın parçası sayılmadı.",
+    "Bu baskıda \"4 üncü\", \"2 nci\" gibi rakamla yazılmış sayılar var; aynen alındı.",
+    "Hükûmetimiz: baskıda û (şapkalı) okundu.",
+    "\"Büyük türk milletinin\" (son paragraf): baskıda türk küçük harfle basılmış. Aynen alındı.",
+    "\"muhterem azası\": baskıda âzası değil azası (şapkasız). Aynen alındı.",
+    "Son sahne notu \"(Sürekli alkışlar arasında kürsüden indiler)\" tutanakta ayrı satırda; not olarak işaretlendi, siteye girmez.",
+    "Yazım: \"umut\", \"ara vermeden\", \"mübrem\", \"arttırmak\" gibi sözcükler baskıda böyle. Aynen alındı.",
+    "Sayfa başı/sonu satırları (\"— 3 —\") ve oturum başlığı ile yoklama bölümü konuşmanın parçası değil, alınmadı."
+  ]
+}

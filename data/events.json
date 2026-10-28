@@ -63,6 +63,27 @@
       "documentIds": [
         "tbmm-nutuk-1931-11-01"
       ]
+    },
+    {
+      "id": "tbmm-acilis-1932-11-01",
+      "date": {
+        "iso": "1932-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d4-c10-i1-1932-11-01"
+        ]
+      },
+      "title": "Dördüncü Meclisin ikinci toplanma yılı açıldı",
+      "text": "Reisicümhur Gazi Hazretleri, Dördüncü Büyük Millet Meclisinin ikinci toplanma yılını bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-d4-c10-i1-1932-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1932-11-01"
+      ]
     }
   ]
 }

@@ -189,6 +189,27 @@
       "documentIds": [
         "tbmm-nutuk-1937-11-01"
       ]
+    },
+    {
+      "id": "tbmm-nutuk-1938-11-01",
+      "date": {
+        "iso": "1938-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d5-i4-c27-1938-11-01"
+        ]
+      },
+      "title": "Reisicümhurun nutku Kamutayda okundu",
+      "text": "Başvekil Celâl Bayar, Reisicümhurun bu seneye aid nutkunu Kamutayda okudu.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-d5-i4-c27-1938-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1938-11-01"
+      ]
     }
   ]
 }

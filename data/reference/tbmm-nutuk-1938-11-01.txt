@@ -1,0 +1,498 @@
+# T.B.M.M. Zabıt Ceridesi, Devre V, İçtima 4, Cild 27, Birinci inikad, 1-XI-1938 Salı, s. 3-7.
+# 2 - Nutuklar, 1 - Reisicümhurun nutku.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1938.pdf (PDF s. 2-6)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Bu nutuğu Reisicümhur okumadı; Başvekil Celâl Bayar okudu ("Cümhur Reisimiz Atatürkten aldığım emir
+# üzerine bu seneye aid nutuklarımı okuyorum"). Bayar'ın bu giriş cümlesi tutanakta nutkun başında yer
+# alır ve metne dahil edildi (kullanıcı kararı, 2026-10-28). Konuşmacı satırı ("BAŞVEKİL CELÂL BAYAR
+# (İzmir) —") ve sahne notu ("(Başvekil alkışlar arasında kürsüye geldiler).") alınmadı.
+# Konuşmadan önceki Muvakkat Başkan satırları da alınmadı. Nutuktan sonra gelen "CELÂL ARAT (Yozgad) —
+# Çok yaşasın Atatürk." satırı ve "3 — SEÇİMLER" bölümü nutkun parçası değildir, alınmadı.
+# Alıntı bloklarında (s.3 sağ) baskıda her satırın başındaki « işareti alınmadı; yalnız bloğun ilk «
+# ve son » işareti kalır (satır başı tırnakları hecelemeyi bozar; dizgi biçimidir). Baskıda ı ve n
+# harfleri yer yer aşınmış, m gibi görünüyor; bağlama göre okundu. Son hecedeki î yerine
+# bu yılda da ğ basılmış olabilir; aynen alındı. Ayrıntı: meta dosyasındaki şüpheli yerler.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.51
+¶Teşkilâtı esasiye kanununun 36 ncı maddesi
+hükümlerine tevfikan Cümhur Reisimiz Ata-
+türkten aldığım emir üzerine bu seneye aid
+nutuklarımı okuyorum {(Alkışlar)}.
+¶Sayın millet vekilleri;
+¶Hepinizi sevgi ve saygı ile selamlarım...
+¶Geçen sene aziz Kamutay arkadaşlarıma
+millet ve memleket için ne gibi feyizli işler ba-
+şarmak istediğimizi izah etmiştim. Bu gün de
+bunlardan hangilerinin bu yıl içinde yapıldığı-
+
+## s.2 sağ 0.51
+nı bildirmek isterim.
+¶Sayın arkadaşlarım;
+¶Her şeyden evvel size kıvançla arzedeyim ki
+millet ve memleket geçen seneyi de tam bir hu-
+zur ve sükûn içinde yükselme ve kalkınma fa-
+aliyetile geçirmiştir.
+¶Uzun yıllardanberi devam eden ve zaman
+zaman hâd bir şekil alan Tunçelindeki toplu
+şekâvet hâdiseleri muayyen bir proğram dahi-
+lindeki çalışmaların neticesi olarak kısa bir za-
+manda bertaraf edilmiş o mıntakada bu gibi
+vakalar bir daha tekerrür etmemek üzere tari-
+he devrolunmuştur. {(Bravo seseleri).}
+¶Cümhuriyetin feyzinden yurdun diğer ev-
+
+## s.3 sol 0.475
+ladları gibi oradakiler de tamamile istifade ede-
+ceklerdir.
+¶Hususî idare ve belediyelerin bu yılki faali-
+yetleri, geçen senelerden fazla ve daha verimli
+olmuştur.
+¶İmar işlerinde belediyeleri, türeli surette
+aydınlatmak kılavuzlamak ve faaliyetlerini ta-
+kib ve murakabe etmek üzere merkezde bir
+teknik büro teşkili yol ve yapı kanununda iş-
+lerin ve istimlâk muamelelerinin süratle yürü-
+mesini temin edecek tadilât yapılması, beledi-
+yeler bankasının imar işlerinde yardımını geniş-
+letmesi, çiftçi mallarının emniyetini korumak
+ve zirâî suçları süratle meydana çıkarıp suç-
+ların cezalandırılması için Yüksek Kamuta-
+ya sunulmak üzere birer kanun lâyihası hazır-
+lanmıştır.
+¶Büyük Meclisin tasvibine arzedilmiş olan ye-
+ni nüfus kanununun kabul ve tatbiki nüfus iş-
+lerinin daha modern ve muntazam bir şekilde
+yürütülmesini temine hizmet edecektir.
+¶Muhterem arkadaşlar;
+¶Sıhhat ve içtimaî muavenet vekâleti kendi-
+sine verilen sağlık ve içtimaî yardım vazifele-
+rine iskân ve göçmen işlerine Yüksek Meclisin
+kabul buyurduğu tahsisat dahilinde başarile
+devam etmiştir.
+¶Bu senenin ilk baharında Orta Anadolada
+bilhassa Kırşehir ve Yozgad havalisinde bir kı-
+sım köylerimizi harab ve aziz vatandaşlarımız-
+dan bazılarının ölümüne sebebiyet vermekle bi-
+zi çok müteessir eden bir yer sarsıntısı olmuştu.
+Sıhhat ve içtimaî muavenet vekâleti ve aynı za-
+manda bu işle tavzif edilen Kızılay cemiyeti
+felâkete uğrıyan vatandaşlarımızı korumak için
+derhal gereken tedbirleri almışlardır.
+¶Bu sahada yapılmasına karar verilen 2114
+evden bir kısmı bitmiştir. Bir kısmının da in-
+şaatı ilerlemektedir. Bu hizmet ve mesaiyi mem-
+nuniyetle kaydederim.
+¶Yüce saylavlar;
+¶Memlekette mevcud huzur ve asayişe müvazi
+olarak adalet cihazı da intizamla işlemektedir.
+¶Meşhud cürümler kanununun tatbikatından
+elde edilen iyi neticelerden örnek alınarak bu
+kanun ağır cezalı cürümlere de teşmil edilmiş-
+tir.
+¶İnkilâbımızın istikrarını teyid için yeni ka-
+nunî tedbirler alınmıştır. Bu maksadla Türk
+ceza kanunundaki Devletin şahsiyetine ve Dev-
+let kuvvetleri aleyhine taallûk eden cürümler
+daha kuvvetli müeyyidelere bağlanmıştır.
+¶Ceza evlerinin terbiye, ıslâh ve iş esaslarına
+göre düzeltilmesi yolundaki hayırlı faaliyetin
+genişletilmesi cemiyete; doğru yoldan saparak
+hürriyetini kaybetmiş olan binlerce vatandaşı
+nafi birer uzuv olarak kazandırmaktadır.
+
+## s.3 sağ 0.475
+¶Sayın Millet Vekilleri;
+¶Devletin ekonomik sahadaki yapıcı ve
+yaptırıcı kudret ve prensibinin ziraat işlerimize
+de teşmili yolunda bir nümune olmak üzere
+hükmî şahsiyeti haiz « Ziraat işletmeleri kuru-
+mu » teşkil edilmiştir.
+¶Geçen seneki nutkumuzda :
+¶« Millî ekonominin temeli ziraattır.
+Bunun içindir ki, ziraatte kalkınma-
+mıza büyük önem vermekteyiz. Köyle-
+re kadar yapılacak programlı ve pra-
+tik çalışmalar bu maksada ermeği ko-
+laylaştıracaktır. Fakat bu hayatî işi
+isabetle amacına ulaştırmak için, ilk
+önce, ciddî etüdlere dayalı, bir ziraat
+siyaseti tesbit etmek ve onun için de
+her köylünün ve bütün vatandaşların,
+kolayca kavrayabileceği ve severek
+tatbik edebileceği bir ziraat rejimi kur-
+mak lâzımdır ».
+¶Tavsiyesinde bulunmuştuk.
+¶Buna aid etüdler ikmal edilmiştir.
+¶Cümhuriyetin on beşinci yılı plânlı, sistemli
+ziraat ve köy kalkınmasının mebdei olmalıdır.
+¶Sayın arkadaşlar;
+¶Ekonomi işlerimiz normal inkişaf yolunu ta-
+kib etmektedir.
+¶Bu yıl da istihsalin, mübadelenin ve kredinin
+düzenlenmesile sanayileşme ve teşkilâtlanma
+sahalarında müsbet neticeler alınmıştır.
+¶Maden tedkik ve arama işlerile maden işlet-
+meleri mevcud programına göre inkişaf etmek-
+tedir.
+¶Dış ticaret politikamız vaziyete millî ve
+beynelmilel konjonktüre uyarak karşılıklı men-
+faat ve müsaadeler esasına bağlı kalmakta de-
+vam etmiştir.
+¶İhracatın murakabesi ve ihraç mallarımızın
+standartlanması yolundaki çalışmalar yürü-
+mekte ve hayırlı neticeler elde edilmektedir.
+Bu sene yeniden bir takım ihraç mallarımız da-
+ha murakabe edilen mallar arasına girmiştir.
+¶Böylece ihracatımızın ve ihracatımızın itiba-
+rını yükselttiğini gördüğümüz bu usulün saha-
+sı genişletilmektedir.
+¶Halkımızın bedii kabiliyetlerine makes olan
+ve her günkü ihtiyaçlarımızın büyük bir kısmını
+karşılayan el ve ev küçük sanatlarının Cümhuri-
+yet rejiminde lâyık olduğu mertebeye yükseltil-
+mesi icab eder, Bunun için teşvikler yapılmasını
+ve bu babdaki lâyihanın bir an evvel müzakere-
+sini tavsiyeye şayan bulurum.
+¶Geçen içtima devresinde Yüksek Meclisin ka-
+bul buyurduğu «sermayesinin tamamı Devlet ta-
+rafından verilmek suretile kurulan iktisadî te-
+şekkülerin teşkilâtile idare ve murakabeleri»
+hakkındaki kanunun tatbikı için teşkilâta baş-
+lanmıştır.
+¶Memleketin muhtelif yerlerinde kredi ve sa-
+
+## s.4 sol 0.488
+tış kooperatiflerinin ve birliklerinin kurulması-
+na devam edilmiştir. Ezcümle Karadeniz mınta-
+kasında fındık mahsulümüz için beş kooperatif
+ve bunlar için merkezi Giresunda olmak üzere
+bir birlik teşkil olunmuştur.
+¶Küçük esnafa ve küçük sanayi erbabına
+muhtaç oldukları kredileri temin etmek üzere
+Halk bankası ve Halk sandıkları kurulmuştur.
+¶Kredinin normal şartlar altında ucuzlatılma-
+sının ekonomik alandaki mühim tesiri malûm-
+dur. Büyük Millet Meclisinin kabul buyurduğu
+kanun ile faiz hadlerinin indirilmesini memnuni-
+yetle karşılarım.
+¶Büyük Millet Meclisi Denizbankı kurmakla
+çok isabetli bir harekette bulunmuştur.
+¶Birinci beş senelik sanayi plânımız muvaffa-
+kıyetle bitmek üzeredir. Buna ilâveten üç sene-
+lik bir maden işletme programı tanzim edilmiş
+ve tatbikine başlanmıştır. Bu üç senelik maden
+programının büyük bir kısmını içine almak ve şe-
+ker sanayiini de genişletmek suretile makine,
+kimya, gıda maddeleri, toprak ve su mahsulleri,
+ev mahruvatı sanayii ile liman inşasını ve nakli-
+ye vasıtalarının çoğaltılmasını ve deniz işleri
+için duyduğumuz ihtiyaçları ihtiva ve ifade eden
+dört senelik üç numaralı yeni bir program ya-
+pılmış ve ilân edilmiştir.
+¶Bu plân için sarfolunacak para 85 ilâ 90 mil-
+yon lira arasında tahmin edilmektedir. Buna aid
+kredinin temin edildiği malûmdur.
+¶Memleket için faydalı olan her teşebbüsü
+yüksek bir vatan severlik duygusile terviç ve
+himaye eden değerli Kamutayın bu plânı da mü-
+zaheretine mazhar kılacağından şüphe etmiyo-
+rum.
+¶Muhterem millet vekilleri;
+¶Memleketin imarı ve kalkınması yolunda çok
+mühim vazifeler alan Cümhuriyet Nafıasının bu
+yıl içindeki çalışmalarının azamî randıman ver-
+miş olduğunu görmekteyim.
+¶Geçide açılan büyük köprülerin bu yıl 115 e
+baliğ olduğunu kayid ve adedlerinin ihtiyaçla
+mütenasib olarak süratle çoğaltılmasını temenni
+ederim.
+¶İstanbuldan başlayan Avrupa türistik asfalt
+yolunun birinci kısmı ikmal edilmiştir ve son kı-
+sımlarının inşaatına devam edilmektedir.
+¶Memleketin umumî su siyasetinin büyük
+ehemmiyeti üzerinde durmaktayız. Geçen dev-
+rede kabul buyurduğunuz bir kanunla Adana
+ovasının sulama işlerine hız verilmiş olmasını
+memnuniyetle kaydederim. Diğer su işlerimiz
+de program dahilinde yürümektedir.
+¶Geçen sene yapılmasına başlandığını bildir-
+diğim Radyo merkezi stüdyosu tamamlanmıştır.
+¶Şirketlerden elimize geçen demiryollarının
+ıslahına ve muharrik ve müteharrik edevatın
+her türlü ihtiyaca cevab verecek surette ikma-
+line çalışılmaktadır.
+
+## s.4 sağ 0.488
+¶Memlekette nakliye hacmi artmaktadır. Muh-
+telif malların sevkini kolaylıkla temin etmek
+için yeni nakliye vasıtaları sipariş edilmiş ve
+3 numaralı programda da bu hususa ayrıca yer
+verilmiştir.
+¶Geçen yıl Divriğiye ulaştığını gördüğümüz
+demiryolunun bu yıl Erzincana vardığını ve
+önümüzdeki yıl içinde de Erzurum şehrine vâ-
+sıl olacağını kıvançla müjdelerim.
+¶Arkadaşlar;
+¶Maliyemiz denk bütçe, sağlam tediye, vergi
+sistemlerini mükellef lehine ıslah ve tahfif ve
+millî paranın istikrarını muhafaza prensipleri-
+ni tam bir sadakat ve muvaffakiyetle takib
+ve tatbik etmektedir.
+¶Halkın ve çiftçinin vergi yükünü hafiflet-
+mek yolunda ötedenberi güdülen prensibin im-
+kân nisbetinde tatbikına bu yıl da devam edil-
+miştir.
+¶Kazanç ve muvazene vergilerinde, yünlü ve
+pamuklu kumaşların istihlâk vergisinde ve
+hayvan vergilerinde indirmeler yapılmış, hay-
+van vergisinin at ve katıra aid kısmı ile tıbbî
+ve ispençiyarî maddelerin istihlâk vergisi ta-
+mamen kaldırılmıştır.
+¶Bir kısım vergilerde yapılan mühim indirme-
+lere rağmen tahsilât muhammen varidattan ge-
+çen sene de 29 milyon lira bir fazlalık göster-
+miştir.
+¶Bu seneki tahsilâtın da tahminlerden ziyade
+olacağı umulmaktadır.
+¶Ekonomik sahadaki inkişafla mütenasib ola-
+rak daima bütçe tahminlerini aşan Devlet va-
+ridatının devamlı artışı bir taraftan vergi tah-
+fiflerini muayyen bir program dairesinde tahak-
+kuk ettirmeğe, diğer taraftan muhtelif saha-
+larda verimli işlere ve Millî Müdafaa hizmetle-
+rine daha çok pay ayırmağa imkân vermektedir.
+¶Teşviki sanayi kanunundan istifade eden mü-
+esseselere hariçten getirdikleri ibtidaî madde-
+lerle makine, alât ve edevat için verilmiş olan
+gümrük muafiyeti kaldırılarak mezkûr kanun-
+dan istifade eden ve etmeyen bütün sanayi er-
+babına şamil olmak üzere bu nevi ibtidaî mad-
+delerle makine, alât ve edevatın gümrük resim-
+lerinin cüzî bir hadde indirilmesi ve makine alât
+ve edevatı için muamele vergisi muafiyetinin
+kabul edilmesi memleket sanayii üzerinde ha-
+yırlı neticeler verecek bir tedbir olmuştur.
+¶Bir kısım vergilerimizin tarh ve cibayet usul-
+lerinin ıslahı ve tatbikatta sadelik ve birlik te-
+mini maksadile hazırlanarak Yüksek Kamutaya
+sunulan lâyihanın bir an evvel çıkarılmasını te-
+menniye değer bulurum.
+¶Sayın arkadaşlarım;
+¶İnhisarlar idaresi kurumlarının malî mono-
+pol, ticarî teşekkül ve malî valorizasyon kuru-
+mu karekterini iktisab etmesi için icab eden
+
+## s.5 sol 0.457
+esaslı tedbirler alınmakta ve semereleri de el-
+de edilmektedir.
+¶Çok kıymetli ve nefis mahsullerimizden biri
+olan tütünün ziraat usullerini düzeltmek, zür-
+raı, mahsulünü işletmek ve değer fiyatile sat-
+mak bakımından aydınlatmak ve korumak, tü-
+tünlerimizi dünya piyasalarına daha çok tanı-
+tarak ihracatını azamî hadde çıakrmak yolunda-
+ki gayretler iyi neticeler vermektedir.
+¶Diğer inhisar maddelerinin istihsal ve istih-
+lâkinde de inkişaflar görülmektedir.
+¶Sevgili arkadaşlarım;
+¶Yüksek tahsil gençlerini istediğimiz ve muh-
+taç olduğumuz gibi millî şuurlu ve modern kül-
+türlü olarak yetiştirmek için İstanbul üniversi-
+tesinin tekâmülü, Ankara üniversitesinin tamam-
+lanması ve Şark üniversitesinin yapılan etüd-
+lerle tesbit edilmiş olan esaslar dairesinde, Van
+gölü civarında kurulması mesaisine hızla ve
+önemle devam edilmektedir.
+¶Geçen sene tecrübelerinin ümid verici mahi-
+yette olduğunu kaydettiğim eğitmen okulları
+çok iyi neticeler vermiş ve eğitim kadrosuna bu
+yıl 1500 kişi daha ilâve edilmiştir. Önümüzde-
+ki yıllar içinde bu mikdarın artırılacağı şübhe-
+sizdir.
+¶Türk tarih ve Dil kurumlarının çalışmaları
+takdire lâyık kıymet ve mahiyet arzetmekte-
+dir. Tarih tezimizi reddedilmez delil ve vasika-
+larla ilim dünyasına tanıtan Tarih kurumu mem-
+leketin muhtelif yerlerinde yeniden kazılar yap-
+tırmış ve beynelmilel toplantılara muvaffaki-
+yetle iştirak ederek yaptığı tebliğlerle ecnebi
+uzmanların alâka ve takdirlerini kazanmıştır.
+¶Dil kurumu en güzel ve feyizli bir iş olarak
+türlü ilimlere aid Türkçe terimleri tesbit etmiş
+ve bu suretle dilimiz yabancı dillerin tesirinden
+kurtulma yolunda esaslı adımını atmıştır.
+¶Bu yıl okullarımızda tedrisatın türkçe te-
+rimlerle yazılmış kitablarla başlamış olmasını
+kültür hayatımız için mühim bir hâdise olarak
+kaydetmek isterim.
+¶Türk gençliğinin kültürde olduğu gibi spor
+sahasında da idealine ulaştırılması için Yüksek
+Kamutayın kabul ettiği «Beden terbiyesi» ka-
+nununun tatbikına geçildiğini görmekle mem-
+nunum.
+¶Muhterem arkadaşlarım;
+¶Vatanın ve rejimin koruyucusu olmakla kal-
+mayıp en geniş ve hakikî manasile bir sulh
+amili ve bir egitim ve öğretim ocağı olan yenil-
+mez ordumuzun geçen sene de işaret ve izah
+ettiğim gibi son sistem silâh ve motörlü vasıta-
+larla cihazlandırılması yolundaki çalışmalara
+hız verilmiştir. {(Bravo seseleri, şiddetli alkışlar)}.
+¶Geçen sene Büyük Kamutayın kabul buyur-
+duğu tahsisat üzerine bir umumî silâhlanma
+programı yapılmıştır. Tatbikatı ilerlemektedir.
+
+## s.5 sağ 0.457
+¶Deniz kuvvetlerimizin takviyesi için lüzumlu
+olan harb gemilerimizin küçük bir kısmı sipa-
+riş edilmiştir. Büyük bir kısmı da sipariş edil-
+mek üzeredir. {(Alkışlar).}
+¶Bu meyanda mevcud gemilerimizin daha
+mükemmel bir hale konulması için tertibat alın-
+maktadır.
+¶Bu sene Gölcük harb tersanemizin inşasına
+başlanacaktır.
+¶Hava proğramımız önemle tatbik olunmak-
+tadır.
+¶Şanlı adını andıkça gönül ferahı ve sonsuz
+gurur duyduğumuz kıymetli ordumuz bu yaz
+şark bölgesinde tabiatın en çetin ve haşin şart-
+ları içinde yaptığı manevralarda her gün artan
+kudret ve kabiliyetini bir kere daha göstermiş-
+tir. {(Şiddetli alkışlar).}
+¶Çok değerli komutan ve subaylarımızla kah-
+raman erlerimizi huzurunuzda iftihar ve takdir-
+le selâmlarım. {(Bravo sesleri ,sürekli alkışlar).}
+¶Sayın Millet vekilleri; Haricî siyasetimizin
+son sene zarfındaki inkişafı geçen sene ana va-
+sıflarını çizmiş olduğum esaslar dairesinde ce-
+reyan etmiştir.
+¶Son aylar zarfında sulh, çetin bir imtihan
+geçirdi. Şimdi imtidadını ancak daha bir müd-
+det sonra anlıyabileceğimiz yeni bir sükûn dev-
+resi içindeyiz.
+¶Sulh milletleri refah ve saadete eriştiren en-
+iyi yoldur. Fakat bu mefhum bir defa ele ge-
+çirilince daimî bir ihtimam ve itina ve her mil-
+letin ayrı ayrı hazırlığını ister.
+¶Memleketimizi her gün daha çok kuvvetlen-
+dirmek, her sahada her türlü ihtimallere karşı
+koyabilecek bir halde bulundurmak ve dünya
+hâdisatının bütün safahatını büyük bir tayak-
+kuzla takib etmek sulh sever siyasetimizin da-
+yandığı esasların başlıcasıdır {(Bravo sesleri,
+alkışlar)}.
+¶Milletlerin emniyeti ya iki taraflı ve yahud
+çok taraflı umumî müşterek anlaşmalarla uzlaş-
+malarla temin edilebilir diye mutlak mahiyette
+ortaya atılan ve her biri diğerlerine zıd addedilen
+prensibler sulhun muhafazası emrinde bizim
+için katği ve isabetli değildir ve olamaz {(Bravo
+sesleri)}. Bunların her birini coğrafî ve siyasî
+icab ve vaziyetlere göre kullanarak sulh yolun-
+daki ihtimamı realitelere tevfik etmek her mil-
+let için ayrı ayrı bir vazifedir.
+¶Cümhuriyet Hükûmeti bu hakikati görmüş
+tatbik etmiş en yakın komşuları ile olduğu ka-
+dar en uzak Devletlerle olan münasebetlerini
+dostluklarını ittifaklarını ona göre tanzim etme-
+ği bilmiş ve bu sayede haricî siyasetimizi sağ-
+lam esaslara istinad ettirmiştir {(Alkışlar)}.
+¶Balkan siyaseti balkanların münferid ve
+müşterek menfaatlerinin en beliğ bir ifadesi
+Balkan milletlerinin her birinin ayrı ayrı kuv-
+vetleşmesi de sulh yolundaki dinamik tarzı te-
+
+## s.6 sol 0.502
+lâkkinin fili bir misalidir.
+¶Burada memnuniyetle kaydetmek istediğim
+bir hâdise Balkan milletlerini birbirine büsbü-
+tün yakınlaştırmakta kuvvetli âmil olmuştur.
+Ve yarın için de ümidler vadeden bir eserdir.
+Selânikte Balkan Misakı Devletleri namına Kon-
+sey Reisi ve Muhterem Yunan Başvekili General
+Metaksas ile Sayın Bulgar Başvekili Mösyö Kö-
+se İvanof arasında imza edilmiş olan anlaşma-
+dan bahsetmek istediğim anlaşılmıştır, Bu an-
+laşmada sulh yolundaki mütemadî gayretlerimi-
+zin ve Balkan Devletlerinin takib edegeldikleri
+salim politikanın hayırlı bir tecellisidir. {(Bravo
+sesleri).}
+¶Yine aynı realiteler aynı dinamizm ve aynı
+yüksek gayeler Sadabad âkidlerinin maziden
+mevrus hurafeleri nasıl bir hamlede yıkarak
+münasebetlerini yeni ve velûd esaslara istinad
+ettirmeği bildiklerini göstermiştir.
+¶Türkiyenin diğer Devletlerle olan münase-
+betleri geçen sene sarahatle gösterdiğim yolda
+dostane inkişafını takib ederek ilerlemekte bu-
+lunuyor.
+¶Hatay meselesinin son sene zarfında geçir-
+miş olduğu safhalar malûmunuzdur.
+¶Bu millî davayı bir Türk - Fransız dostane
+anlaşmasile halletmek yolundaki mesai muvaffa-
+kıyete erdi.
+¶Türk ve Fransız askerlerinin muvakkat ve
+müşterek işgali bu anlaşmanın bariz tezahürü ol-
+du. Bu sayede sükûn yerleşti ve intihabat ikmal
+olundu. Nihayet Hatay, Millet Meclisine ve is-
+tiklâline kavuştu {(Bravo sesleri, şiddetli ve sü-
+rekli alkışlar)}. Müstakil Hatay Devleti bu gün
+inzibat kuvvetlerini tanzim eylemek ve memle-
+ketin dahilî emniyetini de kendi vasıtalarile te-
+min etmekle meşguldür. Bunun da yakında ba-
+şarılacağını ümid ediyoruz.
+¶Geçen sene «Yarınki Türk - Fransız münase-
+betlerinin dilediğimiz yolda inkişafına Hatay
+işinin iyi bir yönde yürümesi esaslı bir ölçü ve
+âmil olacaktır» demiştim. Filhakika Hatay işin-
+deki Türk - Fransız anlaşması iki Devlet arasın-
+daki münasebetleri çok dostane bir duruma ge-
+tirmiştir.
+
+## s.6 sağ 0.502
+Hatay işinde istihsal edilen neticelerin istik-
+rarı Türk - Fransız dostluğunun da inkişaf ve
+tebellürüne bir esas teşkil edeceği kanaatinde-
+yim.
+¶Cümhuriyet Hükûmeti geçen senedenberi
+muhtelif devletlerle iktisadî münasebetlerini
+tanzim eden mukavele ve anlaşmalar imza et-
+miş bulunuyor. Bu meyanda İngiltere Hükûme-
+tile akdedilen ticaret anlaşması ve aynı zaman-
+da 16 milyon ingiliz liralık bir ticaret ve tesli-
+hat kredisi mukavelesini zikretmek isterim ki
+esasen buna müteferri kanun yüksek tasdikımı-
+za iktiran etmiştir.
+¶Bir kaç gün evvel memleketimizi ziyaret
+eden Almanyanın mümtaz İktısad Nazırı Bay
+Funk ile 150 milyon marklık bir kredinin esasla-
+rında mutabakat hâsıl oldu. Teferruat yakında
+iki Hükûmet arasında tesbit edilecektir.
+¶Bu kredi anlaşmalarını memleketimizin ma-
+lî itibarına karşı gösterilen ciddî emniyetin ve
+haricî siyasetimizdeki dürüst hareketin bir tecel-
+lisi olarak telâkki etmek lâzımgelir {(Bravo ses-
+leri)}.
+¶Hükûmetin akdettiği mukaveleler meyanında
+hukukî sahada muhtelif anlaşmalar mevcud ol-
+duğu gibi istiklâline kavuşan dost Mısır devleti
+ile aktedilen bir de dostluk, ikamet ve tabiiyet
+mukavelenamesi mevcud bulunmaktadır.
+¶Büyük komşu ve dostumuz Sovyet İttihadı
+Cümhuriyeti ile geçen yıl içinde yeni bir hudud
+mukavelesi imza edilerek iki memleketin hu-
+dud münasebetleri bu suretle iki taraf tecrü-
+belerinin gösterdiği salim esaslara bağlanmış-
+tır. Bu mukavelenin yakında meriyet mevkiine
+konulması beklenilmektedir.
+¶Yine geçen yıl içinde İtalya Hükûmeti, Mon-
+tröde imza edilen ve kendi iştirakine açık bıra-
+kılan Boğazlar mukavelesine iltihak etmiş ve
+bu komşu büyük memleketin bize karşı olan bu
+dostane hareketi memleketimizin de ayni dos-
+tane hissiyatile karşılanmıştır.
+¶Büyük Kamutay; şimdiye kadar olduğu gibi
+bütün işlerinizde başarılar dilerim {(Şiddetli ve
+sürekli alkışlar)}.

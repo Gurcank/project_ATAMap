@@ -1,0 +1,35 @@
+{
+  "docId": "tbmm-nutuk-1938-11-01",
+  "sourceId": "tbmm-zc-d5-i4-c27-1938-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1938.pdf",
+  "pdfPages": "2-6",
+  "printedPages": "3-7",
+  "capturedAt": "2026-10-28",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-28",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır (, . ; : ) ! ? ve açılan parantez sonrası)",
+    "cümle notun önünde bitmişse notun sonundaki nokta nota aittir: {(Alkışlar).}"
+  ],
+  "sha256": "f53a7a22c73e4599645990128642ca384be3479c68e701d1b4edf2230b20ad6f",
+  "uncertain": [
+    "Okuyan: Bu nutku Reisicümhur değil, Başvekil Celâl Bayar okudu. Metnin ilk cümlesi Bayar'a aittir (\"Cümhur Reisimiz Atatürkten aldığım emir üzerine bu seneye aid nutuklarımı okuyorum\"); kullanıcı kararıyla (2026-10-28) metne dahil edildi. Kayıtta Atatürk'ün okuduğu yazılmaz.",
+    "Bu baskıda ı ve n harfleri çok yerde aşınmış, m gibi görünüyor (\"Saym\", \"Kamutaym\", \"kalkmma\", \"bankasmm\", \"yardmmı\", \"almmıştır\"). Bağlama göre ı/n okundu. Bütün bu yerleri taramada kontrol edin.",
+    "s.2 sol, \"selamlarım...\": baskıda â şapkası görünmüyor; \"selamlarım...\" (üç nokta) aynen alındı.",
+    "s.3 sağ, \"« Millî ekonominin ... kurmak lâzımdır »\": alıntı bloğunda baskıda her satırın başında « var; bunlar alınmadı, yalnız bloğun başındaki « ve sonundaki » kaldı (dizgi biçimi, satır sonu tirelemesini bozar). \"Geçen seneki nutkumuzda :\" ayrı paragraf, alıntı ayrı paragraf olarak alındı.",
+    "s.3 sağ, \"on beşinci\" (\"on berinci\" gibi aşınmış), \"zirâî\" (s.3 sol), \"Nafıasının\" (s.4 sol): bağlama göre okundu.",
+    "s.4 sol, \"baliğ\", \"kayid\", \"adedlerinin\", \"terviç\", \"mahruvatı\": baskıda böyle; aynen alındı.",
+    "s.5 sol, \"çıakrmak\" (\"çıkarmak\" olabilir) ve \"bir egitim\" (ğ yok): büyütülmüş taramada kontrol edildi; baskıdaki gibi alındı.",
+    "s.5 sağ, \"eriştiren en-/iyi yoldur\": satır sonunda \"en-\" ve \"iyi\" ayrı satırda; hece bölünmesi sayılarak birleştirildi (\"eniyi\"). \"en iyi\" olabilir; taramada kontrol edin.",
+    "s.5 sağ, \"(Bravo sesleri ,sürekli alkışlar)\": nottaki boşluklu virgül baskıdaki gibi; stenograf notu olduğu için son metinde yer almaz.",
+    "s.6 sol, \"yakınlaştırmakta kuvvetli\": baskıda \"yakınlaştırmakta\" sonrasında küçük bir işaret var (leke ya da virgül); alınmadı. \"anlaşılmıştır, Bu anlaşmada\": virgül ve büyük harf baskıdaki gibi.",
+    "s.5 sağ sonu \"balkanlarım\" gibi aşınmış: \"balkanların\" okundu. s.6 sol \"takib edegeldikleri\" baskıdaki gibi.",
+    "\"Haricî\", \"ciddî\", \"mütemadî\": î şapkaları aşınmış yerlerde bağlama göre okundu.",
+    "Sütun ve sayfa geçişlerinde bölünmüş sözcükler birleştirildi: s.2 sol sonu \"yapıldığı-\" → s.2 sağ başı \"nı bildirmek\"; s.2 sağ sonu \"diğer ev-\" → s.3 sol başı \"ladları\"; s.3 sağ sonu \"kredi ve sa-\" → s.4 sol başı \"tış\"; s.4 sağ sonu \"icab eden\" → s.5 sol başı \"esaslı\"; s.5 sağ sonu \"tarzı te-\" → s.6 sol başı \"lâkkinin\".",
+    "Konuşmadan önceki Muvakkat Başkan satırları, konuşmacı satırı (\"BAŞVEKİL CELÂL BAYAR (İzmir) —\"), sahne notu (\"(Başvekil alkışlar arasında kürsüye geldiler).\") alınmadı. Nutuktan sonra gelen \"CELÂL ARAT (Yozgad) — Çok yaşasın Atatürk.\" satırı başka bir konuşmacıya aittir, \"3 — SEÇİMLER\" bölümüyle birlikte alınmadı."
+  ]
+}

@@ -1,0 +1,187 @@
+# T.B.M.M. Zabıt Ceridesi, Devre IV, İçtima 3, Cilt 18, Birinci İnikat, 1-XI-1933 Çarşamba, s. 2-3.
+# Nutuklar, 1 - Reisicümhur Gazi Hazretlerinin nutukları.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1933.pdf (PDF s. 2-3)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Konuşmadan önceki Reis satırı ("REİS — Şimdi Reisicümhur Hazretleri nutuklarını irat buyuracaklardır
+# efendim.") ve sahne notu ("(Reisicümhur Mustafa Kemal Hazretleri sürekli ve şiddetli alkışlar
+# arasında kürsüyü işgal buyurmuşlardır.)") konuşmanın parçası değildir, alınmadı.
+# Bu baskıda ı ve n harfleri yer yer aşınmış ("arasmda", "nazırınm", "icaplarma" gibi); bağlama göre ı/n
+# okundu. Ayrıntı: meta dosyasındaki şüpheli yerler.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.502
+¶Büyük Millet Meclisinin Muhterem azası,
+¶Büyük Millet Meclisinin dördüncü devresi-
+nin üçüncü toplanma yılını açıyorum. Mille-
+tin muhterem vekillerini derin saygılar ve sev-
+gilerle selâmlarım {(Alkışlar)}.
+¶Bu sene Cümhuriyetin onuncu yılını kutlu-
+lamakla bahtiyar olduk {(Alkışlar)}. Milletimi-
+zin gösterdiği taşkın sevinçler, gönüllerimizi
+iftiharla doldurdu. Cümhuriyetin feyizleri, ül-
+kenin her bucağında canlandırıldı. Millet, ge-
+çen on senelik Cümhuriyet eserlerini, topluca,
+gözden geçirdi ve gerçekten sevinmeğe ve öğün-
+meğe hakkı olduğunu gördü {(Alkışlar)}.
+¶Arkadaşlar,
+¶Geçen on sene, gelecek devirler için, bir baş-
+langıçtan başka bir şey değildir. Bununla bera-
+ber, eski devirlerin tarihi karşısında, Cümhuri-
+yetin, bu on senesi, eşi görülmeyen bir diriliş
+ve göz kamaştırıcı, bir ileri atılış abidesidir.
+{(Alkışlar).}
+¶Muhterem Millet Vekilleri;
+¶Bu toplanma yılında, milletin engin teza-
+huratından geniş ilhamlar alarak çalışmağa
+başlıyoruz. Karşılaşacağımız zorlukları yenmek
+
+## s.2 sağ 0.502
+için, gayretlerimizin ve fedakârlıklarımızın, ge-
+niş olmasına, azim ve irademizin sağlam bulun-
+masına ihtiyacımız gittikçe daha çok olacaktır.
+¶İktısadî cıhazımızı kurmak lüzumu, her gün,
+daha mübrem ve müstacel bir mahiyet alıyor.
+¶Gerçi, ziraî mahsullerimizin, cins ve miktarı
+üzerindeki terakkilerimiz, milletimizi oldukça
+geniş ve her halde emin bir vaziyete koymuştur.
+¶Bütün fakültelerile beraber açılmış olan yük-
+sek ziraat enstitüsünün yetiştireceği yüksek mü-
+hendislerin, ileride, memlekete faydalı olacak-
+larına şüphe yoktur.
+¶Sanayideki teşebbüsler dahi, teşvik edecek
+ve cesaret verecek mahiyettedir. Fakat memle-
+ketin mübrem sanayiinin kurulması bitmedikçe,
+her noktai nazardan, yürek istirahatı duymamıza
+imkân yoktur. Bu sebeple, memleketin sınaî tec-
+hizatını, tamamlamak için, bütün gayret ve dik-
+katinizi celbetmeği yerinde buluyordum.
+¶Efendiler;
+¶Cihanın iktısadî vaziyeti henüz eyiliğe doğru
+fazla ümit vermemektedir. Malî vaziyet, bu se-
+beple de, büyük alâkanızı davet edecektir. Geçen
+seneki bütçe tahminlerinin varidat noktai naza-
+rından tamamen tahakkuk etmiş olduğu anla-
+şılmıştır. Fakat, içinde bulunduğumuz sene va-
+ridatının nasıl tahakkuk edeceği hakkında, he-
+nüz bir hüküm verilecek zaman geçmedi. Her
+halde bütçe muvazenesini muhafaza ve temin
+etmek için Yüksek heyetinizin her tedbiri al-
+mağa, bilhassa ehemmiyet vereceğine eminim .
+
+## s.3 sol 0.522
+¶Açık bir bütçenin, hesapsız mahzurlarını iyi
+bilen Büyük Millet Meclisinin, muvazene yolun-
+da katî karar sahibi bulunması, Devletin malî
+ve hatta umumî siyaseti için büyük teminattır.
+¶Arkadaşlar; Üniversite tesisine verdigimiz
+ehemmiyeti beyan etmek isterim. Yarım tedbir-
+lerin kısır olduğuna şüphe yoktur. Bütün iş-
+lerimizde olduğu gibi maarifte ve kurulan Üni-
+versitede de radikal tedbirlerle yürümek katî
+kararımızdır.
+¶Efendiler; beynelmilel münasebetlerin geçen
+sene zarfında sulh ve huzur noktai nazarından
+inkişafı, cihanın bir çok kısımlarında inşirah ve-
+rici bir halde olmamıştır.
+¶Beynelmilel iktısat ve silâhları bırakma kon-
+feranslarından da şimdiye kadar müsbet netice
+alınmamıştır. Milletimizin, müdafaa vasıta ve
+kuvvetlerine hususî ehemmiyet atfetmesi lüzu-
+munu söylemek vazifemizdir {(Alkışlar)}. Müte-
+selli olabiliriz ki, sulh ülküsü; bizim içinde bu-
+lunduğumuz yakın muhitte, memnun olunacak
+terakkiler kaydetmiştir. Türkiye Cümhuriyeti
+beynelmilel sulh ve emniyeti kuvvetlendirmek
+için, kendi tesiri ve iktidarı olan sahada ve ay-
+ni arzuda olanlarla beraber, hayırlı faaliyetlerde
+bulunmuştur {(Alkışlar)}. Londrada imzala-
+nan, mütecavizin tarifi muahedeleri, beynelmilel
+ademi tecavüz fikrini tevsik eden diğer mukave-
+lelere hakikî bir canlılık vermektedir. Büyük
+Millet Meclisinin bu mühim eseri takdir buyu-
+racağına şüphe yoktur {(Alkışlar)}.
+¶Efendiler,
+¶Bu sene, mümtaz bir Sovyet heyetinin cevap
+ziyaretini kabul ettik {(Alkışlar)}. Bu ziyaretin
+onuncu yıl bayramına tesadüf ettirilmesi, iki
+memleket arasındaki münasebetlerin derin sa-
+mimiyeti gösteren mesut bir vesile olmuştur.
+{(Alkışlar).}
+¶İki memleketin çetin zamanlarında kurulmuş,
+on beş senedir türlü imtihanlardan, daha kuv-
+vetli çıkmış bir dostluğun daima yüksek kıymeti
+haiz olması, beynelmilel sulh için değerli ve
+ehemmiyetli bir âmil olduğunda tereddüt edi-
+lemez {(Alkışlar)}.
+¶Balkanlarda münasebetlerimiz inkişafa maz-
+har olmuştur. Yunanistanın mümtaz Başvekilini
+ve nazırlarını kabul ettiğimiz esnada, dostça
+anlaşma paktı imza edildi. Başlıca hükmü, iki
+memleketin müşterek hudutlarını karşılıklı te-
+ahhüt altına alan bu mukavele Yunanistanla
+aramızda mütemadiyen artan dostluk ve emni-
+yet rabıtasının neticesidir {(Alkışlar)}. Bu mu-
+ahede, denizde ve karada yüksek menfaatleri
+ve coğrafî rabıtaları bu kadar biri birine gir-
+miş olan iki memleket için tabiî ihtiyacın ifa-
+desidir. Bu muahede, Balkanlarda dahi sulhun
+
+## s.3 sağ 0.522
+ve umumî ahengin kuvvetli bir vasıtası olacak-
+tır {(Alkışlar)}.
+¶Bulgaristanla dostluk ve emniyet münasebet-
+lerinin arttırılması için, biz bütün imkânları
+kullanmaktayız. İki memleket arasındaki bita-
+raflık ve hakem muahedesinin uzatılmasını der-
+piş eden bir protokol, vekillerimizin komşu Hü-
+kûmete cevabî ziyaretleri esnasında imzalanmıştır.
+İktısadî ve siyasî münasebetleri inkişaf ettir-
+mek, Cümhuriyet Hükûmetinin ciddî arzusudur.
+¶Mütenekkiren seyahat eden Haşmetlû Yo-
+goslavya Hükümdarı ile, telâki vukuunu, mesut
+bir hâdise telâkki ederiz {(Alkışlar)}.
+¶Balkanlarda sulh ve huzur temennilerini,
+iki memleket arasında iyi münasebetler inkişa-
+fını ve bir ademi tecavüz muahedesi yapılması
+kararını tebarüz ettiren konuşmalardan, beynel-
+milel sulh ve emniyet ülküsü, yalnız, müstefit
+olmuştur.
+¶Romanyanın değerli Hariciye nazırının res-
+mî ziyaretini ve bu esnada iki memleket arasın-
+da ademi tecavüz ve hakemlik muahedesi imza-
+lanmış olmasını memnuniyetle zikrederiz {(Al-
+kışlar)}.
+¶Mütecavizin tarifi muahedesile ademi teca-
+vüz ve tecavüze ademi iştirak ve tecavüzü tak-
+bih fikirlerini tebarüz ettiren muahedenin mem-
+leketler arasında hakikî bir emniyet havası ya-
+ratmakta olduğuna şüphe yoktur.
+¶Macaristanın mümtaz Başvekilinin ve Hari-
+ciye nazırının ziyaretlerini çok samimiyet ve
+memnuniyetle karşıladık {(Alkışlar)}. İki mem-
+leket arasındaki bitaraflık ve hakem muahedesi
+de uzatılmıştır. Milletlerimiz arasındaki kardeşce
+duygular bu mesut vesilelerle taşkın bir surette
+gösterilmiştir {(Alkışlar)}.
+¶Muhterem Efendiler;
+¶Balkanlarda ve orta Avrupadaki Devletler
+arasında Türkiye Cümhuriyeti ancak politikası-
+nın dürüst ve açık mahiyeti sayesinde, samimî
+mevkii muhafaza etmektedir {(Alkışlar)}. Pek
+nâzik olan bu siyasetin icaplarını dikkatle göz
+önünde bulundurmaktayız.
+¶Türkiye Cümhuriyetinin Diğer Devletlerle
+münasebetlerinin, aradaki muahedelerin hüküm-
+lerine ve beynelmilel dostluk icaplarına uygun
+olarak umumiyetle iyi olduğunu söyleyebilirim.
+¶Aziz arkadaşlarım; Büyük Millet Meclisinin
+bu seneki çalışma devri mühim mevzularla do-
+ludur. Bir kaç yıldanberi, millî ve beynelmilel
+vaziyetler, her sene, bir evvelkinden daha ehem-
+miyetli olmaktadır. Yüksek basiretinizden
+memleket ve milletimiz; itimat ve emniyetle,
+yeni ve büyük feyizler beklemektedir.
+¶Açmakta olduğunuz ikinci on yıllık devrenin
+ilk yılı yeni bir azim ve kudret devrinin parlak
+bir misali olacaktır {(Ayakta sürekli alkışlar,
+şiddetli alkışlar, bravo, yaşa Gazi sesleri)}.

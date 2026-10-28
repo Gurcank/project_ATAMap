@@ -84,6 +84,27 @@
       "documentIds": [
         "tbmm-nutuk-1932-11-01"
       ]
+    },
+    {
+      "id": "tbmm-acilis-1933-11-01",
+      "date": {
+        "iso": "1933-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d4-i3-c18-1933-11-01"
+        ]
+      },
+      "title": "Dördüncü Meclisin üçüncü toplanma yılı açıldı",
+      "text": "Reisicümhur Mustafa Kemal Hazretleri, Dördüncü Büyük Millet Meclisinin üçüncü toplanma yılını bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-d4-i3-c18-1933-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1933-11-01"
+      ]
     }
   ]
 }

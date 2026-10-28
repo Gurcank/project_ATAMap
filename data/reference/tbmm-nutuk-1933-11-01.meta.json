@@ -1,0 +1,34 @@
+{
+  "docId": "tbmm-nutuk-1933-11-01",
+  "sourceId": "tbmm-zc-d4-i3-c18-1933-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1933.pdf",
+  "pdfPages": "2-3",
+  "printedPages": "2-3",
+  "capturedAt": "2026-10-28",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-28",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır (, . ; : ) ! ? ve açılan parantez sonrası)",
+    "cümle notun önünde bitmişse notun sonundaki nokta nota aittir: {(Alkışlar).}"
+  ],
+  "sha256": "a09e96bcf1228bb3fadaf927ba285dcb36d3312a118e99ff7bc01c640f03bcf7",
+  "uncertain": [
+    "Bu baskıda ı ve n harfleri yer yer aşınmış, m gibi görünüyor (\"arasmda\", \"nazırınm\", \"icaplarma\", \"ihtiyacm\", \"Romanyanm\", \"Macaristanm\"). Bağlama göre arasında, nazırının, icaplarına, ihtiyacın, Romanyanın, Macaristanın okundu. Bütün bu yerleri taramada kontrol edin.",
+    "s.2 sağ, \"cıhazımızı\": baskıda ı ile basılmış (cihaz değil). Büyütülmüş taramada kontrol edildi; aynen \"cıhazımızı\" yazıldı.",
+    "s.2 sağ, \"ziraî mahsullerimizin\": şapkalı okundu.",
+    "s.2 sağ, \"sınaî techizatını\": baskıda \"smaî\" (n aşınmış); sınaî okundu.",
+    "s.3 sol, \"verdigimiz\": baskıda ğ işareti yok. Aynen alındı.",
+    "s.3 sol, \"anlaşma paktı\": \"anlaşma\" ile \"paktı\" arasında bir leke var; iki ayrı sözcük olarak alındı.",
+    "Hükûmet / Hükümet: baskıda û (şapkalı) okundu; aşınmış basımda ü ile karışabilir. Hükûmetinin, Hükûmete (s.3 sağ) ve Hükümdarı (s.3 sağ, ü) taramada tek tek kontrol edilsin.",
+    "s.3 sağ, \"Mütenekkiren\": baskıda iki k ve iki e ile, dizgi aşınmış olabilir. Mütenekkiren okundu.",
+    "s.2 sağ sonu \"eminim .\" ve s.3 sol başı \"Açık bir bütçenin\": sütun/sayfa geçişi; iki ayrı paragraf olarak alındı.",
+    "Bazı büyük harfler baskıda böyle: \"Muhterem azası\" (azası küçük), \"Diğer Devletlerle\", \"Hükûmet\". Aynen alındı.",
+    "Satır sonundaki bölünmüş sözcükler (devresi-nin, Mille-tin, sev-gilerle vb.) birleştirildi (A21).",
+    "Konuşmadan önceki Reis satırı ve sahne notu, sayfa başı/sonu satırları (\"— 2 —\", \"— 3 —\") alınmadı.",
+    "Sonraki \"Reis Kâzım Paşa Hazretlerinin nutukları\" bölümü (s.4) bu PDF'te yok ve konuşmanın parçası değil."
+  ]
+}

@@ -1,0 +1,758 @@
+# T.B.M.M. Zabıt Ceridesi, Devre V, İçtima 3, Cild 20, Birinci inikad, 1-XI-1937 Pazartesi, s. 3-9.
+# 2 - Nutuklar, 1 - Reisicümhurun nutku.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1937.pdf (PDF s. 2-8)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Konuşmadan önceki Muvakkat Başkan satırları ("Ekseriyet vardır. Şimdi Reisicümhur açış nutuklarını
+# söyleyeceklerdir.") ve sahne notu ("(Reisicümhur Kamâl Atatürk şiddetli ve sürekli alkışlar arasında
+# başkanlık kürsüsüne geldiler).") konuşmanın parçası değildir, alınmadı.
+# Konuşma s.8 sağ sütunda "3 — SEÇİMLER" başlığından önce biter; seçim bölümü alınmadı.
+# Baskıda ı ve n harfleri yer yer aşınmış, m gibi görünüyor; bağlama göre okundu. Son hecedeki î yerine
+# baskıda sık sık ğ basılmış ("milliğ", "hayatiğ", "adliğ", "büroğ", "hususiğ"); aynen alındı.
+# Ayrıntı: meta dosyasındaki şüpheli yerler.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.503
+¶Beşinci devrenin üçüncü yılını açıyorum.
+¶Her şeyden önce, sevgili Kamutay arkadaşla-
+rımla, yeni çalışma yılı başlangıcında, karşı kar-
+şıya bulunmaktan duyduğum derin sevinç ve sa-
+adeti ifade etmeliyim {(Alkışlar)}. Sizi yüksek say-
+gı ile selâmlar ve bu çalışma yılınızın da, millet
+ve memleket için feyizli başarılarla bezenmesini
+dilerim.
+¶Sayın Millet Vekilleri,
+¶Memnuniyetle görmekteyiz ki, Cümhuriyet
+rejimi yurdumuzda huzur ve sükûnun en iyi yer-
+leşmesini temin etmiş bulunuyor. Vatandaşlar
+ve bu yurdda oturanlar, Cümhuriyet kanunları-
+nın eşit şartları altında kendileri için hazırlanan
+hürriyet, refah ve saadet imkânlarından azamiğ
+istifade etmektedirler.
+¶Milletimizin lâyık olduğu yüksek medeniyet
+ve refah seviyesine varmasını alıkoyabilecek hiç
+bir engel düşünmeğe yer bırakılmadığını ve bı-
+rakılmayacağını huzurunuzda söylemekle bahti-
+yarım {(Bravo sesleri, alkışlar)}.
+¶Tuncelindeki icraatımız neticeleri, bu hakika-
+tin yakin ifadesidir.
+¶İleri Hükûmetçiliğin şıarı, halkı, kudretine
+olduğu kadar şefkatine de samimiyetle inandıra-
+bilmesidir. Büyük, küçük bütün Cümhuriyet me-
+murlarında bu zihniyetin, en geniş ölçüde inki-
+şafına önem vermek, çok yerinde olur.
+¶Hususiğ idarelerin geçen yılki faaliyetleri,
+verimli olmuştur. Ancak, hususiğ idareler ve
+belediyeler, büyük kalkınma savaşımızda başarı
+hâsılasını arttıracak vazifeler almalı ve hususile
+
+## s.2 sağ 0.503
+hayat ucuzluğunu temin edecek, yerine göre ted-
+birler bulmalı ve salâhiyetlerini tam kullanma-
+lıdırlar.
+¶Şehircilik işlerinde de, teknik ve plânlı esas-
+lar dahilinde çalışmak lâzımdır. Bunun için be-
+lediyelerimizi türeli bir surette aydınlatmak,
+kılavuzlamak işile uğraşacak, merkezde, bir
+teknik büroğ kurulmasını tavsiye ederim.
+¶Kendine, inkılâbın ve inkılâpçılığın çeşitli
+ve hayatiğ vazifeler verdiği Türk vatandaşının
+sağlığı ve sağlamlığı, her zaman, üzerinde dik-
+katle durulacak milliğ meselemizdir.
+¶Sağlık ve sosyal yardım vekâletinin bu me-
+sele üzerindeki sistemli çalışmaları, yüksek Ka-
+mutayı memnun edecek mahiyette inkişaf et-
+mektedir.
+¶Ayni vekâlet, kendine verdiğimiz göçmen iş-
+lerini de sosyal ve ekonomik politikamıza uygun
+olarak başarı ile görmektedir.
+¶Vekâletin, ‘‘Sağlam ve gürbüz nesil, Türki-
+yenin mayasıdır,, prensibini, pek iyi kavrıyarak
+çalışmakta olduğunu takdire değer bulurum.
+¶Yüce Saylavlar,
+¶Bilindiği gibi, biz, yurt emniyeti içinde fert-
+lerin emniyetini de, lâyık olduğu derecede göz
+önünde tutarız.
+¶Bu emniyet, Türk Cümhuriyeti kanunlarının,
+Türk hâkimlerinin teminatı altında, en ileri şe-
+kilde mevcuttur. Kanunlarımızda yaptığımız
+bazı tâdiller ve kabul buyurduğunuz (Meşhut
+cürümler) kanunu, bu maksada kuvvetle hizmet
+etmiştir.
+¶Adliğ bünyemizin ve kanun diziğimizin; da-
+ima bu yönden incelemelerle, Türkiyenin dina-
+mik hayatına, hiç şaşmadan, uygunlukları te-
+min edilmelidir. Bu lüzum karşısında, Kara ve
+Deniz ticaret kanunlarımızın ekonomik bünye-
+mizdeki inkişaflara daha uygun hale getirilme-
+sinde, zaman geçirilmemek yerinde olur. Bir
+de, şu nokta üzerinde durmama, izin vermenizi
+rica edeceğim : Emniyet ve hak işlerile alâkalı
+
+## s.3 sol 0.505
+usullerde ve kanunlarda, kolaylık, çabukluk,
+açıklık ve kesinlik esas olmalıdır. Bu sebeple,
+vatandaşların icra dairelerile olan ilişiklerini
+kolaylaştırmak kasdile yapılan etütlerin, bir
+an evvel kanun haline getirilmesini tavsiyeye
+lâyık bulurum. Bu işaret ve tavsiyelerimin,
+iyi karşılanacağına şüphe etmem; çünkü, her
+sahada olduğu gibi, adliğ usuller ve kanunlar
+sahasında da, Türk Cümhuriyetinin ve onun
+yüksek, değerli Kamutayının anlayışı, ileri an-
+layıştır.
+¶Şimdi arkadaşlar, ekonomi hayatımızı göz-
+den geçireceğim. Derhal bildirmeliyim ki, ben,
+ekonomik hayat denince; ziraat, ticaret, sa-
+nayi faaliyetlerini ve bütün nafıa işlerini, bir-
+birinden ayrı düşünülmesi doğru olmayan bir
+kül sayarım. Bu vesile ile şunu da hatırlatma-
+lıyım ki, bir millete müstakil hüviyet ve kıy-
+met veren siyasiğ varlık makinasında, dev-
+let, fikir ve ekonomi hayat mekanizmaları,
+birbirlerine bağlı ve birbirlerine tâbiğdirler;
+o kadar ki, bu cihazlar birbirine uyarak ay-
+ni ahenkte çalıştırılmazsa, Hükûmet makina-
+sının motris kuvveti israf edilmiş olur, ondan
+beklenen tam verim elde edilemez. Onun için-
+dir ki, bir milletin kültür seviyesi, üç saha-
+da; devlet, fikir ve ekonomi sahalarındaki
+faaliyet ve başarıları neticelerinin hasılasile
+ölçülür.
+¶Sayın Millet Vekilleri,
+¶Milliğ ekonominin temeli ziraattır. Bunun
+içindir ki, ziraatta kalkınmıya büyük önem
+vermekteyiz. Köylere kadar yayılacak pro-
+gramlı ve pratik çalışmalar, bu maksada eriş-
+meyi kolaylaştıracaktır.
+¶Fakat, bu hayatiğ işi, isabetle amacına
+ulaştırabilmek için, ilk önce, ciddiğ etütlere
+dayalı bir ziraat siyaseti tesbit etmek ve onun
+içinde, her köylünün ve bütün vatandaşların
+kolayca kavrıyabileceği ve severek tatbik ede-
+bileceği bir ziraat rejimi kurmak lâzımdır. Bu
+siyaset ve rejimde, önemli yer alabilecek nok-
+talar başlıca şunlar olabilir:
+¶Bir defa, Memlekette topraksız çifçi bırakıl-
+mamalıdır. {(Bravo sesleri, alkışlar).} Bundan da-
+ha önemli olanı ise, bir çifçi ailesini geçindire-
+bilen toprağın, hiçbir sebep ve suretle, bölüne-
+mez bir mahiyet alması. {(Alkışlar).} Büyük çif-
+çi ve çiflik sahiblerinin işletebilecekleri erazi
+genişliği, erazinin bulunduğu memleket bölge-
+lerinin nüfus kesafetine ve toprak verim dere-
+cesine göre sınırlanmak lâzımdır.
+¶Küçük, büyük bütün çifçilerin iş vasıtaları-
+nı arttırmak, yenileştirmek ve korumak tedbir-
+leri, vakit geçirilmeden alınmalıdır. Herhalde,
+en küçük bir çifçi ailesi, bir çift hayvan sahibi
+kılınmalıdır; bunda, ideal olan öküz değil, bey-
+gir olmalıdır. Öküz, ancak bazı şartların henüz
+temini güç bölgelerde hoş görülebilir. Köylü-
+ler için, umumiyetle pulluğu pratik ve faydalı
+
+## s.3 sağ 0.505
+bulurum. Traktörler, büyük çifçilere tavsiye
+olunabilir. Köyde ve yakın köylerde, müşterek,
+harman makinaları kullandırmak, köylülerin
+ayrılamıyacağı bir âdet haline getirilmelidir.
+¶Memleketi; iklim, su ve toprak verimi bakı-
+mından, ziraat bölgelerine ayırmak icab eder.
+Bu bölgelerin her birinde, köylülerin, gözlerile
+görebilecekleri, çalışmaları için örnek tutacak-
+ları verimli, modern, pratik ziraat merkezleri
+kurulmak gerektir.
+¶Bugün, Devlet idaresinde bulunan çifliklerin
+ve bunların içindeki türlü ziraat - sanayiğ ku-
+rumlarının bir kısmı; ziraat hayat ve faaliyeti-
+nin bütün sahalarında, her türlü teknik ve mo-
+dern tecrübelerini ikmâl etmiş olarak bulunduk-
+ları bölgelerde en faydalı ziraat usul ve sanğat-
+larını yaymıya hazır bulunmaktadırlar. Bu,
+Vekâlet için, büyük kolaylıklar temin edecek-
+tir. Ancak, gerek mevcut olan ve gerek bütün
+memleket ziraat bölgeleri için yeniden kuru-
+lacak ziraat merkezlerinin, sekteye uğrama-
+dan tam verimli faaliyetlerini; şimdiye kadar
+olduğu gibi, Devlet bütçesine ağırlık vermeksi-
+zin kendi gelirlerile kendi varlıklarının idare
+ve inkişafını temin edebilmeleri için, bütün bu
+kurumlar birleştirilerek geniş bir işletme kuru-
+mu teşkil olunmalıdır.
+¶Bir de, başta buğday olmak üzere, bütün
+gıda ihtiyaçlarımızla endüstrimizin dayandığı
+türlü iptidaiğ maddeleri temin ve hariciğ ticare-
+timizin esasını teşkil eden çeşitli mahsullerimi-
+zin ayrı ayrı her birinde, miktarını arttırmak,
+kalitesini yükseltmek, istihsâl masraflarını
+azaltmak, hastalık ve düşmanlarile uğraşmak
+için gereken teknik ve kanuniğ her tedbir, vakit
+geçirilmeden alınmalıdır.
+¶Orman servetimizin korunması lüzumuna ay-
+rıca işaret etmek isterim. Ancak, bunda mühim
+olan, koruma esaslarını; Memleketin türlü ağaç
+ihtiyaçlarını devamlı olarak karşılaması icab
+eden ormanlarımızı muvazeneli ve teknik bir su-
+rette işleterek istifade etmek esasile makul bir
+surette telif etmek mecburiyeti vardır. Buna, bü-
+yük Kamutayın lâyık olduğu ehemmiyeti vere-
+ceğine şüphe yoktur.
+¶Sayın Millet Vekilleri,
+¶Dış ticarette takib ettiğimiz ana prensip,
+ticaret muvazenemizin aktif karakterini muha-
+faza etmektir. Çünki, Türkiye tediye muvazene-
+sinin en mühim esasını, bu teşkil eder.
+¶Son yılların rakamları ve geçirdiğimiz sene-
+nin bu güne kadar gösterdiği seyir ve istikamet,
+takib ettiğimiz prensibin elde edilmiş müspet ne-
+ticelerini göstermektedir.
+¶Kontenjan usulü, muayyen anlaşma şartları-
+mızı kabul etmiş memleketler için büsbütün kal-
+dırılmıştır. Bu memleketlerden piyasanın ka-
+yidsiz, şartsız ithalât yapabilmesi temin edilmiş-
+tir.
+¶Dış ticaret politikamızın hususiyeti şudur:
+
+## s.4 sol 0.503
+İç ve dış vaziyet icaplarını daima karşılamak
+suretile seyirlerine intibak etmek.
+¶İç ticarete gelince, bunda, en önde gördüğü-
+müz esas, teşkilâtlandırma ve muayyen tipler
+üzerinde işleme ve rasiyonel çalışmadır.
+¶Kesin zaruret olmadıkça, piyasalara karışıl-
+maz; bununla beraber, hiç bir piyasa da başı
+boş değildir. Sırası gelmişken Cümhuriyetin
+tüccar telekkisini de kısaca ifade edeyim: tüc-
+car, milletin emeği ve üretimi kıymetlendiril-
+mek için, eline ve zekâsına emniyet edilen ve
+bu emniyete liyakat göstermesi gereken adam-
+dır {(Bravo sesleri, alkışlar)}. Bu bakımdan, ih-
+racatçılar hakkındaki kanun, murakabe hakkın-
+daki kanun, teşkilâtlandırma hakkındaki hü-
+kümler, müspet neticelerini vermektedir.
+¶İhracat mallarımızın, Hükûmetin yakın kon-
+trolü altında, satışlarının teşkilâtlandırılması
+mühimdir. Bunu göz önünde tutan Ekonomi
+vekâleti, geçen yıl içinde: Iğdırda, Ege, Trakya
+bölgelerinde türlü mevzulara ağit satış koopera-
+tifleri teşkil etmiş ve onları faaliyete geçirmiş-
+tir. Önümüzdeki yıl içinde, başta fındık ol-
+mak üzere, diğer belli başlı mahsullerimizi de,
+alâkalandıran birlikleri vücude getirmelidir.
+¶Sayın arkadaşlar,
+¶Endüstrileşmek, en büyük milliğ davalarımız
+arasında yer almaktadır. Çalışması ve yaşama-
+sı için ekonomik elemanları memleketimizde
+mevcut olan büyük, küçük her çeşit sanayiği
+kuracağız ve işleteceğiz {(Alkışlar)}. En başta
+vatan müdafaası olmak üzere, mahsullerimizi
+kıymetlendirmek ve en kısa yoldan, en ileri ve
+refahlı Türkiye idealine ulaşabilmek için, bu bir
+zarurettir.
+¶Bu kanaatle, beş yıllık ilk sanayi plânının
+geri kalan ve bütün hazırlıkları bitirilmiş olan
+birkaç fabrikasını da sürğatle başarmak ve yeni
+plan için hazırlanmak icab eder.
+¶Endüstrileşme karar ve hareketimize müte-
+nazır olarak bugünkü mevzuatımızda düşünüle-
+cek tâdiller ve ilâve edilecek bazı yeni hüküm-
+ler vardır. Bunların başlıcalarını şöyle hülâsa
+edebiliriz:
+¶Sermayesinin tamamı veya büyük kısmı dev-
+lete ağit ticariğ - sanaiğ kurumların maliğ kon-
+trol şeklini; bu kurumların bünyelerine ve ken-
+dilerinden istediğimiz ve istiyeceğimiz ticariğ
+usûl ve zihniyetle çalışma icaplarına sürğatle
+tevfik etmek. Bu gibi kurumların bugünkü
+usûllerle çalışabilmelerine ve inkişaf etmelerine
+imkân yoktur.
+¶Mevcut Gümrük tarifeleri kanununda da,
+bugünkü politika ve temayülümüze uygun ted-
+birleri yapmak lâzımdır.
+¶Diğer mühim nokta, daha evvel de işaret
+ettiğim gibi, memlekette, hususiyle bazı bölge-
+lerde, göze çarpacak ehemmiyet alan hayat pa-
+halılığı mevzuu ile uğraşmak.. Bunun için ilmiğ
+
+## s.4 sağ 0.503
+bir tetkik yaptırılmalı ve tespit edilecek sebep-
+lerile radikal ve planlı şekilde mücadele edil-
+melidir.
+¶Küçük esnafa ve küçük sanayi erbabına müh-
+taç oldukları kredileri kolayca ve ucuzca vere-
+cek bir teşekkül vücuda getirmek ve kredinin,
+normal şartlar altında, ucuzlatılmasına çalışmak-
+ta çok lâzımdır.
+¶Türkiyede Devlet mağdenciliği, milliğ kal-
+kınma hareketiyle yakından alâkalı, mühim mev-
+zulardan biridir.
+¶Umumiğ endüstrileşme telekkimizden başka,
+mağden arama ve işletme işine, her şeyden önce,
+hariciğ tediye vasıtalarımızı, döviz gelirimizi
+arttırabilmek için, devama ve hususiğ bir ehem-
+miyet vermeye mecburuz.
+¶Mağden Tetkik ve Arama Dairesinin çalış-
+malarına âzamiğ inkişaf vermesini ve bulunacak
+mağdenlerin, rantabilite hesapları yapıldıktan
+sonra, planlı şekilde hemen işletmiye konulma-
+sını temin etmemiz lazımdır. Elde bulunan mağ-
+denlerin en mühimleri için, üç yıllık bir plan
+yapılmalıdır.
+¶Ereğli Şirketini satın aldığımızı ve Ereğli
+kömürü havzasında rasiyonel bir istihsâl planı-
+nın, günün meselesi olduğunu biliyorsunuz.
+Bunun ikmâli çabuklaştırılarak, kömür istih-
+sâlatımız kısa bir zamanda, en az bir misli art-
+tırılmalıdır.
+¶Diğer taraftan, Mağden Tetkik ve Arama
+Dairesinin, Divriki sahasında bulduğu ve
+cevher nispeti itibarile ehemmiyetli olan demir
+mağdeninin sürğatle işletilmesine geçilmeli ve
+Karabük demir - çelik sanayiimiz ihtiyaç planı
+dışındaki kısmının ihracatına başlanılmalıdır.
+{(Alkışlar).}
+¶Liman işlerinde modern ve planlı çalışma ve
+tarifelerdeki tenzilâtın uyandırdığı memnuni-
+yetin verimli neticeleri, ticarette dikkati celbet-
+miştir. Bu yolda devam edilmesinde isabet ola-
+caktır.
+¶Ekonomik bünyemizdeki inkişaf, deniz nak-
+liye vasıtaları ihtiyaçlarını hergün arttırmakta-
+dır. Yeni sipariş edilen gemilerden bir kısmı,
+önümüzdeki ilkbaharda gelmiş bulunacaktır. Fa-
+kat bunlar, bugünden görülmekte olan ihtiyaç
+hacmine cevab verecek adet ve nispette değildir.
+¶Yeni gemiler inşa ettirmek ve bilhassa eski
+tersaneyi, ticaret filomuz için, hem tâmir, hem
+yeni inşaat merkezi olarak faaliyete getirmek
+esbabını temin etmek lâzımdır. {(Alkışlar).}
+¶Şu günlerde, yüksek Meclise, Su Mahsulleri
+ve Deniz Bank hakkında bir lâyiha gelecektir.
+Mevzuunun, yüksek alâkanızı çekeceğinden şüp-
+he etmiyorum.
+¶Arkadaşlar,
+¶En güzel coçrafiğ vaziyette ve üç tarafı de-
+nizle çevrili olan Türkiye; endüstrisi, ticareti ve
+isporu ile, en ileri denizci millet yetiştirmek ka-
+biliyetindedir. Bu kabiliyetten istifadeyi bilme-
+
+## s.5 sol 0.456
+liyiz; denizciliği, Türkün büyük milliğ ülkü-
+sü olarak düşünmeli, ve onu az zamanda ba-
+şarmalıyız. {(Alkışlar, yaşa sesleri).}
+¶Ekonomik kalkınma; Türkiyenin, hür,
+müstakil, daima daha kuvvetli, daima daha
+refahlı Türkiye idealinin, bel kemiğidir. Tür-
+kiye bu kalkınmada, iki büyük kuvvet serisi-
+ne dayanmaktadır:
+¶Toprağının iklimleri, zenginlikleri ve baş-
+lıbaşına bir servet olan coğrafiğ vaziyeti; ve
+bir de, Türk milletinin, silâh kadar, maki-
+na da tutmıya yaraşan kudretli eli ve milliğ
+olduğuna inandığı işlerde ve zamanlarda, Ta-
+rihin akışını değiştirir celâdetle tecelli eden,
+yüksek sosyal benlik duygusu. {(Sürekli alkış-
+lar).}
+¶Sayın Millet Vekilleri,
+¶Demiryolları bir ülkeyi medeniyet ve refah
+nurlarile aydınlatan kutsal bir meşaledir.
+¶Cümhuriyetin ilk senelerinden beri, dik-
+katle, israrla üzerinde durduğumuz demiryol-
+ları inşaat siyaseti, hedeflerine ulaşmak için,
+durmadan başarı ile tatbik olunmaktadır.
+¶Şark ve Cenupta, Sıvas, Diyarbekir gibi,
+büyük menzillere varan hatlar, geçen yıl için-
+de, Sivas - Malatya iltisakiyle birbirine bağlan-
+mıştır. Zonguldağa varmış olan hat dahi, bu
+zengin kömür havzasını, iç vatana bağlamış
+bulunuyor.
+¶Sivastan sonra, Şarka doğru uzayıp git-
+mekte olan hat ta, ilk menzili, Divrike varmış-
+tır. Bu kol, önümüzdeki yıl, Erzincana ulaş-
+mış bulunacaktır. Diyarbekirden Şarka uzana-
+cak hattın da inşasına başlanmıştır.
+¶Şark Demiryollarının satın alınmış oldu-
+ğunu bilirsiniz. Cenupta Nusaybine giden hat-
+tan mağda, yurt içinde bütün demiryollarının
+idare ve işletilmeleri, Cümhuriyet Hükûmeti-
+nin elindedir. {(Alkışlar).}
+¶Demiryollar inşaatımızın inkişafı, İran tran-
+sit yolunun inkişafına ve motörize edilmesine
+de hizmet etmiştir.
+¶İstanbuldan itibaren başlıyan Avrupa tu-
+rist yolunun asfalt olarak inşasına devam olun-
+maktadır.
+¶Bu tarz inşaatın, bir plân dahilinde, mem-
+leketin diğer sahalarına da teşmili, bekledi-
+ğimiz milliğ başarılardandır.
+¶Şose ve köprüler inşaatı inkişaf etmektedir.
+Demiryolları inşa siyasetimizin tatbiki yılları
+içinde, (78) köprü, geçişe açılmış bulunuyor.
+(23) köprü de, inşa halindedir. Bu köprüler,
+her biri başlıbaşına birer fen ve sanğat eseri
+olarak, yeni nesillere, Cümhuriyetin armığan
+âğbideleri olacaktır. Demiryol hatlarımızı iç
+sahalara bağlıyacak ve bu hatların bir an evel
+milliğ ekonomik kalkınmıya âzamiğ hizmetini
+temin edecek olan kara yolu inşaatı, önümüz-
+deki devrelerde teksif ve bir plan dahilinde
+tevsi edilmek lâzımdır.
+
+## s.5 sağ 0.456
+Her bölgenin ihtiyacına göre, istasyonlarda
+tamamlayıcı tesisat ta yapılmak ve muhtelif
+malların lâzımı gibi sevkini temin edecek tek-
+nik şartları hâiz vagon mevcudunu arttırmak
+zaruriğdir. Bunda da, büyük himmetlerin
+esirgenmemesini dilerim.
+¶Su ve imar işlerine, dikkatle devam edil-
+mektedir.
+¶Posta - Telgraf - Telefon işlerimizde esaslı
+bir inkişaf vardır. Bununla beraber, şehirler
+arasındaki telefon muhabereleri işinin bir an
+evvel tamamlanmasına çalışılmalıdır.
+¶Ankarada yeni bir radyo istasyonunun in-
+şasına başlanmış olduğunu, memnuniyetle kay-
+dederim.
+¶Sivil Hava Yolları İdaresi, Devlet teşkilâtı
+arasında, modern bir idare halinde yer al-
+mıştır.
+¶Bütün teknik şartlar ve emniyet icapları
+içinde çalışmakta olan bu idarenin, büyük şehir-
+lerimizin hepsi arasında, en modern muvasala
+yolu rolünü bir an evvel ifaya başlaması, ve ar-
+sıulusal hatlarla da, kendi vasıtalariyle, irtibat
+tesis eylemesi imkânı, az zamanda teminini bek-
+lediğimiz önemli işlerdendir.
+¶Arkadaşlar,
+¶Bütün Devlet cihazlarının canlılığı, gürbüz-
+lüğü, işlemesi bakımından büyük dikkatle üze-
+rinde durulması gerekli olan maliğ hayatımıza
+temas ediyorum.
+¶Cümhuriyet bütçelerinin taayyün eden ve da-
+ima kuvvetlenmesi gereken müşterek hususiyet-
+leri, yalnız denkli oluşları değil, ayni zamanda,
+koruyucu, kurucu ve verici işlere, her defasında
+daha fazla pay ayırmakta olmalarıdır.
+¶Bu politikamızın, milliğ faaliyet üzerinde
+derhal yaratmıya başladığı tesir iledir ki, büt-
+çe tahmin rakamlarımız, yalnız tahakkuk et-
+mekle kalmıyor, daima fazla ile de kapanmaya
+başlamıştır.
+¶1936 senesi bütçesi, tahmine ve 1935 yılı va-
+ridat tahakkuklarına göre, 22 milyon fazla ile
+kapanmıştı. 1937 bütçesinin de, bugüne kadar
+gösterdiği seyir, ayni ümidi, fazlasile verecek
+mahiyettedir.
+¶Bu netice; memleket ekonomisinin inkişafını,
+halkın refaha ulaşmakta olduğunu ifade ettiği
+gibi ayni zamanda, halk için çalışan bir Hükû-
+metin, halkın menfaatine olarak aldığı tedbir-
+deki isabeti de teyit etmektedir.
+¶Samimiğ bir bütçeye ve hakikiğ bir tediye
+muvazenesine dayanan paramızın filiğ istikrar
+vaziyetini kesin surette muhafaza edeceğiz.
+¶Her nevi maliğ taahhüdlerimizi, günü gününe
+yerine getirmek suretile, Devlet itibarını ve ma-
+liğ sermaye ve eshamı muhafaza ve takviye hu-
+susunda bütün tedbirleri almak ve bu mevzuda
+dikkatli bulunmak umdemizdir {(Alkışlar)}.
+¶Devlet varidatının inkişafını, yeni vergiler
+ihdasından ziyade, devamlı bir programla mev-
+
+## s.6 sol 0.503
+cud vergilerin tarh ve cibayet usûllerinin islâ-
+hında aramak lâzımdır {(Alkışlar)}.
+¶Son iki sene zarfında hayvanlar, tuz, şeker,
+çimento, petrol ve benzin, elektrik, iptidaiğ mad-
+deler resim ve vergilerinde yapılan ve her biri
+% 30 - 50 nisbetinde bir vergi indirilmesini ifa-
+de eden tahfiflerin, istihsâlin teşviki bakımın-
+dan, vatandaş ve memleket için müsbet ve ha-
+yırlı neticeler verdiğini görmekteyiz.
+¶Hayvan vergisi ve buhran ve muvazene ver-
+gileri üzerinde tetkikler yapılarak bütçe muva-
+zenesi esasını bozmayacak surette tedricen tah-
+fif çareleri düşünülmelidir {(Alkışlar)}.
+¶Bundan başka, memleketimizde yetişmeyen
+iptidaiğ maddeler, ve istihsâl maliyeti üzerinde
+tesir yaparak, dış memleketler mamulâtı ile
+rekabeti güçleştiren her nevi vergi ve resimler
+kaldırılmak lâzımdır. {(Alkışlar)}
+¶Gerek bu mevzular üzerinde çalışırken, gerek
+her hangi bir maliğ karar alırken, ilk göz önü-
+ne getireceğimiz şey, milliğ faaliyet ve milliğ
+istihsâl, yani verginin bizzat ana menbaı üze-
+rinde yapacağı tesirler olmalıdır. Maliye me-
+murları da, İç İşleri memurları gibi, halkla da-
+imiğ teması olan teşkilâttır. Bunların da, halk
+ile temaslarında, halk için çalışan bir halk hü-
+kûmetinin tabiiğ vasfı olan âzamiğ dikkat ve
+ihtimam göstermek ve âzamiğ emniyet ve inan
+vermek şiarlarının inkişafına, bilhassa itina
+etmeleri lâzımdır. {(Sürekli arlkışlar)}
+¶Cümhuriyet rejiminde, nefiğ hazine demek;
+kanunun hazine lehine tesbit ettiği hakla, ka-
+nunun mükellefi karşılaştırdığı vazifeyi gayet
+denk bir halde elde tutmak demek olduğunu
+bir an hatırdan uzak tutmamak önemli prensi-
+bimizdir. {(Bravo sesleri sürekli alkışlar)}
+¶İnhisarlar mevzuunda itina edilmesi icab
+eden esas, bu kurumların maliğ monopol, ticariğ
+teşekkül ve milliğ valörizasyon kurumu karek-
+terlerinin dikkatle telifidir.
+¶Harice, tütün satışları ve ihracat mevzuu
+daha yakından meşgul olmıya değer mahiyet-
+tedir.
+¶Gümrüklere gelince; bunda, tesisata, çalrş-
+ma usullerine ve kanuniğ mevzular bakımından
+gerekli islâh tedbirlerine hız verilmek icab et-
+mektedir.
+¶İnhisar mamulâtının fiatları üzerinde yapı-
+lan tenzilât, satışları arttırmıştır.
+¶Bu usulün daima dikkatte bulundurulması
+faydalı olur.
+¶Arkadaşlar,
+¶Büyük davamız, en medeniğ ve en müreffeh
+millet olarak varlığımızı yükseltmektir {(Alkış-
+lar)}.
+¶Bu, yalnız kurumlarında değil, düşüncelerin-
+de temelli bir inkılâp yapmış olan büyük Türk
+milletinin dinamik idealidir. Bu ideali en kısa
+bir zamanda başarmak için, fikir ve hareketi,
+beraber yürütmek mecburiyetindeyiz. Bu te-
+
+## s.6 sağ 0.503
+şebbüste başarı, ancak, türeli bir planla ve en
+rasiyonel tarzda çalışmakla mümkün olabilir.
+Bu sebeple, okuyup yazma bilmiyen tek vatan-
+daş bırakmamak; memleketin büyük kalkınma
+savaşının ve yeni çatısının istediği teknik ele-
+manları yetiştirmek; memleket davalarının ide-
+olojisini anlayacak, anlatacak, nesilden nesile
+yaşatacak, fert ve kurumları yaratmak; işte bu
+önemli umdeleri en kısa zamanda temin etmek,
+Kültür Vekâletinin üzerine aldığı büyük ve ağır
+mecburiyetlerdir {(Alkışlar)}.
+¶İşaret ettiğim umdeleri, Türk gençliğinin di-
+mağında ve Türk milletinin şuurunda daima
+canlı bir halde tutmak, Üniversitelerimize ve
+yüksek okullarımıza düşen başlıca vazifedir.
+¶Bunun için, memleketi şimdilik üç büyük
+kültür bölgesi halinde mütalaa ederek; Garp
+bölgesi için İstanbul Üniversitesinde başlanmış
+olan islahat programını daha radikal bir tarzda
+tatpik ederek Cümhuriyete cidden modern bir
+Üniversite kazandırmak; merkez bölgesi için,
+Ankara Üniversitesini az zamanda kurmak lâ-
+zımdır; ve Doğu bölgesi için Van gölü sahille-
+rinin en güzel bir yerinde, her şubeden ilk
+okullarile ve nihayet Üniversitesiyle modern bir
+kültür şehri yaratmak yolunda, şimdiden fiğli-
+yata geçilmelidir {(Alkışlar)}.
+¶Bu hayırlı teşebbüsün, Doğu vilâyetlerimiz
+gençliğine bahşedeceği feyiz, Cümhuriyet Hü-
+kûmeti için ne mutlu bir eser olacaktır {(Alkış-
+lar)}.
+¶Tavsiye ettiğim bu yeni teşebbüslerin, eğit-
+men ve öğretmen ihtiyacını ziyadeleştireceği şüp-
+hesizdir. Fakat bu cihet, hiç bir vakit işe baş-
+lama cesaretini kırmamalıdır. Vekâletin, geçen
+yıl içinde, bu yönden yaptığı tecrübeler, çok
+ümit verici mahiyettedir.
+¶Türk Tarih ve Dil Kurumlarının, Türk mil-
+liğ varlığını aydınlatan çok kıymetli ve önemli
+birer ilim kurumu mahiyetini aldığını görmek,
+hepimizi sevindirici bir hâdisedir {(Alkışlar)}.
+¶Tarih Kurumu; yaptığı kongre, kurduğu ser-
+gi, yurt içindeki hafirler, ortaya çıkardığı eser-
+lerle, şimdiden, bütün ilim dünyasına kültürel
+vazifesini ifaya baslamış bulunuyor {(Alkışlar)}.
+¶İlk resim galerimizi de, bu yıl açmış bulu-
+nuyoruz.
+¶Geçen yıl, Ankarada kurulan Devlet Kon-
+servatuarı; müzikte, sahnede, kendisinden bek-
+lediğimiz teknik elemanları sürğatle verebilecek
+hale getirilmesi için, daha fazla gayret ve feda-
+kârlık yerinde olur. Her çeşit ispor faaliyetle-
+rini, Türk gençliğinin milliğ terbiyesinin ana
+unsurlarından saymak lâzımdır. Bu işte, Hükû-
+metin şimdiye kadar olduğundan daha çok cid-
+diğ ve dikkatli davranması, Türk gençliğini,
+ispor bakımından da, milliğ heyecan içinde iğti-
+na ile yetiştirmesi, önemli tutulmalıdır.
+¶Sevgili arkadaşlarım,
+¶Ordu, Türk Ordusu!.. İşte bütün milletin
+
+## s.7 sol 0.48
+göğsünü iğtimat, gurur duygularile kabartan
+şanlı ad! {(Sürekli alkışlar).} Onu, bu yıl içinde,
+kısa fasılalarla iki defa, büyük kütleler halinde,
+yakından gördüm. Trakya ve Eğe büyük ma-
+navralarında.. Disiplinini, enerjisini, subayları-
+nın vukuflu gayretini, büyük komutan ve ge-
+nerallerimizin yüksek sevk ve idare kabiliyetle-
+rini gördüm; {(Alkışlar)} derin iftihar duydum,
+takdir ettim. {(Alkışlar).}
+¶Ordumuz, Türk birliğinin, Türk kudret ve
+kabiliyetinin, Türk vatanseverliğinin çelikleş-
+miş bir ifadesidir.
+¶Ordumuz; Türk topraklarının, ve Türkiye
+idealini tahakkuk ettirmek için sarf etmekte
+olduğumuz sistemli çalışmalarının, yenilmesi im-
+kânsız teminatıdır. {(Alkışlar).}
+¶Teslihat ve teçhizat proğramımızın tatbikatı,
+muvaffakiyetle ilerliyor. Bunları memleketimiz-
+de yapmak emelimiz, tahakkuk yolundadır.
+Harp sanayii tesisatımızı, daha ziyade inkişaf
+ve tevsi için alınan tedbirlere devam edilmeli
+ve endüstrileşme mesaimizde de ordu ihtiyacı
+ayrıca göz önünde tutulmalıdır. {(Alkışlar).}
+¶Bu yıl içinde, denizaltı gemilerini memleke-
+timizde yapmaya başladık.
+¶Hava kuvvetlerimiz için yapılmış olan üç
+yıllık program, Büyük Milletimizin yakın ve
+şuurlu alakasiyle, şimdiden başarılmış sayıla-
+bilir.
+¶Bundan sonrası için, bütün tayyarelerimizin ve
+motörlerinin memleketimizde yapılması ve harp
+hava sanaiimizin de, bu esasa göre inkişaf et-
+tirilmesi iktiza eder. Hava kuvvetlerinin aldı-
+ğı ehemmiyeti göz önünde tutarak, bu mesaiyi
+planlaştırmak ve bu mevzuu lâyık olduğu ehem-
+miyetle milletin nazarında canlı tutmak lâzım-
+dır {(Alkışlar)}.
+¶Büyük milliğ disiplin okulu olan ordunun;
+ekonomik, kültürel, sosyal savaşlarımızda bize
+aynı zamanda en lüzumlu elemanları da yetiş-
+tiren büyük bir okul haline getirilmesine, ayrıca
+iğtina ve himmet edileceğine, şüphem yoktur.
+¶Büyük Kamutay,
+¶Dış siyasetimiz, geçen yıl içinde de, sulh ve
+arsıulusal emek birliği yolunda inkişaf etmiş
+ve yürüdüğümüz yönün değişmez olduğunu
+bir daha belirtmiştir.
+¶Milletler cemiyetinin geçirmekte olduğu çe-
+tin safhalarda, Cümhuriyet Hükûmeti, bu arsı-
+ulusal kuruma olan bağlılığını, her sahada gös-
+termek suretiyle, sulh idealine en uygun yoldan
+ayrılmamıştır.
+¶Büyük bir milliğ davamız olan Hatay işinin
+geçirdiği safhalar malûmunuzdur.
+¶Milletler Cemiyeti yüksek idaresi altında ce-
+reyan etmiş olan müzakereler, Hatay halkının
+lâyık olduğu mesğut ve müstakil idareye ka-
+vuşması yolunda amaçladığımız gayeyi temin
+edecek vesikaların kabul ve imzasile neticelen-
+miştir {(Alkışlar)}.
+
+## s.7 sağ 0.48
+Yeni Hatay rejiminin meriğyete girmesine,
+kısa bir zaman kaldı.
+¶Bu rejimi, kendilerile en dostane bir zih-
+niyetle emek birliği yapmış olduğumuz Fran-
+sızların, iyi niyetle ve amaçlanan gayeyi te-
+min edebilecek şekilde tatbike başlıyacakları-
+na şüphe edilmemelidir.
+¶Yarınki Türk - Fransız münasebetlerinin di-
+lediğimiz yolda inkişafına, Hatay işinin iyi
+bir yönde yürümesi, esaslı bir ölçü ve âmil
+olacaktır kanaatindeyim. {(Alkışlar).}
+¶Balkan siyasetimiz, en mesğut bir iş birli-
+ği yaratmakta devam ederek kendisine çizilmiş
+olan sulh yolunda her gün daha verimli ne-
+ticelerle ilerlemektedir. {(Alkışlar).}
+¶Cümhuriyet Hükûmetinin, Şarkta takib ede-
+gelmekte bulunduğu dostluk ve yakınlık siya-
+seti, yeni bir kuvvetli adım attı. Sadabat'ta,
+dostlarımız Efganistan, Irak ve İran ile imza
+etmiş olduğumuz dörtlü muahede, büyük bir
+memnuniyetle kayda değer sulh eserlerinden
+biridir. {(Alkışlar).}
+¶Bu misakın etrafında toplanan Devletlerin,
+aynı gayeyi takip eden ve sulh içinde inkişafı
+samimiyetle istiyen hükûmetleri arasında, iş
+birliğinin, âtide de hayırlı neticeler vereceğin-
+den emin bulunmaktayız. {(Alkışlar).}
+¶Cümhuriyet Hükûmetinin, komşularile ve
+diğer büyük, küçük devletlerle olan münase-
+betlerinde, ahenkli bir istikrar ve inkişaf göze
+çarpmaktadır.
+¶Sulh yolunda nereden bir hitab geldiyse,
+Türkiye onu, tehalükle karşıladı ve yardımla-
+rını esirgemedi. {(Alkışlar).}
+¶İspanya hâdiseleri dolayısile, Akdeniz ve
+Karadenizde alınması gereken tedbirlere, Cüm-
+huriyet Hükûmeti, en geniş bir zihniyetle iş-
+tirak etti.
+¶Dünyanın her tarafında olduğu gibi, bizi
+alâkalandıran sahalarda ve bu arada, Akde-
+nizde, sükûn ve istikrarın korunması, bizim
+yakından ve alâka ile takib ettiğimiz bir mev-
+zudur.
+¶Şurasını da memnuniyetle kaydedebilirim
+ki, Şarkiğ Akdeniz ve Karadeniz sularile Bal-
+kanlarda ve Yakın Şarkta, geçen sene işaret
+ettiğim iyi münasebetler, ayniyle devam et-
+miştir.
+¶Geçen seneden beri, dost ve müttefik dev-
+letlerin mühim ricaliyle bizim devlet adamları-
+mız arasında karşılıklı ziyaretler vukua gel-
+miş ve bu, dostluklarımızın tezahürüne vesile
+olmuştur. {(Alkışlar).}
+¶Hükûmet, bu son sene zarfında, devletlerle
+olan ticariğ münasebetlerini, memleketin eko-
+nomik bünyesine uyacak mukavele ve anlaş-
+malar yaparak tanzim etti.
+¶Bunlar arasında Fransa, İngiltere, Alman-
+ya ve Sovyet Rusya ile aktedilen mühim tica-
+riğ anlaşmaları, bilhassa kaydetmek isterim.
+
+## s.8 sol 0.5
+Hükûmetin dış teşkilâtının; ekonomik kalkın-
+ma savaşımızla alâkalı daireleri için bilgi ve
+istihbarat ufkunu genişleten yardımcı birer
+daire olarak, çalışmalarını tanzim etmek lâ-
+zımdır.
+¶Dış siyasetimizin ayırıcı vasfını kısaca an-
+latmış olmak için, diyebilirim ki, tuttuğumuz
+siyasiğ yol ve hedeften ayrılmıyoruz. Son se-
+nelerde, arsıulusal münasebetlerde daimiğ de-
+ğişiklikler olmasına rağmen, biz bu karışık-
+lığın ortasında, sulhseverlikle duygulu olarak,
+karşılıklı dostluklarımıza riayet ediyoruz; On-
+ların mahiyet ve dairelerini genişletmeye mü-
+sait zihniyetle arsıulusal vaziyet ve vazifemizi
+göz önünde tutarak çalışıyoruz. Bu yolda, iğ-
+tina ile çalışmıya devam etmek, Hükûmete
+tavsiye edeceğim en doğru karar olduğu kana-
+atindeyim. {(Alkışlar).}
+¶Aziz Millet Vekilleri,
+¶Dünyaca malûm olmuştur ki, bizim Devlet
+idaresindeki ana programımız, Cümhuriyet Halk
+Partisi programıdır. Bunun kapsadığı prensip-
+ler, idarede ve siyasette bizi aydınlatıcı ana hat-
+
+## s.8 sağ 0.5
+lardır. Fakat, bu prensipleri, gökten indiği sa-
+nılan kitabların doğmalarile asla bir tutmamalı-
+dır. Biz, ilhamlarımızı, gökten ve gayipten de-
+ğil, doğrudan doğruya hayattan almış bulunuyo-
+ruz {(Alkışlar)}.
+¶Bizim yolumuzu çizen; içinde yaşadığımız
+yurt, bağrından çıktığımız Türk milleti ve bir de
+milletler tarihinin bin bir facıa ve ıstırab kay-
+deden yapraklarından çıkardığımız neticelerdir
+{(Alkışlar)}.
+¶Elimizdeki programın ruhu, bizi yalnız bir
+kısım vatandaşla alâkalı kalmaktan menğ eder.
+Biz, bütün Türk milletinin hâdimiyiz. Geçen yıl
+içinde, Parti ile Hükûmet teşkilâtını birleştir-
+mekle vatandaşlar arasında ayrılık tanımadığı-
+mızı fiğlen göstermiş olduk {(Varol sesleri)}. Bu
+hâdisenin bizim, Devlet idaresinde kabul ettiği-
+miz, « kuvvet birdir, ve o milletindir », hakika-
+tine uygun olduğu meydandadır {(Alkışlar)}.
+Kuvvetin yegâne kaynağı olan, Türk milletinin
+güzide Vekillerini, büyük bahtiyarlıkla eğilerek
+selâmlarım {(Bravo, yaşa sesleri şiddetli ve sü-
+rekli alkışlar)}.

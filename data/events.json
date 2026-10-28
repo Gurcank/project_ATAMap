@@ -126,6 +126,69 @@
       "documentIds": [
         "tbmm-nutuk-1934-11-01"
       ]
+    },
+    {
+      "id": "tbmm-acilis-1935-11-01",
+      "date": {
+        "iso": "1935-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d5-i1-c6-1935-11-01"
+        ]
+      },
+      "title": "Kamutayın beşinci devresi açıldı",
+      "text": "Reisicümhur Kamâl Atatürk, Kamutayın beşinci devresini bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-d5-i1-c6-1935-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1935-11-01"
+      ]
+    },
+    {
+      "id": "tbmm-acilis-1936-11-01",
+      "date": {
+        "iso": "1936-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d5-i2-c13-1936-11-01"
+        ]
+      },
+      "title": "Kamutayın beşinci devresinin ikinci yılı açıldı",
+      "text": "Reisicümhur Kamâl Atatürk, Kamutayın beşinci devresinin ikinci senesini bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-d5-i2-c13-1936-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1936-11-01"
+      ]
+    },
+    {
+      "id": "tbmm-acilis-1937-11-01",
+      "date": {
+        "iso": "1937-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d5-i3-c20-1937-11-01"
+        ]
+      },
+      "title": "Kamutayın beşinci devresinin üçüncü yılı açıldı",
+      "text": "Reisicümhur Kamâl Atatürk, Kamutayın beşinci devresinin üçüncü yılını bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-d5-i3-c20-1937-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1937-11-01"
+      ]
     }
   ]
 }

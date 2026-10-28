@@ -1,0 +1,33 @@
+{
+  "docId": "tbmm-nutuk-1935-11-01",
+  "sourceId": "tbmm-zc-d5-i1-c6-1935-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1935.pdf",
+  "pdfPages": "2-3",
+  "printedPages": "2-3",
+  "capturedAt": "2026-10-28",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-28",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır (, . ; : ) ! ? ve açılan parantez sonrası)",
+    "cümle notun önünde bitmişse notun sonundaki nokta nota aittir: {(Alkışlar).}"
+  ],
+  "sha256": "9275183504f5017198a3bbac0219088daa5fff3bdebcc9d7810d85159ca97bbf",
+  "uncertain": [
+    "Bu baskıda ı ve n harfleri yer yer aşınmış, m gibi görünüyor (\"Kamutaym\", \"Saym\", \"Aydm\", \"bakmmdan\", \"yoğaltmı\", \"çalışmalarmı\", \"Urbaylarm\"). Bağlama göre Kamutayın, Sayın, Aydın, bakımından, yoğaltımı, çalışmalarını, Urbayların okundu. Bütün bu yerleri taramada kontrol edin.",
+    "s.3 sol, \"uraylarm\": baskıda böyle. \"uraylarının\" olabilir; aynen \"uraylarm\" yazıldı. Büyütülmüş taramada kontrol edin.",
+    "s.3 sol, \"kınavımızı\": baskıda \"kmavımızı\" (ın aşınmış); kınavımızı okundu.",
+    "s.3 sağ, \"Sayım vergisinde\": baskıda \"Saym\" (m aşınmış); Sayım okundu (bir vergi adı). \"Saym arkadaşlar!\" satırlarında ise Sayın okundu.",
+    "\"arsıulusal\" (s.2 sol, s.3 sol, s.3 sağ): baskıda böyle. Büyütülmüş taramada kontrol edildi, aynen alındı.",
+    "s.2 sol, \"kuvvette olmak .. sulhu\" ve \"önem vermek...\": baskıda iki ve üç nokta basılmış; noktalar aynen duruyor (boşluk kuralı gereği \"..\" önündeki dizgi boşluğu kalkar).",
+    "Kamutay, saylavlar, ulus, arsıulusal, genlik, göreyi, gütmesini, önemek, bark, soyak, anık, yoğaltımı, korum, maliğ: baskıdaki öz Türkçe sözcükler. Aynen alındı.",
+    "\"Mağden\" (s.3 sol), \"radiyo\", \"icablara\", \"nomal\", \"ispektörlük\", \"Hükûmet\" (û şapkalı okundu): baskıda böyle. Aynen alındı.",
+    "s.3 sol, \"(Alkışlar)\" notlarından önce nokta olan yerler (\"amaçlardandır. (Alkışlar).\", \"olacaktır. (Alkışlar).\", \"lâzımdır. (Alkışlar).\", \"edeceğiz. (Alkışlar).\"): not sonundaki nokta nota ait sayıldı.",
+    "s.3 sağ, \"Havacılarımız ... kahramanlardır. (Alkışlar). Büyük millet\": not tümcenin ortasında; not çıkarılınca metin \"kahramanlardır. Büyük millet\" olur.",
+    "s.2 sol sonu \"insan-\" → s.2 sağ başı \"lığın\"; s.2 sağ sonu → s.3 sol başı \"Doğu vilâyetlerimizin\"; s.3 sol sonu \"yüksek de-\" → s.3 sağ başı \"ğeri belli olan radiyo işine\": sayfa/sütun geçişlerinde bölünmüş sözcükler birleştirilerek okundu.",
+    "Konuşmadan önceki Muvakkat Başkan satırları, sahne notu, \"Seçimler\" bölümü ve sayfa başı/sonu satırları (\"— 2 —\", \"— 3 —\") alınmadı. Konuşma s.3 sağ sütunda \"3 — SEÇİMLER\" başlığından önce biter."
+  ]
+}

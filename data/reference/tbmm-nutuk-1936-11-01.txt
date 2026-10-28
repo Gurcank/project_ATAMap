@@ -1,0 +1,353 @@
+# T.B.M.M. Zabıt Ceridesi, Devre V, İçtima 2, Cild 13, Birinci inikad, 1-XI-1936 Pazar, s. 4-7.
+# 2 - Nutuklar, 1 - Reisicümhurun nutku.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1936.pdf (PDF s. 2-5)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Konuşmadan önceki Muvakkat Başkan satırları ("Ekseriyet vardır. Şimdi Cümhur Reisi gelerek nutuklarını
+# okuyacaklardır.") ve sahne notu ("(Reisicümhur Kamâl Atatürk şiddetli ve sürekli alkışlar arasında
+# Başkanlık kürsüsünü şereflendirdiler.)") konuşmanın parçası değildir, alınmadı.
+# Konuşma s.5 sağ sütunda "3 — SEÇİMLER" başlığından önce biter; seçim bölümü alınmadı.
+# Bu baskıda bazı harfler yer yer aşınmış ("Moclis", "hor", "söylemeliyin"); bağlama göre okundu.
+# Ayrıntı: meta dosyasındaki şüpheli yerler.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.472
+¶Sayın millet vekilleri,
+¶Sizi, sevgi ve saygılarımla selâmlıyarak, be-
+şinci devrenin ikinci senesini açıyorum.
+¶Derhal, söylemeliyim, ki, bu seneki çalışma-
+larımızın, da, memleket ve millet işlerinde, ye-
+ni iyilikler ve ilerlemeler yapacağma kaniğim.
+¶Geçen yıl, Türk milleti, huzur ve sükûn
+içinde, millî ve insanî ülküye, aşk ile koşan
+kuvvetli ve çalışkan bir varlık gösteriyordu.
+¶İdarede ve Adliyede yeni kanunların ve ye-
+ni teşkilâtın vatandaşı sevindiren neticeleri gö-
+rülüyordu.
+¶Ekonominin her sahasında ve memleketin
+her tarafında, Türkler, kendilerine ve Devlet-
+lerine tam bir güven içinde çalışıyorlardı {(Al-
+kışlar)}.
+¶Cümhuriyet, yeni ve sağlam esaslarile, Türk
+milletini emîn ve metîn bir istikbal yoluna
+koyduğu kadar, asıl, fikirlerde ve ruhlarda ya-
+rattığı güvenlik itibarile, büsbütün yeni bir
+hayatın müjdecisi olmuştur {(Alkışlar)}. Sene-
+ler geçtikçe, millî ideal verimleri, güvenle ça-
+lışmada, ilerleme hevesinde, millî birlik ve mil-
+lî irade şeklinde, daha iyi gözlere çarpmakta-
+dır. Bu, bizim için çok önemlidir; çünki, biz,
+esasen millî mevcudiyetin temelini, millî şu-
+urda ve millî birlikte görmekteyiz {(Bravo ses-
+leri, alkışlar)}.
+¶Halk ile Hükûmet arasındaki yakınlık ve
+beraber çalışma gayreti, ayrıca, memnuniyeti
+mucib bir seviyededir. Bu hususta partimizin
+feyizli önderliğini ehemmiyetle keydetmek iste-
+rim.
+¶İdarî ve ekonomik tedbirlerin iyi tatbıkı ve
+
+## s.2 sağ 0.472
+tatbik neticelerinin iyi anlaşılması için, halkın
+Hükûmete yardım etmek hevesi, iftihar oluna-
+cak bir tezahürdür. Bu ruhî vaziyet, Türk mil-
+letini ilerletmek ve Türk vatanını imar etmek
+için, çok verimli ve çok esaslı bir âmildir.
+¶Devleti ve Hükûmeti kendi malı ve koruyu-
+cusu tanımak, bir millet için büyük nimet ve
+mazhariyettir {(Alkışlar)}. Türk milleti bu ne-
+ticeye Cümhuriyette varmış ve her sene bunun
+artan semerelerini görmüş ve göstermiştir {(Al-
+kışlar)}. Milletimizin, maddî ve manevî huzu-
+runa, her şeyden fazla ehemmiyet verişimizin
+ne kadar yerinde olduğu anlaşılıyor.
+¶Arkadaşlar;
+¶İlk tahsilin yayılması için, sade ve pratik
+tedbirler almak yolundayız. İlk tahsilde hede-
+fimiz, bunun umumî olmasını bir an evvel ta-
+hakkuk ettirmektir. Bu neticeye varmak, an-
+cak, fasılasız tedbir almakla ve onu metodik
+tatbikle mümkün olabilir. Milletin başlıca bir
+işi olarak, bu mevzuda ısrar etmeyi lüzumlu
+görüyorum. Sangat ve teknik mekteblerine rağ-
+bet artmıştır. Bunu sevinçle söylerken, her tür-
+lü teşviki arttırmak lâzım olduğunu da ilâve et-
+mek isterim.
+¶Yüksek tahsil için, Ankara Üniversitesini
+tesis etmek yolunda, Tıb fakültesine de başla-
+yarak, yeni ve en külfetli hamlenin atılmasını
+dilerim.
+¶Güzel sangatlara da alâkanızı yeniden can-
+landırmak isterim.
+¶Ankarada bir Konservatuvar ve bir Temsil
+akademisi kurulmakta olmasını zikretmek, be-
+nim için bir hazdır.
+¶Güzel sangatların her şubesi için, Kamuta-
+yın göstereceği alâka ve emek, milletin insanî
+ve medenî hayatı ve çalışkanlık veriminin art-
+ması için, çok tesirlidir.
+¶Başlarında kıymetli Maarif vekilimiz bulu-
+nan, Türk Tarih kurumu ile Türk Dil kurumu-
+nun, her gün yeni hakikat ufukları açan, cid-
+
+## s.3 sol 0.515
+dî ve devamlı mesaisini takdirle yadetmek is-
+terim. Bu iki ulusal kurumun, tarihimizin ve
+dilimizin, karanlıklar içinde unutulmuş derinlik-
+lerini, dünya kültüründeki analıklarını, reddo-
+lunamaz ilmî belgelerle ortaya koydukça, yal-
+nız Türk milleti için değil, ve fakat bütün ilim
+âlemi için, dikkat ve intibahı çeken, kutsal
+bir vazife yapmakta olduklarını emniyetle söy-
+leyebilirim {(Alkışlar)}. Tarih kurumunun Ala-
+cahöyükte yaptığı kazılar neticesinde, meyda-
+na çıkardığı, beş bin beş yüz senelik maddî
+Türk tarih belgeleri, cihan kültür tarihini ye-
+ni baştan tetkik ve tamik ettirecek mahiyette-
+dir. Bir çok Avrupalı âlimlerin iştirakile top-
+lanan, son Dil kurultayının ışıklı neticelerini
+bizzat görmüş olmakla çok mutluyum. Bu ulu-
+sal kurumların az zaman içinde, ulusal akade-
+miler halini almasını temenni ederim. Bunun
+için, çalışkan tarih ve dil âlimlerimizin, dünya
+ilim âlemince tanınacak, orijinal eserlerini gör-
+mekle bahtiyar olmamızı dilerim.
+¶Sayın arkadaşlar;
+¶Ana vatana yeni kavuşan göçmen vatandaş-
+larımızın iskânı başlıca işlerimizdendir. Göç-
+menleri iyi yerleştirmek ve sürğatle üretmen
+kılmak için, onları kâfi derecede techiz etme-
+ğe çalışıyoruz. Aldığımız neticeler ümid veri-
+cidir. Bu millî meseleye, tahsis edebildiğimiz
+vesait derecesinde, fakat ara vermeksizin de-
+vam edeceğiz.
+¶Demiryolu inşası programına devam ediyo-
+ruz. Buna muvazi olarak, yol ve köprü inşa-
+atına, daha fazla vesait tahsis edebilmek, arzu-
+ya şayandır. Her halde su işleri için verilen
+vesaiti arttırmaya lüzum vardır. Şimdiye ka-
+dar muhtelif yerlerde yapılmış ve yapılmakta
+olan ufak büyük su işleri, çok teşvik edici ne-
+ticeler vermektedir {(Alkışlar)}. Kamutayın, su
+işleri için yeni imkânlar aramasını lüzumlu gör-
+mekteyim.
+¶Telefon şebekesi memleket içinde, bir pro-
+gram dahilinde genişlemektedir. Bu faaliyeti
+takdir ve teşvik etmek isterim. Yakın bir za-
+manda iyi bir radyo merkezine nail olacağımı-
+zı umarım.
+¶Ticarî hava nakliyesi işlerinin emniyetli, in-
+tizamlı devamını ve genişlemesini ise, çok önem-
+li tutmaktayım.
+¶Sayın vekiller;
+¶Ekonomi sahalarında millî faaliyetimizin
+artmasından ve genişlemesinden sevinç duy-
+maktayız. Cümhuriyetin ekonomik tedbirleri
+her sahada feyizli semereler vermektedir.
+¶Ziraatta kalkınmayı kolay ve çabuk yap-
+mak için şartlar, çok ilerlemiş ve hazırlanmış-
+tır. Yeni usulde ve yeni makineler kullanmak-
+ta, iyi teşkilâtla yapılacak yardımların sürğat-
+le semere vereceğini görüyoruz. Kooperatif
+
+## s.3 sağ 0.515
+teşkilâtı her yerde sevilmiştir. Kredi ve satış
+için olduğu kadar, istihsal vasıtalarını öğretib
+kullandırmak için de, kooperatiften istifadeyi
+mümkün görüyoruz.
+¶Ziraatte hastalıklar ile mücadele işine daha
+çok ehemmiyet vermek lâzımdır.
+¶Toprak kanununun bir neticeye varmasını
+Kamutayın yüksek himmetinden beklerim. Her
+Türk çiftçi ailesinin, geçineceği ve çalışacağı
+toprağa malik olması, behemehal lâzımdır {(Al-
+kışlar)}. Vatanın sağlam temeli ve imarı bu esas-
+tadır. Bundan fazla olarak, büyük araziyi mo-
+dern vasıtalarla işletip vatana fazla istihsal te-
+min edilmesini teşvik etmek isteriz {(Alkışlar,
+bravo sesleri)}.
+¶Ticaret münasebetlerimiz bu sene daha ge-
+nişlemiştir. Karşılıklı genişlik ve kolaylık, ta-
+kib ettiğimiz esastır. İhracatımızın kolaylaştırıl-
+dığı yerde idhalâtın artmasından sakınmıyoruz,
+bu ithalâtı arttırmak ve kolaylaştırmağa çalışı-
+yoruz. Bu dürüst politika üç senedenberi ticare-
+timiz hacmini muntazaman arttırmıştır.
+¶Endüstri proğramının tatbıkı, ciddî olarak
+devam ediyor. Her yeni endüstri eseri, muhiti-
+ne refah ve medeniyet, ve bütün memlekete haz
+ve kuvvet vermektedir. İkinci proğramın hazır-
+lıkları şevk ile ilerlemektedir.
+¶Maden işletilmesi inkişaf halindedir. Ma-
+denlerimiz bizim başlıca bir döviz kaynağımız
+olduğu için de, yüksek dikkatinizi celbe değer-
+lidir.
+¶Artvin civarında bakır madenlerinden biri-
+nin işlemeğe başlamasından memnun olduk. Er-
+gani bakır madeninin işlemeğe başlamasını,
+memleket için mühim bir fayda telâkki ediyo-
+ruz. Yine memleket için pek ehemmiyetli bul-
+duğumuz diğer mesele, kömür havzasının ras-
+yonel olarak işlemesidir. Üzerinde bulunduğu-
+muz tedbirlerin sürğatle netice vermesini temen-
+ni ederim.
+¶Deniz ve deniz mahsulleri ticaret ve endüs-
+trisi önemli bir mevzuumuzdur.
+¶Ticaret filomuzu yenilemek ve arttırmak te-
+şebbüsünü memnun olarak kaydediyoruz. Li-
+manlarımızda kâfi teşkilât yapılması, umumî
+mağazalar ve antrepolar bulundurulması mu-
+karrerdir.
+¶İş kanununun tatbıkı için icab eden teşkilâ-
+tın kurulması lâzımdır. Ayrıca deniz ve ziraat
+işçileri için de, yeni kanunlar hazırlanmalıdır.
+¶Küçük kredi mevzuunun ehemmiyetle ele
+alınmasını, Büyük Meclisin dikkatine arzede-
+rim.
+¶Bu sene, Ziraat bankasının yeni kanun lâyi-
+hası, çalışma mevzularınız arasında olacaktır.
+¶Bankaları ve kredi tevziini inzıbata alan,
+kooperatifleri kuran ve genişleten kanunları-
+nızdan sonra, bu yeni eserleriniz memleketin
+kredi hayatında verimli olacaktır.
+¶Maliyemiz, memnun olacağınız surette, müs-
+
+## s.4 sol 0.468
+bet ve verimli vaziyettedir. Muvazeneye husu-
+sî ehemmiyet veren Büyük Meclis, her sene va-
+ridatı fazlası ile temin etmeğe muvaffak olmak-
+tadır. Bu sene de tahminlerin tahakkuk edece-
+ğine emniyet edebiliriz.
+¶Hayatı ucuzlatmak icab ettikçe, vergileri in-
+dirmek siyasetine devam edeceğiz. Tuz, şeker,
+çimento, sayım vergilerinde iki sene içinde yap-
+tığınız cesurane indirmeler, her bakımdan fay-
+dalı olmuştur.
+¶Bu sene hem ilk ihtiyaçlardan, hem esaslı
+kuvvet vasıtalarından olan petrol ve müştak-
+ları üzerindeki resimlerden geniş mikyasta in-
+dirme yapmağa muvaffak olmanızı dilerim {(Al-
+kışlar)}.
+¶Bundan başka, vergi usullerinin ıslahı çare-
+lerinin aranmasına da ehemmiyetle devam olun-
+malıdır. İyi usul ve iyi tatbıkın memnun edici
+neticelerini vatandaş, hiç bir işte vergi mevzuu
+kadar hassasiyetle takdir etmez.
+¶Diğer taraftan vatandaşın Hazineye karşı
+mükellefiyetinin, en mühim vazifesi olduğunu
+anlatmak için, yorulmamak lâzımdır. Şüphe
+yoktur ki, bahusus Devletçi ve halkçı olan bir
+idare ve ekonomi hayatında, Hazinenin kudret
+ve intizamı, başlıca mesnettir. Cümhuriyetin
+kudreti de her sahada ve millî müdafaa saha-
+sında, ihtiyaçlarını karşılayan Hazinesinin inti-
+zamındadır. Gelecek yıllar için de Hazinenin
+kudretini muhafaza etmek, sizin en mühim işi-
+niz olacaktır. Millî paramızın filen müstakir olan
+kıymeti muhafaza olunacaktır {(Alkışlar)}.
+¶Aziz arkadaşlar,
+¶Millî müdafaa vasıtalarına senelerden beri
+verdiğimiz ehemmiyetin yerinde olduğunu, hâdi-
+seler her gün göstermektedir {(Bravo sesleri, al-
+kışlar)}.
+¶Ordumuzu en yeni vasıtalarla mütemadiyen
+techiz etmeğe çalışıyoruz. Yüksek kıymetini
+arttırmağa verdiğimiz ehemmiyet ise, daha zi-
+yadedir.
+¶Ordunun çalışmalarından ve bütün milletin
+vatan müdafaası için severek ve isteyerek ça-
+lışmak şevkinden memnunuz {(Alkışlar)}.
+¶Deniz silâhlarına ehemmiyet veriyoruz. De-
+nizcilerimizin iyi silâhlı ve iyi talimli olarak
+hazırlanmaları büyük emelimizdir {(Alkışlar)}.
+¶Hava ordusuna sarfettiğiniz himmeti arttır-
+manızı dilerim. Yeni bir programın tatbikat
+devresinde bulunduğumuz için, hava kuvvet-
+lerimiz arzumuz derecesinden henüz uzaktır.
+Kuvvetli bir hava ordusu vücude getirmek yo-
+lunda iyi neticelere doğru emniyetle yürümek-
+te olduğumuzu ifade ederken, hava taarruzla-
+rına karşı milletin hazırlanması için de ayrıca
+alâkanızı uyandırmak isterim.
+¶Bu sene içinde arsıulusal bakımdan bizim
+için mesud hâdiseler oldu.
+¶İngiltere Kıralı Sa Majeste Sekizinci Ed-
+
+## s.4 sağ 0.468
+vardın mütenekkiren ziyaretini ve Boğazlarda
+yeni rejimin (Montrö) mukavelesinin derpiş et-
+tiği veçhile tatbika başlandığını, bunların ba-
+şında olarak zikretmeliyim {(Sürekli alkışlar)}.
+¶Tanışmakla bahtiyar olduğum İngilizlerin
+Büyük Kıralile aramızda husule gelen dostlu-
+ğun, milletlerimizin temayülâtına uygun olarak,
+iki Hükûmet arasında filen inkişaf etmekte olan
+samimî münasebat üzerinde hayırlı tesirine şüp-
+he yoktur {(Alkışlar)}.
+¶Türkiyenin hakkını teslim etmekle yüksek
+dostluk ve anlayış gösteren (Montrö) mukave-
+lesi âkidleri, ayni zamanda kritik devam eden
+arsıulusal durumun bu önemli devresinde, istik-
+rarı için herkesin çalışması icab eden umumî
+sulh işine de değerli hizmet etmiş oldular {(Al-
+kışlar)}.
+¶Tarihte bir çok defa münakaşa ve ihtiras
+vesilesi olmuş olan Boğazlar, artık tamamile
+Türk hâkimiyeti idaresinde, yalnız ticaret ve
+dostluk münasebetlerinin muvasala yolu haline
+girmiştir {(Alkışlar)}. Bundan böyle muharib
+her hangi bir Devletin harb sefinelerinin Boğaz-
+lardan geçmesi memnudur {(Bravo sesleri, al-
+kışlar)}.
+¶Bu münasebetle, karada ve denizde Büyük
+komşumuz Sovyet Rusya ile aramızdaki, on beş
+seneden beri her türlü tecrübeden geçmiş olan
+dostluğun, ilk gündeki kuvvet ve samimiyetini
+tamamile muhafaza ederek, tabiî inkişafında
+devam ettiğini beyan etmekle de, ayrıca mem-
+nuniyet duyarım {(Sürekli alkışlar)}.
+¶Bu sene içinde, Afganistanın kıymetli Ha-
+riciye ve Harbiye vezirlerile görüşmekten de
+memnun oldum.
+¶Dost ve müttefik Yugoslavyanın Yüksek
+Başvekil ve Hariciye Nazırının Millî Bayramı-
+mızda aramızda bulunması, bize ayrı bir se-
+vinç verdi {(Alkışlar)}.
+¶Balkanlılar arasındaki kardeşliğin tarsini,
+bizim ötedenberi başlıca emelimizdir.
+¶Türk - Yugoslav bağlılığı bunun esaslı bir
+tezahürüdür {(Alkışlar)}.
+¶Diğer müttefiklerimiz ve dostlarımız ile de
+temaslarımız, daimî ve samimidir. Balkanlar-
+da, Garbî Asyada ve Şarkî Akdenizde mevcud
+sulhün devamı, eski dünyanın bir çok diğer
+yerlerine nisbetle, daha emin görünmektedir
+{(Alkışlar)}. Türkiyenin bütün Devletlerle mü-
+nasebetlerinin iyi olduğunu memnuniyetle kay-
+dederim {(Alkışlar)}.
+¶Bu sırada, Milletimizi gece gündüz meşgul
+eden başlıca büyük bir mesele, hakikî sahibi
+öz Türk olan «İskenderon - Antakya» ve hava-
+lisinin mukadderatıdır {(Bravo sesleri, sürekli
+alkışlar)}. Bunun üzerinde, ciddiyet ve katiyet-
+le durmaya mecburuz {(Ayakta sürekli alkış-
+lar, yaşa, varol sesleri)}.
+¶Daima kendisi ile dostluğa çok ehemmiyet
+
+## s.5 sol 0.527
+verdiğimiz Fransa ile aramızda, tek ve büyük
+mesele budur {(Hallolmalı sesleri)}. Bu işin haki-
+katını bilenler ve hakkı sevenler, alâkamızın
+şiddetini ve samimiyetini iyi anlarlar ve tabiî
+görürler {(Alkışlar)}.
+¶Önümüzdeki sene, müzakereler ve silâhlan-
+ma yarışları ile büyük bir hazırlık senesi olaca-
+ğa benziyor. Devletler arasındaki ihtilâfların
+
+## s.5 sağ 0.527
+anlaşmalara varmasını samimiyetle dileriz.
+¶Sayın Millet Vekilleri;
+¶Ağır ve önemli işleriniz, size, millet yo-
+lunda, esaslı hizmetler hazırlamaktadır. Mille-
+tin sevgileri, hayırlı ve faydalı çalışmalarınız-
+da sizinle beraberdir {(Sürekli alkışlar, bravo
+Atatürk sesleri)}.

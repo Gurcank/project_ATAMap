@@ -1,0 +1,35 @@
+{
+  "docId": "tbmm-nutuk-1936-11-01",
+  "sourceId": "tbmm-zc-d5-i2-c13-1936-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1936.pdf",
+  "pdfPages": "2-5",
+  "printedPages": "4-7",
+  "capturedAt": "2026-10-28",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-28",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır (, . ; : ) ! ? ve açılan parantez sonrası)",
+    "cümle notun önünde bitmişse notun sonundaki nokta nota aittir: {(Alkışlar).}"
+  ],
+  "sha256": "150bec3ae016439c41d835e92f13e65f4d9bcf8677f60e8a5c1f00864e2f3fb1",
+  "uncertain": [
+    "s.2 sol, \"yapacağma kaniğim\": baskıda böyle (büyütülmüş taramada kontrol edildi). \"yapacağıma kanığım\" olabilir; aynen yazıldı.",
+    "s.2 sol, \"söylemeliyim, ki,\": \"ki\" harfleri aşınmış; virgüllerle okundu.",
+    "s.2 sağ, \"Sangat\", \"sangatlara\", \"sangatların\": baskıda ğ ile \"sangat\"; aynen alındı (büyütülmüş taramada kontrol edildi).",
+    "s.2 sağ, \"ruhî vaziyet\": son harfler aşınmış (\"ruhiğ\" gibi); ruhî okundu.",
+    "s.2 sağ, \"halkın\", \"yardım\", \"başlayarak\" gibi yerlerde ı/n aşınmış, m gibi görünüyor; bağlama göre okundu.",
+    "s.3 sol, \"az zaman içinde\": \"zamau\" gibi aşınmış; zaman okundu.",
+    "s.3 sol, \"ilim âlemince\": \"âleminco\" gibi aşınmış; âlemince okundu.",
+    "s.3 sol, \"sürğatle üretmen kılmak\": baskıda \"üretmen\" son harfi kesik; \"üretmen kılmak\" okundu.",
+    "s.4 sol, \"Meclis\", \"her\", \"Büyük\", \"kıymetini\": e harfi c/o gibi aşınmış; bağlama göre okundu.",
+    "s.4 sağ, satır başı ve sonu: \"İngiltere Kıralı Sa Majeste Sekizinci Ed-\" + \"vardın\" → \"Edvardın\" (sütun geçişinde bölünmüş sözcük birleştirildi).",
+    "\"arsıulusal\" (s.4 sol, s.4 sağ): baskıda böyle; aynen alındı.",
+    "\"(Montrö)\" (s.4 sağ, iki yerde): konuşmanın kendi sözüdür, stenograf notu değil; metinde kalır. Aynı şekilde «İskenderon - Antakya» ve \"Türk - Yugoslav\" yazımları aynen alındı.",
+    "Sütun/sayfa geçişleri: s.2 sol sonu \"iyi tatbıkı ve\" → s.2 sağ başı \"tatbik neticelerinin\"; s.2 sağ sonu \"cid-\" → s.3 sol başı \"dî\"; s.3 sol sonu \"Kooperatif\" → s.3 sağ başı \"teşkilâtı\"; s.3 sağ sonu \"müs-\" → s.4 sol başı \"bet\"; s.4 sağ sonu \"ehemmiyet\" → s.5 sol başı \"verdiğimiz\"; s.5 sol sonu \"ihtilâfların\" → s.5 sağ başı \"anlaşmalara\".",
+    "Konuşmadan önceki Muvakkat Başkan satırları, sahne notu, \"3 — SEÇİMLER\" bölümü ve sayfa başı/sonu satırları (\"— 4 —\", \"— 5 —\", \"— 6 —\", \"İ : 1 1-11-1936 C : 1\") alınmadı."
+  ]
+}

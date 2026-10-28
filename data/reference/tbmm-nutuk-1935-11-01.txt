@@ -1,0 +1,156 @@
+# T.B.M.M. Zabıt Ceridesi, Devre V, İçtima 1, Cild 6, Birinci inikad, 1-XI-1935 Cuma, s. 2-3.
+# 2 - Nutuklar, 1 - Reisicümhurun nutku.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1935.pdf (PDF s. 2-3)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Konuşmadan önceki Muvakkat Başkan satırı ("Reisicümhur celseyi açacaklar ve senelik nutuklarını
+# söyleyeceklerdir.") ve sahne notu ("(Reisicümhur Kamâl Atatürk, şiddetli ve sürekli alkışlar
+# arasında başkanlık kürsüsünü şereflendirdiler).") konuşmanın parçası değildir, alınmadı.
+# Bu baskıda ı ve n harfleri yer yer aşınmış, m gibi görünüyor ("Kamutaym", "Saym", "Aydm", "bakmmdan");
+# bağlama göre ı/n okundu. Konuşma öz Türkçe sözcükler içerir ("Kamutay", "arsıulusal", "saylavlar",
+# "uray", "kınav"), aynen alındı. Ayrıntı: meta dosyasındaki şüpheli yerler.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.465
+¶Büyük milletin yüce vekilleri;
+¶Kamutayın beşinci devresini açarken sizlere
+derin saygılarımı sunarım. {(Alkışlar).}
+¶Kamutay, arsıulusal durumun çok önemli bir
+zamanında çalışmaya başlıyor.
+¶Hâdiseler, Türk Milletine, iki ehemmiyetli
+düsturu yeniden hatırlatıyor:
+¶Yurdumuzu ve haklarımızı müdafaa edecek
+kuvvette olmak .. sulhu koruyacak arsıulusal ça-
+lışma birliğine önem vermek... {(Alkışlar).}
+¶Sulhun bozulmuş olmasından izdırap duyma-
+mak mümkün değildir. Her halde, bu günkü,
+ağır ihtilâfların ortadan kalkması, medenî insan-
+
+## s.2 sağ 0.465
+lığın başlıca dileği olmalıdır {(Bravo sesleri, al-
+kışlar)}.
+¶Bizim sulh ülküsüne ne kadar bağlı olduğu-
+muzu, bu ülkünün güvenlik altına alınmasındaki
+dileğimizin ne kadar esaslı bulunduğunu izaha
+lüzum görmüyorum.
+¶Bu hususta çalışan Uluslar Sosyetesinin, tec-
+rübelerden istifade ederek prensiblerini tekâmül
+ettirmesi ve sulhu koruma kudretini artırması
+samimî arzumuzdur {(Bravo sesleri)}.
+¶Sayın arkadaşlar!
+¶İç idare teşkilâtımızı, yurdun doğu bölgele-
+rinden başlayarak genişletmek ihtiyacını duy-
+maktayız.
+¶Yeniden iki genel ispektörlük ve yeniden
+bazı vilâyetlerin kurulması da lüzumlu görül-
+mektedir. Bu arada Dersim bölgesinde esaslı bir
+ıslahat programının tatbikı da düşünülmüştür.
+¶Vilâyetlerimizin devamlı teftişini ve müş-
+terek işlerinin bir elden takibini kollayan ge-
+nel ispektörlerden çok faydalar bekliyoruz.
+
+## s.3 sol 0.5
+¶Doğu vilâyetlerimizin belli başlı ihtiyacı,
+orta ve batı illerimize demir yollarla bağlan-
+maktır. Şarka ilerleyen iki ana demir yolunun
+hızla bitirilmesini ve bunları birbirine bağlıya-
+cak yollar örüğüne şimdiden başlanmasını lü-
+zumlu görüyoruz.
+¶İran - Türkiye transit yolunun teşkilâtlan-
+ması özenle bitirilmelidir.
+¶Liman ve sulama işlerinde acele yapılacak
+şeyler vardır. Sağlık savaşı da yeni icablara
+göre genişletilmek zaruretindedir.
+¶Saydığım bütün bu işleri, Hükûmetin kesin
+bir program içinde gütmesini bekliyebiliriz.
+¶Üzerinde önemle durmak istediğim bir ci-
+heti de bildirmeliyim.
+¶Türk ülkesi içinde köylere varıncaya kadar
+küçük büyük bütün şehirlerimizin birer genlik
+ve bayındırlık göreyi olması önde tuttuğumuz
+amaçlardandır. {(Alkışlar).}
+¶Türke ev ve bark olan her yer sağlığın, te-
+mizliğin, güzelliğin, modern kültürün örneği
+olacaktır. {(Alkışlar).}
+¶Devlet kurumları yanında, doğrudan doğru-
+ya bu işlerle ilgin olan uraylarm bu görüş ve
+düşünüşle çalışmalarını istiyorum.
+¶Urbayların Devlet merkezinde toplanışı bu
+işin sonucu değil başlangıcıdır.
+¶Bayanlar, Baylar;
+¶Endüstri programımız, nomal gidişindedir.
+Bununla beraber yurdun endüstrileşmesine daha
+çok hız verilmesi ve yakın bir çağda, yeni bir
+ikinci programa başlanması lüzumuna dikkati-
+nizi uyandırmak isterim.
+¶Mağden işleri yeni bir açılma devresindedir.
+Mağden mühendislerimizi, ihtiyaca yeter sayı ve
+değerde yetiştirmeği önemek gerektir.
+¶Kömür havzasının rasyonel işlemesi için ted-
+birler aramak ta lâzımdır. {(Alkışlar).}
+¶Bir de arkadaşlar! Köylümüzün genlik dü-
+zeyinin yükselmesi tedbirlerine daha geniş öl-
+çüde özenle devam edeceğiz. {(Alkışlar).}
+¶Aydın saylavlar! Kültür kınavımızı, yeni ve
+modern esaslara göre, teşkilâtlandırmaya dur-
+madan devam ediyoruz. Türk tarih ve dil çalış-
+maları, büyük inanla beklenilen ışıklı verimle-
+rini şimdiden göstermektedir.
+¶Ulusal musikimizi, modern teknik içinde yük-
+seltme çalışmalarına, bu yıl daha çok emek ve-
+rilecektir.
+¶Ulusal kültür için pek lüzumlu olduğu gi-
+bi, arsıulusal ilgiler bakımından da yüksek de-
+
+## s.3 sağ 0.5
+ğeri belli olan radiyo işine önem vermeniz çok
+yerinde olur.
+¶Sayın arkadaşlar!
+¶Maliyede, geçen yıl, cesaretle aldığımız
+tedbirlerin, ne kadar yerinde olduğu sabit ol-
+muştur. Tuz ve şeker fiatlerinin düşürülmesi,
+halkı hoşnut etmiş ve yoğaltımı artırmıştır.
+¶Bu yıl, başka konularda da, bu yönden
+tedbirler alacaksınız. Sayım vergisinde ve bi-
+na kıymetlerinde indirim faydalı olacaktır.
+Arazi ve yapı vergilerinin hususî idarelere dev-
+ri önemli ıslahattan sayılacaktır.
+¶Vergi indirimlerini Hazinenin karşılayabil-
+mesi, ülke ekonomi kudretinin yüksekliğine
+değerli bir belgedir {(Alkışlar)}.
+¶Ekonomik teşkilât, teknik temeller üzerine
+yerleşerek yükseldikçe, yurdun verimi çok da-
+ha ziyade olacaktır. Ancak, bütün özenimizi
+vererek vatanın teşkilâtlanması hızını artır-
+mak gerektir.
+¶Arsıulusal siyasanın gidişi ulusal korum
+araçlarını artırmaya da lüzum göstermektedir.
+Bunun maliğ çarelerini dikkatli ve isabetli bir
+surette araştırmanızı dilerim.
+¶Tayyare filolarımızı vücude getirmek için
+büyük milletimizin yüce ilgisini heyecanla an-
+mak borcumdur.
+¶Son arsıulusal hâdiseler, Türk milleti için
+kudretli bir hava ordusunun, hayatığ önemde
+tutulmasına bir daha hak verdirdi {(Alkışlar)}.
+Çok emekle kurduğumuz, canımızla korumaya
+and içtiğimiz kutsal yurdun, havadan saldırış-
+lara karşı güvenlik altında bulunması demek,
+bize saldıracakların, kendi yurdlarında bizim
+de ayni zararları yapabileceğimize güvenimiz
+demektir {(Şiddetli alkışlar, bravo sesleri)}. Bu
+güveni, her gün, artıracak araç bulmakta,
+büyük Türk ulusunun, ne göksel bir duyguyu
+kalbinde taşıdığını her ferdinin vatan için tu-
+tuşan gözlerinde okumaktayız {(Alkışlar)}.
+¶Havacılarımız, bütün ordu ve donanmamız
+gibi vatanı korumaya anık kahramanlardır.
+{(Alkışlar).} Büyük millet, bu soyak evlâtlarile
+kendini mutlu sayabilir {(Alkışlar)}.
+¶Sevgili arkadaşlarım!
+¶İşlerimiz çoktur, geniştir, önemlidir. Fakat,
+başarılacağına sarsılmaz güvenim vardır. Çün-
+kü, Kamutay vatan severliğin, çalışkanlığın, ted-
+birde isabetin ideal örneğidir {(Alkışlar)}. Kamu-
+tay, yurdun korunması, onun bayındırlığı için en
+yüksek ulusal ilham ve kudret kaynağıdır {(Şid-
+detli ve sürekli alkışlar)}.

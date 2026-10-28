@@ -1,0 +1,38 @@
+{
+  "docId": "tbmm-nutuk-1937-11-01",
+  "sourceId": "tbmm-zc-d5-i3-c20-1937-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1937.pdf",
+  "pdfPages": "2-8",
+  "printedPages": "3-9",
+  "capturedAt": "2026-10-28",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-28",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır (, . ; : ) ! ? ve açılan parantez sonrası)",
+    "cümle notun önünde bitmişse notun sonundaki nokta nota aittir: {(Alkışlar).}"
+  ],
+  "sha256": "b1399f8f8c9cc7369eb76bfbeefa0e40ec3c504d196012516473ae45f5f8b976",
+  "uncertain": [
+    "Bu baskıda ı ve n harfleri çok yerde aşınmış, m gibi görünüyor (\"Saym\", \"Kamutaymn\", \"vatandaşlarm\", \"tavsiyelerimin\"). Bağlama göre ı/n okundu. Bütün bu yerleri taramada kontrol edin.",
+    "Son hecedeki î yerine baskıda ğ basılmış çok sayıda sözcük var (\"milliğ\", \"hayatiğ\", \"adliğ\", \"büroğ\", \"hususiğ\", \"siyasiğ\", \"daimiğ\", \"âzamiğ\", \"ticariğ\", \"maliğ\", \"tabiiğ\", \"kanuniğ\", \"samimiğ\", \"hakikiğ\", \"filiğ\", \"medeniğ\", \"hariciğ\", \"iptidaiğ\", \"sanayiğ\", \"nefiğ\", \"Şarkiğ\", \"ciddiğ\", \"diziğ\"). Aynen alındı; çoğu için büyütülmüş taramada kontrol edildi.",
+    "s.2 sağ, \"‘‘Sağlam ve gürbüz nesil, Türkiyenin mayasıdır,, prensibini\": baskıda açılış tırnağı iki tek tırnak, kapanış iki virgül. İki tek tırnak olarak (‘‘) ve iki virgül (,,) olarak alındı.",
+    "s.2 sağ, \"(Meşhut cürümler)\": kanunun adıdır, konuşmanın kendi sözüdür, not değil; metinde kalır. Aynı şekilde s.5 sol \"(78) köprü\" ve \"(23) köprü\" parantezleri metinde kalır.",
+    "s.3 sol, \"çifçi\", \"çifçilerin\", \"çiflik sahiblerinin\", \"çifçilere\" (s.3 sağ): baskıda t olmadan \"çifçi\" basılmış (büyütülmüş taramada kontrol edildi). Aynen alındı.",
+    "s.4 sol, \"uğraşmak.. Bunun için\": baskıda iki nokta; aynen duruyor.",
+    "s.4 sağ, \"coçrafiğ\" (büyütülmüş taramada kontrol edildi), \"isporu\", \"ağit\", \"mağden\", \"mağdenciliği\": baskıda böyle; aynen alındı. s.5 sol \"coğrafiğ\" ise ğ ile.",
+    "s.5 sol, \"armığan âğbideleri\", \"sanğat\": baskıda böyle; aynen alındı.",
+    "s.6 sol, \"çalrş-ma\": baskıda \"çalışma\" yerine r ile basılmış görünüyor (\"çalrş\"); büyütülmüş taramada kontrol edildi, aynen alındı.",
+    "s.6 sağ, \"ifaya baslamış\": baskıda s harfi cedilla'sız; aynen alındı. \"tatpik\", \"fiğliyata\", \"iğtina\" da baskıda böyle.",
+    "s.6 sol, \"{(Sürekli arlkışlar)}\" ve \"{(Bravo sesleri sürekli alkışlar)}\": not içindeki yazım hataları (\"arlkışlar\") baskıdaki gibi; stenograf notu olduğu için son metinde yer almaz.",
+    "s.7 sol, \"navralarında\": baskıda \"ma-/navralarında\", yani \"manavralarında\" okundu; aynen alındı. \"Eğe\" de baskıda böyle.",
+    "s.7 sağ, \"meriğyete\" (\"meriyete\" olabilir), \"Sadabat'ta\" (tek tırnak aynen), \"mesğut\": baskıda böyle; aynen alındı.",
+    "s.8 sağ, \"« kuvvet birdir, ve o milletindir »\": tırnak içi boşluklar baskıdaki gibi duruyor; \"fiğlen\", \"menğ\" aynen alındı.",
+    "Sütun ve sayfa geçişlerinde bölünmüş sözcükler birleştirildi: s.2 sağ sonu \"alâkalı\" → s.3 sol başı \"usullerde\"; s.4 sol sonu \"ilmiğ\" → s.4 sağ başı \"bir tetkik\"; s.4 sağ sonu \"bilme-\" → s.5 sol başı \"liyiz\"; s.5 sağ sonu \"mev-\" → s.6 sol başı \"cud\"; s.6 sol sonu \"Bu te-\" → s.6 sağ başı \"şebbüste\"; s.6 sağ sonu \"milletin\" → s.7 sol başı \"göğsünü\"; s.7 sağ sonu \"isterim.\" → s.8 sol başı \"Hükûmetin\"; s.8 sol sonu \"ana hat-\" → s.8 sağ başı \"lardır\".",
+    "Konuşmadan önceki Muvakkat Başkan satırları, sahne notu, \"3 — SEÇİMLER\" bölümü ve sayfa başı/sonu satırları (\"— 3 —\" … \"— 8 —\", \"İ : 1 1-11-1937 C : 1\") alınmadı.",
+    "s.6 sağ sonu \"Ordu, Türk Ordusu!.. İşte bütün milletin\" ve s.7 sol \"manavralarında..\": baskıda iki nokta; aynen duruyor."
+  ]
+}

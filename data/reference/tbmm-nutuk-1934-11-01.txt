@@ -1,0 +1,169 @@
+# T.B.M.M. Zabıt Ceridesi, Devre IV, İçtima 4, Cilt 25, Birinci İnikat, 1-XI-1934 Perşembe, s. 3-4.
+# 2 - Nutuklar, 1 - Reisicümhur Gazi Hazretlerinin nutukları.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1934.pdf (PDF s. 2-3)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Konuşmadan önceki Reis satırı ve sahne notu ("Reisicümhur Gazi Mustafa Kemal Hazretleri (Şiddetli
+# alkışlar arasında Riyaset kürsüsünü teşrif buyurdular).") konuşmanın parçası değildir, alınmadı.
+# Baskıda paragraflar arasındaki "* * *" süs işareti (yıldız öbeği) konuşmanın sözü değildir, alınmadı.
+# Parantez içindeki "(Sağlık soysal yardım bakanlığının)" konuşmanın kendi sözüdür, stenograf notu
+# değildir; bu yüzden metinde kalır.
+# Bu baskıda ı ve n harfleri yer yer aşınmış ("çocuklarınm", "bakanlığmın", "baymdırlık"); bağlama göre
+# ı/n okundu. Ayrıntı: meta dosyasındaki şüpheli yerler.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.522
+¶Büyük Millet Meclisinin sayın üyeleri,
+¶Büyük Millet Meclisinin dördüncü devresi-
+nin dördüncü toplanma yılını açarken, ulusun
+değerli vekillerine saygılarımı sunarım {(Alkış-
+lar)}.
+¶Geçen yıl içinde, yurtta çok gerekli işler
+görülmüştür. Dış işlerindeki arasız çalışmaları-
+mız da, genel sıyasamıza; ulusal ülkümüze uy-
+gun olarak başarılmıştır. Bundan ötürü, Bü-
+yük Meclisin ulus işlerindeki özeni, ulusumuzun
+canlılığı, gerçekten öğünç ile anılmağa değer
+{(Alkışlar)}.
+¶Arkadaşlar,
+¶Ülkenin ökonomik kurumunu berkiterek ge-
+nişletmek, en önde tuttuğumuz işlerdendir. Onun
+için, sanayi proğramımızı, durmadan, yürüt-
+mekteyiz.
+¶Tasarlanan fabrikalardan çoğunun temelleri
+atılmıştır; hepsinin kurulup işletilmesi için,
+fence, maliyece gerekenler de bulunmuştur {(Al-
+kışlar)}.
+¶Ülkenin, en belli eksikliğini giderecek olan
+bu fabrikaları, çok geçmeden, kurup işlet-
+mek, Hükûmetin en önde göreceği işlerden ola-
+caktır.
+¶Ticaret bağlılıklarımız, karşılıklı, denk an-
+laşmalar çevresi içindedir.
+¶Ökonomik sıkıntının ortaya çıkardığı yeni
+gidişler içinde, yeni ticaret yöndemlerinin eyi-
+likleri görülmüştür. Ancak, bir yandan da,
+dış ticaretimizi, yardımcı kurumlarla, doğru
+bilgilerle kolaylaştırmak yolları araştırılma-
+lıdır.
+
+## s.2 sağ 0.522
+¶Arkadaşlar,
+¶Bilirsiniz ki, dışarıya sattıklarımızın başlı-
+cası, ekim ürünlerimizdir. Bu yıl, ürünlerimiz-
+den bir nicesinin değeri geçen yıllara göre da-
+ha elverişli olmuştur.
+¶Yapılan siloların da, yurdumuzun üstün
+güzellikte olan ürünlerini, piyasalara tanıt-
+makta çok yardımı olacaktır.
+¶Bununla birlikte, ekim işine; ürünlerimi-
+zin arıtılmasına, bütün özeninizi vermeniz çok
+yerinde olur.
+¶Arkadaşlar,
+¶Yurdun bayındırlığı programı da büyük
+emekle durmadan yürütülmektedir.
+¶Bu gün, yapılmakta bulunan yeni demir-
+yolları beş yüz kilometroyi geçmektedir. Sa-
+tın alınanlarla birlikte Devlet elindeki demir-
+yollarımız beş bin kilometroyi geçer {(Şiddetli
+Alkışlar)}.
+¶Arkadaşlar,
+¶Geçen yıl, bütçede alınan tutumlardan, öl-
+çülerden ayrılmayarak yürümeğe özenle çalışıl-
+maktadır. Devlet gelirinin, oranlandığı gibi ger-
+çekleştirileceği çok umulur. Türk parası sağ-
+lam değerini tutmaktadır {(Alkışlar)}. Hükûmet
+bu sıyasaya çok değer vermektedir; bundan
+böyle de bu sıyasadan ayrılmayacaktır.
+¶Ergani ödüncünün, üçüncü bölümü de, bu
+yıl, beklenildiği gibi kapanmıştır. Ulusumu-
+zun, böylelikle, hem Devletin maliyece olan
+gücüne güvenini, hem de bayındırlık sıyasamı-
+za verdiği değeri, bir daha göstermiş olması,
+övünülecek bir erginliktir {(Alkışlar)}.
+¶Devlet işlerini maliyece sağlam bir temel
+üzerine kurmak için, Millet Meclisinin göster-
+
+## s.3 sol 0.522
+diği uyanıklığı övgülerle anarım.
+¶Ulusun, ulus gençlerinin, çocuklarının sağ-
+lıkları, sağlamlıkları, gürbüzlükleri; üzerine
+düştüğümüz çok gerekli bir diriklik iştir. (Sağ-
+lık soysal yardım bakanlığının) bu yönden bize
+kıvanç verecek yolda çalışmakta olduğunu gör-
+mekteyiz {(Alkışlar)}.
+¶Kültür işlerimiz üzerine, ulusça gönülleri-
+mizin titrediğini bilirsiniz. Bu işlerin başında
+da Türk tarihini, doğru temelleri üstüne kur-
+mak; öz türk diline, değeri olan genişliği ver-
+mek için candan çalışılmakta olduğunu söyleme-
+liyim. Bu çalışmaların göz kamaştırıcı verimle-
+re ereceğine şimdiden inanabilirsiniz {(Alkışlar)}.
+¶Arkadaşlar,
+¶Güzel sanatların hepsinde, ulus gençliğinin
+ne türlü ilerletilmesini istediğinizi bilirim. Bu,
+yapılmaktadır. Ancak, bunda en çabuk, en
+önde götürülmesi gerekli olan türk musikisidir
+{(Alkışlar)}. Bir ulusun yeni değişikliğinde öl-
+çü, musikide değişikliği alabilmesi, kavrıyabil-
+mesidir.
+¶Bu gün dinletmeğe yeltenilen musiki yüz
+ağartacak değerde olmaktan uzaktır. Bunu açık-
+ça bilmeliyiz {(Okay sesleri, alkışlar)}. Ulusal;
+ince duyguları, düşünceleri anlatan; yüksek
+deyişleri, söyleyişleri toplamak, onları, bir
+gün önce, genel son musiki kurallarına göre
+işlemek gerektir. Ancak; bu güzeyde, türk
+ulusal musikisi yükselebilir, evrensel musiki de
+yerini alabilir.
+¶Kültür işleri bakanlığının buna değerince
+özen vermesini, kamunun da bunda ona yar-
+dımcı olmasını dilerim.
+¶Arkadaşlar,
+¶Uluslar arası siyasa acunu; geçen yıl için-
+de korunma kaygısına düştü; bu yüzden bütün
+
+## s.3 sağ 0.522
+ülkelerde silâhlanmaya hız verildi.
+¶Cümhuriyet Hükûmeti de, bundan dolayı,
+bir yandan, ulusal koruma gücünü pekiştirmi-
+ye çalışırken, bir yandan da barışın sarsılma-
+ması için, ulusların birlikte çalışmasına umut
+veren yoldan ayrılmamak uğrunda elinden gele-
+ni esirgememiştir {(Sürekli alkışlar)}.
+¶Cümhuriyet Türkiyesinin, dostluklarına çö-
+zülmez bağlılığı, geçmiş yıllarda, türlü işlerde
+denenmiştir {(Okay sesleri, alkışlar)}. Ulusumu-
+zun acunca tanınmış özlüğünün gereği de kar-
+şılıklı verilmiş sözü tutmaktır {(Alkışlar)}. Bu-
+na ne türlü özenildiği, bundan böyle de özeni-
+leceği bellidir.
+¶Balkan antlaşması, {(Sürekli alkışlar)} Bal-
+kan Devletlerinin, birbirinin varlıklarına özel
+saygı beslemesini göz önünde tutan mutlu bir
+belgedir {(Alkışlar)}.
+¶Bunun, sınırların korunmasında, gerçek
+bir değeri olduğu besbellidir.
+¶Ankarada toplanmış olan «Balkan antlaşma
+divanının» verimli, yerinde çalışmasını ulusu-
+muz sevgi ile karşıladı {(Alkışlar)}.
+¶Arkadaşlar,
+¶Ulusumuz, genel ökonomik, genel siyasal
+karşılıklığı büyük olgunlukla karşılamıştır,
+kendine gösterilen yolun doğruluğunu anlamış-
+tır, yeniden çıkabilecek güçlükleri yenmeye de
+anık olduğunu göstermiştir {(Okay sesleri, alkış-
+lar)}.
+¶Son belediye seçimlerinde, rey kullanabile-
+cek olanların, yüzde yetmiş beşinden çoğu,
+reylerini kullanmışlardır.
+¶Ulusun, içerde birliğinin, hem belli, hem
+denenmiş, olması, gelecek için, en büyük gü-
+vençtir {(Okay sesleri, alkışlar)}.
+¶Arkadaşlar,
+¶Dördüncü Büyük Millet Meclisi, ulus birli-
+ğinde, Devlet siyasasında yüksek çalışma değe-
+rini göstermiştir. Bu toplantı yılındaki çalış-
+malarınız sırasında, size gelecek ulus işleri
+için de, en doğru yolları bulup göstereceğinize
+güvenimiz vardır. Toplantımız kutlu olsun {(Sü-
+rekli alkışlar)}.

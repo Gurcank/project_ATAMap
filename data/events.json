@@ -105,6 +105,27 @@
       "documentIds": [
         "tbmm-nutuk-1933-11-01"
       ]
+    },
+    {
+      "id": "tbmm-acilis-1934-11-01",
+      "date": {
+        "iso": "1934-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-d4-i4-c25-1934-11-01"
+        ]
+      },
+      "title": "Dördüncü Meclisin dördüncü toplanma yılı açıldı",
+      "text": "Reisicümhur Gazi Mustafa Kemal Hazretleri, Dördüncü Büyük Millet Meclisinin dördüncü toplanma yılını bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-d4-i4-c25-1934-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1934-11-01"
+      ]
     }
   ]
 }

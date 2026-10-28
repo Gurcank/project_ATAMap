@@ -1,0 +1,32 @@
+{
+  "docId": "tbmm-nutuk-1930-11-01",
+  "sourceId": "tbmm-zc-d3-c22-i1-1930-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1930.pdf",
+  "pdfPages": "2-3",
+  "printedPages": "2-3",
+  "capturedAt": "2026-10-28",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-28",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır (, . ; : ) ! ? ve açılan parantez sonrası)"
+  ],
+  "sha256": "409527144ec8bc7b5a472f69f9b2703177d36fff68f70e665381c53908c15e79",
+  "uncertain": [
+    "s.3 sol, \"müesseseye\": baskıda e harfi aşınmış, c gibi görünüyor (başka yerlerde de: \"Reisicümhur\", \"geçireceğinc\"). e okundu.",
+    "s.3 sağ, \"yakin günlerde\": baskıda \"yakin\" (yakın değil). Aynen alındı.",
+    "s.3 sol, \"ziyeretile\" ve \"ahte rapteden\": baskıda böyle. Aynen alındı.",
+    "s.3 sağ, \"umit\": baskıda böyle (ümit değil). Aynen alındı.",
+    "s.3 sağ, \"gireceğiz\": cümle sonunda nokta yok, eklenmedi.",
+    "s.3 sol, \"Efendiler ! geçene\": baskıda \"geçene\" küçük harfle başlıyor ve ünlem öncesinde boşluk var (dizgi).",
+    "Hükûmet / Hükümet: baskıda û (şapkalı) okundu; aşınmış basımda ü ile karışabilir. Tüm geçtiği yerler (s.2 sağ, s.3 sol, s.3 sağ) taramada tek tek kontrol edilsin.",
+    "s.2 sağ, \"Bu gün\": baskıda ayrı yazılmış. Aynen alındı.",
+    "s.2 sol, \"vak'alara\": apostrof baskıda düz tırnak benzeri. Düz apostrof yazıldı.",
+    "Başlık satırı \"Risicümhur Gazi Mustafa Kemal Hazretleri\": baskı hatası olabilir; başlık olduğu için konuşmaya alınmadı.",
+    "Sütun sonunda s.2 sol \"mün-\" → s.2 sağ başı \"demiç\" ve s.2 sağ sonu \"bü-\" → s.3 sol başı \"tün\" bölünmüş sözcükler (mündemiç, bütün) birleştirilerek okundu.",
+    "Taramadaki sayfa sonu numaraları (\"— 2 —\", \"— 3 —\") ve başlık satırları (\"İ : 1 1-11-1930 C : 1\") konuşmanın parçası değil, alınmadı."
+  ]
+}

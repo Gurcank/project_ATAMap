@@ -24,10 +24,24 @@ describe('diplomaticToText (SPEC A20/A21)', () => {
     ).toBe('müstenittir.\n\nselâmlarım.');
   });
 
+  it('drops a note together with the period that belongs to it', () => {
+    expect(diplomaticToText('¶geldi. {(Bravo sesleri).}\n¶Sonra geldi {(Alkışlar)}.')).toBe(
+      'geldi.\n\nSonra geldi.',
+    );
+  });
+
   it('removes typesetting spaces around punctuation only', () => {
     expect(diplomaticToText('¶türk harfleri , memleketin ; ( 445 ) km .')).toBe(
       'türk harfleri, memleketin; (445) km.',
     );
+  });
+
+  it('removes the space before ! and ?', () => {
+    expect(diplomaticToText('¶Efendiler ! geçene sene mi ?')).toBe('Efendiler! geçene sene mi?');
+  });
+
+  it('accepts a column-split number in page markers', () => {
+    expect(diplomaticToText('## s.3 sol 0.56\n¶Metin')).toBe('Metin');
   });
 
   it('never touches spelling or case', () => {

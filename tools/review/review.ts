@@ -50,10 +50,16 @@ if (!source || !meta || !docId) {
   for (const item of meta.uncertain ?? []) uncertain.append(el('li', undefined, item));
 
   // Split the reference at "## s.<page> <sol|sağ>" markers; keep the original line numbers.
-  const sections: { page: number; side: string; lines: [number, string][] }[] = [];
+  const sections: { page: number; side: string; split: number; lines: [number, string][] }[] = [];
   source.split(/\r?\n/).forEach((line, i) => {
-    const marker = line.match(/^## s\.(\d+) (sol|sağ)/);
-    if (marker) sections.push({ page: Number(marker[1]), side: marker[2]!, lines: [] });
+    const marker = line.match(/^## s\.(\d+) (sol|sağ)(?: ([0-9.]+))?/);
+    if (marker)
+      sections.push({
+        page: Number(marker[1]),
+        side: marker[2]!,
+        split: marker[3] ? Number(marker[3]) : 0.5,
+        lines: [],
+      });
     else if (sections.length > 0 && !line.startsWith('#') && line.trim() !== '')
       sections[sections.length - 1]!.lines.push([i + 1, line]);
   });
@@ -68,6 +74,15 @@ if (!source || !meta || !docId) {
     img.src = `/research/scans/${docId}/p${section.page}.png`;
     img.alt = `Tarama, sayfa ${section.page}`;
     img.loading = 'lazy';
+    // Show one printed column: the left box keeps [0, split + margin] of the page width, the right
+    // box [split - margin, 1]. The margin keeps letters at the column edge from being cut.
+    const margin = 0.03;
+    const visible = section.side === 'sol' ? section.split + margin : 1 - (section.split - margin);
+    img.style.setProperty('width', `${100 / visible}%`);
+    img.style.setProperty(
+      'margin-left',
+      section.side === 'sol' ? '0' : `${-((section.split - margin) / visible) * 100}%`,
+    );
     img.addEventListener('error', () => {
       scan.replaceChildren(
         el('p', 'pair__missing', `Tarama yok. Çalıştırın: node scripts/fetch-scan.ts ${docId}`),

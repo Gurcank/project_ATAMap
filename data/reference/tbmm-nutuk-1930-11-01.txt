@@ -1,0 +1,193 @@
+# T.B.M.M. Zabıt Ceridesi, Devre 3, İçtima 4, Cilt 22, Birinci İn'ikat, 1-XI-1930 Cumartesi, s. 2-3.
+# 2 - Nutuklar, 1 - Reisicümhur Gazi Hazretlerinin nutukları.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1930.pdf (PDF s. 2-3)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Başlık satırları ("1 — Reisicümhur Gazi Hazretlerinin nutukları", "Risicümhur Gazi Mustafa Kemal
+# Hazretleri — (şiddetli ve sürekli alkışlar arasında riyaset kürsüsünü teşrif buyurdular)")
+# konuşmanın parçası değildir, alınmadı. Baskıdaki "Risicümhur" yazımı başlıktadır.
+# Taramada e harfi yer yer c gibi basılmış (aşınmış dizgi); okunuşa göre e yazıldı.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.465
+¶Büyük Millet Meclisinin Muhterem Âzası!
+¶Yüksek Heyetinizi hürmetle selâmlıyarak yeni
+toplanma yılınızı açıyorum. Memlekette büyük ıs-
+lahat ve nafi icraatı ile mümtaz olan Üçüncü Bü-
+yük Millet Meclisinin, önümüzdeki son faaliyet
+yılını da, milletimizin bir çok ihtiyaçlarını temin
+ile geçireceğine eminim.
+¶Muhterem Efendiler;
+¶Geçen yılımız, mühim hadiselerle doludur: Se-
+nelerdenberi hariçte beslenen fesat ve tecavüz
+emelleri, bu sene şark vilâyetlerimizde, vatandaş-
+larımızın huzurunu bozan vak'alara sebep oldu.
+Teferruatını bildiğiniz bu hadiseler vatan düşman-
+larını ümitsiz kılan neticelerle bitirildi. Bu netice-
+leri, vatandaşların Cümhuriyeti müdafaa için gös-
+terdikleri alâka ve hassasiyete ve Cümhuriyet
+Ordu ve Jandarmasının iftihar edeceğimiz dirayet
+ve cesaretine borçluyuz{(Alkışlar)}. Bu yüzden şehit
+olan vatandaş ve askerlerimizin hatıralarını hür-
+met ve minnetle yadederim. {(Alkışlar)} Ordu ve
+jandarmamızı idare edenlerin asgarî külfetle vata-
+nı gaileden kurtaran tedbirlerini, fedakârlıklarını
+ve vazife başında bulunan mülkiye memurlarımı-
+zın gayretlerini teşekkürle zikrederim. {(Alkışlar)}
+¶Geçen hadiseler Cümhuriyetin kuvvetini, rasa-
+netini, bir daha göstermiştir. Bu hadiseler vatan-
+daşların her türlü saadet ve huzurunun, Cümhuri-
+yet kanunlarında ifade olunan, millî birlikte mün-
+
+## s.2 sağ 0.465
+demiç bulunduğunu, vatan haricinden hiç bir iğ-
+fal ve tahrikin olmıyacağını da anlatmıştır ümi-
+dindeyim. {(Bravo sesleri alkışlar)}
+¶Arkadaşlar! Bu günlerde İzmirde hadis olan
+seylâptan çok müteessir olduk. İnsan hayatının
+uğradığı zayiat ve elemler teessürlerimizi teşdit
+etti. Hükûmeti Cümhuriye icap eden tedbirleri ke-
+mali ihtimamla almaktadır.
+¶Arkadaşlar! Geçen sene zarfında mücadeleye
+mecbur olduğumuz bir büyük hadise de millî para
+buhranıdır. Buhranı karşılamak için alınan ted-
+birlerin isabeti tahakkuk etmiştir. Her şeyden
+mühim olan esas iktisadî noktai nazardan, mille-
+tin uyanıklığı ve kendisinin yaşamak hakkına iti-
+madıdır.
+¶Meclis ve Hükûmet tarafından alınan tedbirler,
+hassaten bu esasta birleşir. Bu gün, içinde bulun-
+duğumuz vaziyet malî ve iktısadî tedbir ve ihtiyat-
+lara da, dikkatle devam olunmasını icap ettirmek-
+tedir.
+¶Efendiler, bilhassa ziraî memleketlerde hissolu-
+nan cihanşümul bir iktısadî buhran vardır. Bu
+buhran tabiatile bizim memleketimize de temas etmiş
+ve ağırlığını hissettirmiştir. Bu sıkıntı karşısında
+emsalsiz tahribattan dar ve kurak senelerden sonra,
+vatanımızın gösterdiği hayatiyet ve tahammül an-
+cak Türk milletinin bünyesindeki kudret ve Büyük
+Millet Meclisinin tedbirlerindeki isabetle izah olu-
+nabilir. {(Bravo sesleri).}
+¶Senelerden beri alınan tedbirlere, önümüzdeki
+sene daha geniş mikyasta ihtiyaç vardır. Gayet
+tasarrufkârane bir idare tarzı, resmî ve hususî bü-
+
+## s.3 sol 0.56
+tün muamelâtımıza hâkim olmak lâzımdır {(Alkış-
+lar)}.
+¶Bunun içindir ki Hükûmet bütçeyi mühim ta-
+sarruflarla Büyük Meclise takdim etmiştir. Vergi-
+lerde müfredatı malûmunuz olan tadilât ve ıslahat
+hem mükellefi tehvin etmiş olacak, hem de bilhassa
+iktısadî kolaylıkları temin eylemiş bulunacaktır.
+Muamele vergileri üzerindeki tasavvurlar tahsisan
+bu cümledendir.
+¶Cümhuriyet Merkez Bankasının tesisi ve hisse
+senetlerinin vatandaşlara arzı pek yakındır. Mem-
+leketin hem malî, hem iktısadî büyük bir vasıtası
+olacak olan bu millî müesseseye vatandaşların ciddî
+alâka göstereceklerine şüphemiz yoktur.
+¶Osmanlı borçlarının, memleketin hayat ve inki-
+şafını tehdit etmiyen, adilâne ve amelî bir sureti
+tesviyeye raptı için, Cümhuriyet Hükûmetinin
+hüsnü niyetle mesai sarfetmesi tabiidir.
+¶Ticaret muahedelerinin müzakereleri hemen ek-
+seriyetle neticelenmiştir. Ticarî münasebetlerin
+genişlemesi için sarfedilen gayretler memleketin
+iktısadî inkişafına şüphesiz medar olacaktır.
+¶Efendiler ! geçene senenin mühim hadiselerinden
+biri de Sıvasa şimendüferin vasıl olmasıdır. Bu
+kadar müşkülât içinde vatanı bir misli daha ge-
+nişletmeğe ve kuvvetlendirmeğe medar olan bu
+eserin müstakbel Türk nesilleri tarafından şük-
+ranla yadolunacağına eminim {(Şiddetli alkışlar)}.
+¶Muhterem efendiler;
+¶Haricî siyasetimizde sulh ve eyi münasebet ga-
+yesi samimiyetle takip olunmaktadır.
+¶Ümit ederim ki beynelmilel münasebetlerde
+dostluklara vefakâr olan ve hiç bir milletin alye-
+hinde bulunmıyan açık ve salim meslek ve zihniye-
+timiz gittikçe daha eyi anlaşılmaktadır.
+¶Hariciye Vekilimizin büyük komşumuz ve dos-
+tumuz Soviyet Rusyaya olan ziyaretlerinde gör-
+düğü samimî kabul bizi mütehassis eyledi {(Alkış-
+lar)}. İki memleket münasebetlerinin sağlamlığı bu
+vesile ile de tazahur etmiş oldu; Bu, cidden mem-
+nuniyeti mucip bir hadisedir. Komşumuz ve dostu-
+muz Yunanistan Başvekilinin ve Hariciye nazırı-
+nın Ankarayı resmen ziyaretlerini hususî bir mem-
+nuniyetle zikrederim {(Bravo sesleri alkışlar)}. Tür-
+kiye ile Yunanistanın yüksek menfaatleri bir biri-
+ne zıt olmaktan tamamen çıkmıştır. Bu iki memle-
+ketin samimî bir dostlukta kendileri için emniyet
+ve kuvvet görmelerinde isabet vardır. {(Bravo sesle-
+ri, alkışlar).}
+¶İki Cümhuriyet arasında açılan yeni devrin
+yeni esaslarını, ahte rapteden vesikalar, yüksek
+tasvibinize arzolunmuştur.
+¶Macaristan ile aramızdaki eski ve tecrübeli
+dostluk; Muhterem Başvekilinin resmî ziyeretile
+bariz bir ehemmiyet ve kıymet aldı {(Bravo sesleri
+alkışlar)}. Memleketlerimiz arasındaki eyi ve sami-
+mî münasebetlerin mütezayiden inkişaf etmesi me-
+mul ve matlubumuzdur.
+
+## s.3 sağ 0.56
+¶Milletin Muhterem Vekilleri!
+¶Adliyemiz siyasî faaliyetler içinde vatandaşın
+emniyet ve haysiyetini, Cümhuriyetin asalet ve
+mevcudiyetini, Hükûmetin itibar ve nüfuzunu mü-
+dafaa yolunda yeni bir imtihan geçirdi. Bunu
+ehemmiyetle işaret etmek isterim.
+¶Adliyemizin emin olduğumuz yüksek iktidarı
+sayesindedir ki Cümhuriyet mukadder tekâmülü
+takip edebilecek ve türlü şekil ve kisvedeki teca-
+vüzlere karşı vatandaşın hukukunu ve memleketin
+nizamını masun tutabilecektir.
+¶Aziz arkadaşlarım;
+¶Siyasî hayatımızda yeniden fırkaların zuhuru,
+memlekette belediye intihaplarına tekaddüm eden
+yakin günlerde vuku buldu. Bu münasebetle dik-
+kate şayan safhaların şahidi olduk. Bu müşahede-
+lerin verdiği tecrübelerden Türk Milleti, Cümhu-
+riyetin baka ve inkişafı için istifade etmelidir.
+Siyaset sahasında karşılıklı faaliyetin feyizli in-
+kişafları ancak vatandaşlar arasında düşmanlık
+husulüne mahal verilmemesile temin olunabilir.
+{( Bravo sesleri, alkışlar ).} Bunun çareleri: fırka-
+ların içine girebilecek gayri samimî ve gizli maksat-
+lı unsurların, kanun fevkında netice istiyen emel sa-
+hiplerinin bütün milletçe menfur görülmesi ve bir
+de Cümhuriyet esası üzerinde çalışan fırkalarca
+bu gibilerin faaliyetlerinden daima uzak kalınma-
+sıdır. {(Bravo sesleri, alkışlar).}
+¶Memlekette kalem hürriyetinin de; demokrat
+bir idareye lâyık vakar ile kullanmakta daha dik-
+katli bulunulacağını umit ederim.
+¶Hürriyet sui istimalinin tevlit ettiği bir çok
+felâketleri çekmiş olan bu memlekette, bu dikkate
+bilhassa lüzum olduğu kanaatindeyim {(Bravo
+sesleri, alkışlar)}.
+¶Muhterem efendiler;
+¶Üçüncü Büyük Millet Meclisinin feyizli ve va-
+tanperverane faaliyeti bu devirde hitam bulduktan
+sonra, yeni intihabata gireceğiz
+¶Geçen tecrübeler; gelecek intihabatta, vatandaş
+reyinin emniyet ve masuniyetle tezahür etmesini
+temin için kanunî ve idarî tedbirlerin inkişafını
+ve fırkaların bizzat ittihaz edecekleri salim ve mu-
+sip hareketleri göstermiş olacaktır. {( Bravo sesleri,
+alkışlar).}
+¶Arkadaşlarım;
+¶Memleketin mukadderatında yegâne salâhiyet
+ve kudret sahibi olan Büyük Millet Meclisi bu
+memleketin nizamı için dahilî ve haricî emniyet ve
+masuniyeti için en büyük zımandır.
+¶Büyük millî dertler şimdiye kadar ancak Bü-
+yük Millet Meclisinde şifa buldu. Atiyen de yal-
+nız orada kat'î tedbirlerini bulabilecektir. {(Bravo
+sesleri, Alkışlar ).}
+¶Türk Milletinin muhabbet ve merbutiyeti da-
+ima Büyük Millet Meclisine müteveccih oldu, ve da-
+ima oraya müteveccih olacaktır. {( Şiddetli ve sü-
+rekli alkışlar).}

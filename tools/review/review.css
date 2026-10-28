@@ -69,7 +69,7 @@ body {
   }
 }
 
-/* Show one printed column: the image is twice the box width and shifted for the right column. */
+/* Show one printed column: review.ts sizes and shifts the image per page (split fraction). */
 .pair__scan {
   position: sticky;
   top: var(--space-8);
@@ -79,12 +79,7 @@ body {
 
 .pair__scan img {
   display: block;
-  width: 200%;
   max-width: none;
-}
-
-.pair__scan--right img {
-  margin-left: -100%;
 }
 
 .pair__missing {

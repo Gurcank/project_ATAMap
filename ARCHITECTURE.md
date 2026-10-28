@@ -243,7 +243,7 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 
 *2026-10-27 güncellemesi (TBMM incelemesi sonrası):* TBMM'nin "düzenlenmiş" HTML'i sadeleştirilmiş çıktı, kullanılamıyor (SOURCES §2.4.1); kaynaklar taranmış PDF. Bu yüzden:
 - Referans dosyası taramanın **satır satır** aktarımıdır: baskı satırları, satır sonu tireleri, sayfa/sütun işaretleri (`## s.3 sol`) ve `{…}` ile işaretli stenograf notları aynen durur. Biçim `scripts/lib/diplomatic.ts` başında.
-- `fullText` bu dosyadan `diplomaticToText()` ile **otomatik** üretilir: tireler birleşir (A21), notlar çıkar (A20), dizgi boşlukları temizlenir; yazım ve noktalama değişmez. `tests/unit/reference.test.ts` eşitliği ve referansın sha256'sını denetler.
+- `fullText` bu dosyadan `diplomaticToText()` ile **otomatik** üretilir: tireler birleşir (A21), notlar çıkar (A20), dizgi boşlukları temizlenir (`, . ; : ) ! ?` öncesi, `(` sonrası); yazım ve noktalama değişmez. Cümle notun önünde bitmişse notun sonundaki nokta nota aittir ve `{(Alkışlar).}` diye parantezin içine yazılır; böylece metinde çift nokta oluşmaz (1930 aktarımında çıktı). `tests/unit/reference.test.ts` eşitliği ve referansın sha256'sını denetler.
 - `node scripts/fetch-scan.ts <docId>` kaynak PDF'in sayfalarını `research/scans/` altına PNG olarak çıkarır (git'te değil, siteye girmez). `npm run dev` ile `/tools/review/?doc=<docId>` sayfası taramayı ve aktarımı sütun sütun yan yana gösterir; kullanıcı buradan onaylar (SPEC A22).
 - Metni çekilebilen kaynaklar çıkarsa `scripts/fetch-reference.ts` ile `method: 'otomatik'` yolu yine açık.
 

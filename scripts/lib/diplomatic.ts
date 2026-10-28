@@ -4,17 +4,22 @@
  *
  * Reference file format (data/reference/<docId>.txt):
  *   # ...            comment line (ignored)
- *   ## s.3 sol       page / column marker (ignored, used by the review page)
+ *   ## s.3 sol 0.56  page / column marker (ignored here). The optional number is where the two
+ *                    printed columns meet, as a fraction of the page width (default 0.5); the
+ *                    review page uses it to crop the scan.
  *   ¶text            first line of a new paragraph (indented in print)
  *   text             continuation line, exactly as printed
- *   {( Alkışlar )}   stenographer's note, may span lines; removed (A20)
+ *   {( Alkışlar )}   stenographer's note, may span lines; removed (A20). When the sentence already
+ *                    ended before the note ("olur. (Alkışlar)."), the period after the note
+ *                    belongs to the note and is written inside the braces: {(Alkışlar).}
  *
  * Transform, in this order and nothing else:
  *   1. line-end hyphenation is joined: "ede-" / "ceklerdir" → "edeceklerdir"; a space before the
  *      hyphen ("ideali -") is a typesetting artefact and is dropped too (A21);
  *   2. other line breaks inside a paragraph become one space;
  *   3. {…} notes are removed (A20);
- *   4. whitespace is collapsed, and spaces before , . ; : ) and after ( are removed (typesetting).
+ *   4. whitespace is collapsed, and spaces before , . ; : ) ! ? and after ( are removed
+ *      (typesetting: the print puts a space before ! and ;).
  * Spelling, wording, case and punctuation marks are never changed.
  */
 export function diplomaticToText(source: string): string {
@@ -38,7 +43,7 @@ export function diplomaticToText(source: string): string {
       return text
         .replace(/\{[^}]*\}/g, ' ')
         .replace(/\s+/g, ' ')
-        .replace(/\s+([,.;:)])/g, '$1')
+        .replace(/\s+([,.;:)!?])/g, '$1')
         .replace(/\(\s+/g, '(')
         .trim();
     })

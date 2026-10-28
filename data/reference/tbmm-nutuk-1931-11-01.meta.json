@@ -1,0 +1,34 @@
+{
+  "docId": "tbmm-nutuk-1931-11-01",
+  "sourceId": "tbmm-zc-c4-i1-1931-11-01",
+  "url": "https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1931.pdf",
+  "pdfPages": "2-3",
+  "printedPages": "2-3",
+  "capturedAt": "2026-10-28",
+  "method": "elle",
+  "transcribedBy": "Claude",
+  "reviewedBy": "GurcanK",
+  "reviewedAt": "2026-10-28",
+  "rules": [
+    "A20: {…} stenograf notları çıkarılır",
+    "A21: satır sonu tirelemesi birleştirilir",
+    "noktalama öncesi/sonrası dizgi boşlukları kaldırılır (, . ; : ) ! ? ve açılan parantez sonrası)",
+    "cümle notun önünde bitmişse notun sonundaki nokta nota aittir: {(Alkışlar).}"
+  ],
+  "sha256": "3d01d6a097e56903dd1f41d62e1302b878192e1e6c5aecbface6d4326679ee0b",
+  "uncertain": [
+    "s.3 sağ, \"temenniya- / tma hususî\": baskıda \"tma\" (tına olabilir; ı ile n birleşmiş görünüyor). Aynen \"tma\" yazıldı, metinde \"temenniyatma\" çıkar. Büyütülmüş taramada kontrol edin.",
+    "s.2 sol, \"vegileri\": baskıda böyle (vergileri değil). Aynen alındı.",
+    "s.2 sol, \"getirdiginiz\": baskıda ğ işareti yok. Aynen alındı.",
+    "s.2 sol, \"müeyyide\": taramada \"mücyyide\" gibi görünüyor; e harfi aşınmış olduğundan e okundu.",
+    "s.2 sol, \"dikkatı caliptir\": baskıda \"caliptir\" (şapkasız). Aynen alındı.",
+    "s.2 sol, \"Cihanşumul\": baskıda \"şumul\" (şümul değil). Aynen alındı.",
+    "s.2 sağ, \"mil- / letimize\": taramada \"mill-\" biçiminde, son e aşınmış; milletimize okundu.",
+    "s.2 sağ, \"Hükû- / mette\": baskıda û (şapkalı) okundu.",
+    "s.3 sağ, \"tabiidir·\": cümle sonunda nokta yerine orta nokta gibi basılmış; nokta yazıldı.",
+    "Notların içindeki baskı hataları (\"alkılşar\", \"Alkşlar\", \"al- / kşlar\") aynen not içinde duruyor; notlar siteye girmediği için metni etkilemez.",
+    "Sütun/sayfa geçişlerinde bölünmüş sözcükler (s.2 sol→sağ \"milletin beynelmilel / buhrana\", s.2 sağ→s.3 sol \"nazırları- / nın\") birleştirilerek okundu.",
+    "Başlıktaki sahne notu ve sayfa başı/sonu satırları (\"İ : 1 1-11-1931 C : 2\", \"— 3 —\") konuşmanın parçası değil, alınmadı.",
+    "Kapakta devre/içtima numarası okunamadı; künyeye yazılmadı. Konuşma metni \"Dördüncü Büyük Millet Meclisinin ilk içtima senesini\" diyor."
+  ]
+}

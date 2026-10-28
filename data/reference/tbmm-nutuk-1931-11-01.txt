@@ -1,0 +1,123 @@
+# T.B.M.M. Zabıt Ceridesi, Cilt 4, Birinci İnikat, 1-XI-1931 Pazar, s. 2-3.
+# 2 - Nutuklar, 1 - Reisicümhur Gazi Hazretlerinin nutukları.
+# Kaynak: https://cdn.tbmm.gov.tr/TbmmWeb/tarihce/ataturk_konusma/01_11_1931.pdf (PDF s. 2-3)
+# Biçim: scripts/lib/diplomatic.ts başındaki açıklama. Satırlar taramadaki baskı satırlarıyla aynıdır.
+# Başlıktaki sahne notu ("(Reisicümhur Gazi Mustafa Kemal Hazretleri şiddetli ve sürekli alkışlar
+# arasında Riyaset kürsüsünü teşrif buyurdular.)") konuşmanın parçası değildir, alınmadı.
+# Taramada e harfi yer yer c gibi (ortasında noktalı) basılmış; okunuşa göre e yazıldı.
+# Aktaran: Claude, 2026-10-28, elle (OCR yok).
+
+## s.2 sol 0.505
+¶Türkiye Büyük Millet Meclisinin Muhterem
+Âzası;
+¶Dördüncü Büyük Millet Meclisinin ilk içtima
+senesini açmakla mübahiyim. Muhterem âzayı hür-
+met ve muhabbetle selâmlarım.
+¶Yeni intihabatı müteakip Yüksek Meclisin fev-
+kalâde içtimaında vücude getirdiğiniz eserlerin
+memleketin umumî hayatında faydalı tesirleri
+sabittir. Cihanşumul buhranın tesirlerine karşı her
+yerde yeni vergilerle tedbir aranırken Türkiye Bü-
+yük Millet Meclisi bilâkis bazı vegileri indirmek
+gibi fevkalâde cesurane bir hareket ihtiyar etti. Va-
+tandaş hayatında tedbirlerinizin tesirleri hayırlı
+olarak mahsustur.
+¶Memleket efkârında sükûneti ve idarede istik-
+rarı temin eden tedbirleriniz de tezkâra şayandır.
+¶Dahilî siyasette husule getirdiginiz itimat ve
+huzur vatandaşları feyizli mesailerinde müsterih ve
+mütmain kılmıştır. Cümhuriyet kanunlarının ve
+Cümhuriyet kuvvetlerinin hürmet ve itibarı mem-
+leket için esas mesnet ve müeyyide olduğu bir daha
+sabit olmuştur.
+¶Muhterem arkadaşlarım;
+¶İçinde bulunduğumuz sene, malî ve iktısadî
+umumî buhrana karşı milletlerin çetin bir imtihan
+geçirmekte olmalarile hususî dikkatı caliptir.
+¶Bu imtihanda Türk milleti hayatiyeti; faaliyeti,
+kanaatkârlığı ve fedakârlığı ile takdire lâyık bir
+kudret göstermektedir. {(Alkışlar).}
+¶Gelecek sene de beynelmilel buhranın devamına
+hazırlıklı bulunmak vazifesi karşısındayız. Malî ve
+iktısadî vaziyeti yakından takip ederek tedbirleri
+vaktinde ittihaz etmek en mühim işiniz olacaktır.
+{(Bravo sesleri alkılşar).}
+¶Çetin imtihanlara muvaffakiyetle mukabele eden
+millî paranın kudretini ve milletin beynelmilel
+
+## s.2 sağ 0.505
+buhrana karşı yüksek varlığının esaslarını masun
+bulundurmak başlıca gayemizdir. Bu uğurda mil-
+letimize has olan azim ve fedakârlığı, icap ederse en
+yüksek derecelerde tecelli ettirmek kat'î kararımız-
+dır {( Bravo sesleri, alkışlar )} .
+¶Nefsimize ve millet kudretlerine itimat, Hükû-
+mette ve siyasette istikrar, tasarrufta ve fedakâr-
+lıkta sarsılmaz bir karar, Devletin dahil ve hariçte
+emniyet ve sükûnete mazhariyeti; halin başlıca
+tedbirleridir. Esasen bizde mevcut olan bu şe-
+raitin icap ettikçe lâyikile ve kemalile tecelli et-
+tirilmesi, müşkülâtın iktihamı için emin ve mü-
+essir olacaktır. Yüksek himmetinizle Türk Milleti
+dahilî hayatında ve beynelmilel vaziyetinde ciha-
+nı saran büyük müşkülâttan yeni bir kudretle
+temayüz ederek çıkacaktır {(Şiddetli alkışlar )}.
+¶Muhterem Millet Vekilleri;
+¶Haricî siyasetimizin müsalemetperver ve müs-
+takim mahiyeti geçen sene içinde bir daha tebarüz
+etmiştir. Yakın komşularımızla münasebetlerimi-
+zin samimiyeti artmıştır. Beynelmilel âlemde, her
+Devletle eyi münasebette bulunmakta, müsbet se-
+mereler elde etmekteyiz.
+¶Türkiyenin emniyetini gaye tutan, hiç bir mille-
+tin aleyhinde olmıyan bir sulh istikameti bizim da-
+ima düsturumuz olacaktır {(Bravo sesleri, şiddetli
+alkışlar)}.
+¶Başvekilin ve Hariciye Vekilinin Yunanistanı
+ziyaretleri iki memleket arasında kıymetli dostluk
+tezahüratına vesile vermekle bilhassa dikkat ve
+memnuniyetimizi mucip oldu {(Alkşlar)}.
+¶Birbirlerile davası kalmadığını; birbirlerile eyi
+geçinmek kararında bulunduğunu ilân eden iki
+memleketin münasebetlerinde hayırlı inkişafları
+memnuniyetle teshil ve teşvik etmek emelimizdir.
+¶Macaristana vuku bulan ayni ziyaretlerin eyi
+intibalarını bilhassa zikretmek isterim. Kardaş Ma-
+car Milleti ile dostluk tezahüratı daima arzu ve il-
+tizam ettiğimiz mes'ut hâdiseler kıymetindedir
+{(Alkışlar)}.
+¶Irak Kralı Hazretlerinin ve kıymetli nazırları-
+
+## s.3 sol 0.525
+nın ziyaretleri memleketimizde pek tatlı hatıralar
+bıraktı. İrakla münasebetlerimizin dürüst ve eyi
+komşuluk yolunda tezahüratı ve mütemadiyen in-
+kişafı bizim ciddî arzumuzdur.
+¶Büyük dostumuz Sovyet Rusyanın Muhterem
+Hariciye Komiserini Ankarada kabul etmekle mem-
+nun olduk. İki memleketin tecrübe geçirmiş dostça
+münasebetlerini ayni kuvvet ve samimiyetle idame
+etmek tarafeynin büyük menfaat ve halis arzuları-
+nın icabatından olduğu bu vesile ile de izhar ve
+tebarüz ettirilmiştir.
+¶Muhterem efendiler;
+¶Balkan milletleri arasında sulhu ve anlaşmayı
+istihdaf eden her millete mensup hususî teşekkül-
+lerin faaliyetlerini takdirle yadetmek benim için
+
+## s.3 sağ 0.525
+hususî bir zevktir {(Bravo sesleri, alkışlar)}.
+¶Türkiye, coğrafî vaziyeti itibarile Balkanlarda
+sulhun muhafaza ve takviyesinde bilhassa alâka-
+dardır. Komşularile hemen hiç bir davası ve ihti-
+lâfı bulunmamak vaziyeti Türkiyenin temenniya-
+tma hususî bir samimiyet izafe etmek tabiidir.
+¶Aziz Arkadaşlarım;
+¶Büyük Millet Meclisini yeni ve mühim vatan
+hizmetleri bekliyor. Yeni mesainizin ve tedbirleri-
+nizin de Büyük milletinizin menfaatlerine tama-
+mile uygun düşeceğine şüphe yoktur. Mensubiye-
+tile müftehir bulunduğumuz Büyük Türk Milleti-
+nin emanet ve salâhiyetile beraber muhabbet ve
+müzahereti de sizin üzerinizdedir {(Sürekli al-
+kşlar)}.

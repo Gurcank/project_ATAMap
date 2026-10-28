@@ -42,6 +42,27 @@
       "documentIds": [
         "tbmm-nutuk-1930-11-01"
       ]
+    },
+    {
+      "id": "tbmm-acilis-1931-11-01",
+      "date": {
+        "iso": "1931-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-c4-i1-1931-11-01"
+        ]
+      },
+      "title": "Dördüncü Meclisin ilk toplanma yılı açıldı",
+      "text": "Reisicümhur Gazi Mustafa Kemal, Dördüncü Büyük Millet Meclisinin ilk toplanma yılını bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-c4-i1-1931-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1931-11-01"
+      ]
     }
   ]
 }

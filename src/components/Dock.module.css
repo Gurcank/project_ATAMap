@@ -1,0 +1,119 @@
+/*
+ * Layout of the three cartouches (SPEC §3.5, §4.3). Mobile first.
+ *   < 48rem   one strip at the bottom: year + title, text, controls (map keeps >= 55 % of the height)
+ *   >= 48rem  year bottom-left, event bottom-right (320 px), controls centred above both
+ *   >= 80rem  fully asymmetric: year lowest, event highest, controls narrow in the middle
+ * The children carry the global .cartouche class; below 48rem the frame moves to the strip itself.
+ */
+.dock {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas:
+    'year title'
+    'text text'
+    'controls controls';
+  column-gap: var(--space-16);
+  row-gap: var(--space-8);
+  align-items: center;
+  max-height: 45dvh;
+  overflow-y: auto;
+  padding: var(--space-12) var(--space-16) var(--space-16);
+}
+
+/* Children on small screens: no frame of their own, the strip has one. */
+.dock .year,
+.dock .event,
+.dock .controls {
+  background: none;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+}
+
+.year {
+  grid-area: year;
+}
+
+.event {
+  display: contents;
+}
+
+.eventTitle {
+  grid-area: title;
+}
+
+.eventBody {
+  grid-area: text;
+}
+
+.controls {
+  grid-area: controls;
+}
+
+@media (min-width: 48rem) {
+  .dock {
+    grid-template-columns: auto 1fr 20rem;
+    grid-template-areas:
+      'controls controls controls'
+      'year . event';
+    column-gap: var(--space-16);
+    row-gap: var(--space-16);
+    align-items: end;
+    max-height: none;
+    overflow: visible;
+    padding: 0 var(--space-24) var(--space-24);
+    background: none;
+    border: 0;
+    box-shadow: none;
+    pointer-events: none; /* the map stays draggable between the cartouches */
+  }
+
+  .dock .year,
+  .dock .event,
+  .dock .controls {
+    pointer-events: auto;
+    background: var(--paper);
+    border: var(--rule-width) solid var(--ink);
+    box-shadow:
+      inset 0 0 0 var(--rule-gap) var(--paper),
+      inset 0 0 0 calc(var(--rule-gap) + var(--rule-width)) var(--ink);
+    padding: var(--space-16) var(--space-24);
+  }
+
+  .dock .event {
+    display: block;
+    grid-area: event;
+  }
+
+  .eventTitle,
+  .eventBody {
+    grid-area: auto;
+  }
+
+  .dock .controls {
+    justify-self: center;
+  }
+}
+
+/* 1280: the three sit in one row but not on one baseline: year lowest, event highest (SPEC §3.5). */
+@media (min-width: 80rem) {
+  .dock {
+    grid-template-columns: auto 1fr 22.5rem;
+    grid-template-areas: 'year controls event';
+    padding: 0 var(--space-32) var(--space-24);
+  }
+
+  .dock .controls {
+    align-self: end;
+    margin-bottom: var(--space-24);
+  }
+
+  .dock .event {
+    margin-bottom: var(--space-48);
+  }
+}

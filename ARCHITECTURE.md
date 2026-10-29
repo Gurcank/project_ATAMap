@@ -12,6 +12,7 @@
 | 2026-10-27 | ADR-12, §5 | Font yükleme yöntemi ölçümle kesinleşti; toplam font boyutu SPEC sınırını aşıyor (ayrıntı ADR-12) |
 | 2026-10-27 | §8 | T4 ve T5 kapandı |
 | 2026-10-27 | ADR-08, §2.3, §4 | Referans metni satır satır ("diplomatik") aktarım oldu; site metni ondan otomatik üretiliyor. `fetch-scan` betiği, `tools/review/` kontrol sayfası ve `pdfjs-dist` eklendi |
+| 2026-10-29 | ADR-03, ADR-04, §8 | Faz 4 ilk dilim: harita, yıl/olay/kontrol kartuşları, A4 ve künye kartı, adım motoru. T1 ve T6 kapandı (ölçümler ADR-03 ve ADR-04'te). `d3-selection` ve `d3-interpolate` doğrudan bağımlılık oldu (d3-zoom zaten getiriyordu). `.github/workflows/ci.yml` eklendi |
 | 2026-10-29 | ADR-05, ADR-07, ADR-13, §4, §8 | Faz 3 tamamlandı: Zod şeması (`src/schema/`), `build-data` + 8 kural + bütünlük denetimi (`scripts/lib/rules.ts`), `fetch-geo`/`build-geo`, kural fixture'ları. T2 ve T3 kapandı (ayrıntı ADR-05, ADR-13, §8) |
 | 2026-10-27 | ADR-12, §5, §8 | T7 kapandı: font sınırı açılışta ≤ 250 KB + belge fontları ≤ 200 KB olarak bölündü (kullanıcı kararı); `check:size` iki sınırı da denetliyor |
 
@@ -57,6 +58,10 @@ Bütçe sıfır (SPEC §1): Aşağıdaki her paket, veri ve hizmet ücretsizdir.
 | @preact/signals | **2.11.3** | 2026-09-30 | 2.11.4 (bugün yayımlandı). Peer: `preact >= 10.25.0` ✓ | MIT | ~3 KB (tahmin, doğrulanmadı) |
 | d3-geo | **3.1.1** | 2024-03-12 | — | ISC | 13,4 KB |
 | d3-zoom | **3.0.0** | 2021-06-10 | — (d3-interpolate, d3-selection, d3-transition'ı getirir) | ISC | 15,5 KB |
+| d3-selection | **3.0.0** | 2021-06-07 | — (d3-zoom zaten getiriyordu; kodumuz `select` çağırdığı için açıkça yazıldı, 2026-10-29) | ISC | d3-zoom ölçümüne dahil |
+| d3-interpolate | **3.0.1** | 2021-06-05 | — (aynı gerekçe; kamera için `interpolateZoom`, 2026-10-29) | ISC | d3-zoom ölçümüne dahil |
+| d3-selection | **3.0.0** | 2021-06-10 | — (d3-zoom zaten getiriyordu; kodun doğrudan `select` çağırması nedeniyle açıkça yazıldı) | ISC | d3-zoom ölçümüne dahil |
+| d3-interpolate | **3.0.1** | 2022-01-27 | — (aynı gerekçe: `interpolateZoom` kamera için) | ISC | d3-zoom ölçümüne dahil |
 | topojson-client | **3.1.0** | 2019-11-06 | — | ISC | ~3 KB (tahmin, doğrulanmadı) |
 | @fontsource/old-standard-tt | **5.3.0** | 2026-07-19 | — | OFL-1.1 | font dosyası |
 | @fontsource/alegreya-sans | **5.3.0** | 2026-07-19 | — | OFL-1.1 | font dosyası |
@@ -157,6 +162,8 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 
 **Ödünleşim:** Zoom sınırları, ayrıntı düzeyi geçişi ve etiket çakışma algoritması (öncelik sıralı açgözlü yerleşim) bizim kodumuzdur. Çok yakın (şehir sokak) zoom yok. Büyük SVG'lerde düşük güçlü telefonda pan akıcılığı riski var.
 
+**Ölçüm (T6, 2026-10-29):** headless Chromium, 4× CPU yavaşlatma, 10m altlık (yaklaşık 6× zoom), 90 adımlık sürükleme: 375 px'te **59,5 fps** (p95 16,8 ms), 1280 px'te **49,2 fps** (p95 33,4 ms). Gerçek telefonda ölçülmedi.
+
 **Geri dönüş tetikleyicisi:** Chrome DevTools 4× CPU yavaşlatmasıyla 375 px'te pan sırasında 30 fps altı ölçülürse altlık (kara/deniz/sınır) Canvas'a taşınır; işaretler, rota ve etiketler SVG'de kalır.
 
 ### ADR-04 — Projeksiyon: Lambert konik konform
@@ -168,7 +175,7 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 - Lambert azimutal eşalan: Alan doğru; kenarlarda şekil bozulur.
 - Lambert konik konform (`d3.geoConicConformal`): Orta enlemlerde şekli korur; 19. yüzyıl–20. yüzyıl başı Avrupa atlaslarında yaygın konik projeksiyon ailesinden.
 
-**Sonuç:** `geoConicConformal`, standart paraleller 33° ve 48°, `rotate([-25, 0])`. Kesin değerler Faz 4'ün ilk dilimi sırasında tüm yer noktaları ekrana sığdırılarak ayarlanır ve burada güncellenir.
+**Sonuç:** `geoConicConformal`, standart paraleller 33° ve 48°, `rotate([-25, 0])`. *2026-10-29 (T1, kapandı):* değerler olduğu gibi kaldı. İlk görünüm `[3°D, 27°K]–[47°D, 52°K]` kutusuna sığdırılır (`src/map/projection.ts`); bir adımda kamera yere 2,6× yaklaşır. Kırpma kutusu `src/map/region.ts` içinde tek yerde durur; `build-geo` ve pan sınırı aynı sabiti okur.
 
 **Ödünleşim:** Dünya geneli görünüm yok (SPEC kapsamında da yok). Fransa (1910 manevraları gibi) bölgenin kenarına düşer; bozulma kabul edilebilir düzeyde, doğrulanmadı.
 
@@ -494,13 +501,13 @@ ARCHITECTURE kararlarının SPEC'teki ifadelere etkisi. **SPEC'e işlendi: 2026-
 
 | # | Konu | Ne zaman |
 |---|---|---|
-| A1 | Mod değişince konum, okuma süresi formülü | Faz 4; `src/timeline/` içinde, birim testli (ADR-09) |
-| T1 | Projeksiyon parametrelerinin kesinleşmesi | Faz 4 ilk dilim (ADR-04) |
+| A1 | Mod değişince konum, okuma süresi formülü | İlk kural yazıldı ve test edildi (`src/timeline/steps.ts`): geçişte yeni moddaki, mevcut olaydan geç olmayan son adım; okuma süresi 55 ms/karakter, en az 2,5 s. Gerçek kullanıcıyla ayarlanacak (SPEC A6 denemesi) |
+| ~~T1~~ | Projeksiyon parametrelerinin kesinleşmesi | **Kapandı 2026-10-29** (ADR-04) |
 | ~~T2~~ | 10m altlığın gerçek boyutu, bölme gereği | **Kapandı 2026-10-29:** 185,5 KB gzip, bölme ve sadeleştirme gerekmedi (ADR-05) |
 | ~~T3~~ | `/geo`, `/data` için hash'li dosya adı mı kısa önbellek mi | **Kapandı 2026-10-29:** hash'siz + must-revalidate (ADR-13) |
 | ~~T4~~ | Paketlerin birlikte kurulumu ve peer uyarıları | **Kapandı 2026-10-27:** çakışma yok (§2.3 kurulum testi) |
 | ~~T5~~ | Fontların Türkçe glif testi | **Kapandı 2026-10-27:** 7/7 kesim geçti (ADR-12) |
-| T6 | SVG pan akıcılığı ölçümü | Faz 4 ilk dilim (ADR-03 tetikleyicisi) |
+| ~~T6~~ | SVG pan akıcılığı ölçümü | **Kapandı 2026-10-29:** 49-60 fps, tetikleyici (30 fps) aşılmadı (ADR-03) |
 | ~~T7~~ | Toplam font boyutu 369,4 KB, SPEC §7 sınırı 250 KB | **Kapandı 2026-10-27:** sınır açılışta ≤ 250 KB + belge fontları ≤ 200 KB olarak bölündü (kullanıcı kararı, ADR-12) |
 
 ---

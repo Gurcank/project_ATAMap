@@ -1,0 +1,59 @@
+.year {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-8);
+  overflow: hidden; /* the sliding digits stay inside the frame */
+  font-family: var(--font-display);
+  font-variant-numeric: oldstyle-nums;
+  line-height: 1;
+}
+
+.digits {
+  display: inline-block;
+  font-size: var(--text-39);
+  animation: slide-in var(--dur-year) var(--ease-ink);
+}
+
+/* "yaklaşık" is a badge in --ink-muted, not part of the number (SPEC §2.3). */
+.badge {
+  font-family: var(--font-ui);
+  font-size: var(--text-12);
+  color: var(--ink-muted);
+  border: var(--rule-width) solid var(--ink-muted);
+  padding: 0 var(--space-4);
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(60%);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+/* §5.3: M6 becomes a short opacity change. --dur-year is already 150 ms here. */
+@media (prefers-reduced-motion: reduce) {
+  @keyframes slide-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 48rem) {
+  .digits {
+    font-size: var(--text-61);
+  }
+}
+
+@media (min-width: 80rem) {
+  .digits {
+    font-size: var(--text-96);
+  }
+}

@@ -1,0 +1,207 @@
+/*
+ * 375: full-screen sheet sliding up from the bottom. 768: centred, 85 % of the height.
+ * 1280: 80vh tall, opens beside the marker (--anchor-x) and is centred when it does not fit.
+ * The A4 aspect ratio (1 : 1.414) applies from 768 up (SPEC §4.3).
+ */
+.backdrop {
+  position: fixed;
+  z-index: 3;
+  inset: 0;
+  background: var(--ink);
+  opacity: 0.35;
+}
+
+.sheet {
+  --anchor-x: 50vw;
+  position: fixed;
+  z-index: 4;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  padding: var(--space-48) var(--space-24) var(--space-24);
+  overflow: hidden;
+  background: var(--paper);
+  color: var(--ink);
+  border: var(--rule-width) solid var(--ink);
+  box-shadow:
+    inset 0 0 0 var(--rule-gap) var(--paper),
+    inset 0 0 0 calc(var(--rule-gap) + var(--rule-width)) var(--ink);
+  font-family: var(--font-letter);
+  animation: sheet-up var(--dur-sheet) var(--ease-ink);
+}
+
+.sheet:focus-visible {
+  outline: none;
+}
+
+.telegram {
+  font-family: var(--font-telegram);
+}
+
+.close {
+  position: absolute;
+  top: var(--space-8);
+  right: var(--space-8);
+  min-width: var(--hit-target-min);
+  min-height: var(--hit-target-min);
+  padding: 0 var(--space-12);
+  font-family: var(--font-ui);
+  font-size: var(--text-16);
+  color: var(--ink);
+  background: var(--paper);
+  border: var(--rule-width) solid var(--ink);
+  cursor: pointer;
+}
+
+.badge {
+  align-self: flex-start;
+  margin: 0 0 var(--space-8);
+  padding: 0 var(--space-8);
+  font-family: var(--font-ui);
+  font-size: var(--text-12);
+  color: var(--accent-text);
+  border: var(--rule-width) solid var(--accent-text);
+}
+
+.title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: var(--text-25);
+  font-weight: 400;
+}
+
+.meta {
+  margin: var(--space-4) 0 var(--space-16);
+  font-family: var(--font-ui);
+  font-size: var(--text-14);
+  color: var(--ink-muted);
+}
+
+.body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  max-width: var(--measure-document);
+  font-size: var(--text-document);
+  line-height: var(--leading-document);
+}
+
+.body p {
+  margin: 0 0 var(--space-12);
+}
+
+.note {
+  margin: 0;
+  font-family: var(--font-ui);
+  font-size: var(--text-16);
+  font-style: italic;
+}
+
+.kunye {
+  margin-top: var(--space-16);
+  padding-top: var(--space-8);
+  border-top: var(--rule-width) solid var(--ink-muted);
+  font-family: var(--font-ui);
+  font-size: var(--text-12);
+  line-height: 1.35;
+  color: var(--ink-muted);
+}
+
+.kunye p {
+  margin: 0 0 var(--space-4);
+}
+
+.kunye a {
+  color: inherit;
+}
+
+/* The citation card is a postcard: shorter than the A4 sheet. */
+.card {
+  inset: auto 0 0 0;
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes sheet-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-50%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @keyframes sheet-up {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes sheet-pop {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: 48rem) {
+  .a4 {
+    inset: auto;
+    top: 50%;
+    left: 50%;
+    height: 85dvh;
+    aspect-ratio: 1 / 1.414;
+    max-width: calc(100vw - var(--space-32));
+    transform: translate(-50%, -50%);
+    animation: none;
+  }
+
+  .card {
+    inset: auto;
+    top: 50%;
+    left: 50%;
+    width: min(32rem, calc(100vw - var(--space-32)));
+    transform: translate(-50%, -50%);
+    animation: none;
+  }
+}
+
+@media (min-width: 80rem) {
+  .a4 {
+    height: 80dvh;
+    top: 50%;
+    left: clamp(
+      var(--space-24),
+      calc(var(--anchor-x) + var(--space-32)),
+      calc(100vw - 80dvh / 1.414 - var(--space-24))
+    );
+    transform: translateY(-50%);
+    animation: sheet-pop var(--dur-sheet) var(--ease-ink);
+  }
+
+  .card {
+    left: clamp(
+      var(--space-24),
+      calc(var(--anchor-x) + var(--space-32)),
+      calc(100vw - 32rem - var(--space-24))
+    );
+    transform: translateY(-50%);
+    animation: sheet-pop var(--dur-sheet) var(--ease-ink);
+  }
+}

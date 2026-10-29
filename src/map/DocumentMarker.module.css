@@ -1,0 +1,59 @@
+.marker {
+  cursor: pointer;
+  --marker-ink: var(--ink);
+}
+
+.konusma {
+  --marker-ink: var(--ink);
+}
+
+.telgraf {
+  --marker-ink: var(--telegram);
+}
+
+.mektup {
+  --marker-ink: var(--letter);
+}
+
+/* 44 x 44 px hit target (SPEC §4); invisible but hit-testable. */
+.hit {
+  fill: transparent;
+}
+
+.glyph {
+  fill: var(--paper);
+  stroke: var(--marker-ink);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  transition: fill var(--dur-reduced) linear;
+}
+
+.seal {
+  fill: var(--marker-ink);
+}
+
+/* No full text (Arabic-script original): the glyph is drawn hollow, no fill (SPEC §4). */
+.hollow .glyph {
+  fill: none;
+}
+
+.marker:hover .glyph,
+.active .glyph {
+  fill: var(--panel);
+}
+
+.hollow:hover .glyph,
+.hollow.active .glyph {
+  fill: none;
+  stroke-width: 2.5;
+}
+
+.marker:focus-visible {
+  outline: none;
+}
+
+.marker:focus-visible .hit {
+  stroke: var(--accent-text);
+  stroke-width: 2;
+}

@@ -5,3 +5,4 @@ dist/
 public/geo/
 public/data/
 package-lock.json
+src/map/generated/

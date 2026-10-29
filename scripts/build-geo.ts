@@ -9,13 +9,10 @@ import { join } from 'node:path';
 import { gzipSync } from 'node:zlib';
 import mapshaper from 'mapshaper';
 import { topology } from 'topojson-server';
+import { REGION } from '../src/map/region.ts';
 import { fetchGeo } from './fetch-geo.ts';
 
 const ROOT = join(import.meta.dirname, '..');
-
-/** West, south, east, north. Wider than the Balkans-Anatolia-Levant view so the conic projection
- *  never shows the clip edge (ADR-04). build-geo refuses places that fall outside. */
-export const REGION = [-10, 20, 55, 60] as const;
 
 interface Level {
   name: string;

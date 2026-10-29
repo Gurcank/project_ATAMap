@@ -3,6 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 // SPEC §4.3 / §10: every flow is checked at 375, 768 and 1280.
 export default defineConfig({
   testDir: 'tests/e2e',
+  globalSetup: './tests/e2e/global-setup.ts',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 1 : 0,

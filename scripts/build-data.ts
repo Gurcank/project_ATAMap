@@ -14,11 +14,11 @@ import {
   PlacesFile,
   SourcesFile,
 } from '../src/schema/index.ts';
+import { paths } from './lib/cli.ts';
 import { applyRules, type Dataset, type ReferenceEntry } from './lib/rules.ts';
 
-const ROOT = join(import.meta.dirname, '..');
-const DATA = join(ROOT, 'data');
-const OUT = join(ROOT, 'public', 'data');
+const DATA = paths.data;
+const OUT = join(paths.out, 'data');
 
 let schemaErrors = 0;
 function load<K extends string, T>(file: string, key: K, schema: ZodType<Record<K, T[]>>): T[] {

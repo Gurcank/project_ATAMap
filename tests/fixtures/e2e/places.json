@@ -1,0 +1,47 @@
+{
+  "$comment": "KURGU VERİ: tamamen uydurmadır, yalnız e2e testleri içindir (CLAUDE.md kural 3). data/ altına kopyalanmaz.",
+  "places": [
+    {
+      "id": "kurgu-a",
+      "point": {
+        "lon": 28.98,
+        "lat": 41.01,
+        "sources": ["k2", "k3"]
+      },
+      "names": [
+        {
+          "name": "Kurgu A",
+          "sources": ["k1"]
+        }
+      ]
+    },
+    {
+      "id": "kurgu-b",
+      "point": {
+        "lon": 36.33,
+        "lat": 41.29,
+        "sources": ["k2", "k3"]
+      },
+      "names": [
+        {
+          "name": "Kurgu B",
+          "sources": ["k1"]
+        }
+      ]
+    },
+    {
+      "id": "kurgu-c",
+      "point": {
+        "lon": 32.85,
+        "lat": 39.92,
+        "sources": ["k2", "k3"]
+      },
+      "names": [
+        {
+          "name": "Kurgu C",
+          "sources": ["k1"]
+        }
+      ]
+    }
+  ]
+}

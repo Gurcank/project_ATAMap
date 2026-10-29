@@ -1,0 +1,43 @@
+.layer {
+  pointer-events: none;
+}
+
+.line {
+  fill: none;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+
+/* Telegram: a thin, straight, rust-coloured line (SPEC §3.2 --telegram). */
+.telegram .line {
+  stroke: var(--telegram);
+  stroke-width: 1.25;
+}
+
+.telegram .glyph circle {
+  fill: var(--telegram);
+}
+
+/* Letter: an arc in the seal colour, with a stamp where it lands. */
+.letter .line {
+  stroke: var(--letter);
+  stroke-width: 1.5;
+  stroke-dasharray: 1;
+}
+
+.letter .glyph path {
+  fill: var(--paper);
+  stroke: var(--letter);
+  stroke-width: 1.25;
+  stroke-linejoin: round;
+}
+
+.seal {
+  fill: var(--letter);
+}
+
+.stamp {
+  fill: none;
+  stroke: var(--letter);
+  stroke-width: 2;
+}

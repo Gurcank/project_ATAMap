@@ -1,0 +1,93 @@
+{
+  "$comment": "KURGU VERİ: tamamen uydurmadır, yalnız e2e testleri içindir (CLAUDE.md kural 3). data/ altına kopyalanmaz.",
+  "events": [
+    {
+      "id": "kurgu-olay-1",
+      "date": {
+        "iso": "1900-01-02",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "title": "Kurgu olay bir",
+      "text": "Kurgu A'da bir olay oldu.",
+      "sources": ["k1"],
+      "placeId": "kurgu-a"
+    },
+    {
+      "id": "kurgu-yol-1",
+      "date": {
+        "iso": "1900-05-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "title": "Kurgu yolculuk başladı",
+      "text": "Kurgu A'dan Kurgu B'ye gemiyle yola çıkıldı.",
+      "sources": ["k1"],
+      "placeId": "kurgu-a",
+      "journeyId": "kurgu-seyahat"
+    },
+    {
+      "id": "kurgu-yol-2",
+      "date": {
+        "iso": "1900-05-05",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "title": "Kurgu yolculuk sürdü",
+      "text": "Kurgu B'den Kurgu C'ye atla gidildi.",
+      "sources": ["k1"],
+      "placeId": "kurgu-b",
+      "journeyId": "kurgu-seyahat"
+    },
+    {
+      "id": "kurgu-telgraf",
+      "date": {
+        "iso": "1901-03-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "title": "Kurgu telgraf çekildi",
+      "text": "Kurgu C'den Kurgu A'ya bir telgraf çekildi.",
+      "sources": ["k1"],
+      "placeId": "kurgu-c",
+      "documentIds": ["kurgu-telgraf"]
+    },
+    {
+      "id": "kurgu-mektup",
+      "date": {
+        "iso": "1901-06-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "title": "Kurgu mektup yazıldı",
+      "text": "Kurgu C'den Kurgu B'ye bir mektup yazıldı.",
+      "sources": ["k1"],
+      "placeId": "kurgu-c",
+      "documentIds": ["kurgu-mektup"]
+    },
+    {
+      "id": "kurgu-olay-2",
+      "date": {
+        "iso": "1902-02-02",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "title": "Kurgu olay iki",
+      "text": "Kurgu A'da ikinci bir olay oldu.",
+      "sources": ["k1"],
+      "placeId": "kurgu-a"
+    }
+  ]
+}

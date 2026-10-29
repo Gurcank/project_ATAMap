@@ -12,6 +12,7 @@
 | 2026-10-27 | ADR-12, §5 | Font yükleme yöntemi ölçümle kesinleşti; toplam font boyutu SPEC sınırını aşıyor (ayrıntı ADR-12) |
 | 2026-10-27 | §8 | T4 ve T5 kapandı |
 | 2026-10-27 | ADR-08, §2.3, §4 | Referans metni satır satır ("diplomatik") aktarım oldu; site metni ondan otomatik üretiliyor. `fetch-scan` betiği, `tools/review/` kontrol sayfası ve `pdfjs-dist` eklendi |
+| 2026-10-29 | ADR-06, §4 | Sınır ve seyahat altyapısı: `scripts/build-borders.ts` (elle çizim → `public/geo/borders/<id>.topojson`, kayıtlı `geometry` yolu `data/` köküne göre), `BorderLayer` (M5), `JourneyLayer` (M1, M2), `TransmissionLayer` (M3, M4), `--data`/`--out` bayrakları, kurgu e2e veri seti (`tests/fixtures/e2e`). CShapes geometrisi henüz bağlı değil; gerekçe SOURCES §3.2 |
 | 2026-10-29 | ADR-03, ADR-04, §8 | Faz 4 ilk dilim: harita, yıl/olay/kontrol kartuşları, A4 ve künye kartı, adım motoru. T1 ve T6 kapandı (ölçümler ADR-03 ve ADR-04'te). `d3-selection` ve `d3-interpolate` doğrudan bağımlılık oldu (d3-zoom zaten getiriyordu). `.github/workflows/ci.yml` eklendi |
 | 2026-10-29 | ADR-05, ADR-07, ADR-13, §4, §8 | Faz 3 tamamlandı: Zod şeması (`src/schema/`), `build-data` + 8 kural + bütünlük denetimi (`scripts/lib/rules.ts`), `fetch-geo`/`build-geo`, kural fixture'ları. T2 ve T3 kapandı (ayrıntı ADR-05, ADR-13, §8) |
 | 2026-10-27 | ADR-12, §5, §8 | T7 kapandı: font sınırı açılışta ≤ 250 KB + belge fontları ≤ 200 KB olarak bölündü (kullanıcı kararı); `check:size` iki sınırı da denetliyor |
@@ -213,6 +214,8 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 - Değişiklik başına bölgeye kırpılmış TopoJSON (komşu sınırlar ortak yay).
 
 **Sonuç:** `geo-src/cshapes/` ham veri → mapshaper ile `gwsdate`'e göre filtre, kırpma, sadeleştirme → `public/geo/borders/<BorderChange.id>.topojson`. Elle çizimler `data/borders/manual/<id>.geojson` olarak kaynağıyla girilir ve aynı hattan geçer. İşgal bölgeleri ayrı nesne olarak tutulur, çizimde çapraz tarama deseni alır. `public/geo/borders/LICENSE.txt` CC BY-NC-SA 4.0 ve CShapes atfını içerir; aynı atıf `Attribution` bileşeninde görünür.
+
+*2026-10-29 güncellemesi:* ilk uygulama yalnız `elle-cizim` yolunu bağlar. CShapes incelemesi (SOURCES §3.2) iki sonuç verdi: Türkiye poligonu 1920-2019 arasında bugünkü Türkiye'dir, dönem sınırı olarak kullanılamaz; ve CShapes tarihleri antlaşma imza gününe dayanır ama kaynak yoksa ayın/yılın ilk gününe düşer, yani tek başına tarih kaynağı olamaz. `geometryOrigin: 'cshapes'` kaydı `build-borders` içinde bilerek hata verir; bağlanacağı gün seçici (`gwcode` + başlangıç tarihi) ve UTC kaydırma düzeltmesi buraya yazılır.
 
 **Ödünleşim:** CShapes tarihleri ile antlaşma adları arasındaki eşleştirme elle yapılır ve her biri iki kaynakla teyit edilir (SPEC §2.2). Bu iş kod değil, veri işidir ve zaman alır. Sadeleştirme kıyıyla sınır arasında küçük boşluklar üretebilir; altlık ile sınır aynı sadeleştirme oranından geçirilir.
 

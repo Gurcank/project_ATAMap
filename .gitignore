@@ -12,6 +12,7 @@ public/data/
 src/map/generated/
 
 # Test output
+tests/fixtures/.generated/
 test-results/
 playwright-report/
 tests/e2e/__screenshots__/actual/

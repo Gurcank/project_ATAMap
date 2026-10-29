@@ -1,0 +1,76 @@
+{
+  "$comment": "KURGU VERİ: tamamen uydurmadır, yalnız e2e testleri içindir (CLAUDE.md kural 3). data/ altına kopyalanmaz.",
+  "journeys": [
+    {
+      "id": "kurgu-seyahat",
+      "title": "Kurgu yolculuk",
+      "sources": ["k1"],
+      "legs": [
+        {
+          "fromPlaceId": "kurgu-a",
+          "toPlaceId": "kurgu-b",
+          "vehicle": "gemi",
+          "departure": {
+            "iso": "1900-05-01",
+            "precision": "day",
+            "approximate": false,
+            "primaryDocument": true,
+            "sources": ["k1"]
+          },
+          "arrival": {
+            "iso": "1900-05-04",
+            "precision": "day",
+            "approximate": false,
+            "primaryDocument": true,
+            "sources": ["k1"]
+          },
+          "routeKind": "yaklasik",
+          "sources": ["k1"]
+        },
+        {
+          "fromPlaceId": "kurgu-b",
+          "toPlaceId": "kurgu-c",
+          "vehicle": "at",
+          "departure": {
+            "iso": "1900-05-05",
+            "precision": "day",
+            "approximate": false,
+            "primaryDocument": true,
+            "sources": ["k1"]
+          },
+          "arrival": {
+            "iso": "1900-05-09",
+            "precision": "day",
+            "approximate": false,
+            "primaryDocument": true,
+            "sources": ["k1"]
+          },
+          "routeKind": "kaynakli",
+          "path": [
+            {
+              "lon": 36.33,
+              "lat": 41.29,
+              "sources": ["k2", "k3"]
+            },
+            {
+              "lon": 35,
+              "lat": 40.6,
+              "sources": ["k2", "k3"]
+            },
+            {
+              "lon": 33.9,
+              "lat": 40.4,
+              "sources": ["k2", "k3"]
+            },
+            {
+              "lon": 32.85,
+              "lat": 39.92,
+              "sources": ["k2", "k3"]
+            }
+          ],
+          "sources": ["k1"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+.layer {
+  pointer-events: none;
+}
+
+.border {
+  fill: none;
+  stroke: var(--border-line);
+  stroke-width: 1.6;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+  animation: border-in var(--dur-border) var(--ease-ink) both;
+}
+
+/* Approximate or occupied: diagonal hatching inside the outline (SPEC §3.1, A14). The pattern is
+   defined once in MapCanvas as #hatch. */
+.hatched {
+  fill: url(#hatch);
+}
+
+.leaving {
+  animation-name: border-out;
+}
+
+@keyframes border-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes border-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

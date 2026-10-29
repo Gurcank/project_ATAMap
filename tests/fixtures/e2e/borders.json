@@ -1,0 +1,41 @@
+{
+  "$comment": "KURGU VERİ: tamamen uydurmadır, yalnız e2e testleri içindir (CLAUDE.md kural 3). data/ altına kopyalanmaz.",
+  "borders": [
+    {
+      "id": "kurgu-sinir-1",
+      "effective": {
+        "iso": "1900-12-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "kind": "diger",
+      "title": "Kurgu sınır değişikliği bir",
+      "polity": "Kurgu Devleti",
+      "geometry": "borders/manual/kurgu-sinir-1.geojson",
+      "geometryOrigin": "elle-cizim",
+      "geometryApproximate": false,
+      "geometrySources": ["k1"],
+      "sources": ["k1"]
+    },
+    {
+      "id": "kurgu-sinir-2",
+      "effective": {
+        "iso": "1901-12-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "kind": "diger",
+      "title": "Kurgu sınır değişikliği iki",
+      "polity": "Kurgu Devleti",
+      "geometry": "borders/manual/kurgu-sinir-2.geojson",
+      "geometryOrigin": "elle-cizim",
+      "geometryApproximate": true,
+      "geometrySources": ["k1"],
+      "sources": ["k1"]
+    }
+  ]
+}

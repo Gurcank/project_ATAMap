@@ -1,0 +1,50 @@
+.layer {
+  pointer-events: none;
+}
+
+/* The mask path is revealed by a dash offset running 1 -> 0 (pathLength="1"). */
+.reveal {
+  fill: none;
+  stroke: var(--paper);
+  stroke-width: 12;
+  stroke-linecap: butt;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 0;
+}
+
+.route,
+.routeApproximate {
+  fill: none;
+  stroke: var(--route);
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.route {
+  stroke-width: 2.5;
+}
+
+/* Undocumented route (A8): fainter and dashed. */
+.routeApproximate {
+  stroke-width: 2;
+  stroke-dasharray: 7 6;
+  opacity: 0.7;
+}
+
+.label {
+  font-family: var(--font-display);
+  font-size: var(--text-14);
+  font-style: italic;
+  fill: var(--ink-muted);
+  stroke: var(--land);
+  stroke-width: 3;
+  paint-order: stroke;
+}
+
+.vehicle path {
+  fill: var(--paper);
+  stroke: var(--route);
+  stroke-width: 1.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}

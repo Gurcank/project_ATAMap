@@ -20,6 +20,7 @@ Atatürk'ün 1881-1938 hayatı; mektup, telgraf, konuşma ve seyahatleri dönem 
 npm run dev            # geliştirme sunucusu
 npm run check          # typecheck + lint + check:tokens + test + build + check:size (iş bitmeden önce geçmeli)
 npm run build:data      # data/*.json → public/data (Zod + SPEC §6 kuralları 1-8; ihlalde çıkış ≠ 0)
+npm run build:borders   # data/borders/manual/*.geojson → public/geo/borders/<id>.topojson (build:data'dan sonra; --data <dir> --out <dir> ile kurgu veri de derlenir)
 npm run fetch:geo       # Natural Earth katmanlarını geo-src/ altına indirir (sha256 doğrulamalı)
 npm run build:geo       # altlık TopoJSON: public/geo/ ve src/map/generated/ (`npm run build` ikisini de çalıştırır)
 npm run test           # Vitest (tests/unit)

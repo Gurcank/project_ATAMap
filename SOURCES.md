@@ -123,7 +123,13 @@ Liste sayfasında 20 konuşma var: 24 Nisan 1920 – 1 Kasım 1938. Her biri iç
 | Egypt (651) | 1886-01-01→1899-01-18 · 1899-01-19→1914-12-17 · 1914-12-18→1922-02-27 · 1922-02-28→1925-12-05 · 1925-12-06→1967-06-09 |
 | Italy/Sardinia (325) | 1886-01-01→1919-09-09 · 1919-09-10→2019-12-31 |
 
-- Bu tarihlerin hangi antlaşma/olaya karşılık geldiği veri setinde metin olarak yok. Eşleştirme codebook'tan yapılacak → **doğrulanmadı**.
+- Bu tarihlerin hangi antlaşma/olaya karşılık geldiği veri setinde metin olarak yok.
+- **2026-10-29 inceleme (CShapes'i sınır kaynağı olarak kullanma denemesi):**
+  - [`CShapes-2.0.geojson`](https://icr.ethz.ch/data/cshapes/CShapes-2.0.geojson) (26 MB, 710 satır) indirilebiliyor. GeoJSON'da tarihler UTC kaydırmalı ("31.12.1885 23:00:00" = 1886-01-01); doğru gün `CShapes-2.0.txt` dosyasında.
+  - Codebook ([PDF](https://icr.ethz.ch/data/cshapes/CShapes-2.0_Codebook.pdf)) yayımlanmış bir kaynak değil, kodlayıcılara yazılmış bir görev tarifi. Üç şeyi söylüyor: yalnız *de jure* değişiklikler kodlanır ve "antlaşmanın imzalandığı gün değişiklik günü sayılır"; kaynak tarih yoksa ayın ya da yılın birinci günü yazılır; her satır sınır değişikliği olmak zorunda değil, başkent gibi başka bir nitelik değişimi de yeni satır açar.
+  - **Türkiye (640) satırları:** 1920-04-26→1923-10-13 ve 1923-10-14→2019 satırlarının alanı aynı (779 964 km²). İkinci satır bu yüzden bir sınır değişikliği değil; neye karşılık geldiği doğrulanmadı. Daha önemlisi poligon bugünkü Türkiye'dir (Hatay'ı da içerir, Hatay 1939'da katıldı), yani 1920-1938 için dönem sınırı olarak **kullanılamaz**. Lozan (imza 24 Temmuz 1923, [Vikikaynak](https://tr.wikisource.org/wiki/Lozan_Antlaşması), Düstur 3. tertip cilt 5) CShapes'te karşılığı olan bir değişiklik değil.
+  - **Yunanistan ve Bulgaristan** satırları 1919-11-27'de başlıyor; bu, Neuilly antlaşmasının imza günüyle uyuşuyor (codebook kuralıyla tutarlı). Ama antlaşma metnini telifsiz bir kaynaktan bulamadım (İngilizce Vikikaynak'ta yalnız kısa bir taslak sayfa var), bu yüzden tarih iki kaynakla teyit edilemedi ve kayıt yazılmadı.
+  - **Sonuç:** Şu an `data/borders.json` boş. Gerçek sınır kaydı için ya kaynaklı elle çizim (A14, `data/borders/manual/`) ya da antlaşma metni + CShapes satırı birlikte gerekiyor. Altyapı (`build-borders`, `BorderLayer`) hazır ve kurgu veriyle test edildi.
 - **Ticari olmayan kullanım şartı** (NC). Sitenin ticari olup olmadığı **açık karar**.
 
 ### 3.3 Euratlas

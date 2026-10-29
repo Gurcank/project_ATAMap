@@ -1,0 +1,42 @@
+{
+  "$comment": "KURGU VERİ: tamamen uydurmadır, yalnız e2e testleri içindir (CLAUDE.md kural 3). data/ altına kopyalanmaz.",
+  "documents": [
+    {
+      "id": "kurgu-telgraf",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1901-03-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "fromPlaceId": "kurgu-c",
+      "sender": "Kurgu Gönderen",
+      "originalScript": "latin",
+      "attributionDisputed": false,
+      "sources": ["k1"],
+      "toPlaceId": "kurgu-a",
+      "recipient": "Kurgu Alıcı",
+      "fullText": "KURGU TELGRAF METNİ BİRİNCİ SATIR\n\nİKİNCİ PARAGRAF"
+    },
+    {
+      "id": "kurgu-mektup",
+      "kind": "mektup",
+      "date": {
+        "iso": "1901-06-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": ["k1"]
+      },
+      "fromPlaceId": "kurgu-c",
+      "sender": "Kurgu Gönderen",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": ["k1"],
+      "toPlaceId": "kurgu-b",
+      "recipient": "Kurgu Alıcı"
+    }
+  ]
+}

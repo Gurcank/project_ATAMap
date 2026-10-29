@@ -11,6 +11,7 @@ import mapshaper from 'mapshaper';
 import { topology } from 'topojson-server';
 import { REGION } from '../src/map/region.ts';
 import { fetchGeo } from './fetch-geo.ts';
+import { rewindForD3, type Collection } from './lib/geo.ts';
 
 const ROOT = join(import.meta.dirname, '..');
 
@@ -27,32 +28,6 @@ const LEVELS: Level[] = [
   { name: '50m', res: '50m', out: 'public/geo/base-50m.topojson', budget: 400 * KB },
   { name: '10m', res: '10m', out: 'public/geo/base-10m.topojson', budget: 400 * KB },
 ];
-
-type Ring = number[][];
-type Geometry = { type: string; coordinates: unknown };
-type Collection = { features: { geometry: Geometry | null }[] };
-
-// Signed area of a lon/lat ring (shoelace). Negative = clockwise.
-const ringArea = (r: Ring) =>
-  r.reduce(
-    (sum, p, i) => sum + p[0]! * r[(i + 1) % r.length]![1]! - r[(i + 1) % r.length]![0]! * p[1]!,
-    0,
-  ) / 2;
-
-/** d3-geo wants exterior rings clockwise and holes counter-clockwise; GeoJSON (RFC 7946) and
- *  mapshaper write the opposite, which makes d3 fill the complement of every polygon. The clip
- *  box keeps every ring away from the poles and the antimeridian, so a planar test is enough. */
-function rewindForD3(fc: Collection): void {
-  const fix = (poly: Ring[]) =>
-    poly.forEach((ring, i) => {
-      const clockwise = ringArea(ring) < 0;
-      if (clockwise !== (i === 0)) ring.reverse();
-    });
-  for (const f of fc.features) {
-    if (f.geometry?.type === 'Polygon') fix(f.geometry.coordinates as Ring[]);
-    else if (f.geometry?.type === 'MultiPolygon') (f.geometry.coordinates as Ring[][]).forEach(fix);
-  }
-}
 
 // No -simplify: even the unsimplified 10m region is ~185 KB gzip, well under the 400 KB budget (T2).
 async function clip(file: string): Promise<unknown> {

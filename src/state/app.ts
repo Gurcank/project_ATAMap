@@ -2,6 +2,7 @@
 import { computed, effect, signal } from '@preact/signals';
 import { stepAnimationMs } from '../motion/motionPolicy.ts';
 import type { DocumentRecord } from '../schema/index.ts';
+import { activeBorderChanges } from '../timeline/borders.ts';
 import {
   buildSteps,
   nextStepId,
@@ -39,6 +40,25 @@ export const modeHasSteps = computed(() => ({
 export const sources = computed<Record<string, PublicSource>>(() =>
   dataState.value.status === 'ready' ? dataState.value.data.sources : {},
 );
+export const placeById = computed(() => {
+  const places = dataState.value.status === 'ready' ? dataState.value.data.places : [];
+  return new Map(places.map((p) => [p.id, p]));
+});
+
+/** The journey the current step belongs to (SPEC §5.2 M1/M2), if any. */
+export const currentJourney = computed(() => {
+  const id = currentEvent.value?.journeyId;
+  if (dataState.value.status !== 'ready' || id === undefined) return null;
+  return dataState.value.data.journeys.find((j) => j.id === id) ?? null;
+});
+
+/** Per polity, the border change in force on the step's date (see activeBorderChanges). */
+export const activeBorders = computed(() => {
+  const event = currentEvent.value;
+  if (event === null || dataState.value.status !== 'ready') return [];
+  return activeBorderChanges(dataState.value.data.borders, event.date.iso);
+});
+
 export const currentPlace = computed(() => {
   const placeId = currentEvent.value?.placeId;
   if (dataState.value.status !== 'ready' || placeId === undefined) return null;

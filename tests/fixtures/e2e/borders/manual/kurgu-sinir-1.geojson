@@ -1,0 +1,16 @@
+{
+  "type": "Feature",
+  "properties": { "kurgu": true },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [27, 38],
+        [38, 38],
+        [38, 42.5],
+        [27, 42.5],
+        [27, 38]
+      ]
+    ]
+  }
+}

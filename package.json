@@ -9,10 +9,11 @@
     "node": "24.x"
   },
   "scripts": {
-    "prepare:data": "npm run build:data && npm run build:geo",
+    "prepare:data": "npm run build:data && npm run build:borders && npm run build:geo",
     "predev": "npm run prepare:data",
     "dev": "vite",
     "build:data": "node scripts/build-data.ts",
+    "build:borders": "node scripts/build-borders.ts",
     "build:geo": "node scripts/build-geo.ts",
     "fetch:geo": "node scripts/fetch-geo.ts",
     "build": "npm run prepare:data && vite build",

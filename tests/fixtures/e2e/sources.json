@@ -1,0 +1,35 @@
+{
+  "$comment": "KURGU VERİ: tamamen uydurmadır, yalnız e2e testleri içindir (CLAUDE.md kural 3). data/ altına kopyalanmaz.",
+  "sources": [
+    {
+      "id": "k1",
+      "institution": "KURGU kurum k1",
+      "citation": "KURGU künye k1",
+      "accessedAt": "2026-01-01",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "page": "s. 1",
+      "url": "https://example.invalid/kurgu"
+    },
+    {
+      "id": "k2",
+      "institution": "KURGU kurum k2",
+      "citation": "KURGU künye k2",
+      "accessedAt": "2026-01-01",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true
+    },
+    {
+      "id": "k3",
+      "institution": "KURGU kurum k3",
+      "citation": "KURGU künye k3",
+      "accessedAt": "2026-01-01",
+      "rights": "acik-lisans",
+      "free": true,
+      "verified": true,
+      "licence": "CC0-1.0"
+    }
+  ]
+}

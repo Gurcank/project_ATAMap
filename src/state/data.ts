@@ -1,6 +1,12 @@
 // Loading of the generated JSON (public/data) with the states SPEC §4.2 asks for.
 import { signal } from '@preact/signals';
-import type { DocumentRecord, EventRecord, PlaceName } from '../schema/index.ts';
+import type {
+  BorderChange,
+  DocumentRecord,
+  EventRecord,
+  Journey,
+  PlaceName,
+} from '../schema/index.ts';
 
 export interface PublicSource {
   institution: string;
@@ -14,6 +20,8 @@ export interface PublicSource {
 export interface StepsData {
   events: EventRecord[];
   places: PlaceName[];
+  journeys: Journey[];
+  borders: BorderChange[];
   sources: Record<string, PublicSource>;
 }
 

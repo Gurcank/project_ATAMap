@@ -79,7 +79,8 @@ Liste sayfasında 20 konuşma var: 24 Nisan 1920 – 1 Kasım 1938. Her biri iç
 - **1920 – 1 Kasım 1928:** PDF'ler de Latin harfli, ama tutanakların aslı Harf Kanunu (1 Kasım 1928) öncesine ait, yani Arap harfli. Bu Latin baskılar sonradan yapılmış harf çevirisi olmalı; basım yılı **doğrulanmadı** (TBMM Açık Erişim kaydından bakılacak). SPEC §2.1 gereği tam metin gösterilmez, künye kartı kullanılır.
 - **1 Kasım 1928:** Harf Kanunu'nun kabul edildiği oturum. Tutanağın aslı büyük olasılıkla Arap harfli → künye kartı. **Doğrulanmadı.**
 - **1 Kasım 1938:** Metin kayıtta var (Latin harfli). Konuşmayı Atatürk'ün kendisinin okumadığı biliniyor; kimin okuduğu tutanaktan **doğrulanacak** ve künyede belirtilecek.
-- Liste sayfasında 2. Dönem 2. Yasama Yılı (1 Kasım 1924) için içtima tarihi "1.3.1340" yazılmış; PDF adı `01_03_1340.pdf`. Tarih **tutarsız**; tutanağın kendisinden doğrulanacak.
+- Liste sayfasında 2. Dönem 2. Yasama Yılı (1 Kasım 1924) için içtima tarihi "1.3.1340" yazılmış; PDF adı `01_03_1340.pdf`. Tarih **tutarsız**; tutanağın kendisinden doğrulanacak. **2026-10-28:** tutanağın sayfa başlığı "1.3.1340" (1 Mart 1924) yazıyor ve konuşma "beşinci senesini idrak ediyoruz" diyor; kayıt 1 Mart 1924 olarak girildi, TBMM liste sayfasındaki "1 Kasım 1924" yanlış görünüyor.
+- **2026-10-28:** 1920-1928 PDF'lerinin on tanesi de Latin harfli, dönem yazımlı, taranmış baskı (sayfa başlığı "İ:… tarih C:1"); sayfa numarası sayfa altında "— 37 —" biçiminde. ata.msb.gov.tr yalnız ipucu olarak kullanıldı (A19); yeni bir bilgi ondan alınmadı.
 - Tutanak metninde stenograf notları var: "(Alkışlar)", "(Alkışlar, teşekkür ederiz sesleri)". Bunlar Atatürk'ün sözü değil.
 
 ### 2.5 Türk Tarih Kurumu

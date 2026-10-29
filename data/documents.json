@@ -2,6 +2,240 @@
   "$comment": "DocumentRecord kayıtları (SPEC §6). fullText, data/reference/<id>.txt dosyasından scripts/lib/diplomatic.ts ile üretilir; elle düzenlenmez.",
   "documents": [
     {
+      "id": "tbmm-nutuk-1920-04-24",
+      "kind": "konusma",
+      "date": {
+        "iso": "1920-04-24",
+        "precision": "day",
+        "approximate": false,
+        "original": "24.4.1336",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1920-04-24"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Ankara Mebusu Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1920-04-24"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı. Tutanak başlığı \"Ankara Mebusu Mustafa Kemal Paşanın ... siyasi ahval hakkındaki nutukları\". Meclisin açılış nutku değil, açılıştan sonraki oturumda verilen bilgidir."
+    },
+    {
+      "id": "tbmm-nutuk-1921-03-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1921-03-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1.3.1337",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1921-03-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Meclis Reisi Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1921-03-01"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı."
+    },
+    {
+      "id": "tbmm-nutuk-1922-03-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1922-03-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1.3.1338",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1922-03-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Meclis Reisi Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1922-03-01"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı. Nutuk başlığı taramada tam okunmadı (içindekiler satırında \"Üçüncü içtima senesinin küşad...\" görünüyor)."
+    },
+    {
+      "id": "tbmm-nutuk-1923-03-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1923-03-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1.3.1339",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1923-03-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Türkiye Büyük Millet Meclisi Reisi ve Ankara Mebusu Gazi Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1923-03-01"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı."
+    },
+    {
+      "id": "tbmm-nutuk-1923-08-13",
+      "kind": "konusma",
+      "date": {
+        "iso": "1923-08-13",
+        "precision": "day",
+        "approximate": false,
+        "original": "13.8.1339",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1923-08-13"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Gazi Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1923-08-13"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı. Nutuk başlığı ve konuşmacı unvanı taramada ayrıca okunmadı; \"Reisiniz\" ve Reisliğe seçim satırı tutanaktan alındı. Devre II, TBMM liste sayfasından."
+    },
+    {
+      "id": "tbmm-nutuk-1924-03-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1924-03-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1.3.1340",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1924-03-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1924-03-01"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı. TBMM liste sayfası bu konuşmayı \"1 Kasım 1924\" diye sayıyor, ama tutanağın sayfa başlığı \"1.3.1340\" (1 Mart 1924). Başlık esas alındı; tutarsızlık SOURCES §2.4.1'de açık. Konuşmacı unvanı taramada okunmadı, ad TBMM konuşma listesine dayanır."
+    },
+    {
+      "id": "tbmm-nutuk-1925-11-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1925-11-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1.11.1341",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1925-11-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Reisicumhur Gazi Mustafa Kemal Paşa Hazretleri",
+      "recipient": "Büyük Millet Meclisinin muhterem azası",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1925-11-01"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı."
+    },
+    {
+      "id": "tbmm-nutuk-1926-11-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1926-11-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1.11.1926",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1926-11-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Reisicumhur Gazi Mustafa Kemal Paşa Hazretleri",
+      "recipient": "Büyük Millet Meclisinin Musterem Azası",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1926-11-01"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı."
+    },
+    {
+      "id": "tbmm-nutuk-1927-11-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1927-11-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1.11.1927",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1927-11-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Reisicumhur Hazretleri",
+      "recipient": "Büyük Millet Meclisinin muhterem azası",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1927-11-01"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı. PDF kesiti yemin metninin ortasından başlıyor; \"Reisicumhur Hazretlerinin nutukları\" başlığı s.2'de. Devre III, TBMM liste sayfasından."
+    },
+    {
+      "id": "tbmm-nutuk-1928-11-01",
+      "kind": "konusma",
+      "date": {
+        "iso": "1928-11-01",
+        "precision": "day",
+        "approximate": false,
+        "original": "1.11.1928",
+        "conversion": "source",
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1928-11-01"
+        ]
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Reisicumhur Gazi Mustafa Kemal Paşa Hazretleri",
+      "recipient": "Büyük Millet Meclisinin muhterem azası",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "tbmm-zc-early-1928-11-01"
+      ],
+      "$note": "Tam metin yok: aslı Arap harfli (SPEC §2.1), künye kartı. Yer: TBMM oturumu; tutanakta şehir adı geçmiyor, fromPlaceId için ayrı bir kaynak gerekiyor (açık). Sayfa aralığı taramadan okunmadı. Konuşmanın Harf Kanunu'nun kabul edildiği güne rastladığı SOURCES §2.4.1'de not edilmişti; bu kayıtta nutukta ne söylendiğine dair bir bilgi yok."
+    },
+    {
       "id": "tbmm-nutuk-1929-11-01",
       "kind": "konusma",
       "date": {

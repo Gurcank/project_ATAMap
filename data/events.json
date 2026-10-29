@@ -2,6 +2,216 @@
   "$comment": "Event kayıtları (SPEC §6). Metinleri biz yazarız; kaynakta olmayan bilgi yok (SPEC §2).",
   "events": [
     {
+      "id": "tbmm-nutuk-1920-04-24",
+      "date": {
+        "iso": "1920-04-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1920-04-24"
+        ]
+      },
+      "title": "Mustafa Kemal Paşa Meclise siyasi ahvali anlattı",
+      "text": "Ankara Mebusu Mustafa Kemal Paşa, mütarekeden Meclisin açılışına kadar geçen zamandaki siyasi ahval hakkında nutuklar söyledi.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1920-04-24"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1920-04-24"
+      ]
+    },
+    {
+      "id": "tbmm-acilis-1921-03-01",
+      "date": {
+        "iso": "1921-03-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1921-03-01"
+        ]
+      },
+      "title": "Meclisin ikinci içtima senesi açıldı",
+      "text": "Meclis Reisi Mustafa Kemal Paşa, ikinci içtima senesini bir nutukla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1921-03-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1921-03-01"
+      ]
+    },
+    {
+      "id": "tbmm-acilis-1922-03-01",
+      "date": {
+        "iso": "1922-03-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1922-03-01"
+        ]
+      },
+      "title": "Meclisin üçüncü içtima senesi açıldı",
+      "text": "Meclis Reisi Mustafa Kemal Paşa, Meclisin üçüncü içtima senesinin açılışında nutuk söyledi.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1922-03-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1922-03-01"
+      ]
+    },
+    {
+      "id": "tbmm-acilis-1923-03-01",
+      "date": {
+        "iso": "1923-03-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1923-03-01"
+        ]
+      },
+      "title": "Meclisin dördüncü içtima senesi açıldı",
+      "text": "Meclis Reisi Gazi Mustafa Kemal Paşa, Birinci Devrenin dördüncü içtima senesini açış nutkuyla başlattı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1923-03-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1923-03-01"
+      ]
+    },
+    {
+      "id": "tbmm-nutuk-1923-08-13",
+      "date": {
+        "iso": "1923-08-13",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1923-08-13"
+        ]
+      },
+      "title": "Meclis Reisi Mondros'tan sonrasını anlattı",
+      "text": "Meclis Reisi Gazi Mustafa Kemal Paşa, Mondros Mütarekesinden itibaren geçen devri üç safhada anlatan bir nutuk söyledi.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1923-08-13"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1923-08-13"
+      ]
+    },
+    {
+      "id": "tbmm-acilis-1924-03-01",
+      "date": {
+        "iso": "1924-03-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1924-03-01"
+        ]
+      },
+      "title": "Meclisin beşinci senesi açıldı",
+      "text": "Meclisin beşinci senesinin açılışında nutuk söylendi; nutukta Cumhuriyet idaresi ve Teşkilâtı Esasiye anıldı.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1924-03-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1924-03-01"
+      ]
+    },
+    {
+      "id": "tbmm-acilis-1925-11-01",
+      "date": {
+        "iso": "1925-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1925-11-01"
+        ]
+      },
+      "title": "Meclisin yedinci faaliyet senesi açıldı",
+      "text": "Reisicumhur Gazi Mustafa Kemal Paşa, Meclisin yedinci faaliyet senesinin açılışında nutuk söyledi.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1925-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1925-11-01"
+      ]
+    },
+    {
+      "id": "tbmm-acilis-1926-11-01",
+      "date": {
+        "iso": "1926-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1926-11-01"
+        ]
+      },
+      "title": "Meclisin sekizinci faaliyet senesi açıldı",
+      "text": "Reisicumhur Gazi Mustafa Kemal Paşa, Meclisin sekizinci faaliyet senesinin açılışında nutuk söyledi.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1926-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1926-11-01"
+      ]
+    },
+    {
+      "id": "tbmm-nutuk-1927-11-01",
+      "date": {
+        "iso": "1927-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1927-11-01"
+        ]
+      },
+      "title": "İkinci kez seçilen Reisicumhur nutuk söyledi",
+      "text": "Reisicumhur, Reisicumhurluğa ikinci kez seçilmesinin ardından yemin etti ve Meclise nutuk söyledi.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1927-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1927-11-01"
+      ]
+    },
+    {
+      "id": "tbmm-nutuk-1928-11-01",
+      "date": {
+        "iso": "1928-11-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "tbmm-zc-early-1928-11-01"
+        ]
+      },
+      "title": "Reisicumhur Meclise nutuk söyledi",
+      "text": "Reisicumhur Gazi Mustafa Kemal Paşa, Büyük Millet Meclisinin üçüncü intihap devresinin ikinci içtima senesinde nutuk söyledi.",
+      "placeId": "ankara",
+      "sources": [
+        "tbmm-zc-early-1928-11-01"
+      ],
+      "documentIds": [
+        "tbmm-nutuk-1928-11-01"
+      ]
+    },
+    {
       "id": "tbmm-acilis-1929-11-01",
       "date": {
         "iso": "1929-11-01",

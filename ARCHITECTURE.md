@@ -12,6 +12,7 @@
 | 2026-10-27 | ADR-12, §5 | Font yükleme yöntemi ölçümle kesinleşti; toplam font boyutu SPEC sınırını aşıyor (ayrıntı ADR-12) |
 | 2026-10-27 | §8 | T4 ve T5 kapandı |
 | 2026-10-27 | ADR-08, §2.3, §4 | Referans metni satır satır ("diplomatik") aktarım oldu; site metni ondan otomatik üretiliyor. `fetch-scan` betiği, `tools/review/` kontrol sayfası ve `pdfjs-dist` eklendi |
+| 2026-10-29 | ADR-05, ADR-07, ADR-13, §4, §8 | Faz 3 tamamlandı: Zod şeması (`src/schema/`), `build-data` + 8 kural + bütünlük denetimi (`scripts/lib/rules.ts`), `fetch-geo`/`build-geo`, kural fixture'ları. T2 ve T3 kapandı (ayrıntı ADR-05, ADR-13, §8) |
 | 2026-10-27 | ADR-12, §5, §8 | T7 kapandı: font sınırı açılışta ≤ 250 KB + belge fontları ≤ 200 KB olarak bölündü (kullanıcı kararı); `check:size` iki sınırı da denetliyor |
 
 ---
@@ -188,7 +189,9 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 - **50m** → ilk görünüm, ilk boyamadan sonra yüklenir.
 - **10m** → zoom belli eşiği geçince tembel yüklenir.
 
-**Ödünleşim:** Ayrıntı 1:10m ile sınırlı. Karo sistemi olmadığı için 10m dosyası bölge için tek parça iner (boyutu ölçülmedi; bütçeyi aşarsa bölgelere bölünür). SPEC'teki "karo" ifadeleri "altlık dosyası" olarak okunur (§7).
+*2026-10-29 güncellemesi (ilk çalıştırma):* `scripts/fetch-geo.ts` altı Natural Earth katmanını (land + lakes × 110m/50m/10m) sabit bir commit'ten indirir ve `scripts/geo-sources.json` içindeki sha256 ile doğrular. `build-geo` mapshaper ile `[-10, 20, 55, 60]` kutusuna kırpar, topojson-server ile 1e5 adımla nicemleyerek TopoJSON yazar. Ölçülen gzip boyutları: 110m **4,3 KB**, 50m **38,3 KB**, 10m **185,5 KB**. **Sadeleştirme gerekmedi** (en büyüğü bile 400 KB'ın yarısından az), bu yüzden `-simplify` kullanılmıyor. Kırpma kutusu ADR-04'ün geri dönüş tetikleyicisi gereği geniş tutuldu ve `build-geo` kutunun dışına düşen bir yeri reddeder. GeoJSON (RFC 7946) halkaları d3-geo'nun beklediğinin tersi yönde yazılır (d3 her çokgenin tümleyenini doldurur); `build-geo` halkaları ters çevirir ve boyutu 0,44 sr'nin altında kalan alanlarla doğrulandı.
+
+**Ödünleşim:** Ayrıntı 1:10m ile sınırlı. Karo sistemi olmadığı için 10m dosyası bölge için tek parça iner (ölçüldü: 185,5 KB gzip, bölmeye gerek yok). SPEC'teki "karo" ifadeleri "altlık dosyası" olarak okunur (§7).
 
 **Geri dönüş tetikleyicisi:** 10m dosyası 400 KB gzip'i aşarsa 4-6 coğrafi parçaya bölünür; yine aşarsa PMTiles yeniden değerlendirilir.
 
@@ -341,7 +344,7 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 **Sonuç:** Vercel Hobby. [Vercel'e göre](https://vercel.com/docs/plans/hobby) Hobby ücretsizdir ve **yalnız ticari olmayan kişisel kullanıma** izin verir; bu proje uyumlu. Dahil kullanım: ayda 100 GB Fast Data Transfer, 1.000.000 CDN isteği, günde 100 yayın (erişim 2026-10-27). Fonksiyon kullanılmaz. Framework ön ayarı: Vite; derleme komutu `npm run build`; çıktı `dist/`. `vercel.json`:
 - `Content-Security-Policy`: `default-src 'self'; img-src 'self' data:; style-src 'self'; font-src 'self'; script-src 'self'; frame-ancestors 'none'` (dış kaynak yok; satır içi stil gerekiyorsa Faz 4'te gerekçesiyle eklenir).
 - `/assets/*` (hash'li): `Cache-Control: public, max-age=31536000, immutable`.
-- `/geo/*`, `/data/*`: kısa önbellek + yeniden doğrulama (dosya adları hash'siz olduğu için). Alternatif olarak derleme bu dosyalara içerik hash'i ekler (Faz 3'te seçilir).
+- `/geo/*`, `/data/*`: kısa önbellek + yeniden doğrulama (dosya adları hash'siz olduğu için). Karar (2026-10-29, T3): hash'siz dosya adı + `max-age=0, must-revalidate` olduğu gibi kalır. Dosyalar küçük (en büyüğü 185,5 KB gzip), yeniden doğrulama 304 ile döner ve derlemeye içerik hash'i eklemek Faz 4'ün yükleme koduna ek karmaşıklık getirirdi. Ölçümde sorun çıkarsa hash'li ada geçilir.
 - `cleanUrls: true`.
 
 **Ödünleşim:** Kullanım limiti aşılırsa Hobby'de site 30 güne kadar durabilir (aynı sayfa). Beklenen trafik çok altında. Sağlayıcıya bağımlılık düşük: çıktı her statik barındırıcıya taşınabilir; yalnız `vercel.json` başlıkları yeniden yazılır.
@@ -493,8 +496,8 @@ ARCHITECTURE kararlarının SPEC'teki ifadelere etkisi. **SPEC'e işlendi: 2026-
 |---|---|---|
 | A1 | Mod değişince konum, okuma süresi formülü | Faz 4; `src/timeline/` içinde, birim testli (ADR-09) |
 | T1 | Projeksiyon parametrelerinin kesinleşmesi | Faz 4 ilk dilim (ADR-04) |
-| T2 | 10m altlığın gerçek boyutu, bölme gereği | Faz 3 `build-geo` ilk çalıştırma (ADR-05) |
-| T3 | `/geo`, `/data` için hash'li dosya adı mı kısa önbellek mi | Faz 3 (ADR-13) |
+| ~~T2~~ | 10m altlığın gerçek boyutu, bölme gereği | **Kapandı 2026-10-29:** 185,5 KB gzip, bölme ve sadeleştirme gerekmedi (ADR-05) |
+| ~~T3~~ | `/geo`, `/data` için hash'li dosya adı mı kısa önbellek mi | **Kapandı 2026-10-29:** hash'siz + must-revalidate (ADR-13) |
 | ~~T4~~ | Paketlerin birlikte kurulumu ve peer uyarıları | **Kapandı 2026-10-27:** çakışma yok (§2.3 kurulum testi) |
 | ~~T5~~ | Fontların Türkçe glif testi | **Kapandı 2026-10-27:** 7/7 kesim geçti (ADR-12) |
 | T6 | SVG pan akıcılığı ölçümü | Faz 4 ilk dilim (ADR-03 tetikleyicisi) |

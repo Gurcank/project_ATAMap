@@ -10,7 +10,10 @@
   },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build:data": "node scripts/build-data.ts",
+    "build:geo": "node scripts/build-geo.ts",
+    "fetch:geo": "node scripts/fetch-geo.ts",
+    "build": "npm run build:data && npm run build:geo && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.json",
     "lint": "eslint .",

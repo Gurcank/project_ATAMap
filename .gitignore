@@ -9,6 +9,7 @@ public/geo/*
 public/geo/borders/*
 !public/geo/borders/LICENSE.txt
 public/data/
+src/map/generated/
 
 # Test output
 test-results/

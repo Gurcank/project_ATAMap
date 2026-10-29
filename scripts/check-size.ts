@@ -12,6 +12,10 @@ const BUDGET = {
   // SPEC §7 (2026-10-27): faces needed on first load vs. faces fetched on the first A4 opening.
   initialFonts: 250 * KB,
   documentFonts: 200 * KB,
+  // ARCHITECTURE §5: base maps and per-year document files, gzip.
+  fallbackBase: 120 * KB,
+  baseMap: 400 * KB,
+  documentsTotal: 500 * KB,
 };
 
 // Which budget each shipped family counts against (ADR-12). A family missing here fails the check.
@@ -78,6 +82,45 @@ if (documentFonts > BUDGET.documentFonts) failures.push('Belge font bütçesi a�
 if (unbudgetedFonts.length > 0) {
   failures.push(`Bütçesi tanımlanmamış font dosyası: ${unbudgetedFonts.join(', ')}`);
 }
+
+// Generated data: `npm run build` runs build-data and build-geo before vite build, which copies
+// public/ into dist/. The 110m fallback is not in dist/ yet (it is bundled into JS later), so it is
+// measured at its source.
+const ROOT = join(import.meta.dirname, '..');
+const gzFile = (path: string) => {
+  if (!existsSync(path)) {
+    failures.push(`Yok: ${path}. Önce \`npm run build\` çalıştırın.`);
+    return 0;
+  }
+  return gzipSync(readFileSync(path)).length;
+};
+const check = (label: string, size: number, limit: number) => {
+  console.log(`${label}: ${fmt(size)}  sınır ${fmt(limit)}`);
+  if (size > limit) failures.push(`${label} bütçesi aşıldı`);
+};
+check(
+  'Gömülü yedek altlık, 110m (gzip)',
+  gzFile(join(ROOT, 'src', 'map', 'generated', 'base-110m.json')),
+  BUDGET.fallbackBase,
+);
+check(
+  'İlk görünüm altlığı, 50m (gzip)',
+  gzFile(join(DIST, 'geo', 'base-50m.topojson')),
+  BUDGET.baseMap,
+);
+check(
+  'Yakın zoom altlığı, 10m (gzip)',
+  gzFile(join(DIST, 'geo', 'base-10m.topojson')),
+  BUDGET.baseMap,
+);
+const docDir = join(DIST, 'data', 'documents');
+const docFiles = existsSync(docDir) ? readdirSync(docDir) : [];
+if (docFiles.length === 0) failures.push('dist/data/documents/ boş veya yok');
+check(
+  'Belge metinleri, toplam (gzip)',
+  docFiles.reduce((sum, f) => sum + gzFile(join(docDir, f)), 0),
+  BUDGET.documentsTotal,
+);
 
 if (failures.length > 0) {
   failures.forEach((f) => console.error(`HATA: ${f}`));

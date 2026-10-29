@@ -19,6 +19,9 @@ Atatürk'ün 1881-1938 hayatı; mektup, telgraf, konuşma ve seyahatleri dönem 
 ```
 npm run dev            # geliştirme sunucusu
 npm run check          # typecheck + lint + check:tokens + test + build + check:size (iş bitmeden önce geçmeli)
+npm run build:data      # data/*.json → public/data (Zod + SPEC §6 kuralları 1-8; ihlalde çıkış ≠ 0)
+npm run fetch:geo       # Natural Earth katmanlarını geo-src/ altına indirir (sha256 doğrulamalı)
+npm run build:geo       # altlık TopoJSON: public/geo/ ve src/map/generated/ (`npm run build` ikisini de çalıştırır)
 npm run test           # Vitest (tests/unit)
 npm run e2e            # Playwright, 375/768/1280 (önce: npx playwright install chromium)
 npm run format         # Prettier (md dosyalarına dokunmaz)
@@ -36,7 +39,7 @@ Betikler (`scripts/*.ts`) Node 24'ün yerleşik tip ayıklamasıyla çalışır:
 - Harita: d3-geo + d3-zoom + **SVG**. MapLibre/Leaflet yok. Projeksiyon `geoConicConformal`.
 - Altlık: Natural Earth → mapshaper → TopoJSON (110m gömülü yedek, 50m ilk, 10m yakın zoom). Karo yok.
 - Sınırlar: CShapes 2.0 (CC BY-NC-SA 4.0) + kaynaklı elle çizim, değişiklik başına bir TopoJSON.
-- Veri: `data/*.json` elle → `scripts/build-data.ts` Zod ile doğrular → `public/data/`. Zod tarayıcıya gitmez.
+- Veri: `data/*.json` elle → `scripts/build-data.ts` Zod ile doğrular → `public/data/`. Zod tarayıcıya gitmez; tarayıcı kodu `src/schema/` içinden yalnız `import type` yapar.
 - Animasyon kütüphanesi yok: CSS + Web Animations API + rAF. Her süre `src/motion/` üzerinden; `prefers-reduced-motion` tek yerden.
 - Stil: düz CSS + CSS Modules + token'lar. Tailwind yok.
 - Yayın: Vercel Hobby (`vercel.json`).

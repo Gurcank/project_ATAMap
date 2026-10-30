@@ -48,6 +48,10 @@ export function MapCanvas() {
   const [transform, setTransform] = useState(zoomIdentity);
   const [base, setBase] = useState<Base>(fallbackBase);
   const camera = useRef(0);
+  // True while the map is being panned, zoomed or flown: the water lines are skipped then, since
+  // five wide strokes of the whole coast cost too much per frame (T6: 59 -> 27 fps at 375 px).
+  const [moving, setMoving] = useState(false);
+  const settle = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   // Size follows the container (no fixed viewBox: the projection is fitted to the real pixels).
   useEffect(() => {
@@ -99,7 +103,12 @@ export function MapCanvas() {
     if (!node) return;
     const z = d3zoom<SVGSVGElement, unknown>()
       .scaleExtent([MIN_ZOOM, MAX_ZOOM])
-      .on('zoom', (event) => setTransform(event.transform));
+      .on('zoom', (event) => {
+        setTransform(event.transform);
+        setMoving(true);
+        clearTimeout(settle.current);
+        settle.current = setTimeout(() => setMoving(false), 180);
+      });
     behavior.current = z;
     select(node).call(z);
     return () => {
@@ -249,6 +258,7 @@ export function MapCanvas() {
         aria-label="Harita: dönem altlığı üzerinde olayın yeri"
       >
         <defs>
+          {paths && <path id="land-shape" class={styles.shape} d={paths.land} />}
           {/* Hatching for approximate or occupied borders (SPEC §3.1, A14). */}
           <pattern
             id="hatch"
@@ -263,7 +273,16 @@ export function MapCanvas() {
         <rect class={styles.sea} width={size.w} height={size.h} />
         {paths && projection && (
           <g class={styles.viewport} transform={transform.toString()}>
-            <path class={styles.land} d={paths.land} />
+            {/* Engraver's water lines: two thin strokes parallel to every coast (SPEC §3.2). */}
+            {!moving && (
+              <>
+                <use href="#land-shape" class={styles.waterOuterInk} />
+                <use href="#land-shape" class={styles.waterOuterSea} />
+                <use href="#land-shape" class={styles.waterInnerInk} />
+                <use href="#land-shape" class={styles.waterInnerSea} />
+              </>
+            )}
+            <use href="#land-shape" class={styles.land} />
             <path class={styles.lakes} d={paths.lakes} />
             <BorderLayer borders={activeBorders.value} projection={projection} />
           </g>

@@ -49,7 +49,7 @@ export function EventCartouche() {
         {cited.length > 0 && (
           <ul class={styles.sources}>
             {cited.map((s) => (
-              <li key={s.citation}>
+              <li key={s.citation} title={s.citation}>
                 {s.url ? (
                   <a href={s.url} target="_blank" rel="noopener noreferrer">
                     {s.citation}

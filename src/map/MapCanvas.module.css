@@ -18,12 +18,49 @@
   fill: var(--sea);
 }
 
+/* The one land outline, drawn several times by <use> (water lines, then the land itself). */
+.shape {
+  vector-effect: non-scaling-stroke;
+}
+
 .land {
   fill: var(--land);
   stroke: var(--ink);
   stroke-width: 0.8;
   stroke-linejoin: round;
-  vector-effect: non-scaling-stroke;
+}
+
+/* Water lines: an ink stroke with a narrower sea-coloured one over it leaves a hairline at a fixed
+   distance from the coast; the land fill covers the inland half (SPEC §3.2: parallel hatching). */
+.waterOuterInk,
+.waterInnerInk {
+  fill: none;
+  stroke: var(--ink-muted);
+  stroke-linejoin: round;
+  opacity: 0.45;
+}
+
+.waterOuterSea,
+.waterInnerSea {
+  fill: none;
+  stroke: var(--sea);
+  stroke-linejoin: round;
+}
+
+.waterOuterInk {
+  stroke-width: 16;
+}
+
+.waterOuterSea {
+  stroke-width: 14.5;
+}
+
+.waterInnerInk {
+  stroke-width: 8;
+}
+
+.waterInnerSea {
+  stroke-width: 6.5;
 }
 
 /* Lakes read as sea: same fill, a hair-line shore (SPEC §3.2: no blue). */

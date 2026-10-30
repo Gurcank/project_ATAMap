@@ -9,9 +9,10 @@
 .select {
   min-width: var(--hit-target-min);
   min-height: var(--hit-target-min);
-  padding: 0 var(--space-12);
+  /* 375 px: four controls and the counter share one row (SPEC §4.3). */
+  padding: 0 var(--space-8);
   font-family: var(--font-ui);
-  font-size: var(--text-16);
+  font-size: var(--text-14);
   color: var(--ink);
   background: var(--paper);
   border: var(--rule-width) solid var(--ink);
@@ -48,6 +49,12 @@
 }
 
 @media (min-width: 48rem) {
+  .button,
+  .select {
+    padding: 0 var(--space-12);
+    font-size: var(--text-16);
+  }
+
   .position {
     margin-left: var(--space-4);
   }

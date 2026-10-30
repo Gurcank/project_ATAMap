@@ -60,6 +60,16 @@
   color: inherit;
 }
 
+/* The künye line is at most two lines (SPEC §2.3); the full citation stays in the title attribute
+   and in the document sheet. */
+.sources li {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .note {
   margin: var(--space-8) 0 0;
   font-size: var(--text-12);

@@ -567,8 +567,8 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Parti 10b. Commons dosyası, revizyon 1011570974; lisans şablonu {{PD-Turkey}}; kaynak İstanbul Üniversitesi Kütüphane ve Dokümantasyon Daire Başkanlığı. Gazete imzasız ya da tüzel kişi eseri: FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, dolmuş. Hukuki görüş değildir. Sayfa taramasından okundu: Reisicümhurun 'dün Ankarada yapılan merasimde her tarafta radyo ile dinlenen' hitabesi (onuncu yıl). Gazeteden metin alınmadı; yalnız tarih, yer ve olay bilgisi."
+      "verified": true,
+      "$note": "Parti 10b. Commons dosyası, revizyon 1011570974; lisans şablonu {{PD-Turkey}}; kaynak İstanbul Üniversitesi Kütüphane ve Dokümantasyon Daire Başkanlığı. Gazete imzasız ya da tüzel kişi eseri: FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, dolmuş. Hukuki görüş değildir. Sayfa taramasından okundu: Reisicümhurun 'dün Ankarada yapılan merasimde her tarafta radyo ile dinlenen' hitabesi (onuncu yıl). Gazeteden metin alınmadı; yalnız tarih, yer ve olay bilgisi. Kullanıcı onayı: 2026-11-14 (parti 10b)."
     },
     {
       "id": "aksam-1934-11-25",
@@ -579,8 +579,8 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Parti 10b. Commons dosyası, revizyon 1013242091; lisans şablonu {{PD-Turkey}}; kaynak İstanbul Üniversitesi Kütüphane ve Dokümantasyon Daire Başkanlığı. Gazete imzasız ya da tüzel kişi eseri: FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, dolmuş. Hukuki görüş değildir. Sayfa taramasından okundu: Fotoğraf altı: Gazi Mustafa Kemal 'dün İsmet paşanın teklifi ve Büyük Millet Meclisinin karar[ı]le ATATÜRK soy adını' aldı. Gazeteden metin alınmadı; yalnız tarih, yer ve olay bilgisi."
+      "verified": true,
+      "$note": "Parti 10b. Commons dosyası, revizyon 1013242091; lisans şablonu {{PD-Turkey}}; kaynak İstanbul Üniversitesi Kütüphane ve Dokümantasyon Daire Başkanlığı. Gazete imzasız ya da tüzel kişi eseri: FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, dolmuş. Hukuki görüş değildir. Sayfa taramasından okundu: Fotoğraf altı: Gazi Mustafa Kemal 'dün İsmet paşanın teklifi ve Büyük Millet Meclisinin karar[ı]le ATATÜRK soy adını' aldı. Gazeteden metin alınmadı; yalnız tarih, yer ve olay bilgisi. Kullanıcı onayı: 2026-11-14 (parti 10b)."
     },
     {
       "id": "wikidata-q5152-r2569089775-p570-p20",
@@ -591,8 +591,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 10b. P570: 1938-11-10; dayanaklar Büyük Sovyet Ansiklopedisi, BnF, SNAC, Find a Grave, Brockhaus, Store norske leksikon, AlKindi (Vikipedi'den aktarılmamış). P20: Q274141 Dolmabahçe Sarayı; dayanak Anadolu Ajansı haberi (aa.com.tr)."
+      "verified": true,
+      "$note": "Parti 10b. P570: 1938-11-10; dayanaklar Büyük Sovyet Ansiklopedisi, BnF, SNAC, Find a Grave, Brockhaus, Store norske leksikon, AlKindi (Vikipedi'den aktarılmamış). P20: Q274141 Dolmabahçe Sarayı; dayanak Anadolu Ajansı haberi (aa.com.tr). Kullanıcı onayı: 2026-11-14 (parti 10b)."
     },
     {
       "id": "wikidata-q274141-r2567639747",
@@ -603,8 +603,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 10b. P625: 41.039444444444, 29.001666666667; dayanak İngilizce Vikipedi (P143)."
+      "verified": true,
+      "$note": "Parti 10b. P625: 41.039444444444, 29.001666666667; dayanak İngilizce Vikipedi (P143). Kullanıcı onayı: 2026-11-14 (parti 10b)."
     },
     {
       "id": "osm-way-24826707",
@@ -615,8 +615,8 @@
       "rights": "acik-lisans",
       "licence": "ODbL-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 10b. Nominatim (2026-11-14): 41.0389605, 28.9997735. Teyit için; saklanan değer Wikidata."
+      "verified": true,
+      "$note": "Parti 10b. Nominatim (2026-11-14): 41.0389605, 28.9997735. Teyit için; saklanan değer Wikidata. Kullanıcı onayı: 2026-11-14 (parti 10b)."
     }
   ]
 }

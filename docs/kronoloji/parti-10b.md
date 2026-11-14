@@ -1,7 +1,7 @@
 # Kronoloji, parti 10b: Harf İnkılabı'ndan 1938'e
 
 > Kapsam: Harf Kanunu'ndan (1 Kasım 1928) ölümüne (10 Kasım 1938) kadar.
-> Durum: **onay bekliyor.** Üç olay, bir yer ve bir görev kaydı `data/` altında, `verified: false`.
+> Durum: **onaylandı (2026-11-14).** Üç olay, Dolmabahçe Sarayı ve Reisicümhur görevi sitede.
 > Araştırma tarihi: 2026-11-14. Kaynak kuralı: SPEC §2.2 (A19, K4), kullanıcının 2026-11-14 onayıyla aynen.
 
 ## Bu dönemde sitede zaten olanlar
@@ -50,6 +50,13 @@ Bu kayıt onaylanırsa durum kartuşunda 1923-1938 adımlarında "Görev: Reisic
 | 21 Kasım 1938 | Naaşı Ankara'daki geçici kabrine konuldu | Vikipedi | Ölümden sonra; zaman çizelgesinin kapsamı dışında bırakıldı |
 
 **Bu partide olmayanlar:** Serbest Fırka'nın kuruluşu ve kapanışı, Balkan Antantı, Montrö, Sadabat ve Hatay'ın bağımsızlığı devlet ya da parti kararları olduğu için alınmadı.
+
+## Kararlar (2026-11-14)
+
+- Parti onaylandı.
+- Ertesi günün gazetesi (Commons, PD-Turkey) tarihli birincil kaynak olarak kabul edildi.
+- Dolmabahçe Sarayı adı için Wikidata'nın ölüm yeri ifadesi (Anadolu Ajansı dayanaklı) ikinci kaynak olarak kabul edildi.
+- Unvan dönem yazımıyla "Reisicümhur".
 
 ## Genel sonuç
 

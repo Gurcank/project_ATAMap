@@ -131,7 +131,7 @@ test('arrow keys step, Space starts and stops autoplay', async ({ page }) => {
 });
 
 test('the last step disables Sonraki, a manual step stops autoplay', async ({ page }) => {
-  await open(page, '/#adim=tbmm-nutuk-1938-11-01');
+  await open(page, '/#adim=olum-1938-11-10');
   await expect(page.getByRole('button', { name: 'Sonraki' })).toBeDisabled();
   await page.getByRole('button', { name: 'Önceki' }).click();
   await page.getByRole('button', { name: 'Otomatik' }).click();
@@ -170,12 +170,12 @@ test('the first real journey: Amasya to Erzurum by car, approximate route', asyn
   await shot(page, info, 'seyahat');
 });
 
-test('the Republic: age, rank and place in the status', async ({ page }, info) => {
+test('the Republic: age, rank, duty and place in the status', async ({ page }, info) => {
   await open(page, '/#adim=cumhuriyet-1923-10-29');
   const status = page.getByRole('region', { name: 'Durum' });
   if (info.project.name === 'mobil-375') await status.getByRole('button').click();
-  await expect(status.locator('dt')).toHaveText(['Yaş', 'Rütbe', 'Yer']);
-  await expect(status.locator('dd')).toHaveText(['42', 'Müşîr', 'Ankara']);
+  await expect(status.locator('dt')).toHaveText(['Yaş', 'Rütbe', 'Görev', 'Yer']);
+  await expect(status.locator('dd')).toHaveText(['42', 'Müşîr', 'Reisicümhur', 'Ankara']);
   await shot(page, info, 'cumhuriyet');
 });
 
@@ -199,6 +199,22 @@ test('an event without a place: no place in the status, the page still works', a
   await expect(status.locator('dt')).toHaveText(['Yaş', 'Rütbe']);
   await expect(status.locator('dd')).toHaveText(['41', 'Müşîr']);
   await shot(page, info, 'yersiz');
+});
+
+test('the last step: death at Dolmabahçe Palace', async ({ page }, info) => {
+  await open(page, '/#adim=olum-1938-11-10');
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText("Dolmabahçe Sarayı'nda öldü");
+  await expect(page.getByText('10 Kasım 1938')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Sonraki' })).toBeDisabled();
+  const status = page.getByRole('region', { name: 'Durum' });
+  if (info.project.name === 'mobil-375') await status.getByRole('button').click();
+  await expect(status.locator('dd')).toHaveText([
+    '57',
+    'Müşîr',
+    'Reisicümhur',
+    'Dolmabahçe Sarayı',
+  ]);
+  await shot(page, info, 'olum');
 });
 
 test('a Latin-script speech opens as an A4 sheet with its citation', async ({ page }, info) => {

@@ -1,6 +1,7 @@
 // The A4 sheet (full text) and the citation card (no full text), SPEC §3.6, §4, §4.1.
 // One dialog component: both share opening, closing, focus and position rules.
 import { useEffect, useRef } from 'preact/hooks';
+import { citationText } from '../format/citation.ts';
 import { formatDate } from '../format/date.ts';
 import { KIND_LABEL } from '../format/labels.ts';
 import type { PublicSource } from '../state/data.ts';
@@ -113,8 +114,7 @@ export function DocumentSheet() {
         <footer class={styles.kunye}>
           {cited.map((s) => (
             <p key={s.citation}>
-              {s.citation}
-              {s.page && `, ${s.page}`}
+              {citationText(s)}
               {s.url && (
                 <>
                   {' '}

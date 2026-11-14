@@ -472,7 +472,7 @@
       "rights": "kamu-mali",
       "free": true,
       "verified": true,
-      "$note": "Parti 9a. Nutuk'un 1929 resmî İngilizce baskısı. Metin Atatürk'ün (ö. 1938; FSEK m.27/1). Çevirmen ve giriş yazarı adsız, telif sahibi yayınevi (K. F. Koehler): FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, 1999'da doldu. ABD: 1929 yayını, IA kaydına göre telif yenilemesi bulunamadı. Tarihler sayfa taramalarından okundu (görüntü no = sayfa + 11). Vikipedi'nin 'Samsun'a çıkışı' bölümü iki cümlede ([211], [217]) Nutuk'u dayanak gösteriyor; burada kullanılan olaylar o cümleler değil (19 Mayıs [214] ataturk.net'e dayanıyor). Diğer bölümler Nutuk'u dayanak göstermiyor. Nutuk'un 1927 Arap harfli aslı ve Latin harfli yeni baskıları kullanılmadı. Kullanıcı onayı: 2026-11-14 (parti 9a)."
+      "$note": "Parti 9a. Nutuk'un 1929 resmî İngilizce baskısı. Metin Atatürk'ün (ö. 1938; FSEK m.27/1). Çevirmen ve giriş yazarı adsız, telif sahibi yayınevi (K. F. Koehler): FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, 1999'da doldu. ABD: 1929 yayını, IA kaydına göre telif yenilemesi bulunamadı. Tarihler sayfa taramalarından okundu (görüntü no = sayfa + 11). Vikipedi'nin 'Samsun'a çıkışı' bölümü iki cümlede ([211], [217]) Nutuk'u dayanak gösteriyor; burada kullanılan olaylar o cümleler değil (19 Mayıs [214] ataturk.net'e dayanıyor). Diğer bölümler Nutuk'u dayanak göstermiyor. Nutuk'un 1927 Arap harfli aslı ve Latin harfli yeni baskıları kullanılmadı. Kullanıcı onayı: 2026-11-14 (parti 9a). 2026-11-14: olaylar sayfa başına ayrılan kayıtlara taşındı; bu kayıt yalnız yer adlarının dayanağı olarak kalıyor."
     },
     {
       "id": "wikidata-q160450-r2540136792",
@@ -617,6 +617,102 @@
       "free": true,
       "verified": true,
       "$note": "Parti 10b. Nominatim (2026-11-14): 41.0389605, 28.9997735. Teyit için; saklanan değer Wikidata. Kullanıcı onayı: 2026-11-14 (parti 10b)."
+    },
+    {
+      "id": "nutuk-en-1929-s9",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929, s. 9",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "9",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
+    },
+    {
+      "id": "nutuk-en-1929-s31",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929, s. 31",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "31",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
+    },
+    {
+      "id": "nutuk-en-1929-s38-40",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929, s. 38, 40",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "38, 40",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
+    },
+    {
+      "id": "nutuk-en-1929-s43",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929, s. 43",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "43",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
+    },
+    {
+      "id": "nutuk-en-1929-s57",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929, s. 57",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "57",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
+    },
+    {
+      "id": "nutuk-en-1929-s75",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929, s. 75",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "75",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
+    },
+    {
+      "id": "nutuk-en-1929-s287",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929, s. 287",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "287",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
+    },
+    {
+      "id": "nutuk-en-1929-s372",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929, s. 372",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "372",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": true,
+      "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
     }
   ]
 }

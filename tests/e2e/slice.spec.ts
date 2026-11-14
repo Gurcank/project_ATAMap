@@ -217,6 +217,18 @@ test('the last step: death at Dolmabahçe Palace', async ({ page }, info) => {
   await shot(page, info, 'olum');
 });
 
+test('a step without a place keeps the camera where it was', async ({ page }) => {
+  await open(page, '/#adim=baskomutan-1921-08-05'); // Ankara
+  const view = () => page.locator('svg g').first().getAttribute('transform');
+  const before = await view();
+  await page.getByRole('button', { name: 'Sonraki' }).click(); // 19 Sep 1921, no place
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(
+    'Müşîr rütbesi ve Gazi unvanı verildi',
+  );
+  await page.waitForTimeout(1500);
+  expect(await view()).toBe(before);
+});
+
 test('a Latin-script speech opens as an A4 sheet with its citation', async ({ page }, info) => {
   await open(page, LATIN);
   const marker = page.getByRole('button', { name: /^Konuşma:/ });

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'preact/hooks';
+import { useLayoutEffect, useRef, useState } from 'preact/hooks';
 import { currentStatus, openDocumentId } from '../state/app.ts';
 import { isStatusEmpty, type Age } from '../timeline/status.ts';
 import styles from './StatusCartouche.module.css';
@@ -26,7 +26,9 @@ export function StatusCartouche() {
   const root = useRef<HTMLElement>(null);
   const toggle = useRef<HTMLButtonElement>(null);
 
-  useEffect(() => {
+  // Layout effect: the listeners are in place before the open panel is painted, so an Escape
+  // pressed right after opening is not missed.
+  useLayoutEffect(() => {
     if (!open) return;
     const close = (returnFocus: boolean) => {
       setOpen(false);

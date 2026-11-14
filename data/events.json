@@ -577,7 +577,7 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929"
+          "nutuk-en-1929-s9"
         ],
         "$note": "Nutuk s. 9: \"I landed at Samsoon on the 19th May, 1919.\" Vikipedi: 19 Mayıs 1919 (dipnot [214], Nutuk değil)."
       },
@@ -586,7 +586,7 @@
       "placeId": "samsun",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s9"
       ],
       "$note": "Parti 9a."
     },
@@ -599,7 +599,7 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929"
+          "nutuk-en-1929-s31"
         ],
         "$note": "Nutuk s. 31: genelgeyi \"during the night of the 21st June\" yazdırdı. Vikipedi: 22 Haziran 1919'da yayımladı. İki tarih bir aralık olarak birleştirildi; aralık kullanıcı tarafından onaylandı (2026-11-14)."
       },
@@ -608,7 +608,7 @@
       "placeId": "amasya",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s31"
       ],
       "$note": "Parti 9a."
     },
@@ -620,7 +620,7 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929"
+          "nutuk-en-1929-s38-40"
         ],
         "$note": "Seyahat kaydının kalkış tarihiyle aynı."
       },
@@ -629,7 +629,7 @@
       "placeId": "amasya",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s38-40"
       ],
       "journeyId": "amasya-erzurum-1919",
       "$note": "Parti 9a."
@@ -642,7 +642,7 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929"
+          "nutuk-en-1929-s43"
         ],
         "$note": "Nutuk s. 43: \"10.50 p.m. on the 8th July\". Vikipedi: \"8-9 Temmuz gecesi\"."
       },
@@ -651,7 +651,7 @@
       "placeId": "erzurum",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s43"
       ],
       "$note": "Parti 9a."
     },
@@ -663,7 +663,7 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929"
+          "nutuk-en-1929-s57"
         ],
         "$note": "Nutuk s. 57: \"the Congress met at Erzerum on the 23rd July, 1919\". Vikipedi: 23 Temmuz – 7 Ağustos 1919."
       },
@@ -672,7 +672,7 @@
       "placeId": "erzurum",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s57"
       ],
       "$note": "Parti 9a."
     },
@@ -684,7 +684,7 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929"
+          "nutuk-en-1929-s75"
         ],
         "$note": "Nutuk s. 75: \"opened on Thursday, the 4th September\". Vikipedi: 4-11 Eylül 1919."
       },
@@ -693,7 +693,7 @@
       "placeId": "sivas",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s75"
       ],
       "$note": "Parti 9a."
     },
@@ -705,7 +705,7 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929"
+          "nutuk-en-1929-s287"
         ],
         "$note": "Nutuk s. 287: 27 Aralık'ta gönderilen \"has arrived to-day\" telgrafı. Vikipedi: 27 Aralık 1919."
       },
@@ -714,7 +714,7 @@
       "placeId": "ankara",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s287"
       ],
       "$note": "Parti 9a."
     },
@@ -726,7 +726,7 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929"
+          "nutuk-en-1929-s372"
         ],
         "$note": "Nutuk s. 372: \"to open the Assembly on Friday, 23rd April, 1920\". Vikipedi: 23 Nisan 1920."
       },
@@ -735,7 +735,7 @@
       "placeId": "ankara",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s372"
       ],
       "$note": "Parti 9a."
     },

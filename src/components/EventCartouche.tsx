@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'preact/hooks';
+import { citationText } from '../format/citation.ts';
 import { formatDate } from '../format/date.ts';
 import {
   baseLoadFailed,
@@ -49,13 +50,13 @@ export function EventCartouche() {
         {cited.length > 0 && (
           <ul class={styles.sources}>
             {cited.map((s) => (
-              <li key={s.citation} title={s.citation}>
+              <li key={s.citation} title={citationText(s)}>
                 {s.url ? (
                   <a href={s.url} target="_blank" rel="noopener noreferrer">
-                    {s.citation}
+                    {citationText(s)}
                   </a>
                 ) : (
-                  s.citation
+                  citationText(s)
                 )}
               </li>
             ))}

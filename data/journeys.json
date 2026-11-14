@@ -6,7 +6,7 @@
       "title": "Amasya'dan Erzurum'a",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929"
+        "nutuk-en-1929-s38-40"
       ],
       "legs": [
         {
@@ -19,7 +19,7 @@
             "approximate": false,
             "sources": [
               "vikipedi-tr-ataturk-38564203",
-              "nutuk-en-1929"
+              "nutuk-en-1929-s38-40"
             ],
             "$note": "Nutuk s. 38: \"I started from Amasia on the 26th\" (otomobille, şafaktan önce). Vikipedi: 26 Haziran."
           },
@@ -29,14 +29,14 @@
             "approximate": false,
             "sources": [
               "vikipedi-tr-ataturk-38564203",
-              "nutuk-en-1929"
+              "nutuk-en-1929-s38-40"
             ],
             "$note": "Nutuk s. 40: \"we arrived at Erzerum … on the 3rd July\" (bir haftalık otomobil yolculuğu). Vikipedi: Karabekir 3 Temmuz'da karşıladı."
           },
           "routeKind": "yaklasik",
           "sources": [
             "vikipedi-tr-ataturk-38564203",
-            "nutuk-en-1929"
+            "nutuk-en-1929-s38-40"
           ],
           "$note": "Nutuk güzergâhı Tokat ve Sivas üzerinden anlatıyor; ara noktaların tarihleri tam değil, bu yüzden tek etap ve yaklaşık rota."
         }

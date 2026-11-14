@@ -159,7 +159,7 @@ export function JourneyLayer({ journey, places, project, stepKey, reduced, width
               mask={`url(#reveal-${journey.id}-${i})`}
             />
             {approximate && mid && (
-              <text class={styles.label} x={mid[0]} y={mid[1] - 8} text-anchor="middle">
+              <text class={styles.label} x={mid[0]} y={mid[1] - 18} text-anchor="middle">
                 yaklaşık rota
               </text>
             )}

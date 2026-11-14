@@ -86,6 +86,11 @@ describe('schema', () => {
     expect(DateValue.safeParse({ ...date, iso: '1900-13-01' }).success).toBe(false);
   });
 
+  it('accepts the conventional-date flag (SPEC A25)', () => {
+    expect(DateValue.safeParse({ ...date, conventional: true }).success).toBe(true);
+    expect(DateValue.safeParse({ ...date, conventional: 'evet' }).success).toBe(false);
+  });
+
   it('requires isoEnd for ranges and forbids it otherwise', () => {
     expect(DateValue.safeParse({ ...date, iso: '1900', precision: 'range' }).success).toBe(false);
     expect(

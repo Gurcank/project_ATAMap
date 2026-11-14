@@ -427,11 +427,12 @@
         "iso": "1881-05-19",
         "precision": "day",
         "approximate": false,
+        "conventional": true,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
           "wikidata-q5152-r2569089775"
         ],
-        "$note": "person.json ile aynı tarih ve aynı uyarı."
+        "$note": "person.json ile aynı tarih; kabul edilen tarih (A25)."
       },
       "title": "Selanik'te doğdu",
       "text": "Ali Rıza Efendi ile Zübeyde Hanım'ın oğlu Mustafa, Selanik'te doğdu.",

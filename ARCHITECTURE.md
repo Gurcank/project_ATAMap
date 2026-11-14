@@ -8,6 +8,7 @@
 
 | Tarih | Yer | Değişiklik |
 |---|---|---|
+| 2026-11-14 | ADR-15 | `DateValue.conventional` (SPEC A25 güncellemesi): doğum tarihi kabul edilen tarih olarak işaretli; yaş hesabı bu tarihi olduğu gibi kullanır |
 | 2026-11-14 | ADR-15, §4, §6.1 | Durum kartuşu (SPEC K3): `Tenure` ve `Person` kayıtları, `src/timeline/status.ts` saf hesap, derleme kuralları 9-11 (SPEC K4: Vikipedi ve ipucu siteler) |
 | 2026-10-27 | §2.3 | Faz 3 kurulumunda eklenen tip ve lint paketleri tabloya işlendi |
 | 2026-10-27 | ADR-12, §5 | Font yükleme yöntemi ölçümle kesinleşti; toplam font boyutu SPEC sınırını aşıyor (ayrıntı ADR-12) |
@@ -400,7 +401,7 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 - Derleme: `build-data` ikisini Zod ile doğrular, kural 1-2 ve 5'i, ayrıca kural 9'u uygular, `steps.json` içine `tenures` ve `birth` olarak yazar.
 - Hesap: `src/timeline/status.ts` saf fonksiyonlar (DOM yok, birim testli): `ageAt(birth, date)`, `activeTenures(tenures, date)`, `placeNameAt(place, date)`. Kartuş yalnız sonucu çizer.
 - **Etkinlik kuralı:** Aday tarihler aralık olarak ele alınır (gün kesinliği tek gün, ay kesinliği ayın tamamı, yıl kesinliği yılın tamamı, `range` kendi aralığı). Adımın tarih aralığı kaydın aralığının **kesin olarak içindeyse** alan gösterilir. Kısmi örtüşmede (ay/yıl kesinliği yüzünden belirsiz) alan gizlenir; tahmin yapılmaz. `rutbe` kaydında `end` yoksa aralık bir sonraki `rutbe` kaydının başlangıcında biter.
-- **Yaş:** Doğumun ve adımın tarih aralıklarından olası en küçük ve en büyük yaş hesaplanır. İkisi eşitse tek sayı yazılır. Farklıysa "33-34" biçiminde aralık ve "yaklaşık" rozeti gösterilir (kullanıcının onayladığı varsayılan, plan 2026-11-14).
+- **Yaş:** Doğumun ve adımın tarih aralıklarından olası en küçük ve en büyük yaş hesaplanır. İkisi eşitse tek sayı yazılır. Farklıysa "33-34" biçiminde aralık ve "yaklaşık" rozeti gösterilir (kullanıcının onayladığı varsayılan, plan 2026-11-14). Doğum tarihi `conventional: true` taşır (SPEC A25): bu bir veri işaretidir, hesabı değiştirmez ve arayüzde rozet olarak görünmez.
 - **Yer:** `Event.placeId` kaydının adımın tarihinde geçerli dönem adı (`names[].validFrom/validTo`, aynı etkinlik kuralı). Geçerli ad belirsizse alan gizlenir.
 - Kural 10 ve 11 (`scripts/lib/rules.ts`) kaynak listesini URL'ye göre denetler: Vikipedi `*.wikipedia.org`, ipucu siteler sabit bir alan adı listesi. Kural 5'teki kaynak sayımı, `basedOn` ile birbirine dayanan kaynakları tek sayar.
 

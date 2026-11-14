@@ -19,6 +19,7 @@
 | 2026-11-14 | §2.3, §6 | `Tenure` kaydı (`rutbe`/`gorev`), `Person.birth`, `SourceRef.basedOn`; derleme kuralları 9-11; durum alanları metin bütçesi | K3, K4 (ARCHITECTURE ADR-15) |
 | 2026-11-14 | §2.2, §9.2 A19 | Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler listelendi | Kullanıcı kararı K4 |
 | 2026-11-14 | §9.2 A24-A26 | Durum kartuşu yerleşimi, doğum tarihi 19 Mayıs 1881, eşzamanlı görevler | Kullanıcı kararları (2026-11-14) |
+| 2026-11-14 | §6 `DateValue`, §9.2 A25 | `conventional` alanı: uzlaşmayla kabul edilen tarih. Doğum tarihi 19 Mayıs 1881 bu işaretle tutulur | Parti 1 araştırması: Vikipedi ve Wikidata gerçek doğum gününü bilinmiyor, 19 Mayıs'ı kabul edilen tarih olarak veriyor (`docs/kronoloji/parti-01.md`); kullanıcı kararı |
 
 ---
 
@@ -248,6 +249,7 @@ interface DateValue {
   conversion?: 'source' | 'ttk-cevirici'; // where iso came from when original is non-Gregorian (§2.3)
   sources: SourceRef[];   // REQUIRED: ≥ 2 independent sources, or 1 if it is the dated primary document (§2.2)
   primaryDocument?: boolean; // true => a single source is allowed
+  conventional?: boolean; // true => a date agreed by convention, not the actual one; the sources say so (A25; 2026-11-14)
 }
 
 type OriginalScript = 'latin' | 'arap';
@@ -453,7 +455,7 @@ interface Tenure {        // data/tenures.json
 | A23 | Yer koordinatı kaynakları | Natural Earth populated places (kamu malı) + Wikidata (CC0). Biri yoksa başka telifsiz ikinci kaynak aranır |
 | A19 | Hakları saklı ücretsiz yayınlar teyit sayılır mı? | Hayır. Teyit için yalnız telifsiz ya da açık lisanslı kaynaklar ve birincil belgeler kullanılır. Hakları saklı yayınlar yalnız ipucudur (§2.2). *Güncelleme 2026-11-14 (K4):* Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler §2.2'de listelidir |
 | A24 | Durum kartuşu (K3, 2026-11-14) | Sağ üstte yaş, rütbe, görev/unvan, bulunduğu yer. 375'te yalnız yaşı gösteren açılır düğme; 768 ve 1280'de tam kartuş. Atıf satırı sol üstte, künyenin altında |
-| A25 | Doğum tarihi (2026-11-14) | 19 Mayıs 1881, gün düzeyinde (kullanıcı kararı; K3'teki "19 Mayıs'ı doğum günü olarak kullanma" cümlesi bu kararla kalktı). ≥ 2 kaynak kuralı geçerli; iki uygun kaynak bulunamazsa doğum kaydı derlemeye girmez ve yaş gösterilmez |
+| A25 | Doğum tarihi (2026-11-14) | 19 Mayıs 1881, gün düzeyinde (kullanıcı kararı; K3'teki "19 Mayıs'ı doğum günü olarak kullanma" cümlesi bu kararla kalktı). ≥ 2 kaynak kuralı geçerli; iki uygun kaynak bulunamazsa doğum kaydı derlemeye girmez ve yaş gösterilmez. *Güncelleme 2026-11-14:* Kaynaklar gerçek doğum gününü bilinmiyor diye veriyor, 19 Mayıs'ı ise kabul edilen tarih olarak anıyor (parti 1). Kullanıcı kararıyla tarih 19 Mayıs 1881 kalır ve `conventional: true` ile işaretlenir. Kaynaklar bu tarihi kabul edilen tarih olarak desteklediği için ≥ 2 kaynak kuralı sağlanır. Arayüzde ayrı rozet yok; yaş bu tarihten kesin olarak hesaplanır |
 | A26 | Eşzamanlı görevler (2026-11-14) | Aynı tarihte geçerli bütün görevler gösterilir, başlama sırasıyla |
 
 ---

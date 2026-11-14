@@ -26,6 +26,8 @@ export const DateValue = z
     original: z.string().optional(),
     conversion: z.enum(['source', 'ttk-cevirici']).optional(),
     primaryDocument: z.boolean().optional(),
+    // A date agreed by convention rather than the actual one, as the sources say (SPEC A25).
+    conventional: z.boolean().optional(),
     sources: z.array(z.string()),
     $note: note,
   })

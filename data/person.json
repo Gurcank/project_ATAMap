@@ -1,15 +1,16 @@
 {
-  "$comment": "Doğum kaydı (SPEC §6 Person, A25). Tarih kullanıcı kararıyla 19 Mayıs 1881 (2026-11-14). Kaynaklar doğrulanmadı (verified: false).",
+  "$comment": "Doğum kaydı (SPEC §6 Person, A25). 19 Mayıs 1881, kabul edilen tarih olarak işaretli (conventional). Kaynaklar doğrulanmadı (verified: false).",
   "person": {
     "birth": {
       "iso": "1881-05-19",
       "precision": "day",
       "approximate": false,
+      "conventional": true,
       "sources": [
         "vikipedi-tr-ataturk-38564203",
         "wikidata-q5152-r2569089775"
       ],
-      "$note": "DİKKAT: iki kaynak da 19 Mayıs'ı gerçek doğum günü olarak vermiyor. Vikipedi: doğum günü bilinmiyor, rumî 1296 (1880-1881), 19 Mayıs'ı kendisi kabul etmiş. Wikidata: 1881-05-19 'conventional date' niteleyicisiyle; tercihli değer 1881 (en erken 1879). Kullanıcıya soruldu (parti 1 tablosu)."
+      "$note": "Kabul edilen tarih (conventional, SPEC A25, kullanıcı kararı 2026-11-14). Vikipedi: doğum günü bilinmiyor, rumî 1296 (1880-1881), 19 Mayıs'ı kendisi kabul etmiş. Wikidata: 1881-05-19 'conventional date' niteleyicisiyle; tercihli değer 1881 (en erken 1879)."
     }
   }
 }

@@ -985,10 +985,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 8a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 16 Ocak 1916 - 4 Ocak 1918."
+      "$note": "K5 yeniden taraması, parti 8a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 16 Ocak 1916 - 4 Ocak 1918. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8a)."
     },
     {
       "id": "msb-askeri-gorevleri-p8a",
@@ -997,10 +997,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
-      "$note": "K5 taraması, parti 8a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt."
+      "$note": "K5 taraması, parti 8a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8a)."
     },
     {
       "id": "wikidata-q43387-r2565115788",
@@ -1011,8 +1011,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 8a. P625: 41.67304, 26.57361; dayanak P143 Q206855."
+      "verified": true,
+      "$note": "K5 taraması, parti 8a. P625: 41.67304, 26.57361; dayanak P143 Q206855. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8a)."
     },
     {
       "id": "wikidata-q83387-r2555336073",
@@ -1023,8 +1023,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 8a. P625 iki değer: 37.910833, 40.236667 (dayanak Q206855) ve 37.91583, 40.21889; ilki kullanıldı."
+      "verified": true,
+      "$note": "K5 taraması, parti 8a. P625 iki değer: 37.910833, 40.236667 (dayanak Q206855) ve 37.91583, 40.21889; ilki kullanıldı. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8a)."
     },
     {
       "id": "wikidata-q945404-r2538131153",
@@ -1035,8 +1035,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 8a. P625: 38.136944, 41.008056; dayanak P143 Q1194038, Q1985727."
+      "verified": true,
+      "$note": "K5 taraması, parti 8a. P625: 38.136944, 41.008056; dayanak P143 Q1194038, Q1985727. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8a)."
     },
     {
       "id": "wikidata-q118995-r2558575165",
@@ -1047,8 +1047,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 8a. P625: 38.733333, 41.491111; dayanak P143 Q206855."
+      "verified": true,
+      "$note": "K5 taraması, parti 8a. P625: 38.733333, 41.491111; dayanak P143 Q206855. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8a)."
     },
     {
       "id": "wikidata-q83531-r2540140635",
@@ -1059,8 +1059,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 8a. P625: 38.4, 42.116667; dayanak P143 Q206855."
+      "verified": true,
+      "$note": "K5 taraması, parti 8a. P625: 38.4, 42.116667; dayanak P143 Q206855. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8a)."
     },
     {
       "id": "osm-relation-1842160",
@@ -1071,8 +1071,8 @@
       "rights": "acik-lisans",
       "licence": "ODbL-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 8a. Nominatim (2026-11-14): 38.1411514, 41.0056103 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki."
+      "verified": true,
+      "$note": "K5 taraması, parti 8a. Nominatim (2026-11-14): 38.1411514, 41.0056103 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8a)."
     }
   ]
 }

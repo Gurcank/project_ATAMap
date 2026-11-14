@@ -72,7 +72,7 @@
 
 ## K5 yeniden taraması, parti 8a: 1916 – Ocak 1918 (2026-11-14)
 
-Parti 8 kalabalık olduğu için ikiye bölündü: 8a (16. Kolordu'dan Almanya dönüşüne), 8b (1918 – 16 Mayıs 1919). Kaynaklar: MSB «Atatürk Kronolojisi» 1905-1918 bölümü ve «Askerî Görevleri» (resmî, yalnız olgu). Ayrı kaynak kayıtları: `msb-kronoloji-1905-1918-p8a`, `msb-askeri-gorevleri-p8a`. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Parti 8 kalabalık olduğu için ikiye bölündü: 8a (16. Kolordu'dan Almanya dönüşüne), 8b (1918 – 16 Mayıs 1919). Kaynaklar: MSB «Atatürk Kronolojisi» 1905-1918 bölümü ve «Askerî Görevleri» (resmî, yalnız olgu). Ayrı kaynak kayıtları: `msb-kronoloji-1905-1918-p8a`, `msb-askeri-gorevleri-p8a`. Durum: **onaylandı (2026-11-14)**, olaylar, yerler ve görevler sitede.
 
 Kural: Vikipedi resmî kaynakla çeliştiğinde resmî kaynağın günü kullanıldı (A27, parti 4'teki karar). İki MSB sayfası birbiriyle çeliştiğinde ay düzeyine inildi (parti 5'teki karar).
 
@@ -132,3 +132,5 @@ Adlar MSB kronolojisindeki yazımla.
 **Görev girmeyenler:** 16. Kolordu Komutanlığı ve asaleten 2. Ordu Komutanlığı. Bitişleri kaynakta açık değil.
 
 **Girmeyenler:** Sekerat'ta 2. Ordu karargâhına geliş (16 Aralık 1916; koordinat aranmadı), 12 Mart 1917 "Şam'dan Diyarbakır'a dönmesi" (gidiş mi varış mı belli değil), 10 Mart 1916 nakil kararı (Atatürk'ün kendi eylemi değil). Gezi güzergâhları seyahat olarak girmedi.
+
+**Kararlar (2026-11-14):** Parti 8a onaylandı.

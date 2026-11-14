@@ -328,8 +328,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 2. P625: 41.031944444444, 21.334722222222; dayanak Rusça Vikipedi (P143). P1448 (tr) 'Manastır', bitiş 1918-11-30; dayanağı yok."
+      "verified": true,
+      "$note": "Parti 2. P625: 41.031944444444, 21.334722222222; dayanak Rusça Vikipedi (P143). P1448 (tr) 'Manastır', bitiş 1918-11-30; dayanağı yok. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 2)."
     },
     {
       "id": "naturalearth-ne10m-populated-places-simple",
@@ -725,6 +725,42 @@
       "free": true,
       "verified": true,
       "$note": "K5 yeniden taraması (2026-11-14). Resmî kaynak (SPEC A27); sayfa altbilgisi '© 2026 Her Hakkı Saklıdır', yalnız olgu alındı, cümle kopyalanmadı. Bölüm sayfa içindeki '1881-1904' sekmesiyle açılıyor (adres aynı). Doğrudan adres bazen 404 dönüyor; ana sayfadaki bağlantıdan açılıyor. Okunan maddeler: 1881 Selanik'te doğum; 1886 ilk öğrenim (mahalle mektebi, sonra Şemsi Efendi Okulu); 1888 babasının ölümü; 1893 Selanik Askerî Rüştiyesi (önce bir süre Mülkiye Rüştiyesi); 1896 Manastır Askerî İdadisi; 13 Mart 1899 İstanbul'da Harp Okulu; 10 Şubat 1902 teğmen rütbesiyle Harp Akademisi; 1903 akademinin ikinci sınıfı ve üsteğmenlik. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 1)."
+    },
+    {
+      "id": "msb-kronoloji-1881-1904-p3",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "K5 yeniden taraması, parti 3 (2026-11-14). Resmî kaynak (A27); '© 2026 Her Hakkı Saklıdır', yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt; sayfa HTML'inde sekmeler gizli duruyor, aynı siteden okundu. Maddeler: 13 Mart 1899 İstanbul'da Harp Okulu; 10 Şubat 1902 teğmen rütbesiyle Harp Akademisi; 1903 ikinci sınıf ve üsteğmenlik."
+    },
+    {
+      "id": "msb-kronoloji-1905-1918-p3",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "K5 yeniden taraması, parti 3 (2026-11-14). Resmî kaynak (A27); '© 2026 Her Hakkı Saklıdır', yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt; sayfa HTML'inde sekmeler gizli duruyor, aynı siteden okundu. Maddeler: 1905 kurmay yüzbaşı olarak mezuniyet ve 5. Ordu'ya atanma; 20 Haziran 1907 kolağası; 27 Kasım 1911 binbaşı; 1 Mart 1914 yarbay; 1 Haziran 1915 albay; 1 Nisan 1916 mirliva (tümgeneral)."
+    },
+    {
+      "id": "wikidata-q406-r2564398857",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q406 (İstanbul), P625 koordinat, revizyon 2564398857",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q406.json?revision=2564398857",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 3. P625: 41.01, 28.960277777778; dayanak Rusça Vikipedi (P143). P1448 'İstanbul' 28 Mart 1930'dan itibaren (Britannica dayanaklı)."
     }
   ]
 }

@@ -82,6 +82,163 @@
         "tbmm-zc-d3-c13-i1-1929-11-01"
       ],
       "$note": "Parti 10b. Unvan dönem yazımıyla: 1 Kasım 1929 tutanağında 'Reisicümhur Gazi Mustafa Kemal Hazretleri' (onaylı kaynak). Vikipedi 'cumhurbaşkanı' diyor."
+    },
+    {
+      "id": "mulazim-1902",
+      "kind": "rutbe",
+      "title": "Piyade mülazım",
+      "start": {
+        "iso": "1902-02-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1881-1904-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB ve Vikipedi: 10 Şubat 1902."
+      },
+      "sources": [
+        "msb-kronoloji-1881-1904-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). Unvan Vikipedi'den ('piyade mülazım'); MSB bugünkü adla 'teğmen'."
+    },
+    {
+      "id": "ustegmen-1903",
+      "kind": "rutbe",
+      "title": "Üsteğmen",
+      "start": {
+        "iso": "1903",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1881-1904-p3"
+        ],
+        "$note": "MSB: 1903."
+      },
+      "sources": [
+        "msb-kronoloji-1881-1904-p3"
+      ],
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). Yalnız MSB; dönem adı (mülazım-ı evvel) kaynaklarda yok, MSB'nin yazımı kullanıldı."
+    },
+    {
+      "id": "kurmay-yuzbasi-1905",
+      "kind": "rutbe",
+      "title": "Kurmay yüzbaşı",
+      "start": {
+        "iso": "1905",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 1905. Vikipedi: 11 Ocak 1905."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). İki kaynakta da aynı yazım."
+    },
+    {
+      "id": "kolagasi-1907",
+      "kind": "rutbe",
+      "title": "Kolağası",
+      "start": {
+        "iso": "1907-06-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB ve Vikipedi: 20 Haziran 1907."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB 'kolağası (kıdemli yüzbaşı)', Vikipedi 'Kolağası'."
+    },
+    {
+      "id": "binbasi-1911",
+      "kind": "rutbe",
+      "title": "Binbaşı",
+      "start": {
+        "iso": "1911-11-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p3"
+        ],
+        "$note": "MSB: 27 Kasım 1911."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). Vikipedi terfiyi 30 Kasım'da Enver Bey'e bildirilmiş olarak anlatıyor (bildirim tarihi); terfi günü MSB'den."
+    },
+    {
+      "id": "kaymakam-1914",
+      "kind": "rutbe",
+      "title": "Kaymakam",
+      "start": {
+        "iso": "1914-03-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB ve Vikipedi: 1 Mart 1914."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). Vikipedi 'yarbaylığa (kaymakam)'; MSB 'yarbaylığa'. Dönem adı Vikipedi'den."
+    },
+    {
+      "id": "miralay-1915",
+      "kind": "rutbe",
+      "title": "Miralay",
+      "start": {
+        "iso": "1915-06-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB ve Vikipedi: 1 Haziran 1915."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB ve Vikipedi metni 'albay'; 'Miralay' Vikipedi'deki bir fotoğraf altında ('Miralay Mustafa Kemal Bey, 1915'). Kullanıcıya soruldu."
+    },
+    {
+      "id": "mirliva-1916",
+      "kind": "rutbe",
+      "title": "Mirliva",
+      "start": {
+        "iso": "1916-04-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB ve Vikipedi: 1 Nisan 1916."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB 'mirlivalığa (tümgeneralliğe)', Vikipedi 'Tuğgeneralliğe (Mirliva)': bugünkü karşılık farklı, dönem unvanı ikisinde de 'Mirliva'."
     }
   ]
 }

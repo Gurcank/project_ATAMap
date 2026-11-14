@@ -43,7 +43,7 @@ Parti 1'deki durum burada da geçerli: 1881-1899 için açık, telifsiz ve Vikip
 
 ## K5 yeniden taraması (2026-11-14)
 
-Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 bölümü (K5 taramasının 1. partisinde onaylandı). Atatürk Ansiklopedisi de bakılacak resmî kaynaktı; ama arama kutusu tarayıcıdan çalıştırılamadı (panel çizilmedi, form değeri sitenin arama koduna ulaşmadı), bu yüzden kullanılamadı. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 bölümü (K5 taramasının 1. partisinde onaylandı). Atatürk Ansiklopedisi de bakılacak resmî kaynaktı; ama arama kutusu tarayıcıdan çalıştırılamadı (panel çizilmedi, form değeri sitenin arama koduna ulaşmadı), bu yüzden kullanılamadı. Durum: **onaylandı (2026-11-14)**, Manastır ve 1896 olayı sitede.
 
 | Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
 |---|---|---|---|---|---|

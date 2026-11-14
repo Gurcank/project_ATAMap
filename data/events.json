@@ -1007,6 +1007,69 @@
         "vikipedi-tr-ataturk-38564203"
       ],
       "$note": "K5 yeniden taraması, parti 2. 'Selanik'ten ayrılarak': Vikipedi (Selanik'teki askerî rüştiyeden sonra)."
+    },
+    {
+      "id": "harbiye-1899-03-13",
+      "date": {
+        "iso": "1899-03-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1881-1904-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 13 Mart 1899. Vikipedi: 13 Mart 1899."
+      },
+      "title": "Harbiye'ye girdi",
+      "text": "İstanbul'da Mekteb-i Harbiye'ye (Harp Okulu) girdi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1881-1904-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3."
+    },
+    {
+      "id": "harp-akademisi-1902-02-10",
+      "date": {
+        "iso": "1902-02-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1881-1904-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 10 Şubat 1902. Vikipedi: 10 Şubat 1902."
+      },
+      "title": "Harp Akademisi'ne girdi",
+      "text": "Harbiye'yi piyade mülazımı rütbesiyle bitirerek Harp Akademisi'ne girdi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1881-1904-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3. 'Mülazım' Vikipedi'nin yazımı; MSB 'teğmen' diyor."
+    },
+    {
+      "id": "kurmay-yuzbasi-1905",
+      "date": {
+        "iso": "1905",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p3",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 1905 (yıl). Vikipedi: 11 Ocak 1905; gün tek ve resmî olmayan kaynakta olduğu için yıl düzeyinde."
+      },
+      "title": "Harp Akademisi'ni kurmay yüzbaşı olarak bitirdi",
+      "text": "Harp Akademisi'ni kurmay yüzbaşı rütbesiyle bitirdi ve merkezi Şam'da bulunan 5. Ordu'ya atandı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p3",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 3."
     }
   ]
 }

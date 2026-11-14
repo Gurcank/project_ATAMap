@@ -250,6 +250,62 @@
         ],
         "$note": "Askerlikten istifa: Nutuk s. 43 ('10.50 p.m. on the 8th July … I resigned my duties and my commission in the Army'), Vikipedi ('8-9 Temmuz gecesi … istifa etti'). Nutuk s. 523: Sakarya'dan sonrasına kadar askerî rütbesi yoktu."
       }
+    },
+    {
+      "id": "redif-tumeni-kurmay-baskani-1909",
+      "kind": "gorev",
+      "title": "Selanik 2. Redif Tümeni Kurmay Başkanı",
+      "start": {
+        "iso": "1909-01-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB ve Vikipedi: 13 Ocak 1909."
+      },
+      "end": {
+        "iso": "1909-11-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB 5 Kasım 1909: '… Kurmay Başkanlığından tekrar 3. Ordu Karargâhına atanması'."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p4",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 4. Unvan MSB kronolojisindeki yazımdan."
+    },
+    {
+      "id": "subay-talimgahi-komutani-1910",
+      "kind": "gorev",
+      "title": "3. Ordu Subay Talimgâhı Komutanı",
+      "start": {
+        "iso": "1910-09-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 6 Eylül 1910."
+      },
+      "end": {
+        "iso": "1910-11",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB Kasım 1910: '… Subay Talimgâhı Komutanlığından tekrar Üçüncü Ordu Karargâhına atanması'."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4. Unvan MSB kronolojisindeki yazımdan."
     }
   ]
 }

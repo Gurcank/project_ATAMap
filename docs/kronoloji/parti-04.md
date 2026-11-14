@@ -52,3 +52,46 @@ Tek kaynaklı tarih derlemeyi durdurduğu için (kural 5) **hiçbiri `data/` alt
 ## Genel sonuç
 
 Bu kural altında parti 4'ten de siteye kayıt girmiyor. Koordinatlar iki kaynakla uyumlu, ama dönem adlarının ikinci kaynağı yok. Görevlerin çoğunun bitiş tarihi de yok.
+
+## K5 yeniden taraması (2026-11-14)
+
+Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü (resmî, yalnız olgu). Parti onayına kadar beklesin diye ayrı kaynak kaydı açıldı (`msb-kronoloji-1905-1918-p4`). Her madde MSB metni ve Vikipedi sürüm 38564203 ile tek tek karşılaştırıldı. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+
+**Olaylar:**
+
+| Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
+|---|---|---|---|---|---|
+| 1905 | Şam | Vatan ve Hürriyet Cemiyeti'ni kurdu | MSB (1905) | Vikipedi (olay) | **Çelişki:** Vikipedi "Ekim 1906" (bilgi kutusunda 1906-1907). Resmî kaynağın yılı kullanıldı |
+| 25 Aralık 1906 | — | Beşinci Rütbeden Mecidî nişanı verildi | MSB | — | Verildiği yer kaynakta yok |
+| 13 Ekim 1907 | Selanik | Şam'dan 3. Ordu Karargâhı'na atandı (Selanik şubesi) | MSB | Vikipedi | — |
+| 1908 | Selanik | Litzmann'dan çevirdiği *Takımın Muharebe Talimi* yayımlandı | MSB | — | Yalnız yıl |
+| 22 Haziran 1908 | Selanik | Şark Demiryolu Müfettişliği görevi de verildi | MSB | Vikipedi | Vikipedi'deki ad "Rumeli Doğu Bölgesi Demiryolları Müfettişliği"; metin MSB'nin adıyla |
+| 13 Ocak 1909 | Selanik | Selanik 2. Redif Tümeni Kurmay Başkanı oldu | MSB | Vikipedi | — |
+| 15-16 Nisan 1909 | Selanik | Hareket Ordusu'nun kurmay başkanı olarak İstanbul'a hareket etti | MSB | Vikipedi (olay) | Gün yalnız MSB'de ("15/16 Nisan"); Vikipedi ordunun 19 Nisan'da İstanbul'a girdiğini yazıyor |
+| Mayıs 1909 | Selanik | İstanbul'dan Selanik'e döndü | MSB | — | — |
+| 30 Ağustos 1909 | — | Cumalı Ordugâhı'ndaki manevraya katıldı | MSB | — | Cumalı'nın koordinatı aranmadı, yer bağlanmadı |
+| 22 Eylül 1909 | Selanik | İttihat ve Terakki 2. Büyük Kongresi'nde konuştu | MSB | — | — |
+| 5 Kasım 1909 | — | Yeniden 3. Ordu Karargâhı'na atandı | MSB | — | — |
+| 6 Eylül 1910 | — | 3. Ordu Subay Talimgâhı Komutanı oldu | MSB | — | Talimgâhın yeri kaynakta yazmıyor, yer bağlanmadı |
+| Eylül 1910 | — | Picardie manevraları için Fransa'ya gönderildi | MSB | Vikipedi (1910) | Picardie'nin koordinatı aranmadı |
+| Kasım 1910 | — | Talimgâhtan 3. Ordu Karargâhı'na döndü | MSB | — | — |
+| Ocak 1911 | Selanik | 38. Piyade Alayı'nda görevlendirildi | MSB | Vikipedi (ay yok) | — |
+| 19-20 Nisan 1911 | — | 5. Kolordu'nun Selanik-Kılkış manevralarına katıldı | MSB | — | Tek bir yere bağlanmadı |
+| Eylül 1911 | İstanbul | Genelkurmay 1. Şube'ye atandı | MSB (ay) | Vikipedi (27 Eylül 1911) | Gün yalnız Vikipedi'de, ay düzeyinde |
+
+**Yer: Şam** — Wikidata Q3766 (33.513056, 36.291944) ve Natural Earth 110m (33.50198, 36.29805), fark ~1,3 km. Ad "Şam" (MSB, Vikipedi).
+
+**Görevler:**
+
+| Başlangıç | Bitiş | Unvan | Kaynak |
+|---|---|---|---|
+| 13 Ocak 1909 | 5 Kasım 1909 | Selanik 2. Redif Tümeni Kurmay Başkanı | MSB (+ Vikipedi başlangıç) |
+| 6 Eylül 1910 | Kasım 1910 | 3. Ordu Subay Talimgâhı Komutanı | MSB |
+
+Bitişi kaynakta olmayan görevler (3. Ordu Karargâhı, Demiryolu Müfettişliği, 38. Alay) görev olarak girmedi, yalnız olay.
+
+**Girmeyenler:** 23 Temmuz 1908 Meşrutiyet ilanı ve 13 Nisan 1909 isyanı (Atatürk'ün kendi olayı değil); Vikipedi'deki izinsiz Selanik yolculuğu ve Bîrüssebi tayini (resmî kaynakta yok, tarihsiz).
+
+Karargâha ikinci ve üçüncü dönüşlerde yer kaynakta yazmadığı için bu iki olay da yersiz.
+
+**Düzeltme (taramada yakalandı):** İlk yazımda 1911 manevrası için MSB'de olmayan bir kitap adı vardı; çıkarıldı.

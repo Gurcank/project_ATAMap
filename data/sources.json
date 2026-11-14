@@ -761,6 +761,30 @@
       "free": true,
       "verified": true,
       "$note": "K5 taraması, parti 3. P625: 41.01, 28.960277777778; dayanak Rusça Vikipedi (P143). P1448 'İstanbul' 28 Mart 1930'dan itibaren (Britannica dayanaklı). Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 3)."
+    },
+    {
+      "id": "msb-kronoloji-1905-1918-p4",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "K5 yeniden taraması, parti 4 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 1905-1911 arası; olay notlarında tek tek."
+    },
+    {
+      "id": "wikidata-q3766-r2566961779",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q3766 (Şam), P625 koordinat, revizyon 2566961779",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q3766.json?revision=2566961779",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 4. P625: 33.513055555556, 36.291944444444; dayanak İngilizce Vikipedi (P143 Q328)."
     }
   ]
 }

@@ -1070,6 +1070,335 @@
         "vikipedi-tr-ataturk-38564203"
       ],
       "$note": "K5 taraması, parti 3."
+    },
+    {
+      "id": "vatan-ve-hurriyet-1905",
+      "date": {
+        "iso": "1905",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 1905. Çelişki: Vikipedi gövde metni 'Ekim 1906', bilgi kutusu '1906-1907'. Resmî kaynağın yılı kullanıldı (A27); kullanıcıya soruldu."
+      },
+      "title": "Vatan ve Hürriyet Cemiyeti’ni kurdu",
+      "text": "Şam'da bazı arkadaşlarıyla birlikte gizli Vatan ve Hürriyet Cemiyeti'ni kurdu.",
+      "placeId": "sam",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "mecidi-nisani-1906-12-25",
+      "date": {
+        "iso": "1906-12-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 25 Aralık 1906."
+      },
+      "title": "Mecidî nişanı verildi",
+      "text": "Suriye bölgesindeki hizmetlerinden ötürü kendisine Beşinci Rütbeden Mecidî nişanı verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4. Yalnız MSB; verildiği yer kaynakta yok, yer bağlanmadı."
+    },
+    {
+      "id": "ucuncu-ordu-1907-10-13",
+      "date": {
+        "iso": "1907-10-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 13 Ekim 1907. Vikipedi: 13 Ekim 1907."
+      },
+      "title": "3. Ordu Karargâhı'na atandı",
+      "text": "Şam'dan, merkezi Manastır'da bulunan 3. Ordu Karargâhı'na atandı; karargâhın Selanik'teki şubesinde çalıştı.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "takimin-muharebe-talimi-1908",
+      "date": {
+        "iso": "1908",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 1908."
+      },
+      "title": "Takımın Muharebe Talimi yayımlandı",
+      "text": "General Litzmann'dan çevirdiği, askerî eğitimle ilgili Takımın Muharebe Talimi adlı kitap Selanik'te yayımlandı.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "demiryolu-mufettisligi-1908-06-22",
+      "date": {
+        "iso": "1908-06-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 22 Haziran 1908. Vikipedi: 22 Haziran 1908."
+      },
+      "title": "Demiryolu müfettişliği görevi verildi",
+      "text": "3. Ordu Karargâhı'ndaki görevinin yanı sıra Şark Demiryolu Müfettişliği görevi de verildi.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 4. Vikipedi görevi 'Rumeli Doğu Bölgesi Demiryolları Müfettişliği' diye yazıyor; metin MSB'nin adıyla."
+    },
+    {
+      "id": "redif-tumeni-1909-01-13",
+      "date": {
+        "iso": "1909-01-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 13 Ocak 1909. Vikipedi: 13 Ocak 1909."
+      },
+      "title": "Redif Tümeni Kurmay Başkanı oldu",
+      "text": "3. Ordu Selanik 2. Redif Tümeni Kurmay Başkanlığına getirildi.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "hareket-ordusu-1909-04",
+      "date": {
+        "iso": "1909-04-15",
+        "isoEnd": "1909-04-16",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: '15/16 Nisan 1909'. Vikipedi Nisan 1909 ve ordunun 19 Nisan'da İstanbul'a girdiğini yazıyor."
+      },
+      "title": "Hareket Ordusu ile İstanbul’a hareket etti",
+      "text": "31 Mart İsyanı üzerine Hareket Ordusu'nun kurmay başkanı olarak Selanik'ten İstanbul'a hareket etti.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "selanike-donus-1909-05",
+      "date": {
+        "iso": "1909-05",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: Mayıs 1909."
+      },
+      "title": "Selanik'e döndü",
+      "text": "İstanbul'dan Selanik'e döndü.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "cumali-manevrasi-1909-08-30",
+      "date": {
+        "iso": "1909-08-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 30 Ağustos 1909 (manevra 30 Ağustos - 8 Eylül 1909)."
+      },
+      "title": "Cumalı Ordugâhı'ndaki manevraya katıldı",
+      "text": "Cumalı Ordugâhı'ndaki askerî manevraya katıldı; buradaki not ve krokileri daha sonra Cumalı Ordugâhı adlı kitapta yayımlandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4. Cumalı için koordinat aranmadı; yer bağlanmadı."
+    },
+    {
+      "id": "ittihat-kongresi-1909-09-22",
+      "date": {
+        "iso": "1909-09-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 22 Eylül 1909."
+      },
+      "title": "İttihat ve Terakki kongresinde konuştu",
+      "text": "Selanik'te toplanan İttihat ve Terakki Cemiyeti'nin ikinci büyük kongresinde, ordunun siyasetten çekilmesi gerektiğini savunan bir konuşma yaptı.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "ucuncu-ordu-1909-11-05",
+      "date": {
+        "iso": "1909-11-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 5 Kasım 1909."
+      },
+      "title": "Yeniden 3. Ordu Karargâhı'na atandı",
+      "text": "Selanik 2. Redif Tümeni Kurmay Başkanlığından yeniden 3. Ordu Karargâhı'na atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4. Yer kaynakta yazmıyor; bağlanmadı."
+    },
+    {
+      "id": "subay-talimgahi-1910-09-06",
+      "date": {
+        "iso": "1910-09-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 6 Eylül 1910."
+      },
+      "title": "Subay Talimgâhı Komutanı oldu",
+      "text": "3. Ordu Subay Talimgâhı Komutanlığına atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4. Yer kaynakta yazmıyor; bağlanmadı."
+    },
+    {
+      "id": "picardie-1910-09",
+      "date": {
+        "iso": "1910-09",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: Eylül 1910. Vikipedi: 1910."
+      },
+      "title": "Picardie manevraları için Fransa'ya gitti",
+      "text": "Orduyu temsilen Fransa'daki Picardie manevralarını izlemek üzere gönderildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 4. Picardie için koordinat aranmadı; yer bağlanmadı."
+    },
+    {
+      "id": "ucuncu-ordu-1910-11",
+      "date": {
+        "iso": "1910-11",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: Kasım 1910."
+      },
+      "title": "Talimgâhtan 3. Ordu Karargâhı'na döndü",
+      "text": "Subay Talimgâhı Komutanlığından yeniden 3. Ordu Karargâhı'na atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4. Yer kaynakta yazmıyor; bağlanmadı."
+    },
+    {
+      "id": "38-alay-1911-01",
+      "date": {
+        "iso": "1911-01",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: Ocak 1911."
+      },
+      "title": "38. Piyade Alayı'nda görevlendirildi",
+      "text": "Selanik'te bulunan 38. Piyade Alayı'nda görevlendirildi.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "kolordu-manevrasi-1911-04-19",
+      "date": {
+        "iso": "1911-04-19",
+        "isoEnd": "1911-04-20",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4"
+        ],
+        "$note": "MSB: 19 Nisan 1911'de başladı, 20 Nisan akşamı bitti."
+      },
+      "title": "5. Kolordu manevralarına katıldı",
+      "text": "5. Kolordu'nun Selanik ile Kılkış arasında yaptığı manevralara katıldı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4"
+      ],
+      "$note": "K5 taraması, parti 4. Selanik-Kılkış arası; tek bir yere bağlanmadı."
+    },
+    {
+      "id": "genelkurmay-1911-09",
+      "date": {
+        "iso": "1911-09",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p4",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: Eylül 1911. Vikipedi: 27 Eylül 1911 (gün tek ve resmî olmayan kaynakta, bu yüzden ay düzeyinde)."
+      },
+      "title": "İstanbul'da Genelkurmay'a atandı",
+      "text": "İstanbul'da Genelkurmay 1. Şube'ye atandı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p4",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 4."
     }
   ]
 }

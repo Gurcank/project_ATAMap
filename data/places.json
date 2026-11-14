@@ -313,6 +313,28 @@
           "$note": "Vikipedi 'İstanbul'; MSB (resmî) 1899 maddesinde 'İstanbul'da Harp Okuluna'. Wikidata resmî adı ancak 28 Mart 1930'dan itibaren 'İstanbul' veriyor; dönemin başka adları (Dersaadet, Kostantiniyye) kaynaklarda yok. Kullanıcı kararı (2026-11-14): ad 'İstanbul'."
         }
       ]
+    },
+    {
+      "id": "sam",
+      "point": {
+        "lon": 36.291944444444,
+        "lat": 33.513055555556,
+        "sources": [
+          "wikidata-q3766-r2566961779",
+          "naturalearth-ne110m-populated-places"
+        ],
+        "$note": "Wikidata: 33.513056, 36.291944. Natural Earth 110m (Damascus, NE_ID 1159151269, WIKIDATAID Q3766): 33.50198, 36.29805. Fark yaklaşık 1,3 km."
+      },
+      "names": [
+        {
+          "name": "Şam",
+          "sources": [
+            "msb-kronoloji-1905-1918-p4",
+            "vikipedi-tr-ataturk-38564203"
+          ],
+          "$note": "MSB (resmî) 1905 maddesinde 'Şam'da'; Vikipedi 'Şam'da'."
+        }
+      ]
     }
   ]
 }

@@ -841,6 +841,28 @@
         "nutuk-en-1929-s523-657"
       ],
       "$note": "Parti 9b."
+    },
+    {
+      "id": "nutuk-1927-10",
+      "date": {
+        "iso": "1927-10-15",
+        "isoEnd": "1927-10-20",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929-giris"
+        ],
+        "$note": "Vikipedi: '15-20 Ekim 1927 tarihleri arasında Ankara'da toplanan CHF ikinci kurultayında … Nutuk'u okudu'. Nutuk 1929 girişi: 'from the 15th to the 20th October, 1927'."
+      },
+      "title": "Nutuk'u okudu",
+      "text": "Cumhuriyet Halk Fırkası'nın Ankara'da toplanan ikinci kurultayında, Kurtuluş Savaşı'nı ve Cumhuriyet'in kuruluşunu anlatan Nutuk'u altı gün boyunca okudu.",
+      "placeId": "ankara",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929-giris"
+      ],
+      "$note": "Parti 10a. 'Altı gün' 15-20 Ekim aralığından. Nutuk'un 1927 Arap harfli aslı için künye kartı (belge kaydı) kullanıcıya önerildi, girilmedi."
     }
   ]
 }

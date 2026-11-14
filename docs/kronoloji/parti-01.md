@@ -57,7 +57,7 @@ Denenip kullanılamayanlar: ABD Kongre Kütüphanesi *Turkey: A Country Study* s
 
 ## K5 yeniden taraması (2026-11-14)
 
-Kural değişti: resmî devlet kaynağı tek başına yeter (SPEC A27). Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 bölümü (`msb-kronoloji-1881-1904`, `official: true`, `rights: 'hakki-sakli-olgu'`; yalnız olgu). Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Kural değişti: resmî devlet kaynağı tek başına yeter (SPEC A27). Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 bölümü (`msb-kronoloji-1881-1904`, `official: true`, `rights: 'hakki-sakli-olgu'`; yalnız olgu). Durum: **onaylandı (2026-11-14)**, üç olay sitede.
 
 | Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
 |---|---|---|---|---|---|

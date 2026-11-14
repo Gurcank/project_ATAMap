@@ -40,3 +40,18 @@
 ## Genel sonuç
 
 Parti 1'deki durum burada da geçerli: 1881-1899 için açık, telifsiz ve Vikipedi'den bağımsız ikinci kaynak yok denecek kadar az. Bu kural altında bu partiden siteye yalnız Manastır'ın konumu girebilir; ad da tek kaynaklı.
+
+## K5 yeniden taraması (2026-11-14)
+
+Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 bölümü (K5 taramasının 1. partisinde onaylandı). Atatürk Ansiklopedisi de bakılacak resmî kaynaktı; ama arama kutusu tarayıcıdan çalıştırılamadı (panel çizilmedi, form değeri sitenin arama koduna ulaşmadı), bu yüzden kullanılamadı. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+
+| Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
+|---|---|---|---|---|---|
+| 1896 | Manastır | Manastır Askerî İdadisi'ne girdi | MSB | Vikipedi | Yıl düzeyinde |
+| — | Manastır | Dönem adı "Manastır" | Vikipedi | MSB ("Manastır Askerî İdadisi") | — |
+| — | Manastır | Koordinat (parti 2'deki gibi) | Wikidata | Natural Earth 10m | ~0,9 km. Wikidata kaynağı bu onayla `verified: true` olur |
+
+**Hâlâ girmeyenler:**
+- Kasım 1898'deki mezuniyet: yalnız Vikipedi; MSB'de yok.
+- 1897'de Osmanlı-Yunan Savaşı'na gönüllü gitmek istemesi: yalnız Vikipedi.
+- İstanbul'a gidiş: tarih ve araç yok.

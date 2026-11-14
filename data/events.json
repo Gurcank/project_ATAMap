@@ -986,6 +986,27 @@
         "vikipedi-tr-ataturk-38564203"
       ],
       "$note": "K5 yeniden taraması, parti 1."
+    },
+    {
+      "id": "manastir-idadi-1896",
+      "date": {
+        "iso": "1896",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1881-1904",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 1896. Vikipedi: 1896."
+      },
+      "title": "Manastır Askerî İdadisi'ne girdi",
+      "text": "Selanik'ten ayrılarak Manastır Askerî İdadisi'ne kaydoldu.",
+      "placeId": "manastir",
+      "sources": [
+        "msb-kronoloji-1881-1904",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 yeniden taraması, parti 2. 'Selanik'ten ayrılarak': Vikipedi (Selanik'teki askerî rüştiyeden sonra)."
     }
   ]
 }

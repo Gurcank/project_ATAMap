@@ -61,9 +61,10 @@
         {
           "name": "Manastır",
           "sources": [
-            "vikipedi-tr-ataturk-38564203"
+            "vikipedi-tr-ataturk-38564203",
+            "msb-kronoloji-1881-1904"
           ],
-          "$note": "Tek kaynak: Vikipedi metni. Wikidata P1448 'Manastır' (bitiş 1918-11-30) dayanaksız olduğu için kaynak sayılmadı. Kullanıcıya soruldu (parti 2)."
+          "$note": "Vikipedi metni 'Manastır'; MSB kronolojisi (resmî, K5) 1896 maddesinde 'Manastır Askerî İdadisi'. Wikidata P1448 'Manastır' (bitiş 1918-11-30) dayanaksız olduğu için kaynak sayılmadı."
         }
       ],
       "modernName": "Bitola"

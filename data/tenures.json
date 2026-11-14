@@ -1,0 +1,55 @@
+{
+  "$comment": "Rütbe ve görev aralıkları (SPEC §6 Tenure, ADR-15). Unvanlar kaynakta yazıldığı gibi.",
+  "tenures": [
+    {
+      "id": "icra-vekilleri-heyeti-1920",
+      "kind": "gorev",
+      "title": "TBMM İcra Vekilleri Heyeti Başkanı",
+      "start": {
+        "iso": "1920-05-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "wikidata-q5152-r2569089775-p39-p410"
+        ],
+        "$note": "Vikipedi bilgi kutusu: 3 Mayıs 1920. Wikidata P39: 1920-05-03 (dayanak TBMM)."
+      },
+      "end": {
+        "iso": "1921-01-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "wikidata-q5152-r2569089775-p39-p410"
+        ],
+        "$note": "Vikipedi bilgi kutusu: 24 Ocak 1921. Wikidata P39: 1921-01-24 (dayanak TBMM)."
+      },
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "wikidata-q5152-r2569089775-p39-p410"
+      ],
+      "$note": "Parti 9b. Unvan Vikipedi bilgi kutusundaki yazımla ('Başkanı'); dönemin resmî yazımı 'Reisi' olabilir, birincil belge görülmedi. Wikidata etiketi 'İcra Vekilleri Heyeti Reis'."
+    },
+    {
+      "id": "musir-1921",
+      "kind": "rutbe",
+      "title": "Müşîr",
+      "start": {
+        "iso": "1921-09-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "wikidata-q5152-r2569089775-p39-p410"
+        ],
+        "$note": "Vikipedi: 19 Eylül 1921. Wikidata P410: 1921-09-19 (dayanak MSB)."
+      },
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "wikidata-q5152-r2569089775-p39-p410"
+      ],
+      "$note": "Parti 9b. Vikipedi 'Müşîr (bugünkü ismiyle Mareşal)', Wikidata 'Mareşal'. Bitiş yazılmadı: Wikidata 1927-06-30 diyor, ikinci kaynak parti 10a'da aranacak. Bitiş girilmezse rütbe 1938'e kadar gösterilir."
+    }
+  ]
+}

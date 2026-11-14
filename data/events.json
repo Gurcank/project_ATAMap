@@ -738,6 +738,109 @@
         "nutuk-en-1929"
       ],
       "$note": "Parti 9a."
+    },
+    {
+      "id": "baskomutan-1921-08-05",
+      "date": {
+        "iso": "1921-08-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929-s523-657"
+        ],
+        "$note": "Nutuk s. 549: 'The Act of the 5th August, 1921'. Vikipedi: 5 Ağustos 1921."
+      },
+      "title": "Başkomutanlığa getirildi",
+      "text": "Meclisin oy birliğiyle çıkardığı kanunla TBMM Orduları Başkomutanlığı'na getirildi.",
+      "placeId": "ankara",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929-s523-657"
+      ],
+      "$note": "Parti 9b."
+    },
+    {
+      "id": "musir-gazi-1921-09-19",
+      "date": {
+        "iso": "1921-09-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "wikidata-q5152-r2569089775-p39-p410"
+        ],
+        "$note": "Vikipedi: 19 Eylül 1921. Wikidata P410 Mareşal başlangıcı 1921-09-19 (dayanak MSB). Nutuk s. 523 tarihsiz."
+      },
+      "title": "Müşîr rütbesi ve Gazi unvanı verildi",
+      "text": "Sakarya Meydan Muharebesi'nin ardından Büyük Millet Meclisi onu oy birliğiyle Müşîr rütbesine yükseltti ve Gazi unvanını verdi.",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929-s523-657",
+        "wikidata-q5152-r2569089775-p39-p410"
+      ],
+      "$note": "Parti 9b."
+    },
+    {
+      "id": "buyuk-taarruz-1922-08-26",
+      "date": {
+        "iso": "1922-08-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929-s523-657"
+        ],
+        "$note": "Nutuk s. 565: taarruzun 'in the forenoon of the 26th August, 1922' açılması emri; s. 566: topçu ateşi sabah 5.30. Vikipedi: 26 Ağustos 1922 sabahı."
+      },
+      "title": "Büyük Taarruz başladı",
+      "text": "Başkomutan olarak verdiği emirle Büyük Taarruz sabah saatlerinde topçu ateşiyle başladı.",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929-s523-657"
+      ],
+      "$note": "Parti 9b."
+    },
+    {
+      "id": "baskomutanlik-muharebesi-1922-08-30",
+      "date": {
+        "iso": "1922-08-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929-s523-657"
+        ],
+        "$note": "Nutuk s. 566: 'On the 30th August … Battle of the Generalissimus'. Vikipedi: 30 Ağustos."
+      },
+      "title": "Başkomutanlık Meydan Muharebesi",
+      "text": "Başkomutanlık Meydan Muharebesi'nde Yunan ordusunun ana kuvvetleri bir gün içinde imha edildi ya da esir alındı.",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929-s523-657"
+      ],
+      "$note": "Parti 9b."
+    },
+    {
+      "id": "cumhuriyet-1923-10-29",
+      "date": {
+        "iso": "1923-10-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929-s523-657"
+        ],
+        "$note": "Nutuk s. 657: 29 Ekim 1923 akşamı 8.30 ve 8.45. Vikipedi: 29 Ekim 1923."
+      },
+      "title": "Cumhuriyet ilan edildi, cumhurbaşkanı seçildi",
+      "text": "Meclis akşam saatlerinde cumhuriyetin ilanını kabul etti; on beş dakika sonra Gazi Mustafa Kemal Türkiye'nin ilk cumhurbaşkanı seçildi.",
+      "placeId": "ankara",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929-s523-657"
+      ],
+      "$note": "Parti 9b."
     }
   ]
 }

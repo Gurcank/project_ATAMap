@@ -1,7 +1,7 @@
 # Kronoloji, parti 9b: Millî Mücadele II, TBMM'den Cumhuriyet'e
 
 > Kapsam: TBMM'nin açılışından (23 Nisan 1920) Cumhuriyet'in ilanına (29 Ekim 1923) kadar.
-> Durum: **onay bekliyor.** Beş olay ve iki rütbe/görev kaydı `data/` altında, `verified: false`.
+> Durum: **onaylandı (2026-11-14).** Beş olay ve iki rütbe/görev kaydı sitede.
 > Araştırma tarihi: 2026-11-14. Kaynak kuralı: SPEC §2.2 (A19, K4), kullanıcının 2026-11-14 onayıyla aynen.
 
 ## Kaynaklar
@@ -48,6 +48,13 @@
 | 29 Ekim 1923 → | **Görev:** Cumhurbaşkanı | Vikipedi, Nutuk s. 657 (başlangıç) | Kural 9 bitiş istiyor (10 Kasım 1938); parti 10b'de iki kaynakla girilecek. Wikidata'daki ifade Vikipedi'den aktarılmış |
 
 **Bu partide olmayanlar:** İnönü muharebeleri, Mudanya ve Lozan kararları Atatürk'ün kendi olayları olarak alınmadı. Sakarya Muharebesi'nin kendisi için bu turda iki kaynaklı tarih aranmadı.
+
+## Kararlar (2026-11-14)
+
+- Parti onaylandı.
+- TBMM ve MSB yayınlarına dayanan Wikidata ifadeleri ikinci kaynak olarak kabul edildi.
+- Saltanatın kaldırılması (1 Kasım 1922) girmedi: Meclis kararı, Atatürk'ün kendi olayı olarak alınmadı.
+- Müşirliğin bitişi iki kaynakla bulunana kadar durum kartuşunda 1938'e kadar görünür (parti 10a'da aranacak).
 
 ## Genel sonuç
 

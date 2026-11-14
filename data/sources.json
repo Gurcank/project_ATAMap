@@ -531,8 +531,8 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Parti 9b. Telif ve bağımsızlık: nutuk-en-1929 kaydındaki not. Sayfalar künyede görünsün diye ayrı kayıt. Taramadan okundu: s. 523 (Sakarya'dan sonra Müşirlik ve Gazi unvanı, tarihsiz), s. 549 ('The Act of the 5th August, 1921, relating to our appointment as Commander-in-Chief'), s. 565 (taarruzun 26 Ağustos 1922 öğleden önce açılması emri), s. 566 (Kocatepe'deki karargâh; 'On the morning of the 25th we were at Kodya Tepe'; 'On the 30th August … Battle of the Generalissimus'), s. 657 (29 Ekim 1923 akşamı 8.30'da cumhuriyetin ilanı, 8.45'te cumhurbaşkanı seçimi; Fethi Bey Meclis Reisi). Vikipedi'nin 1920-1923 bölümleri Nutuk'u dayanak göstermiyor."
+      "verified": true,
+      "$note": "Parti 9b. Telif ve bağımsızlık: nutuk-en-1929 kaydındaki not. Sayfalar künyede görünsün diye ayrı kayıt. Taramadan okundu: s. 523 (Sakarya'dan sonra Müşirlik ve Gazi unvanı, tarihsiz), s. 549 ('The Act of the 5th August, 1921, relating to our appointment as Commander-in-Chief'), s. 565 (taarruzun 26 Ağustos 1922 öğleden önce açılması emri), s. 566 (Kocatepe'deki karargâh; 'On the morning of the 25th we were at Kodya Tepe'; 'On the 30th August … Battle of the Generalissimus'), s. 657 (29 Ekim 1923 akşamı 8.30'da cumhuriyetin ilanı, 8.45'te cumhurbaşkanı seçimi; Fethi Bey Meclis Reisi). Vikipedi'nin 1920-1923 bölümleri Nutuk'u dayanak göstermiyor. Kullanıcı onayı: 2026-11-14 (parti 9b)."
     },
     {
       "id": "wikidata-q5152-r2569089775-p39-p410",
@@ -543,8 +543,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 9b. P39 Q106614753 (İcra Vekilleri Heyeti Reisi): 1920-05-03 → 1921-01-24, dayanak TBMM 'Hükümetler' cilt 1 PDF (tbmm.gov.tr). P410 Q16151507 (Mareşal): 1921-09-19 → 1927-06-30, dayanak MSB 'Türk İstiklal Harbi Komutan Biyografileri' PDF (msb.gov.tr; ata.msb.gov.tr değil). Dayanak yayınların kendisi hakları saklı olabilir; kaynak olarak kullanılan Wikidata ifadesidir (CC0). Vikipedi'ye dayanmıyor (bağımsız). P39 Cumhurbaşkanı ifadesi Türkçe Vikipedi'den aktarıldığı için kullanılmadı."
+      "verified": true,
+      "$note": "Parti 9b. P39 Q106614753 (İcra Vekilleri Heyeti Reisi): 1920-05-03 → 1921-01-24, dayanak TBMM 'Hükümetler' cilt 1 PDF (tbmm.gov.tr). P410 Q16151507 (Mareşal): 1921-09-19 → 1927-06-30, dayanak MSB 'Türk İstiklal Harbi Komutan Biyografileri' PDF (msb.gov.tr; ata.msb.gov.tr değil). Dayanak yayınların kendisi hakları saklı olabilir; kaynak olarak kullanılan Wikidata ifadesidir (CC0). Vikipedi'ye dayanmıyor (bağımsız). P39 Cumhurbaşkanı ifadesi Türkçe Vikipedi'den aktarıldığı için kullanılmadı. Kullanıcı onayı: 2026-11-14 (parti 9b)."
     }
   ]
 }

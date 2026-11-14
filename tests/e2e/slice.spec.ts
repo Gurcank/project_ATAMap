@@ -170,6 +170,37 @@ test('the first real journey: Amasya to Erzurum by car, approximate route', asyn
   await shot(page, info, 'seyahat');
 });
 
+test('the Republic: age, rank and place in the status', async ({ page }, info) => {
+  await open(page, '/#adim=cumhuriyet-1923-10-29');
+  const status = page.getByRole('region', { name: 'Durum' });
+  if (info.project.name === 'mobil-375') await status.getByRole('button').click();
+  await expect(status.locator('dt')).toHaveText(['Yaş', 'Rütbe', 'Yer']);
+  await expect(status.locator('dd')).toHaveText(['42', 'Müşîr', 'Ankara']);
+  await shot(page, info, 'cumhuriyet');
+});
+
+test('a duty in force shows in the status (1920-1921)', async ({ page }, info) => {
+  await open(page, '/#adim=tbmm-nutuk-1920-04-24');
+  await page.getByRole('button', { name: 'Sonraki' }).click();
+  await expect(page.getByText('1 Mart 1921')).toBeVisible();
+  const status = page.getByRole('region', { name: 'Durum' });
+  if (info.project.name === 'mobil-375') await status.getByRole('button').click();
+  // 1 March 1921 is after the duty ended (24 January 1921): no "Görev" row.
+  await expect(status.locator('dt')).toHaveText(['Yaş', 'Yer']);
+});
+
+test('an event without a place: no place in the status, the page still works', async ({
+  page,
+}, info) => {
+  await open(page, '/#adim=buyuk-taarruz-1922-08-26');
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText('Büyük Taarruz başladı');
+  const status = page.getByRole('region', { name: 'Durum' });
+  if (info.project.name === 'mobil-375') await status.getByRole('button').click();
+  await expect(status.locator('dt')).toHaveText(['Yaş', 'Rütbe']);
+  await expect(status.locator('dd')).toHaveText(['41', 'Müşîr']);
+  await shot(page, info, 'yersiz');
+});
+
 test('a Latin-script speech opens as an A4 sheet with its citation', async ({ page }, info) => {
   await open(page, LATIN);
   const marker = page.getByRole('button', { name: /^Konuşma:/ });

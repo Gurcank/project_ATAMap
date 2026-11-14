@@ -134,3 +134,39 @@ Adlar MSB kronolojisindeki yazımla.
 **Girmeyenler:** Sekerat'ta 2. Ordu karargâhına geliş (16 Aralık 1916; koordinat aranmadı), 12 Mart 1917 "Şam'dan Diyarbakır'a dönmesi" (gidiş mi varış mı belli değil), 10 Mart 1916 nakil kararı (Atatürk'ün kendi eylemi değil). Gezi güzergâhları seyahat olarak girmedi.
 
 **Kararlar (2026-11-14):** Parti 8a onaylandı.
+
+## K5 yeniden taraması, parti 8b: 1918 – Nisan 1919 (2026-11-14)
+
+Kaynaklar: MSB «Atatürk Kronolojisi» 1905-1918 ve 1919-1922 bölümleri, «Askerî Görevleri» (resmî, yalnız olgu); bir bitiş tarihi için onaylı Nutuk s. 43. Ayrı kaynak kayıtları: `msb-kronoloji-1905-1918-p8b`, `msb-kronoloji-1919-1922-p8b`, `msb-askeri-gorevleri-p8b`. Durum: **onay bekliyor**, kayıtlar `verified: false`. 16 Mayıs 1919'daki hareket parti 9a'ya kaldı.
+
+**Olaylar:**
+
+| Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
+|---|---|---|---|---|---|
+| 19 Şubat 1918 | — | Alman İmparatoru'ndan Kılıçlı Cordon de Prusse Nişanı | MSB | — | — |
+| 25 Mayıs 1918 | İstanbul | Tedavi için Viyana'ya yola çıktı (Viyana ve Karlsbad'da ~2 ay) | MSB | Vikipedi | Viyana ve Karlsbad yer olarak girmedi |
+| Ağustos 1918 | İstanbul | Viyana'dan döndü | MSB (2 Ağustos) | Vikipedi (4 Ağustos) | MSB'nin kendisi "bazı kaynaklarda 4 Ağustos" diyor: ay düzeyinde |
+| Ağustos 1918 | — | Yeniden 7. Ordu Komutanı oldu | MSB kronoloji, Vikipedi (7 Ağustos) | MSB «Askerî Görevleri» (17 Ağustos) | **İki MSB sayfası çelişiyor**: ay düzeyinde |
+| 1 Eylül 1918 | Nablus | Nablus'ta 7. Ordu'nun komutasını aldı | MSB | Vikipedi | — |
+| 20 Eylül 1918 | — | 7. Ordu'yu Şeria'nın doğusuna çekti | MSB | — | Bölgeye yayılıyor, yer yok |
+| 21-23 Eylül 1918 | — | Fahri yaverlik unvanı | MSB (22 Eylül; "bazı kaynaklarda 21 ya da 23") | Vikipedi (20 Eylül) | MSB'nin verdiği üç gün aralık olarak |
+| 26 Ekim 1918 | — | İngilizleri Halep'in kuzeyinde durdurdu | MSB | MSB | Sitedeki 25 Ekim "Halep'ten çekildi" olayından ayrı |
+| 7 Kasım 1918 | — | Yıldırım Orduları Grubu ve 7. Ordu kaldırıldı | MSB «Askerî Görevleri» | Vikipedi | Kronoloji yalnız "Kasım 1918" |
+| 10-11 Kasım 1918 | Adana | Trenle İstanbul'a yola çıktı | MSB ("10/11 Kasım") | Vikipedi (10 Kasım) | Seyahat adayı, güzergâh yok |
+| 13 Kasım 1918 | İstanbul | İstanbul'a geldi | MSB | MSB, Vikipedi | — |
+| Aralık 1918 | İstanbul | *Zabit ve Kumandan ile Hasbihal* yayımlandı | MSB | — | — |
+| 30 Nisan 1919 | — | 9. Ordu Kıtaatı Müfettişi oldu | MSB 1919-1922 | — | Vikipedi bilgi kutusu 16 Mayıs diyor |
+
+**Sitedeki iki olay:** 25 Ekim (Halep'ten çekildi) MSB'de yok, MSB'nin 26 Ekim maddesi başka bir olay. 31 Ekim (Ordular Grubu'nun devri) MSB'nin iki sayfasında da aynı gün. Onaydan sonra MSB, 31 Ekim olayına kaynak olarak eklenecek.
+
+**Yeni yer: Nablus.** Wikidata Q214178 (preferred: 32.220833, 35.262778), Natural Earth 10m (32.221482, 35.254427), fark ~0,8 km. Ad "Nablus" (MSB, Vikipedi).
+
+**Görevler:**
+
+| Başlangıç | Bitiş | Unvan | Kaynak |
+|---|---|---|---|
+| Ağustos 1918 | 7 Kasım 1918 | 7. Ordu Komutanı (ikinci kez) | MSB (bitiş: karargâhın kaldırılması) |
+| 31 Ekim 1918 | 7 Kasım 1918 | Yıldırım Orduları Grubu Komutanı | MSB (bitiş: grubun kaldırılması) |
+| 30 Nisan 1919 | 8 Temmuz 1919 | 9. Ordu Kıtaatı Müfettişi | Başlangıç MSB; bitiş Nutuk s. 43 (istifa) ve Vikipedi |
+
+**Girmeyenler:** Rayak, Hama, Kisve çekilmeleri (yalnız Liman ya da Vikipedi; MSB 20 Eylül maddesinde Rayak'tan yalnız geçerken söz ediyor). Şişli'deki eve yerleşme ve padişah huzuru (yalnız Vikipedi). Mondros ve İngilizlerin Halep'e girmesi Atatürk'ün kendi olayı değil.

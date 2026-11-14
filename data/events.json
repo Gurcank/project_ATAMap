@@ -1215,6 +1215,147 @@
       "$note": "K5 taraması, parti 8a."
     },
     {
+      "id": "cordon-de-prusse-1918-02-19",
+      "date": {
+        "iso": "1918-02-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b"
+        ],
+        "$note": "MSB: 19 Şubat 1918."
+      },
+      "title": "Alman İmparatoru nişan verdi",
+      "text": "Alman İmparatoru tarafından kendisine Birinci Rütbe Kılıçlı Cordon de Prusse Nişanı verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b"
+      ],
+      "$note": "K5 taraması, parti 8b. Yer kaynakta yok."
+    },
+    {
+      "id": "viyanaya-tedavi-1918-05-25",
+      "date": {
+        "iso": "1918-05-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 25 Mayıs 1918. Vikipedi: 25 Mayıs."
+      },
+      "title": "Tedavi için Viyana'ya yola çıktı",
+      "text": "Böbrek rahatsızlığının tedavisi için İstanbul'dan Viyana'ya yola çıktı; Viyana ve Karlsbad'da iki ay kadar tedavi gördü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b. Viyana ve Karlsbad için yer kaydı açılmadı; güzergâh tarihleri yok, seyahat girmedi."
+    },
+    {
+      "id": "viyanadan-donus-1918-08",
+      "date": {
+        "iso": "1918-08",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 2 Ağustos 1918, ama aynı maddede 'bazı kaynaklarda 4 Ağustos'; Vikipedi 4 Ağustos. MSB'nin kendisi kesin olmadığı için ay düzeyinde."
+      },
+      "title": "Viyana'dan İstanbul'a döndü",
+      "text": "Tedaviden sonra Viyana'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b."
+    },
+    {
+      "id": "yedinci-ordu-ikinci-1918-08",
+      "date": {
+        "iso": "1918-08",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "msb-askeri-gorevleri-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji ve Vikipedi: 7 Ağustos 1918. MSB «Askerî Görevleri»: '17 Ağustos 1918'de'. İki resmî sayfa çeliştiği için ay düzeyinde."
+      },
+      "title": "Yeniden 7. Ordu Komutanı oldu",
+      "text": "Liman von Sanders'in emrindeki 7. Ordu'ya yeniden komutan olarak atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "msb-askeri-gorevleri-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b."
+    },
+    {
+      "id": "nablus-1918-09-01",
+      "date": {
+        "iso": "1918-09-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 1 Eylül 1918. Vikipedi: 1 Eylül."
+      },
+      "title": "Nablus'ta 7. Ordu'nun komutasını aldı",
+      "text": "Nablus'taki 7. Ordu karargâhına gelerek komutayı üzerine aldı.",
+      "placeId": "nablus",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b."
+    },
+    {
+      "id": "seria-1918-09-20",
+      "date": {
+        "iso": "1918-09-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b"
+        ],
+        "$note": "MSB: 20 Eylül 1918."
+      },
+      "title": "7. Ordu'yu Şeria'nın doğusuna çekti",
+      "text": "İngiliz taarruzu karşısında 7. Ordu'ya Şeria Nehri'nin doğusuna çekilme emri verdi; ordu düzenini bozmadan Rayak'a, oradan Halep'e çekildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b"
+      ],
+      "$note": "K5 taraması, parti 8b. Bölgeye yayılan bir hareket; yer bağlanmadı."
+    },
+    {
+      "id": "fahri-yaverlik-1918-09",
+      "date": {
+        "iso": "1918-09-21",
+        "isoEnd": "1918-09-23",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b"
+        ],
+        "$note": "MSB: 22 Eylül 1918, ama aynı maddede 'bazı kaynaklarda 21 Eylül, bazılarında 23 Eylül'. Vikipedi 20 Eylül. MSB'nin verdiği üç gün aralık olarak girdi."
+      },
+      "title": "Fahri yaverlik unvanı verildi",
+      "text": "Olağanüstü hizmetleri ve ordusunu yok olmaktan kurtardığı için fahri yaverlik unvanı verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b. Yer kaynakta yok."
+    },
+    {
       "id": "halep-1918-10-25",
       "date": {
         "iso": "1918-10-25",
@@ -1236,6 +1377,26 @@
       "$note": "Parti 8."
     },
     {
+      "id": "halep-kuzeyi-1918-10-26",
+      "date": {
+        "iso": "1918-10-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "msb-askeri-gorevleri-p8b"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 26 Ekim 1918."
+      },
+      "title": "İngilizleri Halep'in kuzeyinde durdurdu",
+      "text": "Komutasındaki 7. Ordu, İngiliz taarruzunu Halep'in kuzeyinde durdurdu; düşman bu hattı geçemedi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "msb-askeri-gorevleri-p8b"
+      ],
+      "$note": "K5 taraması, parti 8b. 'Halep'in kuzeyi' tek bir noktaya bağlanmadı."
+    },
+    {
       "id": "adana-1918-10-31",
       "date": {
         "iso": "1918-10-31",
@@ -1255,6 +1416,109 @@
         "liman-fuenf-jahre-tuerkei-1920-s396-399"
       ],
       "$note": "Parti 8. 'Yıldırım Ordular Grubu' adı Vikipedi'den; Liman 'Heeresgruppe' diyor."
+    },
+    {
+      "id": "yildirim-kaldirildi-1918-11-07",
+      "date": {
+        "iso": "1918-11-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-askeri-gorevleri-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB «Askerî Görevleri»: '7 Kasım'da'. Vikipedi: 7 Kasım. MSB kronolojisi 'Kasım 1918'."
+      },
+      "title": "Yıldırım Orduları Grubu kaldırıldı",
+      "text": "Yıldırım Orduları Grubu ve 7. Ordu karargâhı kaldırıldı; Harbiye Nezareti'nin emrine verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "msb-askeri-gorevleri-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b."
+    },
+    {
+      "id": "adanadan-istanbula-1918-11",
+      "date": {
+        "iso": "1918-11-10",
+        "isoEnd": "1918-11-11",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: '10/11 Kasım 1918'. Vikipedi: 10 Kasım."
+      },
+      "title": "Adana'dan trenle İstanbul'a yola çıktı",
+      "text": "Adana'dan trenle İstanbul'a yola çıktı.",
+      "placeId": "adana",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b. Seyahat adayı (araç tren, 13 Kasım'da varış), güzergâh kaynakta yok; seyahat girmedi."
+    },
+    {
+      "id": "istanbula-gelis-1918-11-13",
+      "date": {
+        "iso": "1918-11-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "msb-askeri-gorevleri-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji, «Askerî Görevleri» ve Vikipedi: 13 Kasım 1918."
+      },
+      "title": "İstanbul'a geldi",
+      "text": "Adana'dan İstanbul'a geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "msb-askeri-gorevleri-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b."
+    },
+    {
+      "id": "zabit-ve-kumandan-1918-12",
+      "date": {
+        "iso": "1918-12",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b"
+        ],
+        "$note": "MSB: Aralık 1918."
+      },
+      "title": "Zabit ve Kumandan ile Hasbihal yayımlandı",
+      "text": "1914'te yazdığı Zabit ve Kumandan ile Hasbihal adlı eseri İstanbul'da yayımlandı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b"
+      ],
+      "$note": "K5 taraması, parti 8b. Eserin kendisi belge kaydı olarak aranmadı."
+    },
+    {
+      "id": "dokuzuncu-ordu-mufettisligi-1919-04-30",
+      "date": {
+        "iso": "1919-04-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p8b"
+        ],
+        "$note": "MSB 1919-1922 bölümü: 30 Nisan 1919. Vikipedi bilgi kutusu görev başlangıcını 16 Mayıs 1919 diye veriyor; resmî kaynağın günü kullanıldı (A27)."
+      },
+      "title": "9. Ordu Kıtaatı Müfettişi oldu",
+      "text": "9. Ordu Kıtaatı Müfettişliğine atandı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p8b"
+      ],
+      "$note": "K5 taraması, parti 8b. Atandığında İstanbul'da olduğu muhtemel ama kaynak yer yazmıyor; yer bağlanmadı."
     },
     {
       "id": "samsun-1919-05-19",

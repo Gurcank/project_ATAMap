@@ -571,6 +571,28 @@
           "$note": "MSB kronolojisi (resmî): 'Bitlis'."
         }
       ]
+    },
+    {
+      "id": "nablus",
+      "point": {
+        "lon": 35.262777777778,
+        "lat": 32.220833333333,
+        "sources": [
+          "wikidata-q214178-r2566019258",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata (preferred): 32.220833, 35.262778. Natural Earth 10m simple (ne_id 1159146065): 32.221482, 35.254427. Fark yaklaşık 0,8 km."
+      },
+      "names": [
+        {
+          "name": "Nablus",
+          "sources": [
+            "msb-kronoloji-1905-1918-p8b",
+            "vikipedi-tr-ataturk-38564203"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Nablus'taki 7'nci Ordu Karargâhına'; Vikipedi 'Nablus'."
+        }
+      ]
     }
   ]
 }

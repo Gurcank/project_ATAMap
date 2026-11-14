@@ -429,6 +429,99 @@
         "vikipedi-tr-ataturk-38564203"
       ],
       "$note": "K5 taraması, parti 8a. Unvan MSB yazımından."
+    },
+    {
+      "id": "yedinci-ordu-komutani-1918",
+      "kind": "gorev",
+      "title": "7. Ordu Komutanı",
+      "start": {
+        "iso": "1918-08",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "msb-askeri-gorevleri-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji ve Vikipedi 7 Ağustos, «Askerî Görevleri» 17 Ağustos: ay düzeyinde."
+      },
+      "end": {
+        "iso": "1918-11-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-askeri-gorevleri-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB «Askerî Görevleri»: 7 Kasım'da Yıldırım Orduları Grubu kaldırıldı; kronoloji 'Kasım 1918 - Yıldırım Orduları Grubu Komutanlığı ile 7'nci Ordu Karargâhının kaldırılması'. Vikipedi: 7 Kasım."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "msb-askeri-gorevleri-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b. İkinci kez. 31 Ekim'den sonra «Askerî Görevleri»ne göre '7'nci Ordu Komutanlığı da üzerinde kalmak üzere'."
+    },
+    {
+      "id": "yildirim-orduları-grubu-1918",
+      "kind": "gorev",
+      "title": "Yıldırım Orduları Grubu Komutanı",
+      "start": {
+        "iso": "1918-10-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8b",
+          "msb-askeri-gorevleri-p8b"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 31 Ekim 1918."
+      },
+      "end": {
+        "iso": "1918-11-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-askeri-gorevleri-p8b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB «Askerî Görevleri» ve Vikipedi: 7 Kasım 1918'de kaldırıldı."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p8b",
+        "msb-askeri-gorevleri-p8b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b. Unvan MSB yazımından."
+    },
+    {
+      "id": "dokuzuncu-ordu-mufettisi-1919",
+      "kind": "gorev",
+      "title": "9. Ordu Kıtaatı Müfettişi",
+      "start": {
+        "iso": "1919-04-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p8b"
+        ],
+        "$note": "MSB 1919-1922 bölümü: 30 Nisan 1919."
+      },
+      "end": {
+        "iso": "1919-07-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "nutuk-en-1929-s43",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "Nutuk s. 43: '10.50 p.m. on the 8th July … I resigned my duties and my commission in the Army'. Vikipedi: 8-9 Temmuz gecesi istifa."
+      },
+      "sources": [
+        "msb-kronoloji-1919-1922-p8b",
+        "nutuk-en-1929-s43",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8b. Unvan MSB yazımından. Bitiş, Tümgeneral rütbesinin bitişiyle aynı istifa (parti 3 düzeltmesi)."
     }
   ]
 }

@@ -6,7 +6,10 @@
       "point": {
         "lon": 32.83869,
         "lat": 39.93576,
-        "sources": ["wikidata-q3640", "naturalearth-ne110m-populated-places"],
+        "sources": [
+          "wikidata-q3640",
+          "naturalearth-ne110m-populated-places"
+        ],
         "$note": "Wikidata P625: 39.93576, 32.83869. Natural Earth: 39.929184, 32.862446 (yaklaşık 2,2 km doğu-güneydoğu). Şehir ölçeğinde uyumlu."
       },
       "names": [
@@ -16,6 +19,29 @@
           "$note": "Dönem adı için kaynak henüz yok. 1929 tutanağında yer adı geçmiyor. Osmanlı resmî yazışmasında farklı bir ad kullanılmış olabilir; doğrulanmadan validFrom/validTo yazılmadı."
         }
       ]
+    },
+    {
+      "id": "selanik",
+      "point": {
+        "lon": 22.935555555555556,
+        "lat": 40.640277777777776,
+        "sources": [
+          "wikidata-q17151-r2566115438",
+          "naturalearth-ne50m-populated-places"
+        ],
+        "$note": "Wikidata P625: 40.640277777777776, 22.935555555555556. Natural Earth ne_50m: 40.698052, 22.883055 (yaklaşık 7,8 km kuzeybatı). Ankara'daki 2,2 km farktan büyük; şehir ölçeğinde kabul edilip edilmeyeceği kullanıcıya soruldu."
+      },
+      "names": [
+        {
+          "name": "Selanik",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "wikidata-q5152-r2569089775"
+          ],
+          "$note": "Vikipedi metni 'Selanik' (yer yer 'Selânik'); Wikidata P19 niteleyicisi P1810 'Selânik'. Yazım farkı (â) kullanıcıya soruldu. validFrom/validTo kaynaksız olduğu için yazılmadı."
+        }
+      ],
+      "modernName": "Selanik (Thessaloniki)"
     }
   ]
 }

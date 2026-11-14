@@ -260,6 +260,64 @@
       "licence": "CC0-1.0",
       "free": true,
       "verified": true
+    },
+    {
+      "id": "vikipedi-tr-ataturk-38564203",
+      "institution": "Vikipedi",
+      "citation": "Vikipedi, «Mustafa Kemal Atatürk» maddesi, sürüm 38564203, «Çocukluk ve gençlik (1881-1904)» bölümü",
+      "url": "https://tr.wikipedia.org/w/index.php?title=Mustafa_Kemal_Atat%C3%BCrk&oldid=38564203",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC-BY-SA-4.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 1 (2026-11-14). Lisans maddenin altbilgisinden (creativecommons.org/licenses/by-sa/4.0). Doğum: 'rumî 1296 (miladî 1880-1881)', 'doğum günü bilinmemektedir', 19 Mayıs'ı kendisi kabul etmiş. Bu bölümün dayanakları çoğunlukla telifli kitaplar (Aydemir, Mango); Wikidata'yı dayanak göstermiyor."
+    },
+    {
+      "id": "wikidata-q5152-r2569089775",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q5152 (Mustafa Kemal Atatürk), P569 doğum tarihi ve P19 doğum yeri, revizyon 2569089775",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q5152.json?revision=2569089775",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "P569 tercihli: 1881 (yıl), en erken 1879, en geç 1881; dayanaklar GND, BnF, SNAC, Find a Grave ve Türkçe Vikipedi (P143). P569 normal: 1881-05-19, niteleyici P2308 = Q105769095 'conventional date'; dayanaklar Visuotinė lietuvių enciklopedija, Store norske leksikon. P19: Q17151, P1810 'Selânik'; dayanaklar GND, Büyük Rus Ansiklopedisi, Britannica, SNL. P69 (okullar) ifadelerinde dayanak yok, kaynak olarak kullanılmadı."
+    },
+    {
+      "id": "wikidata-q17151-r2566115438",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q17151 (Selanik), P625 koordinat, revizyon 2566115438",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q17151.json?revision=2566115438",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "P625: 40.640277777777776, 22.935555555555556; dayanak: İngilizce Vikipedi (P143)."
+    },
+    {
+      "id": "naturalearth-ne50m-populated-places",
+      "institution": "Natural Earth",
+      "citation": "Natural Earth, ne_50m_populated_places (GeoJSON), nvkelso/natural-earth-vector, commit 117488dc884bad03366ff727eca013e434615127",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/117488dc884bad03366ff727eca013e434615127/geojson/ne_50m_populated_places.geojson",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": false,
+      "$note": "Selanik ne_110m dosyasında yok; ne_50m: Thessaloniki, NE_ID 1159150955, WIKIDATAID Q17151, 40.698052, 22.883055."
+    },
+    {
+      "id": "wikisource-eb1922-mustapha-kemal",
+      "institution": "Vikikaynak (İngilizce)",
+      "citation": "Encyclopædia Britannica, 12. baskı (1922), «Mustapha Kemal» maddesi; Vikikaynak sürüm 16093733",
+      "url": "https://en.wikisource.org/w/index.php?title=1922_Encyclop%C3%A6dia_Britannica/Mustapha_Kemal&oldid=16093733",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": false,
+      "$note": "Kayıtlarda kullanılmadı; çelişkiyi belgelemek için tutuluyor. Doğum yeri Selanik, ama yıl '1879' ve 14 Ocak 1922'de öldürüldüğü haberini aktarıyor (yanlış). Güvenilirliği düşük."
     }
   ]
 }

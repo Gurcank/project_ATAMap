@@ -420,6 +420,27 @@
       "documentIds": [
         "tbmm-nutuk-1938-11-01"
       ]
+    },
+    {
+      "id": "dogum-selanik",
+      "date": {
+        "iso": "1881-05-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "wikidata-q5152-r2569089775"
+        ],
+        "$note": "person.json ile aynı tarih ve aynı uyarı."
+      },
+      "title": "Selanik'te doğdu",
+      "text": "Ali Rıza Efendi ile Zübeyde Hanım'ın oğlu Mustafa, Selanik'te doğdu.",
+      "placeId": "selanik",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "wikidata-q5152-r2569089775"
+      ],
+      "$note": "Parti 1. Anne ve baba adları Vikipedi'den; Wikidata yalnız tarih ve yer için. Olay metni bizim."
     }
   ]
 }

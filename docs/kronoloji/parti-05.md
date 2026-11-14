@@ -49,7 +49,7 @@ Bu kural altında parti 5'ten siteye kayıt girmiyor.
 
 ## K5 yeniden taraması (2026-11-14)
 
-Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve aynı sitenin «[Askerî Görevleri](https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri)» sayfası (ikisi de resmî, yalnız olgu). Parti onayına kadar beklesin diye ayrı kaynak kayıtları açıldı (`msb-kronoloji-1905-1918-p5`, `msb-askeri-gorevleri-p5`). Her madde Vikipedi sürüm 38564203 ile karşılaştırıldı. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve aynı sitenin «[Askerî Görevleri](https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri)» sayfası (ikisi de resmî, yalnız olgu). Parti onayına kadar beklesin diye ayrı kaynak kayıtları açıldı (`msb-kronoloji-1905-1918-p5`, `msb-askeri-gorevleri-p5`). Her madde Vikipedi sürüm 38564203 ile karşılaştırıldı. Durum: **onaylandı (2026-11-14)**, olaylar, Tobruk ve Derne sitede.
 
 **Olaylar:**
 
@@ -78,3 +78,5 @@ Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve 
 | Tümenin adı | "Selanik 2'nci Redif Tümeni" | "17'nci Selanik Redif Tümeni" |
 
 **Düzeltme:** Parti 4'te çıkardığım *Tâbiye Tatbikat Seyahatı* kitap adı MSB kronolojisinde varmış; 1911 manevrası olayının metnine geri kondu.
+
+**Kararlar (2026-11-14):** Parti onaylandı. Parti 4 çelişkisinde seçenek b: dönüş tarihi "Kasım 1909" (ay düzeyinde), tümen adı numarasız "Selanik Redif Tümeni" (olaylar ve görev kaydı güncellendi).

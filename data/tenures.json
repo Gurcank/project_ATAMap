@@ -254,7 +254,7 @@
     {
       "id": "redif-tumeni-kurmay-baskani-1909",
       "kind": "gorev",
-      "title": "Selanik 2. Redif Tümeni Kurmay Başkanı",
+      "title": "Selanik Redif Tümeni Kurmay Başkanı",
       "start": {
         "iso": "1909-01-13",
         "precision": "day",
@@ -266,19 +266,21 @@
         "$note": "MSB ve Vikipedi: 13 Ocak 1909."
       },
       "end": {
-        "iso": "1909-11-05",
-        "precision": "day",
+        "iso": "1909-11",
+        "precision": "month",
         "approximate": false,
         "sources": [
-          "msb-kronoloji-1905-1918-p4"
+          "msb-kronoloji-1905-1918-p4",
+          "msb-askeri-gorevleri-p5"
         ],
-        "$note": "MSB 5 Kasım 1909: '… Kurmay Başkanlığından tekrar 3. Ordu Karargâhına atanması'."
+        "$note": "MSB kronoloji: 5 Kasım 1909. MSB «Askerî Görevleri»: 4 Kasım 1909. Ay düzeyinde."
       },
       "sources": [
         "msb-kronoloji-1905-1918-p4",
-        "vikipedi-tr-ataturk-38564203"
+        "vikipedi-tr-ataturk-38564203",
+        "msb-askeri-gorevleri-p5"
       ],
-      "$note": "K5 taraması, parti 4. Unvan MSB kronolojisindeki yazımdan."
+      "$note": "K5 taraması, parti 4. Unvan MSB kronolojisindeki yazımdan. Kullanıcı kararı (2026-11-14, parti 5): iki MSB sayfası çeliştiği için (kronoloji '5 Kasım' ve 'Selanik 2'nci Redif', «Askerî Görevleri» '4 Kasım' ve '17'nci Selanik Redif') tarih ay düzeyinde, tümen adı numarasız."
     },
     {
       "id": "subay-talimgahi-komutani-1910",

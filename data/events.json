@@ -1183,13 +1183,13 @@
         "$note": "MSB: 13 Ocak 1909. Vikipedi: 13 Ocak 1909."
       },
       "title": "Redif Tümeni Kurmay Başkanı oldu",
-      "text": "3. Ordu Selanik 2. Redif Tümeni Kurmay Başkanlığına getirildi.",
+      "text": "3. Ordu Selanik Redif Tümeni Kurmay Başkanlığına getirildi.",
       "placeId": "selanik",
       "sources": [
         "msb-kronoloji-1905-1918-p4",
         "vikipedi-tr-ataturk-38564203"
       ],
-      "$note": "K5 taraması, parti 4."
+      "$note": "K5 taraması, parti 4. Kullanıcı kararı (2026-11-14, parti 5): iki MSB sayfası çeliştiği için (kronoloji '5 Kasım' ve 'Selanik 2'nci Redif', «Askerî Görevleri» '4 Kasım' ve '17'nci Selanik Redif') tarih ay düzeyinde, tümen adı numarasız."
     },
     {
       "id": "hareket-ordusu-1909-04",
@@ -1271,20 +1271,22 @@
     {
       "id": "ucuncu-ordu-1909-11-05",
       "date": {
-        "iso": "1909-11-05",
-        "precision": "day",
+        "iso": "1909-11",
+        "precision": "month",
         "approximate": false,
         "sources": [
-          "msb-kronoloji-1905-1918-p4"
+          "msb-kronoloji-1905-1918-p4",
+          "msb-askeri-gorevleri-p5"
         ],
-        "$note": "MSB: 5 Kasım 1909."
+        "$note": "MSB kronoloji: 5 Kasım 1909. MSB «Askerî Görevleri»: 4 Kasım 1909. Ay düzeyinde."
       },
       "title": "Yeniden 3. Ordu Karargâhı'na atandı",
-      "text": "Selanik 2. Redif Tümeni Kurmay Başkanlığından yeniden 3. Ordu Karargâhı'na atandı.",
+      "text": "Selanik Redif Tümeni Kurmay Başkanlığından yeniden 3. Ordu Karargâhı'na atandı.",
       "sources": [
-        "msb-kronoloji-1905-1918-p4"
+        "msb-kronoloji-1905-1918-p4",
+        "msb-askeri-gorevleri-p5"
       ],
-      "$note": "K5 taraması, parti 4. Yer kaynakta yazmıyor; bağlanmadı."
+      "$note": "K5 taraması, parti 4. Yer kaynakta yazmıyor; bağlanmadı. Kullanıcı kararı (2026-11-14, parti 5): iki MSB sayfası çeliştiği için (kronoloji '5 Kasım' ve 'Selanik 2'nci Redif', «Askerî Görevleri» '4 Kasım' ve '17'nci Selanik Redif') tarih ay düzeyinde, tümen adı numarasız."
     },
     {
       "id": "arnavutluk-harekati-1910-05",

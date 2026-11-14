@@ -793,10 +793,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 5 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 15 Ekim 1911 - 24 Ekim 1912."
+      "$note": "K5 yeniden taraması, parti 5 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 15 Ekim 1911 - 24 Ekim 1912. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 5)."
     },
     {
       "id": "msb-askeri-gorevleri-p5",
@@ -805,10 +805,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
-      "$note": "K5 taraması, parti 5 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Aynı kurumun kronolojisinden ayrıntılı; birkaç yerde kronolojiyle çelişiyor (parti-05.md). Doğrudan açılınca 404 dönebiliyor; sitenin ana sayfasındaki 'Askerî Görevleri' bağlantısıyla açılıyor."
+      "$note": "K5 taraması, parti 5 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Aynı kurumun kronolojisinden ayrıntılı; birkaç yerde kronolojiyle çelişiyor (parti-05.md). Doğrudan açılınca 404 dönebiliyor; sitenin ana sayfasındaki 'Askerî Görevleri' bağlantısıyla açılıyor. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 5)."
     },
     {
       "id": "wikidata-q182092-r2567218041",
@@ -819,8 +819,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 5. P625: 32.083333, 23.95; dayanak P143 Q206855."
+      "verified": true,
+      "$note": "K5 taraması, parti 5. P625: 32.083333, 23.95; dayanak P143 Q206855. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 5)."
     },
     {
       "id": "wikidata-q211866-r2549971836",
@@ -831,8 +831,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 5. P625: 32.763611, 22.636111; dayanak İngilizce Vikipedi (P143 Q328)."
+      "verified": true,
+      "$note": "K5 taraması, parti 5. P625: 32.763611, 22.636111; dayanak İngilizce Vikipedi (P143 Q328). Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 5)."
     }
   ]
 }

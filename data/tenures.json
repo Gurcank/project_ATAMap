@@ -339,6 +339,96 @@
         "vikipedi-tr-ataturk-38564203"
       ],
       "$note": "K5 taraması, parti 7. Unvan ansiklopedi maddesinin adından ('Sofya Ataşemiliterliği'); MSB 'Sofya Ataşe Militerliği'."
+    },
+    {
+      "id": "ikinci-ordu-komutan-vekili-1916",
+      "kind": "gorev",
+      "title": "2. Ordu Komutan Vekili",
+      "start": {
+        "iso": "1916-12-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 12 Aralık 1916."
+      },
+      "end": {
+        "iso": "1917-01-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB «Askerî Görevleri»: '3 Ocak 1917'de Ahmet İzzet Paşa'nın geri dönüşü üzerine … vekilliğinden ayrılarak'."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a. Unvan MSB yazımından."
+    },
+    {
+      "id": "hicaz-kuvve-i-seferiye-1917",
+      "kind": "gorev",
+      "title": "Hicaz Kuvve-i Seferiye Komutanı",
+      "start": {
+        "iso": "1917-02",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB: '14 veya 17 Şubat 1917'."
+      },
+      "end": {
+        "iso": "1917-03",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji 7 Mart 1917: 'Hicaz Kuvve-i Seferiye Komutanlığının kaldırılması üzerine'. «Askerî Görevleri» 5 Mart. Ay düzeyinde."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a. Unvan MSB yazımından."
+    },
+    {
+      "id": "yedinci-ordu-komutani-1917",
+      "kind": "gorev",
+      "title": "7. Ordu Komutanı",
+      "start": {
+        "iso": "1917-07-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji, «Askerî Görevleri» ve Vikipedi: 5 Temmuz 1917."
+      },
+      "end": {
+        "iso": "1917-10-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB kronoloji: 6 Ekim 1917 istifa. «Askerî Görevleri» '1917 Ekim başında'."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8a. Unvan MSB yazımından."
     }
   ]
 }

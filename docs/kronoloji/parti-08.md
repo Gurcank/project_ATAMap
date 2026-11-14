@@ -69,3 +69,66 @@
 ## Genel sonuç
 
 İki olay girdi: Halep (iki kaynak) ve Adana (tarihli birincil belge). Adana kaydı için "kitapta aktarılan tarihli emir birincil belge sayılır mı?" kararı senin.
+
+## K5 yeniden taraması, parti 8a: 1916 – Ocak 1918 (2026-11-14)
+
+Parti 8 kalabalık olduğu için ikiye bölündü: 8a (16. Kolordu'dan Almanya dönüşüne), 8b (1918 – 16 Mayıs 1919). Kaynaklar: MSB «Atatürk Kronolojisi» 1905-1918 bölümü ve «Askerî Görevleri» (resmî, yalnız olgu). Ayrı kaynak kayıtları: `msb-kronoloji-1905-1918-p8a`, `msb-askeri-gorevleri-p8a`. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+
+Kural: Vikipedi resmî kaynakla çeliştiğinde resmî kaynağın günü kullanıldı (A27, parti 4'teki karar). İki MSB sayfası birbiriyle çeliştiğinde ay düzeyine inildi (parti 5'teki karar).
+
+**Olaylar:**
+
+| Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
+|---|---|---|---|---|---|
+| Ocak 1916 | — | 16. Kolordu Komutanı oldu | MSB kronoloji (16 Ocak) | MSB «Askerî Görevleri» (27 Ocak) | **İki MSB sayfası çelişiyor**, Vikipedi 14 Ocak: ay düzeyinde |
+| 17 Ocak 1916 | — | Muharebe Altın Liyakat Madalyası | MSB | MSB | — |
+| 27 Ocak 1916 | Edirne | Edirne'ye geldi | MSB kronoloji | — | — |
+| 11 Mart 1916 | İstanbul | Edirne'den İstanbul'a geldi | MSB kronoloji | — | — |
+| 15 Mart 1916 | İstanbul | Diyarbakır için İstanbul'dan ayrıldı | MSB | MSB | — |
+| 26-27 Mart 1916 | Diyarbakır | Diyarbakır'da kolordunun komutasını aldı | MSB kronoloji ("26 veya 27") | MSB «Askerî Görevleri», Vikipedi (27) | Aralık olarak girdi |
+| 16 Haziran 1916 | Silvan | Karargâhla birlikte Silvan'a geldi | MSB kronoloji | — | — |
+| 2-3 Ağustos 1916 | — | Muş ve Bitlis yönünde taarruz | MSB | MSB | Bölgeye yayılıyor, yer yok |
+| 7 Ağustos 1916 | Muş | Muş'u geri aldı | MSB | MSB | Vikipedi 6 Ağustos |
+| 8 Ağustos 1916 | Bitlis | Bitlis'i geri aldı | MSB | MSB | — |
+| 1916 | — | İkinci Rütbe Mecidî Nişanı | MSB kronoloji | — | Tarihsiz madde, yıl düzeyinde |
+| 12 Aralık 1916 | — | 2. Ordu Komutan Vekili oldu | MSB | MSB | — |
+| Şubat 1917 | — | Hicaz Kuvve-i Seferiye Komutanı oldu | MSB ("14 veya 17 Şubat") | MSB (aynı) | Gün belirsiz, ay düzeyinde |
+| 21 Şubat 1917 | Diyarbakır | Şam'a gitmek için Diyarbakır'dan ayrıldı | MSB kronoloji | — | — |
+| 26 Şubat 1917 | Şam | Şam'a geldi | MSB kronoloji | — | — |
+| Mart 1917 | — | 2. Ordu Komutanı oldu (asaleten) | MSB kronoloji (7 Mart), Vikipedi (7 Mart) | MSB «Askerî Görevleri» (5 Mart) | **İki MSB sayfası çelişiyor**: ay düzeyinde |
+| 5 Temmuz 1917 | — | 7. Ordu Komutanı oldu | MSB | MSB, Vikipedi | — |
+| 10 Temmuz 1917 | Diyarbakır | İstanbul'a yola çıktı | MSB kronoloji | — | — |
+| 16 Temmuz 1917 | İstanbul | İstanbul'a geldi | MSB kronoloji | — | — |
+| 15 Ağustos 1917 | İstanbul | Halep'e yola çıktı | MSB kronoloji | — | — |
+| 20 Eylül 1917 | Halep | Cemal Paşa'ya Sina Cephesi raporu gönderdi | MSB kronoloji | — | Raporun kendisi aranmadı |
+| 6 Ekim 1917 | — | 7. Ordu Komutanlığından istifa etti | MSB kronoloji | MSB «Askerî Görevleri» ("Ekim başında") | Vikipedi 4 Ekim |
+| 9 Ekim 1917 | — | Yeniden 2. Ordu'ya atandı, kabul etmedi | MSB | MSB | — |
+| Ekim 1917 | — | Halep'ten İstanbul'a döndü | MSB kronoloji (15 Ekim) | — | MSB'nin kendisi "bazı kaynaklarda ekim ortası veya sonu" diyor: ay düzeyinde |
+| 7 Kasım 1917 | İstanbul | Genel Karargâh'ta görevlendirildi | MSB | MSB | — |
+| 15 Aralık 1917 | İstanbul | Veliaht'la Almanya'ya gitmek için yola çıktı | MSB | MSB, Vikipedi | Seyahat girmedi (güzergâh yok) |
+| 16 Aralık 1917 | — | Birinci Rütbe Kılıçlı Mecidî Nişanı | MSB kronoloji | — | — |
+| 4 Ocak 1918 | İstanbul | Almanya'dan döndü | MSB | MSB | Vikipedi 5 Ocak |
+
+**Yeni yerler:**
+
+| Yer | Koordinat 1 (Wikidata) | Koordinat 2 | Fark |
+|---|---|---|---|
+| Edirne | Q43387: 41.67304, 26.57361 | Natural Earth 10m: 41.67044, 26.569996 | ~0,4 km |
+| Diyarbakır | Q83387: 37.910833, 40.236667 | Natural Earth 10m: 37.920436, 40.23004 | ~1,2 km |
+| Silvan | Q945404: 38.136944, 41.008056 | OpenStreetMap relation 1842160: 38.141151, 41.00561 | ~0,5 km |
+| Muş | Q118995: 38.733333, 41.491111 | Natural Earth 10m: 38.749016, 41.49694 | ~1,8 km |
+| Bitlis | Q83531: 38.4, 42.116667 | Natural Earth 10m: 38.394, 42.122998 | ~0,9 km |
+
+Adlar MSB kronolojisindeki yazımla.
+
+**Görevler (bitişi kaynakta açık olanlar):**
+
+| Başlangıç | Bitiş | Unvan | Kaynak |
+|---|---|---|---|
+| 12 Aralık 1916 | 3 Ocak 1917 | 2. Ordu Komutan Vekili | MSB (bitiş «Askerî Görevleri»: Ahmet İzzet Paşa dönünce) |
+| Şubat 1917 | Mart 1917 | Hicaz Kuvve-i Seferiye Komutanı | MSB (bitiş: komutanlığın kaldırılması) |
+| 5 Temmuz 1917 | 6 Ekim 1917 | 7. Ordu Komutanı | MSB (bitiş: istifa) |
+
+**Görev girmeyenler:** 16. Kolordu Komutanlığı ve asaleten 2. Ordu Komutanlığı. Bitişleri kaynakta açık değil.
+
+**Girmeyenler:** Sekerat'ta 2. Ordu karargâhına geliş (16 Aralık 1916; koordinat aranmadı), 12 Mart 1917 "Şam'dan Diyarbakır'a dönmesi" (gidiş mi varış mı belli değil), 10 Mart 1916 nakil kararı (Atatürk'ün kendi eylemi değil). Gezi güzergâhları seyahat olarak girmedi.

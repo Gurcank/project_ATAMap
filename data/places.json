@@ -466,6 +466,111 @@
           "$note": "MSB kronolojisi (resmî): 'Bigalı'ya gönderilmesi', 'Bigalı'dan harekete geçen'."
         }
       ]
+    },
+    {
+      "id": "edirne",
+      "point": {
+        "lon": 26.57361,
+        "lat": 41.67304,
+        "sources": [
+          "wikidata-q43387-r2565115788",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 41.67304, 26.57361. Natural Earth 10m simple (ne_id 1159135139): 41.67044, 26.569996. Fark yaklaşık 0,4 km."
+      },
+      "names": [
+        {
+          "name": "Edirne",
+          "sources": [
+            "msb-kronoloji-1905-1918-p8a"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Edirne'."
+        }
+      ]
+    },
+    {
+      "id": "diyarbakir",
+      "point": {
+        "lon": 40.236666666667,
+        "lat": 37.910833333333,
+        "sources": [
+          "wikidata-q83387-r2555336073",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.910833, 40.236667. Natural Earth 10m simple (ne_id 1159135229): 37.920436, 40.23004. Fark yaklaşık 1,2 km."
+      },
+      "names": [
+        {
+          "name": "Diyarbakır",
+          "sources": [
+            "msb-kronoloji-1905-1918-p8a"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Diyarbakır'."
+        }
+      ]
+    },
+    {
+      "id": "silvan",
+      "point": {
+        "lon": 41.008055555556,
+        "lat": 38.136944444444,
+        "sources": [
+          "wikidata-q945404-r2538131153",
+          "osm-relation-1842160"
+        ],
+        "$note": "Wikidata: 38.136944, 41.008056. OpenStreetMap (relation 1842160): 38.141151, 41.00561. Fark yaklaşık 0,5 km."
+      },
+      "names": [
+        {
+          "name": "Silvan",
+          "sources": [
+            "msb-kronoloji-1905-1918-p8a"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Silvan'."
+        }
+      ]
+    },
+    {
+      "id": "mus",
+      "point": {
+        "lon": 41.491111111111,
+        "lat": 38.733333333333,
+        "sources": [
+          "wikidata-q118995-r2558575165",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 38.733333, 41.491111. Natural Earth 10m simple (ne_id 1159135233): 38.749016, 41.49694. Fark yaklaşık 1,8 km."
+      },
+      "names": [
+        {
+          "name": "Muş",
+          "sources": [
+            "msb-kronoloji-1905-1918-p8a"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Muş'."
+        }
+      ]
+    },
+    {
+      "id": "bitlis",
+      "point": {
+        "lon": 42.116666666667,
+        "lat": 38.4,
+        "sources": [
+          "wikidata-q83531-r2540140635",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 38.4, 42.116667. Natural Earth 10m simple (ne_id 1159113589): 38.394, 42.122998. Fark yaklaşık 0,9 km."
+      },
+      "names": [
+        {
+          "name": "Bitlis",
+          "sources": [
+            "msb-kronoloji-1905-1918-p8a"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Bitlis'."
+        }
+      ]
     }
   ]
 }

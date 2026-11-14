@@ -651,6 +651,570 @@
       "$note": "K5 taraması, parti 7. Yer kaynakta yok."
     },
     {
+      "id": "16-kolordu-1916-01",
+      "date": {
+        "iso": "1916-01",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji: 16 Ocak 1916 (atanma), 27 Ocak (Edirne'ye geliş). MSB «Askerî Görevleri»: 27 Ocak 1916 (atanma). Vikipedi: 14 Ocak. Gün kaynaklar arasında farklı, ay düzeyinde."
+      },
+      "title": "16. Kolordu Komutanı oldu",
+      "text": "Karargâhı Edirne'de bulunan 16. Kolordu'nun komutanlığına atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8a. Atandığında nerede olduğu yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "altin-liyakat-1916-01-17",
+      "date": {
+        "iso": "1916-01-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 17 Ocak 1916."
+      },
+      "title": "Altın Liyakat Madalyası verildi",
+      "text": "Anafartalar Grubu Komutanlığındaki başarıları için Muharebe Altın Liyakat Madalyası verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a. Yer kaynakta yok."
+    },
+    {
+      "id": "edirneye-gelis-1916-01-27",
+      "date": {
+        "iso": "1916-01-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB kronoloji: '(Edirne'ye 27 Ocak'ta gelmiştir.)'"
+      },
+      "title": "Edirne'ye geldi",
+      "text": "16. Kolordu'nun karargâhının bulunduğu Edirne'ye geldi.",
+      "placeId": "edirne",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "edirneden-istanbula-1916-03-11",
+      "date": {
+        "iso": "1916-03-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 11 Mart 1916."
+      },
+      "title": "Edirne'den İstanbul'a geldi",
+      "text": "Kolordu karargâhının Diyarbakır'a taşınması kararı üzerine Edirne'den İstanbul'a geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "istanbuldan-diyarbakira-1916-03-15",
+      "date": {
+        "iso": "1916-03-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 15 Mart 1916."
+      },
+      "title": "Diyarbakır'a gitmek için İstanbul'dan ayrıldı",
+      "text": "Diyarbakır'daki görevine gitmek üzere İstanbul'dan ayrıldı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "diyarbakira-gelis-1916-03",
+      "date": {
+        "iso": "1916-03-26",
+        "isoEnd": "1916-03-27",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji: '26 veya 27 Mart 1916'. MSB «Askerî Görevleri» ve Vikipedi: 27 Mart."
+      },
+      "title": "Diyarbakır'da kolordunun komutasını aldı",
+      "text": "Diyarbakır'a gelerek 16. Kolordu'nun komutasını üzerine aldı.",
+      "placeId": "diyarbakir",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "silvana-gelis-1916-06-16",
+      "date": {
+        "iso": "1916-06-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 16 Haziran 1916 (karargâhın nakli 15 Haziran)."
+      },
+      "title": "Silvan'a geldi",
+      "text": "Kolordu karargâhı Diyarbakır'dan Silvan'a taşınınca Silvan'a geldi.",
+      "placeId": "silvan",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "mus-bitlis-taarruzu-1916-08",
+      "date": {
+        "iso": "1916-08-02",
+        "isoEnd": "1916-08-03",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 2-3 Ağustos 1916."
+      },
+      "title": "Muş ve Bitlis yönünde taarruz başladı",
+      "text": "Komutasındaki kuvvetler Bitlis ve Muş yönünde taarruza geçti.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a. Taarruz bir bölgeye yayılıyor; yer bağlanmadı."
+    },
+    {
+      "id": "mus-1916-08-07",
+      "date": {
+        "iso": "1916-08-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 7 Ağustos 1916. Vikipedi '6 Ağustos'; resmî kaynağın günü kullanıldı (A27)."
+      },
+      "title": "Muş'u geri aldı",
+      "text": "Komutasındaki kuvvetler Muş'u düşman işgalinden kurtardı.",
+      "placeId": "mus",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "bitlis-1916-08-08",
+      "date": {
+        "iso": "1916-08-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 8 Ağustos 1916."
+      },
+      "title": "Bitlis'i geri aldı",
+      "text": "Komutasındaki kuvvetler Bitlis'i düşman işgalinden kurtardı.",
+      "placeId": "bitlis",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "mecidi-ikinci-rutbe-1916",
+      "date": {
+        "iso": "1916",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 1916 başlığı altında tarihsiz madde."
+      },
+      "title": "İkinci Rütbe Mecidî Nişanı verildi",
+      "text": "Muş ve Bitlis cephelerindeki başarıları için İkinci Rütbe Mecidî Nişanı verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a. Yer kaynakta yok."
+    },
+    {
+      "id": "ikinci-ordu-vekili-1916-12-12",
+      "date": {
+        "iso": "1916-12-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 12 Aralık 1916."
+      },
+      "title": "2. Ordu Komutan Vekili oldu",
+      "text": "Ahmet İzzet Paşa'nın izinli olarak İstanbul'a gitmesi üzerine 2. Ordu Komutan Vekilliğine atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "hicaz-1917-02",
+      "date": {
+        "iso": "1917-02",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: '14 veya 17 Şubat 1917'. Gün belirsiz, ay düzeyinde."
+      },
+      "title": "Hicaz Kuvve-i Seferiye Komutanı oldu",
+      "text": "Hicaz Kuvve-i Seferiye Komutanlığına atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "diyarbakirdan-sama-1917-02-21",
+      "date": {
+        "iso": "1917-02-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 21 Şubat 1917."
+      },
+      "title": "Şam'a gitmek için Diyarbakır'dan ayrıldı",
+      "text": "Şam'a gitmek üzere Diyarbakır'dan ayrıldı.",
+      "placeId": "diyarbakir",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "sama-gelis-1917-02-26",
+      "date": {
+        "iso": "1917-02-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 26 Şubat 1917."
+      },
+      "title": "Şam'a geldi",
+      "text": "Şam'a geldi.",
+      "placeId": "sam",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "ikinci-ordu-1917-03",
+      "date": {
+        "iso": "1917-03",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji: 7 Mart 1917. MSB «Askerî Görevleri»: 5 Mart 1917. Vikipedi: 7 Mart. İki resmî sayfa çeliştiği için ay düzeyinde (parti 5 kararıyla aynı yol)."
+      },
+      "title": "2. Ordu Komutanı oldu",
+      "text": "Hicaz Kuvve-i Seferiye Komutanlığı kaldırılınca 2. Ordu Komutanlığına asaleten atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "yedinci-ordu-1917-07-05",
+      "date": {
+        "iso": "1917-07-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji, «Askerî Görevleri» ve Vikipedi: 5 Temmuz 1917."
+      },
+      "title": "7. Ordu Komutanı oldu",
+      "text": "Yıldırım Orduları Grubu'na bağlı 7. Ordu'nun komutanlığına atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "diyarbakirdan-istanbula-1917-07-10",
+      "date": {
+        "iso": "1917-07-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 10 Temmuz 1917."
+      },
+      "title": "Diyarbakır'dan İstanbul'a yola çıktı",
+      "text": "7. Ordu karargâhını kurmak üzere Enver Paşa'nın çağrısıyla Diyarbakır'dan İstanbul'a yola çıktı.",
+      "placeId": "diyarbakir",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "istanbula-gelis-1917-07-16",
+      "date": {
+        "iso": "1917-07-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 16 Temmuz 1917."
+      },
+      "title": "İstanbul'a geldi",
+      "text": "Diyarbakır'dan İstanbul'a geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "istanbuldan-halebe-1917-08-15",
+      "date": {
+        "iso": "1917-08-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 15 Ağustos 1917."
+      },
+      "title": "Halep'e gitmek için İstanbul'dan ayrıldı",
+      "text": "7. Ordu Komutanlığı görevine başlamak üzere İstanbul'dan Halep'e yola çıktı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "cemal-pasaya-rapor-1917-09-20",
+      "date": {
+        "iso": "1917-09-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 20 Eylül 1917."
+      },
+      "title": "Cemal Paşa'ya Sina Cephesi raporu gönderdi",
+      "text": "Halep'ten Cemal Paşa'ya Sina Cephesi hakkındaki düşünce ve önerilerini bildiren geniş bir rapor gönderdi.",
+      "placeId": "halep",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a. Raporun kendisi belge kaydı olarak aranmadı."
+    },
+    {
+      "id": "yedinci-ordudan-istifa-1917-10-06",
+      "date": {
+        "iso": "1917-10-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB kronoloji: 6 Ekim 1917. MSB «Askerî Görevleri»: '1917 Ekim başında'. Vikipedi '4 Ekim'; resmî kaynağın günü kullanıldı (A27)."
+      },
+      "title": "7. Ordu Komutanlığından istifa etti",
+      "text": "Yıldırım Orduları Komutanı Falkenhayn'la anlaşmazlık üzerine 7. Ordu Komutanlığından istifa etti.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "ikinci-orduya-atama-1917-10-09",
+      "date": {
+        "iso": "1917-10-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 9 Ekim 1917."
+      },
+      "title": "2. Ordu’ya atandı, kabul etmedi",
+      "text": "Yeniden 2. Ordu Komutanlığına atandı; atamayı kabul etmediği için 2. Ordu Komutanı sıfatıyla izinli sayıldı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "halepten-istanbula-1917-10",
+      "date": {
+        "iso": "1917-10",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 15 Ekim 1917, ama aynı maddede 'bazı kaynaklarda ekim ortası veya ekim sonu' notu var; ay düzeyinde."
+      },
+      "title": "Halep'ten İstanbul'a döndü",
+      "text": "Halep'ten İstanbul'a döndü.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a. Ayın içinde nerede olduğu belirsiz; yer bağlanmadı."
+    },
+    {
+      "id": "genel-karargah-1917-11-07",
+      "date": {
+        "iso": "1917-11-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 7 Kasım 1917."
+      },
+      "title": "Genel Karargâh'ta görevlendirildi",
+      "text": "İstanbul'da Genel Karargâh'ta görevlendirildi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "almanya-gezisi-1917-12-15",
+      "date": {
+        "iso": "1917-12-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji, «Askerî Görevleri» ve Vikipedi: 15 Aralık 1917."
+      },
+      "title": "Veliaht'la Almanya'ya gitmek için yola çıktı",
+      "text": "Veliaht Vahdettin Efendi'nin maiyetinde Almanya'ya gitmek üzere İstanbul'dan ayrıldı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
+      "id": "kilicli-mecidi-1917-12-16",
+      "date": {
+        "iso": "1917-12-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a"
+        ],
+        "$note": "MSB: 16 Aralık 1917."
+      },
+      "title": "Kılıçlı Mecidî Nişanı verildi",
+      "text": "O güne kadarki başarıları için Birinci Rütbe Kılıçlı Mecidî Nişanı verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a. Yer kaynakta yok (Almanya yolundaydı)."
+    },
+    {
+      "id": "almanyadan-donus-1918-01-04",
+      "date": {
+        "iso": "1918-01-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p8a",
+          "msb-askeri-gorevleri-p8a"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 4 Ocak 1918. Vikipedi '5 Ocak'; resmî kaynağın günü kullanıldı (A27)."
+      },
+      "title": "Almanya'dan İstanbul'a döndü",
+      "text": "Almanya gezisinden İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p8a",
+        "msb-askeri-gorevleri-p8a"
+      ],
+      "$note": "K5 taraması, parti 8a."
+    },
+    {
       "id": "halep-1918-10-25",
       "date": {
         "iso": "1918-10-25",

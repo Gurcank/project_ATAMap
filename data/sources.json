@@ -977,6 +977,102 @@
       "free": true,
       "verified": true,
       "$note": "K5 taraması, parti 7. Nominatim (2026-11-14): 40.2357180, 26.3597320 (köy). Koordinatı teyit için; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
+    },
+    {
+      "id": "msb-kronoloji-1905-1918-p8a",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "$note": "K5 yeniden taraması, parti 8a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 16 Ocak 1916 - 4 Ocak 1918."
+    },
+    {
+      "id": "msb-askeri-gorevleri-p8a",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
+      "$note": "K5 taraması, parti 8a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt."
+    },
+    {
+      "id": "wikidata-q43387-r2565115788",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q43387 (Edirne), P625 koordinat, revizyon 2565115788",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q43387.json?revision=2565115788",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 8a. P625: 41.67304, 26.57361; dayanak P143 Q206855."
+    },
+    {
+      "id": "wikidata-q83387-r2555336073",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q83387 (Diyarbakır), P625 koordinat, revizyon 2555336073",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q83387.json?revision=2555336073",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 8a. P625 iki değer: 37.910833, 40.236667 (dayanak Q206855) ve 37.91583, 40.21889; ilki kullanıldı."
+    },
+    {
+      "id": "wikidata-q945404-r2538131153",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q945404 (Silvan), P625 koordinat, revizyon 2538131153",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q945404.json?revision=2538131153",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 8a. P625: 38.136944, 41.008056; dayanak P143 Q1194038, Q1985727."
+    },
+    {
+      "id": "wikidata-q118995-r2558575165",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q118995 (Muş), P625 koordinat, revizyon 2558575165",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q118995.json?revision=2558575165",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 8a. P625: 38.733333, 41.491111; dayanak P143 Q206855."
+    },
+    {
+      "id": "wikidata-q83531-r2540140635",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q83531 (Bitlis), P625 koordinat, revizyon 2540140635",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q83531.json?revision=2540140635",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 8a. P625: 38.4, 42.116667; dayanak P143 Q206855."
+    },
+    {
+      "id": "osm-relation-1842160",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, relation 1842160 («Silvan»)",
+      "url": "https://www.openstreetmap.org/relation/1842160",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 8a. Nominatim (2026-11-14): 38.1411514, 41.0056103 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki."
     }
   ]
 }

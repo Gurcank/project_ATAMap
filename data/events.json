@@ -925,6 +925,67 @@
         "wikidata-q5152-r2569089775-p570-p20"
       ],
       "$note": "Parti 10b."
+    },
+    {
+      "id": "ilk-ogrenim-1886",
+      "date": {
+        "iso": "1886",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1881-1904"
+        ],
+        "$note": "MSB: 1886. Vikipedi yıl vermiyor; tek resmî kaynak yeterli (K5)."
+      },
+      "title": "İlk öğrenimine başladı",
+      "text": "Kısa bir süre mahalle mektebine gittikten sonra Şemsi Efendi Okulu'na geçti.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1881-1904",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 yeniden taraması, parti 1. Yer: Vikipedi bu okulları Selanik'te anlatıyor; MSB şehri yazmıyor."
+    },
+    {
+      "id": "baba-olum-1888",
+      "date": {
+        "iso": "1888",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1881-1904",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 1888. Vikipedi: 1888."
+      },
+      "title": "Babası Ali Rıza Efendi öldü",
+      "text": "Babası Ali Rıza Efendi öldü.",
+      "sources": [
+        "msb-kronoloji-1881-1904",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 yeniden taraması, parti 1. Kaynaklarda yer yok; yer bağlanmadı."
+    },
+    {
+      "id": "askeri-rustiye-1893",
+      "date": {
+        "iso": "1893",
+        "precision": "year",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1881-1904",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 1893. Vikipedi: 1893."
+      },
+      "title": "Selanik Askerî Rüştiyesi'ne girdi",
+      "text": "Bir süre devam ettiği Mülkiye Rüştiyesi'nden ayrıldı ve kendi kararıyla Selanik Askerî Rüştiyesi'ne girdi.",
+      "placeId": "selanik",
+      "sources": [
+        "msb-kronoloji-1881-1904",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 yeniden taraması, parti 1."
     }
   ]
 }

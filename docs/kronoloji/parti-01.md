@@ -54,3 +54,21 @@ Denenip kullanılamayanlar: ABD Kongre Kütüphanesi *Turkey: A Country Study* s
 ## Genel sonuç
 
 Çocukluk ve okul dönemi için telifsiz ve bağımsız ikinci kaynak bulmak zor. Vikipedi'nin dayanakları telifli kitaplar; Wikidata'nın okul ifadelerinin dayanağı yok ya da Vikipedi'den aktarılmış. Bu kural altında parti 1'den siteye en fazla doğum kaydı ve Selanik girebilir.
+
+## K5 yeniden taraması (2026-11-14)
+
+Kural değişti: resmî devlet kaynağı tek başına yeter (SPEC A27). Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 bölümü (`msb-kronoloji-1881-1904`, `official: true`, `rights: 'hakki-sakli-olgu'`; yalnız olgu). Durum: **onay bekliyor**, kayıtlar `verified: false`.
+
+| Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
+|---|---|---|---|---|---|
+| 1886 | Selanik | İlk öğrenimine başladı (mahalle mektebi, sonra Şemsi Efendi Okulu) | MSB | — (Vikipedi olayı anlatıyor, yıl vermiyor) | Yıl düzeyinde. Şehir MSB'de yok; Vikipedi'de Selanik |
+| 1888 | — | Babası Ali Rıza Efendi öldü | MSB | Vikipedi | Yer kaynakta yok |
+| 1893 | Selanik | Mülkiye Rüştiyesi'nden ayrılıp Selanik Askerî Rüştiyesi'ne girdi | MSB | Vikipedi | — |
+
+**Hâlâ girmeyenler:**
+- 1895 mezuniyet: yalnız Vikipedi; MSB'de yok.
+- "Kemal" adı: Vikipedi'de çelişkili, MSB'de yok.
+- Rapla Çiftliği: tarih yok.
+- Mülkiye Rüştiyesi'ne giriş: iki kaynakta da tarih yok; 1893 olayının metninde geçiyor.
+
+**Not:** MSB doğumu yalnız "1881" ve "Selanik" olarak veriyor. Mevcut doğum kaydı (19 Mayıs 1881, kabul edilen tarih) bununla çelişmiyor.

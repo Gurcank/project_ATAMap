@@ -713,6 +713,18 @@
       "free": true,
       "verified": true,
       "$note": "nutuk-en-1929 kaydından 2026-11-14'te ayrıldı: künye satırında olayın sayfası görünsün diye. İçerik parti 9a'da onaylandı; telif ve bağımsızlık notu nutuk-en-1929 kaydında."
+    },
+    {
+      "id": "msb-kronoloji-1881-1904",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "K5 yeniden taraması (2026-11-14). Resmî kaynak (SPEC A27); sayfa altbilgisi '© 2026 Her Hakkı Saklıdır', yalnız olgu alındı, cümle kopyalanmadı. Bölüm sayfa içindeki '1881-1904' sekmesiyle açılıyor (adres aynı). Doğrudan adres bazen 404 dönüyor; ana sayfadaki bağlantıdan açılıyor. Okunan maddeler: 1881 Selanik'te doğum; 1886 ilk öğrenim (mahalle mektebi, sonra Şemsi Efendi Okulu); 1888 babasının ölümü; 1893 Selanik Askerî Rüştiyesi (önce bir süre Mülkiye Rüştiyesi); 1896 Manastır Askerî İdadisi; 13 Mart 1899 İstanbul'da Harp Okulu; 10 Şubat 1902 teğmen rütbesiyle Harp Akademisi; 1903 akademinin ikinci sınıfı ve üsteğmenlik."
     }
   ]
 }

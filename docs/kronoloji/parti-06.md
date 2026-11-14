@@ -44,7 +44,7 @@ Bu kural altında parti 6'dan siteye kayıt girmiyor.
 
 ## K5 yeniden taraması (2026-11-14)
 
-Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve «[Askerî Görevleri](https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri)» sayfası (resmî, yalnız olgu). Parti onayına kadar beklesin diye ayrı kaynak kayıtları açıldı (`msb-kronoloji-1905-1918-p6`, `msb-askeri-gorevleri-p6`). Her madde Vikipedi sürüm 38564203 ile karşılaştırıldı. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve «[Askerî Görevleri](https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri)» sayfası (resmî, yalnız olgu). Parti onayına kadar beklesin diye ayrı kaynak kayıtları açıldı (`msb-kronoloji-1905-1918-p6`, `msb-askeri-gorevleri-p6`). Her madde Vikipedi sürüm 38564203 ile karşılaştırıldı. Durum: **onaylandı (2026-11-14)**, olaylar ve Sofya sitede.
 
 **Olaylar:**
 
@@ -61,3 +61,8 @@ Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve 
 **Görev girmedi:** Kuva-yı Mürettebe görevinin adı çelişkili, bitişi yok. Bolayır Kolordusu Kurmay Başkanlığı'nın tarihi yok. Sofya ataşemiliterliğinin bitişi kaynakta açıkça yazmıyor (20 Ocak 1915'teki 19. Tümen ataması parti 7'de; bitiş bundan çıkarım olur).
 
 **Girmeyenler:** Bolayır taarruzu ve istifa tartışması, Edirne ve Dedeağaç (Atatürk'ün kendi varlığı belirtilmiyor), Sofya'daki kıyafet balosu (yalnız Vikipedi), cepheye gitme başvurusu (MSB'de var ama tarihsiz). Edirne'nin geri alınması ve antlaşmalar Atatürk'ün kendi olayı değil.
+
+**Kararlar (2026-11-14):**
+- Parti onaylandı.
+- Bükreş: kullanıcı "doğru neyse o olsun" dedi. Üçüncü bir resmî kaynak okundu: Atatürk Ansiklopedisi (ATAM), «[Mustafa Kemal’in Sofya Ataşemiliterliği](https://ataturkansiklopedisi.gov.tr/detay/388/Mustafa-Kemal%E2%80%99in-Sofya-Ata%C5%9Femiliterli%C4%9Fi)». Madde "1914 yılı Ocak ayı başlarında, Bükreş, Belgrad ve Çetine" diyor; Vikipedi de Bükreş'i sayıyor. Kronoloji, ansiklopedi ve Vikipedi aynı şeyi söylediği için «Askerî Görevleri» sayfasının Bükreş'i atladığı sonucuna varıldı. Metin "Bükreş, Belgrad ve Çetine" oldu.
+- Aynı madde ataşeliği başlıkta "27 Ekim 1913 – 20 Ocak 1915" diye veriyor. Bu, görev kaydı için açık bir bitiş tarihi; parti 7'de görev kaydı olarak önerilecek.

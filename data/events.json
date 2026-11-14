@@ -1606,13 +1606,14 @@
         "$note": "MSB kronoloji ve «Askerî Görevleri»: 11 Ocak 1914."
       },
       "title": "Ek ataşemiliterlik görevleri verildi",
-      "text": "Sofya ataşemiliterliğine ek olarak Belgrad ve Çetine ataşemiliterlikleri de verildi.",
+      "text": "Sofya ataşemiliterliğine ek olarak Bükreş, Belgrad ve Çetine ataşemiliterlikleri de verildi.",
       "placeId": "sofya",
       "sources": [
         "msb-kronoloji-1905-1918-p6",
-        "msb-askeri-gorevleri-p6"
+        "msb-askeri-gorevleri-p6",
+        "ataturk-ansiklopedisi-388"
       ],
-      "$note": "K5 taraması, parti 6. Kronoloji Bükreş'i de sayıyor ('Bükreş, Belgrad ve Çetine'), «Askerî Görevleri» yalnız 'Belgrad, Çetine'. Metin ortak olanlarla; kullanıcıya soruldu."
+      "$note": "K5 taraması, parti 6. Kronoloji Bükreş'i de sayıyor ('Bükreş, Belgrad ve Çetine'), «Askerî Görevleri» yalnız 'Belgrad, Çetine'. Atatürk Ansiklopedisi (ATAM) de Bükreş'i sayıyor ('1914 yılı Ocak ayı başlarında, Bükreş, Belgrad ve Çetine'); Vikipedi de öyle. «Askerî Görevleri» sayfası Bükreş'i atlamış sayıldı. Kullanıcı kararı (2026-11-14): doğru olan girsin."
     },
     {
       "id": "sirbistan-atasemiliterligi-1914-07-24",

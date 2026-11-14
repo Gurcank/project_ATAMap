@@ -841,10 +841,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 6 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler Kasım 1912 - 1 Mart 1914."
+      "$note": "K5 yeniden taraması, parti 6 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler Kasım 1912 - 1 Mart 1914. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 6)."
     },
     {
       "id": "msb-askeri-gorevleri-p6",
@@ -853,10 +853,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
-      "$note": "K5 taraması, parti 6 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 21 Kasım 1912 - 24 Temmuz 1914."
+      "$note": "K5 taraması, parti 6 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 21 Kasım 1912 - 24 Temmuz 1914. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 6)."
     },
     {
       "id": "wikidata-q472-r2562593774",
@@ -867,8 +867,20 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 6. P625: 42.697886, 23.321726; dayanak P143 Q107315163."
+      "verified": true,
+      "$note": "K5 taraması, parti 6. P625: 42.697886, 23.321726; dayanak P143 Q107315163. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 6)."
+    },
+    {
+      "id": "ataturk-ansiklopedisi-388",
+      "institution": "Atatürk Araştırma Merkezi Başkanlığı",
+      "citation": "Atatürk Ansiklopedisi, «Mustafa Kemal’in Sofya Ataşemiliterliği» (Zekeriya Türkmen, 29 Kasım 2020)",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/388/Mustafa-Kemal%E2%80%99in-Sofya-Ata%C5%9Femiliterli%C4%9Fi",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": true,
+      "$note": "Resmî kaynak (A27): ATAM'ın ansiklopedisi; altbilgi '© 2025 Copyright Atatürk Araştırma Merkezi Başkanlığı Her Hakkı Saklıdır', yalnız olgu. Sayfa JavaScript ile yükleniyor. Parti 6'daki Bükreş çelişkisini çözmek için okundu: 'Sofya Askerî Ataşeliği görevine ilave olarak 1914 yılı Ocak ayı başlarında, Bükreş, Belgrad ve Çetine (Karadağ) askerî ataşelikleri de'. Kullanıcı 2026-11-14'te 'doğru neyse o olsun' dedi; yalnız bu olgu için kullanıldı."
     }
   ]
 }

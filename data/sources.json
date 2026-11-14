@@ -771,8 +771,8 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
-      "$note": "K5 yeniden taraması, parti 4 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 1905-1911 arası; olay notlarında tek tek."
+      "verified": true,
+      "$note": "K5 yeniden taraması, parti 4 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 1905-1911 arası; olay notlarında tek tek. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 4)."
     },
     {
       "id": "wikidata-q3766-r2566961779",
@@ -783,8 +783,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 4. P625: 33.513055555556, 36.291944444444; dayanak İngilizce Vikipedi (P143 Q328)."
+      "verified": true,
+      "$note": "K5 taraması, parti 4. P625: 33.513055555556, 36.291944444444; dayanak İngilizce Vikipedi (P143 Q328). Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 4)."
     }
   ]
 }

@@ -55,7 +55,7 @@ Bu kural altında parti 4'ten de siteye kayıt girmiyor. Koordinatlar iki kaynak
 
 ## K5 yeniden taraması (2026-11-14)
 
-Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü (resmî, yalnız olgu). Parti onayına kadar beklesin diye ayrı kaynak kaydı açıldı (`msb-kronoloji-1905-1918-p4`). Her madde MSB metni ve Vikipedi sürüm 38564203 ile tek tek karşılaştırıldı. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü (resmî, yalnız olgu). Parti onayına kadar beklesin diye ayrı kaynak kaydı açıldı (`msb-kronoloji-1905-1918-p4`). Her madde MSB metni ve Vikipedi sürüm 38564203 ile tek tek karşılaştırıldı. Durum: **onaylandı (2026-11-14)**, olaylar, görevler ve Şam sitede.
 
 **Olaylar:**
 
@@ -95,3 +95,5 @@ Bitişi kaynakta olmayan görevler (3. Ordu Karargâhı, Demiryolu Müfettişli�
 Karargâha ikinci ve üçüncü dönüşlerde yer kaynakta yazmadığı için bu iki olay da yersiz.
 
 **Düzeltme (taramada yakalandı):** İlk yazımda 1911 manevrası için MSB'de olmayan bir kitap adı vardı; çıkarıldı.
+
+**Kararlar (2026-11-14):** Parti onaylandı. Vatan ve Hürriyet'in kuruluş yılı MSB'ye göre 1905.

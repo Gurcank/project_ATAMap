@@ -379,6 +379,28 @@
           "$note": "MSB (resmî) 'Derne'ye gelmesi'; Vikipedi 'Derne'."
         }
       ]
+    },
+    {
+      "id": "sofya",
+      "point": {
+        "lon": 23.321726,
+        "lat": 42.697886,
+        "sources": [
+          "wikidata-q472-r2562593774",
+          "naturalearth-ne110m-populated-places"
+        ],
+        "$note": "Wikidata: 42.697886, 23.321726. Natural Earth 110m (Sofia, NE_ID 1159151147, WIKIDATAID Q472): 42.685295, 23.314708. Fark yaklaşık 1,5 km."
+      },
+      "names": [
+        {
+          "name": "Sofya",
+          "sources": [
+            "msb-kronoloji-1905-1918-p6",
+            "vikipedi-tr-ataturk-38564203"
+          ],
+          "$note": "MSB (resmî) 'Sofya'ya gelmesi'; Vikipedi 'Sofya'."
+        }
+      ]
     }
   ]
 }

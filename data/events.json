@@ -1528,6 +1528,110 @@
         "vikipedi-tr-ataturk-38564203"
       ],
       "$note": "K5 taraması, parti 5. Vikipedi dönüş yolunu Viyana, Macaristan ve Romanya üzerinden veriyor; resmî kaynakta güzergâh yok, seyahat olarak girmedi."
+    },
+    {
+      "id": "kuvayi-murettebe-1912-11-21",
+      "date": {
+        "iso": "1912-11-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-askeri-gorevleri-p6",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB «Askerî Görevleri»: 21 Kasım 1912. Vikipedi: 21 Kasım 1912. MSB kronolojisi yalnız 'Kasım 1912'."
+      },
+      "title": "Çanakkale Boğazı birliğine atandı",
+      "text": "Balkan Savaşı sırasında Bahr-i Sefîd (Çanakkale) Boğazı Kuva-yı Mürettebesi'ne atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p6",
+        "msb-askeri-gorevleri-p6",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 6. Görev adı kaynaklarda farklı: kronoloji 'Komutanlığına', «Askerî Görevleri» 'Kurmaylığına', Vikipedi 'Harekât Şubesi Müdürlüğü'ne'; metin görev adı vermiyor. Yer de farklı: kronoloji 'Gelibolu'da bulunan', Vikipedi 'karargâhı Bolayır'da'; yer bağlanmadı."
+    },
+    {
+      "id": "sofya-atasesi-1913-10-27",
+      "date": {
+        "iso": "1913-10-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p6",
+          "msb-askeri-gorevleri-p6",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 27 Ekim 1913. Vikipedi: 27 Ekim 1913."
+      },
+      "title": "Sofya ataşemiliterliğine atandı",
+      "text": "Bulgaristan'ın başkenti Sofya'ya askerî ataşe olarak atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p6",
+        "msb-askeri-gorevleri-p6",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 6. Atandığında nerede bulunduğu kaynakta yok; yer bağlanmadı."
+    },
+    {
+      "id": "sofyaya-gelis-1913-11-20",
+      "date": {
+        "iso": "1913-11-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p6",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 20 Kasım 1913. Vikipedi: 20 Kasım 1913."
+      },
+      "title": "Sofya'ya geldi",
+      "text": "Sofya'ya geldi ve ataşemiliterlik görevine başladı.",
+      "placeId": "sofya",
+      "sources": [
+        "msb-kronoloji-1905-1918-p6",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 6. İstanbul'dan çıkış tarihi ve araç kaynakta yok; seyahat girmedi."
+    },
+    {
+      "id": "ek-atasemiliterlik-1914-01-11",
+      "date": {
+        "iso": "1914-01-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p6",
+          "msb-askeri-gorevleri-p6"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 11 Ocak 1914."
+      },
+      "title": "Ek ataşemiliterlik görevleri verildi",
+      "text": "Sofya ataşemiliterliğine ek olarak Belgrad ve Çetine ataşemiliterlikleri de verildi.",
+      "placeId": "sofya",
+      "sources": [
+        "msb-kronoloji-1905-1918-p6",
+        "msb-askeri-gorevleri-p6"
+      ],
+      "$note": "K5 taraması, parti 6. Kronoloji Bükreş'i de sayıyor ('Bükreş, Belgrad ve Çetine'), «Askerî Görevleri» yalnız 'Belgrad, Çetine'. Metin ortak olanlarla; kullanıcıya soruldu."
+    },
+    {
+      "id": "sirbistan-atasemiliterligi-1914-07-24",
+      "date": {
+        "iso": "1914-07-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-askeri-gorevleri-p6"
+        ],
+        "$note": "MSB «Askerî Görevleri»: 24 Temmuz 1914. Kronolojide yok."
+      },
+      "title": "Sofya'da bırakıldı",
+      "text": "Sırbistan ataşemiliterliğine tayin edildi, ancak Sofya ataşemiliterliği görevinde bırakıldı.",
+      "placeId": "sofya",
+      "sources": [
+        "msb-askeri-gorevleri-p6"
+      ],
+      "$note": "K5 taraması, parti 6."
     }
   ]
 }

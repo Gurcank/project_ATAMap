@@ -41,3 +41,23 @@ Tek kaynaklı tarih derlemeyi durdurduğu için (kural 5) **hiçbiri `data/` alt
 ## Genel sonuç
 
 Bu kural altında parti 6'dan siteye kayıt girmiyor.
+
+## K5 yeniden taraması (2026-11-14)
+
+Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve «[Askerî Görevleri](https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri)» sayfası (resmî, yalnız olgu). Parti onayına kadar beklesin diye ayrı kaynak kayıtları açıldı (`msb-kronoloji-1905-1918-p6`, `msb-askeri-gorevleri-p6`). Her madde Vikipedi sürüm 38564203 ile karşılaştırıldı. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+
+**Olaylar:**
+
+| Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
+|---|---|---|---|---|---|
+| 21 Kasım 1912 | — | Bahr-i Sefîd (Çanakkale) Boğazı Kuva-yı Mürettebesi'ne atandı | MSB «Askerî Görevleri» | Vikipedi | Kronolojide yalnız "Kasım 1912". **Görev adı üç kaynakta farklı** (Komutanlığı / Kurmaylığı / Harekât Şubesi Müdürlüğü); metin görev adı vermiyor. **Yer farklı** (kronoloji Gelibolu, Vikipedi Bolayır); yer bağlanmadı |
+| 27 Ekim 1913 | — | Sofya ataşemiliterliğine atandı | MSB | Vikipedi | Atandığı sırada nerede olduğu yazmıyor |
+| 20 Kasım 1913 | Sofya | Sofya'ya gelip göreve başladı | MSB | Vikipedi | Yolculuk tarihi ve aracı yok; seyahat girmedi |
+| 11 Ocak 1914 | Sofya | Belgrad ve Çetine ataşemiliterlikleri de verildi | MSB kronoloji | MSB «Askerî Görevleri» | **Çelişki:** kronoloji Bükreş'i de sayıyor, öbür sayfa saymıyor. Metin ikisinde ortak olanlarla |
+| 24 Temmuz 1914 | Sofya | Sırbistan ataşemiliterliğine tayin edildi, Sofya'da bırakıldı | MSB «Askerî Görevleri» | — | Kronolojide yok |
+
+**Yer: Sofya** — Wikidata Q472 (42.697886, 23.321726), Natural Earth 110m (42.685295, 23.314708), fark ~1,5 km. Ad "Sofya" (MSB, Vikipedi).
+
+**Görev girmedi:** Kuva-yı Mürettebe görevinin adı çelişkili, bitişi yok. Bolayır Kolordusu Kurmay Başkanlığı'nın tarihi yok. Sofya ataşemiliterliğinin bitişi kaynakta açıkça yazmıyor (20 Ocak 1915'teki 19. Tümen ataması parti 7'de; bitiş bundan çıkarım olur).
+
+**Girmeyenler:** Bolayır taarruzu ve istifa tartışması, Edirne ve Dedeağaç (Atatürk'ün kendi varlığı belirtilmiyor), Sofya'daki kıyafet balosu (yalnız Vikipedi), cepheye gitme başvurusu (MSB'de var ama tarihsiz). Edirne'nin geri alınması ve antlaşmalar Atatürk'ün kendi olayı değil.

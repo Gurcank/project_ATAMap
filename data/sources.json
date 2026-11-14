@@ -833,6 +833,42 @@
       "free": true,
       "verified": true,
       "$note": "K5 taraması, parti 5. P625: 32.763611, 22.636111; dayanak İngilizce Vikipedi (P143 Q328). Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 5)."
+    },
+    {
+      "id": "msb-kronoloji-1905-1918-p6",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "$note": "K5 yeniden taraması, parti 6 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler Kasım 1912 - 1 Mart 1914."
+    },
+    {
+      "id": "msb-askeri-gorevleri-p6",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
+      "$note": "K5 taraması, parti 6 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 21 Kasım 1912 - 24 Temmuz 1914."
+    },
+    {
+      "id": "wikidata-q472-r2562593774",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q472 (Sofya), P625 koordinat, revizyon 2562593774",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q472.json?revision=2562593774",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 6. P625: 42.697886, 23.321726; dayanak P143 Q107315163."
     }
   ]
 }

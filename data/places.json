@@ -41,7 +41,29 @@
           "$note": "Vikipedi metni 'Selanik'; Wikidata P19 niteleyicisi P1810 'Selânik'. Kullanıcı kararı: 'Selanik' (2026-11-14). validFrom/validTo kaynaksız olduğu için yazılmadı."
         }
       ],
-      "modernName": "Selanik (Thessaloniki)"
+      "modernName": "Thessaloniki"
+    },
+    {
+      "id": "manastir",
+      "point": {
+        "lon": 21.334722222222,
+        "lat": 41.031944444444,
+        "sources": [
+          "wikidata-q157246-r2554893710",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata P625: 41.031944444444, 21.334722222222. Natural Earth ne_10m: 41.039057, 21.339514 (yaklaşık 0,9 km)."
+      },
+      "names": [
+        {
+          "name": "Manastır",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203"
+          ],
+          "$note": "Tek kaynak: Vikipedi metni. Wikidata P1448 'Manastır' (bitiş 1918-11-30) dayanaksız olduğu için kaynak sayılmadı. Kullanıcıya soruldu (parti 2)."
+        }
+      ],
+      "modernName": "Bitola"
     }
   ]
 }

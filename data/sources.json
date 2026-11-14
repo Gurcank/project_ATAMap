@@ -318,6 +318,29 @@
       "free": true,
       "verified": false,
       "$note": "Kayıtlarda kullanılmadı; çelişkiyi belgelemek için tutuluyor. Doğum yeri Selanik, ama yıl '1879' ve 14 Ocak 1922'de öldürüldüğü haberini aktarıyor (yanlış). Güvenilirliği düşük."
+    },
+    {
+      "id": "wikidata-q157246-r2554893710",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q157246 (Manastır), P625 koordinat ve P1448 resmî ad, revizyon 2554893710",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q157246.json?revision=2554893710",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 2. P625: 41.031944444444, 21.334722222222; dayanak Rusça Vikipedi (P143). P1448 (tr) 'Manastır', bitiş 1918-11-30; dayanağı yok."
+    },
+    {
+      "id": "naturalearth-ne10m-populated-places-simple",
+      "institution": "Natural Earth",
+      "citation": "Natural Earth, ne_10m_populated_places_simple (GeoJSON), nvkelso/natural-earth-vector, commit 117488dc884bad03366ff727eca013e434615127",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/117488dc884bad03366ff727eca013e434615127/geojson/ne_10m_populated_places_simple.geojson",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 2. Manastır 110m ve 50m dosyalarında yok; 10m: Bitola, ne_id 1159138957, 41.039057, 21.339514."
     }
   ]
 }

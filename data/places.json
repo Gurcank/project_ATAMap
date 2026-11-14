@@ -301,7 +301,7 @@
           "wikidata-q406-r2564398857",
           "naturalearth-ne110m-populated-places"
         ],
-        "$note": "Wikidata: 41.01, 28.960278. Natural Earth (110m ve 10m aynı nokta, NE_ID 1159151579): 41.106942, 29.008056. Fark yaklaşık 11,5 km; şehrin büyüklüğünden. Kullanıcıya soruldu."
+        "$note": "Wikidata: 41.01, 28.960278. Natural Earth (110m ve 10m aynı nokta, NE_ID 1159151579): 41.106942, 29.008056. Fark yaklaşık 11,5 km; şehrin büyüklüğünden. Kullanıcı kararı (2026-11-14): Wikidata noktası saklanır, 11,5 km fark kabul."
       },
       "names": [
         {
@@ -310,7 +310,7 @@
             "vikipedi-tr-ataturk-38564203",
             "msb-kronoloji-1881-1904-p3"
           ],
-          "$note": "Vikipedi 'İstanbul'; MSB (resmî) 1899 maddesinde 'İstanbul'da Harp Okuluna'. Wikidata resmî adı ancak 28 Mart 1930'dan itibaren 'İstanbul' veriyor; dönemin başka adları (Dersaadet, Kostantiniyye) kaynaklarda yok. Kullanıcıya soruldu."
+          "$note": "Vikipedi 'İstanbul'; MSB (resmî) 1899 maddesinde 'İstanbul'da Harp Okuluna'. Wikidata resmî adı ancak 28 Mart 1930'dan itibaren 'İstanbul' veriyor; dönemin başka adları (Dersaadet, Kostantiniyye) kaynaklarda yok. Kullanıcı kararı (2026-11-14): ad 'İstanbul'."
         }
       ]
     }

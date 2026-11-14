@@ -86,7 +86,7 @@
     {
       "id": "mulazim-1902",
       "kind": "rutbe",
-      "title": "Piyade mülazım",
+      "title": "Teğmen",
       "start": {
         "iso": "1902-02-10",
         "precision": "day",
@@ -101,7 +101,7 @@
         "msb-kronoloji-1881-1904-p3",
         "vikipedi-tr-ataturk-38564203"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). Unvan Vikipedi'den ('piyade mülazım'); MSB bugünkü adla 'teğmen'."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). Unvan Vikipedi'den ('piyade mülazım'); MSB bugünkü adla 'teğmen'. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Teğmen'."
     },
     {
       "id": "ustegmen-1903",
@@ -119,7 +119,7 @@
       "sources": [
         "msb-kronoloji-1881-1904-p3"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). Yalnız MSB; dönem adı (mülazım-ı evvel) kaynaklarda yok, MSB'nin yazımı kullanıldı."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). Yalnız MSB; dönem adı (mülazım-ı evvel) kaynaklarda yok, MSB'nin yazımı kullanıldı. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Üsteğmen'."
     },
     {
       "id": "kurmay-yuzbasi-1905",
@@ -139,7 +139,7 @@
         "msb-kronoloji-1905-1918-p3",
         "vikipedi-tr-ataturk-38564203"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). İki kaynakta da aynı yazım."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). İki kaynakta da aynı yazım. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Kurmay yüzbaşı'."
     },
     {
       "id": "kolagasi-1907",
@@ -159,7 +159,7 @@
         "msb-kronoloji-1905-1918-p3",
         "vikipedi-tr-ataturk-38564203"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB 'kolağası (kıdemli yüzbaşı)', Vikipedi 'Kolağası'."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB 'kolağası (kıdemli yüzbaşı)', Vikipedi 'Kolağası'. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Kolağası'."
     },
     {
       "id": "binbasi-1911",
@@ -178,12 +178,12 @@
         "msb-kronoloji-1905-1918-p3",
         "vikipedi-tr-ataturk-38564203"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). Vikipedi terfiyi 30 Kasım'da Enver Bey'e bildirilmiş olarak anlatıyor (bildirim tarihi); terfi günü MSB'den."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). Vikipedi terfiyi 30 Kasım'da Enver Bey'e bildirilmiş olarak anlatıyor (bildirim tarihi); terfi günü MSB'den. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Binbaşı'."
     },
     {
       "id": "kaymakam-1914",
       "kind": "rutbe",
-      "title": "Kaymakam",
+      "title": "Yarbay",
       "start": {
         "iso": "1914-03-01",
         "precision": "day",
@@ -198,12 +198,12 @@
         "msb-kronoloji-1905-1918-p3",
         "vikipedi-tr-ataturk-38564203"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). Vikipedi 'yarbaylığa (kaymakam)'; MSB 'yarbaylığa'. Dönem adı Vikipedi'den."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). Vikipedi 'yarbaylığa (kaymakam)'; MSB 'yarbaylığa'. Dönem adı Vikipedi'den. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Yarbay'."
     },
     {
       "id": "miralay-1915",
       "kind": "rutbe",
-      "title": "Miralay",
+      "title": "Albay",
       "start": {
         "iso": "1915-06-01",
         "precision": "day",
@@ -218,12 +218,12 @@
         "msb-kronoloji-1905-1918-p3",
         "vikipedi-tr-ataturk-38564203"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB ve Vikipedi metni 'albay'; 'Miralay' Vikipedi'deki bir fotoğraf altında ('Miralay Mustafa Kemal Bey, 1915'). Kullanıcıya soruldu."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB ve Vikipedi metni 'albay'; 'Miralay' Vikipedi'deki bir fotoğraf altında ('Miralay Mustafa Kemal Bey, 1915'). Kullanıcıya soruldu. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Albay'."
     },
     {
       "id": "mirliva-1916",
       "kind": "rutbe",
-      "title": "Mirliva",
+      "title": "Tümgeneral",
       "start": {
         "iso": "1916-04-01",
         "precision": "day",
@@ -238,7 +238,7 @@
         "msb-kronoloji-1905-1918-p3",
         "vikipedi-tr-ataturk-38564203"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB 'mirlivalığa (tümgeneralliğe)', Vikipedi 'Tuğgeneralliğe (Mirliva)': bugünkü karşılık farklı, dönem unvanı ikisinde de 'Mirliva'."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB 'mirlivalığa (tümgeneralliğe)', Vikipedi 'Tuğgeneralliğe (Mirliva)': bugünkü karşılık farklı, dönem unvanı ikisinde de 'Mirliva'. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Tümgeneral'."
     }
   ]
 }

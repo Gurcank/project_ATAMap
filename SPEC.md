@@ -19,6 +19,7 @@
 | 2026-11-14 | §2.3, §6 | `Tenure` kaydı (`rutbe`/`gorev`), `Person.birth`, `SourceRef.basedOn`; derleme kuralları 9-11; durum alanları metin bütçesi | K3, K4 (ARCHITECTURE ADR-15) |
 | 2026-11-14 | §2.2, §9.2 A19 | Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler listelendi | Kullanıcı kararı K4 |
 | 2026-11-14 | §9.2 A24-A26 | Durum kartuşu yerleşimi, doğum tarihi 19 Mayıs 1881, eşzamanlı görevler | Kullanıcı kararları (2026-11-14) |
+| 2026-11-14 | §9.2 A28, K3 | Rütbe adları resmî kaynağın (MSB) bugünkü adlarıyla yazılır (Teğmen, Yarbay, Albay, Tümgeneral…); K3'teki "dönem adıyla" ifadesi rütbeler için bu kararla değişti | Kullanıcı kararı (2026-11-14), K5 yeniden taramasının 3. partisi |
 | 2026-11-14 | §2.2, §6, §9.2 A19, A27 | Resmî ve güvenilir devlet kaynağı tek başına yeter; hakları saklı resmî yayınlardan yalnız olgu alınır (`official`, `rights: 'hakki-sakli-olgu'`); kural 2, 5 ve 11 güncellendi; ipucu listesinden devlet siteleri çıktı | Kullanıcı kararı K5 (2026-11-14): bütün devlet kurumları, geriye dönük uygulanır |
 | 2026-11-14 | §6 `DateValue`, §9.2 A25 | `conventional` alanı: uzlaşmayla kabul edilen tarih. Doğum tarihi 19 Mayıs 1881 bu işaretle tutulur | Parti 1 araştırması: Vikipedi ve Wikidata gerçek doğum gününü bilinmiyor, 19 Mayıs'ı kabul edilen tarih olarak veriyor (`docs/kronoloji/parti-01.md`); kullanıcı kararı |
 
@@ -462,6 +463,7 @@ interface Tenure {        // data/tenures.json
 | A24 | Durum kartuşu (K3, 2026-11-14) | Sağ üstte yaş, rütbe, görev/unvan, bulunduğu yer. 375'te yalnız yaşı gösteren açılır düğme; 768 ve 1280'de tam kartuş. Atıf satırı sol üstte, künyenin altında |
 | A25 | Doğum tarihi (2026-11-14) | 19 Mayıs 1881, gün düzeyinde (kullanıcı kararı; K3'teki "19 Mayıs'ı doğum günü olarak kullanma" cümlesi bu kararla kalktı). ≥ 2 kaynak kuralı geçerli; iki uygun kaynak bulunamazsa doğum kaydı derlemeye girmez ve yaş gösterilmez. *Güncelleme 2026-11-14:* Kaynaklar gerçek doğum gününü bilinmiyor diye veriyor, 19 Mayıs'ı ise kabul edilen tarih olarak anıyor (parti 1). Kullanıcı kararıyla tarih 19 Mayıs 1881 kalır ve `conventional: true` ile işaretlenir. Kaynaklar bu tarihi kabul edilen tarih olarak desteklediği için ≥ 2 kaynak kuralı sağlanır. Arayüzde ayrı rozet yok; yaş bu tarihten kesin olarak hesaplanır |
 | A26 | Eşzamanlı görevler (2026-11-14) | Aynı tarihte geçerli bütün görevler gösterilir, başlama sırasıyla |
+| A28 | Rütbe adları (2026-11-14) | Resmî kaynağın (MSB kronolojisi) bugünkü adlarıyla: Teğmen, Üsteğmen, Kurmay yüzbaşı, Kolağası, Binbaşı, Yarbay, Albay, Tümgeneral, Müşîr. Görev unvanları kaynaktaki yazımla kalır (ör. Reisicümhur) |
 | A27 | Resmî kaynak (K5, 2026-11-14) | Resmî ve güvenilir bir devlet kaynağı tek başına yeter: TBMM, Resmî Gazete ve mevzuat, Millî Savunma Bakanlığı (ata.msb.gov.tr dahil), Atatürk Araştırma Merkezi (atam.gov.tr ve Atatürk Ansiklopedisi dahil), Devlet Arşivleri Başkanlığı, Kara Harp Okulu, Türk Tarih Kurumu (Belleten dahil). Hakları saklı olanlardan yalnız olgu alınır. Çelişen kaynaklar varsa kayıt yine `doğrulanmadı` olur. Kural geriye dönük uygulanır: 1-10. partilerin adayları yeniden taranır |
 
 ---

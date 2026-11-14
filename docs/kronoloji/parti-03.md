@@ -68,3 +68,8 @@ Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 ve 1905-1918 b�
 | 1 Nisan 1916 | Mirliva | MSB, Vikipedi | Bugünkü karşılıkları farklı (MSB tümgeneral, Vikipedi tuğgeneral) |
 
 **Hâlâ girmeyenler:** Girişten iki ay sonra sınıf çavuşu olması (göreli tarih) ve el yazması gazete (tarih yok).
+
+**Kararlar (2026-11-14):**
+- Rütbe adları MSB'nin bugünkü adlarıyla (SPEC A28): Teğmen, Üsteğmen, Kurmay yüzbaşı, Kolağası, Binbaşı, Yarbay, Albay, Tümgeneral. Yukarıdaki tablodaki "önerilen" unvanlar bu karara göre değişti.
+- İstanbul: ad "İstanbul", Wikidata noktası saklanır, 11,5 km fark kabul.
+- Partinin genel onayı bekleniyor.

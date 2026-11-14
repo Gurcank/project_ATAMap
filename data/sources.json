@@ -785,6 +785,54 @@
       "free": true,
       "verified": true,
       "$note": "K5 taraması, parti 4. P625: 33.513055555556, 36.291944444444; dayanak İngilizce Vikipedi (P143 Q328). Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 4)."
+    },
+    {
+      "id": "msb-kronoloji-1905-1918-p5",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "$note": "K5 yeniden taraması, parti 5 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 15 Ekim 1911 - 24 Ekim 1912."
+    },
+    {
+      "id": "msb-askeri-gorevleri-p5",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
+      "$note": "K5 taraması, parti 5 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Aynı kurumun kronolojisinden ayrıntılı; birkaç yerde kronolojiyle çelişiyor (parti-05.md). Doğrudan açılınca 404 dönebiliyor; sitenin ana sayfasındaki 'Askerî Görevleri' bağlantısıyla açılıyor."
+    },
+    {
+      "id": "wikidata-q182092-r2567218041",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q182092 (Tobruk), P625 koordinat, revizyon 2567218041",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q182092.json?revision=2567218041",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 5. P625: 32.083333, 23.95; dayanak P143 Q206855."
+    },
+    {
+      "id": "wikidata-q211866-r2549971836",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q211866 (Derne), P625 koordinat, revizyon 2549971836",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q211866.json?revision=2549971836",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 5. P625: 32.763611, 22.636111; dayanak İngilizce Vikipedi (P143 Q328)."
     }
   ]
 }

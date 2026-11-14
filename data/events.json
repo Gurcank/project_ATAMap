@@ -1287,6 +1287,24 @@
       "$note": "K5 taraması, parti 4. Yer kaynakta yazmıyor; bağlanmadı."
     },
     {
+      "id": "arnavutluk-harekati-1910-05",
+      "date": {
+        "iso": "1910-05",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-askeri-gorevleri-p5"
+        ],
+        "$note": "MSB «Askerî Görevleri»: 'Mayıs 1910'da'. Kronolojide yok."
+      },
+      "title": "Arnavutluk harekâtında görev aldı",
+      "text": "Arnavutluk'taki isyanı bastırmak için düzenlenen harekâtta Harbiye Nazırı Mahmut Şevket Paşa'nın yanında görev aldı.",
+      "sources": [
+        "msb-askeri-gorevleri-p5"
+      ],
+      "$note": "K5 taraması, parti 5. Harekâtın yeri tek bir noktaya bağlanmadı."
+    },
+    {
       "id": "subay-talimgahi-1910-09-06",
       "date": {
         "iso": "1910-09-06",
@@ -1373,11 +1391,11 @@
         "$note": "MSB: 19 Nisan 1911'de başladı, 20 Nisan akşamı bitti."
       },
       "title": "5. Kolordu manevralarına katıldı",
-      "text": "5. Kolordu'nun Selanik ile Kılkış arasında yaptığı manevralara katıldı.",
+      "text": "5. Kolordu'nun Selanik ile Kılkış arasında yaptığı manevralara katıldı; notları Tâbiye Tatbikat Seyahatı adlı kitabında yayımlandı.",
       "sources": [
         "msb-kronoloji-1905-1918-p4"
       ],
-      "$note": "K5 taraması, parti 4. Selanik-Kılkış arası; tek bir yere bağlanmadı."
+      "$note": "K5 taraması, parti 4. Selanik-Kılkış arası; tek bir yere bağlanmadı. Kitap adı MSB kronolojisinin 1911 başlığındaki tarihsiz maddeden ('Tâbiye Tatbikat Seyahatı ... 19-20 Nisan 1911 ... not ve krokilerinden'); 2026-11-14'te yanlışlıkla çıkarılmış, geri kondu."
     },
     {
       "id": "genelkurmay-1911-09",
@@ -1399,6 +1417,115 @@
         "vikipedi-tr-ataturk-38564203"
       ],
       "$note": "K5 taraması, parti 4."
+    },
+    {
+      "id": "trablusgarpa-hareket-1911-10-15",
+      "date": {
+        "iso": "1911-10-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p5",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 15 Ekim 1911. Vikipedi: 15 Ekim 1911."
+      },
+      "title": "Trablusgarp'a gitmek için İstanbul'dan ayrıldı",
+      "text": "İtalyanlara karşı savaşmak üzere gönüllü olarak, arkadaşlarıyla birlikte gizlice İstanbul'dan ayrıldı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1905-1918-p5",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 5."
+    },
+    {
+      "id": "tobruk-komutani-1911-12-19",
+      "date": {
+        "iso": "1911-12-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p5",
+          "msb-askeri-gorevleri-p5"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 19 Aralık 1911."
+      },
+      "title": "Tobruk Bölgesi Komutanı oldu",
+      "text": "Ethem Paşa'nın yerine Tobruk Bölgesi Komutanlığına getirildi.",
+      "placeId": "tobruk",
+      "sources": [
+        "msb-kronoloji-1905-1918-p5",
+        "msb-askeri-gorevleri-p5"
+      ],
+      "$note": "K5 taraması, parti 5. Vikipedi aynı bölgedeki ilk çarpışmasını 22 Aralık 1911 diye veriyor; ayrı olay olarak girmedi (tek, resmî olmayan kaynak)."
+    },
+    {
+      "id": "derneye-gelis-1911-12-30",
+      "date": {
+        "iso": "1911-12-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p5",
+          "msb-askeri-gorevleri-p5"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 30 Aralık 1911."
+      },
+      "title": "Derne'ye geldi",
+      "text": "Derne'ye geldi ve Derne Doğu Kolu Komutanlığını üzerine aldı.",
+      "placeId": "derne",
+      "sources": [
+        "msb-kronoloji-1905-1918-p5",
+        "msb-askeri-gorevleri-p5"
+      ],
+      "$note": "K5 taraması, parti 5. Görev adı kronolojiden. «Askerî Görevleri» sayfası, 1 Ocak 1912'de 'Bingazi Derne Şark Gönüllü Komutanlığına' atandığını yazıyor."
+    },
+    {
+      "id": "derne-komutani-1912-03",
+      "date": {
+        "iso": "1912-03",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p5",
+          "msb-askeri-gorevleri-p5",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji: Mart 1912. MSB «Askerî Görevleri»: 10 Mart 1912. Vikipedi: 6 Mart. Gün kaynaklar arasında farklı, bu yüzden ay düzeyinde."
+      },
+      "title": "Derne Komutanı oldu",
+      "text": "Derne Komutanlığına atandı.",
+      "placeId": "derne",
+      "sources": [
+        "msb-kronoloji-1905-1918-p5",
+        "msb-askeri-gorevleri-p5",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 5."
+    },
+    {
+      "id": "derneden-ayrilis-1912-10-24",
+      "date": {
+        "iso": "1912-10-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p5",
+          "msb-askeri-gorevleri-p5",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 24 Ekim 1912. Vikipedi: 24 Ekim 1912."
+      },
+      "title": "Derne'den İstanbul'a yola çıktı",
+      "text": "Balkan Savaşı'nın başlaması üzerine Derne'den İstanbul'a doğru yola çıktı.",
+      "placeId": "derne",
+      "sources": [
+        "msb-kronoloji-1905-1918-p5",
+        "msb-askeri-gorevleri-p5",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 5. Vikipedi dönüş yolunu Viyana, Macaristan ve Romanya üzerinden veriyor; resmî kaynakta güzergâh yok, seyahat olarak girmedi."
     }
   ]
 }

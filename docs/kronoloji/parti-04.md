@@ -94,6 +94,6 @@ Bitişi kaynakta olmayan görevler (3. Ordu Karargâhı, Demiryolu Müfettişli�
 
 Karargâha ikinci ve üçüncü dönüşlerde yer kaynakta yazmadığı için bu iki olay da yersiz.
 
-**Düzeltme (taramada yakalandı):** İlk yazımda 1911 manevrası için MSB'de olmayan bir kitap adı vardı; çıkarıldı.
+**Düzeltme (taramada yakalandı):** İlk yazımda 1911 manevrası için MSB'de olmayan bir kitap adı vardı; çıkarıldı. *Sonradan düzeltme (2026-11-14, parti 5):* Bu yanlıştı. Kitap adı (*Tâbiye Tatbikat Seyahatı*) MSB kronolojisinde, 1911 başlığı altında tarihsiz bir maddede var; olay metnine geri kondu.
 
 **Kararlar (2026-11-14):** Parti onaylandı. Vatan ve Hürriyet'in kuruluş yılı MSB'ye göre 1905.

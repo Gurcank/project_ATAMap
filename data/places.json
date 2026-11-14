@@ -335,6 +335,50 @@
           "$note": "MSB (resmî) 1905 maddesinde 'Şam'da'; Vikipedi 'Şam'da'."
         }
       ]
+    },
+    {
+      "id": "tobruk",
+      "point": {
+        "lon": 23.95,
+        "lat": 32.083333333333,
+        "sources": [
+          "wikidata-q182092-r2567218041",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 32.083333, 23.95. Natural Earth 10m simple (Tubruq, ne_id 1159148615): 32.079991, 23.960026. Fark yaklaşık 1 km."
+      },
+      "names": [
+        {
+          "name": "Tobruk",
+          "sources": [
+            "msb-kronoloji-1905-1918-p5",
+            "vikipedi-tr-ataturk-38564203"
+          ],
+          "$note": "MSB (resmî) 'Tobruk Bölgesi Komutanlığına'; Vikipedi 'Tobruk'."
+        }
+      ]
+    },
+    {
+      "id": "derne",
+      "point": {
+        "lon": 22.636111111111,
+        "lat": 32.763611111111,
+        "sources": [
+          "wikidata-q211866-r2549971836",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 32.763611, 22.636111. Natural Earth 10m simple (Darnah, ne_id 1159148613): 32.764811, 22.639139. Fark yaklaşık 0,3 km."
+      },
+      "names": [
+        {
+          "name": "Derne",
+          "sources": [
+            "msb-kronoloji-1905-1918-p5",
+            "vikipedi-tr-ataturk-38564203"
+          ],
+          "$note": "MSB (resmî) 'Derne'ye gelmesi'; Vikipedi 'Derne'."
+        }
+      ]
     }
   ]
 }

@@ -137,7 +137,7 @@ Adlar MSB kronolojisindeki yazımla.
 
 ## K5 yeniden taraması, parti 8b: 1918 – Nisan 1919 (2026-11-14)
 
-Kaynaklar: MSB «Atatürk Kronolojisi» 1905-1918 ve 1919-1922 bölümleri, «Askerî Görevleri» (resmî, yalnız olgu); bir bitiş tarihi için onaylı Nutuk s. 43. Ayrı kaynak kayıtları: `msb-kronoloji-1905-1918-p8b`, `msb-kronoloji-1919-1922-p8b`, `msb-askeri-gorevleri-p8b`. Durum: **onay bekliyor**, kayıtlar `verified: false`. 16 Mayıs 1919'daki hareket parti 9a'ya kaldı.
+Kaynaklar: MSB «Atatürk Kronolojisi» 1905-1918 ve 1919-1922 bölümleri, «Askerî Görevleri» (resmî, yalnız olgu); bir bitiş tarihi için onaylı Nutuk s. 43. Ayrı kaynak kayıtları: `msb-kronoloji-1905-1918-p8b`, `msb-kronoloji-1919-1922-p8b`, `msb-askeri-gorevleri-p8b`. Durum: **onaylandı (2026-11-14)**, olaylar, Nablus ve görevler sitede. 16 Mayıs 1919'daki hareket parti 9a'ya kaldı.
 
 **Olaylar:**
 
@@ -170,3 +170,5 @@ Kaynaklar: MSB «Atatürk Kronolojisi» 1905-1918 ve 1919-1922 bölümleri, «As
 | 30 Nisan 1919 | 8 Temmuz 1919 | 9. Ordu Kıtaatı Müfettişi | Başlangıç MSB; bitiş Nutuk s. 43 (istifa) ve Vikipedi |
 
 **Girmeyenler:** Rayak, Hama, Kisve çekilmeleri (yalnız Liman ya da Vikipedi; MSB 20 Eylül maddesinde Rayak'tan yalnız geçerken söz ediyor). Şişli'deki eve yerleşme ve padişah huzuru (yalnız Vikipedi). Mondros ve İngilizlerin Halep'e girmesi Atatürk'ün kendi olayı değil.
+
+**Kararlar (2026-11-14):** Parti 8b onaylandı. MSB, 31 Ekim 1918 olayına kaynak olarak eklendi.

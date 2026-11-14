@@ -1404,7 +1404,9 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "liman-fuenf-jahre-tuerkei-1920-s396-399"
+          "liman-fuenf-jahre-tuerkei-1920-s396-399",
+          "msb-kronoloji-1905-1918-p8b",
+          "msb-askeri-gorevleri-p8b"
         ],
         "$note": "Tek kaynak: Liman'ın kitabında birebir aktarılan 'Adana, den 31. Oktober 1918' tarihli veda emri (tarihli birincil belge, SPEC §2.2). Vikipedi devri anlatıyor, tarih vermiyor. Kullanıcı, kitapta aktarılan tarihli emrin birincil belge sayılmasını onayladı (2026-11-14)."
       },
@@ -1413,9 +1415,11 @@
       "placeId": "adana",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "liman-fuenf-jahre-tuerkei-1920-s396-399"
+        "liman-fuenf-jahre-tuerkei-1920-s396-399",
+        "msb-kronoloji-1905-1918-p8b",
+        "msb-askeri-gorevleri-p8b"
       ],
-      "$note": "Parti 8. 'Yıldırım Ordular Grubu' adı Vikipedi'den; Liman 'Heeresgruppe' diyor."
+      "$note": "Parti 8. 'Yıldırım Ordular Grubu' adı Vikipedi'den; Liman 'Heeresgruppe' diyor. K5 parti 8b (2026-11-14): MSB kronolojisi ve «Askerî Görevleri» aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "yildirim-kaldirildi-1918-11-07",

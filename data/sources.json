@@ -1081,10 +1081,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 8b (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 19 Şubat - Aralık 1918."
+      "$note": "K5 yeniden taraması, parti 8b (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 19 Şubat - Aralık 1918. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8b)."
     },
     {
       "id": "msb-kronoloji-1919-1922-p8b",
@@ -1093,10 +1093,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1919-1922 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 8b (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Madde: 30 Nisan 1919."
+      "$note": "K5 yeniden taraması, parti 8b (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Madde: 30 Nisan 1919. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8b)."
     },
     {
       "id": "msb-askeri-gorevleri-p8b",
@@ -1105,10 +1105,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
-      "$note": "K5 taraması, parti 8b (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt."
+      "$note": "K5 taraması, parti 8b (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8b)."
     },
     {
       "id": "wikidata-q214178-r2566019258",
@@ -1119,8 +1119,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 8b. P625 iki değer; 'preferred' olan kullanıldı: 32.220833, 35.262778 (dayanak P143 Q24578999, Q1985727). Öbürü 32.221111, 35.260833 (İngilizce Vikipedi)."
+      "verified": true,
+      "$note": "K5 taraması, parti 8b. P625 iki değer; 'preferred' olan kullanıldı: 32.220833, 35.262778 (dayanak P143 Q24578999, Q1985727). Öbürü 32.221111, 35.260833 (İngilizce Vikipedi). Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8b)."
     }
   ]
 }

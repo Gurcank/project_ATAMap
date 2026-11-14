@@ -62,7 +62,13 @@ test('the Adana handover: a date from a dated order, place and age', async ({ pa
   await expect(page.locator('svg').getByText('Adana', { exact: true })).toBeVisible();
   const status = page.getByRole('region', { name: 'Durum' });
   if (info.project.name === 'mobil-375') await status.getByRole('button').click();
-  await expect(status.locator('dd')).toHaveText(['37', 'Tümgeneral', 'Adana']);
+  await expect(status.locator('dd')).toHaveText([
+    '37',
+    'Tümgeneral',
+    '7. Ordu Komutanı',
+    'Yıldırım Orduları Grubu Komutanı',
+    'Adana',
+  ]);
   await shot(page, info, 'adana');
 });
 
@@ -166,7 +172,12 @@ test('the first real journey: Amasya to Erzurum by car, approximate route', asyn
   await expect(mode.locator('option[value="seyahat"]')).not.toHaveAttribute('disabled', '');
   const status = page.getByRole('region', { name: 'Durum' });
   if (info.project.name === 'mobil-375') await status.getByRole('button').click();
-  await expect(status.locator('dd')).toHaveText(['38', 'Tümgeneral', 'Amasya']);
+  await expect(status.locator('dd')).toHaveText([
+    '38',
+    'Tümgeneral',
+    '9. Ordu Kıtaatı Müfettişi',
+    'Amasya',
+  ]);
   await shot(page, info, 'seyahat');
 });
 

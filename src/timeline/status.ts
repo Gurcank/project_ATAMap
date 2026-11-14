@@ -77,7 +77,7 @@ export function placeNameAt(place: PlaceName, date: DateValue): string | null {
 }
 
 export function statusAt(
-  input: { birth?: DateValue; tenures: readonly Tenure[]; place: PlaceName | null },
+  input: { birth?: DateValue | undefined; tenures: readonly Tenure[]; place: PlaceName | null },
   date: DateValue,
 ): Status {
   const { rank, duties } = activeTenures(input.tenures, date);

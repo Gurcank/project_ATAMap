@@ -4,6 +4,7 @@ import { DocumentSheet } from './components/DocumentSheet.tsx';
 import dock from './components/Dock.module.css';
 import { EventCartouche } from './components/EventCartouche.tsx';
 import { LoadingShell } from './components/LoadingShell.tsx';
+import { StatusCartouche } from './components/StatusCartouche.tsx';
 import { StepControls } from './components/StepControls.tsx';
 import { YearCartouche } from './components/YearCartouche.tsx';
 import { MapCanvas } from './map/MapCanvas.tsx';
@@ -58,6 +59,7 @@ export function App() {
       ) : (
         <>
           <MapCanvas />
+          <StatusCartouche />
           <div class={`cartouche ${dock.dock}`}>
             <YearCartouche />
             <EventCartouche />

@@ -1,0 +1,35 @@
+{
+  "$comment": "KURGU VERİ: tamamen uydurmadır, yalnız e2e testleri içindir (CLAUDE.md kural 3). data/ altına kopyalanmaz. İki görev 1901'de çakışır (SPEC A26); uzun unvan satır kaydırmayı dener.",
+  "tenures": [
+    {
+      "id": "kurgu-rutbe-1",
+      "kind": "rutbe",
+      "title": "Kurgu Birinci Rütbe",
+      "start": { "iso": "1899-06-01", "precision": "day", "approximate": false, "sources": ["k1", "k2"] },
+      "sources": ["k1", "k2"]
+    },
+    {
+      "id": "kurgu-rutbe-2",
+      "kind": "rutbe",
+      "title": "Kurgu İkinci Rütbe",
+      "start": { "iso": "1901-01", "precision": "month", "approximate": false, "sources": ["k1", "k2"] },
+      "sources": ["k1", "k2"]
+    },
+    {
+      "id": "kurgu-gorev-1",
+      "kind": "gorev",
+      "title": "Kurgu Vilayeti Birinci Kurgu Kıtaatı Kumandanlığı ve Uzun Unvan Denemesi",
+      "start": { "iso": "1899-06-01", "precision": "day", "approximate": false, "sources": ["k1", "k2"] },
+      "end": { "iso": "1901-12-31", "precision": "day", "approximate": false, "sources": ["k1", "k2"] },
+      "sources": ["k1", "k2"]
+    },
+    {
+      "id": "kurgu-gorev-2",
+      "kind": "gorev",
+      "title": "Kurgu İkinci Görev",
+      "start": { "iso": "1901-02-01", "precision": "day", "approximate": false, "sources": ["k1", "k2"] },
+      "end": { "iso": "1901-08-31", "precision": "day", "approximate": false, "sources": ["k1", "k2"] },
+      "sources": ["k1", "k2"]
+    }
+  ]
+}

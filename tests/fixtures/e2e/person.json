@@ -1,0 +1,6 @@
+{
+  "$comment": "KURGU VERİ: tamamen uydurmadır, yalnız e2e testleri içindir (CLAUDE.md kural 3). data/ altına kopyalanmaz.",
+  "person": {
+    "birth": { "iso": "1880-05-19", "precision": "day", "approximate": false, "sources": ["k1", "k2"] }
+  }
+}

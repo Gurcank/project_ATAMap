@@ -38,13 +38,27 @@ test('first step: map, year, event text, controls', async ({ page }, info) => {
   await expect(page.getByText('1920', { exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Önceki' })).toBeDisabled();
   await expect(page.getByRole('button', { name: 'Sonraki' })).toBeEnabled();
-  await expect(page.getByText('Ankara', { exact: true })).toBeVisible();
+  // The map label; the status cartouche also names the place (SPEC K3).
+  await expect(page.locator('svg').getByText('Ankara', { exact: true })).toBeVisible();
   // No horizontal scroll at any width (SPEC §10 step 6).
   const overflow = await page.evaluate(
     () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
   );
   expect(overflow).toBeLessThanOrEqual(0);
   await shot(page, info, 'ilk-adim');
+});
+
+test('status cartouche: the real data has no birth date or tenures yet, only the place', async ({
+  page,
+}, info) => {
+  await open(page, FIRST);
+  const status = page.getByRole('region', { name: 'Durum' });
+  if (info.project.name === 'mobil-375') {
+    await expect(status.getByRole('button')).toHaveAccessibleName('Durum');
+    await status.getByRole('button').click();
+  }
+  await expect(status.locator('dt')).toHaveText(['Yer']);
+  await expect(status.locator('dd')).toHaveText(['Ankara']);
 });
 
 test('map keeps at least 55 % of the height at 375 (SPEC §4.3)', async ({ page }, info) => {

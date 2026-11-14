@@ -3,6 +3,7 @@ import { computed, effect, signal } from '@preact/signals';
 import { stepAnimationMs } from '../motion/motionPolicy.ts';
 import type { DocumentRecord } from '../schema/index.ts';
 import { activeBorderChanges } from '../timeline/borders.ts';
+import { statusAt, type Status } from '../timeline/status.ts';
 import {
   buildSteps,
   nextStepId,
@@ -63,6 +64,14 @@ export const currentPlace = computed(() => {
   const placeId = currentEvent.value?.placeId;
   if (dataState.value.status !== 'ready' || placeId === undefined) return null;
   return dataState.value.data.places.find((p) => p.id === placeId) ?? null;
+});
+
+/** Age, rank, duties and place on the step's date (SPEC K3, ADR-15). */
+export const currentStatus = computed<Status | null>(() => {
+  const event = currentEvent.value;
+  if (event === null || dataState.value.status !== 'ready') return null;
+  const { birth, tenures } = dataState.value.data;
+  return statusAt({ birth, tenures, place: currentPlace.value }, event.date);
 });
 
 // ---- Navigation. Any manual control stops autoplay first (SPEC §5.1). ----

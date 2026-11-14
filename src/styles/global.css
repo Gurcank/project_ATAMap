@@ -102,3 +102,35 @@ body {
   font-size: var(--text-14);
   color: var(--ink-muted);
 }
+
+/* First-load frame of the status cartouche, 768 and up (SPEC §4.2, 2026-11-14). At 375 the toggle's
+   place stays empty. Same position and width as StatusCartouche.module.css. */
+.status-skeleton {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  .status-skeleton {
+    position: absolute;
+    z-index: 1; /* above the full-bleed loading layer, like the site name */
+    top: var(--space-24);
+    right: var(--space-24);
+    display: grid;
+    row-gap: var(--space-12);
+    width: 18rem;
+    padding: var(--space-16);
+  }
+
+  .status-skeleton span {
+    display: block;
+    height: var(--rule-width);
+    background: var(--ink-muted);
+  }
+}
+
+@media (min-width: 80rem) {
+  .status-skeleton {
+    right: var(--space-32);
+    width: 20rem;
+  }
+}

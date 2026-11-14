@@ -9,7 +9,10 @@
     />
     <meta name="theme-color" content="#f3e7cf" />
     <meta property="og:title" content="ATAMap" />
-    <meta property="og:description" content="Atatürk'ün 1881-1938 arasındaki hayatı, dönemin sınırlarıyla çizilmiş bir harita üzerinde." />
+    <meta
+      property="og:description"
+      content="Atatürk'ün 1881-1938 arasındaki hayatı, dönemin sınırlarıyla çizilmiş bir harita üzerinde."
+    />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="tr_TR" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -20,6 +23,9 @@
     <div id="app">
       <!-- Static first-load state (ADR-01, SPEC §4.2). Replaced when Preact mounts. -->
       <p class="site-kunye">ATAMap</p>
+      <div class="status-skeleton cartouche" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
       <div class="loading" role="status">
         <div>
           <p class="loading__title">Harita hazırlanıyor</p>

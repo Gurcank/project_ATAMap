@@ -3,6 +3,12 @@ export function LoadingShell() {
   return (
     <>
       <p class="site-kunye">ATAMap</p>
+      <div class="status-skeleton cartouche" aria-hidden="true">
+        <span />
+        <span />
+        <span />
+        <span />
+      </div>
       <div class="loading" role="status">
         <div>
           <p class="loading__title">Harita hazırlanıyor</p>

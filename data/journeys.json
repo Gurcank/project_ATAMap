@@ -1,0 +1,47 @@
+{
+  "$comment": "Journey kayıtları (SPEC §6). Her tarih ≥ 2 kaynak.",
+  "journeys": [
+    {
+      "id": "amasya-erzurum-1919",
+      "title": "Amasya'dan Erzurum'a",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "legs": [
+        {
+          "fromPlaceId": "amasya",
+          "toPlaceId": "erzurum",
+          "vehicle": "otomobil",
+          "departure": {
+            "iso": "1919-06-26",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "vikipedi-tr-ataturk-38564203",
+              "nutuk-en-1929"
+            ],
+            "$note": "Nutuk s. 38: \"I started from Amasia on the 26th\" (otomobille, şafaktan önce). Vikipedi: 26 Haziran."
+          },
+          "arrival": {
+            "iso": "1919-07-03",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "vikipedi-tr-ataturk-38564203",
+              "nutuk-en-1929"
+            ],
+            "$note": "Nutuk s. 40: \"we arrived at Erzerum … on the 3rd July\" (bir haftalık otomobil yolculuğu). Vikipedi: Karabekir 3 Temmuz'da karşıladı."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "nutuk-en-1929"
+          ],
+          "$note": "Nutuk güzergâhı Tokat ve Sivas üzerinden anlatıyor; ara noktaların tarihleri tam değil, bu yüzden tek etap ve yaklaşık rota."
+        }
+      ],
+      "$note": "Parti 9a."
+    }
+  ]
+}

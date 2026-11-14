@@ -177,6 +177,94 @@
           "$note": "Vikipedi ve Liman ikisi de 'Adana'."
         }
       ]
+    },
+    {
+      "id": "samsun",
+      "point": {
+        "lon": 36.33,
+        "lat": 41.286666666667,
+        "sources": [
+          "wikidata-q160450-r2540136792",
+          "naturalearth-ne50m-populated-places"
+        ],
+        "$note": "Wikidata: 41.286666666667, 36.33. Natural Earth ne_50m (NE_ID 1159149377): 41.279998, 36.343663. Fark yaklaşık 1,4 km."
+      },
+      "names": [
+        {
+          "name": "Samsun",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "nutuk-en-1929"
+          ],
+          "$note": "Vikipedi 'Samsun', Nutuk 1929 (İngilizce) 'Samsoon'. Yazım Vikipedi'den (Gelibolu kararıyla aynı ilke)."
+        }
+      ]
+    },
+    {
+      "id": "amasya",
+      "point": {
+        "lon": 35.833333333333,
+        "lat": 40.65,
+        "sources": [
+          "wikidata-q170532-r2552031144",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.65, 35.833333333333. Natural Earth ne_10m (ne_id 1159135197): 40.65368, 35.833048. Fark yaklaşık 0,4 km."
+      },
+      "names": [
+        {
+          "name": "Amasya",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "nutuk-en-1929"
+          ],
+          "$note": "Vikipedi 'Amasya', Nutuk 1929 (İngilizce) 'Amasia'. Yazım Vikipedi'den (Gelibolu kararıyla aynı ilke)."
+        }
+      ]
+    },
+    {
+      "id": "erzurum",
+      "point": {
+        "lon": 41.275555555556,
+        "lat": 39.909722222222,
+        "sources": [
+          "wikidata-q122803-r2567563510",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 39.909722222222, 41.275555555556. Natural Earth ne_10m (ne_id 1159135215): 39.920392, 41.290027. Fark yaklaşık 1,7 km."
+      },
+      "names": [
+        {
+          "name": "Erzurum",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "nutuk-en-1929"
+          ],
+          "$note": "Vikipedi 'Erzurum', Nutuk 1929 (İngilizce) 'Erzerum'. Yazım Vikipedi'den (Gelibolu kararıyla aynı ilke)."
+        }
+      ]
+    },
+    {
+      "id": "sivas",
+      "point": {
+        "lon": 37.016666666667,
+        "lat": 39.75,
+        "sources": [
+          "wikidata-q107401-r2560607580",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 39.75, 37.016666666667. Natural Earth ne_10m (ne_id 1159135205): 39.745415, 37.03499. Fark yaklaşık 1,7 km."
+      },
+      "names": [
+        {
+          "name": "Sivas",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "nutuk-en-1929"
+          ],
+          "$note": "Vikipedi 'Sivas', Nutuk 1929 (İngilizce) 'Sivas'. Yazım Vikipedi'den (Gelibolu kararıyla aynı ilke)."
+        }
+      ]
     }
   ]
 }

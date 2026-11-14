@@ -461,6 +461,66 @@
       "free": true,
       "verified": true,
       "$note": "Parti 8. Üç P625 değeri var; ilki (36.9863599, 35.3252861) dayanaksız, ikincisi GeoNames 325363 dayanaklı (36.98615, 35.32531). Saklanan değer GeoNames dayanaklı olan. Kullanıcı onayı: 2026-11-14 (parti 8)."
+    },
+    {
+      "id": "nutuk-en-1929",
+      "institution": "Internet Archive (Universal Digital Library taraması)",
+      "citation": "A Speech Delivered by Ghazi Mustapha Kemal, President of the Turkish Republic, October 1927, Leipzig: K. F. Koehler, 1929",
+      "url": "https://archive.org/details/speechdeliveredg010347mbp",
+      "page": "9, 31, 38, 40, 43, 57, 75, 287, 372",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 9a. Nutuk'un 1929 resmî İngilizce baskısı. Metin Atatürk'ün (ö. 1938; FSEK m.27/1). Çevirmen ve giriş yazarı adsız, telif sahibi yayınevi (K. F. Koehler): FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, 1999'da doldu. ABD: 1929 yayını, IA kaydına göre telif yenilemesi bulunamadı. Tarihler sayfa taramalarından okundu (görüntü no = sayfa + 11). Vikipedi'nin 'Samsun'a çıkışı' bölümü iki cümlede ([211], [217]) Nutuk'u dayanak gösteriyor; burada kullanılan olaylar o cümleler değil (19 Mayıs [214] ataturk.net'e dayanıyor). Diğer bölümler Nutuk'u dayanak göstermiyor. Nutuk'un 1927 Arap harfli aslı ve Latin harfli yeni baskıları kullanılmadı."
+    },
+    {
+      "id": "wikidata-q160450-r2540136792",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q160450 (Samsun), P625 koordinat, revizyon 2540136792",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q160450.json?revision=2540136792",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 9a. P625: 41.286666666667, 36.33; dayanak Rusça Vikipedi (P143)."
+    },
+    {
+      "id": "wikidata-q170532-r2552031144",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q170532 (Amasya), P625 koordinat, revizyon 2552031144",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q170532.json?revision=2552031144",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 9a. P625: 40.65, 35.833333333333 (ilk değer); dayanak Rusça Vikipedi (P143); ikinci değer 40.678674, 35.8278."
+    },
+    {
+      "id": "wikidata-q122803-r2567563510",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q122803 (Erzurum), P625 koordinat, revizyon 2567563510",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q122803.json?revision=2567563510",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 9a. P625: 39.909722222222, 41.275555555556; dayanak Rusça Vikipedi (P143)."
+    },
+    {
+      "id": "wikidata-q107401-r2560607580",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q107401 (Sivas), P625 koordinat, revizyon 2560607580",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q107401.json?revision=2560607580",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 9a. P625: 39.75, 37.016666666667; dayanak Rusça Vikipedi (P143)."
     }
   ]
 }

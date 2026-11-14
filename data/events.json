@@ -568,6 +568,176 @@
         "liman-fuenf-jahre-tuerkei-1920-s396-399"
       ],
       "$note": "Parti 8. 'Yıldırım Ordular Grubu' adı Vikipedi'den; Liman 'Heeresgruppe' diyor."
+    },
+    {
+      "id": "samsun-1919-05-19",
+      "date": {
+        "iso": "1919-05-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929"
+        ],
+        "$note": "Nutuk s. 9: \"I landed at Samsoon on the 19th May, 1919.\" Vikipedi: 19 Mayıs 1919 (dipnot [214], Nutuk değil)."
+      },
+      "title": "Samsun'a çıktı",
+      "text": "Yanındaki kurmay subaylardan oluşan heyetle birlikte Samsun'a çıktı.",
+      "placeId": "samsun",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "$note": "Parti 9a."
+    },
+    {
+      "id": "amasya-genelgesi-1919-06",
+      "date": {
+        "iso": "1919-06-21",
+        "isoEnd": "1919-06-22",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929"
+        ],
+        "$note": "Nutuk s. 31: genelgeyi \"during the night of the 21st June\" yazdırdı. Vikipedi: 22 Haziran 1919'da yayımladı. İki tarih bir aralık olarak birleştirildi; kullanıcıya soruldu."
+      },
+      "title": "Amasya Genelgesi'ni hazırlattı",
+      "text": "Amasya'da, milletin bağımsızlığını yine milletin azim ve kararının kurtaracağını bildiren ve Sivas'ta bir kongre toplanmasını isteyen genelgeyi hazırlattı.",
+      "placeId": "amasya",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "$note": "Parti 9a."
+    },
+    {
+      "id": "amasya-erzurum-1919-06-26",
+      "date": {
+        "iso": "1919-06-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929"
+        ],
+        "$note": "Seyahat kaydının kalkış tarihiyle aynı."
+      },
+      "title": "Amasya'dan Erzurum'a gitti",
+      "text": "Otomobille Amasya'dan ayrıldı; Tokat ve Sivas üzerinden bir haftalık yolculuğun ardından 3 Temmuz'da Erzurum'a vardı.",
+      "placeId": "amasya",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "journeyId": "amasya-erzurum-1919",
+      "$note": "Parti 9a."
+    },
+    {
+      "id": "istifa-1919-07-08",
+      "date": {
+        "iso": "1919-07-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929"
+        ],
+        "$note": "Nutuk s. 43: \"10.50 p.m. on the 8th July\". Vikipedi: \"8-9 Temmuz gecesi\"."
+      },
+      "title": "Askerlikten istifa etti",
+      "text": "Erzurum'da, Harbiye Nezareti'ne ve padişaha çektiği telgraflarla ordudaki görevinden ve askerlikten istifa etti.",
+      "placeId": "erzurum",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "$note": "Parti 9a."
+    },
+    {
+      "id": "erzurum-kongresi-1919-07-23",
+      "date": {
+        "iso": "1919-07-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929"
+        ],
+        "$note": "Nutuk s. 57: \"the Congress met at Erzerum on the 23rd July, 1919\". Vikipedi: 23 Temmuz – 7 Ağustos 1919."
+      },
+      "title": "Erzurum Kongresi toplandı",
+      "text": "Erzurum Kongresi toplandı ve Mustafa Kemal kongre başkanı oldu.",
+      "placeId": "erzurum",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "$note": "Parti 9a."
+    },
+    {
+      "id": "sivas-kongresi-1919-09-04",
+      "date": {
+        "iso": "1919-09-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929"
+        ],
+        "$note": "Nutuk s. 75: \"opened on Thursday, the 4th September\". Vikipedi: 4-11 Eylül 1919."
+      },
+      "title": "Sivas Kongresi açıldı",
+      "text": "Sivas Kongresi açıldı; Mustafa Kemal kongrenin ilk gününde başkan seçildi.",
+      "placeId": "sivas",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "$note": "Parti 9a."
+    },
+    {
+      "id": "ankara-1919-12-27",
+      "date": {
+        "iso": "1919-12-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929"
+        ],
+        "$note": "Nutuk s. 287: 27 Aralık'ta gönderilen \"has arrived to-day\" telgrafı. Vikipedi: 27 Aralık 1919."
+      },
+      "title": "Ankara'ya geldi",
+      "text": "Heyet-i Temsiliye ile birlikte Sivas'tan Kayseri üzerinden Ankara'ya geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "$note": "Parti 9a."
+    },
+    {
+      "id": "tbmm-acilis-1920-04-23",
+      "date": {
+        "iso": "1920-04-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929"
+        ],
+        "$note": "Nutuk s. 372: \"to open the Assembly on Friday, 23rd April, 1920\". Vikipedi: 23 Nisan 1920."
+      },
+      "title": "Türkiye Büyük Millet Meclisi açıldı",
+      "text": "Ankara'da Türkiye Büyük Millet Meclisi açıldı.",
+      "placeId": "ankara",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929"
+      ],
+      "$note": "Parti 9a."
     }
   ]
 }

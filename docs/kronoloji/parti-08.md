@@ -1,7 +1,7 @@
 # Kronoloji, parti 8: Doğu ve Suriye cepheleri, Mondros'tan sonra İstanbul
 
 > Kapsam: Çanakkale'den ayrılıştan (Aralık 1915) Samsun'a hareketten (16 Mayıs 1919) önceye kadar.
-> Durum: **onay bekliyor.** İki olay ve iki yer `data/` altında, `verified: false`.
+> Durum: **onaylandı (2026-11-14).** Halep ve Adana olayları yerleriyle sitede.
 > Araştırma tarihi: 2026-11-14. Kaynak kuralı: SPEC §2.2 (A19, K4), kullanıcının 2026-11-14 onayıyla aynen.
 
 ## Kaynaklar
@@ -59,6 +59,12 @@
 | 20 Aralık 1918 | İstanbul | Padişah huzuruna çıktı | Vikipedi | — |
 
 **Bu partide olmayanlar:** Megiddo Muharebesi, Mondros Mütarekesi ve Rusların doğudaki işgalleri Atatürk'ün kendi olayları olmadığı için alınmadı. 9. Ordu Müfettişliği ataması (30 Nisan 1919) ve Samsun'a hareket (16 Mayıs 1919) parti 9a'nın başı.
+
+## Kararlar (2026-11-14)
+
+- Parti onaylandı, iki olay da girdi.
+- Adana devrinin tarihi, Liman'ın kitabında birebir aktarılan "Adana, den 31. Oktober 1918" tarihli emre dayanıyor. Kullanıcı bunun tarihli birincil belge sayılmasını onayladı (`primaryDocument: true`).
+- Halep'teki 3,6 km ve Adana'daki 1,3 km koordinat farkı kabul edildi.
 
 ## Genel sonuç
 

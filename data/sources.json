@@ -435,8 +435,8 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Parti 8. Sayfa taramalarından okundu. s. 396: 25 Ekim'de Halep'in güneyinde çarpışmalar; s. 397: 'Am Abend verlegte Mustapha Kemal seinen Standort aus der Stadt heraus … Aleppo wurde geräumt.' s. 399: 'Am 31. Oktober übergab ich in Adana den Oberbefehl an Mustapha Kemal Pascha' ve 'Adana, den 31. Oktober 1918' tarihli veda emri (tarihli birincil belge, kitapta birebir aktarılmış). Telif ve bağımsızlık: liman-fuenf-jahre-tuerkei-1920 kaydındaki not."
+      "verified": true,
+      "$note": "Parti 8. Sayfa taramalarından okundu. s. 396: 25 Ekim'de Halep'in güneyinde çarpışmalar; s. 397: 'Am Abend verlegte Mustapha Kemal seinen Standort aus der Stadt heraus … Aleppo wurde geräumt.' s. 399: 'Am 31. Oktober übergab ich in Adana den Oberbefehl an Mustapha Kemal Pascha' ve 'Adana, den 31. Oktober 1918' tarihli veda emri (tarihli birincil belge, kitapta birebir aktarılmış). Telif ve bağımsızlık: liman-fuenf-jahre-tuerkei-1920 kaydındaki not. Kullanıcı onayı: 2026-11-14 (parti 8)."
     },
     {
       "id": "wikidata-q41183-r2567296857",
@@ -447,8 +447,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 8. P625: 36.2, 37.16 (kaba değer); dayanak İngilizce Vikipedi (P143)."
+      "verified": true,
+      "$note": "Parti 8. P625: 36.2, 37.16 (kaba değer); dayanak İngilizce Vikipedi (P143). Kullanıcı onayı: 2026-11-14 (parti 8)."
     },
     {
       "id": "wikidata-q38545-r2564834471",
@@ -459,8 +459,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 8. Üç P625 değeri var; ilki (36.9863599, 35.3252861) dayanaksız, ikincisi GeoNames 325363 dayanaklı (36.98615, 35.32531). Saklanan değer GeoNames dayanaklı olan."
+      "verified": true,
+      "$note": "Parti 8. Üç P625 değeri var; ilki (36.9863599, 35.3252861) dayanaksız, ikincisi GeoNames 325363 dayanaklı (36.98615, 35.32531). Saklanan değer GeoNames dayanaklı olan. Kullanıcı onayı: 2026-11-14 (parti 8)."
     }
   ]
 }

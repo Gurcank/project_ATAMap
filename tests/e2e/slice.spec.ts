@@ -53,6 +53,19 @@ test('a Gallipoli step: place on the map, age and place in the status', async ({
   await shot(page, info, 'canakkale');
 });
 
+test('the Adana handover: a date from a dated order, place and age', async ({ page }, info) => {
+  await open(page, '/#adim=adana-1918-10-31');
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(
+    "Ordular Grubu'nun komutasını devraldı",
+  );
+  await expect(page.getByText('31 Ekim 1918')).toBeVisible();
+  await expect(page.locator('svg').getByText('Adana', { exact: true })).toBeVisible();
+  const status = page.getByRole('region', { name: 'Durum' });
+  if (info.project.name === 'mobil-375') await status.getByRole('button').click();
+  await expect(status.locator('dd')).toHaveText(['37', 'Adana']);
+  await shot(page, info, 'adana');
+});
+
 test('1920 step: map, year, event text, controls', async ({ page }, info) => {
   await open(page, FIRST);
   await expect(page.getByRole('heading', { level: 2 })).toHaveText(

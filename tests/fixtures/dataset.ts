@@ -25,6 +25,11 @@ export function validDataset(): Dataset {
       source('k1', { page: 's. 1' }),
       source('k2'),
       source('k3', { rights: 'acik-lisans', licence: 'CC0-1.0' }),
+      source('k4', {
+        url: 'https://tr.wikipedia.org/w/index.php?title=Kurgu&oldid=1',
+        rights: 'acik-lisans',
+        licence: 'CC-BY-SA-4.0',
+      }),
     ],
     places: [
       {
@@ -94,6 +99,34 @@ export function validDataset(): Dataset {
         sources: ['k1', 'k2'],
       },
     ],
+    tenures: [
+      {
+        id: 'kurgu-rutbe-1',
+        kind: 'rutbe',
+        title: 'Kurgu Rütbe Bir',
+        start: { iso: '1900-01-01', precision: 'day', approximate: false, sources: ['k1', 'k2'] },
+        sources: ['k1', 'k2'],
+      },
+      {
+        id: 'kurgu-rutbe-2',
+        kind: 'rutbe',
+        title: 'Kurgu Rütbe İki',
+        start: { iso: '1905-06', precision: 'month', approximate: false, sources: ['k1', 'k2'] },
+        sources: ['k1', 'k2'],
+      },
+      {
+        id: 'kurgu-gorev',
+        kind: 'gorev',
+        title: 'Kurgu Görev',
+        start: { iso: '1901', precision: 'year', approximate: false, sources: ['k1', 'k2'] },
+        end: { iso: '1903', precision: 'year', approximate: false, sources: ['k1', 'k2'] },
+        sources: ['k1', 'k2'],
+      },
+    ],
+    // Wikipedia plus one non-Wikipedia source: the most rule 10 allows.
+    person: {
+      birth: { iso: '1880-05-19', precision: 'day', approximate: false, sources: ['k2', 'k4'] },
+    },
     reference: new Map([
       [
         'kurgu-belge',
@@ -106,7 +139,7 @@ export function validDataset(): Dataset {
 export interface RejectedCase {
   name: string;
   /** SPEC §6 rule number, or 'bütünlük'. */
-  rule: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 'bütünlük';
+  rule: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 'bütünlük';
   /** Rules 1-2 drop the record; the rest fail the build. */
   fatal: boolean;
   /** Id the violation must name. */
@@ -243,6 +276,92 @@ export const rejectedCases: RejectedCase[] = [
     id: 'source:k3',
     mutate: (ds) => {
       ds.sources.find((s) => s.id === 'k3')!.free = false;
+    },
+  },
+  {
+    name: 'kural 9: gorev kaydında end yok',
+    rule: 9,
+    fatal: true,
+    id: 'tenure:kurgu-gorev',
+    mutate: (ds) => {
+      delete ds.tenures[2]!.end;
+    },
+  },
+  {
+    name: 'kural 9: start, end tarihinden sonra',
+    rule: 9,
+    fatal: true,
+    id: 'tenure:kurgu-gorev',
+    mutate: (ds) => {
+      ds.tenures[2]!.start.iso = '1904';
+    },
+  },
+  {
+    name: 'kural 9: iki rütbe aralığı çakışıyor',
+    rule: 9,
+    fatal: true,
+    id: 'tenure:kurgu-rutbe-2',
+    mutate: (ds) => {
+      ds.tenures[0]!.end = {
+        iso: '1906',
+        precision: 'year',
+        approximate: false,
+        sources: ['k1', 'k2'],
+      };
+    },
+  },
+  {
+    name: 'kural 10: Vikipedi bağlantısında oldid yok',
+    rule: 10,
+    fatal: true,
+    id: 'source:k4',
+    mutate: (ds) => {
+      ds.sources.find((s) => s.id === 'k4')!.url = 'https://tr.wikipedia.org/wiki/Kurgu';
+    },
+  },
+  {
+    name: 'kural 10: Vikipedi kaynağı açık lisans olarak işaretlenmemiş',
+    rule: 10,
+    fatal: true,
+    id: 'source:k4',
+    mutate: (ds) => {
+      const s = ds.sources.find((x) => x.id === 'k4')!;
+      s.rights = 'kamu-mali';
+      delete s.licence;
+    },
+  },
+  {
+    name: 'kural 10: aynı tarihte iki Vikipedi kaynağı',
+    rule: 10,
+    fatal: true,
+    id: 'person:birth',
+    mutate: (ds) => {
+      ds.sources.push(
+        source('k5', {
+          url: 'https://en.wikipedia.org/w/index.php?title=Kurgu&oldid=2',
+          rights: 'acik-lisans',
+          licence: 'CC-BY-SA-4.0',
+        }),
+      );
+      ds.person!.birth.sources = ['k4', 'k5'];
+    },
+  },
+  {
+    name: 'kural 10: kaynak, Vikipedi maddesine dayanıyor (bağımsız değil)',
+    rule: 10,
+    fatal: true,
+    id: 'person:birth',
+    mutate: (ds) => {
+      ds.sources.find((s) => s.id === 'k2')!.basedOn = ['k4'];
+    },
+  },
+  {
+    name: 'kural 11: yalnız ipucu olan siteye giden kaynak',
+    rule: 11,
+    fatal: true,
+    id: 'source:k2',
+    mutate: (ds) => {
+      ds.sources.find((s) => s.id === 'k2')!.url = 'https://www.isteataturk.com/kurgu';
     },
   },
   {

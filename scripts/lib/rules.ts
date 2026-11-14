@@ -1,7 +1,7 @@
-// SPEC §6 build rules 1-8 and referential integrity (ARCHITECTURE ADR-07).
+// SPEC §6 build rules 1-11 and referential integrity (ARCHITECTURE ADR-07, ADR-15).
 // Pure: no file access, so tests/unit/rules.test.ts can feed it fixtures.
 //   Rules 1-2 drop the record and report it (not fatal).
-//   Rules 3-8 and broken references are fatal: the build must exit non-zero.
+//   Rules 3-11 and broken references are fatal: the build must exit non-zero.
 import { createHash } from 'node:crypto';
 import type {
   BorderChange,
@@ -10,9 +10,12 @@ import type {
   EventRecord,
   GeoPoint,
   Journey,
+  Person,
   PlaceName,
   SourceRecord,
+  Tenure,
 } from '../../src/schema/index.ts';
+import { daySpan } from '../../src/timeline/dateRange.ts';
 import { diplomaticToText } from './diplomatic.ts';
 
 export interface ReferenceEntry {
@@ -29,10 +32,13 @@ export interface Dataset {
   journeys: Journey[];
   borders: BorderChange[];
   places: PlaceName[];
+  tenures: Tenure[];
+  /** data/person.json; null when the file is absent. */
+  person: Person | null;
   reference: Map<string, ReferenceEntry>;
 }
 
-export type RuleId = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 'bütünlük' | 'uyarı';
+export type RuleId = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 'bütünlük' | 'uyarı';
 
 export interface Violation {
   rule: RuleId;
@@ -47,7 +53,32 @@ export interface RuleResult {
   violations: Violation[];
 }
 
-type Kind = 'event' | 'document' | 'journey' | 'border' | 'place';
+type Kind = 'event' | 'document' | 'journey' | 'border' | 'place' | 'tenure' | 'person';
+
+/** Sites that are hints only and never a source (SPEC §2.2, rule 11; terms in SOURCES §2.7). */
+export const HINT_ONLY_HOSTS = [
+  'ata.msb.gov.tr',
+  'atam.gov.tr',
+  'isteataturk.com',
+  'ataturkansiklopedisi.gov.tr',
+  'add.org.tr',
+] as const;
+
+function hostOf(url: string | undefined): string | null {
+  if (url === undefined) return null;
+  try {
+    return new URL(url).hostname.toLowerCase();
+  } catch {
+    return null;
+  }
+}
+
+const isUnder = (host: string, domain: string) => host === domain || host.endsWith(`.${domain}`);
+
+export function isWikipedia(s: Pick<SourceRecord, 'url'>): boolean {
+  const host = hostOf(s.url);
+  return host !== null && isUnder(host, 'wikipedia.org');
+}
 
 const sha256Lf = (text: string) =>
   createHash('sha256').update(text.replace(/\r\n/g, '\n'), 'utf8').digest('hex');
@@ -104,6 +135,16 @@ function sourceIdsOf(kind: Kind, rec: unknown): string[] {
       });
       break;
     }
+    case 'tenure': {
+      const t = rec as Tenure;
+      add(t.sources);
+      date(t.start);
+      date(t.end);
+      break;
+    }
+    case 'person':
+      date((rec as Person).birth);
+      break;
   }
   return [...ids];
 }
@@ -143,6 +184,19 @@ export function applyRules(ds: Dataset): RuleResult {
     if (s.rights === 'acik-lisans' && !s.licence) {
       fail('bütünlük', `source:${s.id}`, 'rights "acik-lisans" iken licence zorunlu');
     }
+    // Rule 10: a Wikipedia source names its revision and its licence.
+    if (isWikipedia(s)) {
+      if (!new URL(s.url!).searchParams.has('oldid')) {
+        fail(10, `source:${s.id}`, "Vikipedi bağlantısı kalıcı olmalı (URL'de oldid yok)");
+      }
+      if (s.rights !== 'acik-lisans' || !s.licence) {
+        fail(10, `source:${s.id}`, 'Vikipedi kaynağı rights "acik-lisans" ve licence ister');
+      }
+    }
+    // Rule 11
+    const host = hostOf(s.url);
+    const hint = host === null ? undefined : HINT_ONLY_HOSTS.find((d) => isUnder(host, d));
+    if (hint) fail(11, `source:${s.id}`, `${hint} yalnız ipucudur, kaynak olamaz`);
   }
 
   const duplicateCheck = (label: string, ids: string[]) => {
@@ -172,25 +226,61 @@ export function applyRules(ds: Dataset): RuleResult {
     'place',
     ds.places.map((r) => r.id),
   );
+  duplicateCheck(
+    'tenure',
+    ds.tenures.map((r) => r.id),
+  );
 
-  // Rule 5: every DateValue and GeoPoint carries >= 2 distinct sources, or one when primaryDocument.
-  const checkDate = (id: string, where: string, d: DateValue) => {
-    const distinct = new Set(d.sources).size;
-    if (distinct !== d.sources.length) fail(5, id, `${where}: aynı kaynak birden çok kez sayılmış`);
-    if (distinct >= 2) return;
-    if (distinct === 1 && d.primaryDocument === true) return;
-    fail(
-      5,
-      id,
-      `${where}: ${distinct} kaynak var; tek kaynak yalnız primaryDocument ise kabul edilir`,
-    );
+  // Sources linked by basedOn (either way) are one source, not two (rule 10).
+  const independentCount = (ids: string[]): number => {
+    const root = new Map(ids.map((id) => [id, id]));
+    const find = (id: string): string => {
+      let r = id;
+      while (root.get(r) !== r) r = root.get(r)!;
+      return r;
+    };
+    for (const id of ids) {
+      for (const basis of sourceById.get(id)?.basedOn ?? []) {
+        if (root.has(basis)) root.set(find(id), find(basis));
+      }
+    }
+    return new Set(ids.map(find)).size;
   };
-  const checkPoint = (id: string, where: string, p: GeoPoint) => {
-    const distinct = new Set(p.sources).size;
-    if (distinct !== p.sources.length) fail(5, id, `${where}: aynı kaynak birden çok kez sayılmış`);
-    if (distinct < 2)
-      fail(5, id, `${where}: koordinat için ${distinct} kaynak var, en az 2 gerekir`);
+
+  // Rule 5 with rule 10's limits: every DateValue and GeoPoint carries >= 2 independent sources,
+  // at most one of them Wikipedia; a DateValue may carry one when it is the dated primary document.
+  const checkSources = (id: string, where: string, sources: string[], needed: 1 | 2) => {
+    const distinct = [...new Set(sources)];
+    if (distinct.length !== sources.length) {
+      fail(5, id, `${where}: aynı kaynak birden çok kez sayılmış`);
+    }
+    const wiki = distinct.filter((s) => {
+      const rec = sourceById.get(s);
+      return rec !== undefined && isWikipedia(rec);
+    });
+    if (wiki.length > 1) {
+      fail(10, id, `${where}: ${wiki.length} Vikipedi kaynağı var, en çok biri olabilir`);
+    }
+    const independent = independentCount(distinct);
+    if (independent >= needed) return;
+    if (distinct.length >= needed) {
+      fail(
+        10,
+        id,
+        `${where}: kaynaklar birbirine dayanıyor (basedOn), bağımsız kaynak ${independent}`,
+      );
+    } else {
+      fail(
+        5,
+        id,
+        `${where}: ${distinct.length} kaynak var; en az 2 gerekir, tek kaynak yalnız primaryDocument ise kabul edilir`,
+      );
+    }
   };
+  const checkDate = (id: string, where: string, d: DateValue) =>
+    checkSources(id, where, d.sources, d.primaryDocument === true ? 1 : 2);
+  const checkPoint = (id: string, where: string, p: GeoPoint) =>
+    checkSources(id, where, p.sources, 2);
 
   for (const e of ds.events) checkDate(`event:${e.id}`, 'date', e.date);
   for (const d of ds.documents) checkDate(`document:${d.id}`, 'date', d.date);
@@ -212,6 +302,31 @@ export function applyRules(ds: Dataset): RuleResult {
       }
     });
   }
+
+  if (ds.person) checkDate('person:birth', 'birth', ds.person.birth);
+
+  // Rule 9: tenure intervals.
+  for (const t of ds.tenures) {
+    const id = `tenure:${t.id}`;
+    checkDate(id, 'start', t.start);
+    if (t.end) checkDate(id, 'end', t.end);
+    if (t.kind === 'gorev' && !t.end) fail(9, id, 'gorev kaydında end zorunlu');
+    if (t.end && daySpan(t.start).from > daySpan(t.end).to) {
+      fail(9, id, 'start, end tarihinden sonra');
+    }
+  }
+  const ranks = ds.tenures
+    .filter((t) => t.kind === 'rutbe')
+    .sort((a, b) => daySpan(a.start).from.localeCompare(daySpan(b.start).from));
+  ranks.slice(1).forEach((b, i) => {
+    const a = ranks[i]!;
+    const bStart = daySpan(b.start).from;
+    // An explicit end that may reach past the next rank's start counts as an overlap, even if only
+    // possibly: the data must be precise enough to tell the two ranks apart.
+    if (daySpan(a.start).from === bStart || (a.end && daySpan(a.end).to > bStart)) {
+      fail(9, `tenure:${b.id}`, `rütbe aralığı "${a.id}" ile çakışıyor`);
+    }
+  });
 
   // Rules 3, 4, 7 on documents.
   for (const d of ds.documents) {
@@ -289,6 +404,8 @@ export function applyRules(ds: Dataset): RuleResult {
   ds.journeys.forEach((j) => checkRefs('journey', 'journey', j));
   ds.borders.forEach((b) => checkRefs('border', 'border', b));
   ds.places.forEach((p) => checkRefs('place', 'place', p));
+  ds.tenures.forEach((t) => checkRefs('tenure', 'tenure', t));
+  if (ds.person) checkRefs('person', 'person', { ...ds.person, id: 'birth' });
 
   // Rules 1-2: drop records whose sources are unverified or copyrighted. A record that depends on a
   // dropped record is dropped too (a document leaves its event's list, an event loses its place...).
@@ -335,6 +452,11 @@ export function applyRules(ds: Dataset): RuleResult {
   const journeys = screen('journey', 'journey', ds.journeys);
   const borders = screen('border', 'border', ds.borders);
   const places = screen('place', 'place', ds.places);
+  const tenures = screen('tenure', 'tenure', ds.tenures);
+  const person =
+    ds.person && screen('person', 'person', [{ ...ds.person, id: 'birth' }]).length > 0
+      ? ds.person
+      : null;
 
   const livePlaces = new Set(places.map((p) => p.id));
   const liveJourneys = new Set(journeys.map((j) => j.id));
@@ -373,7 +495,7 @@ export function applyRules(ds: Dataset): RuleResult {
   });
 
   return {
-    kept: { sources: ds.sources, events, documents, journeys, borders, places },
+    kept: { sources: ds.sources, events, documents, journeys, borders, places, tenures, person },
     violations,
   };
 }

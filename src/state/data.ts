@@ -2,10 +2,12 @@
 import { signal } from '@preact/signals';
 import type {
   BorderChange,
+  DateValue,
   DocumentRecord,
   EventRecord,
   Journey,
   PlaceName,
+  Tenure,
 } from '../schema/index.ts';
 
 export interface PublicSource {
@@ -22,6 +24,9 @@ export interface StepsData {
   places: PlaceName[];
   journeys: Journey[];
   borders: BorderChange[];
+  /** Status cartouche (ADR-15). birth is absent when no sourced birth date passed the build. */
+  tenures: Tenure[];
+  birth?: DateValue;
   sources: Record<string, PublicSource>;
 }
 

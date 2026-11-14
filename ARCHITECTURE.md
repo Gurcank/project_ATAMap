@@ -236,7 +236,7 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 **Sonuç:**
 - Kaynak: `data/events.json`, `documents.json`, `journeys.json`, `borders.json`, `places.json`, `sources.json` (tekrar eden `SourceRef`'ler kimlikle referanslanır).
 - Şema: `src/schema/` altında Zod 4.6.7 ile SPEC §6'nın birebir karşılığı. TypeScript tipleri `z.infer` ile şemadan türetilir; tarayıcı kodu yalnız tipleri import eder, Zod paketi tarayıcıya gitmez.
-- Doğrulama: `scripts/build-data.ts` şemayı ve 8 kuralı uygular. Kural 1-2 (doğrulanmamış, telifli) kaydı çıkarır ve raporlar; kural 3-8 derlemeyi **başarısız** kılar. Her ihlal kayıt kimliği ve kural numarasıyla yazdırılır.
+- Doğrulama: `scripts/build-data.ts` şemayı ve derleme kurallarını uygular (2026-11-14 itibarıyla 11 kural, ADR-15). Kural 1-2 (doğrulanmamış, telifli) kaydı çıkarır ve raporlar; kural 3-11 derlemeyi **başarısız** kılar. Her ihlal kayıt kimliği ve kural numarasıyla yazdırılır.
 - `npm run build` = `build-data` → `build-geo` → `vite build`. Vercel de bu komutu çalıştırır; ihlalde yayın olmaz.
 - Betikler Node 24'ün yerleşik TypeScript tip ayıklamasıyla çalışır (`node scripts/x.ts`); tsx gibi ek araç yok. Bu yüzden betiklerde yalnız silinebilir tip sözdizimi kullanılır (`enum`, `namespace` yok).
 - Çıktı: `public/data/steps.json` (sıralı adımlar, olay metinleri, yerler, seyahatler) + yıla göre parçalanmış `public/data/documents/<yıl>.json` (tam metinler; SPEC §7 ≤ 500 KB gzip).

@@ -1,4 +1,4 @@
-// SPEC §6 build rules 1-8: each has a rejected example in tests/fixtures (ARCHITECTURE §6.1).
+// SPEC §6 build rules 1-11: each has a rejected example in tests/fixtures (ARCHITECTURE §6.1).
 import { describe, expect, it } from 'vitest';
 import { applyRules } from '../../scripts/lib/rules.ts';
 import { DateValue, DocumentRecord, EventRecord, SourceRecord } from '../../src/schema/index.ts';
@@ -10,6 +10,8 @@ describe('applyRules', () => {
     expect(violations).toEqual([]);
     expect(kept.events).toHaveLength(1);
     expect(kept.documents).toHaveLength(2);
+    expect(kept.tenures).toHaveLength(3);
+    expect(kept.person).not.toBeNull();
   });
 
   it.each(rejectedCases)('$name', ({ rule, fatal, id, mutate }) => {
@@ -47,6 +49,23 @@ describe('applyRules', () => {
     const { kept } = applyRules(ds);
     expect(kept.events).toHaveLength(1);
     expect(kept.events[0]?.documentIds).toEqual([]);
+  });
+
+  it('drops tenures and the birth date whose sources are unverified (rule 1)', () => {
+    const ds = validDataset();
+    ds.sources.find((s) => s.id === 'k2')!.verified = false;
+    const { kept, violations } = applyRules(ds);
+    expect(kept.tenures).toHaveLength(0);
+    expect(kept.person).toBeNull();
+    expect(violations.some((v) => v.id === 'person:birth' && v.rule === 1)).toBe(true);
+  });
+
+  it('works without tenures.json and person.json', () => {
+    const ds = validDataset();
+    ds.tenures = [];
+    ds.person = null;
+    const { violations } = applyRules(ds);
+    expect(violations).toEqual([]);
   });
 
   it('reports a missing period name as a non-fatal warning', () => {

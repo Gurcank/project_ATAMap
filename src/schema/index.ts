@@ -75,6 +75,8 @@ export const SourceRecord = z.strictObject({
   // Rule 8 rejects `free !== true` with a report; the schema only checks the type.
   free: z.boolean(),
   verified: z.boolean(),
+  // Ids of sources this one cites as its own basis: the two are not independent (rule 10).
+  basedOn: z.array(z.string()).optional(),
   $note: note,
 });
 
@@ -167,6 +169,22 @@ export const PlaceName = z.strictObject({
   $note: note,
 });
 
+// Status cartouche (SPEC K3, ARCHITECTURE ADR-15). Rule 9 checks the intervals.
+export const Tenure = z.strictObject({
+  id: z.string().min(1),
+  kind: z.enum(['rutbe', 'gorev']),
+  title: z.string().min(1),
+  start: DateValue,
+  end: DateValue.optional(),
+  sources: z.array(z.string()),
+  $note: note,
+});
+
+export const Person = z.strictObject({
+  birth: DateValue,
+  $note: note,
+});
+
 // File wrappers: each data file is `{ "$comment"?: string, "<key>": [...] }`.
 const file = <K extends string, T extends z.ZodType>(key: K, item: T) =>
   z.strictObject({ $comment: z.string().optional(), [key]: z.array(item) } as {
@@ -179,6 +197,9 @@ export const DocumentsFile = file('documents', DocumentRecord);
 export const JourneysFile = file('journeys', Journey);
 export const BordersFile = file('borders', BorderChange);
 export const PlacesFile = file('places', PlaceName);
+export const TenuresFile = file('tenures', Tenure);
+// person.json holds one record, not a list.
+export const PersonFile = z.strictObject({ $comment: z.string().optional(), person: Person });
 
 export type DateValue = z.infer<typeof DateValue>;
 export type SourceRecord = z.infer<typeof SourceRecord>;
@@ -190,3 +211,5 @@ export type JourneyLeg = z.infer<typeof JourneyLeg>;
 export type BorderChange = z.infer<typeof BorderChange>;
 export type PlaceName = z.infer<typeof PlaceName>;
 export type Vehicle = z.infer<typeof Vehicle>;
+export type Tenure = z.infer<typeof Tenure>;
+export type Person = z.infer<typeof Person>;

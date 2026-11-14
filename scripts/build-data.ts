@@ -1,6 +1,6 @@
 // data/*.json -> public/data/ (ARCHITECTURE ADR-07).
-// Validates structure with Zod, applies SPEC §6 rules 1-8, then writes:
-//   public/data/steps.json            events, places, journeys, borders, cited sources
+// Validates structure with Zod, applies SPEC §6 rules 1-11, then writes:
+//   public/data/steps.json            events, places, journeys, borders, tenures, birth, cited sources
 //   public/data/documents/<year>.json documents of that year, cited sources
 // Exits non-zero on any fatal violation, so Vercel stops before publishing.
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
@@ -11,8 +11,11 @@ import {
   DocumentsFile,
   EventsFile,
   JourneysFile,
+  PersonFile,
   PlacesFile,
   SourcesFile,
+  TenuresFile,
+  type Person,
 } from '../src/schema/index.ts';
 import { paths } from './lib/cli.ts';
 import { applyRules, type Dataset, type ReferenceEntry } from './lib/rules.ts';
@@ -31,6 +34,19 @@ function load<K extends string, T>(file: string, key: K, schema: ZodType<Record<
   }
   schemaErrors += parsed.error.issues.length;
   return [];
+}
+
+// person.json holds a single record, so it does not go through load().
+function loadPerson(): Person | null {
+  const path = join(DATA, 'person.json');
+  if (!existsSync(path)) return null;
+  const parsed = PersonFile.safeParse(JSON.parse(readFileSync(path, 'utf8')));
+  if (parsed.success) return parsed.data.person;
+  for (const issue of parsed.error.issues) {
+    console.error(`ŞEMA HATASI person.json: ${issue.path.join('.')}: ${issue.message}`);
+  }
+  schemaErrors += parsed.error.issues.length;
+  return null;
 }
 
 const reference = new Map<string, ReferenceEntry>();
@@ -54,6 +70,8 @@ const dataset: Dataset = {
   journeys: load('journeys.json', 'journeys', JourneysFile as never),
   borders: load('borders.json', 'borders', BordersFile as never),
   places: load('places.json', 'places', PlacesFile as never),
+  tenures: load('tenures.json', 'tenures', TenuresFile as never),
+  person: loadPerson(),
   reference,
 };
 if (schemaErrors > 0) {
@@ -116,11 +134,19 @@ const byDate =
 const events = [...kept.events].sort(byDate((e) => e.date.iso));
 const journeys = [...kept.journeys].sort(byDate((j) => j.legs[0]?.departure.iso ?? ''));
 const borders = [...kept.borders].sort(byDate((b) => b.effective.iso));
+const tenures = [...kept.tenures].sort(byDate((t) => t.start.iso));
 
 rmSync(OUT, { recursive: true, force: true });
 mkdirSync(join(OUT, 'documents'), { recursive: true });
 
-const steps = { events, places: kept.places, journeys, borders };
+const steps = {
+  events,
+  places: kept.places,
+  journeys,
+  borders,
+  tenures,
+  ...(kept.person ? { birth: kept.person.birth } : {}),
+};
 writeFileSync(
   join(OUT, 'steps.json'),
   JSON.stringify(clean({ ...steps, sources: publicSources(idsIn(steps)) })) + '\n',
@@ -141,5 +167,6 @@ for (const [year, documents] of byYear) {
 const dropped = violations.filter((v) => !v.fatal && v.rule !== 'uyarı').length;
 console.log(
   `build-data: ${events.length} olay, ${kept.documents.length} belge (${byYear.size} yıl dosyası), ` +
-    `${kept.places.length} yer, ${journeys.length} seyahat, ${borders.length} sınır; ${dropped} kayıt elendi.`,
+    `${kept.places.length} yer, ${journeys.length} seyahat, ${borders.length} sınır, ` +
+    `${tenures.length} rütbe/görev, doğum ${kept.person ? 'var' : 'yok'}; ${dropped} kayıt elendi.`,
 );

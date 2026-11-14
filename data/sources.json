@@ -270,8 +270,8 @@
       "rights": "acik-lisans",
       "licence": "CC-BY-SA-4.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 1 (2026-11-14). Lisans maddenin altbilgisinden (creativecommons.org/licenses/by-sa/4.0). Doğum: 'rumî 1296 (miladî 1880-1881)', 'doğum günü bilinmemektedir', 19 Mayıs'ı kendisi kabul etmiş. Bu bölümün dayanakları çoğunlukla telifli kitaplar (Aydemir, Mango); Wikidata'yı dayanak göstermiyor."
+      "verified": true,
+      "$note": "Parti 1 (2026-11-14). Lisans maddenin altbilgisinden (creativecommons.org/licenses/by-sa/4.0). Doğum: 'rumî 1296 (miladî 1880-1881)', 'doğum günü bilinmemektedir', 19 Mayıs'ı kendisi kabul etmiş. Bu bölümün dayanakları çoğunlukla telifli kitaplar (Aydemir, Mango); Wikidata'yı dayanak göstermiyor. Kullanıcı onayı: 2026-11-14 (parti 1)."
     },
     {
       "id": "wikidata-q5152-r2569089775",
@@ -282,8 +282,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "P569 tercihli: 1881 (yıl), en erken 1879, en geç 1881; dayanaklar GND, BnF, SNAC, Find a Grave ve Türkçe Vikipedi (P143). P569 normal: 1881-05-19, niteleyici P2308 = Q105769095 'conventional date'; dayanaklar Visuotinė lietuvių enciklopedija, Store norske leksikon. P19: Q17151, P1810 'Selânik'; dayanaklar GND, Büyük Rus Ansiklopedisi, Britannica, SNL. P69 (okullar) ifadelerinde dayanak yok, kaynak olarak kullanılmadı."
+      "verified": true,
+      "$note": "P569 tercihli: 1881 (yıl), en erken 1879, en geç 1881; dayanaklar GND, BnF, SNAC, Find a Grave ve Türkçe Vikipedi (P143). P569 normal: 1881-05-19, niteleyici P2308 = Q105769095 'conventional date'; dayanaklar Visuotinė lietuvių enciklopedija, Store norske leksikon. P19: Q17151, P1810 'Selânik'; dayanaklar GND, Büyük Rus Ansiklopedisi, Britannica, SNL. P69 (okullar) ifadelerinde dayanak yok, kaynak olarak kullanılmadı. Kullanıcı onayı: 2026-11-14 (parti 1)."
     },
     {
       "id": "wikidata-q17151-r2566115438",
@@ -294,8 +294,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "P625: 40.640277777777776, 22.935555555555556; dayanak: İngilizce Vikipedi (P143)."
+      "verified": true,
+      "$note": "P625: 40.640277777777776, 22.935555555555556; dayanak: İngilizce Vikipedi (P143). Kullanıcı onayı: 2026-11-14 (parti 1)."
     },
     {
       "id": "naturalearth-ne50m-populated-places",
@@ -305,8 +305,8 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Selanik ne_110m dosyasında yok; ne_50m: Thessaloniki, NE_ID 1159150955, WIKIDATAID Q17151, 40.698052, 22.883055."
+      "verified": true,
+      "$note": "Selanik ne_110m dosyasında yok; ne_50m: Thessaloniki, NE_ID 1159150955, WIKIDATAID Q17151, 40.698052, 22.883055. Kullanıcı onayı: 2026-11-14 (parti 1)."
     },
     {
       "id": "wikisource-eb1922-mustapha-kemal",

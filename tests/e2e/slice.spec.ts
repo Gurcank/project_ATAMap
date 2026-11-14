@@ -1,9 +1,11 @@
 // Faz 4, first vertical slice (SPEC §4, §4.1, §4.2, §4.3, §5.3), run at 375 / 768 / 1280.
-// The data is the real, verified set: 20 TBMM speeches 1920-1938, all at Ankara. The 1920 card has
-// no full text (Arabic-script original), 1930 is a Latin-script A4 sheet.
+// The data is the real, verified set: the birth at Selanik (19 May 1881, a conventional date, A25)
+// and 20 TBMM speeches 1920-1938 at Ankara. The 1920 card has no full text (Arabic-script
+// original), 1930 is a Latin-script A4 sheet.
 import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Page, type TestInfo } from '@playwright/test';
 
+const BIRTH = '/#adim=dogum-selanik'; // the first step
 const FIRST = '/#adim=tbmm-nutuk-1920-04-24'; // citation card
 const LATIN = '/#adim=tbmm-acilis-1930-11-01'; // A4 sheet
 
@@ -29,14 +31,23 @@ async function open(page: Page, url: string) {
   await settled(page);
 }
 
-test('first step: map, year, event text, controls', async ({ page }, info) => {
+test('the first step is the birth at Selanik', async ({ page }, info) => {
+  await open(page, BIRTH);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText("Selanik'te doğdu");
+  await expect(page.getByText('19 Mayıs 1881')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Önceki' })).toBeDisabled();
+  await expect(page.locator('svg').getByText('Selanik', { exact: true })).toBeVisible();
+  await shot(page, info, 'dogum');
+});
+
+test('1920 step: map, year, event text, controls', async ({ page }, info) => {
   await open(page, FIRST);
   await expect(page.getByRole('heading', { level: 2 })).toHaveText(
     'Mustafa Kemal Paşa Meclise siyasi ahvali anlattı',
   );
   await expect(page.getByText('24 Nisan 1920')).toBeVisible();
   await expect(page.getByText('1920', { exact: true })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Önceki' })).toBeDisabled();
+  await expect(page.getByRole('button', { name: 'Önceki' })).toBeEnabled();
   await expect(page.getByRole('button', { name: 'Sonraki' })).toBeEnabled();
   // The map label; the status cartouche also names the place (SPEC K3).
   await expect(page.locator('svg').getByText('Ankara', { exact: true })).toBeVisible();
@@ -48,17 +59,18 @@ test('first step: map, year, event text, controls', async ({ page }, info) => {
   await shot(page, info, 'ilk-adim');
 });
 
-test('status cartouche: the real data has no birth date or tenures yet, only the place', async ({
+test('status cartouche: age from the birth date, place; no tenures in the data yet', async ({
   page,
 }, info) => {
-  await open(page, FIRST);
+  await open(page, FIRST); // 24 April 1920, 19 May 1881 + 38 years not yet reached the 39th
   const status = page.getByRole('region', { name: 'Durum' });
   if (info.project.name === 'mobil-375') {
-    await expect(status.getByRole('button')).toHaveAccessibleName('Durum');
+    await expect(status.getByRole('button')).toHaveAccessibleName('Durum: 38 yaşında');
     await status.getByRole('button').click();
   }
-  await expect(status.locator('dt')).toHaveText(['Yer']);
-  await expect(status.locator('dd')).toHaveText(['Ankara']);
+  await expect(status.locator('dt')).toHaveText(['Yaş', 'Yer']);
+  await expect(status.locator('dd')).toHaveText(['38', 'Ankara']);
+  await expect(status.getByText('yaklaşık')).toHaveCount(0);
 });
 
 test('map keeps at least 55 % of the height at 375 (SPEC §4.3)', async ({ page }, info) => {

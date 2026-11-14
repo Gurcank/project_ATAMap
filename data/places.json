@@ -29,7 +29,7 @@
           "wikidata-q17151-r2566115438",
           "naturalearth-ne50m-populated-places"
         ],
-        "$note": "Wikidata P625: 40.640277777777776, 22.935555555555556. Natural Earth ne_50m: 40.698052, 22.883055 (yaklaşık 7,8 km kuzeybatı). Ankara'daki 2,2 km farktan büyük; şehir ölçeğinde kabul edilip edilmeyeceği kullanıcıya soruldu."
+        "$note": "Wikidata P625: 40.640277777777776, 22.935555555555556. Natural Earth ne_50m: 40.698052, 22.883055 (yaklaşık 7,8 km kuzeybatı). Fark kullanıcı tarafından kabul edildi (2026-11-14); saklanan değer Wikidata'nınki."
       },
       "names": [
         {
@@ -38,7 +38,7 @@
             "vikipedi-tr-ataturk-38564203",
             "wikidata-q5152-r2569089775"
           ],
-          "$note": "Vikipedi metni 'Selanik' (yer yer 'Selânik'); Wikidata P19 niteleyicisi P1810 'Selânik'. Yazım farkı (â) kullanıcıya soruldu. validFrom/validTo kaynaksız olduğu için yazılmadı."
+          "$note": "Vikipedi metni 'Selanik'; Wikidata P19 niteleyicisi P1810 'Selânik'. Kullanıcı kararı: 'Selanik' (2026-11-14). validFrom/validTo kaynaksız olduğu için yazılmadı."
         }
       ],
       "modernName": "Selanik (Thessaloniki)"

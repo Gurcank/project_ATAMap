@@ -1,7 +1,7 @@
 # Kronoloji, parti 1: Selanik'te doğum ve okullar
 
 > Kapsam: doğumdan Manastır'a gidişe kadar (dönem sınırları 2026-11-14 önerisi; 12 parti 1881-1938'i boşluksuz kapsar).
-> Durum: **onay bekliyor.** Doğum tarihi kararı verildi (aşağıda). Bütün kayıtlar `verified: false`; hiçbiri sitede değil.
+> Durum: **onaylandı (2026-11-14).** Doğum ve Selanik sitede; tek kaynaklı adaylar sitede değil. Bütün kayıtlar `verified: false`; hiçbiri sitede değil.
 > Araştırma tarihi: 2026-11-14. Kaynak kuralı: SPEC §2.2 (A19, K4).
 
 ## Kullanılan kaynaklar
@@ -48,7 +48,8 @@ Denenip kullanılamayanlar: ABD Kongre Kütüphanesi *Turkey: A Country Study* s
 ## Kararlar
 
 - **2026-11-14, doğum tarihi:** kullanıcı kararıyla 19 Mayıs 1881 kalır. Kayıt `conventional: true` ile "kabul edilen tarih" olarak işaretli (SPEC A25). İki kaynak bu tarihi kabul edilen tarih olarak destekliyor. Arayüzde rozet yok.
-- **Açık:** Selanik koordinatındaki 7,8 km fark; "Selanik" ya da "Selânik"; partinin genel onayı.
+- **2026-11-14, Selanik:** 7,8 km koordinat farkı kabul edildi, Wikidata değeri saklanır. Dönem adı "Selanik".
+- **2026-11-14:** parti onaylandı; dört kaynak `verified: true`. 1922 Britannica kayıtta kullanılmadığı için `verified: false` kaldı.
 
 ## Genel sonuç
 

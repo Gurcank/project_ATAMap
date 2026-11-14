@@ -425,6 +425,42 @@
       "free": true,
       "verified": true,
       "$note": "Parti 7. Nominatim araması (2026-11-14): 40.2816240, 26.3292410. Koordinatı teyit için kullanıldı; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-14 (parti 7)."
+    },
+    {
+      "id": "liman-fuenf-jahre-tuerkei-1920-s396-399",
+      "institution": "Internet Archive (Toronto Üniversitesi kütüphanesi taraması)",
+      "citation": "Liman von Sanders, Fünf Jahre Türkei, Berlin: August Scherl, 1920, s. 396-399",
+      "url": "https://archive.org/details/fnfjahretrke00limauoft/page/399/mode/1up",
+      "page": "396-399",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 8. Sayfa taramalarından okundu. s. 396: 25 Ekim'de Halep'in güneyinde çarpışmalar; s. 397: 'Am Abend verlegte Mustapha Kemal seinen Standort aus der Stadt heraus … Aleppo wurde geräumt.' s. 399: 'Am 31. Oktober übergab ich in Adana den Oberbefehl an Mustapha Kemal Pascha' ve 'Adana, den 31. Oktober 1918' tarihli veda emri (tarihli birincil belge, kitapta birebir aktarılmış). Telif ve bağımsızlık: liman-fuenf-jahre-tuerkei-1920 kaydındaki not."
+    },
+    {
+      "id": "wikidata-q41183-r2567296857",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q41183 (Halep), P625 koordinat, revizyon 2567296857",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q41183.json?revision=2567296857",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 8. P625: 36.2, 37.16 (kaba değer); dayanak İngilizce Vikipedi (P143)."
+    },
+    {
+      "id": "wikidata-q38545-r2564834471",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q38545 (Adana), P625 koordinat, revizyon 2564834471",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q38545.json?revision=2564834471",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 8. Üç P625 değeri var; ilki (36.9863599, 35.3252861) dayanaksız, ikincisi GeoNames 325363 dayanaklı (36.98615, 35.32531). Saklanan değer GeoNames dayanaklı olan."
     }
   ]
 }

@@ -526,6 +526,48 @@
       ],
       "$note": "Parti 7, kullanıcı onayı 2026-11-14.",
       "placeId": "conk-bayiri"
+    },
+    {
+      "id": "halep-1918-10-25",
+      "date": {
+        "iso": "1918-10-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "liman-fuenf-jahre-tuerkei-1920-s396-399"
+        ],
+        "$note": "Vikipedi: '25 Ekim'de Halep düştü'. Liman s. 396-397: 25 Ekim çarpışmaları, aynı akşam karargâhın taşınması ve Halep'in boşaltılması."
+      },
+      "title": "Halep'ten çekildi",
+      "text": "Halep'in güneyindeki çarpışmaların ardından karargâhını şehrin dışına taşıdı; Halep boşaltıldı ve 7. Ordu kuzeye çekildi.",
+      "placeId": "halep",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "liman-fuenf-jahre-tuerkei-1920-s396-399"
+      ],
+      "$note": "Parti 8."
+    },
+    {
+      "id": "adana-1918-10-31",
+      "date": {
+        "iso": "1918-10-31",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "liman-fuenf-jahre-tuerkei-1920-s396-399"
+        ],
+        "$note": "Tek kaynak: Liman'ın kitabında birebir aktarılan 'Adana, den 31. Oktober 1918' tarihli veda emri (tarihli birincil belge, SPEC §2.2). Vikipedi devri anlatıyor, tarih vermiyor."
+      },
+      "title": "Ordular Grubu'nun komutasını devraldı",
+      "text": "Liman von Sanders, Adana'da Yıldırım Ordular Grubu'nun komutasını Mustafa Kemal Paşa'ya devretti.",
+      "placeId": "adana",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "liman-fuenf-jahre-tuerkei-1920-s396-399"
+      ],
+      "$note": "Parti 8. 'Yıldırım Ordular Grubu' adı Vikipedi'den; Liman 'Heeresgruppe' diyor."
     }
   ]
 }

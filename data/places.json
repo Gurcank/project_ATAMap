@@ -132,6 +132,51 @@
         }
       ],
       "modernName": "Büyükanafarta"
+    },
+    {
+      "id": "halep",
+      "point": {
+        "lon": 37.16,
+        "lat": 36.2,
+        "sources": [
+          "wikidata-q41183-r2567296857",
+          "naturalearth-ne50m-populated-places"
+        ],
+        "$note": "Wikidata P625: 36.2, 37.16 (kaba). Natural Earth ne_50m Aleppo (NE_ID 1159151267): 36.231917, 37.168074 (yaklaşık 3,6 km). Kullanıcıya soruldu."
+      },
+      "names": [
+        {
+          "name": "Halep",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "liman-fuenf-jahre-tuerkei-1920-s396-399"
+          ],
+          "$note": "Vikipedi 'Halep', Liman 'Aleppo'. Gelibolu'daki karara göre yazım Vikipedi'den."
+        }
+      ],
+      "modernName": "Aleppo"
+    },
+    {
+      "id": "adana",
+      "point": {
+        "lon": 35.32531,
+        "lat": 36.98615,
+        "sources": [
+          "wikidata-q38545-r2564834471",
+          "naturalearth-ne50m-populated-places"
+        ],
+        "$note": "Wikidata P625 (GeoNames dayanaklı): 36.98615, 35.32531. Natural Earth ne_50m Adana (NE_ID 1159149381): 36.996935, 35.318058 (yaklaşık 1,3 km)."
+      },
+      "names": [
+        {
+          "name": "Adana",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "liman-fuenf-jahre-tuerkei-1920-s396-399"
+          ],
+          "$note": "Vikipedi ve Liman ikisi de 'Adana'."
+        }
+      ]
     }
   ]
 }

@@ -889,10 +889,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 7 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 20 Ocak - 1 Eylül 1915 ve Sofya ataşeliğinin başlangıcı (27 Ekim 1913)."
+      "$note": "K5 yeniden taraması, parti 7 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 20 Ocak - 1 Eylül 1915 ve Sofya ataşeliğinin başlangıcı (27 Ekim 1913). Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
     },
     {
       "id": "msb-askeri-gorevleri-p7",
@@ -901,10 +901,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
-      "$note": "K5 taraması, parti 7 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt."
+      "$note": "K5 taraması, parti 7 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
     },
     {
       "id": "ataturk-ansiklopedisi-388-p7",
@@ -915,8 +915,8 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 7. Resmî kaynak (A27), yalnız olgu. Madde başlığında 'Mustafa Kemal’in Sofya Ataşemiliterliği (27 Ekim 1913 – 20 Ocak 1915)'. Parti onayına kadar beklesin diye onaylı 'ataturk-ansiklopedisi-388' kaydından ayrı."
+      "verified": true,
+      "$note": "K5 taraması, parti 7. Resmî kaynak (A27), yalnız olgu. Madde başlığında 'Mustafa Kemal’in Sofya Ataşemiliterliği (27 Ekim 1913 – 20 Ocak 1915)'. Parti onayına kadar beklesin diye onaylı 'ataturk-ansiklopedisi-388' kaydından ayrı. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
     },
     {
       "id": "wikidata-q182009-r2557664978",
@@ -927,8 +927,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 7. P625: 40.983333, 27.516667; dayanak P143 Q206855."
+      "verified": true,
+      "$note": "K5 taraması, parti 7. P625: 40.983333, 27.516667; dayanak P143 Q206855. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
     },
     {
       "id": "wikidata-q1023153-r2532328663",
@@ -939,8 +939,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 7. P625: 40.184167, 26.3575; dayanak P143 Q1194038, Q1985727."
+      "verified": true,
+      "$note": "K5 taraması, parti 7. P625: 40.184167, 26.3575; dayanak P143 Q1194038, Q1985727. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
     },
     {
       "id": "wikidata-q6841849-r2523380955",
@@ -951,8 +951,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 7. P625: 40.236111, 26.359444; dayanaksız."
+      "verified": true,
+      "$note": "K5 taraması, parti 7. P625: 40.236111, 26.359444; dayanaksız. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
     },
     {
       "id": "osm-relation-1815219",
@@ -963,8 +963,8 @@
       "rights": "acik-lisans",
       "licence": "ODbL-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 7. Nominatim (2026-11-14): 40.1852143, 26.3590969 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki."
+      "verified": true,
+      "$note": "K5 taraması, parti 7. Nominatim (2026-11-14): 40.1852143, 26.3590969 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
     },
     {
       "id": "osm-node-1483545640",
@@ -975,8 +975,8 @@
       "rights": "acik-lisans",
       "licence": "ODbL-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 7. Nominatim (2026-11-14): 40.2357180, 26.3597320 (köy). Koordinatı teyit için; saklanan değer Wikidata'nınki."
+      "verified": true,
+      "$note": "K5 taraması, parti 7. Nominatim (2026-11-14): 40.2357180, 26.3597320 (köy). Koordinatı teyit için; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 7)."
     }
   ]
 }

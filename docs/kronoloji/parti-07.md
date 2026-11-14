@@ -64,7 +64,7 @@ OpenStreetMap ODbL lisanslı; kullanılırsa atıf satırına eklenmesi gerekir.
 
 ## K5 yeniden taraması (2026-11-14)
 
-Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve «Askerî Görevleri» sayfası; Atatürk Ansiklopedisi (ATAM), «Mustafa Kemal’in Sofya Ataşemiliterliği». Hepsi resmî, yalnız olgu. Parti onayına kadar beklesin diye ayrı kaynak kayıtları açıldı (`msb-kronoloji-1905-1918-p7`, `msb-askeri-gorevleri-p7`, `ataturk-ansiklopedisi-388-p7`). Durum: **onay bekliyor**, yeni kayıtlar `verified: false`.
+Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve «Askerî Görevleri» sayfası; Atatürk Ansiklopedisi (ATAM), «Mustafa Kemal’in Sofya Ataşemiliterliği». Hepsi resmî, yalnız olgu. Parti onayına kadar beklesin diye ayrı kaynak kayıtları açıldı (`msb-kronoloji-1905-1918-p7`, `msb-askeri-gorevleri-p7`, `ataturk-ansiklopedisi-388-p7`). Durum: **onaylandı (2026-11-14)**, yeni olaylar, yerler ve Sofya görevi sitede.
 
 **Yeni olaylar:**
 
@@ -98,3 +98,5 @@ Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve 
 **Girmeyenler:** 18 Mart deniz harekâtı, 24 Mart 5. Ordu'nun kuruluşu ve 19/20 Aralık İngiliz çekilmesi (Atatürk'ün kendi olayları değil). Aralık 1915'te cepheden ayrılışı resmî kaynakta yok. 29-30 Mayıs, Kireçtepe ve II. Anafartalar yalnız Vikipedi'de.
 
 **Denenmeyen:** Atatürk Ansiklopedisi'nde başka madde aramak (Anafartalar, 19. Tümen). Sayfa bu sırada açılmadı.
+
+**Kararlar (2026-11-14):** Parti onaylandı. MSB kronolojisi sitedeki dört Çanakkale olayına kaynak olarak eklendi.

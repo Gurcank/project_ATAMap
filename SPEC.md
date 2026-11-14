@@ -19,6 +19,7 @@
 | 2026-11-14 | §2.3, §6 | `Tenure` kaydı (`rutbe`/`gorev`), `Person.birth`, `SourceRef.basedOn`; derleme kuralları 9-11; durum alanları metin bütçesi | K3, K4 (ARCHITECTURE ADR-15) |
 | 2026-11-14 | §2.2, §9.2 A19 | Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler listelendi | Kullanıcı kararı K4 |
 | 2026-11-14 | §9.2 A24-A26 | Durum kartuşu yerleşimi, doğum tarihi 19 Mayıs 1881, eşzamanlı görevler | Kullanıcı kararları (2026-11-14) |
+| 2026-11-14 | §2.2, §6, §9.2 A19, A27 | Resmî ve güvenilir devlet kaynağı tek başına yeter; hakları saklı resmî yayınlardan yalnız olgu alınır (`official`, `rights: 'hakki-sakli-olgu'`); kural 2, 5 ve 11 güncellendi; ipucu listesinden devlet siteleri çıktı | Kullanıcı kararı K5 (2026-11-14): bütün devlet kurumları, geriye dönük uygulanır |
 | 2026-11-14 | §6 `DateValue`, §9.2 A25 | `conventional` alanı: uzlaşmayla kabul edilen tarih. Doğum tarihi 19 Mayıs 1881 bu işaretle tutulur | Parti 1 araştırması: Vikipedi ve Wikidata gerçek doğum gününü bilinmiyor, 19 Mayıs'ı kabul edilen tarih olarak veriyor (`docs/kronoloji/parti-01.md`); kullanıcı kararı |
 
 ---
@@ -58,12 +59,14 @@
 - İstisna: Tarihli birincil belgenin kendisi (ör. telgrafın kendi tarihi, TBMM tutanağı) tek başına yeter.
 - İki kaynak çelişirse kayıt `doğrulanmadı` olur ve siteye girmez.
 - Kaynaklardan cümle kopyalanmaz; olay metnini biz yazarız (§2 tablo). Ücretli kaynak kullanılmaz.
-- **Teyit yalnız telifsiz ya da açık lisanslı kaynaklarla ve birincil belgelerle yapılır (A19, güncelleme 2026-11-14).** Hakları saklı yayınlar teyit kaynağı sayılmaz, ücretsiz olsalar bile. Örnekler: ata.msb.gov.tr kronolojisi, Belleten makaleleri, DAB/ATAM/MSB kitapları.
+- **Resmî ve güvenilir kaynak tek başına yeter (A27, K5, 2026-11-14).** Bir devlet kurumunun yayını resmî kaynaktır ve ikinci bir kaynakla doğrulanması gerekmez: TBMM, Resmî Gazete ve mevzuat, Millî Savunma Bakanlığı (ata.msb.gov.tr dahil), Atatürk Araştırma Merkezi (atam.gov.tr ve Atatürk Ansiklopedisi dahil), Devlet Arşivleri Başkanlığı, Kara Harp Okulu, Türk Tarih Kurumu (Belleten dahil). Kayıtta `official: true` ile işaretlenir.
+- **Hakları saklı resmî yayınlardan yalnız olgu alınır** (tarih, yer, unvan, olayın kendisi): `rights: 'hakki-sakli-olgu'`. Cümle kopyalanmaz, tam metin ve görsel alınmaz; olay metnini biz yazarız. Devlet dışı hakları saklı yayınlar (özel yayınevleri, dernekler, kişisel siteler) teyit kaynağı sayılmaz, yalnız ipucudur.
+- Resmî olmayan kaynaklarla teyit: en az iki bağımsız, telifsiz ya da açık lisanslı kaynak, ya da tarihli birincil belgenin kendisi (A19, güncelleme 2026-11-14).
 - **Vikipedi** (CC BY-SA) teyit kaynağı sayılabilir, ama ≥ 2 kaynaktan **en çok biri** Vikipedi olabilir. Diğeri Vikipedi dışından olur: birincil belge, Wikidata (CC0), Natural Earth ya da başka bir telifsiz veya açık lisanslı kaynak.
 - Vikipedi maddesi diğer kaynağı kendi dayanağı olarak gösteriyorsa ikisi **bağımsız sayılmaz** (`SourceRef.basedOn`, §6 kural 10).
 - Vikipedi kaynağı madde sürümüne kalıcı bağlantıyla (`oldid`) ve erişim tarihiyle kaydedilir: `rights: 'acik-lisans'`, `licence` dolu. Vikipedi'den cümle kopyalanmaz; olay metnini biz yazarız.
-- **Yalnız ipucu olan siteler** (kayıtta kaynak olamaz, §6 kural 11): ata.msb.gov.tr, atam.gov.tr, isteataturk.com, ataturkansiklopedisi.gov.tr, add.org.tr (kullanım koşulları: SOURCES §2.7). Kullanıcının elindeki *Gençler İçin Nutuk* (İş Bankası Kültür Yayınları, sadeleştirilmiş, fotoğraflı baskı) telifli; metni ve fotoğrafı kullanılmaz. Ondan bir bilgi gerekirse kullanıcıya sorulur, sayfayı kullanıcı okur.
-- Bu yayınlar yalnızca birincil belgeye ulaşmak için **ipucu** olarak okunabilir. Kayıtta kaynak olarak yer almazlar.
+- **Yalnız ipucu olan siteler** (kayıtta kaynak olamaz, §6 kural 11): isteataturk.com, add.org.tr (kullanım koşulları: SOURCES §2.7). *2026-11-14 (K5):* ata.msb.gov.tr, atam.gov.tr ve ataturkansiklopedisi.gov.tr devlet sitesi oldukları için bu listeden çıktı; resmî kaynak olarak olgu için kullanılır. Kullanıcının elindeki *Gençler İçin Nutuk* (İş Bankası Kültür Yayınları, sadeleştirilmiş, fotoğraflı baskı) telifli; metni ve fotoğrafı kullanılmaz. Ondan bir bilgi gerekirse kullanıcıya sorulur, sayfayı kullanıcı okur.
+- İpucu yayınlar yalnızca bir kaynağa ulaşmak için okunabilir. Kayıtta kaynak olarak yer almazlar.
 
 ### 2.3 Yazım kuralları (bizim metinlerimiz)
 - TDK yazım kuralları. Yer adları **dönem adıyla** yazılır (Selanik, Dersaadet, Manastır…).
@@ -257,6 +260,7 @@ type OriginalScript = 'latin' | 'arap';
 type RightsStatus =
   | 'kamu-mali'           // public domain: the only status allowed for any text shown on the site (§2.1)
   | 'acik-lisans'         // data only (e.g. CShapes CC BY-NC-SA 4.0); licence field required; never for text
+  | 'hakki-sakli-olgu'    // official state publication whose text is reserved: facts only, never text (K5; 2026-11-14)
   | 'telifli';            // build MUST reject: never shipped
 
 interface SourceRef {
@@ -271,6 +275,7 @@ interface SourceRef {
   free: true;             // paid sources are not allowed (§1 budget)
   verified: boolean;      // false => record is excluded from the build
   basedOn?: string[];     // ids of sources this one cites as its own basis => not independent of them (rule 10; 2026-11-14)
+  official?: boolean;     // a state institution's publication: one is enough (rule 5; K5, 2026-11-14)
 }
 
 interface GeoPoint {
@@ -368,10 +373,10 @@ interface Tenure {        // data/tenures.json
 
 **Derleme kuralları (build zamanında doğrulanır):**
 1. Herhangi bir kaynağı `verified === false` olan kayıt dışarıda kalır.
-2. `rights === 'telifli'` olan kayıt dışarıda kalır. Metin alanlarının (`fullText`) kaynağı yalnız `kamu-mali` olabilir.
+2. `rights === 'telifli'` olan kayıt dışarıda kalır. Metin alanlarının (`fullText`) kaynağı yalnız `kamu-mali` olabilir. `rights === 'hakki-sakli-olgu'` yalnız `official === true` kaynakta olabilir ve kayıt dışarıda kalmaz; yalnız olgu için kullanılır. *(2026-11-14)*
 3. `fullText` yalnız `originalScript === 'latin'` iken bulunabilir; aksi hâlde derleme başarısız olur.
 4. `attributionDisputed === true` ise `disputeNote` zorunlu.
-5. Her `DateValue` ve `GeoPoint` en az 2 kaynak taşır; tek kaynak yalnız `primaryDocument === true` ise kabul edilir.
+5. Her `DateValue` ve `GeoPoint` en az 2 kaynak taşır; tek kaynak `primaryDocument === true` ise ya da kaynak resmî ise (`official === true`, K5, 2026-11-14) kabul edilir.
 6. `BorderChange.geometry` kendi kaynağını taşır; `elle-cizim` ise kaynak tarifi zorunlu.
 7. `fullText` kaynakla karakter karakter karşılaştırılabilir olmalı (kaynak sayfa no zorunlu).
 8. Her kaynak `free === true` olmalı.
@@ -453,10 +458,11 @@ interface Tenure {        // data/tenures.json
 | A21 | Satır sonu tirelemesi (taranmış baskı) | Bölünmüş kelimeler birleştirilir (dizgi gereğidir). Paragraf, noktalama ve dönem yazımı (â, î, "Cümhuriyet") aynen kalır |
 | A22 | Elle aktarılan metnin ikinci okuması | Kullanıcı, tarama ile aktarımı yan yana karşılaştırıp onaylar. Onaydan önce kayıt `verified: false` kalır, siteye girmez |
 | A23 | Yer koordinatı kaynakları | Natural Earth populated places (kamu malı) + Wikidata (CC0). Biri yoksa başka telifsiz ikinci kaynak aranır |
-| A19 | Hakları saklı ücretsiz yayınlar teyit sayılır mı? | Hayır. Teyit için yalnız telifsiz ya da açık lisanslı kaynaklar ve birincil belgeler kullanılır. Hakları saklı yayınlar yalnız ipucudur (§2.2). *Güncelleme 2026-11-14 (K4):* Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler §2.2'de listelidir |
+| A19 | Hakları saklı ücretsiz yayınlar teyit sayılır mı? | Hayır. Teyit için yalnız telifsiz ya da açık lisanslı kaynaklar ve birincil belgeler kullanılır. Hakları saklı yayınlar yalnız ipucudur (§2.2). *Güncelleme 2026-11-14 (K4):* Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler §2.2'de listelidir. *Güncelleme 2026-11-14 (K5):* devlet kurumlarının yayınları resmî kaynaktır ve tek başına yeter (A27) |
 | A24 | Durum kartuşu (K3, 2026-11-14) | Sağ üstte yaş, rütbe, görev/unvan, bulunduğu yer. 375'te yalnız yaşı gösteren açılır düğme; 768 ve 1280'de tam kartuş. Atıf satırı sol üstte, künyenin altında |
 | A25 | Doğum tarihi (2026-11-14) | 19 Mayıs 1881, gün düzeyinde (kullanıcı kararı; K3'teki "19 Mayıs'ı doğum günü olarak kullanma" cümlesi bu kararla kalktı). ≥ 2 kaynak kuralı geçerli; iki uygun kaynak bulunamazsa doğum kaydı derlemeye girmez ve yaş gösterilmez. *Güncelleme 2026-11-14:* Kaynaklar gerçek doğum gününü bilinmiyor diye veriyor, 19 Mayıs'ı ise kabul edilen tarih olarak anıyor (parti 1). Kullanıcı kararıyla tarih 19 Mayıs 1881 kalır ve `conventional: true` ile işaretlenir. Kaynaklar bu tarihi kabul edilen tarih olarak desteklediği için ≥ 2 kaynak kuralı sağlanır. Arayüzde ayrı rozet yok; yaş bu tarihten kesin olarak hesaplanır |
 | A26 | Eşzamanlı görevler (2026-11-14) | Aynı tarihte geçerli bütün görevler gösterilir, başlama sırasıyla |
+| A27 | Resmî kaynak (K5, 2026-11-14) | Resmî ve güvenilir bir devlet kaynağı tek başına yeter: TBMM, Resmî Gazete ve mevzuat, Millî Savunma Bakanlığı (ata.msb.gov.tr dahil), Atatürk Araştırma Merkezi (atam.gov.tr ve Atatürk Ansiklopedisi dahil), Devlet Arşivleri Başkanlığı, Kara Harp Okulu, Türk Tarih Kurumu (Belleten dahil). Hakları saklı olanlardan yalnız olgu alınır. Çelişen kaynaklar varsa kayıt yine `doğrulanmadı` olur. Kural geriye dönük uygulanır: 1-10. partilerin adayları yeniden taranır |
 
 ---
 

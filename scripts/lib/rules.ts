@@ -56,13 +56,9 @@ export interface RuleResult {
 type Kind = 'event' | 'document' | 'journey' | 'border' | 'place' | 'tenure' | 'person';
 
 /** Sites that are hints only and never a source (SPEC §2.2, rule 11; terms in SOURCES §2.7). */
-export const HINT_ONLY_HOSTS = [
-  'ata.msb.gov.tr',
-  'atam.gov.tr',
-  'isteataturk.com',
-  'ataturkansiklopedisi.gov.tr',
-  'add.org.tr',
-] as const;
+// State sites (ata.msb.gov.tr, atam.gov.tr, ataturkansiklopedisi.gov.tr) left this list on
+// 2026-11-14 (K5): they are official sources, used for facts only.
+export const HINT_ONLY_HOSTS = ['isteataturk.com', 'add.org.tr'] as const;
 
 function hostOf(url: string | undefined): string | null {
   if (url === undefined) return null;
@@ -248,9 +244,12 @@ export function applyRules(ds: Dataset): RuleResult {
   };
 
   // Rule 5 with rule 10's limits: every DateValue and GeoPoint carries >= 2 independent sources,
-  // at most one of them Wikipedia; a DateValue may carry one when it is the dated primary document.
-  const checkSources = (id: string, where: string, sources: string[], needed: 1 | 2) => {
+  // at most one of them Wikipedia; one is enough when it is the dated primary document or an
+  // official state publication (K5).
+  const checkSources = (id: string, where: string, sources: string[], required: 1 | 2) => {
     const distinct = [...new Set(sources)];
+    const official = distinct.some((s) => sourceById.get(s)?.official === true);
+    const needed = official ? 1 : required;
     if (distinct.length !== sources.length) {
       fail(5, id, `${where}: aynı kaynak birden çok kez sayılmış`);
     }
@@ -273,7 +272,7 @@ export function applyRules(ds: Dataset): RuleResult {
       fail(
         5,
         id,
-        `${where}: ${distinct.length} kaynak var; en az 2 gerekir, tek kaynak yalnız primaryDocument ise kabul edilir`,
+        `${where}: ${distinct.length} kaynak var; en az 2 gerekir, tek kaynak yalnız primaryDocument ya da resmî kaynaksa kabul edilir`,
       );
     }
   };
@@ -413,6 +412,8 @@ export function applyRules(ds: Dataset): RuleResult {
     const s = sourceById.get(sid);
     if (!s) return null; // already reported as a reference error
     if (s.rights === 'telifli') return 'telifli';
+    // Facts from a reserved text are allowed only from an official state source (K5).
+    if (s.rights === 'hakki-sakli-olgu' && s.official !== true) return 'telifli';
     if (!s.verified) return 'unverified';
     return null;
   };
@@ -423,7 +424,11 @@ export function applyRules(ds: Dataset): RuleResult {
       for (const sid of sourceIdsOf(kind, rec)) {
         const why = unusable(sid);
         if (why === 'telifli') {
-          drop(2, key, `kaynak "${sid}" telifli; kayıt çıktıda yok`);
+          drop(
+            2,
+            key,
+            `kaynak "${sid}" telifli (ya da resmî olmayan hakları saklı bir yayın); kayıt çıktıda yok`,
+          );
           dropped.add(key);
           return false;
         }

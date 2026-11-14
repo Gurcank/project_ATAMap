@@ -9,7 +9,7 @@ Atatürk'ün 1881-1938 hayatı; mektup, telgraf, konuşma ve seyahatleri dönem 
 
 1. **Bütçe sıfır.** Ücretli paket, servis, font, veri, API anahtarı yok. Dış ağ isteği yok (CSP `default-src 'self'`).
 2. **Telifli içerik yok.** Belge tam metni yalnız aslı Latin harfli, Atatürk'ün kendi metni ise ve kaynaktan birebir. Transkripsiyon, sadeleştirme, çeviri, özet, editör notu yazma veya ekleme (SPEC §2.1).
-3. **Veri uydurma.** Tarih, yer, olay, koordinat, kaynak künyesi asla tahminle yazılmaz. Her tarih ve yer için ≥ 2 bağımsız telifsiz kaynak ya da tarihli birincil belge (SPEC §2.2). Test için gereken kayıtlar `tests/fixtures/` altında ve açıkça kurgu olarak işaretli.
+3. **Veri uydurma.** Tarih, yer, olay, koordinat, kaynak künyesi asla tahminle yazılmaz. Her tarih ve yer için ≥ 2 bağımsız telifsiz kaynak, tarihli birincil belge ya da tek bir resmî devlet kaynağı (SPEC §2.2, A27). Test için gereken kayıtlar `tests/fixtures/` altında ve açıkça kurgu olarak işaretli.
 4. **Dil yalnız Türkçe.** Arayüzde İngilizce kelime yok. Kod, tanımlayıcı ve yorumlar İngilizce olabilir.
 5. **Ham renk yalnız `src/styles/tokens.css`'te.** Başka her yerde `var(--…)`. `npm run check:tokens` denetler.
 6. **Sürümler tam sabit.** `package.json`'da `^`/`~` yok. Yeni paket: en az iki haftalık en yeni kararlı sürüm, lisansı açık, ARCHITECTURE §2'ye satır eklenir. Önce ihtiyacı sorgula; bütçe çok sıkı (§5).

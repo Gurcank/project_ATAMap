@@ -62,7 +62,8 @@ export const DateValue = z
     }
   });
 
-export const RightsStatus = z.enum(['kamu-mali', 'acik-lisans', 'telifli']);
+// 'hakki-sakli-olgu': an official state publication whose text is reserved; facts only (K5).
+export const RightsStatus = z.enum(['kamu-mali', 'acik-lisans', 'hakki-sakli-olgu', 'telifli']);
 
 export const SourceRecord = z.strictObject({
   id: z.string().min(1),
@@ -79,6 +80,8 @@ export const SourceRecord = z.strictObject({
   verified: z.boolean(),
   // Ids of sources this one cites as its own basis: the two are not independent (rule 10).
   basedOn: z.array(z.string()).optional(),
+  // A state institution's publication: one is enough for a date or a place (rule 5, K5).
+  official: z.boolean().optional(),
   $note: note,
 });
 

@@ -8,6 +8,7 @@
 
 | Tarih | Yer | Değişiklik |
 |---|---|---|
+| 2026-11-14 | ADR-07, §6.1 | Resmî kaynak (SPEC K5, A27): `SourceRef.official`, `rights: 'hakki-sakli-olgu'`; kural 2 bu kaynakları elemez, kural 5 tek resmî kaynağı kabul eder, kural 11'in listesi devlet dışı sitelere indi |
 | 2026-11-14 | ADR-15 | `DateValue.conventional` (SPEC A25 güncellemesi): doğum tarihi kabul edilen tarih olarak işaretli; yaş hesabı bu tarihi olduğu gibi kullanır |
 | 2026-11-14 | ADR-15, §4, §6.1 | Durum kartuşu (SPEC K3): `Tenure` ve `Person` kayıtları, `src/timeline/status.ts` saf hesap, derleme kuralları 9-11 (SPEC K4: Vikipedi ve ipucu siteler) |
 | 2026-10-27 | §2.3 | Faz 3 kurulumunda eklenen tip ve lint paketleri tabloya işlendi |
@@ -494,7 +495,8 @@ SPEC §7 önerisinin kesin hâli. Ölçüm `scripts/check-size.ts` (boyut) ve Li
 | 8 `free !== true` | birim | Çıkış ≠ 0 |
 | 9 `Tenure`: `start > end`, `gorev` için `end` yok, çakışan `rutbe` | birim | Çıkış ≠ 0 |
 | 10 Vikipedi: `oldid` yok / lisans yok / aynı tarihte iki Vikipedi / `basedOn` ile bağımlı iki kaynak | birim | Çıkış ≠ 0 |
-| 11 İpucu siteye giden kaynak URL'si | birim | Çıkış ≠ 0 |
+| 11 İpucu siteye giden kaynak URL'si (2026-11-14'ten beri yalnız devlet dışı siteler) | birim | Çıkış ≠ 0 |
+| 5 (K5) Tek resmî kaynak; `hakki-sakli-olgu` ama resmî değil; `hakki-sakli-olgu` kaynaklı `fullText` | birim | Kabul; çıkış ≠ 0; kayıt elenir |
 
 ### 6.2 SPEC §10 adımları → test
 

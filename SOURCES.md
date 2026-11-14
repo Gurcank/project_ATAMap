@@ -8,12 +8,12 @@
 
 1. **Telif politikası (2026-10-27, SPEC §2.1):** Sitede telifli içerik yok. Atatürk'ün kendi metinleri kamu malı (FSEK m.27, 70 yıl). Yeni transkripsiyonlar, sadeleştirmeler ve editör katkıları telifli sayılır. Bu yüzden tam metin **yalnız aslı Latin harfli** belgelerde gösterilir; Arap harfli asıllar künye kartıyla gösterilir. Eski "günümüz Türkçesi > eski Türkçe > Osmanlıca" önceliği kaldırıldı.
 2. **Kaynak türü:** Metinler yalnızca devlet kurumlarının yayınlarından alınır. Devlet kaynağı olmayan yayınlar (ör. özel yayınevleri) yalnızca "ipucu" olarak not edilir, siteye metin girmez. **Ücretli kaynak kullanılmaz** (sıfır bütçe).
-2a. **Tarih/yer teyidi (SPEC §2.2, A19):** En az 2 bağımsız, ücretsiz, telifsiz kaynak ya da tarihli birincil belgenin kendisi. Hakları saklı yayınlar (bu dosyadaki ATAM, DAB, MSB kitapları, Belleten, ata.msb.gov.tr) **teyit kaynağı değildir**. Yalnız birincil belgeye ulaşmak için ipucu olarak okunur.
+2a. **Tarih/yer teyidi (SPEC §2.2, A19, A27):** En az 2 bağımsız, ücretsiz, telifsiz kaynak ya da tarihli birincil belgenin kendisi. *2026-11-14 (K5):* Bir devlet kurumunun yayını resmî kaynaktır ve tek başına yeter: TBMM, Resmî Gazete ve mevzuat, Millî Savunma Bakanlığı (ata.msb.gov.tr dahil), Atatürk Araştırma Merkezi (atam.gov.tr ve Atatürk Ansiklopedisi dahil), Devlet Arşivleri Başkanlığı, Kara Harp Okulu, Türk Tarih Kurumu (Belleten dahil). Bunların hakları saklı olanlarından (ATAM, DAB, MSB kitapları, Belleten, ata.msb.gov.tr) yalnız olgu alınır: `official: true`, `rights: 'hakki-sakli-olgu'`. Devlet dışı hakları saklı yayınlar teyit kaynağı değildir.
 2b. **Vikipedi ve ipucu siteler (2026-11-14, SPEC K4):**
    - Vikipedi teyit kaynağı sayılabilir, ama ≥ 2 kaynaktan **en çok biri** Vikipedi olabilir. Diğeri Vikipedi dışından olur: birincil belge, Wikidata (CC0), Natural Earth ya da başka bir telifsiz veya açık lisanslı kaynak.
    - Vikipedi maddesi diğer kaynağı kendi dayanağı olarak gösteriyorsa ikisi bağımsız sayılmaz (`basedOn`).
    - Kayıt biçimi ve lisans: §2.6. Vikipedi'den cümle kopyalanmaz.
-   - **Yalnız ipucu**, kayıtta kaynak olamaz: ata.msb.gov.tr, atam.gov.tr, isteataturk.com, ataturkansiklopedisi.gov.tr, add.org.tr (§2.7) ve kullanıcının elindeki *Gençler İçin Nutuk* (İş Bankası Kültür Yayınları; sadeleştirilmiş, fotoğraflı baskı, telifli). Bu kitaptan bir bilgi gerekirse kullanıcıya sorulur, sayfayı kullanıcı okur.
+   - **Yalnız ipucu**, kayıtta kaynak olamaz: isteataturk.com, add.org.tr (§2.7). *2026-11-14 (K5):* ata.msb.gov.tr, atam.gov.tr ve ataturkansiklopedisi.gov.tr resmî kaynak olarak olgu için kullanılabilir. ve kullanıcının elindeki *Gençler İçin Nutuk* (İş Bankası Kültür Yayınları; sadeleştirilmiş, fotoğraflı baskı, telifli). Bu kitaptan bir bilgi gerekirse kullanıcıya sorulur, sayfayı kullanıcı okur.
 3. **İşaretler** (her kayıtta kullanılır):
    - `doğrulanmadı` — tarih, koordinat, sınır veya metin bir kaynakla eşleştirilemedi. Siteye girmez.
    - `atıf tartışmalı` — belgenin Atatürk'e ait olduğu kaynakta tartışmalı gösterilmiş. Siteye girerse etiketle girer.
@@ -63,7 +63,7 @@
 
 ### 2.3 MSB / Genelkurmay ATASE
 - *Askerî Tarih Belgeleri Dergisi* (eski adı *Harp Tarihi Vesikaları Dergisi*), ISSN 1300-0241, 1952'den beri. Bazı sayılar msb.gov.tr'de PDF: [100](https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_100.pdf), [117](https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_117.pdf), [118](https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_118.pdf), [129](https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_129.pdf), [133](https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_133.pdf), [139](https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_139.pdf), [144/1](https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_144_1_Cilt.pdf). Sayı listesi sayfası **bulunamadı**; ATBD_100.pdf yönlendirme döngüsü nedeniyle açılamadı.
-- [ata.msb.gov.tr kronoloji](https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi): 1881-1938, yıllara göre; tarih hassasiyeti gün/ay/yıl arasında değişiyor; kayıt başına kaynak **yok**, sayfa sonunda genel kaynakça var. **Yalnız ipucu** olarak kullanılır.
+- [ata.msb.gov.tr kronoloji](https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi): 1881-1938, yıllara göre; tarih hassasiyeti gün/ay/yıl arasında değişiyor; kayıt başına kaynak **yok**, sayfa sonunda genel kaynakça var. 2026-11-14'e kadar yalnız ipucuydu; K5'ten beri resmî kaynak olarak olgu için kullanılır (`rights: 'hakki-sakli-olgu'`).
 - "Mektup" veya "Telgraf" bölümü **yok** ([Belgeler](https://ata.msb.gov.tr/Sayfa/SayfaGoster/belgelerle-ataturk)). Altbilgi: "Her Hakkı Saklıdır".
 - "ATASE Harp Tarihi Belgeleri Dergisi" adlı bir yayın **bulunamadı**. Doğru ad: *Askerî Tarih Belgeleri Dergisi*.
 
@@ -108,7 +108,9 @@ Liste sayfasında 20 konuşma var: 24 Nisan 1920 – 1 Kasım 1938. Her biri iç
 - OCR metni Fraktur yüzünden bozuk; tarihler sayfa taramasından okunur ve kayıtta sayfa numarası yazılır.
 - İngilizce çevirisi (*Five Years in Turkey*, 1927) çevirmenin telif durumu doğrulanmadığı için kullanılmaz.
 
-### 2.7 Yalnız ipucu olan siteler: kullanım koşulları (2026-11-14)
+### 2.7 Hakları saklı siteler: kullanım koşulları (2026-11-14)
+
+*K5 (2026-11-14) sonrası:* tablodaki devlet siteleri (ata.msb.gov.tr, atam.gov.tr, ataturkansiklopedisi.gov.tr) resmî kaynak olarak olgu için kullanılır; isteataturk.com ve add.org.tr yalnız ipucu kalır.
 
 Hiçbirinde serbest lisans bulunamadı. Hepsi yalnız ipucudur, kayıtta kaynak olamaz (SPEC §6 kural 11).
 
@@ -234,7 +236,9 @@ npm registry'den alındı, 2026-10-26:
 
 ## 7. Listeler
 
-### 7.1 İzin gerekli (siteye girmez)
+### 7.1 İzin gerekli (metni siteye girmez)
+
+*2026-11-14 (K5):* Bu listedeki devlet yayınlarının (ATAM, DAB, MSB, TTK, TBMM) **metni** yine siteye girmez; ama tarih, yer ve unvan gibi olgular için resmî kaynak olarak kullanılabilirler.
 Her satırın linki ve gerekçe kaynağı §2'deki ilgili alt başlıktadır (ATAM §2.1, DAB §2.2, MSB §2.3, TTK §2.5).
 
 | Yayın | Kurum | Gerekçe |

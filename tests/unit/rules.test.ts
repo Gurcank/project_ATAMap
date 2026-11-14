@@ -87,6 +87,49 @@ describe('applyRules', () => {
     expect(violations.some((v) => v.id === 'journey:kurgu-yol' && v.rule === 1)).toBe(true);
   });
 
+  describe('official sources (K5)', () => {
+    // KURGU: a made-up state publication, facts only.
+    const official = (extra: Record<string, unknown> = {}) => ({
+      id: 'k-resmi',
+      institution: 'KURGU Bakanlığı',
+      citation: 'KURGU resmî kronoloji',
+      url: 'https://ata.msb.gov.tr/kurgu',
+      accessedAt: '2026-01-01',
+      rights: 'hakki-sakli-olgu' as const,
+      official: true,
+      free: true,
+      verified: true,
+      ...extra,
+    });
+
+    it('accepts one official source for a date, even from a former hint-only state site', () => {
+      const ds = validDataset();
+      ds.sources.push(official());
+      ds.events[0]!.date.sources = ['k-resmi'];
+      const { violations, kept } = applyRules(ds);
+      expect(violations).toEqual([]);
+      expect(kept.events).toHaveLength(1);
+    });
+
+    it('drops a record whose facts come from a reserved source that is not official', () => {
+      const ds = validDataset();
+      ds.sources.push(official({ official: false }));
+      ds.events[0]!.date.sources = ['k1', 'k-resmi'];
+      const { violations, kept } = applyRules(ds);
+      expect(kept.events).toHaveLength(0);
+      expect(violations.some((v) => v.id === 'event:kurgu-olay' && v.rule === 2)).toBe(true);
+    });
+
+    it('never takes a full text from a reserved official source', () => {
+      const ds = validDataset();
+      ds.sources.push(official());
+      ds.documents[0]!.sources = ['k1', 'k-resmi'];
+      const { violations, kept } = applyRules(ds);
+      expect(kept.documents.map((d) => d.id)).not.toContain('kurgu-belge');
+      expect(violations.some((v) => v.id === 'document:kurgu-belge' && v.rule === 2)).toBe(true);
+    });
+  });
+
   it('keeps an event but stops listing a dropped document', () => {
     const ds = validDataset();
     ds.sources.find((s) => s.id === 'k1')!.verified = false;

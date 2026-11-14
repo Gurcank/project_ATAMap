@@ -40,7 +40,7 @@ Bu kural altında parti 3'ten siteye kayıt girmiyor. İstanbul için hem koordi
 
 ## K5 yeniden taraması (2026-11-14)
 
-Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 ve 1905-1918 bölümleri (resmî, yalnız olgu). Parti onayına kadar beklesin diye bu parti için ayrı kaynak kayıtları açıldı (`msb-kronoloji-1881-1904-p3`, `msb-kronoloji-1905-1918-p3`). Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 ve 1905-1918 bölümleri (resmî, yalnız olgu). Parti onayına kadar beklesin diye bu parti için ayrı kaynak kayıtları açıldı (`msb-kronoloji-1881-1904-p3`, `msb-kronoloji-1905-1918-p3`). Durum: **onaylandı (2026-11-14)**, olaylar, İstanbul ve rütbe zinciri sitede.
 
 **Olaylar:**
 
@@ -72,4 +72,5 @@ Kaynak: MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1881-1904 ve 1905-1918 b�
 **Kararlar (2026-11-14):**
 - Rütbe adları MSB'nin bugünkü adlarıyla (SPEC A28): Teğmen, Üsteğmen, Kurmay yüzbaşı, Kolağası, Binbaşı, Yarbay, Albay, Tümgeneral. Yukarıdaki tablodaki "önerilen" unvanlar bu karara göre değişti.
 - İstanbul: ad "İstanbul", Wikidata noktası saklanır, 11,5 km fark kabul.
-- Partinin genel onayı bekleniyor.
+- Parti onaylandı (2026-11-14).
+- Düzeltme: Tümgeneral rütbesi 8 Temmuz 1919'daki askerlikten istifayla biter (Vikipedi, Nutuk s. 43). Bitiş olmasaydı rütbe 1921'deki Müşirliğe kadar kartuşta görünürdü; Nutuk s. 523'e göre bu arada rütbesi yoktu.

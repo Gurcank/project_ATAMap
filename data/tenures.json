@@ -236,9 +236,20 @@
       },
       "sources": [
         "msb-kronoloji-1905-1918-p3",
-        "vikipedi-tr-ataturk-38564203"
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929-s43"
       ],
-      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB 'mirlivalığa (tümgeneralliğe)', Vikipedi 'Tuğgeneralliğe (Mirliva)': bugünkü karşılık farklı, dönem unvanı ikisinde de 'Mirliva'. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Tümgeneral'."
+      "$note": "K5 taraması, parti 3 (rütbe zinciri). MSB 'mirlivalığa (tümgeneralliğe)', Vikipedi 'Tuğgeneralliğe (Mirliva)': bugünkü karşılık farklı, dönem unvanı ikisinde de 'Mirliva'. Unvan kullanıcı kararıyla (A28, 2026-11-14) MSB'nin bugünkü adıyla: 'Tümgeneral'. Bitiş 2026-11-14: 8 Temmuz 1919 istifası (onaylı kaynaklar).",
+      "end": {
+        "iso": "1919-07-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929-s43"
+        ],
+        "$note": "Askerlikten istifa: Nutuk s. 43 ('10.50 p.m. on the 8th July … I resigned my duties and my commission in the Army'), Vikipedi ('8-9 Temmuz gecesi … istifa etti'). Nutuk s. 523: Sakarya'dan sonrasına kadar askerî rütbesi yoktu."
+      }
     }
   ]
 }

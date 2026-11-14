@@ -15,6 +15,10 @@
 | 2026-10-27 | §9 A17 | Açık → kararlaştırıldı | ARCHITECTURE.md |
 | 2026-10-27 | §9.2 A20-A23 | Belge metni aktarım kuralları ve koordinat kaynakları eklendi (kullanıcı kararları) | TBMM taranmış tutanaklarının incelenmesi (SOURCES §2.4.1) |
 | 2026-10-27 | §7 fontlar satırı | "toplam ≤ 250 KB" → açılışta inen fontlar ≤ 250 KB + belge fontları ayrıca ≤ 200 KB (kullanıcı kararı) | Türkçe için `latin-ext` zorunlu; 7 kesimin toplamı 369,4 KB ölçüldü. Kesim çıkarmak tek başına sınırı karşılamıyordu (ARCHITECTURE ADR-12) |
+| 2026-11-14 | §3.5, §4, §4.2, §4.3 | Sağ üstte `StatusCartouche` (yaş, rütbe, görev/unvan, yer). "Üst kenar boş" kuralı değişti; atıf satırı sol üste, künyenin altına taşındı | Kullanıcı kararı K3 |
+| 2026-11-14 | §2.3, §6 | `Tenure` kaydı (`rutbe`/`gorev`), `Person.birth`, `SourceRef.basedOn`; derleme kuralları 9-11; durum alanları metin bütçesi | K3, K4 (ARCHITECTURE ADR-15) |
+| 2026-11-14 | §2.2, §9.2 A19 | Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler listelendi | Kullanıcı kararı K4 |
+| 2026-11-14 | §9.2 A24-A26 | Durum kartuşu yerleşimi, doğum tarihi 19 Mayıs 1881, eşzamanlı görevler | Kullanıcı kararları (2026-11-14) |
 
 ---
 
@@ -53,7 +57,11 @@
 - İstisna: Tarihli birincil belgenin kendisi (ör. telgrafın kendi tarihi, TBMM tutanağı) tek başına yeter.
 - İki kaynak çelişirse kayıt `doğrulanmadı` olur ve siteye girmez.
 - Kaynaklardan cümle kopyalanmaz; olay metnini biz yazarız (§2 tablo). Ücretli kaynak kullanılmaz.
-- **Teyit yalnız telifsiz kaynaklar ve birincil belgelerle yapılır (A19).** Hakları saklı yayınlar teyit kaynağı sayılmaz, ücretsiz olsalar bile. Örnekler: ata.msb.gov.tr kronolojisi, Belleten makaleleri, DAB/ATAM/MSB kitapları.
+- **Teyit yalnız telifsiz ya da açık lisanslı kaynaklarla ve birincil belgelerle yapılır (A19, güncelleme 2026-11-14).** Hakları saklı yayınlar teyit kaynağı sayılmaz, ücretsiz olsalar bile. Örnekler: ata.msb.gov.tr kronolojisi, Belleten makaleleri, DAB/ATAM/MSB kitapları.
+- **Vikipedi** (CC BY-SA) teyit kaynağı sayılabilir, ama ≥ 2 kaynaktan **en çok biri** Vikipedi olabilir. Diğeri Vikipedi dışından olur: birincil belge, Wikidata (CC0), Natural Earth ya da başka bir telifsiz veya açık lisanslı kaynak.
+- Vikipedi maddesi diğer kaynağı kendi dayanağı olarak gösteriyorsa ikisi **bağımsız sayılmaz** (`SourceRef.basedOn`, §6 kural 10).
+- Vikipedi kaynağı madde sürümüne kalıcı bağlantıyla (`oldid`) ve erişim tarihiyle kaydedilir: `rights: 'acik-lisans'`, `licence` dolu. Vikipedi'den cümle kopyalanmaz; olay metnini biz yazarız.
+- **Yalnız ipucu olan siteler** (kayıtta kaynak olamaz, §6 kural 11): ata.msb.gov.tr, atam.gov.tr, isteataturk.com, ataturkansiklopedisi.gov.tr, add.org.tr (kullanım koşulları: SOURCES §2.7). Kullanıcının elindeki *Gençler İçin Nutuk* (İş Bankası Kültür Yayınları, sadeleştirilmiş, fotoğraflı baskı) telifli; metni ve fotoğrafı kullanılmaz. Ondan bir bilgi gerekirse kullanıcıya sorulur, sayfayı kullanıcı okur.
 - Bu yayınlar yalnızca birincil belgeye ulaşmak için **ipucu** olarak okunabilir. Kayıtta kaynak olarak yer almazlar.
 
 ### 2.3 Yazım kuralları (bizim metinlerimiz)
@@ -75,6 +83,7 @@
 | Belge metni (A4) | Sınırsız (kaynak ne ise) | Birebir kural; A4 içinde kaydırma |
 | Künye satırı | ≤ 2 satır | Kurum, yayın, cilt/sayfa, belge no |
 | Buton/araç ipucu | ≤ 3 kelime | "Önceki", "Sonraki", "Otomatik" |
+| Durum kartuşu alanları (rütbe, görev/unvan, yer) | Kaynakta yazıldığı gibi, kısaltılmaz *(2026-11-14)* | 768 ve üstünde satır kaydırır; 375'te açılır panelde tam görünür |
 
 ---
 
@@ -127,7 +136,9 @@ Gerekçe: Kartuş çerçeveleri 1 px çift çizgi + 4 px ara kullanır, bu yüzd
   - **Orta alt — Kontroller:** küçük ve dar; önceki/sonraki + mod seçici + otomatik.
   - **Sağ alt — Olay:** okunacak metin; en geniş kartuş.
 - Üç kartuş eşit genişlikte **değildir**, aynı taban çizgisine de oturmaz: yıl kartuşu en alçak, olay kartuşu en yüksek.
-- Üst kenar boş. Haritanın kendisi başlıktır. Sitenin adı yalnız küçük bir künye olarak sol üstte, yazı karakteriyle, logo olmadan durur.
+- Üst kenarda iki öğe durur *(2026-11-14, K3; eski kural: "Üst kenar boş")*:
+  - **Sol üst:** sitenin adı küçük bir künye olarak (yazı karakteriyle, logo yok), altında atıf satırı.
+  - **Sağ üst — Durum:** yaş, rütbe, görev/unvan, bulunduğu yer. Yıl kartuşundan küçük ve görsel olarak hafif. Haritanın kendisi başlık olmayı sürdürür.
 
 ### 3.6 Akılda kalacak tek öğe
 **Gönderildiği noktadan açılan A4 belge.** Telgraf veya mektup işaretinin üzerine gelince, belge haritanın üstünde, gönderildiği şehrin hemen yanında, sararmış A4 kâğıdı olarak açılır. Önizleme yok, doğrudan tam metin ve altında künye. Diğer her şey (araçlar, rotalar, sınırlar) bu anı hazırlar.
@@ -149,6 +160,7 @@ Tek ekran. Bileşenler:
 | `YearCartouche` (sol alt) | Yıl + "yaklaşık" rozeti | Yıl değişiminde rakam geçiş animasyonu |
 | `StepControls` (orta alt) | Önceki / Sonraki, adım birimi seçici (olay/seyahat/yıl), Otomatik | Klavye: ← → adım, Boşluk otomatik |
 | `EventCartouche` (sağ alt) | Olay başlığı + metni + kaynak bağlantısı | `aria-live="polite"` |
+| `StatusCartouche` (sağ üst) *(2026-11-14)* | Yaş (+ "yaklaşık"), rütbe, görev/unvan, bulunduğu yer | Kartuş dili (§3.1). Verisi olmayan alan satırıyla birlikte gizlenir; dört alan da boşsa kartuş çizilmez. Birden çok görev geçerliyse hepsi başlama sırasıyla (A26). `aria-live` yok: adım değişimini `EventCartouche` zaten duyuruyor, ikinci canlı bölge duyuruyu ikiye katlar. `<section aria-label="Durum">` + `<dl>`. Animasyon yok: değerler adımla anında değişir |
 | `Attribution` | Altlık ve veri atıfları | Lisanslar gerektirdiği için zorunlu (SOURCES §3, §5) |
 
 ### 4.1 Etkileşim
@@ -169,6 +181,8 @@ Tek ekran. Bileşenler:
 | **Boş: yıl modunda kayıtsız yıl** | Atlanır. Yıl göstergesi aradaki yılları hızla sayarak geçer (A4) |
 | **Boş: belgenin tam metni yok** (aslı Arap harfli) | A4 yerine `CitationCard` açılır |
 | **Boş: telifli metin** | Bu durum oluşmaz: telifli metin veri derlemesine girmez (§6 kuralı) |
+| **Yükleniyor** (durum kartuşu) | İlk açılışta 768 ve üstünde iskelet çerçeve; 375'te düğmenin yeri boş kalır. Öğe haritanın üstünde mutlak konumlu olduğu için yerleşim kayması olmaz *(2026-11-14)* |
+| **Boş: durum alanı** | Verisi olmayan alan görünmez. Hiçbiri yoksa kartuş (375'te düğme) görünmez. Ayrıca mesaj gösterilmez *(2026-11-14)* |
 | **Uç: ilk/son adım** | İlgili buton `disabled` + görsel olarak soluk; otomatik mod sonda durur |
 | **Uç: hareket azaltma** | §5.3 |
 
@@ -176,9 +190,9 @@ Tek ekran. Bileşenler:
 
 | Genişlik | Yerleşim |
 |---|---|
-| **375** | Kartuşlar tek bir alt şeritte birleşir: üst satırda yıl (39 px) + olay başlığı, altında olay metni (en fazla 5 satır; uzunsa "devamı" ile açılır), en altta kontroller (her biri ≥ 44 px). Mod seçici açılır menü olur. A4 tam ekran sayfa olarak açılır. Haritanın görünen alanı ≥ ekran yüksekliğinin %55'i |
-| **768** | Yıl sol alt, olay sağ alt (genişlik 320); kontroller ikisinin üstünde ortada. A4 ekran yüksekliğinin %85'i, ortada |
-| **1280** | §3.5 tam asimetrik yerleşim. Yıl 96 px. Olay kartuşu 360 px. A4 yüksekliği 80vh, işaretin yanında açılır; ekrana sığmazsa ortalanır |
+| **375** | Kartuşlar tek bir alt şeritte birleşir: üst satırda yıl (39 px) + olay başlığı, altında olay metni (en fazla 5 satır; uzunsa "devamı" ile açılır), en altta kontroller (her biri ≥ 44 px). Mod seçici açılır menü olur. A4 tam ekran sayfa olarak açılır. Sağ üstte yalnız yaşı gösteren durum düğmesi (≥ 44×44 px, `aria-expanded`; yaş yoksa etiket "Durum"). Dokununca dört alan haritanın üstünde açılır; düğme, dışarıya dokunma veya `Esc` kapatır, odak düğmeye döner. Sol üstte künye ve atıf, düğmeyle çakışmadan satır kaydırır *(2026-11-14)*. Haritanın görünen alanı ≥ ekran yüksekliğinin %55'i (durum düğmesi kapalıyken ölçülür) |
+| **768** | Yıl sol alt, olay sağ alt (genişlik 320); kontroller ikisinin üstünde ortada. Durum kartuşu sağ üstte, dört satır, genişlik 18rem *(2026-11-14)*. A4 ekran yüksekliğinin %85'i, ortada |
+| **1280** | §3.5 tam asimetrik yerleşim. Durum kartuşu sağ üstte, genişlik 20rem *(2026-11-14)*. Yıl 96 px. Olay kartuşu 360 px. A4 yüksekliği 80vh, işaretin yanında açılır; ekrana sığmazsa ortalanır |
 
 ---
 
@@ -254,6 +268,7 @@ interface SourceRef {
   licence?: string;       // SPDX-like id or URL when rights === 'acik-lisans'
   free: true;             // paid sources are not allowed (§1 budget)
   verified: boolean;      // false => record is excluded from the build
+  basedOn?: string[];     // ids of sources this one cites as its own basis => not independent of them (rule 10; 2026-11-14)
 }
 
 interface GeoPoint {
@@ -333,6 +348,20 @@ interface PlaceName {
   }[];
   modernName?: string;    // shown only in the künye line, in parentheses; never on the map (A10)
 }
+
+// ---- Status cartouche (2026-11-14, K3; ARCHITECTURE ADR-15) ----
+interface Person {        // data/person.json, a single record
+  birth: DateValue;       // same >= 2 source rule (rule 5); 19 May 1881 by user decision (A25)
+}
+
+interface Tenure {        // data/tenures.json
+  id: string;
+  kind: 'rutbe' | 'gorev';
+  title: string;          // period form, verbatim as printed in the source; never written from memory
+  start: DateValue;
+  end?: DateValue;        // 'rutbe': may be omitted => ends where the next 'rutbe' starts; 'gorev': required
+  sources: SourceRef[];
+}
 ```
 
 **Derleme kuralları (build zamanında doğrulanır):**
@@ -344,6 +373,9 @@ interface PlaceName {
 6. `BorderChange.geometry` kendi kaynağını taşır; `elle-cizim` ise kaynak tarifi zorunlu.
 7. `fullText` kaynakla karakter karakter karşılaştırılabilir olmalı (kaynak sayfa no zorunlu).
 8. Her kaynak `free === true` olmalı.
+9. `Tenure`: `start ≤ end`; `gorev` için `end` zorunlu; iki `rutbe` aralığı çakışmaz. Tarihleri kural 5'e tabidir. Kaynakta bulunmayan aralık yazılmaz. *(2026-11-14)*
+10. Vikipedi (`*.wikipedia.org`) kaynağı: URL'de `oldid` zorunlu, `rights: 'acik-lisans'`, `licence` dolu. Bir `DateValue` ya da `GeoPoint`'te en çok bir Vikipedi kaynağı bulunur. Kaynaklardan biri ötekinin `basedOn` listesindeyse ikisi bağımsız sayılmaz ve kural 5'te tek kaynak sayılır. *(2026-11-14)*
+11. URL'si yalnız ipucu olan bir siteye (§2.2 listesi) giden kaynak derlemeyi başarısız kılar. *(2026-11-14)*
 
 ---
 
@@ -419,7 +451,10 @@ interface PlaceName {
 | A21 | Satır sonu tirelemesi (taranmış baskı) | Bölünmüş kelimeler birleştirilir (dizgi gereğidir). Paragraf, noktalama ve dönem yazımı (â, î, "Cümhuriyet") aynen kalır |
 | A22 | Elle aktarılan metnin ikinci okuması | Kullanıcı, tarama ile aktarımı yan yana karşılaştırıp onaylar. Onaydan önce kayıt `verified: false` kalır, siteye girmez |
 | A23 | Yer koordinatı kaynakları | Natural Earth populated places (kamu malı) + Wikidata (CC0). Biri yoksa başka telifsiz ikinci kaynak aranır |
-| A19 | Hakları saklı ücretsiz yayınlar teyit sayılır mı? | Hayır. Teyit için yalnız telifsiz kaynaklar ve birincil belgeler kullanılır. Hakları saklı yayınlar yalnız ipucudur (§2.2) |
+| A19 | Hakları saklı ücretsiz yayınlar teyit sayılır mı? | Hayır. Teyit için yalnız telifsiz ya da açık lisanslı kaynaklar ve birincil belgeler kullanılır. Hakları saklı yayınlar yalnız ipucudur (§2.2). *Güncelleme 2026-11-14 (K4):* Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler §2.2'de listelidir |
+| A24 | Durum kartuşu (K3, 2026-11-14) | Sağ üstte yaş, rütbe, görev/unvan, bulunduğu yer. 375'te yalnız yaşı gösteren açılır düğme; 768 ve 1280'de tam kartuş. Atıf satırı sol üstte, künyenin altında |
+| A25 | Doğum tarihi (2026-11-14) | 19 Mayıs 1881, gün düzeyinde (kullanıcı kararı; K3'teki "19 Mayıs'ı doğum günü olarak kullanma" cümlesi bu kararla kalktı). ≥ 2 kaynak kuralı geçerli; iki uygun kaynak bulunamazsa doğum kaydı derlemeye girmez ve yaş gösterilmez |
+| A26 | Eşzamanlı görevler (2026-11-14) | Aynı tarihte geçerli bütün görevler gösterilir, başlama sırasıyla |
 
 ---
 

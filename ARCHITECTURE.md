@@ -8,6 +8,7 @@
 
 | Tarih | Yer | Değişiklik |
 |---|---|---|
+| 2026-11-14 | ADR-15, §4, §6.1 | Durum kartuşu (SPEC K3): `Tenure` ve `Person` kayıtları, `src/timeline/status.ts` saf hesap, derleme kuralları 9-11 (SPEC K4: Vikipedi ve ipucu siteler) |
 | 2026-10-27 | §2.3 | Faz 3 kurulumunda eklenen tip ve lint paketleri tabloya işlendi |
 | 2026-10-27 | ADR-12, §5 | Font yükleme yöntemi ölçümle kesinleşti; toplam font boyutu SPEC sınırını aşıyor (ayrıntı ADR-12) |
 | 2026-10-27 | §8 | T4 ve T5 kapandı |
@@ -383,6 +384,30 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 
 **Geri dönüş tetikleyicisi:** typescript-eslint TypeScript 7'yi peer olarak kabul edip iki haftalık kuralı geçtiğinde yükseltme denenir.
 
+### ADR-15 — Durum kartuşu: zaman aralığı kayıtları ve saf hesap
+
+*(2026-11-14, SPEC K3, A24-A26.)*
+
+**Bağlam:** Sağ üstteki `StatusCartouche` aktif adımın tarihindeki yaşı, rütbeyi, görev/unvanı ve yeri gösterir. Rütbe ve unvan adları kaynakta yazıldığı gibi yazılır, her tarih ≥ 2 kaynak kuralına tabidir (SPEC §2.2). Kaynakta bulunmayan aralık boş kalır, kartuşta o alan görünmez. Doğum tarihi 19 Mayıs 1881 (A25).
+
+**Alternatifler:**
+- Rütbe ve görevi `Event` kaydına alan olarak eklemek: Değer her olayda tekrar yazılır, aralığın başlangıç ve bitiş kaynağı kaybolur, iki olay arasında çelişki çıkabilir.
+- Değeri tarayıcıda olay metninden çıkarmak: Kaynaksız çıkarım olur, SPEC §2.2'ye aykırı.
+- Ayrı aralık kaydı (`Tenure`) + tek doğum kaydı (`Person`): Her aralık kendi kaynağını taşır, derleme kuralları uygulanabilir.
+
+**Sonuç:**
+- Veri: `data/tenures.json` (`kind: 'rutbe' | 'gorev'`, `title`, `start`, `end?`, `sources`) ve `data/person.json` (`birth`). Dosya yoksa boş sayılır.
+- Derleme: `build-data` ikisini Zod ile doğrular, kural 1-2 ve 5'i, ayrıca kural 9'u uygular, `steps.json` içine `tenures` ve `birth` olarak yazar.
+- Hesap: `src/timeline/status.ts` saf fonksiyonlar (DOM yok, birim testli): `ageAt(birth, date)`, `activeTenures(tenures, date)`, `placeNameAt(place, date)`. Kartuş yalnız sonucu çizer.
+- **Etkinlik kuralı:** Aday tarihler aralık olarak ele alınır (gün kesinliği tek gün, ay kesinliği ayın tamamı, yıl kesinliği yılın tamamı, `range` kendi aralığı). Adımın tarih aralığı kaydın aralığının **kesin olarak içindeyse** alan gösterilir. Kısmi örtüşmede (ay/yıl kesinliği yüzünden belirsiz) alan gizlenir; tahmin yapılmaz. `rutbe` kaydında `end` yoksa aralık bir sonraki `rutbe` kaydının başlangıcında biter.
+- **Yaş:** Doğumun ve adımın tarih aralıklarından olası en küçük ve en büyük yaş hesaplanır. İkisi eşitse tek sayı yazılır. Farklıysa "33-34" biçiminde aralık ve "yaklaşık" rozeti gösterilir (kullanıcının onayladığı varsayılan, plan 2026-11-14).
+- **Yer:** `Event.placeId` kaydının adımın tarihinde geçerli dönem adı (`names[].validFrom/validTo`, aynı etkinlik kuralı). Geçerli ad belirsizse alan gizlenir.
+- Kural 10 ve 11 (`scripts/lib/rules.ts`) kaynak listesini URL'ye göre denetler: Vikipedi `*.wikipedia.org`, ipucu siteler sabit bir alan adı listesi. Kural 5'teki kaynak sayımı, `basedOn` ile birbirine dayanan kaynakları tek sayar.
+
+**Ödünleşim:** İki yeni veri dosyası ve elle tutulan aralıklar. Kısmi örtüşmede alanı gizlemek bazı adımlarda bilinen bir rütbeyi göstermemek demektir; yanlış göstermekten iyidir. Tarayıcıya giden ek kod ~1-2 KB gzip (tahmin; `check:size` ölçer). Kural 11'in listesi alan adına bağlı; site taşınırsa liste güncellenir.
+
+**Geri dönüş tetikleyicisi:** Kısmi örtüşme yüzünden gizlenen alanlar kullanılabilirlik testinde kafa karıştırırsa "yaklaşık" rozetiyle gösterme seçeneği kullanıcıya sorulur.
+
 ---
 
 ## 4. Klasör yapısı
@@ -392,6 +417,7 @@ ATAMap/
 ├─ SPEC.md  SOURCES.md  ARCHITECTURE.md  CLAUDE.md (Faz 3)
 ├─ data/                      # elle tutulan kayıtlar (ADR-07)
 │  ├─ events.json  documents.json  journeys.json  borders.json  places.json  sources.json
+│  ├─ tenures.json  person.json   # durum kartuşu (ADR-15)
 │  ├─ borders/manual/         # kaynaklı elle çizimler (A14)
 │  └─ reference/              # birebir metin referansları (ADR-08)
 ├─ geo-src/                   # ham Natural Earth + CShapes; git'te değil, betik indirir
@@ -408,12 +434,12 @@ ATAMap/
 ├─ src/
 │  ├─ main.tsx  App.tsx
 │  ├─ schema/                 # Zod şeması + türetilen tipler (Zod yalnız scripts'te çalışır)
-│  ├─ timeline/               # saf adım motoru (ADR-09)
+│  ├─ timeline/               # saf adım motoru (ADR-09), status.ts (ADR-15)
 │  ├─ state/                  # signals
 │  ├─ map/                    # projection.ts, MapCanvas, BaseLayer, BorderLayer, PlaceLabels,
 │  │                          # JourneyLayer, DocumentMarker, labelPlacement.ts, lod.ts
 │  ├─ components/             # DocumentSheet, CitationCard, YearCartouche, StepControls,
-│  │                          # EventCartouche, Attribution, Cartouche (ortak çerçeve)
+│  │                          # EventCartouche, StatusCartouche, Attribution, Cartouche (ortak çerçeve)
 │  ├─ motion/                 # motionPolicy.ts + animasyon yardımcıları (ADR-10)
 │  ├─ format/                 # Türkçe tarih biçimi (§2.3)
 │  ├─ assets/svg/             # araç ve işaret SVG'leri (satır içi, §7)
@@ -465,6 +491,9 @@ SPEC §7 önerisinin kesin hâli. Ölçüm `scripts/check-size.ts` (boyut) ve Li
 | 6 `elle-cizim` geometride kaynak yok | birim | Çıkış ≠ 0 |
 | 7 `fullText` sayfa no'suz / referansla uyuşmaz | birim (ADR-08) | Çıkış ≠ 0 |
 | 8 `free !== true` | birim | Çıkış ≠ 0 |
+| 9 `Tenure`: `start > end`, `gorev` için `end` yok, çakışan `rutbe` | birim | Çıkış ≠ 0 |
+| 10 Vikipedi: `oldid` yok / lisans yok / aynı tarihte iki Vikipedi / `basedOn` ile bağımlı iki kaynak | birim | Çıkış ≠ 0 |
+| 11 İpucu siteye giden kaynak URL'si | birim | Çıkış ≠ 0 |
 
 ### 6.2 SPEC §10 adımları → test
 

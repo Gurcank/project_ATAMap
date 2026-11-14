@@ -9,6 +9,11 @@
 1. **Telif politikası (2026-10-27, SPEC §2.1):** Sitede telifli içerik yok. Atatürk'ün kendi metinleri kamu malı (FSEK m.27, 70 yıl). Yeni transkripsiyonlar, sadeleştirmeler ve editör katkıları telifli sayılır. Bu yüzden tam metin **yalnız aslı Latin harfli** belgelerde gösterilir; Arap harfli asıllar künye kartıyla gösterilir. Eski "günümüz Türkçesi > eski Türkçe > Osmanlıca" önceliği kaldırıldı.
 2. **Kaynak türü:** Metinler yalnızca devlet kurumlarının yayınlarından alınır. Devlet kaynağı olmayan yayınlar (ör. özel yayınevleri) yalnızca "ipucu" olarak not edilir, siteye metin girmez. **Ücretli kaynak kullanılmaz** (sıfır bütçe).
 2a. **Tarih/yer teyidi (SPEC §2.2, A19):** En az 2 bağımsız, ücretsiz, telifsiz kaynak ya da tarihli birincil belgenin kendisi. Hakları saklı yayınlar (bu dosyadaki ATAM, DAB, MSB kitapları, Belleten, ata.msb.gov.tr) **teyit kaynağı değildir**. Yalnız birincil belgeye ulaşmak için ipucu olarak okunur.
+2b. **Vikipedi ve ipucu siteler (2026-11-14, SPEC K4):**
+   - Vikipedi teyit kaynağı sayılabilir, ama ≥ 2 kaynaktan **en çok biri** Vikipedi olabilir. Diğeri Vikipedi dışından olur: birincil belge, Wikidata (CC0), Natural Earth ya da başka bir telifsiz veya açık lisanslı kaynak.
+   - Vikipedi maddesi diğer kaynağı kendi dayanağı olarak gösteriyorsa ikisi bağımsız sayılmaz (`basedOn`).
+   - Kayıt biçimi ve lisans: §2.6. Vikipedi'den cümle kopyalanmaz.
+   - **Yalnız ipucu**, kayıtta kaynak olamaz: ata.msb.gov.tr, atam.gov.tr, isteataturk.com, ataturkansiklopedisi.gov.tr, add.org.tr (§2.7) ve kullanıcının elindeki *Gençler İçin Nutuk* (İş Bankası Kültür Yayınları; sadeleştirilmiş, fotoğraflı baskı, telifli). Bu kitaptan bir bilgi gerekirse kullanıcıya sorulur, sayfayı kullanıcı okur.
 3. **İşaretler** (her kayıtta kullanılır):
    - `doğrulanmadı` — tarih, koordinat, sınır veya metin bir kaynakla eşleştirilemedi. Siteye girmez.
    - `atıf tartışmalı` — belgenin Atatürk'e ait olduğu kaynakta tartışmalı gösterilmiş. Siteye girerse etiketle girer.
@@ -26,7 +31,7 @@
 | 1.3 | MSB / Genelkurmay ATASE | *Askerî Tarih Belgeleri Dergisi* sayıları PDF ([ör. sayı 117](https://www.msb.gov.tr/Content/Upload/Docs/askeritariharsiv/ATBD_117.pdf)); ata.msb.gov.tr Atatürk sitesi | Belge transkripsiyonu biçimi **doğrulanmadı** (PDF açılamadı) | [ata.msb.gov.tr](https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi), [MSB Arşivi girişi](https://askeriarsiv.msb.gov.tr/) | ata.msb.gov.tr altbilgi: "Her Hakkı Saklıdır" | Seyahat/olay tarihi (ipucu), askerî telgraf |
 | 1.4 | TBMM | Atatürk'ün Meclis açılış konuşmaları 1920-1938, "Düzenlenmiş" ve "Orijinal" tutanak | Orijinal: tarama PDF; Düzenlenmiş: HTML (düzenleme yöntemi **doğrulanmadı**) | [tbmm.gov.tr/ataturkun-meclis-acilis-konusmalari](https://tbmm.gov.tr/ataturkun-meclis-acilis-konusmalari), [TBMM Açık Erişim](https://acikerisim.tbmm.gov.tr/handle/11543/1677) | Sayfada koşul **bulunamadı** | Olay (konuşma tarihi + yeri) |
 | 1.5 | Türk Tarih Kurumu (TTK) | *Belleten* dergisi (açık erişim), *Nutuk* PDF | Belleten makalelerinde belge transkripsiyonu; Nutuk eski Türkçe | [belleten.gov.tr](https://belleten.gov.tr/sayfa/hakkinda), [Nutuk PDF](https://www.ttk.gov.tr/karekod/nutuk-cilt-I-IV.pdf) | Belleten: **CC BY-NC 4.0** ([hakkında](https://belleten.gov.tr/sayfa/hakkinda)). Nutuk: yayın hakları TTK'ya ait (PDF künye sayfası, arama özetinden; PDF'i ben açmadım → **doğrulanmadı**) | Telgraf/mektup (makale ekleri) |
-| 1.6 | Atatürk Ansiklopedisi (AKDTYK) | *Tamim, Telgraf ve Beyannameleri* hakkında madde | — | [ataturkansiklopedisi.gov.tr](https://ataturkansiklopedisi.gov.tr/bilgi/ataturkun-tamim-telgraf-ve-beyannameleri/) | **Erişilemedi** (bağlantı reddedildi, 2026-10-26) | Künye doğrulama |
+| 1.6 | Atatürk Ansiklopedisi (AKDTYK) | *Tamim, Telgraf ve Beyannameleri* hakkında madde | — | [ataturkansiklopedisi.gov.tr](https://ataturkansiklopedisi.gov.tr/bilgi/ataturkun-tamim-telgraf-ve-beyannameleri/) | 2026-10-26'da erişilemedi. **2026-11-14:** altbilgi "Her Hakkı Saklıdır", yayımlayan Atatürk Araştırma Merkezi Başkanlığı (§2.7) | Yalnız ipucu |
 | 1.7 | MEB Atatürk sitesi | "Hayatı", "Kronoloji", kaynakça sayfaları | — | [meb.gov.tr/ataturk/Hayati](https://www.meb.gov.tr/ataturk/Hayati/), [kaynakça](https://meb.gov.tr/ataturk/Kaynaklar) | **Erişilemedi** (bağlantı reddedildi) | Kronoloji (ipucu) |
 
 ---
@@ -87,6 +92,26 @@ Liste sayfasında 20 konuşma var: 24 Nisan 1920 – 1 Kasım 1938. Her biri iç
 - *Belleten*: "Bu dergideki çalışmalar Creative Commons Atıf-GayriTicari 4.0 Uluslararası (CC BY-NC 4.0) ile lisanslanmıştır." — [belleten.gov.tr/sayfa/hakkinda](https://belleten.gov.tr/sayfa/hakkinda). Makalelerde yayımlanan Atatürk telgraf/mektup transkripsiyonları **bu lisansla kullanılabilecek tek doğrulanmış açık kaynak**. Koşullar: atıf + ticari olmayan kullanım. Örnek: Atatürk'ün toplanmamış telgraf ve mektuplarını yayımlayan makale — [tam metin 1908](https://belleten.gov.tr/tam-metin/1908/tur).
   - Dikkat: Makalenin lisansı, içindeki belge transkripsiyonunun da CC BY-NC olduğu anlamına gelir mi? Hukuki yorum yapılmadı → kayıt başına `izin gerekli` mi `CC BY-NC` mi olacağı **açık karar**.
 - *Nutuk* TTK PDF: [nutuk-cilt-I-IV.pdf](https://www.ttk.gov.tr/karekod/nutuk-cilt-I-IV.pdf). Arama özetine göre künyede yayın hakları TTK'ya ait. Durum: `izin gerekli`.
+
+### 2.6 Vikipedi (2026-11-14)
+
+- **Metin lisansı:** İngilizce Vikipedi sayfalarının altbilgisi: "Text is available under the Creative Commons Attribution-ShareAlike 4.0 License" ([Help:Permanent link](https://en.wikipedia.org/wiki/Help:Permanent_link), erişim 2026-11-14). Türkçe [Vikipedi:Telif hakları](https://tr.wikipedia.org/wiki/Vikipedi:Telif_hakları) sayfası metinlerin "Creative Commons Atıf-Paylaşım ve GNU Özgür Belgeleme Lisansı (GFDL)" altında olduğunu söylüyor, ama sürüm yazmıyor ve tam metin bağlantısı CC BY-SA **3.0**'a gidiyor. Bu tutarsızlık çözülemedi.
+- **Kural:** Kaynağın `licence` alanına, o maddenin kendi altbilgisinde erişim gününde yazan lisans yazılır. `rights: 'acik-lisans'`.
+- **Kalıcı bağlantı:** `https://tr.wikipedia.org/w/index.php?title=<Madde>&oldid=<sürüm no>` (biçim: [Help:Permanent link](https://en.wikipedia.org/wiki/Help:Permanent_link); Türkçe sayfaların yan menüsündeki "Kalıcı bağlantı" aynı biçimi veriyor). `https://tr.wikipedia.org/wiki/Özel:KalıcıBağlantı` 404 döndü.
+- **Neden kullanılabilir:** Yalnız olgu (tarih, yer) alınır, cümle kopyalanmaz. Olay metnini biz yazdığımız için "Paylaşım" şartının metnimize geçmediği varsayılıyor. Hukuki görüş değildir.
+- **Wikidata:** yapısal veri CC0 ([Wikidata:Licensing](https://www.wikidata.org/wiki/Wikidata:Licensing)). Vikipedi kuralının dışındadır; Vikipedi ile birlikte iki kaynak oluşturabilir. Ama Wikidata ifadesi kaynak olarak yalnız ilgili Vikipedi maddesini gösteriyorsa iki kaynak bağımsız sayılmaz (`basedOn`).
+
+### 2.7 Yalnız ipucu olan siteler: kullanım koşulları (2026-11-14)
+
+Hiçbirinde serbest lisans bulunamadı. Hepsi yalnız ipucudur, kayıtta kaynak olamaz (SPEC §6 kural 11).
+
+| Site | Yayımlayan | Bulunan ifade (erişim 2026-11-14) | Sonuç |
+|---|---|---|---|
+| [ata.msb.gov.tr](https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi) | MSB | Altbilgi: "Her Hakkı Saklıdır" (§2.3, 2026-10-26) | İpucu |
+| [atam.gov.tr](https://atam.gov.tr/e-yayin/) | Atatürk Araştırma Merkezi | Altbilgi: "Tüm Hakları Saklıdır" (§2.1, 2026-10-26) | İpucu |
+| [isteataturk.com](https://www.isteataturk.com/) | Özel site | Ana sayfa: "tüm bilgi ve belgeler izinsiz kullanılamaz, tüm hakları saklıdır" | İpucu |
+| [ataturkansiklopedisi.gov.tr](https://ataturkansiklopedisi.gov.tr/) | Atatürk Araştırma Merkezi Başkanlığı | Altbilgi: "© 2025 Copyright Atatürk Araştırma Merkezi Başkanlığı Her Hakkı Saklıdır." Sayfa içeriği JavaScript ile yükleniyor; ilk denemede yalnız başlık geldi, tarayıcıda okundu. Sorumluluk Reddi bağlantısı ayrı sayfa açmıyor | İpucu |
+| [add.org.tr](https://add.org.tr/) | Atatürkçü Düşünce Derneği (devlet kurumu değil) | Ana sayfada telif satırı, kullanım koşulu ya da lisans **bulunamadı**. Yalnız çerez politikası bağlantısı var. "Koşul bulunamadı" serbest demek değildir (bu dosyanın başı) | İpucu |
 
 ---
 
@@ -214,13 +239,15 @@ Her satırın linki ve gerekçe kaynağı §2'deki ilgili alt başlıktadır (AT
 | Belleten makale ekleri | TTK | CC BY-NC 4.0; belge transkripsiyonuna uygulanıp uygulanmadığı açık karar |
 | TBMM "Düzenlenmiş Tutanaklar" (açılış konuşmaları HTML) | TBMM | Günümüz Türkçesine sadeleştirilmiş (§2.4.1); taranmış orijinaller kullanılır |
 | TBMM 1920–1928 açılış konuşmalarının Latin harfli baskıları | TBMM | Aslı Arap harfli; sonradan harf çevirisi (§2.4.1). Yalnız künye kartı |
+| *Gençler İçin Nutuk* (sadeleştirilmiş, fotoğraflı baskı) | İş Bankası Kültür Yayınları | Telifli; metni ve fotoğrafı kullanılmaz, yalnız ipucu (2026-11-14) |
+| ataturkansiklopedisi.gov.tr, isteataturk.com, add.org.tr | §2.7 | Hakları saklı ya da koşul bulunamadı; yalnız ipucu (2026-11-14) |
 
 ### 7.2 Bulunamadı / erişilemedi
 - ATAM için ayrı kullanım koşulu veya telif sayfası. "Sorumluluk Reddi" sayfası 404.
 - ATAM sitesinde *Söylev ve Demeçler* veya *Tamim, Telgraf ve Beyannameleri* çevrimiçi tam metni.
 - "ATASE Harp Tarihi Belgeleri Dergisi" adı (doğru ad: *Askerî Tarih Belgeleri Dergisi*). ATBD sayı listesi sayfası.
 - DAB yayınları için kullanım/telif koşulu.
-- ataturkansiklopedisi.gov.tr ve meb.gov.tr/ataturk (bağlantı reddedildi).
+- meb.gov.tr/ataturk (bağlantı reddedildi). ataturkansiklopedisi.gov.tr 2026-11-14'te tarayıcıyla açıldı (§2.7).
 - 19. yüzyıl Osmanlı yer adları için açık lisanslı gazetteer.
 - İşgal bölgeleri (1918-1923) için açık tarihî sınır verisi.
 - Atatürk'ün seyahatleri için gün düzeyinde, kaynak gösteren, açık lisanslı devlet kaynağı (yalnız satın alınabilir *Kaynakçalı Atatürk Günlüğü* var).

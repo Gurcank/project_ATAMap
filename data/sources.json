@@ -341,6 +341,18 @@
       "free": true,
       "verified": false,
       "$note": "Parti 2. Manastır 110m ve 50m dosyalarında yok; 10m: Bitola, ne_id 1159138957, 41.039057, 21.339514."
+    },
+    {
+      "id": "liman-fuenf-jahre-tuerkei-1920",
+      "institution": "Internet Archive (Toronto Üniversitesi kütüphanesi taraması)",
+      "citation": "Liman von Sanders, Fünf Jahre Türkei, Berlin: August Scherl, 1920, s. 111-112",
+      "url": "https://archive.org/details/fnfjahretrke00limauoft/page/112/mode/1up",
+      "page": "111-112",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 7. Yazar 22.08.1929'da öldü (Wikidata Q57470; dayanaklar GND, Büyük Rus Ansiklopedisi ve diğerleri); FSEK m.27'ye göre koruma süresi doldu. Internet Archive telif durumu: NOT_IN_COPYRIGHT; kitaptaki telif satırı 1920. Tarihler OCR'dan değil sayfa taramasından okundu: s. 111 sonu (8 Ağustos akşamı komutanın devri), s. 112 (25 Nisan, 9 Ağustos, 10 Ağustos). Vikipedi'nin Çanakkale bölümü bu kitabı dayanak göstermiyor (bağımsız)."
     }
   ]
 }

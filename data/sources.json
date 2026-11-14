@@ -881,6 +881,102 @@
       "free": true,
       "verified": true,
       "$note": "Resmî kaynak (A27): ATAM'ın ansiklopedisi; altbilgi '© 2025 Copyright Atatürk Araştırma Merkezi Başkanlığı Her Hakkı Saklıdır', yalnız olgu. Sayfa JavaScript ile yükleniyor. Parti 6'daki Bükreş çelişkisini çözmek için okundu: 'Sofya Askerî Ataşeliği görevine ilave olarak 1914 yılı Ocak ayı başlarında, Bükreş, Belgrad ve Çetine (Karadağ) askerî ataşelikleri de'. Kullanıcı 2026-11-14'te 'doğru neyse o olsun' dedi; yalnız bu olgu için kullanıldı."
+    },
+    {
+      "id": "msb-kronoloji-1905-1918-p7",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1905-1918 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "$note": "K5 yeniden taraması, parti 7 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 20 Ocak - 1 Eylül 1915 ve Sofya ataşeliğinin başlangıcı (27 Ekim 1913)."
+    },
+    {
+      "id": "msb-askeri-gorevleri-p7",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
+      "$note": "K5 taraması, parti 7 (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt."
+    },
+    {
+      "id": "ataturk-ansiklopedisi-388-p7",
+      "institution": "Atatürk Araştırma Merkezi Başkanlığı",
+      "citation": "Atatürk Ansiklopedisi, «Mustafa Kemal’in Sofya Ataşemiliterliği» (Zekeriya Türkmen, 29 Kasım 2020)",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/388/Mustafa-Kemal%E2%80%99in-Sofya-Ata%C5%9Femiliterli%C4%9Fi",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 7. Resmî kaynak (A27), yalnız olgu. Madde başlığında 'Mustafa Kemal’in Sofya Ataşemiliterliği (27 Ekim 1913 – 20 Ocak 1915)'. Parti onayına kadar beklesin diye onaylı 'ataturk-ansiklopedisi-388' kaydından ayrı."
+    },
+    {
+      "id": "wikidata-q182009-r2557664978",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q182009 (Tekirdağ), P625 koordinat, revizyon 2557664978",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q182009.json?revision=2557664978",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 7. P625: 40.983333, 27.516667; dayanak P143 Q206855."
+    },
+    {
+      "id": "wikidata-q1023153-r2532328663",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q1023153 (Eceabat), P625 koordinat, revizyon 2532328663",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q1023153.json?revision=2532328663",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 7. P625: 40.184167, 26.3575; dayanak P143 Q1194038, Q1985727."
+    },
+    {
+      "id": "wikidata-q6841849-r2523380955",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q6841849 (Bigalı), P625 koordinat, revizyon 2523380955",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q6841849.json?revision=2523380955",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 7. P625: 40.236111, 26.359444; dayanaksız."
+    },
+    {
+      "id": "osm-relation-1815219",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, relation 1815219 («Eceabat»)",
+      "url": "https://www.openstreetmap.org/relation/1815219",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 7. Nominatim (2026-11-14): 40.1852143, 26.3590969 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki."
+    },
+    {
+      "id": "osm-node-1483545640",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, node 1483545640 («Bigalı»)",
+      "url": "https://www.openstreetmap.org/node/1483545640",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 7. Nominatim (2026-11-14): 40.2357180, 26.3597320 (köy). Koordinatı teyit için; saklanan değer Wikidata'nınki."
     }
   ]
 }

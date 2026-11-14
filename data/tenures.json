@@ -308,6 +308,37 @@
         "msb-kronoloji-1905-1918-p4"
       ],
       "$note": "K5 taraması, parti 4. Unvan MSB kronolojisindeki yazımdan."
+    },
+    {
+      "id": "sofya-atasemiliteri-1913",
+      "kind": "gorev",
+      "title": "Sofya Ataşemiliteri",
+      "start": {
+        "iso": "1913-10-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p7",
+          "ataturk-ansiklopedisi-388-p7",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji, Atatürk Ansiklopedisi ve Vikipedi: 27 Ekim 1913."
+      },
+      "end": {
+        "iso": "1915-01-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-388-p7"
+        ],
+        "$note": "Atatürk Ansiklopedisi (resmî): '(27 Ekim 1913 – 20 Ocak 1915)'. MSB aynı gün 19. Tümen'e atandığını yazıyor."
+      },
+      "sources": [
+        "msb-kronoloji-1905-1918-p7",
+        "ataturk-ansiklopedisi-388-p7",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 7. Unvan ansiklopedi maddesinin adından ('Sofya Ataşemiliterliği'); MSB 'Sofya Ataşe Militerliği'."
     }
   ]
 }

@@ -444,6 +444,85 @@
       "$note": "Parti 1. Anne ve baba adları Vikipedi'den; Wikidata yalnız tarih ve yer için. Olay metni bizim."
     },
     {
+      "id": "19-tumen-1915-01-20",
+      "date": {
+        "iso": "1915-01-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p7",
+          "msb-askeri-gorevleri-p7"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 20 Ocak 1915."
+      },
+      "title": "19. Tümen Komutanı oldu",
+      "text": "3. Kolordu'ya bağlı olarak Tekirdağ'da kurulacak 19. Tümen'in komutanlığına atandı.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p7",
+        "msb-askeri-gorevleri-p7"
+      ],
+      "$note": "K5 taraması, parti 7. Atandığında nerede bulunduğu resmî kaynakta yok; yer bağlanmadı."
+    },
+    {
+      "id": "tekirdaga-gelis-1915-02-02",
+      "date": {
+        "iso": "1915-02-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p7",
+          "msb-askeri-gorevleri-p7"
+        ],
+        "$note": "MSB kronoloji ve «Askerî Görevleri»: 2 Şubat 1915."
+      },
+      "title": "Tekirdağ'a geldi",
+      "text": "Tekirdağ'a geldi ve 19. Tümen'i kurma çalışmalarına başladı.",
+      "placeId": "tekirdag",
+      "sources": [
+        "msb-kronoloji-1905-1918-p7",
+        "msb-askeri-gorevleri-p7"
+      ],
+      "$note": "K5 taraması, parti 7."
+    },
+    {
+      "id": "maydos-1915-02-25",
+      "date": {
+        "iso": "1915-02-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p7"
+        ],
+        "$note": "MSB: 25 Şubat 1915."
+      },
+      "title": "Tümen karargâhı Maydos'a taşındı",
+      "text": "19. Tümen'in karargâhı Tekirdağ'dan Maydos'a taşındı; tümen komutanlığıyla birlikte Maydos Bölgesi Komutanı oldu.",
+      "placeId": "maydos",
+      "sources": [
+        "msb-kronoloji-1905-1918-p7"
+      ],
+      "$note": "K5 taraması, parti 7."
+    },
+    {
+      "id": "bigali-1915-04",
+      "date": {
+        "iso": "1915-04",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p7"
+        ],
+        "$note": "MSB: Nisan 1915."
+      },
+      "title": "19. Tümen Bigalı'ya gönderildi",
+      "text": "Komutasındaki 19. Tümen, 5. Ordu'nun genel ihtiyatı olarak Bigalı'ya gönderildi.",
+      "placeId": "bigali",
+      "sources": [
+        "msb-kronoloji-1905-1918-p7"
+      ],
+      "$note": "K5 taraması, parti 7."
+    },
+    {
       "id": "canakkale-1915-04-25",
       "date": {
         "iso": "1915-04-25",
@@ -463,6 +542,24 @@
       ],
       "$note": "Parti 7, kullanıcı onayı 2026-11-14.",
       "placeId": "ariburnu"
+    },
+    {
+      "id": "harp-madalyasi-1915-07-15",
+      "date": {
+        "iso": "1915-07-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p7"
+        ],
+        "$note": "MSB: 15 Temmuz 1915."
+      },
+      "title": "Harp Madalyası verildi",
+      "text": "Kendisine Harp Madalyası verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p7"
+      ],
+      "$note": "K5 taraması, parti 7. Yer kaynakta yok."
     },
     {
       "id": "canakkale-1915-08-08",
@@ -526,6 +623,24 @@
       ],
       "$note": "Parti 7, kullanıcı onayı 2026-11-14.",
       "placeId": "conk-bayiri"
+    },
+    {
+      "id": "gumus-liyakat-1915-09-01",
+      "date": {
+        "iso": "1915-09-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1905-1918-p7"
+        ],
+        "$note": "MSB: 1 Eylül 1915."
+      },
+      "title": "Gümüş Liyakat Madalyası verildi",
+      "text": "Anafartalar Grubu Komutanlığındaki başarıları için Muharebe Gümüş Liyakat Madalyası verildi.",
+      "sources": [
+        "msb-kronoloji-1905-1918-p7"
+      ],
+      "$note": "K5 taraması, parti 7. Yer kaynakta yok."
     },
     {
       "id": "halep-1918-10-25",

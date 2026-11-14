@@ -61,3 +61,40 @@ OpenStreetMap ODbL lisanslı; kullanılırsa atıf satırına eklenmesi gerekir.
 ## Genel sonuç
 
 İlk kez bir partiden iki kaynaklı olay çıktı (dört olay). Siteye girmeleri için iki şey gerekiyor: senin onayın ve yerler için bir karar. Ya yukarıdaki koordinat seçimleri kabul edilir, ya da olaylar yersiz girer. Yersiz girerse harita o adımda kımıldamaz, yalnız olay kartuşu değişir.
+
+## K5 yeniden taraması (2026-11-14)
+
+Kaynaklar: MSB Atatürk Sitesi, «Atatürk Kronolojisi» 1905-1918 bölümü ve «Askerî Görevleri» sayfası; Atatürk Ansiklopedisi (ATAM), «Mustafa Kemal’in Sofya Ataşemiliterliği». Hepsi resmî, yalnız olgu. Parti onayına kadar beklesin diye ayrı kaynak kayıtları açıldı (`msb-kronoloji-1905-1918-p7`, `msb-askeri-gorevleri-p7`, `ataturk-ansiklopedisi-388-p7`). Durum: **onay bekliyor**, yeni kayıtlar `verified: false`.
+
+**Yeni olaylar:**
+
+| Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
+|---|---|---|---|---|---|
+| 20 Ocak 1915 | — | 19. Tümen Komutanlığına atandı (Tekirdağ'da kurulacak) | MSB kronoloji | MSB «Askerî Görevleri» | Atandığında nerede olduğu resmî kaynakta yok |
+| 2 Şubat 1915 | Tekirdağ | Tekirdağ'a gelip tümeni kurmaya başladı | MSB kronoloji | MSB «Askerî Görevleri» | — |
+| 25 Şubat 1915 | Maydos | Tümen karargâhı Maydos'a taşındı; Maydos Bölgesi Komutanı da oldu | MSB | — | — |
+| Nisan 1915 | Bigalı | 19. Tümen, 5. Ordu'nun genel ihtiyatı olarak Bigalı'ya gönderildi | MSB | — | Yalnız ay |
+| 15 Temmuz 1915 | — | Harp Madalyası verildi | MSB | — | Yer yok |
+| 1 Eylül 1915 | — | Muharebe Gümüş Liyakat Madalyası verildi | MSB | — | Yer yok |
+
+**Sitede zaten olan dört olay** (25 Nisan, 8, 9 ve 10 Ağustos 1915): MSB kronolojisi dördünü de aynı günlerle veriyor. Onaydan sonra MSB bu olaylara kaynak olarak eklenecek. 8 Ağustos için MSB görev adını da veriyor: "Anafartalar Grubu Komutanlığına getirilmesi".
+
+**Yeni yerler:**
+
+| Yer | Koordinat 1 | Koordinat 2 | Fark | Ad |
+|---|---|---|---|---|
+| Tekirdağ | Wikidata Q182009 (40.983333, 27.516667) | Natural Earth 10m (40.990869, 27.50999) | ~1 km | "Tekirdağ" (MSB) |
+| Maydos | Wikidata Q1023153 Eceabat (40.184167, 26.3575) | OpenStreetMap relation 1815219 (40.185214, 26.359097) | ~0,2 km | "Maydos", bugün Eceabat (MSB: "Maydos (Eceabat)") |
+| Bigalı | Wikidata Q6841849 (40.236111, 26.359444, dayanaksız) | OpenStreetMap node 1483545640 (40.235718, 26.359732) | ~0,05 km | "Bigalı" (MSB) |
+
+**Görev:**
+
+| Başlangıç | Bitiş | Unvan | Kaynak |
+|---|---|---|---|
+| 27 Ekim 1913 | 20 Ocak 1915 | Sofya Ataşemiliteri | Başlangıç: MSB, Ansiklopedi, Vikipedi. Bitiş: Atatürk Ansiklopedisi |
+
+**Görev girmeyenler:** 19. Tümen Komutanlığı ve Anafartalar Grubu Komutanlığı. Bitişleri resmî kaynakta açık yazmıyor. Anafartalar'ın bitişi (10 Aralık 1915) yalnız Vikipedi'de, 16. Kolordu ataması (16 Ocak 1916) da ancak çıkarım olur.
+
+**Girmeyenler:** 18 Mart deniz harekâtı, 24 Mart 5. Ordu'nun kuruluşu ve 19/20 Aralık İngiliz çekilmesi (Atatürk'ün kendi olayları değil). Aralık 1915'te cepheden ayrılışı resmî kaynakta yok. 29-30 Mayıs, Kireçtepe ve II. Anafartalar yalnız Vikipedi'de.
+
+**Denenmeyen:** Atatürk Ansiklopedisi'nde başka madde aramak (Anafartalar, 19. Tümen). Sayfa bu sırada açılmadı.

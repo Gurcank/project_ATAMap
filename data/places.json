@@ -401,6 +401,71 @@
           "$note": "MSB (resmî) 'Sofya'ya gelmesi'; Vikipedi 'Sofya'."
         }
       ]
+    },
+    {
+      "id": "tekirdag",
+      "point": {
+        "lon": 27.516666666667,
+        "lat": 40.983333333333,
+        "sources": [
+          "wikidata-q182009-r2557664978",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.983333, 27.516667. Natural Earth 10m simple (Tekirdağ, ne_id 1159135143): 40.990869, 27.50999. Fark yaklaşık 1 km."
+      },
+      "names": [
+        {
+          "name": "Tekirdağ",
+          "sources": [
+            "msb-kronoloji-1905-1918-p7",
+            "msb-askeri-gorevleri-p7"
+          ],
+          "$note": "MSB kronoloji ve «Askerî Görevleri»: 'Tekirdağ'. Dönemin başka bir adı bu kaynaklarda yok."
+        }
+      ]
+    },
+    {
+      "id": "maydos",
+      "point": {
+        "lon": 26.3575,
+        "lat": 40.184166666667,
+        "sources": [
+          "wikidata-q1023153-r2532328663",
+          "osm-relation-1815219"
+        ],
+        "$note": "Wikidata (Eceabat): 40.184167, 26.3575. OpenStreetMap (Eceabat, relation 1815219): 40.185214, 26.359097. Fark yaklaşık 0,2 km."
+      },
+      "names": [
+        {
+          "name": "Maydos",
+          "sources": [
+            "msb-kronoloji-1905-1918-p7"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Maydos (Eceabat)'. Dönem adı Maydos, bugünkü adı Eceabat."
+        }
+      ],
+      "modernName": "Eceabat"
+    },
+    {
+      "id": "bigali",
+      "point": {
+        "lon": 26.359444444444,
+        "lat": 40.236111111111,
+        "sources": [
+          "wikidata-q6841849-r2523380955",
+          "osm-node-1483545640"
+        ],
+        "$note": "Wikidata: 40.236111, 26.359444 (dayanaksız). OpenStreetMap (Bigalı köyü, node 1483545640): 40.235718, 26.359732. Fark yaklaşık 0,05 km."
+      },
+      "names": [
+        {
+          "name": "Bigalı",
+          "sources": [
+            "msb-kronoloji-1905-1918-p7"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Bigalı'ya gönderilmesi', 'Bigalı'dan harekete geçen'."
+        }
+      ]
     }
   ]
 }

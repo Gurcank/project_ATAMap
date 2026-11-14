@@ -64,6 +64,74 @@
         }
       ],
       "modernName": "Bitola"
+    },
+    {
+      "id": "ariburnu",
+      "point": {
+        "lon": 26.2817669,
+        "lat": 40.2476921,
+        "sources": [
+          "wikidata-q133817633-r2350351859",
+          "osm-node-6337630463"
+        ],
+        "$note": "Wikidata Q133817633 (Arıburnu Sahili): 40.2476921, 26.2817669. OSM Arıburnu Memorial: 40.2386729, 26.2769601 (yaklaşık 1,1 km). OSM'de burnun kendisi yok; anıt noktası teyit için kabul edildi (kullanıcı, 2026-11-14)."
+      },
+      "names": [
+        {
+          "name": "Arıburnu",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "liman-fuenf-jahre-tuerkei-1920"
+          ],
+          "$note": "Vikipedi 'Arıburnu', Liman s. 112 'Ariburnu'. Yazım Vikipedi'den (kullanıcı kararı, 2026-11-14)."
+        }
+      ]
+    },
+    {
+      "id": "conk-bayiri",
+      "point": {
+        "lon": 26.3078114,
+        "lat": 40.2503121,
+        "sources": [
+          "wikidata-q56015616-r2450346924",
+          "osm-node-6335014923"
+        ],
+        "$note": "Wikidata Q56015616: 40.2503121, 26.3078114. OSM anıt noktası: 40.2525008, 26.3081938 (yaklaşık 0,25 km)."
+      },
+      "names": [
+        {
+          "name": "Conk Bayırı",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "liman-fuenf-jahre-tuerkei-1920"
+          ],
+          "$note": "Vikipedi 'Conk Bayırı', Liman s. 112 'Jongbahirhöhe'. Yazım Vikipedi'den (kullanıcı kararı, 2026-11-14)."
+        }
+      ],
+      "modernName": "Conkbayırı"
+    },
+    {
+      "id": "anafartalar",
+      "point": {
+        "lon": 26.33138888888889,
+        "lat": 40.28138888888889,
+        "sources": [
+          "wikidata-q6823761-r2523379826",
+          "osm-node-1483545642"
+        ],
+        "$note": "Wikidata Q6823761 (Büyükanafarta köyü): 40.28138888888889, 26.33138888888889. OSM Büyük Anafarta: 40.2816240, 26.3292410 (yaklaşık 0,18 km). Kaynaklar bir kesimden/ovadan söz ediyor; köy noktasıyla temsil edilmesi kullanıcı kararı (2026-11-14)."
+      },
+      "names": [
+        {
+          "name": "Anafartalar",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "liman-fuenf-jahre-tuerkei-1920"
+          ],
+          "$note": "Vikipedi 'Anafartalar', Liman s. 111-112 'Anaforta'. Yazım Vikipedi'den (kullanıcı kararı, 2026-11-14)."
+        }
+      ],
+      "modernName": "Büyükanafarta"
     }
   ]
 }

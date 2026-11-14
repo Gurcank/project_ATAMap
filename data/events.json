@@ -461,7 +461,8 @@
         "vikipedi-tr-ataturk-38564203",
         "liman-fuenf-jahre-tuerkei-1920"
       ],
-      "$note": "Parti 7. Yer kaydı kullanıcı kararına kadar bağlanmadı (placeId yok)."
+      "$note": "Parti 7, kullanıcı onayı 2026-11-14.",
+      "placeId": "ariburnu"
     },
     {
       "id": "canakkale-1915-08-08",
@@ -481,7 +482,8 @@
         "vikipedi-tr-ataturk-38564203",
         "liman-fuenf-jahre-tuerkei-1920"
       ],
-      "$note": "Parti 7. Görev adı (\"Anafartalar Grubu Komutanlığı\") yalnız Vikipedi'de; Liman adı vermiyor. Bu yüzden tenure olarak değil olay olarak girdi."
+      "$note": "Parti 7, kullanıcı onayı 2026-11-14.",
+      "placeId": "anafartalar"
     },
     {
       "id": "canakkale-1915-08-09",
@@ -501,7 +503,8 @@
         "vikipedi-tr-ataturk-38564203",
         "liman-fuenf-jahre-tuerkei-1920"
       ],
-      "$note": "Parti 7."
+      "$note": "Parti 7, kullanıcı onayı 2026-11-14.",
+      "placeId": "anafartalar"
     },
     {
       "id": "canakkale-1915-08-10",
@@ -521,7 +524,8 @@
         "vikipedi-tr-ataturk-38564203",
         "liman-fuenf-jahre-tuerkei-1920"
       ],
-      "$note": "Parti 7. Liman bu sırtı \"Jongbahirhöhe\" diye yazıyor."
+      "$note": "Parti 7, kullanıcı onayı 2026-11-14.",
+      "placeId": "conk-bayiri"
     }
   ]
 }

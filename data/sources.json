@@ -264,14 +264,14 @@
     {
       "id": "vikipedi-tr-ataturk-38564203",
       "institution": "Vikipedi",
-      "citation": "Vikipedi, «Mustafa Kemal Atatürk» maddesi, sürüm 38564203, «Çocukluk ve gençlik (1881-1904)» bölümü",
+      "citation": "Vikipedi, «Mustafa Kemal Atatürk» maddesi, sürüm 38564203",
       "url": "https://tr.wikipedia.org/w/index.php?title=Mustafa_Kemal_Atat%C3%BCrk&oldid=38564203",
       "accessedAt": "2026-11-14",
       "rights": "acik-lisans",
       "licence": "CC-BY-SA-4.0",
       "free": true,
       "verified": true,
-      "$note": "Parti 1 (2026-11-14). Lisans maddenin altbilgisinden (creativecommons.org/licenses/by-sa/4.0). Doğum: 'rumî 1296 (miladî 1880-1881)', 'doğum günü bilinmemektedir', 19 Mayıs'ı kendisi kabul etmiş. Bu bölümün dayanakları çoğunlukla telifli kitaplar (Aydemir, Mango); Wikidata'yı dayanak göstermiyor. Kullanıcı onayı: 2026-11-14 (parti 1)."
+      "$note": "Parti 1 (2026-11-14). Lisans maddenin altbilgisinden (creativecommons.org/licenses/by-sa/4.0). Doğum: 'rumî 1296 (miladî 1880-1881)', 'doğum günü bilinmemektedir', 19 Mayıs'ı kendisi kabul etmiş. Bu bölümün dayanakları çoğunlukla telifli kitaplar (Aydemir, Mango); Wikidata'yı dayanak göstermiyor. Kullanıcı onayı: 2026-11-14 (parti 1). Künye 2026-11-14'te madde düzeyine genelleştirildi (önce yalnız «Çocukluk ve gençlik» bölümünü anıyordu). Kullanılan bölümler: «Çocukluk ve gençlik (1881-1904)» (parti 1-3), «Çanakkale Savaşı» (parti 7)."
     },
     {
       "id": "wikidata-q5152-r2569089775",
@@ -351,8 +351,80 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Parti 7. Yazar 22.08.1929'da öldü (Wikidata Q57470; dayanaklar GND, Büyük Rus Ansiklopedisi ve diğerleri); FSEK m.27'ye göre koruma süresi doldu. Internet Archive telif durumu: NOT_IN_COPYRIGHT; kitaptaki telif satırı 1920. Tarihler OCR'dan değil sayfa taramasından okundu: s. 111 sonu (8 Ağustos akşamı komutanın devri), s. 112 (25 Nisan, 9 Ağustos, 10 Ağustos). Vikipedi'nin Çanakkale bölümü bu kitabı dayanak göstermiyor (bağımsız)."
+      "verified": true,
+      "$note": "Parti 7. Yazar 22.08.1929'da öldü (Wikidata Q57470; dayanaklar GND, Büyük Rus Ansiklopedisi ve diğerleri); FSEK m.27'ye göre koruma süresi doldu. Internet Archive telif durumu: NOT_IN_COPYRIGHT; kitaptaki telif satırı 1920. Tarihler OCR'dan değil sayfa taramasından okundu: s. 111 sonu (8 Ağustos akşamı komutanın devri), s. 112 (25 Nisan, 9 Ağustos, 10 Ağustos). Vikipedi'nin Çanakkale bölümü bu kitabı dayanak göstermiyor (bağımsız). Kullanıcı onayı: 2026-11-14 (parti 7)."
+    },
+    {
+      "id": "wikidata-q133817633-r2350351859",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q133817633 (Arıburnu Sahili), P625 koordinat, revizyon 2350351859",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q133817633.json?revision=2350351859",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": true,
+      "$note": "Parti 7. P625: 40.2476921, 26.2817669; ifadenin dayanağı yok. Kullanıcı onayı: 2026-11-14 (parti 7)."
+    },
+    {
+      "id": "osm-node-6337630463",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, node 6337630463 («Arıburnu Memorial»)",
+      "url": "https://www.openstreetmap.org/node/6337630463",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": true,
+      "$note": "Parti 7. Nominatim araması (2026-11-14): 40.2386729, 26.2769601. Koordinatı teyit için kullanıldı; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-14 (parti 7)."
+    },
+    {
+      "id": "wikidata-q56015616-r2450346924",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q56015616 (Conkbayırı), P625 koordinat, revizyon 2450346924",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q56015616.json?revision=2450346924",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": true,
+      "$note": "Parti 7. P625: 40.2503121, 26.3078114; ifadenin dayanağı yok. Kullanıcı onayı: 2026-11-14 (parti 7)."
+    },
+    {
+      "id": "osm-node-6335014923",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, node 6335014923 («Conkbayiri Soldiers Monument»)",
+      "url": "https://www.openstreetmap.org/node/6335014923",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": true,
+      "$note": "Parti 7. Nominatim araması (2026-11-14): 40.2525008, 26.3081938. Koordinatı teyit için kullanıldı; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-14 (parti 7)."
+    },
+    {
+      "id": "wikidata-q6823761-r2523379826",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q6823761 (Büyükanafarta), P625 koordinat, revizyon 2523379826",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q6823761.json?revision=2523379826",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": true,
+      "$note": "Parti 7. P625: 40.28138888888889, 26.33138888888889; ifadenin dayanağı yok. Kullanıcı onayı: 2026-11-14 (parti 7)."
+    },
+    {
+      "id": "osm-node-1483545642",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, node 1483545642 («Büyük Anafarta»)",
+      "url": "https://www.openstreetmap.org/node/1483545642",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": true,
+      "$note": "Parti 7. Nominatim araması (2026-11-14): 40.2816240, 26.3292410. Koordinatı teyit için kullanıldı; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-14 (parti 7)."
     }
   ]
 }

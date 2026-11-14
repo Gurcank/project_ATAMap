@@ -40,6 +40,19 @@ test('the first step is the birth at Selanik', async ({ page }, info) => {
   await shot(page, info, 'dogum');
 });
 
+test('a Gallipoli step: place on the map, age and place in the status', async ({ page }, info) => {
+  await open(page, '/#adim=canakkale-1915-08-10');
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(
+    "Conk Bayırı'nda hücumu bizzat yönetti",
+  );
+  await expect(page.getByText('10 Ağustos 1915')).toBeVisible();
+  await expect(page.locator('svg').getByText('Conk Bayırı', { exact: true })).toBeVisible();
+  const status = page.getByRole('region', { name: 'Durum' });
+  if (info.project.name === 'mobil-375') await status.getByRole('button').click();
+  await expect(status.locator('dd')).toHaveText(['34', 'Conk Bayırı']);
+  await shot(page, info, 'canakkale');
+});
+
 test('1920 step: map, year, event text, controls', async ({ page }, info) => {
   await open(page, FIRST);
   await expect(page.getByRole('heading', { level: 2 })).toHaveText(

@@ -1,7 +1,7 @@
 # Kronoloji, parti 7: Çanakkale
 
 > Kapsam: Sofya'dan ayrılıştan (20 Ocak 1915) Çanakkale cephesinden ayrılışa (10 Aralık 1915) kadar.
-> Durum: **onay bekliyor.** Dört olay `data/` altında, `verified: false`.
+> Durum: **onaylandı (2026-11-14).** Dört olay yerleriyle sitede.
 > Araştırma tarihi: 2026-11-14. Kaynak kuralı: SPEC §2.2 (A19, K4), kullanıcının 2026-11-14 onayıyla aynen.
 
 ## Yeni kaynak: Liman von Sanders, *Fünf Jahre Türkei* (1920)
@@ -51,6 +51,12 @@ OpenStreetMap ODbL lisanslı; kullanılırsa atıf satırına eklenmesi gerekir.
 | 28 Aralık 1915 | — | Demir Haç nişanı | — |
 
 **Bu partide olmayanlar:** Açık kaynakta bir Atatürk belgesi yok. 18 Mart deniz harekâtı Atatürk'ün kendi olayı olmadığı için alınmadı.
+
+## Kararlar (2026-11-14)
+
+- Parti onaylandı, olaylar yerleriyle girdi. Saklanan koordinatlar Wikidata'nınki; OpenStreetMap noktaları teyit içindir. Atıf satırına "© OpenStreetMap katkıcıları (ODbL)" eklendi.
+- Dönem adları Vikipedi yazımıyla: "Arıburnu", "Conk Bayırı", "Anafartalar". Önerideki "Anafarta" Vikipedi metninde geçmediği için "Anafartalar" oldu.
+- Arıburnu'nda Wikidata ile OSM anıt noktası arası yaklaşık 1,1 km.
 
 ## Genel sonuç
 

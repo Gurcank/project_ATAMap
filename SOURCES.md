@@ -101,6 +101,13 @@ Liste sayfasında 20 konuşma var: 24 Nisan 1920 – 1 Kasım 1938. Her biri iç
 - **Neden kullanılabilir:** Yalnız olgu (tarih, yer) alınır, cümle kopyalanmaz. Olay metnini biz yazdığımız için "Paylaşım" şartının metnimize geçmediği varsayılıyor. Hukuki görüş değildir.
 - **Wikidata:** yapısal veri CC0 ([Wikidata:Licensing](https://www.wikidata.org/wiki/Wikidata:Licensing)). Vikipedi kuralının dışındadır; Vikipedi ile birlikte iki kaynak oluşturabilir. Ama Wikidata ifadesi kaynak olarak yalnız ilgili Vikipedi maddesini gösteriyorsa iki kaynak bağımsız sayılmaz (`basedOn`).
 
+### 2.8 Liman von Sanders, *Fünf Jahre Türkei* (2026-11-14)
+
+- Berlin, August Scherl, 1920. Çanakkale'de 5. Ordu komutanı olan yazarın anıları. [Internet Archive](https://archive.org/details/fnfjahretrke00limauoft), Toronto Üniversitesi taraması, arşivin telif alanı "NOT_IN_COPYRIGHT".
+- Yazar 22 Ağustos 1929'da öldü (Wikidata Q57470; dayanaklar GND, Büyük Rus Ansiklopedisi ve diğerleri). FSEK m.27'ye göre kamu malı. Teyit kaynağı olarak kullanılır (`rights: 'kamu-mali'`).
+- OCR metni Fraktur yüzünden bozuk; tarihler sayfa taramasından okunur ve kayıtta sayfa numarası yazılır.
+- İngilizce çevirisi (*Five Years in Turkey*, 1927) çevirmenin telif durumu doğrulanmadığı için kullanılmaz.
+
 ### 2.7 Yalnız ipucu olan siteler: kullanım koşulları (2026-11-14)
 
 Hiçbirinde serbest lisans bulunamadı. Hepsi yalnız ipucudur, kayıtta kaynak olamaz (SPEC §6 kural 11).
@@ -182,6 +189,7 @@ Aşağıdaki dönemler ve değişiklikler iki açık veri setinde de ya hiç yok
 - **19th Century Ottoman Gazetteer** (Koç Üniversitesi): erişim durumu "CLOSED" — [kayıt](https://research.hub.ku.edu.tr/entities/data/bc5e147f-52b2-4128-a28d-40854439750e/full) → kullanılamaz.
 - **Historical Basemaps `places.geojson`**: README'ye göre taslak ve eksik. Lisans GPL-3.0.
 - **Koordinat kaynakları (SPEC A23, 2026-10-27):** Natural Earth populated places (kamu malı; [ne_110m GeoJSON](https://github.com/nvkelso/natural-earth-vector/tree/master/geojson)) ve Wikidata P625 ([lisans](https://www.wikidata.org/wiki/Wikidata:Licensing): yapısal veri CC0). Wikidata koordinatı saklanır; Natural Earth teyit içindir. İlk kayıt: Ankara, iki kaynak arası fark yaklaşık 2,2 km (`data/places.json`).
+- **OpenStreetMap (2026-11-14, parti 7):** Natural Earth'te olmayan, yerleşim yeri olmayan yerler (Arıburnu, Conk Bayırı, Anafartalar) için ikinci koordinat kaynağı. Lisans ODbL: "You are free to copy, distribute, transmit and adapt our data, as long as you credit OpenStreetMap and its contributors"; türetilmiş veri aynı lisansla dağıtılır ([copyright](https://www.openstreetmap.org/copyright)). Saklanan koordinat Wikidata'nınki; OSM noktası yalnız teyit içindir ve `$note` alanında not edilir (derlemede silinir). Atıf satırında "© OpenStreetMap katkıcıları (ODbL)" yazar. Hukuki görüş değildir.
 - **Ankara, durum 2026-10-29 (açık):** (a) *Dönem adı:* "Ankara" biçimini destekleyen tarihli birincil belge şu an elde: 1920-1928 tutanaklarının kendisinde mebus etiketleri "(Ankara)" ve 1921 konuşmasında "Ankara'ya geldiler" geçiyor (`tbmm-zc-early-1921-03-01`, s. 3). İkinci, bağımsız ve telifsiz kaynak bulunamadı; `data/places.json` içindeki ad kaynaksız ve `build-data` uyarı basmaya devam ediyor. (b) *Konuşmaların yeri:* TBMM'nin I. Meclis binası kaydı (Ankara, 23 Nisan 1920 - 15 Ekim 1924; II. bina 18 Ekim 1924) arama özetinde göründü, ama sayfa (`kurtulussavasimuzesi.tbmm.gov.tr`) iki denemede de açılmadı (bağlantı reddedildi); metin doğrulanamadığı için kaynak olarak girilmedi. Sayfa açılınca ve ikinci bir kaynak bulununca `fromPlaceId` kayıtlarına işlenecek. 13 Ekim 1923 başkent kanunu (Ankara) 1924 sonrası konuşmaları destekler ama kanun metni henüz okunmadı.
 - Sonuç: Yer adı katmanı elle derlenecek. Her ad DAB *Osmanlı Yer Adları* ya da kullanılan belge yayınındaki yazımla kaynaklanacak.
 
@@ -191,6 +199,7 @@ Aşağıdaki dönemler ve değişiklikler iki açık veri setinde de ya hiç yok
 
 | Varlık | Kaynak | Lisans (kaynak linkiyle) | Not |
 |---|---|---|---|
+| OpenStreetMap | [openstreetmap.org](https://www.openstreetmap.org/) | ODbL ([copyright](https://www.openstreetmap.org/copyright)) | 2026-11-14: koordinat teyidi (§4) |
 | Natural Earth (raster + vektör) | [naturalearthdata.com](https://www.naturalearthdata.com/) | Kamu malı: "All versions of Natural Earth raster + vector map data found on this website are in the public domain." — [terms](https://www.naturalearthdata.com/about/terms-of-use/) | Etiketsiz fiziksel altlık için önerilen aday (sepya tonlanabilir) |
 | OpenFreeMap | [openfreemap.org](https://openfreemap.org/) | Proje MIT; atıf zorunlu; veri OpenStreetMap | Güncel etiket ve yol içerir; gizlemek gerekir. Yedek aday |
 | MapLibre GL JS | [npm](https://www.npmjs.com/package/maplibre-gl) | BSD-3-Clause (npm registry) | — |

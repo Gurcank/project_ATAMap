@@ -40,6 +40,53 @@ describe('applyRules', () => {
     expect(violations.some((v) => v.id === 'event:kurgu-olay' && v.rule === 1)).toBe(true);
   });
 
+  it('drops a journey whose leg ends at a dropped place, and its event', () => {
+    const ds = validDataset();
+    const date = {
+      iso: '1900-01-05',
+      precision: 'day' as const,
+      approximate: false,
+      sources: ['k1', 'k2'],
+    };
+    ds.places.push({
+      id: 'kurgu-ikinci-sehir',
+      point: { lon: 31, lat: 40, sources: ['k2', 'k3'] },
+      names: [{ name: 'Kurgu İkinci Şehir', sources: ['k1'] }],
+    });
+    ds.journeys.push({
+      id: 'kurgu-yol',
+      title: 'Kurgu yol',
+      sources: ['k1', 'k2'],
+      legs: [
+        {
+          fromPlaceId: 'kurgu-sehir',
+          toPlaceId: 'kurgu-ikinci-sehir',
+          vehicle: 'tren',
+          departure: date,
+          routeKind: 'yaklasik',
+          sources: ['k1', 'k2'],
+        },
+      ],
+    });
+    ds.events.push({
+      id: 'kurgu-yol-olayi',
+      date,
+      title: 'Kurgu yolculuk',
+      text: 'Kurgu bir yolculuk yaptı.',
+      placeId: 'kurgu-sehir',
+      journeyId: 'kurgu-yol',
+      sources: ['k1', 'k2'],
+    });
+    expect(applyRules(ds).kept.journeys).toHaveLength(1);
+    // The second place loses a coordinate source; the first place stays.
+    ds.places[1]!.point.sources = ['k2', 'k4'];
+    ds.sources.find((s) => s.id === 'k4')!.verified = false;
+    const { kept, violations } = applyRules(ds);
+    expect(kept.journeys).toHaveLength(0);
+    expect(kept.events.map((e) => e.id)).toEqual(['kurgu-olay']);
+    expect(violations.some((v) => v.id === 'journey:kurgu-yol' && v.rule === 1)).toBe(true);
+  });
+
   it('keeps an event but stops listing a dropped document', () => {
     const ds = validDataset();
     ds.sources.find((s) => s.id === 'k1')!.verified = false;

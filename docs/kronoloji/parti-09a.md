@@ -1,7 +1,7 @@
 # Kronoloji, parti 9a: Millî Mücadele I, Samsun'dan Ankara'ya
 
 > Kapsam: Samsun'a çıkıştan (19 Mayıs 1919) TBMM'nin açılışına (23 Nisan 1920) kadar.
-> Durum: **onay bekliyor.** Sekiz olay, bir seyahat ve dört yer `data/` altında, `verified: false`.
+> Durum: **onaylandı (2026-11-14).** Sekiz olay, bir seyahat ve dört yer sitede.
 > Araştırma tarihi: 2026-11-14. Kaynak kuralı: SPEC §2.2 (A19, K4), kullanıcının 2026-11-14 onayıyla aynen.
 
 ## Yeni kaynak: Nutuk'un 1929 resmî İngilizce baskısı
@@ -64,6 +64,12 @@
 **Bu partide olmayanlar:**
 - Rütbe/görev kaydı yok. 9. Ordu Müfettişliği'nin başlangıç tarihi bu turda iki kaynakla bulunamadı; Heyet-i Temsiliye Reisliği'nin başlangıç ve bitiş tarihleri yok.
 - Mîsâk-ı Millî'nin kabulü ve İstanbul'un işgali Atatürk'ün kendi olayları olmadığı için alınmadı.
+
+## Kararlar (2026-11-14)
+
+- Parti onaylandı; Nutuk 1929 kaynağı ve dört Wikidata kaynağı `verified: true`.
+- Amasya Genelgesi 21-22 Haziran 1919 aralığı olarak kaldı.
+- Ankara'nın dönem adına Vikipedi ve 1921 tarihli TBMM tutanağı kaynak olarak eklendi; derlemedeki eski uyarı kalktı.
 
 ## Genel sonuç
 

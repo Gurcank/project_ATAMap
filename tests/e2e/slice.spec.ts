@@ -146,16 +146,28 @@ test('the last step disables Sonraki, a manual step stops autoplay', async ({ pa
   );
 });
 
-test('mode selector: years skip, Seyahat is unavailable (no journeys yet)', async ({ page }) => {
+test('mode selector: years skip', async ({ page }) => {
   await open(page, '/#adim=tbmm-nutuk-1923-08-13');
   const mode = page.getByLabel('Adım birimi');
-  // An <option> is not an actionable control, so check the attribute itself.
-  await expect(mode.locator('option[value="seyahat"]')).toHaveAttribute('disabled', '');
   await mode.selectOption('yil');
   // 1923 has two events; year mode lands on the first of the year, never later than where we were.
   await expect(page.getByText('1 Mart 1923')).toBeVisible();
   await page.getByRole('button', { name: 'Sonraki' }).click();
   await expect(page.getByText('1 Mart 1924')).toBeVisible();
+});
+
+test('the first real journey: Amasya to Erzurum by car, approximate route', async ({
+  page,
+}, info) => {
+  await open(page, '/#adim=amasya-erzurum-1919-06-26');
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText("Amasya'dan Erzurum'a gitti");
+  await expect(page.getByText('yaklaşık rota')).toHaveCount(1);
+  const mode = page.getByLabel('Adım birimi');
+  await expect(mode.locator('option[value="seyahat"]')).not.toHaveAttribute('disabled', '');
+  const status = page.getByRole('region', { name: 'Durum' });
+  if (info.project.name === 'mobil-375') await status.getByRole('button').click();
+  await expect(status.locator('dd')).toHaveText(['38', 'Amasya']);
+  await shot(page, info, 'seyahat');
 });
 
 test('a Latin-script speech opens as an A4 sheet with its citation', async ({ page }, info) => {

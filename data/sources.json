@@ -339,8 +339,8 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Parti 2. Manastır 110m ve 50m dosyalarında yok; 10m: Bitola, ne_id 1159138957, 41.039057, 21.339514."
+      "verified": true,
+      "$note": "Parti 2. Manastır 110m ve 50m dosyalarında yok; 10m: Bitola, ne_id 1159138957, 41.039057, 21.339514. Parti 9a onayıyla doğrulandı (2026-11-14): Amasya, Erzurum ve Sivas koordinatlarının teyidi bu dosyadan. Manastır kendi Wikidata kaynağı onaysız olduğu için hâlâ çıktıda yok."
     },
     {
       "id": "liman-fuenf-jahre-tuerkei-1920",
@@ -471,8 +471,8 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Parti 9a. Nutuk'un 1929 resmî İngilizce baskısı. Metin Atatürk'ün (ö. 1938; FSEK m.27/1). Çevirmen ve giriş yazarı adsız, telif sahibi yayınevi (K. F. Koehler): FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, 1999'da doldu. ABD: 1929 yayını, IA kaydına göre telif yenilemesi bulunamadı. Tarihler sayfa taramalarından okundu (görüntü no = sayfa + 11). Vikipedi'nin 'Samsun'a çıkışı' bölümü iki cümlede ([211], [217]) Nutuk'u dayanak gösteriyor; burada kullanılan olaylar o cümleler değil (19 Mayıs [214] ataturk.net'e dayanıyor). Diğer bölümler Nutuk'u dayanak göstermiyor. Nutuk'un 1927 Arap harfli aslı ve Latin harfli yeni baskıları kullanılmadı."
+      "verified": true,
+      "$note": "Parti 9a. Nutuk'un 1929 resmî İngilizce baskısı. Metin Atatürk'ün (ö. 1938; FSEK m.27/1). Çevirmen ve giriş yazarı adsız, telif sahibi yayınevi (K. F. Koehler): FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, 1999'da doldu. ABD: 1929 yayını, IA kaydına göre telif yenilemesi bulunamadı. Tarihler sayfa taramalarından okundu (görüntü no = sayfa + 11). Vikipedi'nin 'Samsun'a çıkışı' bölümü iki cümlede ([211], [217]) Nutuk'u dayanak gösteriyor; burada kullanılan olaylar o cümleler değil (19 Mayıs [214] ataturk.net'e dayanıyor). Diğer bölümler Nutuk'u dayanak göstermiyor. Nutuk'un 1927 Arap harfli aslı ve Latin harfli yeni baskıları kullanılmadı. Kullanıcı onayı: 2026-11-14 (parti 9a)."
     },
     {
       "id": "wikidata-q160450-r2540136792",
@@ -483,8 +483,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 9a. P625: 41.286666666667, 36.33; dayanak Rusça Vikipedi (P143)."
+      "verified": true,
+      "$note": "Parti 9a. P625: 41.286666666667, 36.33; dayanak Rusça Vikipedi (P143). Kullanıcı onayı: 2026-11-14 (parti 9a)."
     },
     {
       "id": "wikidata-q170532-r2552031144",
@@ -495,8 +495,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 9a. P625: 40.65, 35.833333333333 (ilk değer); dayanak Rusça Vikipedi (P143); ikinci değer 40.678674, 35.8278."
+      "verified": true,
+      "$note": "Parti 9a. P625: 40.65, 35.833333333333 (ilk değer); dayanak Rusça Vikipedi (P143); ikinci değer 40.678674, 35.8278. Kullanıcı onayı: 2026-11-14 (parti 9a)."
     },
     {
       "id": "wikidata-q122803-r2567563510",
@@ -507,8 +507,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 9a. P625: 39.909722222222, 41.275555555556; dayanak Rusça Vikipedi (P143)."
+      "verified": true,
+      "$note": "Parti 9a. P625: 39.909722222222, 41.275555555556; dayanak Rusça Vikipedi (P143). Kullanıcı onayı: 2026-11-14 (parti 9a)."
     },
     {
       "id": "wikidata-q107401-r2560607580",
@@ -519,8 +519,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "Parti 9a. P625: 39.75, 37.016666666667; dayanak Rusça Vikipedi (P143)."
+      "verified": true,
+      "$note": "Parti 9a. P625: 39.75, 37.016666666667; dayanak Rusça Vikipedi (P143). Kullanıcı onayı: 2026-11-14 (parti 9a)."
     }
   ]
 }

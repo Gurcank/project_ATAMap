@@ -449,7 +449,7 @@ export function applyRules(ds: Dataset): RuleResult {
 
   let events = screen('event', 'event', ds.events);
   let documents = screen('document', 'document', ds.documents);
-  const journeys = screen('journey', 'journey', ds.journeys);
+  let journeys = screen('journey', 'journey', ds.journeys);
   const borders = screen('border', 'border', ds.borders);
   const places = screen('place', 'place', ds.places);
   const tenures = screen('tenure', 'tenure', ds.tenures);
@@ -459,7 +459,6 @@ export function applyRules(ds: Dataset): RuleResult {
       : null;
 
   const livePlaces = new Set(places.map((p) => p.id));
-  const liveJourneys = new Set(journeys.map((j) => j.id));
   const cascade = <T extends { id: string }>(
     label: string,
     list: T[],
@@ -474,6 +473,13 @@ export function applyRules(ds: Dataset): RuleResult {
       return false;
     });
 
+  // A journey whose leg ends at a dropped place could not be drawn; it goes too, and its events
+  // follow below.
+  journeys = cascade('journey', journeys, (j) => {
+    const missing = placeRefsOf('journey', j).find((p) => !livePlaces.has(p));
+    return missing ? `yer "${missing}" çıktıda yok` : null;
+  });
+  const liveJourneys = new Set(journeys.map((j) => j.id));
   documents = cascade('document', documents, (d) => {
     const missing = placeRefsOf('document', d).find((p) => !livePlaces.has(p));
     return missing ? `yer "${missing}" çıktıda yok` : null;

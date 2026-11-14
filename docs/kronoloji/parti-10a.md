@@ -1,7 +1,7 @@
 # Kronoloji, parti 10a: Cumhuriyet'ten Harf İnkılabı'na
 
 > Kapsam: Cumhuriyet'in ilanından (29 Ekim 1923) Harf Kanunu'na (1 Kasım 1928) kadar.
-> Durum: **onay bekliyor.** Bir olay `data/` altında, `verified: false`.
+> Durum: **onaylandı (2026-11-14).** Nutuk olayı sitede.
 > Araştırma tarihi: 2026-11-14. Kaynak kuralı: SPEC §2.2 (A19, K4), kullanıcının 2026-11-14 onayıyla aynen.
 
 ## Bu dönemde sitede zaten olanlar
@@ -46,6 +46,11 @@ TBMM açılış konuşmaları: 1 Mart 1924, 1 Kasım 1925, 1926, 1927 ve 1928. K
 | 1925-1928 | Latife Hanım'dan ayrılık, 1927'de İstanbul'a dönüş, 9 Ağustos 1928 Sarayburnu konuşması | — | Ana maddede tarihli olarak bulunamadı |
 
 **Bu partide olmayanlar:** Halifeliğin kaldırılması, Tevhid-i Tedrisat, Şapka Kanunu, Medeni Kanun, takvim ve ölçü değişiklikleri Meclis kararları olduğu için alınmadı (saltanattaki karar gibi).
+
+## Kararlar (2026-11-14)
+
+- Parti onaylandı.
+- Nutuk künye kartı için açık bir karar verilmedi; aranmadı, açık iş olarak duruyor.
 
 ## Genel sonuç
 

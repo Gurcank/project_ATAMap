@@ -863,6 +863,68 @@
         "nutuk-en-1929-giris"
       ],
       "$note": "Parti 10a. 'Altı gün' 15-20 Ekim aralığından. Nutuk'un 1927 Arap harfli aslı için künye kartı (belge kaydı) kullanıcıya önerildi, girilmedi."
+    },
+    {
+      "id": "onuncu-yil-1933-10-29",
+      "date": {
+        "iso": "1933-10-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "milliyet-1933-10-30"
+        ],
+        "$note": "Vikipedi: 29 Ekim 1933. Milliyet 30 Teşrinievvel 1933 s. 1: 'dün Ankarada'."
+      },
+      "title": "Onuncu Yıl Nutku'nu okudu",
+      "text": "Cumhuriyet'in onuncu yıl dönümünde Ankara'daki törende, radyoyla her yerde dinlenen konuşmasını yaptı.",
+      "placeId": "ankara",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "milliyet-1933-10-30"
+      ],
+      "$note": "Parti 10b."
+    },
+    {
+      "id": "soyadi-1934-11-24",
+      "date": {
+        "iso": "1934-11-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "aksam-1934-11-25"
+        ],
+        "$note": "Vikipedi: 24 Kasım 1934 tarihli 2587 sayılı kanun. Akşam 25 Teşrinisani 1934 s. 1: 'dün'."
+      },
+      "title": "Atatürk soyadı verildi",
+      "text": "İsmet Paşa'nın teklifiyle Büyük Millet Meclisi kanunla ona Atatürk soyadını verdi.",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "aksam-1934-11-25"
+      ],
+      "$note": "Parti 10b."
+    },
+    {
+      "id": "olum-1938-11-10",
+      "date": {
+        "iso": "1938-11-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "wikidata-q5152-r2569089775-p570-p20"
+        ],
+        "$note": "Vikipedi: 10 Kasım 1938, 09.05. Wikidata P570: 1938-11-10."
+      },
+      "title": "Dolmabahçe Sarayı'nda öldü",
+      "text": "İstanbul'da, Dolmabahçe Sarayı'nda sabah saat dokuzu beş geçe öldü.",
+      "placeId": "dolmabahce-sarayi",
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "wikidata-q5152-r2569089775-p570-p20"
+      ],
+      "$note": "Parti 10b."
     }
   ]
 }

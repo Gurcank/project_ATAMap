@@ -268,6 +268,28 @@
           "$note": "Vikipedi 'Sivas', Nutuk 1929 (İngilizce) 'Sivas'. Yazım Vikipedi'den (Gelibolu kararıyla aynı ilke)."
         }
       ]
+    },
+    {
+      "id": "dolmabahce-sarayi",
+      "point": {
+        "lon": 29.001666666667,
+        "lat": 41.039444444444,
+        "sources": [
+          "wikidata-q274141-r2567639747",
+          "osm-way-24826707"
+        ],
+        "$note": "Wikidata: 41.039444444444, 29.001666666667. OpenStreetMap: 41.0389605, 28.9997735 (yaklaşık 0,2 km)."
+      },
+      "names": [
+        {
+          "name": "Dolmabahçe Sarayı",
+          "sources": [
+            "vikipedi-tr-ataturk-38564203",
+            "wikidata-q5152-r2569089775-p570-p20"
+          ],
+          "$note": "Vikipedi 'Dolmabahçe Sarayı'; Wikidata P20 ifadesi (Anadolu Ajansı dayanaklı) ölüm yeri olarak bu sarayı gösteriyor. Ad için ikinci kaynak bu ifade; kullanıcıya soruldu."
+        }
+      ]
     }
   ]
 }

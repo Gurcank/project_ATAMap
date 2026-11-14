@@ -555,8 +555,68 @@
       "accessedAt": "2026-11-14",
       "rights": "kamu-mali",
       "free": true,
+      "verified": true,
+      "$note": "Parti 10a. Girişin ilk cümlesi taramadan okundu (görüntü n12): konuşma 15-20 Ekim 1927 arasında Ankara'da ('Angora'), Cumhuriyet Halk Fırkası ('Republican Party') milletvekilleri ve temsilcileri önünde yapıldı. Giriş adsız; telif ve bağımsızlık: nutuk-en-1929 kaydındaki not. Vikipedi'nin ilgili cümlesi [321] 'CHP Kurultayları' sayfasına dayanıyor, Nutuk'a değil. Kullanıcı onayı: 2026-11-14 (parti 10a)."
+    },
+    {
+      "id": "milliyet-1933-10-30",
+      "institution": "Wikimedia Commons (İstanbul Üniversitesi Kütüphanesi taraması)",
+      "citation": "Milliyet, 30 Teşrinievvel 1933, s. 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Milliyet_1933_tesrinievvel_30.pdf",
+      "page": "1",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
       "verified": false,
-      "$note": "Parti 10a. Girişin ilk cümlesi taramadan okundu (görüntü n12): konuşma 15-20 Ekim 1927 arasında Ankara'da ('Angora'), Cumhuriyet Halk Fırkası ('Republican Party') milletvekilleri ve temsilcileri önünde yapıldı. Giriş adsız; telif ve bağımsızlık: nutuk-en-1929 kaydındaki not. Vikipedi'nin ilgili cümlesi [321] 'CHP Kurultayları' sayfasına dayanıyor, Nutuk'a değil."
+      "$note": "Parti 10b. Commons dosyası, revizyon 1011570974; lisans şablonu {{PD-Turkey}}; kaynak İstanbul Üniversitesi Kütüphane ve Dokümantasyon Daire Başkanlığı. Gazete imzasız ya da tüzel kişi eseri: FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, dolmuş. Hukuki görüş değildir. Sayfa taramasından okundu: Reisicümhurun 'dün Ankarada yapılan merasimde her tarafta radyo ile dinlenen' hitabesi (onuncu yıl). Gazeteden metin alınmadı; yalnız tarih, yer ve olay bilgisi."
+    },
+    {
+      "id": "aksam-1934-11-25",
+      "institution": "Wikimedia Commons (İstanbul Üniversitesi Kütüphanesi taraması)",
+      "citation": "Akşam, 25 Teşrinisani 1934, s. 1",
+      "url": "https://commons.wikimedia.org/wiki/File:Aksam_1934_tesrinisani_25.pdf",
+      "page": "1",
+      "accessedAt": "2026-11-14",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 10b. Commons dosyası, revizyon 1013242091; lisans şablonu {{PD-Turkey}}; kaynak İstanbul Üniversitesi Kütüphane ve Dokümantasyon Daire Başkanlığı. Gazete imzasız ya da tüzel kişi eseri: FSEK m.27'ye göre koruma aleniyetten itibaren 70 yıl, dolmuş. Hukuki görüş değildir. Sayfa taramasından okundu: Fotoğraf altı: Gazi Mustafa Kemal 'dün İsmet paşanın teklifi ve Büyük Millet Meclisinin karar[ı]le ATATÜRK soy adını' aldı. Gazeteden metin alınmadı; yalnız tarih, yer ve olay bilgisi."
+    },
+    {
+      "id": "wikidata-q5152-r2569089775-p570-p20",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q5152 (Mustafa Kemal Atatürk), P570 ölüm tarihi ve P20 ölüm yeri, revizyon 2569089775",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q5152.json?revision=2569089775",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 10b. P570: 1938-11-10; dayanaklar Büyük Sovyet Ansiklopedisi, BnF, SNAC, Find a Grave, Brockhaus, Store norske leksikon, AlKindi (Vikipedi'den aktarılmamış). P20: Q274141 Dolmabahçe Sarayı; dayanak Anadolu Ajansı haberi (aa.com.tr)."
+    },
+    {
+      "id": "wikidata-q274141-r2567639747",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q274141 (Dolmabahçe Sarayı), P625 koordinat, revizyon 2567639747",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q274141.json?revision=2567639747",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 10b. P625: 41.039444444444, 29.001666666667; dayanak İngilizce Vikipedi (P143)."
+    },
+    {
+      "id": "osm-way-24826707",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, way 24826707 («Dolmabahçe Palace»)",
+      "url": "https://www.openstreetmap.org/way/24826707",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "Parti 10b. Nominatim (2026-11-14): 41.0389605, 28.9997735. Teyit için; saklanan değer Wikidata."
     }
   ]
 }

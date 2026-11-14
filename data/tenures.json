@@ -50,6 +50,38 @@
         "wikidata-q5152-r2569089775-p39-p410"
       ],
       "$note": "Parti 9b. Vikipedi 'Müşîr (bugünkü ismiyle Mareşal)', Wikidata 'Mareşal'. Bitiş yazılmadı: Wikidata 1927-06-30 diyor, ikinci kaynak parti 10a'da aranacak. Bitiş girilmezse rütbe 1938'e kadar gösterilir."
+    },
+    {
+      "id": "reisicumhur-1923",
+      "kind": "gorev",
+      "title": "Reisicümhur",
+      "start": {
+        "iso": "1923-10-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "nutuk-en-1929-s523-657"
+        ],
+        "$note": "Vikipedi bilgi kutusu: 29 Ekim 1923. Nutuk 1929 s. 657: cumhurbaşkanı seçimi 29 Ekim 1923 akşamı 8.45."
+      },
+      "end": {
+        "iso": "1938-11-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "vikipedi-tr-ataturk-38564203",
+          "wikidata-q5152-r2569089775-p570-p20"
+        ],
+        "$note": "Vikipedi bilgi kutusu: 10 Kasım 1938. Wikidata P570 (ölüm): 1938-11-10. Görevin bitişi ölüm tarihi; Wikidata'nın P39 bitişi Vikipedi'den aktarıldığı için kullanılmadı."
+      },
+      "sources": [
+        "vikipedi-tr-ataturk-38564203",
+        "nutuk-en-1929-s523-657",
+        "wikidata-q5152-r2569089775-p570-p20",
+        "tbmm-zc-d3-c13-i1-1929-11-01"
+      ],
+      "$note": "Parti 10b. Unvan dönem yazımıyla: 1 Kasım 1929 tutanağında 'Reisicümhur Gazi Mustafa Kemal Hazretleri' (onaylı kaynak). Vikipedi 'cumhurbaşkanı' diyor."
     }
   ]
 }

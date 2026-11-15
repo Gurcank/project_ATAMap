@@ -1,7 +1,7 @@
 # Nutuk'taki mektup ve telgraflar, parti 1 (s. 9-60, Mayıs-Temmuz 1919)
 
 > Kaynak: *A Speech Delivered by Ghazi Mustapha Kemal* (Leipzig: K. F. Koehler, 1929), [Internet Archive](https://archive.org/details/speechdeliveredg010347mbp). Sayfalar kaynak kayıtlarında (`nutuk-en-1929-belge-sNN`), kartta gösterilmez (A30).
-> Durum: **onay bekliyor**, kayıtlar `verified: false`.
+> Durum: **onaylandı (2026-11-15)**, belgeler sitede. Tek kaynaklı tarih yorumu kullanıcı tarafından kabul edildi; sonraki partilere de uygulanır.
 > Yalnız künye: tür, tarih, gönderen, alıcı, gönderildiği ve ulaştığı yer. Metin alınmadı (SPEC §2.1).
 > Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a); resmî Türkçe metin bulunursa düzeltilecek.
 > Mustafa Kemal'in o gün bulunduğu yer, onaylı MSB güzergâh kayıtlarından (Samsun 19-25 Mayıs, Havza 25 Mayıs-11/12 Haziran, Amasya 12-26 Haziran, Erzurum 3 Temmuz'dan itibaren).

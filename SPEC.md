@@ -472,6 +472,7 @@ interface Tenure {        // data/tenures.json
 | A31 | Deniz yolculukları (2026-11-15) | Düz çizgi karadan geçtiği için rota denize doğru kavisli çizilir ve "yaklaşık rota (deniz)" diye etiketlenir. Kavis çizim sırasında hesaplanır; yeni koordinat kaydedilmez (kural 3) |
 | A32 | Seyahat araçları (2026-11-15) | Seyahat sırasında aracın simgesi (vapur, tren, at, otomobil, uçak) rota üzerinde ilerler. Hareket azaltmada simge rotanın ortasında sabit durur. Araç kaynakta yazmıyorsa etap girmez |
 | A33 | Dönem sınırları (2026-11-15) | Yalnız Osmanlı/Türkiye sınırı çizilir (komşular çizilmez). 1881-1885 için sınır yok (CShapes 1886'da başlar). 30 Mayıs - 29 Eylül 1913 arası sınır gösterilmez (Midye-Enez hattının kaynaklı çizimi yok; CShapes Edirne'yi yanlış gösteriyor). 1923-1938 Türkiye sınırı = CShapes bugünkü Türkiye eksi Hatay (1921 Ankara Antlaşması - 1939). Sevr ve işgal bölgeleri çizilmez. Tarihler resmî kaynaktan (MSB), geometri CShapes'ten |
+| A34 | İlk sınırın başlangıç tarihi (2026-11-15) | 1886-1912 Osmanlı sınırı CShapes'in kapsama başlangıcından (1886) itibaren gösterilir. Bu tarih bir olay değildir; `conventional: true` işaretlenir ve geometrinin kendi kaynağı (CShapes) tek kaynak olarak kabul edilir. İstisna yalnız bu tür bir sınır kaydı içindir (kural 5, kullanıcı kararı) |
 
 ---
 

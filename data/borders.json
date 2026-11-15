@@ -1,6 +1,32 @@
 {
   "borders": [
     {
+      "id": "osmanli-1886",
+      "effective": {
+        "iso": "1886",
+        "precision": "year",
+        "approximate": false,
+        "conventional": true,
+        "sources": [
+          "cshapes-2-0"
+        ],
+        "$note": "CShapes'in kapsama başlangıcı (1 Ocak 1886); bir olay tarihi değil. Kullanıcı kararıyla (A34, 2026-11-15) tek kaynak kabul edildi."
+      },
+      "kind": "diger",
+      "title": "Osmanlı Devleti sınırı (CShapes başlangıcı)",
+      "polity": "Osmanlı Devleti / Türkiye",
+      "geometry": "borders/cshapes/osmanli-1886.geojson",
+      "geometryOrigin": "cshapes",
+      "geometryApproximate": false,
+      "geometrySources": [
+        "cshapes-2-0"
+      ],
+      "sources": [
+        "cshapes-2-0"
+      ],
+      "$note": "Sınırlar partisi (2026-11-15). CShapes 640, 1886-01-01 → 1912-10-17. 1881-1885 için sınır yok (A33)."
+    },
+    {
       "id": "usi-1912",
       "effective": {
         "iso": "1912-10-18",

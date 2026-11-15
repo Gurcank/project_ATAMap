@@ -1,11 +1,11 @@
 # Dönem sınırları, ilk parti
 
 > Kaynaklar: geometri [CShapes 2.0](https://icr.ethz.ch/data/cshapes/) (CC BY-NC-SA 4.0); tarihler MSB Atatürk Sitesi «Atatürk Kronolojisi» ve «Millî Mücadele Dönemi» (resmî, A27); Hatay kesimi Natural Earth il sınırı (kamu malı).
-> Durum: **onay bekliyor**, kaynaklar `verified: false`. Kurallar SPEC A33.
+> Durum: **onaylandı (2026-11-15)**, sınırlar sitede. Kurallar SPEC A33, A34.
 
 | Geçerlilik başlangıcı | Kayıt | Geometri | Tarih kaynağı | Not |
 |---|---|---|---|---|
-| (1886) | Osmanlı Devleti sınırı | CShapes 640, 1886-01-01 | **Yok** | CShapes'in kapsama başlangıcı bir olay değil. **Karar bekliyor**; kayıt şimdilik veride yok |
+| 1886 | Osmanlı Devleti sınırı | CShapes 640, 1886-01-01 | CShapes (kapsama başlangıcı) | Bir olay tarihi değil; kullanıcı kararıyla tek kaynak kabul edildi (A34) |
 | 18 Ekim 1912 | Uşi Antlaşması | CShapes 640, 1912-10-18 | MSB «Millî Mücadele Dönemi» | Trablusgarp ve Bingazi çıkar. CShapes'in 1913-01-01 satırı (Arnavutluk, yer tutucu tarih) atlandı |
 | 30 Mayıs 1913 | Londra Antlaşması | **boş** | MSB kronolojisi | Sınır gösterilmez (A33) |
 | 29 Eylül 1913 | İstanbul Antlaşması | CShapes 640, 1913-05-30 | MSB kronolojisi, «Millî Mücadele Dönemi» | Edirne ve Meriç sınırı |

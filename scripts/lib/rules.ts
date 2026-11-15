@@ -290,7 +290,17 @@ export function applyRules(ds: Dataset): RuleResult {
       l.path?.forEach((p, k) => checkPoint(`journey:${j.id}`, `legs[${i}].path[${k}]`, p));
     });
   }
-  for (const b of ds.borders) checkDate(`border:${b.id}`, 'effective', b.effective);
+  for (const b of ds.borders) {
+    // A34 (user decision, 2026-11-15): the first outline starts where its dataset starts, not at
+    // an event. Such a date is marked conventional and may rest on the geometry's own source.
+    const datasetStart =
+      b.effective.conventional === true &&
+      b.geometryOrigin === 'cshapes' &&
+      b.effective.sources.length > 0 &&
+      b.effective.sources.every((s) => b.geometrySources.includes(s));
+    if (datasetStart) checkSources(`border:${b.id}`, 'effective', b.effective.sources, 1);
+    else checkDate(`border:${b.id}`, 'effective', b.effective);
+  }
   for (const p of ds.places) {
     checkPoint(`place:${p.id}`, 'point', p.point);
     p.names.forEach((n, i) => {

@@ -2727,8 +2727,8 @@
       "rights": "acik-lisans",
       "licence": "CC-BY-NC-SA-4.0",
       "free": true,
-      "verified": false,
-      "$note": "Sınırlar partisi (2026-11-15). Dosya sha256 384b1ea9…9989d42 (scripts/geo-sources.json). Geometri kaynağı; tarih kaynağı olarak kullanılmadı, çünkü codebook kaynak tarih yoksa ayın/yılın ilk gününü yazdığını söylüyor (SOURCES §3.2). Türetilmiş dosyalar data/borders/cshapes/ altında, aynı lisansla."
+      "verified": true,
+      "$note": "Sınırlar partisi (2026-11-15). Dosya sha256 384b1ea9…9989d42 (scripts/geo-sources.json). Geometri kaynağı; tarih kaynağı olarak yalnız osmanli-1886 kaydında, kapsama başlangıcı olarak (A34), çünkü codebook kaynak tarih yoksa ayın/yılın ilk gününü yazdığını söylüyor (SOURCES §3.2). Türetilmiş dosyalar data/borders/cshapes/ altında, aynı lisansla. Kullanıcı onayı: 2026-11-15 (sınırlar partisi)."
     },
     {
       "id": "msb-milli-mucadele-donemi",
@@ -2737,10 +2737,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Millî Mücadele Dönemi»",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/milli-mucadele-donemi",
-      "$note": "Sınırlar partisi (2026-11-15). Resmî kaynak (A27), yalnız olgu. Kullanılan tarihler: '18 Ekim 1912 tarihinde Uşi (Ouchy) Antlaşması imzalanmıştır'; '3 Mart 1918 Brest-Litovsk Anlaşması ile … Kars, Ardahan ve Batum'u geri almakla'; Lozan'da '5 Kasım 1914'ten itibaren … Kıbrıs'ın İngiltere tarafından ilhakı kabul ediliyordu'; '29 Eylül 1913 günü imzalanan İstanbul Antlaşması'; '24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'."
+      "$note": "Sınırlar partisi (2026-11-15). Resmî kaynak (A27), yalnız olgu. Kullanılan tarihler: '18 Ekim 1912 tarihinde Uşi (Ouchy) Antlaşması imzalanmıştır'; '3 Mart 1918 Brest-Litovsk Anlaşması ile … Kars, Ardahan ve Batum'u geri almakla'; Lozan'da '5 Kasım 1914'ten itibaren … Kıbrıs'ın İngiltere tarafından ilhakı kabul ediliyordu'; '29 Eylül 1913 günü imzalanan İstanbul Antlaşması'; '24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'. Kullanıcı onayı: 2026-11-15 (sınırlar partisi)."
     },
     {
       "id": "msb-kronoloji-sinirlar",
@@ -2749,10 +2749,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi»",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "Sınırlar partisi (2026-11-15). Resmî kaynak (A27), yalnız olgu. Maddeler: 30 Mayıs 1913 Londra Barış Antlaşması ('Midye - Enez hattını sınır olarak kabul etmiş, Edirne'yi Bulgaristan'a bırakmıştır'); 29 Eylül 1913 İstanbul Antlaşması; 30 Ekim 1918 Mondros; 24 Temmuz 1923 Lozan."
+      "$note": "Sınırlar partisi (2026-11-15). Resmî kaynak (A27), yalnız olgu. Maddeler: 30 Mayıs 1913 Londra Barış Antlaşması ('Midye - Enez hattını sınır olarak kabul etmiş, Edirne'yi Bulgaristan'a bırakmıştır'); 29 Eylül 1913 İstanbul Antlaşması; 30 Ekim 1918 Mondros; 24 Temmuz 1923 Lozan. Kullanıcı onayı: 2026-11-15 (sınırlar partisi)."
     },
     {
       "id": "naturalearth-ne10m-admin1",
@@ -2762,8 +2762,8 @@
       "accessedAt": "2026-11-15",
       "rights": "kamu-mali",
       "free": true,
-      "verified": false,
-      "$note": "Sınırlar partisi (2026-11-15). Yalnız Hatay ili poligonu: 1923-1938 Türkiye sınırından çıkarmak için. Bugünkü il sınırı, 1921-1939 Hatay (İskenderun) sancağının sınırına yaklaşık olarak karşılık gelir; fark doğrulanmadı."
+      "verified": true,
+      "$note": "Sınırlar partisi (2026-11-15). Yalnız Hatay ili poligonu: 1923-1938 Türkiye sınırından çıkarmak için. Bugünkü il sınırı, 1921-1939 Hatay (İskenderun) sancağının sınırına yaklaşık olarak karşılık gelir; fark doğrulanmadı. Kullanıcı onayı: 2026-11-15 (sınırlar partisi)."
     }
   ]
 }

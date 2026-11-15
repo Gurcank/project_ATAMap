@@ -345,3 +345,19 @@ test('no accessibility violations (axe)', async ({ page }) => {
   const withDialog = await axe(page);
   expect(withDialog.violations.map((v) => `${v.id}: ${v.help}`)).toEqual([]);
 });
+
+test('period borders follow the step date (SPEC A33, A34)', async ({ page }) => {
+  const border = (id: string) => page.locator(`[data-border-id="${id}"]`);
+  // 1881: CShapes starts in 1886, so no border is drawn yet.
+  await open(page, '/#adim=dogum-selanik');
+  await expect(page.locator('[data-border-id]')).toHaveCount(0);
+  // 1899: the 1886-1912 outline.
+  await open(page, '/#adim=harbiye-1899-03-13');
+  await expect(border('osmanli-1886')).toHaveCount(1);
+  // 1916: after Cyprus left in 1914.
+  await open(page, '/#adim=mus-1916-08-07');
+  await expect(border('kibris-1914')).toHaveCount(1);
+  // 1930: the Lausanne outline.
+  await open(page, '/#adim=yg-1930-02-26-ankara-dan-izmir-e-yola-cikti');
+  await expect(border('lozan-1923')).toHaveCount(1);
+});

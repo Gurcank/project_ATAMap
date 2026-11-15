@@ -23,6 +23,33 @@ describe('applyRules', () => {
     expect(hit?.fatal).toBe(fatal);
   });
 
+  it('lets a dataset-start border date rest on its geometry source alone (A34)', () => {
+    const ds = validDataset();
+    const b = ds.borders[0]!;
+    b.geometryOrigin = 'cshapes';
+    b.geometrySources = ['k1'];
+    b.effective = {
+      iso: '1900',
+      precision: 'year',
+      approximate: false,
+      conventional: true,
+      sources: ['k1'],
+    };
+    expect(applyRules(ds).violations.filter((v) => v.id === 'border:kurgu-sinir')).toEqual([]);
+  });
+
+  it('still asks two sources when the single-source border date is not marked conventional', () => {
+    const ds = validDataset();
+    const b = ds.borders[0]!;
+    b.geometryOrigin = 'cshapes';
+    b.geometrySources = ['k1'];
+    b.effective = { iso: '1900', precision: 'year', approximate: false, sources: ['k1'] };
+    const hit = applyRules(ds).violations.find(
+      (v) => v.id === 'border:kurgu-sinir' && v.rule === 5,
+    );
+    expect(hit?.fatal).toBe(true);
+  });
+
   it('drops a record with an unverified source from the output (rule 1)', () => {
     const ds = validDataset();
     ds.sources.find((s) => s.id === 'k2')!.verified = false;

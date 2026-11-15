@@ -1,7 +1,7 @@
 // Border geometries -> <out>/geo/borders/<id>.topojson, one file per BorderChange (ADR-06).
 // Runs after build-data: it converts only the borders that build-data kept (verified, sourced).
 //   geometryOrigin 'elle-cizim'  data/borders/manual/<id>.geojson, drawn from a sourced description (A14)
-//   geometryOrigin 'cshapes'     not wired yet: no CShapes-backed record exists (SOURCES §3.4)
+//   geometryOrigin 'cshapes'     data/borders/cshapes/<id>.geojson, cut by scripts/prepare-cshapes.ts
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { gzipSync } from 'node:zlib';
@@ -30,10 +30,6 @@ for (const name of readdirSync(outDir)) {
 const problems: string[] = [];
 for (const border of borders) {
   const fail = (message: string) => problems.push(`border:${border.id}: ${message}`);
-  if (border.geometryOrigin === 'cshapes') {
-    fail('CShapes geometrisi henüz bağlı değil (build-borders yalnız elle çizimi okur)');
-    continue;
-  }
   const source = join(paths.data, border.geometry);
   if (!existsSync(source)) {
     fail(`geometri dosyası yok: ${border.geometry}`);
@@ -46,7 +42,9 @@ for (const border of borders) {
     fail(error instanceof Error ? error.message : String(error));
     continue;
   }
-  const bad = polygonProblems(collection);
+  // An empty collection is allowed on purpose: it hides the polity's line for a period whose
+  // border cannot be drawn from a source (e.g. the Midye-Enez line of May-September 1913).
+  const bad = collection.features.length === 0 ? [] : polygonProblems(collection);
   if (bad.length > 0) {
     bad.forEach(fail);
     continue;

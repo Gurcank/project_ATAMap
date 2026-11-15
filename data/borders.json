@@ -1,0 +1,184 @@
+{
+  "borders": [
+    {
+      "id": "usi-1912",
+      "effective": {
+        "iso": "1912-10-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi»: '18 Ekim 1912 tarihinde Uşi (Ouchy) Antlaşması imzalanmıştır'."
+      },
+      "kind": "antlasma",
+      "title": "Uşi Antlaşması: Trablusgarp ve Bingazi",
+      "polity": "Osmanlı Devleti / Türkiye",
+      "geometry": "borders/cshapes/usi-1912.geojson",
+      "geometryOrigin": "cshapes",
+      "geometryApproximate": false,
+      "geometrySources": [
+        "cshapes-2-0"
+      ],
+      "sources": [
+        "msb-milli-mucadele-donemi"
+      ],
+      "$note": "Sınırlar partisi (2026-11-15). CShapes 640, 1912-10-18 poligonu (CShapes günüyle aynı). CShapes'in 1913-01-01 satırı (Arnavutluk; codebook'a göre yer tutucu tarih) atlandı."
+    },
+    {
+      "id": "londra-1913",
+      "effective": {
+        "iso": "1913-05-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-sinirlar"
+        ],
+        "$note": "MSB kronolojisi: '30 Mayıs 1913 - … Londra Barış Antlaşması'nı imzalaması'."
+      },
+      "kind": "antlasma",
+      "title": "Londra Antlaşması: sınır çizilmiyor",
+      "polity": "Osmanlı Devleti / Türkiye",
+      "geometry": "borders/manual/bos.geojson",
+      "geometryOrigin": "elle-cizim",
+      "geometryApproximate": false,
+      "geometrySources": [
+        "msb-kronoloji-sinirlar"
+      ],
+      "sources": [
+        "msb-kronoloji-sinirlar"
+      ],
+      "$note": "Sınırlar partisi (2026-11-15). Kasıtlı olarak boş geometri: Midye-Enez hattının kaynaklı çizimi yok; CShapes bu dönemde Edirne'yi Osmanlı içinde gösteriyor, bu yanlış (kullanıcı kararı: 30 Mayıs - 29 Eylül 1913 arası sınır gösterilmesin)."
+    },
+    {
+      "id": "istanbul-antlasmasi-1913",
+      "effective": {
+        "iso": "1913-09-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-sinirlar",
+          "msb-milli-mucadele-donemi"
+        ],
+        "$note": "MSB kronolojisi ve «Millî Mücadele Dönemi»: 29 Eylül 1913."
+      },
+      "kind": "antlasma",
+      "title": "İstanbul Antlaşması: Edirne ve Meriç sınırı",
+      "polity": "Osmanlı Devleti / Türkiye",
+      "geometry": "borders/cshapes/istanbul-antlasmasi-1913.geojson",
+      "geometryOrigin": "cshapes",
+      "geometryApproximate": false,
+      "geometrySources": [
+        "cshapes-2-0"
+      ],
+      "sources": [
+        "msb-kronoloji-sinirlar",
+        "msb-milli-mucadele-donemi"
+      ],
+      "$note": "Sınırlar partisi (2026-11-15). CShapes 640, 1913-05-30 poligonu. CShapes bu poligonu Londra'dan başlatıyor; Edirne'yi içerdiği için İstanbul Antlaşması'ndan sonrasına doğru karşılık geliyor."
+    },
+    {
+      "id": "kibris-1914",
+      "effective": {
+        "iso": "1914-11-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi» (Lozan maddeleri): '5 Kasım 1914'ten itibaren … Kıbrıs'ın İngiltere tarafından ilhakı kabul ediliyordu'. CShapes 3 Kasım diyor; resmî kaynağın günü alındı."
+      },
+      "kind": "ilhak",
+      "title": "Kıbrıs'ın İngiltere'ce ilhakı",
+      "polity": "Osmanlı Devleti / Türkiye",
+      "geometry": "borders/cshapes/kibris-1914.geojson",
+      "geometryOrigin": "cshapes",
+      "geometryApproximate": false,
+      "geometrySources": [
+        "cshapes-2-0"
+      ],
+      "sources": [
+        "msb-milli-mucadele-donemi"
+      ],
+      "$note": "Sınırlar partisi (2026-11-15). CShapes 640, 1914-11-03 poligonu."
+    },
+    {
+      "id": "brest-litovsk-1918",
+      "effective": {
+        "iso": "1918-03-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi»: '3 Mart 1918 Brest-Litovsk Anlaşması ile … Kars, Ardahan ve Batum'u geri almakla'."
+      },
+      "kind": "antlasma",
+      "title": "Brest-Litovsk: Kars ve Ardahan",
+      "polity": "Osmanlı Devleti / Türkiye",
+      "geometry": "borders/cshapes/brest-litovsk-1918.geojson",
+      "geometryOrigin": "cshapes",
+      "geometryApproximate": false,
+      "geometrySources": [
+        "cshapes-2-0"
+      ],
+      "sources": [
+        "msb-milli-mucadele-donemi"
+      ],
+      "$note": "Sınırlar partisi (2026-11-15). CShapes 640, 1918-03-03 poligonu. MSB Batum'u da sayıyor; CShapes poligonunda Batum yok (fark not edildi)."
+    },
+    {
+      "id": "mondros-1918",
+      "effective": {
+        "iso": "1918-10-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-sinirlar"
+        ],
+        "$note": "MSB kronolojisi: '30 Ekim 1918 - … Mondros Ateşkes Antlaşması'nın imzalanması'."
+      },
+      "kind": "antlasma",
+      "title": "Mondros Ateşkesi",
+      "polity": "Osmanlı Devleti / Türkiye",
+      "geometry": "borders/cshapes/mondros-1918.geojson",
+      "geometryOrigin": "cshapes",
+      "geometryApproximate": false,
+      "geometrySources": [
+        "cshapes-2-0"
+      ],
+      "sources": [
+        "msb-kronoloji-sinirlar"
+      ],
+      "$note": "Sınırlar partisi (2026-11-15). CShapes 640, 1918-10-30 poligonu (Arap vilayetleri hukuken Lozan'a kadar içinde). İşgal bölgeleri çizilmedi."
+    },
+    {
+      "id": "lozan-1923",
+      "effective": {
+        "iso": "1923-07-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-sinirlar",
+          "msb-milli-mucadele-donemi"
+        ],
+        "$note": "MSB kronolojisi ve «Millî Mücadele Dönemi»: 24 Temmuz 1923."
+      },
+      "kind": "antlasma",
+      "title": "Lozan Antlaşması: Türkiye sınırı",
+      "polity": "Osmanlı Devleti / Türkiye",
+      "geometry": "borders/cshapes/lozan-1923.geojson",
+      "geometryOrigin": "cshapes",
+      "geometryApproximate": false,
+      "geometrySources": [
+        "cshapes-2-0",
+        "naturalearth-ne10m-admin1"
+      ],
+      "sources": [
+        "msb-kronoloji-sinirlar",
+        "msb-milli-mucadele-donemi"
+      ],
+      "$note": "Sınırlar partisi (2026-11-15). CShapes 640, 1923-10-14 poligonu (bugünkü Türkiye) eksi Natural Earth Hatay ili: Hatay 20 Ekim 1921 Ankara Antlaşması'yla Fransız mandasındaki Suriye'ye bırakıldı, 1939'da katıldı. CShapes'in 1920-04-26 başlangıcı (San Remo) kaynaklı bir sınır değişikliği değil; Arap vilayetlerinden vazgeçiş Lozan'la (md. 16) hukuki oldu."
+    }
+  ]
+}

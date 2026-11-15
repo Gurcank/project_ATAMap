@@ -1,0 +1,12 @@
+{
+  "$comment": "prepare-cshapes.ts girdisi (ADR-06): her sınır kaydı için CShapes 2.0'dan seçilecek poligon (gwcode + başlangıç günü) ve isteğe bağlı çıkarma. Tarihler CShapes'in sayısal gwsyear/gwsmonth/gwsday alanlarıdır; gwsdate metni UTC kaydırmalıdır.",
+  "cuts": [
+    { "id": "osmanli-1886", "gwcode": 640, "start": "1886-01-01" },
+    { "id": "usi-1912", "gwcode": 640, "start": "1912-10-18" },
+    { "id": "istanbul-antlasmasi-1913", "gwcode": 640, "start": "1913-05-30" },
+    { "id": "kibris-1914", "gwcode": 640, "start": "1914-11-03" },
+    { "id": "brest-litovsk-1918", "gwcode": 640, "start": "1918-03-03" },
+    { "id": "mondros-1918", "gwcode": 640, "start": "1918-10-30" },
+    { "id": "lozan-1923", "gwcode": 640, "start": "1923-10-14", "erase": "hatay" }
+  ]
+}

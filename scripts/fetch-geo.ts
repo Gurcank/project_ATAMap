@@ -59,6 +59,49 @@ export async function fetchGeo(): Promise<void> {
   if (changed) writeFileSync(LOCK, JSON.stringify(lock, null, 2) + '\n');
 }
 
+/**
+ * Inputs for scripts/prepare-cshapes.ts only (ADR-06): CShapes 2.0 and the Natural Earth
+ * provinces (for the Hatay cut). Large and needed only when a border geometry is regenerated, so
+ * they stay out of fetchGeo(), which every build runs. Same sha256 lock as the base layers.
+ */
+export const BORDER_INPUTS = {
+  cshapes_2_0: {
+    url: 'https://icr.ethz.ch/data/cshapes/CShapes-2.0.geojson',
+    path: join(ROOT, 'geo-src', 'cshapes', 'CShapes-2.0.geojson'),
+  },
+  ne_10m_admin_1_states_provinces: {
+    url: urlOf('ne_10m_admin_1_states_provinces'),
+    path: join(DIR, 'ne_10m_admin_1_states_provinces.geojson'),
+  },
+} as const;
+
+export async function fetchBorderInputs(): Promise<void> {
+  const lock = JSON.parse(readFileSync(LOCK, 'utf8')) as {
+    commit: string;
+    files: Record<string, string>;
+  };
+  let changed = false;
+  for (const [name, { url, path }] of Object.entries(BORDER_INPUTS)) {
+    mkdirSync(join(path, '..'), { recursive: true });
+    if (!existsSync(path)) {
+      console.log(`indiriliyor: ${name}`);
+      const res = await fetch(url);
+      if (!res.ok) throw new Error(`${name}: HTTP ${res.status}`);
+      writeFileSync(path, new Uint8Array(await res.arrayBuffer()));
+    }
+    const hash = sha256(readFileSync(path));
+    const known = lock.files[name];
+    if (known === undefined) {
+      lock.files[name] = hash;
+      changed = true;
+      console.log(`${name}: sha256 kilit dosyasına yazıldı`);
+    } else if (known !== hash) {
+      throw new Error(`${name}: sha256 uyuşmuyor (beklenen ${known}, bulunan ${hash}).`);
+    }
+  }
+  if (changed) writeFileSync(LOCK, JSON.stringify(lock, null, 2) + '\n');
+}
+
 if (import.meta.main) {
   await fetchGeo();
   console.log('fetch-geo: tamam.');

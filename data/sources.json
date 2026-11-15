@@ -2717,6 +2717,53 @@
       "free": true,
       "verified": true,
       "$note": "Yurt gezileri 1924-1938. Nominatim (2026-11-15): 41.4426795, 27.9213992 (boundary/administrative). Koordinatı teyit için; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-15 (yurt gezileri 1924-1938)."
+    },
+    {
+      "id": "cshapes-2-0",
+      "institution": "ETH Zürich, International Conflict Research",
+      "citation": "Schvitz, Rüegger, Girardin, Cederman, Weidmann, Gleditsch, «Mapping The International System, 1886-2017: The CShapes 2.0 Dataset», Journal of Conflict Resolution 66(1), 2022; veri: CShapes-2.0.geojson",
+      "url": "https://icr.ethz.ch/data/cshapes/",
+      "accessedAt": "2026-11-15",
+      "rights": "acik-lisans",
+      "licence": "CC-BY-NC-SA-4.0",
+      "free": true,
+      "verified": false,
+      "$note": "Sınırlar partisi (2026-11-15). Dosya sha256 384b1ea9…9989d42 (scripts/geo-sources.json). Geometri kaynağı; tarih kaynağı olarak kullanılmadı, çünkü codebook kaynak tarih yoksa ayın/yılın ilk gününü yazdığını söylüyor (SOURCES §3.2). Türetilmiş dosyalar data/borders/cshapes/ altında, aynı lisansla."
+    },
+    {
+      "id": "msb-milli-mucadele-donemi",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Millî Mücadele Dönemi»",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/milli-mucadele-donemi",
+      "$note": "Sınırlar partisi (2026-11-15). Resmî kaynak (A27), yalnız olgu. Kullanılan tarihler: '18 Ekim 1912 tarihinde Uşi (Ouchy) Antlaşması imzalanmıştır'; '3 Mart 1918 Brest-Litovsk Anlaşması ile … Kars, Ardahan ve Batum'u geri almakla'; Lozan'da '5 Kasım 1914'ten itibaren … Kıbrıs'ın İngiltere tarafından ilhakı kabul ediliyordu'; '29 Eylül 1913 günü imzalanan İstanbul Antlaşması'; '24 Temmuz 1923'te imzalanan Lozan Barış Antlaşması'."
+    },
+    {
+      "id": "msb-kronoloji-sinirlar",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi»",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "$note": "Sınırlar partisi (2026-11-15). Resmî kaynak (A27), yalnız olgu. Maddeler: 30 Mayıs 1913 Londra Barış Antlaşması ('Midye - Enez hattını sınır olarak kabul etmiş, Edirne'yi Bulgaristan'a bırakmıştır'); 29 Eylül 1913 İstanbul Antlaşması; 30 Ekim 1918 Mondros; 24 Temmuz 1923 Lozan."
+    },
+    {
+      "id": "naturalearth-ne10m-admin1",
+      "institution": "Natural Earth",
+      "citation": "Natural Earth, ne_10m_admin_1_states_provinces (GeoJSON), nvkelso/natural-earth-vector, commit 117488dc884bad03366ff727eca013e434615127",
+      "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/117488dc884bad03366ff727eca013e434615127/geojson/ne_10m_admin_1_states_provinces.geojson",
+      "accessedAt": "2026-11-15",
+      "rights": "kamu-mali",
+      "free": true,
+      "verified": false,
+      "$note": "Sınırlar partisi (2026-11-15). Yalnız Hatay ili poligonu: 1923-1938 Türkiye sınırından çıkarmak için. Bugünkü il sınırı, 1921-1939 Hatay (İskenderun) sancağının sınırına yaklaşık olarak karşılık gelir; fark doğrulanmadı."
     }
   ]
 }

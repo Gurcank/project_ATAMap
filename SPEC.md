@@ -21,6 +21,7 @@
 | 2026-11-14 | §9.2 A24-A26 | Durum kartuşu yerleşimi, doğum tarihi 19 Mayıs 1881, eşzamanlı görevler | Kullanıcı kararları (2026-11-14) |
 | 2026-11-14 | §9.2 A28, K3 | Rütbe adları resmî kaynağın (MSB) bugünkü adlarıyla yazılır (Teğmen, Yarbay, Albay, Tümgeneral…); K3'teki "dönem adıyla" ifadesi rütbeler için bu kararla değişti | Kullanıcı kararı (2026-11-14), K5 yeniden taramasının 3. partisi |
 | 2026-11-15 | §3.5, §3.6, §4, §4.3, §5.2, §9.2 A29-A32 | Yerleşim değişti (durum sol üstte, belge sağda açılan panelde); Nutuk telgrafları künye kartı; deniz rotası kavisli; araç animasyonu. Uygulama sırası: Yurt Gezileri seyahatleri, araç animasyonu, CShapes sınırları, Nutuk telgrafları, yerleşim, kalan resmî kaynaklar | Kullanıcı kararları (2026-11-15), [kapsam raporu](docs/kapsam-raporu-2026-11-15.md) |
+| 2026-11-15 | §9.2 A33, §5.2 M5 | Dönem sınırları CShapes 2.0 ile bağlandı; kurallar A33'te | Kullanıcı kararları (2026-11-15) |
 | 2026-11-14 | §2.2, §6, §9.2 A19, A27 | Resmî ve güvenilir devlet kaynağı tek başına yeter; hakları saklı resmî yayınlardan yalnız olgu alınır (`official`, `rights: 'hakki-sakli-olgu'`); kural 2, 5 ve 11 güncellendi; ipucu listesinden devlet siteleri çıktı | Kullanıcı kararı K5 (2026-11-14): bütün devlet kurumları, geriye dönük uygulanır |
 | 2026-11-14 | §6 `DateValue`, §9.2 A25 | `conventional` alanı: uzlaşmayla kabul edilen tarih. Doğum tarihi 19 Mayıs 1881 bu işaretle tutulur | Parti 1 araştırması: Vikipedi ve Wikidata gerçek doğum gününü bilinmiyor, 19 Mayıs'ı kabul edilen tarih olarak veriyor (`docs/kronoloji/parti-01.md`); kullanıcı kararı |
 
@@ -470,6 +471,7 @@ interface Tenure {        // data/tenures.json
 | A30 | Nutuk'taki mektup ve telgraflar (2026-11-15) | Kimden, kime, ne zaman, nereden nereye: künye kartı olarak girer, haritada gönderildiği yerden alıcıya yay çizer. İçerik gösterilmez (aslı Arap harfli, İngilizce baskı çeviri; §2.1). Nutuk'un sayfa numarası kartta gösterilmez; doğrulama için kaynak kaydında kalır |
 | A31 | Deniz yolculukları (2026-11-15) | Düz çizgi karadan geçtiği için rota denize doğru kavisli çizilir ve "yaklaşık rota (deniz)" diye etiketlenir. Kavis çizim sırasında hesaplanır; yeni koordinat kaydedilmez (kural 3) |
 | A32 | Seyahat araçları (2026-11-15) | Seyahat sırasında aracın simgesi (vapur, tren, at, otomobil, uçak) rota üzerinde ilerler. Hareket azaltmada simge rotanın ortasında sabit durur. Araç kaynakta yazmıyorsa etap girmez |
+| A33 | Dönem sınırları (2026-11-15) | Yalnız Osmanlı/Türkiye sınırı çizilir (komşular çizilmez). 1881-1885 için sınır yok (CShapes 1886'da başlar). 30 Mayıs - 29 Eylül 1913 arası sınır gösterilmez (Midye-Enez hattının kaynaklı çizimi yok; CShapes Edirne'yi yanlış gösteriyor). 1923-1938 Türkiye sınırı = CShapes bugünkü Türkiye eksi Hatay (1921 Ankara Antlaşması - 1939). Sevr ve işgal bölgeleri çizilmez. Tarihler resmî kaynaktan (MSB), geometri CShapes'ten |
 
 ---
 

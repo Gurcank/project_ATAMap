@@ -984,6 +984,555 @@
         "nutuk-en-1929-belge-s49"
       ],
       "$note": "Nutuk belgeleri, parti 1. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'The telegram we received from Hamid Bey, Governor of Djanik, five days later, the 20th July, from Samsoon'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-08-09-telgraf-omer-halis-bey-20-kolordu-komu",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-08-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s66"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 66. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "erzurum",
+      "sender": "Ömer Halis Bey (20. Kolordu Komutanı adına)",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s66"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'the telegram in cipher sent by Omer Haliss Bey, an officer on the Staff, on the 9th August, in the name of the officer commanding the XXth Army Corps'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-08-16-telgraf-sadrazam-ferit-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-08-16",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s65"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 65. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "erzurum",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Sadrazam Ferit Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s65"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'decided to send him a telegram in cipher on the 16th August, 1919' (taramada 'i6th'); alıcı 'Ferid Pasha … Your Highness'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-08-17-telgraf-20-kolordu-komutani-ali-fuat-p",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-08-17",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s90"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 90. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "erzurum",
+      "sender": "20. Kolordu Komutanı Ali Fuat Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s90"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). Mustafa Kemal'in 19 Ağustos cevabında: 'Reply to your telegram of 17th August, 1919'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-08-19-telgraf-20-kolordu-komutani-ali-fuat-p",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-08-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s90"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 90. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "erzurum",
+      "toPlaceId": "ankara",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "20. Kolordu Komutanı Ali Fuat Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s90"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In cipher. Personal. Urgent. Erzerum, 19th August, 1919. To His Excellency Ali Fuad Pasha, commanding the XXth Army Corps'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-08-20-telgraf-sivas-valisi-resit-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-08-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s67"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 67. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "erzurum",
+      "sender": "Sivas Valisi Reşit Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s67"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'At noon on the 20th August I was asked to come to the telegraph office by Reshid Pasha … To His Excellency Mustapha Kemal Pasha, Erzerum'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-08-21-telgraf-12-ve-20-kolordu-komutanlari",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-08-21",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s88"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 88. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "erzurum",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "12. ve 20. Kolordu komutanları",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s88"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). '21st August, 1919. To the officer commanding the XIIth Army Corps. To the officer commanding the XXth Army Corps'; imza Mustafa Kemal; iki alıcı, alıcı yeri yok. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-08-22-telgraf-3-kolordu-komutani-selahattin-",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-08-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s62"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 62. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "erzurum",
+      "sender": "3. Kolordu Komutanı Selahattin Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s62"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Selaheddin, commanding the IIIrd Army Corps at Sivas, informed me in a telegram, dated the 22nd August'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-06-telgraf-babiali",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s112"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 112. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "malatya",
+      "sender": "Babıâli",
+      "recipient": "Elazığ Valisi Ali Galip Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s112"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Very urgent. Sublime Porte, 6th September, 1919. To Galib Bey, Vali of El Aziz, Malatia'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-07-telgraf-13-kolordu-kurmay-baskani-hali",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s104"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 104. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "diyarbakir",
+      "toPlaceId": "sivas",
+      "sender": "13. Kolordu Kurmay Başkanı Halit Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s104"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I received the following reply from the Chief of the Staff in a telegram in cipher, dated the 7th September, from Diarbekr'; 'No. 357, signed Halid, C. O. S. XIIIth Army Corps'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-07-telgraf-13-kolordu-kurmay-baskani-hali-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s104"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 104. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "diyarbakir",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "13. Kolordu Kurmay Başkanı Halit Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s104"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I replied to Halil at once: 7th September, 1919'; s. 105: 'The non-ciphered signature to this telegram was that of Seki Bey'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-08-telgraf-15-alay-komutani-ilyas-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-08",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s104"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 104. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "elazig",
+      "toPlaceId": "sivas",
+      "sender": "15. Alay Komutanı İlyas Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s104"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Ilias Bey, commanding the regiment at El Aziz, on his part, sent the following reply on the 8th September by telegram in cipher'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-09-telgraf-13-kolordu-kurmay-baskani-hali",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s105"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 105. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "diyarbakir",
+      "toPlaceId": "sivas",
+      "sender": "13. Kolordu Kurmay Başkanı Halit Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s105"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the following day (9th September), in reply to my telegram, Halid Bey told me'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-09-telgraf-dahiliye-naziri-adil-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s112"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 112. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "malatya",
+      "sender": "Dahiliye Nazırı Adil Bey",
+      "recipient": "Elazığ Valisi Ali Galip Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s112"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Urgent. Constantinople, 9th September, 1919. To the Vali of El Aziz, Malatia'; imza 'Aadil Minister'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-10-telgraf-15-alay-komutani-ilyas-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-10",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s105"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 105. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "malatya",
+      "toPlaceId": "sivas",
+      "sender": "15. Alay Komutanı İlyas Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s105"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Urgent and personal. Malatia, 10th September, 1919. To the Headquarters of the IIIrd Corps at Sivas. For His Excellency Mustapha Kemal Pasha'; imza 'Ilias Commanding the 15th Regiment'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-11-telgraf-kolordu-komutanlari",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-11",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s119"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 119. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "istanbul",
+      "sender": "Kolordu komutanları",
+      "recipient": "Padişah",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s119"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'we composed a telegram on the 11th September and addressed it to the Sultan … we, the undersigned officers commanding Army Corps'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-11-telgraf-kolordu-komutanlari-genelge",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-11",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s120"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 120. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Kolordu komutanları (genelge)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s120"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Being at the telegraph instrument myself, I sent this circular to the different Army Corps on the 11th September'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-11-telgraf-sivas-kongresi-heyet-i-umumiye",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-11",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s122"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 122. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "sender": "Sivas Kongresi Heyet-i Umumiyesi",
+      "recipient": "Kolordu komutanları (genelge)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s122"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Sivas, 11th September, 1919. To the Commanders of the XXth, XVth, XIIIth, IIIrd Army Corps'; imza 'The General Assembly of the Congress'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-12-telgraf-15-alay-komutani-ilyas-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-12",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s112"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 112. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "malatya",
+      "toPlaceId": "sivas",
+      "sender": "15. Alay Komutanı İlyas Bey",
+      "recipient": "3. Kolordu Komutanı",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s112"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Malatia, 12th September, 1919. To the Commander of the IIIrd Army Corps, Sivas'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-14-telgraf-erzincan-mudafaa-i-hukuk-heyet",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-14",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s127"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 127. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "erzincan",
+      "toPlaceId": "sivas",
+      "sender": "Erzincan Müdafaa-i Hukuk Heyeti",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s127"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 14th September, the Committee of the Defence of Rights at Erzingan telegraphed to us'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-14-telgraf-13-kolordu-komutani-cevdet-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-14",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s127"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 127. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "diyarbakir",
+      "toPlaceId": "sivas",
+      "sender": "13. Kolordu Komutanı Cevdet Bey",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s127"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'a long telegram in cipher, dated the 14th September, that we received from Djevdet Bey, commanding the XIIIth Army Corps at Diarbekr'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-15-telgraf-erzurum-heyeti",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-15",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s127"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 127. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "erzurum",
+      "toPlaceId": "sivas",
+      "sender": "Erzurum heyeti",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s127"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In their telegram of the 15th September, the committee at Erzerum'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-15-telgraf-15-alay-komutani-ilyas-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-15",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s127"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 127. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "malatya",
+      "toPlaceId": "sivas",
+      "sender": "15. Alay Komutanı İlyas Bey",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s127"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Ilias Bey telegraphed from Malatia on the 15th September'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-09-15-telgraf-15-kolordu-komutani-kazim-kara",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-09-15",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s128"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 128. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "erzurum",
+      "toPlaceId": "sivas",
+      "sender": "15. Kolordu Komutanı Kâzım Karabekir Paşa",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s128"
+      ],
+      "$note": "Nutuk belgeleri, parti 2. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Kiasim Kara Bekir Pasha, commanding the XVth Army Corps, telegraphed to us on the 15th September'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
     }
   ]
 }

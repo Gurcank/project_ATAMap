@@ -6,7 +6,8 @@
       "title": "Amasya'dan Erzurum'a",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s38-40"
+        "nutuk-en-1929-s38-40",
+        "msb-kronoloji-1919-1922-p9a"
       ],
       "legs": [
         {
@@ -29,7 +30,8 @@
             "approximate": false,
             "sources": [
               "vikipedi-tr-ataturk-38564203",
-              "nutuk-en-1929-s38-40"
+              "nutuk-en-1929-s38-40",
+              "msb-kronoloji-1919-1922-p9a"
             ],
             "$note": "Nutuk s. 40: \"we arrived at Erzerum … on the 3rd July\" (bir haftalık otomobil yolculuğu). Vikipedi: Karabekir 3 Temmuz'da karşıladı."
           },
@@ -41,7 +43,7 @@
           "$note": "Nutuk güzergâhı Tokat ve Sivas üzerinden anlatıyor; ara noktaların tarihleri tam değil, bu yüzden tek etap ve yaklaşık rota."
         }
       ],
-      "$note": "Parti 9a."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi Erzurum'a varışı 3 Temmuz 1919 veriyor, varışa kaynak olarak eklendi."
     }
   ]
 }

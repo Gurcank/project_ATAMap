@@ -80,7 +80,7 @@ Nutuk'un 1929 İngilizce baskısı bu dönem için güçlü bir ikinci kaynak: s
 
 ## K5 yeniden taraması (2026-11-14)
 
-Kaynaklar: MSB «Atatürk Kronolojisi» 1919-1922 bölümü ve «Askerî Görevleri» (resmî, yalnız olgu). Maddelerdeki Atatürk alıntıları alınmadı (SPEC §2.1). Ayrı kaynak kayıtları: `msb-kronoloji-1919-1922-p9a`, `msb-askeri-gorevleri-p9a`. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Kaynaklar: MSB «Atatürk Kronolojisi» 1919-1922 bölümü ve «Askerî Görevleri» (resmî, yalnız olgu). Maddelerdeki Atatürk alıntıları alınmadı (SPEC §2.1). Ayrı kaynak kayıtları: `msb-kronoloji-1919-1922-p9a`, `msb-askeri-gorevleri-p9a`. Durum: **onaylandı (2026-11-15)**, olaylar ve Havza sitede.
 
 **Yeni olaylar:**
 
@@ -110,3 +110,5 @@ Kaynaklar: MSB «Atatürk Kronolojisi» 1919-1922 bölümü ve «Askerî Görevl
 **Görev girmedi:** Heyet-i Temsiliye Reisliği (7 Ağustos 1919). Bitişi kaynakta açık değil.
 
 **Girmeyenler:** 14 Temmuz Albayrak gazetesi ilanı (Atatürk'ün kendi eylemi değil; Erzurum şubesinin başına geçmesi tarihsiz). Meclis-i Mebusan'ın açılması ve kapatılması, Misakımillî, İstanbul'un işgali Atatürk'ün kendi olayları değil.
+
+**Kararlar (2026-11-15):** Parti onaylandı. MSB, sitedeki yedi olaya ve Amasya-Erzurum seyahatinin varışına kaynak olarak eklendi.

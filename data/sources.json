@@ -1129,10 +1129,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1919-1922 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 9a (2026-11-14). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 16 Mayıs 1919 - 23 Nisan 1920."
+      "$note": "K5 yeniden taraması, parti 9a (2026-11-14). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 16 Mayıs 1919 - 23 Nisan 1920. Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9a)."
     },
     {
       "id": "msb-askeri-gorevleri-p9a",
@@ -1141,10 +1141,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
-      "$note": "K5 taraması, parti 9a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt."
+      "$note": "K5 taraması, parti 9a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt. Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9a)."
     },
     {
       "id": "wikidata-q2671132-r2527254326",
@@ -1155,8 +1155,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 9a. P625: 40.966667, 35.666667; dayanak İngilizce Vikipedi (P143 Q328)."
+      "verified": true,
+      "$note": "K5 taraması, parti 9a. P625: 40.966667, 35.666667; dayanak İngilizce Vikipedi (P143 Q328). Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9a)."
     },
     {
       "id": "osm-relation-1837366",
@@ -1167,8 +1167,8 @@
       "rights": "acik-lisans",
       "licence": "ODbL-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 9a. Nominatim (2026-11-14): 40.9660605, 35.6653476 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki."
+      "verified": true,
+      "$note": "K5 taraması, parti 9a. Nominatim (2026-11-14): 40.9660605, 35.6653476 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9a)."
     }
   ]
 }

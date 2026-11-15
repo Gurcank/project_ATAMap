@@ -1555,7 +1555,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s9"
+          "nutuk-en-1929-s9",
+          "msb-kronoloji-1919-1922-p9a"
         ],
         "$note": "Nutuk s. 9: \"I landed at Samsoon on the 19th May, 1919.\" Vikipedi: 19 Mayıs 1919 (dipnot [214], Nutuk değil)."
       },
@@ -1564,9 +1565,10 @@
       "placeId": "samsun",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s9"
+        "nutuk-en-1929-s9",
+        "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "Parti 9a."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "sadarete-rapor-1919-05-22",
@@ -1656,7 +1658,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s31"
+          "nutuk-en-1929-s31",
+          "msb-kronoloji-1919-1922-p9a"
         ],
         "$note": "Nutuk s. 31: genelgeyi \"during the night of the 21st June\" yazdırdı. Vikipedi: 22 Haziran 1919'da yayımladı. İki tarih bir aralık olarak birleştirildi; aralık kullanıcı tarafından onaylandı (2026-11-14)."
       },
@@ -1665,9 +1668,10 @@
       "placeId": "amasya",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s31"
+        "nutuk-en-1929-s31",
+        "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "Parti 9a."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "amasya-erzurum-1919-06-26",
@@ -1699,7 +1703,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s43"
+          "nutuk-en-1929-s43",
+          "msb-kronoloji-1919-1922-p9a"
         ],
         "$note": "Nutuk s. 43: \"10.50 p.m. on the 8th July\". Vikipedi: \"8-9 Temmuz gecesi\"."
       },
@@ -1708,9 +1713,10 @@
       "placeId": "erzurum",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s43"
+        "nutuk-en-1929-s43",
+        "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "Parti 9a."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "istifa-genelgesi-1919-07-09",
@@ -1738,7 +1744,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s57"
+          "nutuk-en-1929-s57",
+          "msb-kronoloji-1919-1922-p9a"
         ],
         "$note": "Nutuk s. 57: \"the Congress met at Erzerum on the 23rd July, 1919\". Vikipedi: 23 Temmuz – 7 Ağustos 1919."
       },
@@ -1747,9 +1754,10 @@
       "placeId": "erzurum",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s57"
+        "nutuk-en-1929-s57",
+        "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "Parti 9a."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "erzurum-kongresi-sonu-1919-08-07",
@@ -1817,7 +1825,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s75"
+          "nutuk-en-1929-s75",
+          "msb-kronoloji-1919-1922-p9a"
         ],
         "$note": "Nutuk s. 75: \"opened on Thursday, the 4th September\". Vikipedi: 4-11 Eylül 1919."
       },
@@ -1826,9 +1835,10 @@
       "placeId": "sivas",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s75"
+        "nutuk-en-1929-s75",
+        "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "Parti 9a."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "sivas-kongresi-sonu-1919-09-11",
@@ -1934,7 +1944,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s287"
+          "nutuk-en-1929-s287",
+          "msb-kronoloji-1919-1922-p9a"
         ],
         "$note": "Nutuk s. 287: 27 Aralık'ta gönderilen \"has arrived to-day\" telgrafı. Vikipedi: 27 Aralık 1919."
       },
@@ -1943,9 +1954,10 @@
       "placeId": "ankara",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s287"
+        "nutuk-en-1929-s287",
+        "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "Parti 9a."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "istanbulun-isgali-beyannamesi-1920-03-16",
@@ -1991,7 +2003,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s372"
+          "nutuk-en-1929-s372",
+          "msb-kronoloji-1919-1922-p9a"
         ],
         "$note": "Nutuk s. 372: \"to open the Assembly on Friday, 23rd April, 1920\". Vikipedi: 23 Nisan 1920."
       },
@@ -2000,9 +2013,10 @@
       "placeId": "ankara",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s372"
+        "nutuk-en-1929-s372",
+        "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "Parti 9a."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "baskomutan-1921-08-05",

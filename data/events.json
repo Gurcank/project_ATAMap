@@ -600,6 +600,42 @@
       "$note": "K5 taraması, parti 9b. Yer yazmıyor."
     },
     {
+      "id": "ismet-pasa-kabine-1923-10-30",
+      "date": {
+        "iso": "1923-10-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 30 Ekim 1923."
+      },
+      "title": "İsmet Paşa'yı hükûmeti kurmakla görevlendirdi",
+      "text": "Kabineyi kurma görevini İsmet Paşa'ya verdi.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Yer yazmıyor."
+    },
+    {
+      "id": "istiklal-madalyasi-1923-11-21",
+      "date": {
+        "iso": "1923-11-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 21 Kasım 1923."
+      },
+      "title": "İstiklal Madalyası verildi",
+      "text": "Türkiye Büyük Millet Meclisi kararıyla kendisine yeşil-kırmızı şeritli İstiklal Madalyası verildi.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Yer yazmıyor."
+    },
+    {
       "id": "tbmm-acilis-1924-03-01",
       "date": {
         "iso": "1924-03-01",
@@ -619,6 +655,98 @@
       "documentIds": [
         "tbmm-nutuk-1924-03-01"
       ]
+    },
+    {
+      "id": "is-bankasi-1924-08-26",
+      "date": {
+        "iso": "1924-08-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 26 Ağustos 1924."
+      },
+      "title": "Türkiye İş Bankası kuruldu",
+      "text": "Onun direktifiyle Ankara'da Türkiye İş Bankası kuruldu.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Bankanın kurulduğu yer Ankara; onun o gün nerede olduğu yazmıyor, yer bağlanmadı."
+    },
+    {
+      "id": "mechul-asker-aniti-1924-08-30",
+      "date": {
+        "iso": "1924-08-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 30 Ağustos 1924."
+      },
+      "title": "Dumlupınar’da Meçhul Asker Anıtı’nın temelini attı",
+      "text": "Dumlupınar'da Meçhul Asker Anıtı'nın temelini attı.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Dumlupınar için iki bağımsız koordinat bulunamadı: Wikidata noktası (dayanaksız) OpenStreetMap'teki idari sınır noktasıyla birebir aynı. Yer bağlanmadı."
+    },
+    {
+      "id": "tbmm-acilis-1924-11-01-msb",
+      "date": {
+        "iso": "1924-11-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 1 Kasım 1924."
+      },
+      "title": "TBMM'nin yeni toplantı yılını açtı",
+      "text": "Türkiye Büyük Millet Meclisi'nin ikinci dönem ikinci toplantı yılını bir konuşmayla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Bu yılın açış konuşması sitede TBMM tutanağından ayrı bir kayıt olarak yok. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "latife-hanimdan-ayrilik-1925-08-05",
+      "date": {
+        "iso": "1925-08-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 5 Ağustos 1925."
+      },
+      "title": "Latife Hanım’dan ayrıldı",
+      "text": "Latife (Uşaklıgil) Hanım'dan ayrıldı.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Yer yazmıyor."
+    },
+    {
+      "id": "inebolu-1925-08-28",
+      "date": {
+        "iso": "1925-08-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 28 Ağustos 1925."
+      },
+      "title": "İnebolu'da şapka hakkında konuştu",
+      "text": "Elinde panama şapkasıyla İnebolu'daki Türk Ocağı'na geldi ve giyim ve şapka hakkında bir konuşma yaptı.",
+      "placeId": "inebolu",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a."
     },
     {
       "id": "tbmm-acilis-1925-11-01",
@@ -642,6 +770,62 @@
       ]
     },
     {
+      "id": "hukuk-mektebi-1925-11-05",
+      "date": {
+        "iso": "1925-11-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 5 Kasım 1925."
+      },
+      "title": "Ankara Hukuk Mektebi’ni açtı",
+      "text": "Ankara Hukuk Mektebi'nin açılış töreninde bir konuşma yaptı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "izmir-suikasti-1926-06",
+      "date": {
+        "iso": "1926-06-14",
+        "isoEnd": "1926-06-15",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: '14/15 Haziran 1926'."
+      },
+      "title": "İzmir suikast girişimi ortaya çıkarıldı",
+      "text": "Kendisine karşı planlanan suikast girişiminin elebaşları İzmir'de tutuklandı.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Tutuklamanın yeri İzmir; onun o gün nerede olduğu yazmıyor, yer bağlanmadı."
+    },
+    {
+      "id": "suikast-demeci-1926-06-18",
+      "date": {
+        "iso": "1926-06-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 18 Haziran 1926."
+      },
+      "title": "Suikast girişimi hakkında demeç verdi",
+      "text": "İzmir suikast girişimi hakkında Anadolu Ajansı’na bir demeç verdi.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Yer yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
       "id": "tbmm-acilis-1926-11-01",
       "date": {
         "iso": "1926-11-01",
@@ -663,6 +847,43 @@
       ]
     },
     {
+      "id": "askerlikten-emeklilik-1927-06-30",
+      "date": {
+        "iso": "1927-06-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 30 Haziran 1927."
+      },
+      "title": "Askerlikten emekliye ayrıldı",
+      "text": "Verdiği dilekçe üzerine askerlikten emekliye ayrılmasına dair kararname çıktı.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Yer yazmıyor. Wikidata P410'daki Mareşal rütbesinin bitişiyle (30 Haziran 1927, MSB yayını dayanaklı) aynı gün."
+    },
+    {
+      "id": "istanbula-ilk-gelis-1927-07-01",
+      "date": {
+        "iso": "1927-07-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: 1 Temmuz 1927."
+      },
+      "title": "Kurtuluş'tan sonra ilk kez İstanbul'a geldi",
+      "text": "Kurtuluş'tan sonra ilk kez İstanbul'a geldi ve coşkuyla karşılandı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a."
+    },
+    {
       "id": "tbmm-nutuk-1927-11-01",
       "date": {
         "iso": "1927-11-01",
@@ -682,6 +903,26 @@
       "documentIds": [
         "tbmm-nutuk-1927-11-01"
       ]
+    },
+    {
+      "id": "sarayburnu-1928-08",
+      "date": {
+        "iso": "1928-08-09",
+        "isoEnd": "1928-08-10",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a"
+        ],
+        "$note": "MSB: '9/10 Ağustos 1928'."
+      },
+      "title": "Sarayburnu’nda yeni harfleri anlattı",
+      "text": "İstanbul'da Sarayburnu Parkı'nda yeni harfler hakkında bir konuşma yaptı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10a"
+      ],
+      "$note": "K5 taraması, parti 10a. Maddedeki alıntı alınmadı (SPEC §2.1)."
     },
     {
       "id": "tbmm-nutuk-1928-11-01",

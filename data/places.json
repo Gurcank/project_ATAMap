@@ -657,6 +657,27 @@
           "$note": "MSB kronolojisi (resmî): 'Bilecik'e gelmesi'."
         }
       ]
+    },
+    {
+      "id": "inebolu",
+      "point": {
+        "lon": 33.761388888889,
+        "lat": 41.978055555556,
+        "sources": [
+          "wikidata-q282654-r2568873476",
+          "osm-relation-1802000"
+        ],
+        "$note": "Wikidata: 41.978056, 33.761389. OpenStreetMap (relation 1802000): 41.978576, 33.759903. Fark yaklaşık 0,1 km."
+      },
+      "names": [
+        {
+          "name": "İnebolu",
+          "sources": [
+            "msb-kronoloji-1923-1938-p10a"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'İnebolu'da Türk Ocağına gelmesi'."
+        }
+      ]
     }
   ]
 }

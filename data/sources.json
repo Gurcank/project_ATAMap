@@ -1217,6 +1217,42 @@
       "free": true,
       "verified": true,
       "$note": "K5 taraması, parti 9b. P625: 40.143056, 29.979167; dayanak İngilizce Vikipedi (P143 Q328). Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9b)."
+    },
+    {
+      "id": "msb-kronoloji-1923-1938-p10a",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1923-1938 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "K5 yeniden taraması, parti 10a (2026-11-15). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 30 Ekim 1923 - 1 Kasım 1928."
+    },
+    {
+      "id": "wikidata-q282654-r2568873476",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q282654 (İnebolu), P625 koordinat, revizyon 2568873476",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q282654.json?revision=2568873476",
+      "accessedAt": "2026-11-15",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 10a. P625: 41.978056, 33.761389; dayanak P143 Q48183."
+    },
+    {
+      "id": "osm-relation-1802000",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, relation 1802000 («İnebolu»)",
+      "url": "https://www.openstreetmap.org/relation/1802000",
+      "accessedAt": "2026-11-15",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 10a. Nominatim (2026-11-15): 41.9785763, 33.7599031 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki."
     }
   ]
 }

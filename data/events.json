@@ -14512,6 +14512,235 @@
         "ataturk-ansiklopedisi-291"
       ],
       "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer: 31 Ekim'de Adana'da Ordular Grubu'nun komutasını aldı, 10-11 Kasım'da Adana'dan ayrıldı (sitedeki kayıtlar)."
+    },
+    {
+      "id": "izmit-yolculugu-1922-06-12",
+      "date": {
+        "iso": "1922-06-11",
+        "isoEnd": "1922-06-12",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9708"
+        ],
+        "$note": "Ansiklopedi «Bolu»: '11/12 Haziran 1922 gecesi yola çıkan Gazi Mustafa Kemal'; 'Ankara'da … Fevzi (Çakmak) Paşa ile … görüşmenin ardından … özel bir trene binerek maiyetiyle Sarıköy İstasyonu'na ulaşmıştır'."
+      },
+      "title": "İzmit’e gitmek için Ankara’dan ayrıldı",
+      "text": "Fevzi Paşa’yla görüştükten sonra özel trenle Sarıköy İstasyonu’na, oradan otomobille Nallıhan ve Göynük üzerinden Geyve’ye gitti.",
+      "placeId": "ankara",
+      "sources": [
+        "ataturk-ansiklopedisi-9708"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler. Sarıköy, Nallıhan, Göynük, Taraklı ve Geyve için yer kaydı yok; seyahat kaydı açılmadı."
+    },
+    {
+      "id": "adapazari-anne-1922-06-14",
+      "date": {
+        "iso": "1922-06-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9708"
+        ],
+        "$note": "Ansiklopedi «Bolu»: '14 Haziran 1922'de Geyve'den Adapazarı'na hareket etmiş, burada … annesi Zübeyde Hanım ve kız kardeşi Makbule (Atadan) Hanım ile … görüşme fırsatı bulmuştur'."
+      },
+      "title": "Adapazarı’nda annesi ve kız kardeşiyle görüştü",
+      "text": "Geyve’den Adapazarı’na geçti; İstanbul’dan getirilen annesi Zübeyde Hanım ve kız kardeşi Makbule Hanım’la, 19 Mayıs 1919’dan beri ilk kez bir araya geldi.",
+      "placeId": "adapazari",
+      "sources": [
+        "ataturk-ansiklopedisi-9708"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler."
+    },
+    {
+      "id": "farrere-gorusmesi-1922-06-18",
+      "date": {
+        "iso": "1922-06-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9708"
+        ],
+        "$note": "Ansiklopedi «Bolu»: 'Adapazarı'ndan İzmit'e geçen Gazi Mustafa Kemal ile Claude Farrére arasında 18 Haziran 1922'de bir görüşme gerçekleşmiştir'."
+      },
+      "title": "İzmit’te Claude Farrère’le görüştü",
+      "text": "İzmit’te Fransız yazar Claude Farrère’le görüştü.",
+      "placeId": "izmit",
+      "sources": [
+        "ataturk-ansiklopedisi-9708"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler."
+    },
+    {
+      "id": "manisa-istasyonu-1922-09-29",
+      "date": {
+        "iso": "1922-09-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-1918"
+        ],
+        "$note": "Ansiklopedi «Manisa»: '29 Eylül 1922 … treni istasyonda kısa bir süre beklemiş fakat trenden inmemiştir'; '29 Eylül 1922'de Ankara'ya giderken uğramasını'."
+      },
+      "title": "Trenle Manisa’dan geçti",
+      "text": "Ankara’ya giderken treni Manisa istasyonunda kısa bir süre bekledi; trenden inmedi.",
+      "placeId": "manisa",
+      "sources": [
+        "ataturk-ansiklopedisi-1918"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler."
+    },
+    {
+      "id": "kastamonu-heyeti-1925-08-11",
+      "date": {
+        "iso": "1925-08-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9712"
+        ],
+        "$note": "Ansiklopedi «Kastamonu»: 'İkinci davet heyeti ise 8 Ağustos 1925 tarihinde Ankara'ya hareket etmiş, 11 Ağustos'ta Atatürk'le görüşmüştür'."
+      },
+      "title": "Kastamonu’nun davet heyetini kabul etti",
+      "text": "Kastamonu’dan Ankara’ya gelen ikinci davet heyetiyle görüştü.",
+      "placeId": "ankara",
+      "sources": [
+        "ataturk-ansiklopedisi-9712"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler. Yer: heyet Ankara'ya gelip görüştü."
+    },
+    {
+      "id": "kastamonu-1925-08-24",
+      "date": {
+        "iso": "1925-08-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9712"
+        ],
+        "$note": "Ansiklopedi «Kastamonu»: '24 Ağustos 1925 sabahı … evvela Askerî Kışla'ya giderek buradaki birliği denetlemiştir'; '24 Ağustos 1925'te Kastamonu Belediye Dairesi önünde yaptığı konuşmada'."
+      },
+      "title": "Kastamonu’da kışlayı denetledi, halka konuştu",
+      "text": "Mareşal üniformasıyla Kastamonu’daki askerî kışlayı denetledi; Belediye Dairesi önünde medeniyet üzerine bir konuşma yaptı.",
+      "placeId": "kastamonu",
+      "sources": [
+        "ataturk-ansiklopedisi-9712"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler. Konuşmadaki sözler alınmadı."
+    },
+    {
+      "id": "daday-1925-08-30",
+      "date": {
+        "iso": "1925-08-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9712"
+        ],
+        "$note": "Ansiklopedi «Kastamonu»: '30 Ağustos 1925 … saat 14.00'te Daday'a hareket etmiş, Belediye Binası ziyareti sonunda saat 17.00'de Kastamonu'ya dönmüştür'."
+      },
+      "title": "Daday’a gidip Kastamonu’ya döndü",
+      "text": "Kastamonu Kışlası’nda verilen yemeğe katıldı, öğleden sonra Daday’a gidip akşam Kastamonu’ya döndü; aynı gün inkılaplar üzerine konuştu.",
+      "placeId": "kastamonu",
+      "sources": [
+        "ataturk-ansiklopedisi-9712"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler. Daday için yer kaydı yok; olay Kastamonu'ya bağlandı (gün Kastamonu'da başlayıp bitti). Konuşmadaki sözler alınmadı."
+    },
+    {
+      "id": "ankaraya-donus-1925-09-01",
+      "date": {
+        "iso": "1925-09-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9712"
+        ],
+        "$note": "Ansiklopedi «Kastamonu»: '1 Eylül 1925 Salı günü saat 09.30'da Çankırı'dan uğurlanmış … saat 16.00'da Ulus Meydanı'nda karşılama töreni yapılmıştır'."
+      },
+      "title": "Çankırı’dan Ankara’ya döndü",
+      "text": "Sabah Çankırı’dan ayrıldı; öğleden sonra Ankara’da Ulus Meydanı’nda karşılandı.",
+      "placeId": "ankara",
+      "sources": [
+        "ataturk-ansiklopedisi-9712"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler."
+    },
+    {
+      "id": "izmir-suikasti-1926-06-16",
+      "date": {
+        "iso": "1926-06-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9705"
+        ],
+        "$note": "Ansiklopedi «Trabzon»: '16 Haziran 1926'da Mustafa Kemal Paşa'ya İzmir'de bir suikast teşebbüsü oldu'."
+      },
+      "title": "İzmir’de suikast planı ortaya çıkarıldı",
+      "text": "İzmir’e geldiğinde kendisine yapılacak saldırı, bir ihbar üzerine gerçekleşmeden ortaya çıkarıldı; planın başında Ziya Hurşit vardı.",
+      "placeId": "izmir",
+      "sources": [
+        "ataturk-ansiklopedisi-9705",
+        "ataturk-ansiklopedisi-857"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler. Ayrıntılar «Suikastler» maddesinden (tarih orada yok). İzmir'e varış sitede aynı gün (MSB)."
+    },
+    {
+      "id": "edirne-chf-1930-12-22",
+      "date": {
+        "iso": "1930-12-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-12782"
+        ],
+        "$note": "Ansiklopedi «Edirne»: 'Atatürk 22 Aralık'ta saat 15.00'te Cumhuriyet Halk Fırkasını ziyaret etmiş'; yıl paragraftan (Aralık 1930 Trakya Seyahati)."
+      },
+      "title": "Edirne’de Halk Fırkası’nı ziyaret etti",
+      "text": "Edirne’de Cumhuriyet Halk Fırkası’nı ziyaret etti; fırka üyeleri ve çevre köylerden gelen heyetlerle bölgenin ihtiyaçlarını konuştu.",
+      "placeId": "edirne",
+      "sources": [
+        "ataturk-ansiklopedisi-12782"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler."
+    },
+    {
+      "id": "kemalkoy-1930-12-23",
+      "date": {
+        "iso": "1930-12-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-12782"
+        ],
+        "$note": "Ansiklopedi «Edirne»: 'Atatürk 23 Aralık'ta öğle saatlerinde otomobille Edirne'nin yaklaşık 11 km batısında, sınır bölgesinde bulunan Kemalköy merasının Meriç sahiline gitmiştir'."
+      },
+      "title": "Meriç kıyısına, Kemalköy’e gitti",
+      "text": "Otomobille Edirne’nin yaklaşık 11 km batısındaki Kemalköy merasına, Meriç kıyısına gitti.",
+      "sources": [
+        "ataturk-ansiklopedisi-12782"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler. Kemalköy için yer kaydı yok; yer bağlanmadı."
+    },
+    {
+      "id": "bolu-heyetler-1934-07-18",
+      "date": {
+        "iso": "1934-07-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-9708"
+        ],
+        "$note": "Ansiklopedi «Bolu»: 'Bolu'da uyandığı 18 Temmuz sabahında Gazi Mustafa Kemal kendisini ziyarete gelen heyetleri kabul etmiş'; yıl paragraftan (1934 ziyareti)."
+      },
+      "title": "Bolu’da heyetleri kabul etti",
+      "text": "Sabah Bolu’da kendisini ziyarete gelen heyetleri kabul etti ve halkın dileklerini dinledi.",
+      "placeId": "bolu",
+      "sources": [
+        "ataturk-ansiklopedisi-9708"
+      ],
+      "$note": "Parti 12c (2026-11-15): Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler. Aynı gün Adapazarı'na geçişi sitede (MSB)."
     }
   ]
 }

@@ -2317,6 +2317,29 @@
           "$note": "MSB «Yurt Gezileri» (resmî): 'Saray'."
         }
       ]
+    },
+    {
+      "id": "lozan",
+      "point": {
+        "lon": 6.633333333333,
+        "lat": 46.533333333333,
+        "sources": [
+          "wikidata-q807-r2562602195",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 46.533333, 6.633333. Natural Earth 10m simple (Lausanne, ne_id 1159135705): 46.530427, 6.650023. Fark yaklaşık 1,3 km."
+      },
+      "names": [
+        {
+          "name": "Lozan",
+          "sources": [
+            "wikidata-q807-r2562602195",
+            "msb-kronoloji-sinirlar"
+          ],
+          "$note": "Wikidata Türkçe etiketi 'Lozan'; MSB kronolojisi (resmî) 'Lozan Antlaşması'."
+        }
+      ],
+      "modernName": "Lausanne"
     }
   ]
 }

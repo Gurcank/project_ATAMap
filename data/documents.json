@@ -4491,6 +4491,696 @@
         "nutuk-en-1929-belge-s499"
       ],
       "$note": "Nutuk belgeleri, parti 6. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'This induced me to write him the following private letter: 19th May, 1921. To Bekir Sami Bey, Deputy for Amasia'; alıcının yeri yazmıyor. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1922-06-18-telgraf-hamit-bey-istanbul",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1922-06-18",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s540"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 540. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "sender": "Hamit Bey (İstanbul)",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s540"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 18th June a telegram came from Hamid Bey in Constantinople'; alıcının o günkü yeri yazmıyor. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1922-06-19-telgraf-tbmm-ikinci-reisi-rauf-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1922-06-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s563"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 563. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "sender": "TBMM İkinci Reisi Rauf Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s563"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'on the 19th June, I received a telegram from Rauf Bey, who was at that time Vice-President of the Grand National Assembly'; Mustafa Kemal'in o günkü yeri yazmıyor. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1922-09-04-telgraf-icra-vekilleri-heyeti-reisi-ra",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1922-09-04",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s566"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 566. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "sender": "İcra Vekilleri Heyeti Reisi Rauf Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s566"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'During the operations I received, among others, a telegram from Rauf Bey, President of the Council, on the 4th September'; Mustafa Kemal cephedeydi, yeri yazmıyor. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1922-10-17-telgraf-sadrazam-tevfik-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1922-10-17",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s575"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 575. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "sender": "Sadrazam Tevfik Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s575"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Tewfik Pasha sent at first a telegram addressed personally to myself. In this telegram on the 17th October'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1922-10-29-telgraf-sadrazam-tevfik-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1922-10-29",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s576"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 576. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Sadrazam Tevfik Paşa",
+      "recipient": "TBMM Riyaseti",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s576"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'he appealed directly to the Presidency of the Assembly in a further telegram on the 29th [October]'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1922-11-19-telgraf-refet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1922-11-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s582"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 582. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "sender": "Refet Paşa",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s582"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Refet Pasha replied to our telegraphic communication in a telegram in cipher on the 19th November'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1922-11-20-telgraf-refet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1922-11-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s583"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 583. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "sender": "Refet Paşa",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s583"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In the first sentence of his telegram in cipher of the 20th November, Refet Pasha remarked'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-22-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s621"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 621. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "İcra Vekilleri Heyeti Reisi Rauf Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s621"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 22nd May he sent the following telegram marked urgent to the President of the Council of Ministers'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-23-telgraf-icra-vekilleri-heyeti-reisi-ra",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-23",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s622"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 622. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "lozan",
+      "sender": "İcra Vekilleri Heyeti Reisi Rauf Bey",
+      "recipient": "Türk heyeti reisi İsmet Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s622"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Rauf Bey answered both these telegrams on the 23rd May'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-24-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s626"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 626. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "İcra Vekilleri Heyeti Reisi Rauf Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s626"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). Mustafa Kemal'in 25 Mayıs telgrafında: 'The contents of your telegrams of the 24th May, No. 141 and 144'; No. 141. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-24-telgraf-turk-heyeti-reisi-ismet-pasa-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s627"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 627. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "İcra Vekilleri Heyeti Reisi Rauf Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s627"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). No. 144: 'your conclusion which is expressed in your telegram of the 24th May, No. 144'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-24-telgraf-turk-heyeti-reisi-ismet-pasa-2-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s630"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 630. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s630"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I received your telegram in cipher, No. 145, dated the 24th May, on the 26th May'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-25-telgraf-icra-vekilleri-heyeti-reisi-ra",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-25",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s625"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 625. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "lozan",
+      "sender": "İcra Vekilleri Heyeti Reisi Rauf Bey",
+      "recipient": "Türk heyeti reisi İsmet Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s625"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'The telegram with the signature of Rauf Bey read as follows: 25th May, 1923. To His Excellency Ismet Pasha'; Nutuk'a göre Mustafa Kemal yazdırdı. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-25-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-25",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s626"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 626. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "lozan",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Türk heyeti reisi İsmet Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s626"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'The telegram which I wrote myself … May 25th, 1923. To His Excellency Ismet Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-26-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-26",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s630"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 630. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "lozan",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Türk heyeti reisi İsmet Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s630"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In cipher at the instrument. Angora, 26th May, 1923. To His Excellency Ismet Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-26-telgraf-turk-heyeti-reisi-ismet-pasa-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-26",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s630"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 630. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "İcra Vekilleri Heyeti Reisi Rauf Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s630"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In reports which Ismet Pasha sent to the President of the Council of Ministers on the 26th May, 1923'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-27-mektup-hariciye-vekili-vekili-rauf-be",
+      "kind": "mektup",
+      "date": {
+        "iso": "1923-05-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s630"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 630. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "ankara",
+      "sender": "Hariciye Vekili Vekili Rauf Bey",
+      "recipient": "TBMM Reisi (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s630"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). '154/155. 27th May, 1923. To the High President of the Grand National Assembly of Turkey. I have the honour of sending to Your Excellency herewith a copy of the telegram'; ek yazı. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-27-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s630"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 630. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "lozan",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Türk heyeti reisi İsmet Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s630"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I sent him the following telegram … 27th May, 1923. To His Excellency Ismet Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-05-28-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-05-28",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s633"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 633. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "İcra Vekilleri Heyeti Reisi Rauf Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s633"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In a telegram of the 28th May to Rauf Bey Ismet Pasha said'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-06-26-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-06-26",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s636"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 636. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s636"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). Mustafa Kemal'in aynı günkü cevabında: 'I have read your telegraphic reply of June 26th, 1923'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-06-26-telgraf-turk-heyeti-reisi-ismet-pasa-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-06-26",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s636"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 636. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "lozan",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Türk heyeti reisi İsmet Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s636"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Personal. 26th June, 1923. To His Excellency Ismet Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-07-18-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-07-18",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s638"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 638. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s638"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I have received your telegram of the 18th July inst.'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-07-19-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-07-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s638"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 638. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "lozan",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Türk heyeti reisi İsmet Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s638"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Angora, 19th July, 1923. To His Excellency Ismet Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1923-07-20-telgraf-turk-heyeti-reisi-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1923-07-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s638"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 638. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "lozan",
+      "toPlaceId": "ankara",
+      "sender": "Türk heyeti reisi İsmet Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s638"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'No. 338. Lausanne, 20th July, 1923. To His Excellency Mustapha Kemal Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1924-01-22-telgraf-basvekil-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1924-01-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s679"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 679. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "izmir",
+      "sender": "Başvekil İsmet Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s679"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 22nd January, 1924, I received from Ismet Pasha, President of the Council of Ministers, a telegram in cipher'; cevap 'At the instrument. Smyrna'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1924-10-30-telgraf-3-ordu-mufettisi-cevat-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1924-10-30",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s691"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 691. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "diyarbakir",
+      "toPlaceId": "ankara",
+      "sender": "3. Ordu Müfettişi Cevat Paşa",
+      "recipient": "Reisicumhur Gazi Mustafa Kemal",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s691"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Reply of the Inspector of the Third Army: Diarbekr, 30th October, 1924. To His Excellency Ghazi Mustapha Kemal, President of the Republic'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1924-10-30-telgraf-7-kolordu-komutani",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1924-10-30",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s692"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 692. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "diyarbakir",
+      "toPlaceId": "ankara",
+      "sender": "7. Kolordu Komutanı",
+      "recipient": "Reisicumhur Gazi Mustafa Kemal",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s692"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Reply of the Commander of the Seventh Army Corps: Diarbekr, 30th October, 1924'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1924-10-31-telgraf-3-ordu-mufettisi-cevat-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1924-10-31",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s693"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 693. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "diyarbakir",
+      "toPlaceId": "ankara",
+      "sender": "3. Ordu Müfettişi Cevat Paşa",
+      "recipient": "Reisicumhur Gazi Mustafa Kemal",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s693"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'At the telegraph instrument. Diarbekr, 31st October, 1924. To His Excellency Ghazi Mustapha Kemal, President of the Republic'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1924-10-31-telgraf-3-ordu-mufettisi-cevat-pasa-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1924-10-31",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s694"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 694. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "diyarbakir",
+      "toPlaceId": "ankara",
+      "sender": "3. Ordu Müfettişi Cevat Paşa",
+      "recipient": "Reisicumhur Gazi Mustafa Kemal",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s694"
+      ],
+      "$note": "Nutuk belgeleri, parti 7. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'At the telegraph instrument. Diarbekr, 31st October, 1924. To His Excellency Ghazi Mustapha Kemal, President of the Republic, at Angora'; ikinci cevap. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
     }
   ]
 }

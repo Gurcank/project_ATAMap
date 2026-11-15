@@ -2654,8 +2654,8 @@
         ],
         "$note": "Nutuk s. 441."
       },
-      "title": "Ethem Bey'den Hayati Bey'e mektup",
-      "text": "Ethem Bey Ankara'da Hayati Bey'e bir mektup yazdı.",
+      "title": "Ankara'dan Ankara'ya mektup",
+      "text": "Gönderen: Ethem Bey. Alıcı: Hayati Bey (Ankara).",
       "sources": [
         "nutuk-en-1929-belge-s441"
       ],
@@ -3225,6 +3225,50 @@
       "$note": " K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "nutuk-1922-06-18-telgraf-hamit-bey-istanbul-adim",
+      "date": {
+        "iso": "1922-06-18",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s540"
+        ],
+        "$note": "Nutuk s. 540."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Hamit Bey (İstanbul).",
+      "sources": [
+        "nutuk-en-1929-belge-s540"
+      ],
+      "documentIds": [
+        "nutuk-1922-06-18-telgraf-hamit-bey-istanbul"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1922-06-19-telgraf-tbmm-ikinci-reisi-rauf-bey-adim",
+      "date": {
+        "iso": "1922-06-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s563"
+        ],
+        "$note": "Nutuk s. 563."
+      },
+      "title": "Ankara'dan telgraf geldi",
+      "text": "Ankara'dan telgraf geldi. Gönderen: TBMM İkinci Reisi Rauf Bey.",
+      "sources": [
+        "nutuk-en-1929-belge-s563"
+      ],
+      "documentIds": [
+        "nutuk-1922-06-19-telgraf-tbmm-ikinci-reisi-rauf-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
       "id": "suresiz-baskomutanlik-1922-07-20",
       "date": {
         "iso": "1922-07-20",
@@ -3259,6 +3303,28 @@
         "msb-kronoloji-1919-1922-p9b"
       ],
       "$note": "K5 taraması, parti 9b. Yer yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "nutuk-1922-09-04-telgraf-icra-vekilleri-heyeti-reisi-ra-adim",
+      "date": {
+        "iso": "1922-09-04",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s566"
+        ],
+        "$note": "Nutuk s. 566."
+      },
+      "title": "Ankara'dan telgraf geldi",
+      "text": "Ankara'dan telgraf geldi. Gönderen: İcra Vekilleri Heyeti Reisi Rauf Bey.",
+      "sources": [
+        "nutuk-en-1929-belge-s566"
+      ],
+      "documentIds": [
+        "nutuk-1922-09-04-telgraf-icra-vekilleri-heyeti-reisi-ra"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
     },
     {
       "id": "izmir-mesaji-1922-09-09",
@@ -3315,6 +3381,94 @@
         "msb-kronoloji-1919-1922-p9b"
       ],
       "$note": "K5 taraması, parti 9b. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "nutuk-1922-10-17-telgraf-sadrazam-tevfik-pasa-adim",
+      "date": {
+        "iso": "1922-10-17",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s575"
+        ],
+        "$note": "Nutuk s. 575."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Sadrazam Tevfik Paşa.",
+      "sources": [
+        "nutuk-en-1929-belge-s575"
+      ],
+      "documentIds": [
+        "nutuk-1922-10-17-telgraf-sadrazam-tevfik-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1922-10-29-telgraf-sadrazam-tevfik-pasa-adim",
+      "date": {
+        "iso": "1922-10-29",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s576"
+        ],
+        "$note": "Nutuk s. 576."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Sadrazam Tevfik Paşa.",
+      "sources": [
+        "nutuk-en-1929-belge-s576"
+      ],
+      "documentIds": [
+        "nutuk-1922-10-29-telgraf-sadrazam-tevfik-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım). Mustafa Kemal Paşa ne gönderen ne alıcı; yer bağlanmadı."
+    },
+    {
+      "id": "nutuk-1922-11-19-telgraf-refet-pasa-adim",
+      "date": {
+        "iso": "1922-11-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s582"
+        ],
+        "$note": "Nutuk s. 582."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Refet Paşa.",
+      "sources": [
+        "nutuk-en-1929-belge-s582"
+      ],
+      "documentIds": [
+        "nutuk-1922-11-19-telgraf-refet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1922-11-20-telgraf-refet-pasa-adim",
+      "date": {
+        "iso": "1922-11-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s583"
+        ],
+        "$note": "Nutuk s. 583."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Refet Paşa.",
+      "sources": [
+        "nutuk-en-1929-belge-s583"
+      ],
+      "documentIds": [
+        "nutuk-1922-11-20-telgraf-refet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
     },
     {
       "id": "zubeyde-hanim-1923-01-14",
@@ -3797,6 +3951,260 @@
       "$note": "K5 taraması, parti 9b. Yer yazmıyor."
     },
     {
+      "id": "nutuk-1923-05-22-telgraf-turk-heyeti-reisi-ismet-pasa-adim",
+      "date": {
+        "iso": "1923-05-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s621"
+        ],
+        "$note": "Nutuk s. 621."
+      },
+      "title": "Lozan'dan Ankara'ya telgraf",
+      "text": "Gönderen: Türk heyeti reisi İsmet Paşa. Alıcı: İcra Vekilleri Heyeti Reisi Rauf Bey (Ankara).",
+      "sources": [
+        "nutuk-en-1929-belge-s621"
+      ],
+      "documentIds": [
+        "nutuk-1923-05-22-telgraf-turk-heyeti-reisi-ismet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım). Mustafa Kemal Paşa ne gönderen ne alıcı; yer bağlanmadı."
+    },
+    {
+      "id": "nutuk-1923-05-23-telgraf-icra-vekilleri-heyeti-reisi-ra-adim",
+      "date": {
+        "iso": "1923-05-23",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s622"
+        ],
+        "$note": "Nutuk s. 622."
+      },
+      "title": "Ankara'dan Lozan'a telgraf",
+      "text": "Gönderen: İcra Vekilleri Heyeti Reisi Rauf Bey. Alıcı: Türk heyeti reisi İsmet Paşa (Lozan).",
+      "sources": [
+        "nutuk-en-1929-belge-s622"
+      ],
+      "documentIds": [
+        "nutuk-1923-05-23-telgraf-icra-vekilleri-heyeti-reisi-ra"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım). Mustafa Kemal Paşa ne gönderen ne alıcı; yer bağlanmadı."
+    },
+    {
+      "id": "nutuk-1923-05-24-telgraf-turk-heyeti-reisi-ismet-pasa-adim",
+      "date": {
+        "iso": "1923-05-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s626"
+        ],
+        "$note": "Nutuk s. 626."
+      },
+      "title": "Lozan'dan Ankara'ya telgraf",
+      "text": "Gönderen: Türk heyeti reisi İsmet Paşa. Alıcı: İcra Vekilleri Heyeti Reisi Rauf Bey (Ankara).",
+      "sources": [
+        "nutuk-en-1929-belge-s626"
+      ],
+      "documentIds": [
+        "nutuk-1923-05-24-telgraf-turk-heyeti-reisi-ismet-pasa",
+        "nutuk-1923-05-24-telgraf-turk-heyeti-reisi-ismet-pasa-2",
+        "nutuk-1923-05-24-telgraf-turk-heyeti-reisi-ismet-pasa-2-2"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım). Mustafa Kemal Paşa ne gönderen ne alıcı; yer bağlanmadı."
+    },
+    {
+      "id": "nutuk-1923-05-25-telgraf-icra-vekilleri-heyeti-reisi-ra-adim",
+      "date": {
+        "iso": "1923-05-25",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s625"
+        ],
+        "$note": "Nutuk s. 625."
+      },
+      "title": "Ankara'dan Lozan'a telgraf",
+      "text": "Gönderen: İcra Vekilleri Heyeti Reisi Rauf Bey. Alıcı: Türk heyeti reisi İsmet Paşa (Lozan).",
+      "sources": [
+        "nutuk-en-1929-belge-s625"
+      ],
+      "documentIds": [
+        "nutuk-1923-05-25-telgraf-icra-vekilleri-heyeti-reisi-ra",
+        "nutuk-1923-05-25-telgraf-turk-heyeti-reisi-ismet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım). Mustafa Kemal Paşa ne gönderen ne alıcı; yer bağlanmadı."
+    },
+    {
+      "id": "nutuk-1923-05-26-telgraf-turk-heyeti-reisi-ismet-pasa-adim",
+      "date": {
+        "iso": "1923-05-26",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s630"
+        ],
+        "$note": "Nutuk s. 630."
+      },
+      "title": "Lozan'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Türk heyeti reisi İsmet Paşa (Lozan).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s630"
+      ],
+      "documentIds": [
+        "nutuk-1923-05-26-telgraf-turk-heyeti-reisi-ismet-pasa",
+        "nutuk-1923-05-26-telgraf-turk-heyeti-reisi-ismet-pasa-2"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1923-05-27-mektup-hariciye-vekili-vekili-rauf-be-adim",
+      "date": {
+        "iso": "1923-05-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s630"
+        ],
+        "$note": "Nutuk s. 630."
+      },
+      "title": "Ankara'dan mektup geldi",
+      "text": "Ankara'dan mektup geldi. Gönderen: Hariciye Vekili Vekili Rauf Bey.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s630"
+      ],
+      "documentIds": [
+        "nutuk-1923-05-27-mektup-hariciye-vekili-vekili-rauf-be",
+        "nutuk-1923-05-27-telgraf-turk-heyeti-reisi-ismet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1923-05-28-telgraf-turk-heyeti-reisi-ismet-pasa-adim",
+      "date": {
+        "iso": "1923-05-28",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s633"
+        ],
+        "$note": "Nutuk s. 633."
+      },
+      "title": "Lozan'dan Ankara'ya telgraf",
+      "text": "Gönderen: Türk heyeti reisi İsmet Paşa. Alıcı: İcra Vekilleri Heyeti Reisi Rauf Bey (Ankara).",
+      "sources": [
+        "nutuk-en-1929-belge-s633"
+      ],
+      "documentIds": [
+        "nutuk-1923-05-28-telgraf-turk-heyeti-reisi-ismet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım). Mustafa Kemal Paşa ne gönderen ne alıcı; yer bağlanmadı."
+    },
+    {
+      "id": "nutuk-1923-06-26-telgraf-turk-heyeti-reisi-ismet-pasa-adim",
+      "date": {
+        "iso": "1923-06-26",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s636"
+        ],
+        "$note": "Nutuk s. 636."
+      },
+      "title": "Lozan'dan telgraf geldi",
+      "text": "Lozan'dan telgraf geldi. Gönderen: Türk heyeti reisi İsmet Paşa.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s636"
+      ],
+      "documentIds": [
+        "nutuk-1923-06-26-telgraf-turk-heyeti-reisi-ismet-pasa",
+        "nutuk-1923-06-26-telgraf-turk-heyeti-reisi-ismet-pasa-2"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1923-07-18-telgraf-turk-heyeti-reisi-ismet-pasa-adim",
+      "date": {
+        "iso": "1923-07-18",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s638"
+        ],
+        "$note": "Nutuk s. 638."
+      },
+      "title": "Lozan'dan telgraf geldi",
+      "text": "Lozan'dan telgraf geldi. Gönderen: Türk heyeti reisi İsmet Paşa.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s638"
+      ],
+      "documentIds": [
+        "nutuk-1923-07-18-telgraf-turk-heyeti-reisi-ismet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1923-07-19-telgraf-turk-heyeti-reisi-ismet-pasa-adim",
+      "date": {
+        "iso": "1923-07-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s638"
+        ],
+        "$note": "Nutuk s. 638."
+      },
+      "title": "Lozan'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Türk heyeti reisi İsmet Paşa (Lozan).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s638"
+      ],
+      "documentIds": [
+        "nutuk-1923-07-19-telgraf-turk-heyeti-reisi-ismet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1923-07-20-telgraf-turk-heyeti-reisi-ismet-pasa-adim",
+      "date": {
+        "iso": "1923-07-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s638"
+        ],
+        "$note": "Nutuk s. 638."
+      },
+      "title": "Lozan'dan telgraf geldi",
+      "text": "Lozan'dan telgraf geldi. Gönderen: Türk heyeti reisi İsmet Paşa.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s638"
+      ],
+      "documentIds": [
+        "nutuk-1923-07-20-telgraf-turk-heyeti-reisi-ismet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
       "id": "yg-ankara-izmir-1923-07-23",
       "date": {
         "iso": "1923-07-23",
@@ -3932,6 +4340,29 @@
       ],
       "journeyId": "yg-ankara-izmir-1923-12",
       "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "nutuk-1924-01-22-telgraf-basvekil-ismet-pasa-adim",
+      "date": {
+        "iso": "1924-01-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s679"
+        ],
+        "$note": "Nutuk s. 679."
+      },
+      "title": "Ankara'dan telgraf geldi",
+      "text": "Ankara'dan telgraf geldi. Gönderen: Başvekil İsmet Paşa.",
+      "placeId": "izmir",
+      "sources": [
+        "nutuk-en-1929-belge-s679"
+      ],
+      "documentIds": [
+        "nutuk-1924-01-22-telgraf-basvekil-ismet-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım)."
     },
     {
       "id": "yg-1924-02-09-selcuk-kusadasi-ve-soke-yi-gezdi",
@@ -4415,6 +4846,54 @@
         "msb-yurt-gezileri-1924-1938"
       ],
       "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "nutuk-1924-10-30-telgraf-3-ordu-mufettisi-cevat-pasa-adim",
+      "date": {
+        "iso": "1924-10-30",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s691"
+        ],
+        "$note": "Nutuk s. 691."
+      },
+      "title": "Diyarbakır'dan telgraf geldi",
+      "text": "Diyarbakır'dan telgraf geldi. Gönderen: 3. Ordu Müfettişi Cevat Paşa.",
+      "sources": [
+        "nutuk-en-1929-belge-s691"
+      ],
+      "documentIds": [
+        "nutuk-1924-10-30-telgraf-3-ordu-mufettisi-cevat-pasa",
+        "nutuk-1924-10-30-telgraf-7-kolordu-komutani"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım). Alıcı Reisicumhur; Ankara (s. 694: 'President of the Republic, at Angora').",
+      "placeId": "ankara"
+    },
+    {
+      "id": "nutuk-1924-10-31-telgraf-3-ordu-mufettisi-cevat-pasa-adim",
+      "date": {
+        "iso": "1924-10-31",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s693"
+        ],
+        "$note": "Nutuk s. 693."
+      },
+      "title": "Diyarbakır'dan telgraf geldi",
+      "text": "Diyarbakır'dan telgraf geldi. Gönderen: 3. Ordu Müfettişi Cevat Paşa.",
+      "sources": [
+        "nutuk-en-1929-belge-s693"
+      ],
+      "documentIds": [
+        "nutuk-1924-10-31-telgraf-3-ordu-mufettisi-cevat-pasa",
+        "nutuk-1924-10-31-telgraf-3-ordu-mufettisi-cevat-pasa-2"
+      ],
+      "$note": "Nutuk belgeleri, parti 7 (3-a: aynı gün olay yok, kısa adım). Alıcı Reisicumhur; Ankara (s. 694: 'President of the Republic, at Angora').",
+      "placeId": "ankara"
     },
     {
       "id": "tbmm-acilis-1924-11-01-msb",

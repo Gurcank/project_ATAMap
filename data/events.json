@@ -961,6 +961,24 @@
       "$note": " K5 parti 10a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "basogretmen-1928-11-08",
+      "date": {
+        "iso": "1928-11-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 8 Kasım 1928."
+      },
+      "title": "Başöğretmenliği kabul etti",
+      "text": "Halka yeni yazıyı öğretecek Millet Mektepleri’nin Genel Başkanlığını ve Başöğretmenliğini kabul etti.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Yer yazmıyor."
+    },
+    {
       "id": "tbmm-acilis-1929-11-01",
       "date": {
         "iso": "1929-11-01",
@@ -1003,6 +1021,61 @@
       ]
     },
     {
+      "id": "tarih-cemiyeti-1931-04-12",
+      "date": {
+        "iso": "1931-04-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 12 Nisan 1931."
+      },
+      "title": "Türk Tarihi Tetkik Cemiyeti kuruldu",
+      "text": "Onun direktifiyle Türk Tarihi Tetkik Cemiyeti (sonra Türk Tarih Kurumu) kuruldu.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Yer yazmıyor."
+    },
+    {
+      "id": "ucuncu-cumhurbaskanligi-1931-05-04",
+      "date": {
+        "iso": "1931-05-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 4 Mayıs 1931."
+      },
+      "title": "Üçüncü kez Cumhurbaşkanı seçildi",
+      "text": "Üçüncü kez Cumhurbaşkanlığına seçildi.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Yer yazmıyor."
+    },
+    {
+      "id": "chp-ucuncu-kongre-1931-05-10",
+      "date": {
+        "iso": "1931-05-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 10 Mayıs 1931."
+      },
+      "title": "CHP Üçüncü Büyük Kongresi’ni açtı",
+      "text": "Ankara'da toplanan Cumhuriyet Halk Partisi Üçüncü Büyük Kongresi'ni bir konuşmayla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
       "id": "tbmm-acilis-1931-11-01",
       "date": {
         "iso": "1931-11-01",
@@ -1022,6 +1095,24 @@
       "documentIds": [
         "tbmm-nutuk-1931-11-01"
       ]
+    },
+    {
+      "id": "dil-cemiyeti-1932-07-12",
+      "date": {
+        "iso": "1932-07-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 12 Temmuz 1932."
+      },
+      "title": "Türk Dili Tetkik Cemiyeti kuruldu",
+      "text": "Onun direktifiyle Türk Dili Tetkik Cemiyeti (sonra Türk Dil Kurumu) kuruldu.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Yer yazmıyor."
     },
     {
       "id": "tbmm-acilis-1932-11-01",
@@ -1087,6 +1178,78 @@
       ]
     },
     {
+      "id": "dorduncu-cumhurbaskanligi-1935-03-01",
+      "date": {
+        "iso": "1935-03-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 1 Mart 1935."
+      },
+      "title": "Dördüncü kez Cumhurbaşkanı seçildi",
+      "text": "Dördüncü kez Cumhurbaşkanı seçildi.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Yer yazmıyor."
+    },
+    {
+      "id": "kizilay-1935-04-28",
+      "date": {
+        "iso": "1935-04-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 28 Nisan 1935."
+      },
+      "title": "Hilaliahmer’e Kızılay adı verildi",
+      "text": "Hilaliahmer'e onun verdiği «Kızılay» adı Kızılay Kurultayı'nda kabul edildi.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Yer yazmıyor."
+    },
+    {
+      "id": "turkkusu-1935-05-03",
+      "date": {
+        "iso": "1935-05-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 3 Mayıs 1935."
+      },
+      "title": "Türkkuşu'nun açılışında konuştu",
+      "text": "Türkkuşu'nun hizmete açılması için Etimesgut Havaalanı'nda yapılan törende bir konuşma yaptı.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Havaalanının 1935'teki yeri için kaynaklı koordinat aranmadı; yer bağlanmadı. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "chp-dorduncu-kurultay-1935-05-09",
+      "date": {
+        "iso": "1935-05-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 9 Mayıs 1935."
+      },
+      "title": "CHP IV. Büyük Kurultayı’nı açtı",
+      "text": "Cumhuriyet Halk Partisi IV. Büyük Kurultayı’nı bir konuşmayla açtı.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Yer yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
       "id": "tbmm-acilis-1935-11-01",
       "date": {
         "iso": "1935-11-01",
@@ -1106,6 +1269,25 @@
       "documentIds": [
         "tbmm-nutuk-1935-11-01"
       ]
+    },
+    {
+      "id": "dtcf-1936-01-09",
+      "date": {
+        "iso": "1936-01-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 9 Ocak 1936."
+      },
+      "title": "Dil ve Tarih-Coğrafya Fakültesi’nin açılışında bulundu",
+      "text": "Ankara'da Dil ve Tarih-Coğrafya Fakültesi'nin açılış törenini izledi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b."
     },
     {
       "id": "tbmm-acilis-1936-11-01",
@@ -1129,6 +1311,24 @@
       ]
     },
     {
+      "id": "ciftlik-bagisi-1937-06-11",
+      "date": {
+        "iso": "1937-06-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 11 Haziran 1937."
+      },
+      "title": "Çiftliklerini hazineye bağışladı",
+      "text": "Bütün çiftliklerini ve mallarını hazineye bağışladığını Başbakanlığa telgrafla bildirdi.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Nereden gönderildiği yazmıyor."
+    },
+    {
       "id": "tbmm-acilis-1937-11-01",
       "date": {
         "iso": "1937-11-01",
@@ -1148,6 +1348,100 @@
       "documentIds": [
         "tbmm-nutuk-1937-11-01"
       ]
+    },
+    {
+      "id": "hastalik-bildirisi-1938-03-30",
+      "date": {
+        "iso": "1938-03-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 30 Mart 1938."
+      },
+      "title": "Hastalığı hakkında ilk resmî bildiri",
+      "text": "Fransa'dan çağrılan Prof. Dr. Fissenger'in muayenesinden sonra Cumhurbaşkanlığı Genel Sekreterliği hastalığı hakkında ilk resmî bildiriyi yayımladı.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. Yer yazmıyor. Profesörün adı MSB'deki yazımla ('Fissenger')."
+    },
+    {
+      "id": "istanbula-son-gelis-1938-05-27",
+      "date": {
+        "iso": "1938-05-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 27 Mayıs 1938."
+      },
+      "title": "Ankara'dan İstanbul'a geldi",
+      "text": "Ankara'dan İstanbul'a geldi; ölümüne kadar İstanbul'da kaldı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b."
+    },
+    {
+      "id": "vasiyet-1938-09-05",
+      "date": {
+        "iso": "1938-09-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 5 Eylül 1938 (vasiyetname 6 Eylül'de noterine teslim edildi)."
+      },
+      "title": "Vasiyetini yazdı",
+      "text": "Dolmabahçe Sarayı'nda vasiyetini yazdı; ertesi gün İstanbul Altıncı Noteri'ne teslim etti.",
+      "placeId": "dolmabahce-sarayi",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b."
+    },
+    {
+      "id": "ilk-koma-1938-10-16",
+      "date": {
+        "iso": "1938-10-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 16 Ekim 1938."
+      },
+      "title": "İlk kez ağır komaya girdi",
+      "text": "İlk kez ağır komaya girdi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. MSB 27 Mayıs 1938 maddesi: 'Ölüm tarihine kadar İstanbul'da kalmıştır.' Yer buna dayanıyor."
+    },
+    {
+      "id": "orduya-mesaj-1938-10-29",
+      "date": {
+        "iso": "1938-10-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 29 Ekim 1938."
+      },
+      "title": "Cumhuriyet’in 15. yılında orduya mesaj",
+      "text": "Cumhuriyet'in 15. yıl dönümü nedeniyle Türkiye Cumhuriyeti Ordusu'na bir mesaj gönderdi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. MSB 27 Mayıs 1938 maddesi: 'Ölüm tarihine kadar İstanbul'da kalmıştır.' Yer buna dayanıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
     },
     {
       "id": "tbmm-nutuk-1938-11-01",
@@ -2944,6 +3238,25 @@
         "aksam-1934-11-25"
       ],
       "$note": "Parti 10b."
+    },
+    {
+      "id": "ikinci-koma-1938-11-08",
+      "date": {
+        "iso": "1938-11-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10b"
+        ],
+        "$note": "MSB: 8 Kasım 1938."
+      },
+      "title": "İkinci kez ağır komaya girdi",
+      "text": "İkinci kez ağır komaya girdi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1923-1938-p10b"
+      ],
+      "$note": "K5 taraması, parti 10b. MSB 27 Mayıs 1938 maddesi: 'Ölüm tarihine kadar İstanbul'da kalmıştır.' Yer buna dayanıyor."
     },
     {
       "id": "olum-1938-11-10",

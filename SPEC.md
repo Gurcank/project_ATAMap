@@ -20,6 +20,7 @@
 | 2026-11-14 | §2.2, §9.2 A19 | Vikipedi en çok bir teyit kaynağı olabilir; yalnız ipucu olan siteler listelendi | Kullanıcı kararı K4 |
 | 2026-11-14 | §9.2 A24-A26 | Durum kartuşu yerleşimi, doğum tarihi 19 Mayıs 1881, eşzamanlı görevler | Kullanıcı kararları (2026-11-14) |
 | 2026-11-14 | §9.2 A28, K3 | Rütbe adları resmî kaynağın (MSB) bugünkü adlarıyla yazılır (Teğmen, Yarbay, Albay, Tümgeneral…); K3'teki "dönem adıyla" ifadesi rütbeler için bu kararla değişti | Kullanıcı kararı (2026-11-14), K5 yeniden taramasının 3. partisi |
+| 2026-11-15 | §3.5, §3.6, §4, §4.3, §5.2, §9.2 A29-A32 | Yerleşim değişti (durum sol üstte, belge sağda açılan panelde); Nutuk telgrafları künye kartı; deniz rotası kavisli; araç animasyonu. Uygulama sırası: Yurt Gezileri seyahatleri, araç animasyonu, CShapes sınırları, Nutuk telgrafları, yerleşim, kalan resmî kaynaklar | Kullanıcı kararları (2026-11-15), [kapsam raporu](docs/kapsam-raporu-2026-11-15.md) |
 | 2026-11-14 | §2.2, §6, §9.2 A19, A27 | Resmî ve güvenilir devlet kaynağı tek başına yeter; hakları saklı resmî yayınlardan yalnız olgu alınır (`official`, `rights: 'hakki-sakli-olgu'`); kural 2, 5 ve 11 güncellendi; ipucu listesinden devlet siteleri çıktı | Kullanıcı kararı K5 (2026-11-14): bütün devlet kurumları, geriye dönük uygulanır |
 | 2026-11-14 | §6 `DateValue`, §9.2 A25 | `conventional` alanı: uzlaşmayla kabul edilen tarih. Doğum tarihi 19 Mayıs 1881 bu işaretle tutulur | Parti 1 araştırması: Vikipedi ve Wikidata gerçek doğum gününü bilinmiyor, 19 Mayıs'ı kabul edilen tarih olarak veriyor (`docs/kronoloji/parti-01.md`); kullanıcı kararı |
 
@@ -465,6 +466,10 @@ interface Tenure {        // data/tenures.json
 | A26 | Eşzamanlı görevler (2026-11-14) | Aynı tarihte geçerli bütün görevler gösterilir, başlama sırasıyla |
 | A28 | Rütbe adları (2026-11-14) | Resmî kaynağın (MSB kronolojisi) bugünkü adlarıyla: Teğmen, Üsteğmen, Kurmay yüzbaşı, Kolağası, Binbaşı, Yarbay, Albay, Tümgeneral, Müşîr. Görev unvanları kaynaktaki yazımla kalır (ör. Reisicümhur) |
 | A27 | Resmî kaynak (K5, 2026-11-14) | Resmî ve güvenilir bir devlet kaynağı tek başına yeter: TBMM, Resmî Gazete ve mevzuat, Millî Savunma Bakanlığı (ata.msb.gov.tr dahil), Atatürk Araştırma Merkezi (atam.gov.tr ve Atatürk Ansiklopedisi dahil), Devlet Arşivleri Başkanlığı, Kara Harp Okulu, Türk Tarih Kurumu (Belleten dahil). Hakları saklı olanlardan yalnız olgu alınır. Çelişen kaynaklar varsa kayıt yine `doğrulanmadı` olur. Kural geriye dönük uygulanır: 1-10. partilerin adayları yeniden taranır |
+| A29 | Yerleşim (2026-11-15) | Sol üstte durum kartuşu; künye ve atıf satırı onun altında. Orta altta zaman düğmeleri. Mektup ve telgraf açılınca **sağda bir okuma paneli** açılır; panel sabit değildir, belge kapanınca kaybolur. A24'teki "sağ üst" ve §3.6'daki "gönderildiği şehrin yanında açılan A4" bu kararla değişti. 375'teki biçim uygulamada önerilecek |
+| A30 | Nutuk'taki mektup ve telgraflar (2026-11-15) | Kimden, kime, ne zaman, nereden nereye: künye kartı olarak girer, haritada gönderildiği yerden alıcıya yay çizer. İçerik gösterilmez (aslı Arap harfli, İngilizce baskı çeviri; §2.1). Nutuk'un sayfa numarası kartta gösterilmez; doğrulama için kaynak kaydında kalır |
+| A31 | Deniz yolculukları (2026-11-15) | Düz çizgi karadan geçtiği için rota denize doğru kavisli çizilir ve "yaklaşık rota (deniz)" diye etiketlenir. Kavis çizim sırasında hesaplanır; yeni koordinat kaydedilmez (kural 3) |
+| A32 | Seyahat araçları (2026-11-15) | Seyahat sırasında aracın simgesi (vapur, tren, at, otomobil, uçak) rota üzerinde ilerler. Hareket azaltmada simge rotanın ortasında sabit durur. Araç kaynakta yazmıyorsa etap girmez |
 
 ---
 

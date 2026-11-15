@@ -2,6 +2,398 @@
   "$comment": "Event kayıtları (SPEC §6). Metinleri biz yazarız; kaynakta olmayan bilgi yok (SPEC §2).",
   "events": [
     {
+      "id": "nutuk-1919-05-21-telgraf-15-kolordu-komutani-adim",
+      "date": {
+        "iso": "1919-05-21",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s20"
+        ],
+        "$note": "Nutuk s. 20."
+      },
+      "title": "Erzurum'a telgraf gönderdi",
+      "text": "Samsun'dan telgraf gönderdi. Alıcı: 15. Kolordu Komutanı (Erzurum).",
+      "placeId": "samsun",
+      "sources": [
+        "nutuk-en-1929-belge-s20"
+      ],
+      "documentIds": [
+        "nutuk-1919-05-21-telgraf-15-kolordu-komutani"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-05-23-telgraf-20-kolordu-komutani-adim",
+      "date": {
+        "iso": "1919-05-23",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s20"
+        ],
+        "$note": "Nutuk s. 20."
+      },
+      "title": "Ankara'ya telgraf gönderdi",
+      "text": "Samsun'dan telgraf gönderdi. Alıcı: 20. Kolordu Komutanı (Ankara).",
+      "placeId": "samsun",
+      "sources": [
+        "nutuk-en-1929-belge-s20"
+      ],
+      "documentIds": [
+        "nutuk-1919-05-23-telgraf-20-kolordu-komutani"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-06-02-telgraf-harbiye-naziri-adim",
+      "date": {
+        "iso": "1919-06-02",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s27"
+        ],
+        "$note": "Nutuk s. 27."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Harbiye Nazırı.",
+      "placeId": "havza",
+      "sources": [
+        "nutuk-en-1929-belge-s27"
+      ],
+      "documentIds": [
+        "nutuk-1919-06-02-telgraf-harbiye-naziri"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-06-03-telgraf-harbiye-naziri-adim",
+      "date": {
+        "iso": "1919-06-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s27"
+        ],
+        "$note": "Nutuk s. 27."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Havza'dan telgraf gönderdi. Alıcı: Harbiye Nazırı (İstanbul).",
+      "placeId": "havza",
+      "sources": [
+        "nutuk-en-1929-belge-s27"
+      ],
+      "documentIds": [
+        "nutuk-1919-06-03-telgraf-harbiye-naziri",
+        "nutuk-1919-06-03-telgraf-kolordu-komutanlari-ve-valiler"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-06-09-telgraf-15-kolordu-komutani-adim",
+      "date": {
+        "iso": "1919-06-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s25"
+        ],
+        "$note": "Nutuk s. 25."
+      },
+      "title": "Erzurum'dan telgraf geldi",
+      "text": "Erzurum'dan telgraf geldi. Gönderen: 15. Kolordu Komutanı.",
+      "placeId": "havza",
+      "sources": [
+        "nutuk-en-1929-belge-s25"
+      ],
+      "documentIds": [
+        "nutuk-1919-06-09-telgraf-15-kolordu-komutani"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-06-16-telgraf-genelkurmay-baskani-cevat-pasa-adim",
+      "date": {
+        "iso": "1919-06-16",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s22"
+        ],
+        "$note": "Nutuk s. 22."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Amasya'dan telgraf gönderdi. Alıcı: Genelkurmay Başkanı Cevat Paşa (İstanbul).",
+      "placeId": "amasya",
+      "sources": [
+        "nutuk-en-1929-belge-s22"
+      ],
+      "documentIds": [
+        "nutuk-1919-06-16-telgraf-genelkurmay-baskani-cevat-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-06-17-telgraf-genelkurmay-baskani-cevat-pasa-adim",
+      "date": {
+        "iso": "1919-06-17",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s22"
+        ],
+        "$note": "Nutuk s. 22."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Genelkurmay Başkanı Cevat Paşa.",
+      "placeId": "amasya",
+      "sources": [
+        "nutuk-en-1929-belge-s22"
+      ],
+      "documentIds": [
+        "nutuk-1919-06-17-telgraf-genelkurmay-baskani-cevat-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-06-18-telgraf-1-kolordu-komutani-cafer-tayya-adim",
+      "date": {
+        "iso": "1919-06-18",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s22"
+        ],
+        "$note": "Nutuk s. 22."
+      },
+      "title": "Edirne'ye telgraf gönderdi",
+      "text": "Amasya'dan telgraf gönderdi. Alıcı: 1. Kolordu Komutanı Cafer Tayyar Bey (Edirne).",
+      "placeId": "amasya",
+      "sources": [
+        "nutuk-en-1929-belge-s22"
+      ],
+      "documentIds": [
+        "nutuk-1919-06-18-telgraf-1-kolordu-komutani-cafer-tayya"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-06-23-telgraf-dahiliye-naziri-ali-kemal-bey-adim",
+      "date": {
+        "iso": "1919-06-23",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s34"
+        ],
+        "$note": "Nutuk s. 34."
+      },
+      "title": "Ali Kemal Bey'in genelge telgrafı",
+      "text": "Dahiliye Nazırı Ali Kemal Bey İstanbul'dan valilere bir genelge telgrafı gönderdi; Mustafa Kemal Paşa bunu 27 Haziran'da Sivas'a varınca öğrendi.",
+      "sources": [
+        "nutuk-en-1929-belge-s34"
+      ],
+      "documentIds": [
+        "nutuk-1919-06-23-telgraf-dahiliye-naziri-ali-kemal-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım). Telgraf Mustafa Kemal Paşa'ya gönderilmedi; Nutuk s. 34: 'It was only on my arrival at Sivas on June 27th, that I heard of this circular'.",
+      "placeId": "istanbul"
+    },
+    {
+      "id": "nutuk-1919-06-27-telgraf-56-tumen-komutani-bekir-sami-b-adim",
+      "date": {
+        "iso": "1919-06-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s23"
+        ],
+        "$note": "Nutuk s. 23."
+      },
+      "title": "Bursa'dan telgraf geldi",
+      "text": "Bursa'dan telgraf geldi. Gönderen: 56. Tümen Komutanı Bekir Sami Bey.",
+      "sources": [
+        "nutuk-en-1929-belge-s23"
+      ],
+      "documentIds": [
+        "nutuk-1919-06-27-telgraf-56-tumen-komutani-bekir-sami-b"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-07-05-telgraf-12-kolordu-komutani-selahattin-adim",
+      "date": {
+        "iso": "1919-07-05",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s44"
+        ],
+        "$note": "Nutuk s. 44."
+      },
+      "title": "Konya'ya telgraf gönderdi",
+      "text": "Erzurum'dan telgraf gönderdi. Alıcı: 12. Kolordu Komutanı Selahattin Bey (Konya).",
+      "placeId": "erzurum",
+      "sources": [
+        "nutuk-en-1929-belge-s44"
+      ],
+      "documentIds": [
+        "nutuk-1919-07-05-telgraf-12-kolordu-komutani-selahattin"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-07-06-telgraf-12-kolordu-komutani-selahattin-adim",
+      "date": {
+        "iso": "1919-07-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s44"
+        ],
+        "$note": "Nutuk s. 44."
+      },
+      "title": "Konya'dan telgraf geldi",
+      "text": "Konya'dan telgraf geldi. Gönderen: 12. Kolordu Komutanı Selahattin Bey.",
+      "placeId": "erzurum",
+      "sources": [
+        "nutuk-en-1929-belge-s44"
+      ],
+      "documentIds": [
+        "nutuk-1919-07-06-telgraf-12-kolordu-komutani-selahattin"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-07-07-telgraf-butun-komutanlar-genelge-adim",
+      "date": {
+        "iso": "1919-07-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s45"
+        ],
+        "$note": "Nutuk s. 45."
+      },
+      "title": "Genelge telgrafı gönderdi",
+      "text": "Erzurum'dan telgraf gönderdi. Alıcı: Bütün komutanlar (genelge).",
+      "placeId": "erzurum",
+      "sources": [
+        "nutuk-en-1929-belge-s45"
+      ],
+      "documentIds": [
+        "nutuk-1919-07-07-telgraf-butun-komutanlar-genelge"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-07-10-mektup-dogu-anadolu-mudafaa-i-hukuk-c-adim",
+      "date": {
+        "iso": "1919-07-10",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s56"
+        ],
+        "$note": "Nutuk s. 56."
+      },
+      "title": "Erzurum'dan mektup geldi",
+      "text": "Erzurum'dan mektup geldi. Gönderen: Doğu Anadolu Müdafaa-i Hukuk Cemiyeti Erzurum Şubesi.",
+      "placeId": "erzurum",
+      "sources": [
+        "nutuk-en-1929-belge-s56"
+      ],
+      "documentIds": [
+        "nutuk-1919-07-10-mektup-dogu-anadolu-mudafaa-i-hukuk-c"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-07-13-telgraf-refet-bey-adim",
+      "date": {
+        "iso": "1919-07-13",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s46"
+        ],
+        "$note": "Nutuk s. 46."
+      },
+      "title": "Amasya'dan telgraf geldi",
+      "text": "Amasya'dan telgraf geldi. Gönderen: Refet Bey.",
+      "placeId": "erzurum",
+      "sources": [
+        "nutuk-en-1929-belge-s46"
+      ],
+      "documentIds": [
+        "nutuk-1919-07-13-telgraf-refet-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-07-14-telgraf-refet-bey-adim",
+      "date": {
+        "iso": "1919-07-14",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s46"
+        ],
+        "$note": "Nutuk s. 46."
+      },
+      "title": "Amasya'ya telgraf gönderdi",
+      "text": "Erzurum'dan telgraf gönderdi. Alıcı: Refet Bey (Amasya).",
+      "placeId": "erzurum",
+      "sources": [
+        "nutuk-en-1929-belge-s46"
+      ],
+      "documentIds": [
+        "nutuk-1919-07-14-telgraf-refet-bey",
+        "nutuk-1919-07-14-telgraf-canik-mutasarrifi-hamid-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-07-20-telgraf-canik-mutasarrifi-hamid-bey-adim",
+      "date": {
+        "iso": "1919-07-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s49"
+        ],
+        "$note": "Nutuk s. 49."
+      },
+      "title": "Samsun'dan telgraf geldi",
+      "text": "Samsun'dan telgraf geldi. Gönderen: Canik Mutasarrıfı Hamid Bey.",
+      "placeId": "erzurum",
+      "sources": [
+        "nutuk-en-1929-belge-s49"
+      ],
+      "documentIds": [
+        "nutuk-1919-07-20-telgraf-canik-mutasarrifi-hamid-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 1 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
       "id": "tbmm-nutuk-1920-04-24",
       "date": {
         "iso": "1920-04-24",
@@ -8861,7 +9253,11 @@
         "nutuk-en-1929-s43",
         "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
+      "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi.",
+      "documentIds": [
+        "nutuk-1919-07-08-telgraf-harbiye-naziri",
+        "nutuk-1919-07-08-telgraf-padisah"
+      ]
     },
     {
       "id": "istifa-genelgesi-1919-07-09",

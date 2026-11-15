@@ -219,12 +219,7 @@ test('the last step: death at Dolmabahçe Palace', async ({ page }, info) => {
   await expect(page.getByRole('button', { name: 'Sonraki' })).toBeDisabled();
   const status = page.getByRole('region', { name: 'Durum' });
   if (info.project.name === 'mobil-375') await status.getByRole('button').click();
-  await expect(status.locator('dd')).toHaveText([
-    '57',
-    'Müşîr',
-    'Reisicümhur',
-    'Dolmabahçe Sarayı',
-  ]);
+  await expect(status.locator('dd')).toHaveText(['57', 'Reisicümhur', 'Dolmabahçe Sarayı']);
   await shot(page, info, 'olum');
 });
 

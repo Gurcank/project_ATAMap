@@ -47,9 +47,20 @@
       },
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "wikidata-q5152-r2569089775-p39-p410"
+        "wikidata-q5152-r2569089775-p39-p410",
+        "msb-kronoloji-1923-1938-p10a"
       ],
-      "$note": "Parti 9b. Vikipedi 'Müşîr (bugünkü ismiyle Mareşal)', Wikidata 'Mareşal'. Bitiş yazılmadı: Wikidata 1927-06-30 diyor, ikinci kaynak parti 10a'da aranacak. Bitiş girilmezse rütbe 1938'e kadar gösterilir."
+      "$note": "Parti 9b. Vikipedi 'Müşîr (bugünkü ismiyle Mareşal)', Wikidata 'Mareşal'. Bitiş yazılmadı: Wikidata 1927-06-30 diyor, ikinci kaynak parti 10a'da aranacak. Bitiş girilmezse rütbe 1938'e kadar gösterilir. Bitiş kullanıcı onayıyla (2026-11-15, parti 10a): 30 Haziran 1927 askerlikten emeklilik.",
+      "end": {
+        "iso": "1927-06-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p10a",
+          "wikidata-q5152-r2569089775-p39-p410"
+        ],
+        "$note": "MSB kronolojisi: '30 Haziran 1927 - … askerlikten emekliye ayrılması hakkında kararname düzenlenmesi'. Wikidata P410: Mareşal bitişi 1927-06-30 (MSB yayını dayanaklı)."
+      }
     },
     {
       "id": "reisicumhur-1923",

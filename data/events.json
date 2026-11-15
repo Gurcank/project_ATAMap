@@ -643,18 +643,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1924-03-01"
+          "tbmm-zc-early-1924-03-01",
+          "msb-kronoloji-1923-1938-p10a"
         ]
       },
       "title": "Meclisin beşinci senesi açıldı",
       "text": "Meclisin beşinci senesinin açılışında nutuk söylendi; nutukta Cumhuriyet idaresi ve Teşkilâtı Esasiye anıldı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1924-03-01"
+        "tbmm-zc-early-1924-03-01",
+        "msb-kronoloji-1923-1938-p10a"
       ],
       "documentIds": [
         "tbmm-nutuk-1924-03-01"
-      ]
+      ],
+      "$note": " K5 parti 10a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "is-bankasi-1924-08-26",
@@ -756,18 +759,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1925-11-01"
+          "tbmm-zc-early-1925-11-01",
+          "msb-kronoloji-1923-1938-p10a"
         ]
       },
       "title": "Meclisin yedinci faaliyet senesi açıldı",
       "text": "Reisicumhur Gazi Mustafa Kemal Paşa, Meclisin yedinci faaliyet senesinin açılışında nutuk söyledi.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1925-11-01"
+        "tbmm-zc-early-1925-11-01",
+        "msb-kronoloji-1923-1938-p10a"
       ],
       "documentIds": [
         "tbmm-nutuk-1925-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "hukuk-mektebi-1925-11-05",
@@ -833,18 +839,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1926-11-01"
+          "tbmm-zc-early-1926-11-01",
+          "msb-kronoloji-1923-1938-p10a"
         ]
       },
       "title": "Meclisin sekizinci faaliyet senesi açıldı",
       "text": "Reisicumhur Gazi Mustafa Kemal Paşa, Meclisin sekizinci faaliyet senesinin açılışında nutuk söyledi.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1926-11-01"
+        "tbmm-zc-early-1926-11-01",
+        "msb-kronoloji-1923-1938-p10a"
       ],
       "documentIds": [
         "tbmm-nutuk-1926-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "askerlikten-emeklilik-1927-06-30",
@@ -891,18 +900,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1927-11-01"
+          "tbmm-zc-early-1927-11-01",
+          "msb-kronoloji-1923-1938-p10a"
         ]
       },
       "title": "İkinci kez seçilen Reisicumhur nutuk söyledi",
       "text": "Reisicumhur, Reisicumhurluğa ikinci kez seçilmesinin ardından yemin etti ve Meclise nutuk söyledi.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1927-11-01"
+        "tbmm-zc-early-1927-11-01",
+        "msb-kronoloji-1923-1938-p10a"
       ],
       "documentIds": [
         "tbmm-nutuk-1927-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "sarayburnu-1928-08",
@@ -932,18 +944,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1928-11-01"
+          "tbmm-zc-early-1928-11-01",
+          "msb-kronoloji-1923-1938-p10a"
         ]
       },
       "title": "Reisicumhur Meclise nutuk söyledi",
       "text": "Reisicumhur Gazi Mustafa Kemal Paşa, Büyük Millet Meclisinin üçüncü intihap devresinin ikinci içtima senesinde nutuk söyledi.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1928-11-01"
+        "tbmm-zc-early-1928-11-01",
+        "msb-kronoloji-1923-1938-p10a"
       ],
       "documentIds": [
         "tbmm-nutuk-1928-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "tbmm-acilis-1929-11-01",
@@ -2874,7 +2889,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-giris"
+          "nutuk-en-1929-giris",
+          "msb-kronoloji-1923-1938-p10a"
         ],
         "$note": "Vikipedi: '15-20 Ekim 1927 tarihleri arasında Ankara'da toplanan CHF ikinci kurultayında … Nutuk'u okudu'. Nutuk 1929 girişi: 'from the 15th to the 20th October, 1927'."
       },
@@ -2883,9 +2899,10 @@
       "placeId": "ankara",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-giris"
+        "nutuk-en-1929-giris",
+        "msb-kronoloji-1923-1938-p10a"
       ],
-      "$note": "Parti 10a. 'Altı gün' 15-20 Ekim aralığından. Nutuk'un 1927 Arap harfli aslı için künye kartı (belge kaydı) kullanıcıya önerildi, girilmedi."
+      "$note": "Parti 10a. 'Altı gün' 15-20 Ekim aralığından. Nutuk'un 1927 Arap harfli aslı için künye kartı (belge kaydı) kullanıcıya önerildi, girilmedi. K5 parti 10a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "onuncu-yil-1933-10-29",

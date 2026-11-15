@@ -60,7 +60,7 @@ Bu kural ve bu kaynaklarla 1923-1928 için yeni olarak yalnız Nutuk girebiliyor
 
 ## K5 yeniden taraması (2026-11-15)
 
-Kaynak: MSB «Atatürk Kronolojisi» 1923-1938 bölümü (resmî, yalnız olgu). Maddelerdeki alıntılar alınmadı. Ayrı kaynak kaydı: `msb-kronoloji-1923-1938-p10a`. Durum: **onay bekliyor**, yeni kayıtlar `verified: false`.
+Kaynak: MSB «Atatürk Kronolojisi» 1923-1938 bölümü (resmî, yalnız olgu). Maddelerdeki alıntılar alınmadı. Ayrı kaynak kaydı: `msb-kronoloji-1923-1938-p10a`. Durum: **onaylandı (2026-11-15)**, olaylar, İnebolu ve Müşîr bitişi sitede.
 
 Seçim ölçütü önceki partilerle aynı: Atatürk'ün kendi eylemi ya da doğrudan onunla ilgili karar. Meclisin çıkardığı kanunlar (Tevhid-i Tedrisat, Hilafet, Medeni Kanun, şapka, takvim, harf kanunu vb.) Atatürk'ün kendi olayı olarak girmedi.
 
@@ -89,3 +89,5 @@ Seçim ölçütü önceki partilerle aynı: Atatürk'ün kendi eylemi ya da doğ
 **Sitedeki olaylar:** MSB 1 Mart 1924, 1 Kasım 1925, 1926, 1927 ve 1928 açış konuşmalarını ve 15 Ekim 1927 Nutuk'u aynı günlerle veriyor; onaydan sonra kaynak olarak eklenecek. 1 Kasım 1927'de ikinci kez Cumhurbaşkanı seçilmesi aynı adımda.
 
 **Girmeyenler:** 8 Kasım 1928 Başöğretmenlik (parti 10b'nin kapsamında). Terakkiperver Fırka, Takrir-i Sükûn ve kanunlar (Atatürk'ün kendi olayı değil).
+
+**Kararlar (2026-11-15):** Parti onaylandı. Müşîr rütbesi 30 Haziran 1927'de biter. MSB, sitedeki altı olaya kaynak olarak eklendi.

@@ -1,7 +1,7 @@
 # Kronoloji, parti 12c: Atatürk Ansiklopedisi, şehir ziyaretleri ve suikastler
 
 > Kapsam: Atatürk Ansiklopedisi'nin dokuz maddesi: Edirne, Manisa, Bolu, Giresun, Denizli, Kastamonu ve Trabzon ziyaretleri; Yurt Gezileri (1923-1938); Atatürk'e Düzenlenen Suikastler.
-> Durum: **onay bekliyor.** 12 olay `verified: false`. Yeni yer ve seyahat yok.
+> Durum: **onaylandı (2026-11-15).** 12 olay sitede. İnebolu konuşması 28 Ağustos olarak kaldı; 11 Haziran 1937 bağış kaydı Trabzon'a bağlandı.
 > Araştırma tarihi: 2026-11-15. Kaynak kuralı: SPEC §2.2, A27 (resmî kaynak tek başına yeter, yalnız olgu).
 
 ## Nasıl karşılaştırıldı
@@ -36,11 +36,11 @@ Cumhuriyet dönemi gezileri sitede zaten MSB «Yurt Gezileri»nden gün gün var
 | Edirne'den ayrılış, 25 Aralık 1930 | Öğleden sonra | Geç saatlerde |
 | Mudanya'dan ayrılış, 1924 | 12 Eylül | 11 Eylül gecesi |
 
-Son iki satır saat farkı, düzeltme gerektirmiyor. İnebolu konuşmasının günü ise bir gün farklı.
+Son iki satır saat farkı, düzeltme gerektirmiyor. İnebolu konuşmasının günü ise bir gün farklı. **Karar (2026-11-15):** 28 Ağustos kaldı.
 
-## Onayda yapılabilecek iyileştirme (izin verirsen)
+## Onayda yapılan iyileştirme (kullanıcı kararı, 2026-11-15)
 
-- **11 Haziran 1937, çiftliklerin bağışı:** Sitedeki kayıtta yer yok. Ansiklopedi bağış kararını 11 Haziran gecesi Trabzon'da, kendisine hediye edilen köşkte açıkladığını yazıyor. Kayda yer olarak Trabzon ve kaynak olarak ansiklopedi eklenebilir.
+- **11 Haziran 1937, çiftliklerin bağışı:** Sitedeki kayıtta yer yok. Ansiklopedi bağış kararını 11 Haziran gecesi Trabzon'da, kendisine hediye edilen köşkte açıkladığını yazıyor. **Yapıldı:** kayda yer olarak Trabzon ve kaynak olarak ansiklopedi eklendi.
 
 ## Bilerek almadıklarım
 

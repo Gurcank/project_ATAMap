@@ -10242,9 +10242,11 @@
       "title": "Çiftliklerini hazineye bağışladı",
       "text": "Bütün çiftliklerini ve mallarını hazineye bağışladığını Başbakanlığa telgrafla bildirdi.",
       "sources": [
-        "msb-kronoloji-1923-1938-p10b"
+        "msb-kronoloji-1923-1938-p10b",
+        "ataturk-ansiklopedisi-9705"
       ],
-      "$note": "K5 taraması, parti 10b. Nereden gönderildiği yazmıyor."
+      "$note": "K5 taraması, parti 10b. Nereden gönderildiği yazmıyor. Yer: Atatürk Ansiklopedisi «Trabzon Ziyaretleri», kararını 11 Haziran gecesi Trabzon'da, kendisine hediye edilen köşkte açıkladı. Parti 12c onayında eklendi (kullanıcı kararı, 2026-11-15).",
+      "placeId": "trabzon"
     },
     {
       "id": "yg-1937-06-12-izmir-vapuru-yla-istanbul-a-dondu",

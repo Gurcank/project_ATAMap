@@ -1,7 +1,7 @@
 # Yurt gezileri, parti 1923
 
 > Kaynak: MSB Atatürk Sitesi, «[ATATÜRK´ün Yurt Gezileri](https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturkun-yurt-gezileri)», 1923 bölümü (resmî, yalnız olgu). Ayrı kaynak kaydı: `msb-yurt-gezileri-1923`.
-> Durum: **onay bekliyor**, kayıtlar `verified: false`.
+> Durum: **onaylandı (2026-11-15)**, seyahatler, olaylar ve yerler sitede.
 > Kural (A32): araç kaynakta yazmıyorsa seyahat etabı girmez; o duraklar yalnız olay olarak girer.
 
 ## Seyahatler (araç kaynakta yazıyor: hepsi tren)

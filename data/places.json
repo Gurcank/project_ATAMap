@@ -614,6 +614,49 @@
           "$note": "MSB kronolojisi (resmî): 'Samsun'dan Havza'ya gelmesi'."
         }
       ]
+    },
+    {
+      "id": "izmir",
+      "point": {
+        "lon": 27.13838,
+        "lat": 38.41273,
+        "sources": [
+          "wikidata-q35997-r2563887435",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 38.41273, 27.13838. Natural Earth 10m simple (ne_id 1159149371): 38.438096, 27.149848. Fark yaklaşık 3 km; şehrin büyüklüğünden."
+      },
+      "names": [
+        {
+          "name": "İzmir",
+          "sources": [
+            "msb-kronoloji-1919-1922-p9b",
+            "vikipedi-tr-ataturk-38564203"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'İzmir'e gelmesi'; Vikipedi 'İzmir'."
+        }
+      ]
+    },
+    {
+      "id": "bilecik",
+      "point": {
+        "lon": 29.979166666667,
+        "lat": 40.143055555556,
+        "sources": [
+          "wikidata-q208006-r2530466021",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.143056, 29.979167. Natural Earth 10m simple (ne_id 1159113409): 40.15, 29.982997. Fark yaklaşık 0,8 km."
+      },
+      "names": [
+        {
+          "name": "Bilecik",
+          "sources": [
+            "msb-kronoloji-1919-1922-p9b"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Bilecik'e gelmesi'."
+        }
+      ]
     }
   ]
 }

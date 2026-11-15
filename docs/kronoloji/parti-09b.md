@@ -63,3 +63,53 @@ Beş olay ve sitenin ilk iki rütbe/görev kaydı girdi. Senden gereken kararlar
 2. Wikidata'nın (TBMM ve MSB dayanaklı) ikinci kaynak sayılması.
 3. Saltanatın kaldırılmasının alınıp alınmayacağı.
 4. Müşirliğin bitişi bulunana kadar kartuşta 1938'e kadar görünmesi.
+
+## K5 yeniden taraması (2026-11-15)
+
+Kaynak: MSB «Atatürk Kronolojisi» 1919-1922 ve 1923-1938 bölümleri (resmî, yalnız olgu). Maddelerdeki Atatürk alıntıları alınmadı (SPEC §2.1). Ayrı kaynak kayıtları: `msb-kronoloji-1919-1922-p9b`, `msb-kronoloji-1923-1938-p9b`. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+
+Seçim ölçütü: Atatürk'ün kendi eylemi ya da doğrudan onunla ilgili karar (idam kararı gibi). Antlaşmalar, İnönü muharebeleri, Saltanat'ın kaldırılması (önceki kararın), Lozan ve Ankara'nın başkent olması girmedi.
+
+**Yeni olaylar:**
+
+| Tarih | Yer | Olay | Belirsizlik |
+|---|---|---|---|
+| 24 Nisan 1920 | Ankara | TBMM Başkanı seçildi | Vikipedi bilgi kutusuyla aynı gün |
+| Mayıs 1920 | — | İstanbul'da Divan-ı Harp'çe idama mahkûm edildi | **MSB'nin kendi içinde çelişki:** bir maddede 1 Mayıs, öbüründe "11 Mayıs 1920 tarihli idam kararı": ay düzeyinde |
+| 24 Mayıs 1920 | — | İdam kararı padişahça onaylandı | — |
+| 8 Temmuz 1920 | Ankara | TBMM'de konuşma | — |
+| 13 Eylül 1920 | Ankara | Halkçılık Programı broşürü TBMM'ye sunuldu | — |
+| 5 Aralık 1920 | Bilecik | Bilecik Görüşmesi (İstanbul heyeti) | — |
+| 11 Ocak 1921 | — | Birinci İnönü için İsmet Bey'e tebrik telgrafı | Nereden yazmıyor |
+| 1 Nisan 1921 | — | İkinci İnönü için İsmet Paşa'ya telgraf | Nereden yazmıyor |
+| 11 Mayıs 1921 | — | Müdafaa-i Hukuk Grubu başkanı | Yer yazmıyor |
+| 16 Temmuz 1921 | Ankara | Maarif Kongresi'ni açtı | — |
+| 18 Temmuz 1921 | — | Karacahisar'daki Batı Cephesi karargâhına geldi | Birçok Karacahisar var, hangisi olduğu yazmıyor: yer bağlanmadı |
+| 7-8 Ağustos 1921 | — | Tekâlif-i Milliye emirleri | — |
+| 26 Ağustos 1921 | — | Sakarya'da birliklere emir | — |
+| 13 Eylül 1921 | — | Sakarya Meydan Muharebesi kazanıldı | MSB "zaferle sonuçlanması" diyor; "Başkomutanı olduğu ordu" ifadesi 5 Ağustos maddesinden. **Karar senin:** muharebe olayı olarak kalsın mı? |
+| 14 Ocak 1922 | — | Başkanlığında Harp Encümeni kuruldu | — |
+| 20 Temmuz 1922 | — | Başkomutanlık süresiz verildi | Üç uzatma (Ekim 1921, Şubat ve Mayıs 1922) ayrıca girmedi |
+| 1 Eylül 1922 | — | Orduya "ilk hedef Akdeniz" beyannamesi | — |
+| 9 Eylül 1922 | — | İzmir'in alınması üzerine ordulara mesaj | — |
+| 10 Eylül 1922 | İzmir | İzmir'e geldi | — |
+| 4 Ekim 1922 | Ankara | TBMM'de zaferleri anlattı | — |
+| 14 Ocak 1923 | — | Annesi Zübeyde Hanım İzmir'de öldü | Kendisi orada değildi, yer bağlanmadı |
+| 27 Ocak 1923 | İzmir | Annesinin mezarını ziyaret etti | — |
+| 29 Ocak 1923 | İzmir | Latife Hanım'la evlendi | Önceki taramada gün bulunamamıştı; MSB veriyor |
+| 17 Şubat 1923 | İzmir | İzmir İktisat Kongresi'ni açtı | — |
+| 8 Nisan 1923 | — | Dokuz ilkeli seçim beyannamesi | — |
+| 11 Eylül 1923 | — | Halk Fırkası Genel Başkanı oldu | Vikipedi 9 Eylül; resmî kaynağın günü |
+
+**Sitedeki olaylar:** MSB 1 Mart 1921, 1922, 1923 açış konuşmalarını, 13 Ağustos 1923 konuşmasını, 5 Ağustos 1921 Başkomutanlığı, 19 Eylül 1921 Müşirlik ve Gazilik, 26 ve 30 Ağustos 1922 ile 29 Ekim 1923'ü aynı günlerle veriyor. Onaydan sonra MSB bunlara kaynak olarak eklenecek.
+
+**Yeni yerler:**
+
+| Yer | Koordinat 1 | Koordinat 2 | Fark |
+|---|---|---|---|
+| İzmir | Wikidata Q35997: 38.41273, 27.13838 | Natural Earth 10m: 38.438096, 27.149848 | ~3 km (şehrin büyüklüğü) |
+| Bilecik | Wikidata Q208006: 40.143056, 29.979167 | Natural Earth 10m: 40.15, 29.982997 | ~0,8 km |
+
+**Görev girmedi:**
+- TBMM Başkanlığı (24 Nisan 1920 →): bitiş tarihi resmî kaynakta yok. Önceki taramada Nutuk s. 657 bitiş sayılmıştı, ama o sayfa 29 Ekim 1923 akşamı Fethi Bey'i Meclis Reisi olarak anıyor; bu, devrin tarihini vermiyor.
+- Başkomutanlık ve Halk Fırkası Genel Başkanlığı: bitişleri kaynakta açık değil.

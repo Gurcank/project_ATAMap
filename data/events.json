@@ -23,6 +23,138 @@
       ]
     },
     {
+      "id": "tbmm-reisi-1920-04-24",
+      "date": {
+        "iso": "1920-04-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 24 Nisan 1920. Vikipedi bilgi kutusu: 24 Nisan 1920."
+      },
+      "title": "TBMM Başkanı seçildi",
+      "text": "Türkiye Büyük Millet Meclisi Başkanlığına seçildi ve bir teşekkür konuşması yaptı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 9b. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "idam-karari-1920-05",
+      "date": {
+        "iso": "1920-05",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: '1 Mayıs 1920 - … idama mahkûm edilmesi' ve '24 Mayıs 1920 - … 11 Mayıs 1920 tarihli idam kararının … onaylanması'. Kaynağın kendi içinde gün farklı (1 ve 11 Mayıs), ay düzeyinde."
+      },
+      "title": "İstanbul’da idama mahkûm edildi",
+      "text": "İstanbul'da Divan-ı Harp tarafından idama mahkûm edildi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. İstanbul'daki bir karar; Atatürk'ün bulunduğu yer değil."
+    },
+    {
+      "id": "idam-onayi-1920-05-24",
+      "date": {
+        "iso": "1920-05-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 24 Mayıs 1920."
+      },
+      "title": "İdam kararı padişahça onaylandı",
+      "text": "Hakkındaki idam kararı Padişah Vahdettin tarafından onaylandı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. İstanbul'daki bir karar; yer bağlanmadı."
+    },
+    {
+      "id": "tbmm-konusmasi-1920-07-08",
+      "date": {
+        "iso": "1920-07-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 8 Temmuz 1920."
+      },
+      "title": "TBMM'de konuştu",
+      "text": "Türkiye Büyük Millet Meclisi'nde bir konuşma yaptı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "halkcilik-programi-1920-09-13",
+      "date": {
+        "iso": "1920-09-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 13 Eylül 1920."
+      },
+      "title": "Halkçılık Programı’nı yayımladı",
+      "text": "«Halkçılık Programı» adlı bir broşür yayımladı; broşür Türkiye Büyük Millet Meclisi'ne sunuldu ve üyelere dağıtıldı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b."
+    },
+    {
+      "id": "bilecik-mulakati-1920-12-05",
+      "date": {
+        "iso": "1920-12-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 5 Aralık 1920."
+      },
+      "title": "Bilecik'te İstanbul heyetiyle görüştü",
+      "text": "Bilecik'te Ahmet İzzet Paşa başkanlığındaki İstanbul heyetiyle görüştü; heyetin İstanbul'a dönmesine izin vermeyip birlikte Ankara'ya gidileceğini bildirdi.",
+      "placeId": "bilecik",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b."
+    },
+    {
+      "id": "inonu-telgrafi-1921-01-11",
+      "date": {
+        "iso": "1921-01-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 11 Ocak 1921."
+      },
+      "title": "Birinci İnönü için tebrik telgrafı gönderdi",
+      "text": "Birinci İnönü Zaferi üzerine Batı Cephesi Komutanı İsmet Bey'e tebrik telgrafı gönderdi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Nereden gönderildiği yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
       "id": "tbmm-acilis-1921-03-01",
       "date": {
         "iso": "1921-03-01",
@@ -42,6 +174,152 @@
       "documentIds": [
         "tbmm-nutuk-1921-03-01"
       ]
+    },
+    {
+      "id": "ikinci-inonu-telgrafi-1921-04-01",
+      "date": {
+        "iso": "1921-04-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 1 Nisan 1921."
+      },
+      "title": "İkinci İnönü için İsmet Paşa’ya telgraf gönderdi",
+      "text": "İkinci İnönü Zaferi üzerine Batı Cephesi Komutanı İsmet Paşa'ya cevap telgrafı gönderdi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Nereden gönderildiği yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "mudafaa-i-hukuk-grubu-1921-05-11",
+      "date": {
+        "iso": "1921-05-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 11 Mayıs 1921."
+      },
+      "title": "Müdafaa-i Hukuk Grubu başkanı seçildi",
+      "text": "«Anadolu ve Rumeli Müdafaa-i Hukuk Grubu» genel heyet toplantısında grup başkanlığına seçildi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Toplantının yeri maddede yazmıyor."
+    },
+    {
+      "id": "maarif-kongresi-1921-07-16",
+      "date": {
+        "iso": "1921-07-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 16 Temmuz 1921 (kongre 21 Temmuz'a kadar sürdü)."
+      },
+      "title": "Maarif Kongresi’ni açtı",
+      "text": "Ankara'da toplanan Maarif Kongresi'ni bir konuşmayla açtı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "karacahisar-1921-07-18",
+      "date": {
+        "iso": "1921-07-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 18 Temmuz 1921."
+      },
+      "title": "Batı Cephesi karargâhına geldi",
+      "text": "Ankara'dan Karacahisar'daki Batı Cephesi karargâhına geldi ve İsmet Paşa'ya direktif verdi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Türkiye'de birçok Karacahisar var, kaynak hangisi olduğunu belirtmiyor; yer bağlanmadı. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "tekalif-i-milliye-1921-08",
+      "date": {
+        "iso": "1921-08-07",
+        "isoEnd": "1921-08-08",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 7-8 Ağustos 1921."
+      },
+      "title": "Tekâlif-i Milliye emirlerini yayımladı",
+      "text": "Tekâlif-i Milliye emirlerini yayımladı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Nereden yayımlandığı yazmıyor."
+    },
+    {
+      "id": "sakarya-emri-1921-08-26",
+      "date": {
+        "iso": "1921-08-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 26 Ağustos 1921."
+      },
+      "title": "Sakarya’da birliklere emir verdi",
+      "text": "Sakarya Meydan Muharebesi sırasında Başkomutan olarak birliklere bir emir verdi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Muharebe 23 Ağustos'ta başladı (MSB). Yer bağlanmadı. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "sakarya-zaferi-1921-09-13",
+      "date": {
+        "iso": "1921-09-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 13 Eylül 1921."
+      },
+      "title": "Sakarya Meydan Muharebesi kazanıldı",
+      "text": "Başkomutanı olduğu ordu Sakarya Meydan Muharebesi'ni kazandı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. MSB maddesi 'zaferle sonuçlanması' diyor; Başkomutanlığı 5 Ağustos 1921 maddesinden. Muharebe alanı için koordinat aranmadı."
+    },
+    {
+      "id": "harp-encumeni-1922-01-14",
+      "date": {
+        "iso": "1922-01-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 14 Ocak 1922."
+      },
+      "title": "Harp Encümeni kuruldu",
+      "text": "Başkanlığında, bakanlar, Genelkurmay Başkanı ve encümen reislerinden oluşan «Harp Encümeni» kuruldu.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b."
     },
     {
       "id": "tbmm-acilis-1922-03-01",
@@ -65,6 +343,173 @@
       ]
     },
     {
+      "id": "suresiz-baskomutanlik-1922-07-20",
+      "date": {
+        "iso": "1922-07-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 20 Temmuz 1922."
+      },
+      "title": "Başkomutanlık süresiz verildi",
+      "text": "Türkiye Büyük Millet Meclisi, Başkomutanlığın süresiz olarak onun üzerinde kalmasını kabul etti.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Daha önceki üç uzatma (31 Ekim 1921, 4 Şubat 1922, 6 Mayıs 1922) ayrı olay olarak girmedi."
+    },
+    {
+      "id": "akdeniz-beyannamesi-1922-09-01",
+      "date": {
+        "iso": "1922-09-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 1 Eylül 1922."
+      },
+      "title": "Orduya beyanname yayımladı",
+      "text": "Orduya, ilk hedefin Akdeniz olduğunu bildiren bir beyanname yayımladı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Yer yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "izmir-mesaji-1922-09-09",
+      "date": {
+        "iso": "1922-09-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 9 Eylül 1922."
+      },
+      "title": "İzmir'in alınması üzerine ordulara mesaj gönderdi",
+      "text": "İzmir'in alınması haberi üzerine ordulara bir mesaj gönderdi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Yer yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "izmire-gelis-1922-09-10",
+      "date": {
+        "iso": "1922-09-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 10 Eylül 1922."
+      },
+      "title": "İzmir'e geldi",
+      "text": "İzmir'e geldi.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b."
+    },
+    {
+      "id": "tbmm-zafer-konusmasi-1922-10-04",
+      "date": {
+        "iso": "1922-10-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9b"
+        ],
+        "$note": "MSB: 4 Ekim 1922."
+      },
+      "title": "TBMM'de zaferleri anlattı",
+      "text": "26 Ağustos taarruzu ile 30 Ağustos ve 9 Eylül zaferleri hakkında Türkiye Büyük Millet Meclisi'nde konuştu.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "zubeyde-hanim-1923-01-14",
+      "date": {
+        "iso": "1923-01-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p9b"
+        ],
+        "$note": "MSB: 14 Ocak 1923."
+      },
+      "title": "Annesi Zübeyde Hanım öldü",
+      "text": "Annesi Zübeyde Hanım İzmir'de öldü.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Kendisi o gün İzmir'de değildi (27 Ocak'ta geldi); yer bağlanmadı."
+    },
+    {
+      "id": "annesinin-mezari-1923-01-27",
+      "date": {
+        "iso": "1923-01-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p9b"
+        ],
+        "$note": "MSB: 27 Ocak 1923."
+      },
+      "title": "İzmir'de annesinin mezarını ziyaret etti",
+      "text": "İzmir'e gelerek annesinin mezarını ziyaret etti.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-kronoloji-1923-1938-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b."
+    },
+    {
+      "id": "evlilik-1923-01-29",
+      "date": {
+        "iso": "1923-01-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p9b"
+        ],
+        "$note": "MSB: 29 Ocak 1923. Vikipedi yalnız yılı veriyor."
+      },
+      "title": "Latife Hanım’la evlendi",
+      "text": "İzmir'de Latife (Uşaklıgil) Hanım'la evlendi.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-kronoloji-1923-1938-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b."
+    },
+    {
+      "id": "iktisat-kongresi-1923-02-17",
+      "date": {
+        "iso": "1923-02-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p9b"
+        ],
+        "$note": "MSB: 17 Şubat 1923."
+      },
+      "title": "İzmir İktisat Kongresi’ni açtı",
+      "text": "İzmir'de toplanan Türkiye İktisat Kongresi'ni bir konuşmayla açtı.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-kronoloji-1923-1938-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
       "id": "tbmm-acilis-1923-03-01",
       "date": {
         "iso": "1923-03-01",
@@ -86,6 +531,24 @@
       ]
     },
     {
+      "id": "dokuz-ilke-1923-04-08",
+      "date": {
+        "iso": "1923-04-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p9b"
+        ],
+        "$note": "MSB: 8 Nisan 1923."
+      },
+      "title": "Dokuz ilkeli beyannameyi yayımladı",
+      "text": "Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti Başkanı olarak, milletvekili seçimleri için dokuz ilkeyi içeren bir beyanname yayımladı.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Yer yazmıyor."
+    },
+    {
       "id": "tbmm-nutuk-1923-08-13",
       "date": {
         "iso": "1923-08-13",
@@ -105,6 +568,24 @@
       "documentIds": [
         "tbmm-nutuk-1923-08-13"
       ]
+    },
+    {
+      "id": "halk-firkasi-1923-09-11",
+      "date": {
+        "iso": "1923-09-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1923-1938-p9b"
+        ],
+        "$note": "MSB: 11 Eylül 1923. Vikipedi bilgi kutusu 9 Eylül; resmî kaynağın günü kullanıldı (A27)."
+      },
+      "title": "Halk Fırkası Genel Başkanı oldu",
+      "text": "Halk Fırkası kuruldu ve Genel Başkanlığına seçildi.",
+      "sources": [
+        "msb-kronoloji-1923-1938-p9b"
+      ],
+      "$note": "K5 taraması, parti 9b. Yer yazmıyor."
     },
     {
       "id": "tbmm-acilis-1924-03-01",

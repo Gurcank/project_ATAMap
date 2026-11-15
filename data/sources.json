@@ -1169,6 +1169,54 @@
       "free": true,
       "verified": true,
       "$note": "K5 taraması, parti 9a. Nominatim (2026-11-14): 40.9660605, 35.6653476 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki. Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9a)."
+    },
+    {
+      "id": "msb-kronoloji-1919-1922-p9b",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1919-1922 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "$note": "K5 yeniden taraması, parti 9b (2026-11-15). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 24 Nisan 1920 - 4 Ekim 1922."
+    },
+    {
+      "id": "msb-kronoloji-1923-1938-p9b",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1923-1938 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "$note": "K5 yeniden taraması, parti 9b (2026-11-15). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 14 Ocak - 29 Ekim 1923."
+    },
+    {
+      "id": "wikidata-q35997-r2563887435",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q35997 (İzmir), P625 koordinat, revizyon 2563887435",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q35997.json?revision=2563887435",
+      "accessedAt": "2026-11-15",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 9b. P625: 38.41273, 27.13838; dayanak P143 Q837615."
+    },
+    {
+      "id": "wikidata-q208006-r2530466021",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q208006 (Bilecik), P625 koordinat, revizyon 2530466021",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q208006.json?revision=2530466021",
+      "accessedAt": "2026-11-15",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 9b. P625: 40.143056, 29.979167; dayanak İngilizce Vikipedi (P143 Q328)."
     }
   ]
 }

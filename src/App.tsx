@@ -8,6 +8,7 @@ import { StatusCartouche } from './components/StatusCartouche.tsx';
 import { StepControls } from './components/StepControls.tsx';
 import { YearCartouche } from './components/YearCartouche.tsx';
 import { MapCanvas } from './map/MapCanvas.tsx';
+import { closeSheet } from './state/sheet.ts';
 import { goNext, goPrev, openDocumentId, toggleAutoplay } from './state/app.ts';
 import { dataState, loadData } from './state/data.ts';
 import styles from './App.module.css';
@@ -17,7 +18,11 @@ const OWN_KEYS = 'a, button, input, select, textarea, summary, [role="button"], 
 
 function onKeyDown(e: KeyboardEvent) {
   if (e.defaultPrevented || e.altKey || e.ctrlKey || e.metaKey) return;
-  if (openDocumentId.value !== null) return;
+  if (openDocumentId.value !== null) {
+    // The wide reading panel is not modal, so focus may be on the map when Esc is pressed.
+    if (e.key === 'Escape') closeSheet();
+    return;
+  }
   const target = e.target instanceof Element ? e.target : null;
   if (e.key === 'ArrowRight') {
     if (target?.closest('select')) return;
@@ -44,8 +49,12 @@ export function App() {
 
   return (
     <main>
-      <p class="site-kunye">ATAMap</p>
-      <Attribution />
+      {/* Top left (A29): status first, the site name and attribution follow it. */}
+      <div class="corner" data-map-edge="top">
+        {state.status === 'ready' && <StatusCartouche />}
+        <p class="site-kunye">ATAMap</p>
+        <Attribution />
+      </div>
       {state.status === 'error' ? (
         // SPEC §4.2 "Hata: veri JSON": the map stays an empty sheet of paper.
         <div class={styles.error}>
@@ -59,8 +68,7 @@ export function App() {
       ) : (
         <>
           <MapCanvas />
-          <StatusCartouche />
-          <div class={`cartouche ${dock.dock}`}>
+          <div class={`cartouche ${dock.dock}`} data-map-edge="bottom">
             <YearCartouche />
             <EventCartouche />
             <StepControls />

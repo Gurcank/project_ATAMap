@@ -2,12 +2,14 @@
 export function LoadingShell() {
   return (
     <>
-      <p class="site-kunye">ATAMap</p>
-      <div class="status-skeleton cartouche" aria-hidden="true">
-        <span />
-        <span />
-        <span />
-        <span />
+      <div class="corner">
+        <div class="status-skeleton cartouche" aria-hidden="true">
+          <span />
+          <span />
+          <span />
+          <span />
+        </div>
+        <p class="site-kunye">ATAMap</p>
       </div>
       <div class="loading" role="status">
         <div>

@@ -79,14 +79,20 @@ test('a field without data is left out', async ({ page }, info) => {
   await expect(terms(page)).toHaveText(['Yaş', 'Rütbe', 'Yer']);
 });
 
-test('the top corners do not collide', async ({ page }) => {
+test('top left: status, then site name, then attribution, without overlap (A29)', async ({
+  page,
+}) => {
   await open(page, 'kurgu-telgraf');
+  const viewport = page.viewportSize()!;
   const attribution = await box(page.getByText(/^Altlık: Natural Earth/));
   const kunye = await box(page.locator('.site-kunye'));
-  const right = await box(status(page));
-  expect(overlaps(attribution, right)).toBe(false);
-  expect(overlaps(kunye, right)).toBe(false);
-  expect(overlaps(kunye, attribution)).toBe(false);
+  const cartouche = await box(status(page));
+  expect(cartouche.x).toBeLessThan(viewport.width / 2);
+  expect(cartouche.y + cartouche.height).toBeLessThanOrEqual(kunye.y);
+  expect(kunye.y + kunye.height).toBeLessThanOrEqual(attribution.y + 4); // padding overlap only
+  expect(overlaps(kunye, cartouche)).toBe(false);
+  expect(overlaps(attribution, cartouche)).toBe(false);
+  expect(Math.abs(kunye.x - cartouche.x)).toBeLessThanOrEqual(1);
 });
 
 test.describe('375: toggle', () => {

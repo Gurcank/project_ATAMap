@@ -17,7 +17,7 @@ function AgeValue({ age }: { age: Age }) {
   );
 }
 
-// Top right: age, rank, duties and place on the step's date (SPEC §3.5, §4, A24-A26).
+// Top left: age, rank, duties and place on the step's date (SPEC §3.5, §4, A24-A26, A29).
 // Below 48rem only a toggle showing the age stays on the map; the four fields open over the map.
 // No aria-live: EventCartouche already announces each step, a second live region would repeat it.
 export function StatusCartouche() {

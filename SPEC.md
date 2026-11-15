@@ -21,6 +21,7 @@
 | 2026-11-14 | §9.2 A24-A26 | Durum kartuşu yerleşimi, doğum tarihi 19 Mayıs 1881, eşzamanlı görevler | Kullanıcı kararları (2026-11-14) |
 | 2026-11-14 | §9.2 A28, K3 | Rütbe adları resmî kaynağın (MSB) bugünkü adlarıyla yazılır (Teğmen, Yarbay, Albay, Tümgeneral…); K3'teki "dönem adıyla" ifadesi rütbeler için bu kararla değişti | Kullanıcı kararı (2026-11-14), K5 yeniden taramasının 3. partisi |
 | 2026-11-15 | §3.5, §3.6, §4, §4.3, §5.2, §9.2 A29-A32 | Yerleşim değişti (durum sol üstte, belge sağda açılan panelde); Nutuk telgrafları künye kartı; deniz rotası kavisli; araç animasyonu. Uygulama sırası: Yurt Gezileri seyahatleri, araç animasyonu, CShapes sınırları, Nutuk telgrafları, yerleşim, kalan resmî kaynaklar | Kullanıcı kararları (2026-11-15), [kapsam raporu](docs/kapsam-raporu-2026-11-15.md) |
+| 2026-11-15 | §3.5, §3.6, §4, §4.1, §4.3, §5.2 M7, §9.2 A29 | A29 uygulandı: sol üstte tek sütun (durum, künye, atıf); belge sağ kenarda, 768'den itibaren modal olmayan okuma paneli; 375 biçimi; 375'te kamera adımı sol üst sütunla alt şerit arasındaki banda yerleştirir | Kullanıcı kararı A29 ve 375 önerisinin onayı (2026-11-15) |
 | 2026-11-15 | §9.2 A33, §5.2 M5 | Dönem sınırları CShapes 2.0 ile bağlandı; kurallar A33'te | Kullanıcı kararları (2026-11-15) |
 | 2026-11-14 | §2.2, §6, §9.2 A19, A27 | Resmî ve güvenilir devlet kaynağı tek başına yeter; hakları saklı resmî yayınlardan yalnız olgu alınır (`official`, `rights: 'hakki-sakli-olgu'`); kural 2, 5 ve 11 güncellendi; ipucu listesinden devlet siteleri çıktı | Kullanıcı kararı K5 (2026-11-14): bütün devlet kurumları, geriye dönük uygulanır |
 | 2026-11-14 | §6 `DateValue`, §9.2 A25 | `conventional` alanı: uzlaşmayla kabul edilen tarih. Doğum tarihi 19 Mayıs 1881 bu işaretle tutulur | Parti 1 araştırması: Vikipedi ve Wikidata gerçek doğum gününü bilinmiyor, 19 Mayıs'ı kabul edilen tarih olarak veriyor (`docs/kronoloji/parti-01.md`); kullanıcı kararı |
@@ -143,12 +144,13 @@ Gerekçe: Kartuş çerçeveleri 1 px çift çizgi + 4 px ara kullanır, bu yüzd
   - **Orta alt — Kontroller:** küçük ve dar; önceki/sonraki + mod seçici + otomatik.
   - **Sağ alt — Olay:** okunacak metin; en geniş kartuş.
 - Üç kartuş eşit genişlikte **değildir**, aynı taban çizgisine de oturmaz: yıl kartuşu en alçak, olay kartuşu en yüksek.
-- Üst kenarda iki öğe durur *(2026-11-14, K3; eski kural: "Üst kenar boş")*:
-  - **Sol üst:** sitenin adı küçük bir künye olarak (yazı karakteriyle, logo yok), altında atıf satırı.
-  - **Sağ üst — Durum:** yaş, rütbe, görev/unvan, bulunduğu yer. Yıl kartuşundan küçük ve görsel olarak hafif. Haritanın kendisi başlık olmayı sürdürür.
+- Sol üstte tek bir sütun durur *(2026-11-15, A29; önceki: künye sol üstte, durum sağ üstte; daha önce "Üst kenar boş")*:
+  - **Durum:** yaş, rütbe, görev/unvan, bulunduğu yer. Yıl kartuşundan küçük ve görsel olarak hafif. Haritanın kendisi başlık olmayı sürdürür.
+  - Altında sitenin adı küçük bir künye olarak (yazı karakteriyle, logo yok), onun altında atıf satırı. İkisi kartuşun yüksekliğine göre aşağı akar.
+- **Sağ kenar — Okuma paneli:** mektup, telgraf ve konuşma işaretine gelince ya da dokununca açılır, belge kapanınca kaybolur (A29).
 
 ### 3.6 Akılda kalacak tek öğe
-**Gönderildiği noktadan açılan A4 belge.** Telgraf veya mektup işaretinin üzerine gelince, belge haritanın üstünde, gönderildiği şehrin hemen yanında, sararmış A4 kâğıdı olarak açılır. Önizleme yok, doğrudan tam metin ve altında künye. Diğer her şey (araçlar, rotalar, sınırlar) bu anı hazırlar.
+**Haritanın yanında açılan A4 belge.** Telgraf veya mektup işaretinin üzerine gelince, belge sağdaki okuma panelinde sararmış A4 kâğıdı olarak açılır; harita ve gönderim yayı yanında görünür kalır *(2026-11-15, A29; önceki: "gönderildiği şehrin hemen yanında")*. Önizleme yok, doğrudan tam metin ve altında künye. Diğer her şey (araçlar, rotalar, sınırlar) bu anı hazırlar.
 
 ---
 
@@ -167,12 +169,13 @@ Tek ekran. Bileşenler:
 | `YearCartouche` (sol alt) | Yıl + "yaklaşık" rozeti | Yıl değişiminde rakam geçiş animasyonu |
 | `StepControls` (orta alt) | Önceki / Sonraki, adım birimi seçici (olay/seyahat/yıl), Otomatik | Klavye: ← → adım, Boşluk otomatik |
 | `EventCartouche` (sağ alt) | Olay başlığı + metni + kaynak bağlantısı | `aria-live="polite"` |
-| `StatusCartouche` (sağ üst) *(2026-11-14)* | Yaş (+ "yaklaşık"), rütbe, görev/unvan, bulunduğu yer | Kartuş dili (§3.1). Verisi olmayan alan satırıyla birlikte gizlenir; dört alan da boşsa kartuş çizilmez. Birden çok görev geçerliyse hepsi başlama sırasıyla (A26). `aria-live` yok: adım değişimini `EventCartouche` zaten duyuruyor, ikinci canlı bölge duyuruyu ikiye katlar. `<section aria-label="Durum">` + `<dl>`. Animasyon yok: değerler adımla anında değişir |
+| `StatusCartouche` (sol üst, A29) *(2026-11-14)* | Yaş (+ "yaklaşık"), rütbe, görev/unvan, bulunduğu yer | Kartuş dili (§3.1). Verisi olmayan alan satırıyla birlikte gizlenir; dört alan da boşsa kartuş çizilmez. Birden çok görev geçerliyse hepsi başlama sırasıyla (A26). `aria-live` yok: adım değişimini `EventCartouche` zaten duyuruyor, ikinci canlı bölge duyuruyu ikiye katlar. `<section aria-label="Durum">` + `<dl>`. Animasyon yok: değerler adımla anında değişir |
 | `Attribution` | Altlık ve veri atıfları | Lisanslar gerektirdiği için zorunlu (SOURCES §3, §5) |
 
 ### 4.1 Etkileşim
 - **Masaüstü:** İşaretin üzerine gelince A4 açılır (hover niyeti: 150 ms). İmleç işaretten A4'e geçebilir. A4 açıkken içinde kaydırılabilir. İmleç ikisinden de çıkınca 300 ms sonra kapanır. `Esc` kapatır.
-- **Mobil/dokunma:** İşarete dokununca A4 alttan tam ekran sayfa olarak açılır, kapatma düğmesi vardır. Dışına dokunmak veya aşağı kaydırmak kapatır.
+- **Mobil/dokunma:** İşarete dokununca A4 sağdan tam ekran sayfa olarak açılır, kapatma düğmesi vardır; künye kartı alttan kısa kart olarak açılır ve dışına dokunmak kapatır *(2026-11-15, A29)*.
+- **768 ve üstü (A29):** okuma paneli modal değildir: arka plan kararmaz, harita yanında kullanılabilir. Bilerek açılınca (tıklama, Enter) odak panele geçer; `Esc` (odak nerede olursa olsun) ya da "Kapat" kapatır, odak işarete döner.
 - **Klavye:** İşaretler sekme sırasındadır. Odak + `Enter` A4'ü açar, odak A4'e taşınır, `Esc` kapatıp odağı işarete döndürür.
 - Hover ile açılan belge, başka işarete geçilince değişir; aynı anda tek A4 açıktır.
 
@@ -197,9 +200,9 @@ Tek ekran. Bileşenler:
 
 | Genişlik | Yerleşim |
 |---|---|
-| **375** | Kartuşlar tek bir alt şeritte birleşir: üst satırda yıl (39 px) + olay başlığı, altında olay metni (en fazla 5 satır; uzunsa "devamı" ile açılır), en altta kontroller (her biri ≥ 44 px). Mod seçici açılır menü olur. A4 tam ekran sayfa olarak açılır. Sağ üstte yalnız yaşı gösteren durum düğmesi (≥ 44×44 px, `aria-expanded`; yaş yoksa etiket "Durum"). Dokununca dört alan haritanın üstünde açılır; düğme, dışarıya dokunma veya `Esc` kapatır, odak düğmeye döner. Sol üstte künye ve atıf, düğmeyle çakışmadan satır kaydırır *(2026-11-14)*. Haritanın görünen alanı ≥ ekran yüksekliğinin %55'i (durum düğmesi kapalıyken ölçülür) |
-| **768** | Yıl sol alt, olay sağ alt (genişlik 320); kontroller ikisinin üstünde ortada. Durum kartuşu sağ üstte, dört satır, genişlik 18rem *(2026-11-14)*. A4 ekran yüksekliğinin %85'i, ortada |
-| **1280** | §3.5 tam asimetrik yerleşim. Durum kartuşu sağ üstte, genişlik 20rem *(2026-11-14)*. Yıl 96 px. Olay kartuşu 360 px. A4 yüksekliği 80vh, işaretin yanında açılır; ekrana sığmazsa ortalanır |
+| **375** | Kartuşlar tek bir alt şeritte birleşir: üst satırda yıl (39 px) + olay başlığı, altında olay metni (en fazla 5 satır; uzunsa "devamı" ile açılır), en altta kontroller (her biri ≥ 44 px). Mod seçici açılır menü olur. A4 sağdan kayan tam ekran sayfa olarak açılır, künye kartı alttan. Sol üstte yalnız yaşı gösteren durum düğmesi (≥ 44×44 px, `aria-expanded`; yaş yoksa etiket "Durum"); altında künye ve atıf (genişlik en çok 20rem). Dokununca dört alan haritanın, künyenin ve atıfın üstünde açılır; düğme, dışarıya dokunma veya `Esc` kapatır, odak düğmeye döner. Kamera adımı sol üst sütunla alt şerit arasındaki boş bandın ortasına yerleştirir *(2026-11-15, A29)*. Haritanın görünen alanı ≥ ekran yüksekliğinin %55'i (durum düğmesi kapalıyken ölçülür) |
+| **768** | Yıl sol alt, olay sağ alt (genişlik 320); kontroller ikisinin üstünde ortada. Durum kartuşu sol üstte, genişlik 18rem; künye ve atıf aynı genişlikte altında. Okuma paneli sağ kenarda, üstten alta (künye kartı içeriği kadar), genişlik `min(26rem, 55vw)` *(2026-11-15, A29)* |
+| **1280** | §3.5 tam asimetrik yerleşim. Durum kartuşu sol üstte, genişlik 20rem. Yıl 96 px. Olay kartuşu 360 px. A4 paneli sağ kenarda, ekran yüksekliğinde, A4 oranında genişlik (en çok 36rem) *(2026-11-15, A29)* |
 
 ---
 
@@ -230,7 +233,7 @@ Açık (A1): mod değişince konumun nasıl korunacağı, okuma süresi formül�
 | M4 | Telgraf gönderimi | Telgraf adımı | İki nokta arasında ince düz hat çizilir, üzerinde nokta-çizgi darbesi ilerler | 0,8 s |
 | M5 | Sınır değişimi | Adım tarihi bir `BorderChange` sınırını geçince | Eski çizgi solar, yeni çizgi belirir; değişen alan kısa süre taranır. İşgal bölgeleri kalıcı çapraz tarama ile gösterilir; sınırı kaba olanlar "yaklaşık" etiketlidir (A14) | 0,6 s |
 | M6 | Yıl göstergesi | Yıl değişince | Rakamlar dikey kayarak değişir | 0,4 s |
-| M7 | A4 açılışı | Hover/dokunma/Enter | Kâğıt işaret noktasından ölçeklenerek açılır (masaüstü), alttan kayar (mobil) | 0,2 s |
+| M7 | A4 açılışı | Hover/dokunma/Enter | Kâğıt sağ kenardan kayarak açılır; 375'te künye kartı alttan kayar *(2026-11-15, A29)*. Hareket azaltmada yalnız solma | 0,2 s |
 | M8 | Kamera | Her adım | Harita yeni olayın konumuna yumuşak geçer; seyahatte rotanın tamamını sığdırır | 0,8-1,5 s |
 
 ### 5.3 Hareket azaltma (`prefers-reduced-motion: reduce`)
@@ -467,7 +470,7 @@ interface Tenure {        // data/tenures.json
 | A26 | Eşzamanlı görevler (2026-11-14) | Aynı tarihte geçerli bütün görevler gösterilir, başlama sırasıyla |
 | A28 | Rütbe adları (2026-11-14) | Resmî kaynağın (MSB kronolojisi) bugünkü adlarıyla: Teğmen, Üsteğmen, Kurmay yüzbaşı, Kolağası, Binbaşı, Yarbay, Albay, Tümgeneral, Müşîr. Görev unvanları kaynaktaki yazımla kalır (ör. Reisicümhur) |
 | A27 | Resmî kaynak (K5, 2026-11-14) | Resmî ve güvenilir bir devlet kaynağı tek başına yeter: TBMM, Resmî Gazete ve mevzuat, Millî Savunma Bakanlığı (ata.msb.gov.tr dahil), Atatürk Araştırma Merkezi (atam.gov.tr ve Atatürk Ansiklopedisi dahil), Devlet Arşivleri Başkanlığı, Kara Harp Okulu, Türk Tarih Kurumu (Belleten dahil). Hakları saklı olanlardan yalnız olgu alınır. Çelişen kaynaklar varsa kayıt yine `doğrulanmadı` olur. Kural geriye dönük uygulanır: 1-10. partilerin adayları yeniden taranır |
-| A29 | Yerleşim (2026-11-15) | Sol üstte durum kartuşu; künye ve atıf satırı onun altında. Orta altta zaman düğmeleri. Mektup ve telgraf açılınca **sağda bir okuma paneli** açılır; panel sabit değildir, belge kapanınca kaybolur. A24'teki "sağ üst" ve §3.6'daki "gönderildiği şehrin yanında açılan A4" bu kararla değişti. 375'teki biçim uygulamada önerilecek |
+| A29 | Yerleşim (2026-11-15) | Sol üstte durum kartuşu; künye ve atıf satırı onun altında. Orta altta zaman düğmeleri. Mektup ve telgraf açılınca **sağda bir okuma paneli** açılır; panel sabit değildir, belge kapanınca kaybolur. A24'teki "sağ üst" ve §3.6'daki "gönderildiği şehrin yanında açılan A4" bu kararla değişti. 375 biçimi (onaylandı, 2026-11-15): sol üstte yaş düğmesi, altında künye ve atıf; belge sağdan tam ekran, künye kartı alttan; 768'den itibaren panel modal değil |
 | A30 | Nutuk'taki mektup ve telgraflar (2026-11-15) | Kimden, kime, ne zaman, nereden nereye: künye kartı olarak girer, haritada gönderildiği yerden alıcıya yay çizer. İçerik gösterilmez (aslı Arap harfli, İngilizce baskı çeviri; §2.1). Nutuk'un sayfa numarası kartta gösterilmez; doğrulama için kaynak kaydında kalır |
 | A31 | Deniz yolculukları (2026-11-15) | Düz çizgi karadan geçtiği için rota denize doğru kavisli çizilir ve "yaklaşık rota (deniz)" diye etiketlenir. Kavis çizim sırasında hesaplanır; yeni koordinat kaydedilmez (kural 3) |
 | A32 | Seyahat araçları (2026-11-15) | Seyahat sırasında aracın simgesi (vapur, tren, at, otomobil, uçak) rota üzerinde ilerler. Hareket azaltmada simge rotanın ortasında sabit durur. Araç kaynakta yazmıyorsa etap girmez |

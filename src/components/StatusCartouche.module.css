@@ -1,18 +1,16 @@
 /*
- * Status cartouche, top right (SPEC §3.5, §4.3, A24). Mobile first.
- *   < 48rem   a toggle with the age; the four fields open over the map, under the toggle
- *   >= 48rem  the four fields are always shown in a framed cartouche (18rem, 20rem at 80rem)
+ * Status cartouche, top left in .corner (SPEC §3.5, §4.3, A24, A29). Mobile first.
+ *   < 48rem   a toggle with the age; the four fields open over the map (and over the site name and
+ *             attribution below it), so opening does not push those down
+ *   >= 48rem  the four fields are always shown in a framed cartouche, as wide as .corner
  * Lighter than the year cartouche: smaller type, tighter padding. No animation (SPEC §4).
  */
 .status {
-  position: absolute;
-  z-index: 2; /* over the map, under the document sheet (3) */
-  top: var(--space-16);
-  right: var(--space-16);
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  max-width: calc(100% - 2 * var(--space-16));
+  align-items: flex-start;
+  max-width: 100%;
 }
 
 .toggle {
@@ -49,12 +47,17 @@
 }
 
 .panel {
+  position: absolute;
+  z-index: 1; /* over the site name and attribution that follow in .corner */
+  top: 100%;
+  left: 0;
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: var(--space-12);
   row-gap: var(--space-4);
   align-items: baseline;
-  width: min(18rem, 100%);
+  /* Absolute here, so a percentage would follow the toggle's width; size it to the screen. */
+  width: min(18rem, calc(100vw - 2 * var(--space-16)));
   margin: var(--space-8) 0 0;
   padding: var(--space-12) var(--space-16);
   font-size: var(--text-14);
@@ -94,8 +97,7 @@
 
 @media (min-width: 48rem) {
   .status {
-    top: var(--space-24);
-    right: var(--space-24);
+    width: 100%;
   }
 
   .toggle {
@@ -105,20 +107,9 @@
   /* The panel is the cartouche itself here, whatever the toggle state was at 375. */
   .panel,
   .panel[hidden] {
+    position: static;
     display: grid;
-    width: 18rem;
+    width: 100%;
     margin: 0;
-  }
-}
-
-@media (min-width: 80rem) {
-  .status {
-    top: var(--space-24);
-    right: var(--space-32);
-  }
-
-  .panel,
-  .panel[hidden] {
-    width: 20rem;
   }
 }

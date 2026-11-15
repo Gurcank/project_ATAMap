@@ -92,32 +92,59 @@ body {
   }
 }
 
-.site-kunye {
+/* Top-left column (SPEC §3.5, A29): status cartouche, site name, attribution. Stacked in one flow so
+   the lower two follow the cartouche whatever its height (two to six rows). Same width as the
+   cartouche from 768 up. The gaps between the items let the map take the pointer. */
+.corner {
   position: absolute;
-  z-index: 1; /* stays above the full-bleed loading layer and the map */
+  z-index: 2; /* over the map and the full-bleed loading layer, under the document panel */
   top: var(--space-16);
   left: var(--space-16);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-8);
+  width: min(20rem, calc(100% - 2 * var(--space-16)));
+  pointer-events: none;
+}
+
+.corner > * {
+  pointer-events: auto;
+}
+
+@media (min-width: 48rem) {
+  .corner {
+    top: var(--space-24);
+    left: var(--space-24);
+    width: 18rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  .corner {
+    left: var(--space-32);
+    width: 20rem;
+  }
+}
+
+.site-kunye {
   margin: 0;
   font-family: var(--font-display);
   font-size: var(--text-14);
   color: var(--ink-muted);
 }
 
-/* First-load frame of the status cartouche, 768 and up (SPEC §4.2, 2026-11-14). At 375 the toggle's
-   place stays empty. Same position and width as StatusCartouche.module.css. */
+/* First-load frame of the status cartouche, 768 and up (SPEC §4.2). At 375 the toggle's place stays
+   empty. It sits in .corner, so it takes the cartouche's place and width. */
 .status-skeleton {
   display: none;
 }
 
 @media (min-width: 48rem) {
   .status-skeleton {
-    position: absolute;
-    z-index: 1; /* above the full-bleed loading layer, like the site name */
-    top: var(--space-24);
-    right: var(--space-24);
     display: grid;
     row-gap: var(--space-12);
-    width: 18rem;
+    width: 100%;
     padding: var(--space-16);
   }
 
@@ -125,12 +152,5 @@ body {
     display: block;
     height: var(--rule-width);
     background: var(--ink-muted);
-  }
-}
-
-@media (min-width: 80rem) {
-  .status-skeleton {
-    right: var(--space-32);
-    width: 20rem;
   }
 }

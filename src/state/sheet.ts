@@ -6,12 +6,6 @@
 import { signal } from '@preact/signals';
 import { openDocumentId } from './app.ts';
 
-export interface Anchor {
-  x: number;
-  y: number;
-}
-
-export const sheetAnchor = signal<Anchor | null>(null);
 export const openedByHover = signal(false);
 
 // Same values as --hover-intent and --hover-close in tokens.css (kept in sync by hand: CSS custom
@@ -27,14 +21,13 @@ const clearTimers = () => {
   clearTimeout(closeTimer);
 };
 
-export function hoverOpen(id: string, anchor: Anchor): void {
+export function hoverOpen(id: string): void {
   clearTimeout(closeTimer);
   // Another sheet that was opened for good is not replaced by a passing pointer.
   if (openDocumentId.value !== null && !openedByHover.value) return;
   clearTimeout(openTimer);
   openTimer = setTimeout(() => {
     openedByHover.value = true;
-    sheetAnchor.value = anchor;
     openDocumentId.value = id;
   }, HOVER_INTENT_MS);
 }
@@ -50,10 +43,9 @@ export function pointerEnteredSheet(): void {
   clearTimeout(closeTimer);
 }
 
-export function openFor(id: string, anchor: Anchor): void {
+export function openFor(id: string): void {
   clearTimers();
   openedByHover.value = false;
-  sheetAnchor.value = anchor;
   openDocumentId.value = id;
 }
 

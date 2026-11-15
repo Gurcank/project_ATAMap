@@ -22,9 +22,11 @@
   <body>
     <div id="app">
       <!-- Static first-load state (ADR-01, SPEC §4.2). Replaced when Preact mounts. -->
-      <p class="site-kunye">ATAMap</p>
-      <div class="status-skeleton cartouche" aria-hidden="true">
-        <span></span><span></span><span></span><span></span>
+      <div class="corner">
+        <div class="status-skeleton cartouche" aria-hidden="true">
+          <span></span><span></span><span></span><span></span>
+        </div>
+        <p class="site-kunye">ATAMap</p>
       </div>
       <div class="loading" role="status">
         <div>

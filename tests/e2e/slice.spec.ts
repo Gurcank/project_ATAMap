@@ -255,6 +255,39 @@ test('a Latin-script speech opens as an A4 sheet with its citation', async ({ pa
   await expect(marker).toBeFocused();
 });
 
+test('documents open in a reading panel on the right; modal only at 375 (SPEC A29)', async ({
+  page,
+}, info) => {
+  await open(page, LATIN);
+  const viewport = page.viewportSize()!;
+  await page.getByRole('button', { name: /^Konuşma:/ }).click();
+  const dialog = page.getByRole('dialog');
+  await expect(dialog).toBeVisible();
+  await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished)));
+  const b = (await dialog.boundingBox())!;
+  const rightGap = viewport.width - (b.x + b.width);
+  if (info.project.name === 'mobil-375') {
+    await expect(dialog).toHaveAttribute('aria-modal', 'true');
+    expect(b.x).toBeLessThanOrEqual(1);
+    expect(rightGap).toBeLessThanOrEqual(1);
+  } else {
+    await expect(dialog).toHaveAttribute('aria-modal', 'false');
+    expect(rightGap).toBeGreaterThan(0);
+    expect(rightGap).toBeLessThanOrEqual(33);
+    expect(b.x).toBeGreaterThan(viewport.width * 0.4);
+    // The panel ends above the step controls, which stay whole.
+    const controls = (await page.getByRole('group', { name: 'Adım kontrolleri' }).boundingBox())!;
+    expect(b.y + b.height).toBeLessThanOrEqual(controls.y);
+    // The map beside the panel stays visible and takes the pointer: the step controls still work.
+    await expect(page.getByRole('region', { name: 'Durum' })).toBeVisible();
+    await page.getByRole('region', { name: 'Durum' }).locator('dl').click();
+    await expect(dialog).toBeVisible();
+    // Esc closes the panel even when focus has left it.
+    await page.keyboard.press('Escape');
+    await expect(dialog).toBeHidden();
+  }
+});
+
 test('desktop: hovering the marker opens the sheet, leaving closes it (SPEC §4.1)', async ({
   page,
 }, info) => {
@@ -276,6 +309,8 @@ test('an Arabic-script original opens a citation card, not an A4 sheet', async (
   const dialog = page.getByRole('dialog');
   await expect(dialog.getByText('Aslı Arap harfli; tam metin gösterilmiyor.')).toBeVisible();
   await expect(dialog.getByText(/belgede: 24\.4\.1336/)).toBeVisible();
+  // The shot shows the settled card, not the slide-in (M7).
+  await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished)));
   await shot(page, info, 'kunye-karti');
   await dialog.getByRole('button', { name: 'Kapat' }).click();
   await expect(dialog).toBeHidden();

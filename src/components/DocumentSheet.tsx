@@ -1,27 +1,39 @@
-// The A4 sheet (full text) and the citation card (no full text), SPEC §3.6, §4, §4.1.
+// The A4 sheet (full text) and the citation card (no full text), SPEC §3.6, §4, §4.1, A29.
 // One dialog component: both share opening, closing, focus and position rules.
-import { useEffect, useRef } from 'preact/hooks';
+//   < 48rem   modal: full screen (A4) or a bottom card, over a backdrop; Tab stays inside.
+//   >= 48rem  a reading panel on the right edge, not modal: the map stays visible and usable beside
+//             it so the transmission line can be read with the document. Esc or Kapat closes it.
+import { useEffect, useRef, useState } from 'preact/hooks';
 import { citationText } from '../format/citation.ts';
 import { formatDate } from '../format/date.ts';
 import { KIND_LABEL } from '../format/labels.ts';
 import type { PublicSource } from '../state/data.ts';
 import { documentsState, openDocument } from '../state/app.ts';
-import {
-  closeSheet,
-  openedByHover,
-  pointerEnteredSheet,
-  pointerLeft,
-  sheetAnchor,
-} from '../state/sheet.ts';
+import { closeSheet, openedByHover, pointerEnteredSheet, pointerLeft } from '../state/sheet.ts';
 import styles from './DocumentSheet.module.css';
 
 const FOCUSABLE = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+// Same breakpoint as the CSS module (48rem): the panel is modal only below it.
+const WIDE = '(min-width: 48rem)';
+
+function useWide(): boolean {
+  const [wide, setWide] = useState(() => matchMedia(WIDE).matches);
+  useEffect(() => {
+    const query = matchMedia(WIDE);
+    const onChange = () => setWide(query.matches);
+    query.addEventListener('change', onChange);
+    return () => query.removeEventListener('change', onChange);
+  }, []);
+  return wide;
+}
 
 export function DocumentSheet() {
   const doc = openDocument.value;
   const root = useRef<HTMLDivElement>(null);
   const hover = openedByHover.value;
-  const anchor = sheetAnchor.value;
+  const wide = useWide();
+  const modal = !hover && !wide;
   const docId = doc?.id;
 
   // Focus moves in for a deliberate opening (click, touch, Enter) and returns to the marker on
@@ -34,9 +46,27 @@ export function DocumentSheet() {
     };
   }, [docId, hover]);
 
+  // 768 and up: the panel ends above the step controls so they stay whole and usable beside it.
+  // The controls move when the dock changes height (event text) or the window resizes.
   useEffect(() => {
-    if (anchor) root.current?.style.setProperty('--anchor-x', `${anchor.x}px`);
-  }, [anchor, docId]);
+    const node = root.current;
+    const floor = document.querySelector('[data-reading-floor]');
+    const dockEl = document.querySelector('[data-map-edge="bottom"]');
+    if (!docId || !wide || !node || !floor) return;
+    const place = () =>
+      node.style.setProperty(
+        '--panel-floor',
+        `${Math.max(0, window.innerHeight - floor.getBoundingClientRect().top)}px`,
+      );
+    place();
+    const observer = new ResizeObserver(place);
+    if (dockEl) observer.observe(dockEl);
+    window.addEventListener('resize', place);
+    return () => {
+      observer.disconnect();
+      window.removeEventListener('resize', place);
+    };
+  }, [docId, wide]);
 
   if (!doc || documentsState.value.status !== 'ready') return null;
   const { sources } = documentsState.value;
@@ -55,8 +85,8 @@ export function DocumentSheet() {
       closeSheet();
       return;
     }
-    // A deliberately opened sheet keeps Tab inside it.
-    if (e.key !== 'Tab' || hover || !root.current) return;
+    // A modal sheet keeps Tab inside it.
+    if (e.key !== 'Tab' || !modal || !root.current) return;
     const items = [...root.current.querySelectorAll<HTMLElement>(FOCUSABLE)];
     const first = items[0];
     const last = items.at(-1);
@@ -72,14 +102,14 @@ export function DocumentSheet() {
 
   return (
     <>
-      {!hover && <div class={styles.backdrop} onClick={closeSheet} aria-hidden="true" />}
+      {modal && <div class={styles.backdrop} onClick={closeSheet} aria-hidden="true" />}
       <div
         ref={root}
         class={`${styles.sheet} ${hasText ? styles.a4 : styles.card} ${
           doc.kind === 'telgraf' ? styles.telegram : ''
         }`}
         role="dialog"
-        aria-modal={!hover}
+        aria-modal={modal}
         aria-labelledby={titleId}
         tabIndex={-1}
         onKeyDown={onKeyDown}

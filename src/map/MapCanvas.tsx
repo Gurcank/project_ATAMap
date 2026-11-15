@@ -41,10 +41,29 @@ const MAX_ZOOM = 14;
 const COMPACT_WIDTH = 768;
 const MARKER_SPACING = 48;
 const MARKER_LIFT = 38;
+/** Thinner than this, the measured band is not trusted and the fixed ratios are used. */
+const MIN_BAND = 120;
 
 interface Size {
   w: number;
   h: number;
+}
+
+/**
+ * Compact screens: the band of the map between the top-left column and the bottom strip, both
+ * marked with data-map-edge. Measured on every camera move because both change height with the
+ * step (status rows, event text). Null when either is missing or the band is too thin to use.
+ */
+function compactBand(node: SVGSVGElement): { top: number; bottom: number } | null {
+  const origin = node.getBoundingClientRect().top;
+  const edge = (name: string) =>
+    document.querySelector(`[data-map-edge="${name}"]`)?.getBoundingClientRect();
+  const corner = edge('top');
+  const dock = edge('bottom');
+  if (!corner || !dock) return null;
+  const top = corner.bottom - origin;
+  const bottom = dock.top - origin;
+  return bottom - top >= MIN_BAND ? { top, bottom } : null;
 }
 
 export function MapCanvas() {
@@ -200,10 +219,12 @@ export function MapCanvas() {
     const node = svg.current;
     if (!z || !node || !focus || size.w === 0) return;
     const compact = size.w < COMPACT_WIDTH;
-    // Over the cartouches the visible map is the upper part, so aim the step there.
+    // Over the cartouches the visible map is the upper part, so aim the step there. On compact
+    // screens the top-left column spans the width (A29), so the step goes in the band below it.
+    const band = compact ? compactBand(node) : null;
     const fx = size.w / 2;
-    const fy = size.h * (compact ? 0.3 : 0.42);
-    const visibleH = size.h * (compact ? 0.5 : 0.7);
+    const fy = band ? (band.top + band.bottom) / 2 : size.h * (compact ? 0.3 : 0.42);
+    const visibleH = band ? band.bottom - band.top : size.h * (compact ? 0.5 : 0.7);
     const boxW = focus.x1 - focus.x0;
     const boxH = focus.y1 - focus.y0;
     const fit = Math.min((size.w * 0.8) / Math.max(boxW, 1), (visibleH * 0.9) / Math.max(boxH, 1));

@@ -27,7 +27,6 @@ export function DocumentMarker({ doc, x, y, active }: Props) {
   const label = `${KIND_LABEL[doc.kind]}: ${doc.sender}, ${formatDate(doc.date)}${
     hollow ? ' (tam metin gösterilmiyor)' : ''
   }`;
-  const anchor = { x, y };
   return (
     <g
       class={`${styles.marker} ${styles[doc.kind]} ${hollow ? styles.hollow : ''} ${
@@ -39,15 +38,15 @@ export function DocumentMarker({ doc, x, y, active }: Props) {
       aria-label={label}
       aria-haspopup="dialog"
       data-marker-id={doc.id}
-      onClick={() => openFor(doc.id, anchor)}
+      onClick={() => openFor(doc.id)}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
           e.preventDefault();
-          openFor(doc.id, anchor);
+          openFor(doc.id);
         }
       }}
       onPointerEnter={(e) => {
-        if (e.pointerType === 'mouse') hoverOpen(doc.id, anchor);
+        if (e.pointerType === 'mouse') hoverOpen(doc.id);
       }}
       onPointerLeave={() => pointerLeft()}
     >

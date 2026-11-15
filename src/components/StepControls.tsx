@@ -31,6 +31,7 @@ export function StepControls() {
       class={`cartouche ${dock.controls} ${styles.controls}`}
       role="group"
       aria-label="Adım kontrolleri"
+      data-reading-floor
     >
       <button type="button" class={styles.button} disabled={!canGoPrev.value} onClick={goPrev}>
         Önceki

@@ -4283,6 +4283,30 @@
       "free": true,
       "verified": true,
       "$note": "Nutuk belgeleri, parti 7 (2026-11-15). Sayfa 694 (A30: sayfa kartta gösterilmez, bu yüzden 'page' alanında değil). Telif ve bağımsızlık için nutuk-en-1929 kaydındaki not geçerli. Yalnız künye bilgisi alındı; metin alınmadı (SPEC §2.1). Kullanıcı onayı: 2026-11-15 (Nutuk belgeleri, parti 7)."
+    },
+    {
+      "id": "msb-milli-mucadele-donemi-p11",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "citation": "MSB Atatürk Sitesi, «Millî Mücadele Dönemi»",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/milli-mucadele-donemi",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Resmî kaynak (A27), yalnız olgu; alıntılar alınmadı. Parti onayına kadar beklesin diye sınırlar partisindeki kayıttan ayrı."
+    },
+    {
+      "id": "ataturk-ansiklopedisi-768",
+      "institution": "Atatürk Araştırma Merkezi Başkanlığı",
+      "citation": "Atatürk Ansiklopedisi, «Havza Genelgesi» (Zekeriya Türkmen, 9 Şubat 2021)",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/768",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Resmî kaynak (A27), yalnız olgu. Sayfa JavaScript ile yükleniyor, tarayıcıda okundu. Maddeye göre Mustafa Kemal Paşa 25 Mayıs - 12 Haziran 1919 arasında Havza'daydı."
     }
   ]
 }

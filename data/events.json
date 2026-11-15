@@ -13474,6 +13474,210 @@
         "msb-askeri-gorevleri-p6"
       ],
       "$note": "K5 taraması, parti 6."
+    },
+    {
+      "id": "havza-genelgesi-1919-05-28",
+      "date": {
+        "iso": "1919-05-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11",
+          "ataturk-ansiklopedisi-768"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi»: 'Havza'dan 28 Mayıs 1919 tarihinde valilere ve bağımsız mutasarrıflıklara'. Ansiklopedi: 'Havza Genelgesi (28 Mayıs 1919)'."
+      },
+      "title": "Havza Genelgesi’ni yayımladı",
+      "text": "Havza’dan valilere, bağımsız mutasarrıflıklara ve kolordu komutanlıklarına işgallere karşı bir genelge gönderdi.",
+      "placeId": "havza",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11",
+        "ataturk-ansiklopedisi-768"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Kaynakların bulunuşu: MSB kronolojisinde yok (kapsam raporu), Millî Mücadele sayfasında ve ansiklopedide var."
+    },
+    {
+      "id": "harbiye-nazirina-telgraf-1919-05-29",
+      "date": {
+        "iso": "1919-05-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-768"
+        ],
+        "$note": "Ansiklopedi: '29 Mayıs 1919 tarihinde Harbiye Nazırı Şevket Turgut Paşa'ya gönderdiği şifre telgrafta'."
+      },
+      "title": "Harbiye Nazırı’na şifreli telgraf gönderdi",
+      "text": "Harbiye Nazırı Şevket Turgut Paşa’ya, yapılan mitingleri anlatan şifreli bir telgraf gönderdi.",
+      "placeId": "havza",
+      "sources": [
+        "ataturk-ansiklopedisi-768"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Yer: ansiklopediye göre 25 Mayıs - 12 Haziran arasında Havza'daydı. Telgrafın metni alınmadı (aslı Arap harfli)."
+    },
+    {
+      "id": "havza-mitingi-1919-05-30",
+      "date": {
+        "iso": "1919-05-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-768"
+        ],
+        "$note": "Ansiklopedi: '30 Mayıs 1919 tarihinde Havza'da … büyük bir protesto mitingi düzenlemiştir'."
+      },
+      "title": "Havza’da protesto mitingi düzenledi",
+      "text": "Havza’da şehrin ileri gelenleri ve halkla birlikte işgallere karşı bir protesto mitingi düzenledi.",
+      "placeId": "havza",
+      "sources": [
+        "ataturk-ansiklopedisi-768"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi."
+    },
+    {
+      "id": "erzurumdan-ayrildi-1919-08-29",
+      "date": {
+        "iso": "1919-08-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi», Erzurum Kongresi bölümü: '29 Ağustos 1919'da Erzurum'dan ayrılarak 2 Eylül'de Sivas'a gelmiştir'."
+      },
+      "title": "Erzurum’dan Sivas’a doğru yola çıktı",
+      "text": "Erzurum’dan ayrıldı; 2 Eylül’de Sivas’a varacaktı.",
+      "placeId": "erzurum",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Araç kaynakta yazmıyor, seyahat kaydı açılmadı (A32). 2 Eylül'deki varış sitede zaten var."
+    },
+    {
+      "id": "kolordu-15-yazi-1920-02-06",
+      "date": {
+        "iso": "1920-02-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi»: 'Mustafa Kemal, 6 Şubat 1920'de 15'inci Kolordu Komutanlığına gönderdiği bir yazıyla'."
+      },
+      "title": "15. Kolordu’ya taarruz direktifi gönderdi",
+      "text": "15. Kolordu Komutanlığına gönderdiği yazıda genel siyasi durumu açıkladı ve doğudaki taarruz planı hakkında direktif verdi.",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Gönderildiği yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "yeni-hukumet-genelgesi-1920-03-13",
+      "date": {
+        "iso": "1920-03-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi»: 'Mustafa Kemal Paşa, 13 Mart 1920 tarihinde yayınladığı bir tamimle, gerekirse yeni bir hükûmet teşkil edilebileceğini'."
+      },
+      "title": "Yeni hükümet kurulabileceğini bildiren genelge yayımladı",
+      "text": "İstanbul’un işgal edileceğini anlayınca, gerekirse yeni bir hükümet kurulabileceğini bildiren ve nitelikli kişileri yanına çağıran bir genelge yayımladı.",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "yabanci-devletlere-yazi-1920-04-30",
+      "date": {
+        "iso": "1920-04-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi»: '30 Nisan 1920'de tarafsız ülkelerle, İtilaf devletleri Dışişleri Bakanlarına ve ABD Başkanına hitaben yazdığı bir yazı ile'."
+      },
+      "title": "Yabancı devletlere TBMM’nin egemenliğini bildirdi",
+      "text": "Tarafsız ülkelere, İtilaf devletlerinin dışişleri bakanlarına ve ABD Başkanına yazdığı yazıyla ülkenin kaderine TBMM’nin egemen olduğunu bildirdi.",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "tbmm-gizli-oturum-1921-07-23",
+      "date": {
+        "iso": "1921-07-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi», Kütahya-Eskişehir bölümü: 'Meclisin 23 Temmuz tarihli gizli oturumunda özellikle Başkomutanlık üzerine'; yıl bölüm başlığından (10-24 Temmuz 1921)."
+      },
+      "title": "Meclisin gizli oturumunda Başkomutanlık tartışmasına katıldı",
+      "text": "Kütahya-Eskişehir yenilgisinden sonra Meclisin gizli oturumunda Başkomutanlık üzerine yapılan tartışma ve eleştirilere karşı kararlı bir tutum gösterdi.",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Oturumun yeri kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "tbmm-gizli-oturum-1922-03-06",
+      "date": {
+        "iso": "1922-03-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi»: '6 Mart 1922'de Büyük Millet Meclisinin gizli bir toplantısında'."
+      },
+      "title": "Meclisin gizli oturumunda taarruz kararını açıkladı",
+      "text": "Büyük Millet Meclisinin gizli bir toplantısında, endişe duyanlara ordunun kararının taarruz olduğunu söyledi.",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Sözün kendisi alıntı olarak alınmadı. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "aksehire-gitti-1922-08-19",
+      "date": {
+        "iso": "1922-08-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi»: 'Mustafa Kemal Paşa, 19 Ağustos 1922'de Ankara'dan Akşehir'e giderek'."
+      },
+      "title": "Ankara’dan Akşehir’e gitti",
+      "text": "Büyük Taarruz’dan önce Ankara’dan cephe karargâhının bulunduğu Akşehir’e gitti.",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Akşehir için yer kaydı yok ve araç kaynakta yazmıyor; seyahat kaydı açılmadı, yer bağlanmadı."
+    },
+    {
+      "id": "mudanya-cevabi-1922-09-29",
+      "date": {
+        "iso": "1922-09-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-milli-mucadele-donemi-p11"
+        ],
+        "$note": "MSB «Millî Mücadele Dönemi», Mudanya bölümü: 'Mustafa Kemal Paşa, 29 Eylül günü verdiği cevapta'; yıl bölüm başlığından (11 Ekim 1922)."
+      },
+      "title": "Konferans için Trakya şartını bildirdi",
+      "text": "İtilaf devletlerinin notasına verdiği cevapta, Edirne dahil Meriç’e kadar Trakya’nın boşaltılması şartıyla konferansa katılabileceklerini bildirdi.",
+      "sources": [
+        "msb-milli-mucadele-donemi-p11"
+      ],
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Yer kaynakta yazmıyor; yer bağlanmadı."
     }
   ]
 }

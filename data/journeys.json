@@ -44,6 +44,188 @@
         }
       ],
       "$note": "Parti 9a. K5 parti 9a (2026-11-15): MSB kronolojisi Erzurum'a varışı 3 Temmuz 1919 veriyor, varışa kaynak olarak eklendi."
+    },
+    {
+      "id": "yg-izmir-ankara-1923-02",
+      "title": "İzmir'den Ankara'ya",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923. Araç: '18 Şubat 1923: Gece trenle İzmir'den Ankara'ya hareketi'.",
+      "legs": [
+        {
+          "fromPlaceId": "izmir",
+          "toPlaceId": "usak",
+          "vehicle": "tren",
+          "departure": {
+            "iso": "1923-02-18",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "MSB: '18 Şubat 1923: Gece trenle İzmir'den Ankara'ya hareketi'."
+          },
+          "arrival": {
+            "iso": "1923-02-19",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "MSB: '19 Şubat 1923: Uşak'a gelişi'."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "Demiryolu güzergâhı kaynakta yok; yaklaşık rota."
+        },
+        {
+          "fromPlaceId": "usak",
+          "toPlaceId": "ankara",
+          "vehicle": "tren",
+          "departure": {
+            "iso": "1923-02-19",
+            "isoEnd": "1923-02-20",
+            "precision": "range",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "Uşak'tan ayrılış günü yazmıyor: 19 Şubat'ta Uşak'ta, 20 Şubat'tan itibaren Ankara'da ('20 Şubat - 13 Mart 1923: Ankara'). Bu iki günle sınırlanan aralık."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "Demiryolu güzergâhı kaynakta yok; yaklaşık rota."
+        }
+      ]
+    },
+    {
+      "id": "yg-ankara-adana-1923-03",
+      "title": "Ankara'dan Adana'ya",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923. Araç: '13 Mart 1923: Adana'ya gitmek üzere trenle Ankara'dan hareketi'.",
+      "legs": [
+        {
+          "fromPlaceId": "ankara",
+          "toPlaceId": "konya",
+          "vehicle": "tren",
+          "departure": {
+            "iso": "1923-03-13",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "MSB: 13 Mart 1923, trenle hareket."
+          },
+          "arrival": {
+            "iso": "1923-03-14",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "MSB: '14 Mart 1923: Trenle Konya'dan geçişi'."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "Demiryolu güzergâhı kaynakta yok; yaklaşık rota."
+        },
+        {
+          "fromPlaceId": "konya",
+          "toPlaceId": "adana",
+          "vehicle": "tren",
+          "departure": {
+            "iso": "1923-03-14",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "MSB: 14 Mart 1923 Konya."
+          },
+          "arrival": {
+            "iso": "1923-03-15",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "MSB: '15 Mart 1923: Adana'ya gelişi'."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "Demiryolu güzergâhı kaynakta yok; yaklaşık rota."
+        }
+      ]
+    },
+    {
+      "id": "yg-ankara-izmir-1923-07",
+      "title": "Ankara'dan İzmir'e",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923. Varış günü yazmıyor; '27 Temmuz - 2 Ağustos 1923: İzmir'.",
+      "legs": [
+        {
+          "fromPlaceId": "ankara",
+          "toPlaceId": "izmir",
+          "vehicle": "tren",
+          "departure": {
+            "iso": "1923-07-23",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "MSB: '23 Temmuz 1923: Ankara'dan trenle İzmir'e hareketi'."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "Demiryolu güzergâhı kaynakta yok; yaklaşık rota."
+        }
+      ]
+    },
+    {
+      "id": "yg-ankara-izmir-1923-12",
+      "title": "Ankara'dan İzmir'e",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923. Varış günü yazmıyor; '2 Ocak 1924: İzmir'.",
+      "legs": [
+        {
+          "fromPlaceId": "ankara",
+          "toPlaceId": "izmir",
+          "vehicle": "tren",
+          "departure": {
+            "iso": "1923-12-31",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1923"
+            ],
+            "$note": "MSB: '31 Aralık 1923: Ankara'dan trenle İzmir'e hareketi'."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "Demiryolu güzergâhı kaynakta yok; yaklaşık rota."
+        }
+      ]
     }
   ]
 }

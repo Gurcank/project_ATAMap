@@ -459,6 +459,158 @@
       "$note": "K5 taraması, parti 9b. Kendisi o gün İzmir'de değildi (27 Ocak'ta geldi); yer bağlanmadı."
     },
     {
+      "id": "yg-ankaradan-bati-anadolu-1923-01-14",
+      "date": {
+        "iso": "1923-01-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 14 Ocak 1923."
+      },
+      "title": "Batı Anadolu gezisine çıktı",
+      "text": "Batı Anadolu'da bir inceleme gezisi için Ankara'dan ayrıldı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-eskisehir-1923-01-15",
+      "date": {
+        "iso": "1923-01-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 15 Ocak 1923."
+      },
+      "title": "Eskişehir'e geldi",
+      "text": "Eskişehir'e geldi.",
+      "placeId": "eskisehir",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-izmit-1923-01-16",
+      "date": {
+        "iso": "1923-01-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 16 Ocak 1923; 16-19 Ocak İzmit."
+      },
+      "title": "İzmit'e geldi",
+      "text": "Arifiye üzerinden İzmit'e geldi; 19 Ocak'a kadar Çerkeşli, Tavşancıl, Hereke ve Gebze yöresindeki birlikleri denetleyip tatbikat izledi.",
+      "placeId": "izmit",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-bilecik-1923-01-19",
+      "date": {
+        "iso": "1923-01-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 19 Ocak 1923."
+      },
+      "title": "Bilecik'e geldi",
+      "text": "İzmit'ten Bilecik'e geldi.",
+      "placeId": "bilecik",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-bursa-1923-01-20",
+      "date": {
+        "iso": "1923-01-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 20 Ocak 1923, saat 15.00; 20-24 Ocak Bursa."
+      },
+      "title": "Bursa'ya geldi",
+      "text": "Bilecik'ten Bursa'ya geldi; 24 Ocak'a kadar Bursa'da kaldı.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-bursadan-ayrilis-1923-01-24",
+      "date": {
+        "iso": "1923-01-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 24 Ocak 1923."
+      },
+      "title": "Bursa'dan İzmir'e yola çıktı",
+      "text": "Sabah İzmir'e gitmek üzere Bursa'dan ayrıldı.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-alasehir-1923-01-25",
+      "date": {
+        "iso": "1923-01-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 25 Ocak 1923."
+      },
+      "title": "Alaşehir'e geldi",
+      "text": "Sabah Alaşehir'e geldi.",
+      "placeId": "alasehir",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-manisa-1923-01-26",
+      "date": {
+        "iso": "1923-01-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 26 Ocak 1923."
+      },
+      "title": "Manisa'da halka hitap etti",
+      "text": "Salihli ve Turgutlu istasyonlarında halka hitap etti, Manisa'ya geldi; oradan Menemen'e, sonra İzmir'e geçti.",
+      "placeId": "manisa",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
       "id": "annesinin-mezari-1923-01-27",
       "date": {
         "iso": "1923-01-27",
@@ -497,6 +649,101 @@
       "$note": "K5 taraması, parti 9b."
     },
     {
+      "id": "yg-akhisar-1923-02-04",
+      "date": {
+        "iso": "1923-02-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 4 Şubat 1923; 4-6 Şubat Akhisar."
+      },
+      "title": "Akhisar'a geldi",
+      "text": "İzmir'den Akhisar'a geldi; 6 Şubat'a kadar orada kaldı.",
+      "placeId": "akhisar",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-balikesir-1923-02-06",
+      "date": {
+        "iso": "1923-02-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 6 Şubat 1923; 6-8 Şubat Balıkesir."
+      },
+      "title": "Balıkesir'e geldi",
+      "text": "Akhisar'dan Balıkesir'e geldi; 8 Şubat'a kadar orada kaldı.",
+      "placeId": "balikesir",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-balya-1923-02-08",
+      "date": {
+        "iso": "1923-02-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 8 Şubat 1923."
+      },
+      "title": "Balya'ya geldi",
+      "text": "Balıkesir'den Balya'ya geldi.",
+      "placeId": "balya",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-edremit-1923-02-09",
+      "date": {
+        "iso": "1923-02-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 9 Şubat 1923."
+      },
+      "title": "Edremit'e geldi",
+      "text": "Saat 17.00'de Balya'dan Edremit'e geldi.",
+      "placeId": "edremit",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-izmire-donus-1923-02-10",
+      "date": {
+        "iso": "1923-02-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 10 Şubat 1923; 10-18 Şubat İzmir."
+      },
+      "title": "İzmir'e döndü",
+      "text": "İzmir'e döndü; 18 Şubat'a kadar orada kaldı.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
       "id": "iktisat-kongresi-1923-02-17",
       "date": {
         "iso": "1923-02-17",
@@ -514,6 +761,26 @@
         "msb-kronoloji-1923-1938-p9b"
       ],
       "$note": "K5 taraması, parti 9b. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "yg-izmir-ankara-1923-02-18",
+      "date": {
+        "iso": "1923-02-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 18 Şubat 1923 gece trenle hareket; 19 Şubat Uşak; 20 Şubat'tan itibaren Ankara."
+      },
+      "title": "Trenle İzmir'den Ankara'ya döndü",
+      "text": "Gece trenle İzmir'den ayrıldı; Uşak üzerinden Ankara'ya döndü.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "journeyId": "yg-izmir-ankara-1923-02",
+      "$note": "Yurt gezileri, 1923."
     },
     {
       "id": "tbmm-acilis-1923-03-01",
@@ -540,6 +807,102 @@
       "$note": " K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "yg-ankara-adana-1923-03-13",
+      "date": {
+        "iso": "1923-03-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 13 Mart 1923 trenle hareket; 14 Mart Konya; 15 Mart Adana."
+      },
+      "title": "Trenle Adana'ya gitti",
+      "text": "Trenle Ankara'dan ayrıldı; Konya'dan geçerek 15 Mart'ta Adana'ya vardı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "journeyId": "yg-ankara-adana-1923-03",
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-mersin-tarsus-1923-03-17",
+      "date": {
+        "iso": "1923-03-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 17 Mart 1923; 17-19 Mart Tarsus."
+      },
+      "title": "Mersin'e ve Tarsus'a gitti",
+      "text": "Adana'dan Mersin'e geldi, akşam Tarsus'a geçti; 19 Mart'a kadar Tarsus'ta kaldı.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-tarsustan-konyaya-1923-03-19",
+      "date": {
+        "iso": "1923-03-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 19 Mart 1923; 20-23 Mart Konya."
+      },
+      "title": "Tarsus'tan Konya'ya yola çıktı",
+      "text": "Tarsus'tan Konya'ya yola çıktı; 20-23 Mart'ı Konya'da geçirdi.",
+      "placeId": "tarsus",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-afyon-1923-03-23",
+      "date": {
+        "iso": "1923-03-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 23 Mart 1923."
+      },
+      "title": "Afyon'a geldi",
+      "text": "Konya'dan Afyon'a geldi; gece Kütahya'ya geçti.",
+      "placeId": "afyon",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-kutahya-1923-03-24",
+      "date": {
+        "iso": "1923-03-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 24 Mart 1923."
+      },
+      "title": "Kütahya'dan Ankara'ya yola çıktı",
+      "text": "Kütahya'da bulundu; gece Ankara'ya yola çıktı.",
+      "placeId": "kutahya",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
       "id": "dokuz-ilke-1923-04-08",
       "date": {
         "iso": "1923-04-08",
@@ -556,6 +919,45 @@
         "msb-kronoloji-1923-1938-p9b"
       ],
       "$note": "K5 taraması, parti 9b. Yer yazmıyor."
+    },
+    {
+      "id": "yg-ankara-izmir-1923-07-23",
+      "date": {
+        "iso": "1923-07-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 23 Temmuz 1923 trenle hareket; 27 Temmuz-2 Ağustos İzmir."
+      },
+      "title": "Trenle İzmir'e gitti",
+      "text": "Trenle Ankara'dan İzmir'e gitti; 27 Temmuz-2 Ağustos arasında İzmir'deydi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "journeyId": "yg-ankara-izmir-1923-07",
+      "$note": "Yurt gezileri, 1923."
+    },
+    {
+      "id": "yg-izmirden-ankaraya-1923-08-02",
+      "date": {
+        "iso": "1923-08-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 2 Ağustos 1923."
+      },
+      "title": "İzmir'den Ankara'ya döndü",
+      "text": "İzmir'den Ankara'ya döndü.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "$note": "Yurt gezileri, 1923."
     },
     {
       "id": "tbmm-nutuk-1923-08-13",
@@ -634,6 +1036,26 @@
         "msb-kronoloji-1923-1938-p10a"
       ],
       "$note": "K5 taraması, parti 10a. Yer yazmıyor."
+    },
+    {
+      "id": "yg-ankara-izmir-1923-12-31",
+      "date": {
+        "iso": "1923-12-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1923"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 31 Aralık 1923 trenle hareket; 2 Ocak 1924'te İzmir'de."
+      },
+      "title": "Trenle İzmir'e yola çıktı",
+      "text": "Trenle Ankara'dan İzmir'e yola çıktı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1923"
+      ],
+      "journeyId": "yg-ankara-izmir-1923-12",
+      "$note": "Yurt gezileri, 1923."
     },
     {
       "id": "tbmm-acilis-1924-03-01",

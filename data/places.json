@@ -678,6 +678,322 @@
           "$note": "MSB kronolojisi (resmî): 'İnebolu'da Türk Ocağına gelmesi'."
         }
       ]
+    },
+    {
+      "id": "eskisehir",
+      "point": {
+        "lon": 30.520555555556,
+        "lat": 39.776666666667,
+        "sources": [
+          "wikidata-q168866-r2555335449",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 39.776667, 30.520556. Natural Earth 10m simple (ne_id 1159147715): 39.794999, 30.529961. Fark yaklaşık 2,19 km."
+      },
+      "names": [
+        {
+          "name": "Eskişehir",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Eskişehir'."
+        }
+      ]
+    },
+    {
+      "id": "izmit",
+      "point": {
+        "lon": 29.9497846,
+        "lat": 40.7718818,
+        "sources": [
+          "wikidata-q129649-r2555335514",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.771882, 29.949785. Natural Earth 10m simple (ne_id 1159135147): 40.776024, 29.930617. Fark yaklaşık 1,68 km."
+      },
+      "names": [
+        {
+          "name": "İzmit",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'İzmit'."
+        }
+      ]
+    },
+    {
+      "id": "bursa",
+      "point": {
+        "lon": 29.08053888888889,
+        "lat": 40.19133055555555,
+        "sources": [
+          "wikidata-q40738-r2561097886",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.191331, 29.080539. Natural Earth 10m simple (ne_id 1159149373): 40.201933, 29.068052. Fark yaklaşık 1,59 km."
+      },
+      "names": [
+        {
+          "name": "Bursa",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Bursa'."
+        }
+      ]
+    },
+    {
+      "id": "alasehir",
+      "point": {
+        "lon": 28.516666666667,
+        "lat": 38.35,
+        "sources": [
+          "wikidata-q138280-r2560309528",
+          "osm-relation-1822974"
+        ],
+        "$note": "Wikidata: 38.350000, 28.516667. OpenStreetMap (relation 1822974): 38.350747, 28.516575. Fark yaklaşık 0,08 km."
+      },
+      "names": [
+        {
+          "name": "Alaşehir",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Alaşehir'."
+        }
+      ]
+    },
+    {
+      "id": "manisa",
+      "point": {
+        "lon": 27.426388888889,
+        "lat": 38.611944444444,
+        "sources": [
+          "wikidata-q147089-r2560309850",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 38.611944, 27.426389. Natural Earth 10m simple (ne_id 1159135165): 38.630393, 27.439968. Fark yaklaşık 2,37 km."
+      },
+      "names": [
+        {
+          "name": "Manisa",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Manisa'."
+        }
+      ]
+    },
+    {
+      "id": "akhisar",
+      "point": {
+        "lon": 27.84,
+        "lat": 38.92388888888889,
+        "sources": [
+          "wikidata-q209905-r2569182491",
+          "osm-relation-1822655"
+        ],
+        "$note": "Wikidata: 38.923889, 27.840000. OpenStreetMap (relation 1822655): 38.924053, 27.840190. Fark yaklaşık 0,02 km."
+      },
+      "names": [
+        {
+          "name": "Akhisar",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Akhisar'."
+        }
+      ]
+    },
+    {
+      "id": "balikesir",
+      "point": {
+        "lon": 27.884166666667,
+        "lat": 39.651111111111,
+        "sources": [
+          "wikidata-q199723-r2555336294",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 39.651111, 27.884167. Natural Earth 10m simple (ne_id 1159135129): 39.650382, 27.890018. Fark yaklaşık 0,51 km."
+      },
+      "names": [
+        {
+          "name": "Balıkesir",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Balıkesir'."
+        }
+      ]
+    },
+    {
+      "id": "balya",
+      "point": {
+        "lon": 27.583333333333332,
+        "lat": 39.75,
+        "sources": [
+          "wikidata-q2598790-r2534232058",
+          "osm-relation-1588165"
+        ],
+        "$note": "Wikidata: 39.750000, 27.583333. OpenStreetMap (relation 1588165): 39.749865, 27.579661. Fark yaklaşık 0,31 km."
+      },
+      "names": [
+        {
+          "name": "Balya",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Balya'."
+        }
+      ]
+    },
+    {
+      "id": "edremit",
+      "point": {
+        "lon": 27.024444444444,
+        "lat": 39.596111111111,
+        "sources": [
+          "wikidata-q1021818-r2569598741",
+          "osm-relation-1815033"
+        ],
+        "$note": "Wikidata: 39.596111, 27.024444. OpenStreetMap (relation 1815033): 39.593835, 27.015684. Fark yaklaşık 0,79 km."
+      },
+      "names": [
+        {
+          "name": "Edremit",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Edremit'."
+        }
+      ]
+    },
+    {
+      "id": "usak",
+      "point": {
+        "lon": 29.4,
+        "lat": 38.683333333333,
+        "sources": [
+          "wikidata-q189134-r2540143655",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 38.683333, 29.400000. Natural Earth 10m simple (ne_id 1159135341): 38.680364, 29.420002. Fark yaklaşık 1,77 km."
+      },
+      "names": [
+        {
+          "name": "Uşak",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Uşak'."
+        }
+      ]
+    },
+    {
+      "id": "konya",
+      "point": {
+        "lon": 32.49213888888889,
+        "lat": 37.872769444444444,
+        "sources": [
+          "wikidata-q79857-r2555596554",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.872769, 32.492139. Natural Earth 10m simple (ne_id 1159149379): 37.876958, 32.473064. Fark yaklaşık 1,74 km."
+      },
+      "names": [
+        {
+          "name": "Konya",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Konya'."
+        }
+      ]
+    },
+    {
+      "id": "mersin",
+      "point": {
+        "lon": 34.616666666667,
+        "lat": 36.8,
+        "sources": [
+          "wikidata-q134291-r2535957171",
+          "osm-node-26481523"
+        ],
+        "$note": "Wikidata: 36.800000, 34.616667. OpenStreetMap (node 26481523): 36.797838, 34.629839. Fark yaklaşık 1,2 km."
+      },
+      "names": [
+        {
+          "name": "Mersin",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Mersin'."
+        }
+      ]
+    },
+    {
+      "id": "tarsus",
+      "point": {
+        "lon": 34.9,
+        "lat": 36.916666666667,
+        "sources": [
+          "wikidata-q134287-r2566046772",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 36.916667, 34.900000. Natural Earth 10m simple (ne_id 1159135179): 36.920394, 34.879979. Fark yaklaşık 1,83 km."
+      },
+      "names": [
+        {
+          "name": "Tarsus",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Tarsus'."
+        }
+      ]
+    },
+    {
+      "id": "afyon",
+      "point": {
+        "lon": 30.538611111111,
+        "lat": 38.758055555556,
+        "sources": [
+          "wikidata-q166824-r2557506287",
+          "osm-relation-1263753"
+        ],
+        "$note": "Wikidata: 38.758056, 30.538611. OpenStreetMap (relation 1263753): 38.756860, 30.538704. Fark yaklaşık 0,13 km."
+      },
+      "names": [
+        {
+          "name": "Afyon",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Afyon'."
+        }
+      ],
+      "modernName": "Afyonkarahisar"
+    },
+    {
+      "id": "kutahya",
+      "point": {
+        "lon": 29.983333333333,
+        "lat": 39.424166666667,
+        "sources": [
+          "wikidata-q188894-r2547699593",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 39.424167, 29.983333. Natural Earth 10m simple (ne_id 1159127413): 39.420009, 29.929997. Fark yaklaşık 4,6 km."
+      },
+      "names": [
+        {
+          "name": "Kütahya",
+          "sources": [
+            "msb-yurt-gezileri-1923"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Kütahya'."
+        }
+      ]
     }
   ]
 }

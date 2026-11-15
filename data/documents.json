@@ -2030,6 +2030,938 @@
         "nutuk-en-1929-belge-s140"
       ],
       "$note": "Nutuk belgeleri, parti 3. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I received the following telegram, dated 17th October, from Kiasim Kara Bekir Pasha'; Mustafa Kemal o günlerde Sivas'tan Amasya'ya yoldaydı, alıcı yeri yok. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-03-telgraf-15-kolordu-komutani-kazim-kara",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s288"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 288. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "erzurum",
+      "toPlaceId": "sivas",
+      "sender": "15. Kolordu Komutanı Kâzım Karabekir Paşa",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s288"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In Cipher. Erzerum, 3rd October, 1919. To the Command of the IIIrd Army Corps. To the Representative Committee'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-09-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s201"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 201. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s201"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Djemal Pasha told us in a telegram in cipher on the 9th October'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-13-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-13",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s204"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 204. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s204"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'in a telegram dated 13th October addressed to Djemal Pasha, Minister of War, I said'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-19-telgraf-heyet-i-temsiliye-nin-sivas-ta",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s215"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 215. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "amasya",
+      "sender": "Heyet-i Temsiliye'nin Sivas'taki üyeleri",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s215"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 19th October, our colleagues at Sivas dispatched the following telegram, which was signed by the Representative Committee. To His Excellency Mustapha Pasha, Amasia'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-21-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-21",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s222"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 222. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "amasya",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s222"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'No. 419 Kadi Keui, 21st October, 1919. To His Excellency Mustapha Kemal Pasha, Amasia'; 23 Ekim'de ulaştı. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-23-telgraf-heyet-i-temsiliye-mustafa-kema",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-23",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s219"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 219. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "amasya",
+      "toPlaceId": "istanbul",
+      "sender": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s219"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In a telegram in cipher, dated the 23rd October, we told Djemal Pasha, Minister of War'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-24-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s224"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 224. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "amasya",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s224"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In cipher. Amasia, 24th October, 1919. Strictly confidential. To His Excellency Djemal Pasha, Minister of War. Reply to telegram in cipher of 21st October. No. 419'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-27-telgraf-bolu-mutasarrifi-haydar-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s219"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 219. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "bolu",
+      "sender": "Bolu Mutasarrıfı Haydar Bey",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s219"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 27th October we heard by telegram from Haidar Bey, Mutessarif of Bolu'; Heyet-i Temsiliye o günlerde Amasya'dan Sivas'a dönüyordu, alıcı yeri yok. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-28-telgraf-20-kolordu-komutani-ali-fuat-p",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-28",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s225"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 225. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "sender": "20. Kolordu Komutanı Ali Fuat Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s225"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 28th October Ali Fuad Pasha transmitted the contents of a telegram in cipher which our organisation in Constantinople had addressed personally to myself'; alıcı yeri yazmıyor. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-30-telgraf-mudafaa-i-hukuk-istanbul-subes",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-30",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s228"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 228. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Müdafaa-i Hukuk İstanbul Şubesi (Kara Vasıf Bey ve Şevket Bey)",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s228"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In the telegram we received on the 30th October from the Constantinople Branch of our organisations, signed by Kara Wassif Bey under a pseudonym and Shefket Bey'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-10-31-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-10-31",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s226"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 226. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s226"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Ciphered. Sivas, 31st October, 1919. To His Excellency Djemal Pasha, Minister of War'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-02-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-02",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s239"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 239. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s239"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 2nd November, Djemal Pasha, Minister of War, informed me in a telegram in cipher'; cevapta 'No. 501'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-03-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s239"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 239. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s239"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In cipher. Urgent. Sivas, 3rd November, 1919. To His Excellency Djemal Pasha, Minister of War. Reply to your telegram in cipher of 2nd November. No. 501'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-04-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-04",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s242"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 242. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s242"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 5 Kasım cevabında: 'Reply to your telegram of 4th November, 1919'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-05-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-05",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s242"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 242. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s242"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In cipher. Sivas, 5th November, 1919. To His Excellency Djemal Pasha, Minister of War. Reply to your telegram of 4th November, 1919'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-06-telgraf-harbiye-naziri-cemal-pasa-ve-k",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s231"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 231. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa ve Kara Vasıf Bey",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s231"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'another telegram in cipher sent on the 6th November, signed by Djemal Pasha, Minister of War, and Kara Wassif Bey'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-08-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-08",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s245"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 245. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s245"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 12 Kasım cevabında: 'Reply to telegram of 8th November, No 8084'; 'sent from the Head Office of the Sublime Porte'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-09-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s247"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 247. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s247"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'The telegram from the Minister of War, dated 9th November, is also very interesting'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-10-mektup-harbiye-naziri-cemal-pasa",
+      "kind": "mektup",
+      "date": {
+        "iso": "1919-11-10",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s248"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 248. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s248"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'the letter which Djemal Pasha had specially sent to me at Sivas on the 10th November'; 28 Kasım'da ulaştı. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-12-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-12",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s245"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 245. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s245"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In cipher. Sivas 12th November, 1919 To His Excellency Djemal Pasha Reply to telegram of 8th November'; imza 'Mustapha Kemal In the name of the Representative Committee'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-17-telgraf-curuksulu-mahmut-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-17",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s266"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 266. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Çürüksulu Mahmut Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s266"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In a telegram that I thought it right to send to His Excellency Tshuruk Sulu Mahmud Pasha on the 17th November'; alıcının yeri yazmıyor. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-19-telgraf-kara-vasif-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s231"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 231. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Kara Vasıf Bey",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s231"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In his telegram of the 19th November he told us what he thought about it' (taramada 'igth'); Kara Vasıf Bey İstanbul'daki teşkilattaydı. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-20-telgraf-mudafaa-i-hukuk-istanbul-subes",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s267"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 267. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Müdafaa-i Hukuk İstanbul Şubesi (Kara Vasıf Bey ve Albay Şevket Bey)",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s267"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In a telegram in cipher from our organisation in Constantinople, dated 20th November and signed by Kara Vassif Bey and Colonel Shefket Bey'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-24-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s250"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 250. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s250"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'The first paragraph of a telegram, dated 24th November, in which Djemal Pasha, the Minister of War, explained to us'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-25-telgraf-izmit-tumen-komutani",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-25",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s270"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 270. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "izmit",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "İzmit Tümen Komutanı",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s270"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). İzmit'ten gelen 29 Kasım cevabında: 'Reply to the telegram of 25th November'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-11-29-telgraf-izmit-tumen-komutani",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-11-29",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s270"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 270. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "izmit",
+      "toPlaceId": "sivas",
+      "sender": "İzmit Tümen Komutanı",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s270"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Ismidt 29th November. To the Commander of the IIIrd Army Corps, Sivas. Reply to the telegram of 25th November. To the Chairman of the Representative Committee'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-12-08-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-12-08",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s272"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 272. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s272"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I sent a telegram to Djemal Pasha, the Minister of War, on the 8th December'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-12-09-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-12-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s260"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 260. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s260"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'the Minister sent me two telegrams on the 9th December in quick succession … To the Command of the IIIrd Army Corps. Sivas, 9th December, 1919'; birinci telgraf. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-12-09-telgraf-harbiye-naziri-cemal-pasa-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-12-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s260"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 260. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "sivas",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s260"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). Aynı gün gelen ikinci telgraf. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-12-11-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-12-11",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s263"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 263. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s263"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In cipher, Sivas, 11th December, 1919. To His Excellency Djemal Pasha, Minister of War. Our Committee has received your telegram of 9th December'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-12-27-telgraf-heyet-i-temsiliye-mustafa-kema",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-12-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s287"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 287. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "recipient": "Bütün teşkilat (genelge)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s287"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'we circulated this open telegram on the 27th December. The Representative Committee, which has left Sivas for Angora, via Kaisaria, has arrived to-day'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-07-telgraf-heyet-i-temsiliye-mustafa-kema",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s276"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 276. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "izmit",
+      "sender": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "recipient": "İzmit kuvvetleri komutanı",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s276"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'we asked the commander of the troops at Ismidt in a ciphered telegram, dated 7th January'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-07-telgraf-1-tumen-komutan-vekili-fevzi-b",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s277"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 277. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "izmit",
+      "toPlaceId": "ankara",
+      "sender": "1. Tümen Komutan Vekili Fevzi Bey",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s277"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Two telegrams were sent on the 7th January, which we only received on the 8th. One of them was signed by Fewsi Bey, temporarily commanding the Ist Division at Ismidt'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-09-telgraf-izmit-tumen-komutan-vekili",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-09",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s278"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 278. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "izmit",
+      "toPlaceId": "ankara",
+      "sender": "İzmit Tümen Komutan Vekili",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s278"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In the two telegrams from the acting commander of the Division at Ismidt, dated the 9th and 10th January'; birincisi. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-10-telgraf-izmit-tumen-komutan-vekili",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-10",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s278"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 278. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "izmit",
+      "toPlaceId": "ankara",
+      "sender": "İzmit Tümen Komutan Vekili",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s278"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). Aynı yerde, ikincisi (10 Ocak). Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-10-telgraf-yaveri-cevat-bey-istanbul-mebu",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-10",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s277"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 277. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Yaveri Cevat Bey (İstanbul mebusu)",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s277"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'a telegram, dated the 10th January, arrived from Djevad Bey, my aide-de-camp, who was then a deputy in Constantinople: Harbie, 10th January. To the Command of the XXth Army Corps'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-11-telgraf-mebus-sirri-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-11",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s282"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 282. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "izmit",
+      "toPlaceId": "ankara",
+      "sender": "Mebus Sırrı Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s282"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Ismidt, 11th January, 1920. To the Command of the XXth Army Corps. To His Excellency Mustapha Kemal Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-14-telgraf-yahya-kaptan-in-esi",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-14",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s285"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 285. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Yahya Kaptan'ın eşi",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s285"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'To His Excellency Mustapha Kemal Pasha, President of the National Forces at Angora. Constantinople 4960. Constantinople, 14th January, 1920'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-02-19-mektup-rauf-bey",
+      "kind": "mektup",
+      "date": {
+        "iso": "1920-02-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s284"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 284. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Rauf Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s284"
+      ],
+      "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Rauf Bey, who was at that time in Constantinople, wrote me the following letter: Constantinople, 19th February, 1920. To His Excellency Mustapha Kemal Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
     }
   ]
 }

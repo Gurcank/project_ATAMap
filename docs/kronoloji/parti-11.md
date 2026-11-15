@@ -28,7 +28,7 @@
 | 30 Nisan 1920 | — | Yabancı devletlere TBMM'nin egemenliğini bildirdi | MSB «Millî Mücadele Dönemi» | — | **Yer bağlanmadı** |
 | 23 Temmuz 1921 | — | Meclisin gizli oturumunda Başkomutanlık tartışmasına katıldı | MSB «Millî Mücadele Dönemi» | — | Yıl, bölüm başlığından (10-24 Temmuz 1921). **Yer bağlanmadı** |
 | 6 Mart 1922 | — | Meclisin gizli oturumunda taarruz kararını açıkladı | MSB «Millî Mücadele Dönemi» | — | Sözün kendisi alınmadı. **Yer bağlanmadı** |
-| 19 Ağustos 1922 | — | Ankara'dan Akşehir'e gitti | MSB «Millî Mücadele Dönemi» | — | Akşehir için yer kaydı yok, araç yazmıyor. **Yer bağlanmadı** |
+| 19 Ağustos 1922 | — | ~~Ankara'dan Akşehir'e gitti~~ **kaldırıldı** | MSB «Millî Mücadele Dönemi» | — | Parti 12a'da Atatürk Ansiklopedisi «Büyük Taarruz» ile çelişti (17 Ağustos gece Konya'ya otomobil, 20 Ağustos trenle Akşehir); kullanıcı kararıyla ansiklopedi kaldı (2026-11-15) |
 | 29 Eylül 1922 | — | Konferans için Trakya şartını bildirdi | MSB «Millî Mücadele Dönemi» | — | Yıl, bölüm başlığından. **Yer bağlanmadı** |
 
 **Yer bağlanmadı ne demek:** Kaynak o gün nerede olduğunu yazmıyor. Durum kartuşunda yer alanı boş kalır. TBMM oturumları büyük olasılıkla Ankara'daydı, ama kaynak bunu yazmadığı için bağlamadım. Bu kural size uygun değilse söyleyin.

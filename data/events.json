@@ -13551,7 +13551,8 @@
       "sources": [
         "msb-milli-mucadele-donemi-p11"
       ],
-      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Araç kaynakta yazmıyor, seyahat kaydı açılmadı (A32). 2 Eylül'deki varış sitede zaten var."
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. 2 Eylül'deki varış sitede zaten var. Seyahat kaydı parti 12a ile bağlandı (araç: Atatürk Ansiklopedisi «Sivas Kongresi»).",
+      "journeyId": "erzurum-sivas-1919"
     },
     {
       "id": "kolordu-15-yazi-1920-02-06",
@@ -13642,24 +13643,6 @@
         "msb-milli-mucadele-donemi-p11"
       ],
       "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Sözün kendisi alıntı olarak alınmadı. Yer kaynakta yazmıyor; yer bağlanmadı."
-    },
-    {
-      "id": "aksehire-gitti-1922-08-19",
-      "date": {
-        "iso": "1922-08-19",
-        "precision": "day",
-        "approximate": false,
-        "sources": [
-          "msb-milli-mucadele-donemi-p11"
-        ],
-        "$note": "MSB «Millî Mücadele Dönemi»: 'Mustafa Kemal Paşa, 19 Ağustos 1922'de Ankara'dan Akşehir'e giderek'."
-      },
-      "title": "Ankara’dan Akşehir’e gitti",
-      "text": "Büyük Taarruz’dan önce Ankara’dan cephe karargâhının bulunduğu Akşehir’e gitti.",
-      "sources": [
-        "msb-milli-mucadele-donemi-p11"
-      ],
-      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Akşehir için yer kaydı yok ve araç kaynakta yazmıyor; seyahat kaydı açılmadı, yer bağlanmadı."
     },
     {
       "id": "mudanya-cevabi-1922-09-29",
@@ -14018,7 +14001,7 @@
         "ataturk-ansiklopedisi-4929"
       ],
       "journeyId": "ankara-aksehir-1922",
-      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Çelişki: MSB «Millî Mücadele Dönemi» 19 Ağustos diyor (parti belgesi)."
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Kullanıcı kararı (2026-11-15): ansiklopedinin anlatımı kaldı, MSB «Millî Mücadele Dönemi»nin 19 Ağustos kaydı kaldırıldı."
     },
     {
       "id": "aksehirde-savas-oyunu-1922-08-20",

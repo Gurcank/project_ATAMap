@@ -1,7 +1,7 @@
 # Kronoloji, parti 12a: Atatürk Ansiklopedisi, Millî Mücadele maddeleri
 
 > Kapsam: Atatürk Ansiklopedisi'nin yedi maddesi: Amasya Tamimi, Erzurum Kongresi, Sivas Kongresi, Mustafa Kemal Paşa'nın Ankara'ya Gelişi, Sakarya Meydan Muharebesi, Büyük Taarruz, Gazilik Unvanı ve Mareşallik Rütbesinin Verilmesi.
-> Durum: **onay bekliyor.** 26 olay, 3 seyahat, 3 yer `verified: false`.
+> Durum: **onaylandı (2026-11-15).** 26 olay, 3 seyahat ve 3 yer sitede. Çelişkide ansiklopedi kaldı.
 > Araştırma tarihi: 2026-11-15. Kaynak kuralı: SPEC §2.2, A27 (resmî kaynak tek başına yeter, yalnız olgu). Yer koordinatları ≥ 2 kaynak (Wikidata + OpenStreetMap).
 
 ## Nasıl tarandı
@@ -50,7 +50,7 @@ Her madde uygulama içi tarayıcıda açıldı. Mustafa Kemal'in adının ve gü
 | Ankara'dan Akşehir'e | Ankara → (Şereflikoçhisar) → Konya, 17 Ağustos 1922 gece; Konya → Akşehir, 20 Ağustos 1922 | Otomobil, sonra tren | Büyük Taarruz |
 
 - Hacıbektaş, Mucur, Kaman ve Behnan köyü için yer kaydı yok. Rota yalnız Kayseri'den geçirildi.
-- **Erzurum-Sivas seyahati onayda bağlanacak:** parti 11'de onaylanan "Erzurum'dan Sivas'a doğru yola çıktı" (29 Ağustos 1919) olayına seyahat kimliği onaydan sonra eklenecek. Şimdi eklenirse, onaylı olay seyahat onaylanana kadar sitede görünmez.
+- **Erzurum-Sivas seyahati bağlandı:** parti 11'deki "Erzurum'dan Sivas'a doğru yola çıktı" (29 Ağustos 1919) olayı onayla birlikte bu seyahate bağlandı.
 
 **Yerler** (`verified: false`):
 
@@ -69,7 +69,7 @@ Her madde uygulama içi tarayıcıda açıldı. Mustafa Kemal'in adının ve gü
 | MSB «Millî Mücadele Dönemi» (parti 11'de onaylandı) | 19 Ağustos 1922'de Ankara'dan Akşehir'e gitti |
 | Atatürk Ansiklopedisi «Büyük Taarruz» | 17 Ağustos gecesi otomobille Konya'ya hareket etti; 20 Ağustos'ta trenle Akşehir'e vardı |
 
-İkisi de resmî kaynak. Ansiklopedi daha ayrıntılı: güzergâh, araç ve saat veriyor. İkisi birlikte sitede kalırsa 17 ve 19 Ağustos'ta iki ayrı "Ankara'dan ayrıldı" adımı görünür. **Senin kararın:** ya 19 Ağustos kaydı kaldırılır, ya da 17 ve 20 Ağustos kayıtları girmez.
+İkisi de resmî kaynak. Ansiklopedi daha ayrıntılı: güzergâh, araç ve saat veriyor. İkisi birlikte sitede kalırsa 17 ve 19 Ağustos'ta iki ayrı "Ankara'dan ayrıldı" adımı görünür. **Karar (2026-11-15):** Ansiklopedi kaldı. Parti 11'deki 19 Ağustos kaydı (`aksehire-gitti-1922-08-19`) kaldırıldı.
 
 ## Bilerek almadıklarım
 

@@ -986,18 +986,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d3-c13-i1-1929-11-01"
+          "tbmm-zc-d3-c13-i1-1929-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Meclisin üçüncü devre üçüncü içtima senesi açıldı",
       "text": "Reisicümhur Gazi Mustafa Kemal, Büyük Millet Meclisinin üçüncü devresinin üçüncü içtima senesini bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d3-c13-i1-1929-11-01"
+        "tbmm-zc-d3-c13-i1-1929-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1929-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "tbmm-acilis-1930-11-01",
@@ -1007,18 +1010,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d3-c22-i1-1930-11-01"
+          "tbmm-zc-d3-c22-i1-1930-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Meclisin son toplanma yılı açıldı",
       "text": "Reisicümhur Gazi Mustafa Kemal, Üçüncü Büyük Millet Meclisinin son toplanma yılını bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d3-c22-i1-1930-11-01"
+        "tbmm-zc-d3-c22-i1-1930-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1930-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "tarih-cemiyeti-1931-04-12",
@@ -1083,18 +1089,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-c4-i1-1931-11-01"
+          "tbmm-zc-c4-i1-1931-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Dördüncü Meclisin ilk toplanma yılı açıldı",
       "text": "Reisicümhur Gazi Mustafa Kemal, Dördüncü Büyük Millet Meclisinin ilk toplanma yılını bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-c4-i1-1931-11-01"
+        "tbmm-zc-c4-i1-1931-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1931-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "dil-cemiyeti-1932-07-12",
@@ -1122,18 +1131,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d4-c10-i1-1932-11-01"
+          "tbmm-zc-d4-c10-i1-1932-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Dördüncü Meclisin ikinci toplanma yılı açıldı",
       "text": "Reisicümhur Gazi Hazretleri, Dördüncü Büyük Millet Meclisinin ikinci toplanma yılını bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d4-c10-i1-1932-11-01"
+        "tbmm-zc-d4-c10-i1-1932-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1932-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "tbmm-acilis-1933-11-01",
@@ -1143,18 +1155,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d4-i3-c18-1933-11-01"
+          "tbmm-zc-d4-i3-c18-1933-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Dördüncü Meclisin üçüncü toplanma yılı açıldı",
       "text": "Reisicümhur Mustafa Kemal Hazretleri, Dördüncü Büyük Millet Meclisinin üçüncü toplanma yılını bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d4-i3-c18-1933-11-01"
+        "tbmm-zc-d4-i3-c18-1933-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1933-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "tbmm-acilis-1934-11-01",
@@ -1164,18 +1179,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d4-i4-c25-1934-11-01"
+          "tbmm-zc-d4-i4-c25-1934-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Dördüncü Meclisin dördüncü toplanma yılı açıldı",
       "text": "Reisicümhur Gazi Mustafa Kemal Hazretleri, Dördüncü Büyük Millet Meclisinin dördüncü toplanma yılını bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d4-i4-c25-1934-11-01"
+        "tbmm-zc-d4-i4-c25-1934-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1934-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "dorduncu-cumhurbaskanligi-1935-03-01",
@@ -1257,18 +1275,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d5-i1-c6-1935-11-01"
+          "tbmm-zc-d5-i1-c6-1935-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Kamutayın beşinci devresi açıldı",
       "text": "Reisicümhur Kamâl Atatürk, Kamutayın beşinci devresini bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d5-i1-c6-1935-11-01"
+        "tbmm-zc-d5-i1-c6-1935-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1935-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "dtcf-1936-01-09",
@@ -1297,18 +1318,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d5-i2-c13-1936-11-01"
+          "tbmm-zc-d5-i2-c13-1936-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Kamutayın beşinci devresinin ikinci yılı açıldı",
       "text": "Reisicümhur Kamâl Atatürk, Kamutayın beşinci devresinin ikinci senesini bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d5-i2-c13-1936-11-01"
+        "tbmm-zc-d5-i2-c13-1936-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1936-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "ciftlik-bagisi-1937-06-11",
@@ -1336,18 +1360,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d5-i3-c20-1937-11-01"
+          "tbmm-zc-d5-i3-c20-1937-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Kamutayın beşinci devresinin üçüncü yılı açıldı",
       "text": "Reisicümhur Kamâl Atatürk, Kamutayın beşinci devresinin üçüncü yılını bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d5-i3-c20-1937-11-01"
+        "tbmm-zc-d5-i3-c20-1937-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1937-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "hastalik-bildirisi-1938-03-30",
@@ -1451,18 +1478,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-d5-i4-c27-1938-11-01"
+          "tbmm-zc-d5-i4-c27-1938-11-01",
+          "msb-kronoloji-1923-1938-p10b"
         ]
       },
       "title": "Reisicümhurun nutku Kamutayda okundu",
       "text": "Başvekil Celâl Bayar, Reisicümhurun bu seneye aid nutkunu Kamutayda okudu.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-d5-i4-c27-1938-11-01"
+        "tbmm-zc-d5-i4-c27-1938-11-01",
+        "msb-kronoloji-1923-1938-p10b"
       ],
       "documentIds": [
         "tbmm-nutuk-1938-11-01"
-      ]
+      ],
+      "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "dogum-selanik",
@@ -3206,7 +3236,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "milliyet-1933-10-30"
+          "milliyet-1933-10-30",
+          "msb-kronoloji-1923-1938-p10b"
         ],
         "$note": "Vikipedi: 29 Ekim 1933. Milliyet 30 Teşrinievvel 1933 s. 1: 'dün Ankarada'."
       },
@@ -3215,9 +3246,10 @@
       "placeId": "ankara",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "milliyet-1933-10-30"
+        "milliyet-1933-10-30",
+        "msb-kronoloji-1923-1938-p10b"
       ],
-      "$note": "Parti 10b."
+      "$note": "Parti 10b. K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "soyadi-1934-11-24",
@@ -3227,7 +3259,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "aksam-1934-11-25"
+          "aksam-1934-11-25",
+          "msb-kronoloji-1923-1938-p10b"
         ],
         "$note": "Vikipedi: 24 Kasım 1934 tarihli 2587 sayılı kanun. Akşam 25 Teşrinisani 1934 s. 1: 'dün'."
       },
@@ -3235,9 +3268,10 @@
       "text": "İsmet Paşa'nın teklifiyle Büyük Millet Meclisi kanunla ona Atatürk soyadını verdi.",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "aksam-1934-11-25"
+        "aksam-1934-11-25",
+        "msb-kronoloji-1923-1938-p10b"
       ],
-      "$note": "Parti 10b."
+      "$note": "Parti 10b. K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "ikinci-koma-1938-11-08",
@@ -3266,7 +3300,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "wikidata-q5152-r2569089775-p570-p20"
+          "wikidata-q5152-r2569089775-p570-p20",
+          "msb-kronoloji-1923-1938-p10b"
         ],
         "$note": "Vikipedi: 10 Kasım 1938, 09.05. Wikidata P570: 1938-11-10."
       },
@@ -3275,9 +3310,10 @@
       "placeId": "dolmabahce-sarayi",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "wikidata-q5152-r2569089775-p570-p20"
+        "wikidata-q5152-r2569089775-p570-p20",
+        "msb-kronoloji-1923-1938-p10b"
       ],
-      "$note": "Parti 10b."
+      "$note": "Parti 10b. K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "ilk-ogrenim-1886",

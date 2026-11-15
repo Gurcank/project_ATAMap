@@ -68,7 +68,7 @@ Bu kayıt onaylanırsa durum kartuşunda 1923-1938 adımlarında "Görev: Reisic
 
 ## K5 yeniden taraması (2026-11-15)
 
-Kaynak: MSB «Atatürk Kronolojisi» 1923-1938 bölümü (resmî, yalnız olgu). Maddelerdeki alıntılar alınmadı. Ayrı kaynak kaydı: `msb-kronoloji-1923-1938-p10b`. Durum: **onay bekliyor**, yeni kayıtlar `verified: false`. Kanunlar, antlaşmalar ve Atatürk'ün kendi eylemi olmayan olaylar (Serbest Fırka, Menemen, Halkevleri, Montrö, Hatay, Sadabat) girmedi.
+Kaynak: MSB «Atatürk Kronolojisi» 1923-1938 bölümü (resmî, yalnız olgu). Maddelerdeki alıntılar alınmadı. Ayrı kaynak kaydı: `msb-kronoloji-1923-1938-p10b`. Durum: **onaylandı (2026-11-15)**, olaylar sitede. Kanunlar, antlaşmalar ve Atatürk'ün kendi eylemi olmayan olaylar (Serbest Fırka, Menemen, Halkevleri, Montrö, Hatay, Sadabat) girmedi.
 
 **Yeni olaylar:**
 
@@ -95,3 +95,5 @@ Kaynak: MSB «Atatürk Kronolojisi» 1923-1938 bölümü (resmî, yalnız olgu).
 **Sitedeki olaylar:** MSB 1929-1937 arasındaki 1 Kasım açış konuşmalarını, 1 Kasım 1938'de konuşmanın Celâl Bayar tarafından okunmasını, 29 Ekim 1933 Onuncu Yıl Nutku'nu, 24 Kasım 1934 soyadı kanununu ve 10 Kasım 1938 ölümü aynı günlerle veriyor. Onaydan sonra MSB bunlara kaynak olarak eklenecek.
 
 **Girmeyenler:** 28 Kasım 1938 vasiyetin açılması (ölümünden sonra; zaman çizelgesi ölümle bitiyor). Millet Mekteplerinin açılması (1 Ocak 1929) ve İstanbul Üniversitesi'nin kurulması onun kendi eylemi olarak yazılmamış.
+
+**Kararlar (2026-11-15):** Parti onaylandı. MSB, sitedeki on üç olaya kaynak olarak eklendi. K5 yeniden taraması bu partiyle tamamlandı.

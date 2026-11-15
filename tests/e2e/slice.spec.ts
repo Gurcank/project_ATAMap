@@ -116,19 +116,19 @@ test('map keeps at least 55 % of the height at 375 (SPEC §4.3)', async ({ page 
 test('next / previous buttons and the URL', async ({ page }) => {
   await open(page, FIRST);
   await page.getByRole('button', { name: 'Sonraki' }).click();
-  await expect(page.getByText('1 Mart 1921')).toBeVisible();
-  await expect(page).toHaveURL(/#adim=tbmm-acilis-1921-03-01/);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText('TBMM Başkanı seçildi');
+  await expect(page).toHaveURL(/#adim=tbmm-reisi-1920-04-24/);
   await expect(page.getByRole('button', { name: 'Önceki' })).toBeEnabled();
   await page.getByRole('button', { name: 'Önceki' }).click();
-  await expect(page.getByText('24 Nisan 1920')).toBeVisible();
+  await expect(page).toHaveURL(/#adim=tbmm-nutuk-1920-04-24/);
 });
 
 test('arrow keys step, Space starts and stops autoplay', async ({ page }) => {
   await open(page, FIRST);
   await page.keyboard.press('ArrowRight');
-  await expect(page.getByText('1 Mart 1921')).toBeVisible();
+  await expect(page).toHaveURL(/#adim=tbmm-reisi-1920-04-24/);
   await page.keyboard.press('ArrowLeft');
-  await expect(page.getByText('24 Nisan 1920')).toBeVisible();
+  await expect(page).toHaveURL(/#adim=tbmm-nutuk-1920-04-24/);
   const auto = page.getByRole('button', { name: 'Otomatik' });
   await page.keyboard.press(' ');
   await expect(auto).toHaveAttribute('aria-pressed', 'true');
@@ -156,10 +156,11 @@ test('mode selector: years skip', async ({ page }) => {
   await open(page, '/#adim=tbmm-nutuk-1923-08-13');
   const mode = page.getByLabel('Adım birimi');
   await mode.selectOption('yil');
-  // 1923 has two events; year mode lands on the first of the year, never later than where we were.
-  await expect(page.getByText('1 Mart 1923')).toBeVisible();
+  // Year mode lands on the first event of the year, never later than where we were.
+  await expect(page).toHaveURL(/#adim=zubeyde-hanim-1923-01-14/);
   await page.getByRole('button', { name: 'Sonraki' }).click();
-  await expect(page.getByText('1 Mart 1924')).toBeVisible();
+  // The first event of 1924, whichever it is: its date line ends in 1924.
+  await expect(page.getByText(/^\d{1,2} \p{L}+ 1924$/u)).toBeVisible();
 });
 
 test('the first real journey: Amasya to Erzurum by car, approximate route', async ({
@@ -191,8 +192,7 @@ test('the Republic: age, rank, duty and place in the status', async ({ page }, i
 });
 
 test('a duty in force shows in the status (1920-1921)', async ({ page }, info) => {
-  await open(page, '/#adim=tbmm-nutuk-1920-04-24');
-  await page.getByRole('button', { name: 'Sonraki' }).click();
+  await open(page, '/#adim=tbmm-acilis-1921-03-01');
   await expect(page.getByText('1 Mart 1921')).toBeVisible();
   const status = page.getByRole('region', { name: 'Durum' });
   if (info.project.name === 'mobil-375') await status.getByRole('button').click();
@@ -232,9 +232,9 @@ test('a step without a place keeps the camera where it was', async ({ page }) =>
   await open(page, '/#adim=baskomutan-1921-08-05'); // Ankara
   const view = () => page.locator('svg g').first().getAttribute('transform');
   const before = await view();
-  await page.getByRole('button', { name: 'Sonraki' }).click(); // 19 Sep 1921, no place
+  await page.getByRole('button', { name: 'Sonraki' }).click(); // 7-8 Aug 1921, no place
   await expect(page.getByRole('heading', { level: 2 })).toHaveText(
-    'Müşîr rütbesi ve Gazi unvanı verildi',
+    'Tekâlif-i Milliye emirlerini yayımladı',
   );
   await page.waitForTimeout(1500);
   expect(await view()).toBe(before);

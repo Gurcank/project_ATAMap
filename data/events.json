@@ -162,18 +162,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1921-03-01"
+          "tbmm-zc-early-1921-03-01",
+          "msb-kronoloji-1919-1922-p9b"
         ]
       },
       "title": "Meclisin ikinci içtima senesi açıldı",
       "text": "Meclis Reisi Mustafa Kemal Paşa, ikinci içtima senesini bir nutukla açtı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1921-03-01"
+        "tbmm-zc-early-1921-03-01",
+        "msb-kronoloji-1919-1922-p9b"
       ],
       "documentIds": [
         "tbmm-nutuk-1921-03-01"
-      ]
+      ],
+      "$note": " K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "ikinci-inonu-telgrafi-1921-04-01",
@@ -301,7 +304,7 @@
       "sources": [
         "msb-kronoloji-1919-1922-p9b"
       ],
-      "$note": "K5 taraması, parti 9b. MSB maddesi 'zaferle sonuçlanması' diyor; Başkomutanlığı 5 Ağustos 1921 maddesinden. Muharebe alanı için koordinat aranmadı."
+      "$note": "K5 taraması, parti 9b. MSB maddesi 'zaferle sonuçlanması' diyor; Başkomutanlığı 5 Ağustos 1921 maddesinden. Muharebe alanı için koordinat aranmadı. Kullanıcı kararı (2026-11-15): muharebe olayı olarak kalır."
     },
     {
       "id": "harp-encumeni-1922-01-14",
@@ -329,18 +332,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1922-03-01"
+          "tbmm-zc-early-1922-03-01",
+          "msb-kronoloji-1919-1922-p9b"
         ]
       },
       "title": "Meclisin üçüncü içtima senesi açıldı",
       "text": "Meclis Reisi Mustafa Kemal Paşa, Meclisin üçüncü içtima senesinin açılışında nutuk söyledi.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1922-03-01"
+        "tbmm-zc-early-1922-03-01",
+        "msb-kronoloji-1919-1922-p9b"
       ],
       "documentIds": [
         "tbmm-nutuk-1922-03-01"
-      ]
+      ],
+      "$note": " K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "suresiz-baskomutanlik-1922-07-20",
@@ -517,18 +523,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1923-03-01"
+          "tbmm-zc-early-1923-03-01",
+          "msb-kronoloji-1923-1938-p9b"
         ]
       },
       "title": "Meclisin dördüncü içtima senesi açıldı",
       "text": "Meclis Reisi Gazi Mustafa Kemal Paşa, Birinci Devrenin dördüncü içtima senesini açış nutkuyla başlattı.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1923-03-01"
+        "tbmm-zc-early-1923-03-01",
+        "msb-kronoloji-1923-1938-p9b"
       ],
       "documentIds": [
         "tbmm-nutuk-1923-03-01"
-      ]
+      ],
+      "$note": " K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "dokuz-ilke-1923-04-08",
@@ -556,18 +565,21 @@
         "approximate": false,
         "primaryDocument": true,
         "sources": [
-          "tbmm-zc-early-1923-08-13"
+          "tbmm-zc-early-1923-08-13",
+          "msb-kronoloji-1923-1938-p9b"
         ]
       },
       "title": "Meclis Reisi Mondros'tan sonrasını anlattı",
       "text": "Meclis Reisi Gazi Mustafa Kemal Paşa, Mondros Mütarekesinden itibaren geçen devri üç safhada anlatan bir nutuk söyledi.",
       "placeId": "ankara",
       "sources": [
-        "tbmm-zc-early-1923-08-13"
+        "tbmm-zc-early-1923-08-13",
+        "msb-kronoloji-1923-1938-p9b"
       ],
       "documentIds": [
         "tbmm-nutuk-1923-08-13"
-      ]
+      ],
+      "$note": " K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "halk-firkasi-1923-09-11",
@@ -2507,7 +2519,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s523-657"
+          "nutuk-en-1929-s523-657",
+          "msb-kronoloji-1919-1922-p9b"
         ],
         "$note": "Nutuk s. 549: 'The Act of the 5th August, 1921'. Vikipedi: 5 Ağustos 1921."
       },
@@ -2516,9 +2529,10 @@
       "placeId": "ankara",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s523-657"
+        "nutuk-en-1929-s523-657",
+        "msb-kronoloji-1919-1922-p9b"
       ],
-      "$note": "Parti 9b."
+      "$note": "Parti 9b. K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "musir-gazi-1921-09-19",
@@ -2528,7 +2542,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "wikidata-q5152-r2569089775-p39-p410"
+          "wikidata-q5152-r2569089775-p39-p410",
+          "msb-kronoloji-1919-1922-p9b"
         ],
         "$note": "Vikipedi: 19 Eylül 1921. Wikidata P410 Mareşal başlangıcı 1921-09-19 (dayanak MSB). Nutuk s. 523 tarihsiz."
       },
@@ -2537,9 +2552,10 @@
       "sources": [
         "vikipedi-tr-ataturk-38564203",
         "nutuk-en-1929-s523-657",
-        "wikidata-q5152-r2569089775-p39-p410"
+        "wikidata-q5152-r2569089775-p39-p410",
+        "msb-kronoloji-1919-1922-p9b"
       ],
-      "$note": "Parti 9b."
+      "$note": "Parti 9b. K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "buyuk-taarruz-1922-08-26",
@@ -2549,7 +2565,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s523-657"
+          "nutuk-en-1929-s523-657",
+          "msb-kronoloji-1919-1922-p9b"
         ],
         "$note": "Nutuk s. 565: taarruzun 'in the forenoon of the 26th August, 1922' açılması emri; s. 566: topçu ateşi sabah 5.30. Vikipedi: 26 Ağustos 1922 sabahı."
       },
@@ -2557,9 +2574,10 @@
       "text": "Başkomutan olarak verdiği emirle Büyük Taarruz sabah saatlerinde topçu ateşiyle başladı.",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s523-657"
+        "nutuk-en-1929-s523-657",
+        "msb-kronoloji-1919-1922-p9b"
       ],
-      "$note": "Parti 9b."
+      "$note": "Parti 9b. K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "baskomutanlik-muharebesi-1922-08-30",
@@ -2569,7 +2587,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s523-657"
+          "nutuk-en-1929-s523-657",
+          "msb-kronoloji-1919-1922-p9b"
         ],
         "$note": "Nutuk s. 566: 'On the 30th August … Battle of the Generalissimus'. Vikipedi: 30 Ağustos."
       },
@@ -2577,9 +2596,10 @@
       "text": "Başkomutanlık Meydan Muharebesi'nde Yunan ordusunun ana kuvvetleri bir gün içinde imha edildi ya da esir alındı.",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s523-657"
+        "nutuk-en-1929-s523-657",
+        "msb-kronoloji-1919-1922-p9b"
       ],
-      "$note": "Parti 9b."
+      "$note": "Parti 9b. K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "cumhuriyet-1923-10-29",
@@ -2589,7 +2609,8 @@
         "approximate": false,
         "sources": [
           "vikipedi-tr-ataturk-38564203",
-          "nutuk-en-1929-s523-657"
+          "nutuk-en-1929-s523-657",
+          "msb-kronoloji-1923-1938-p9b"
         ],
         "$note": "Nutuk s. 657: 29 Ekim 1923 akşamı 8.30 ve 8.45. Vikipedi: 29 Ekim 1923."
       },
@@ -2598,9 +2619,10 @@
       "placeId": "ankara",
       "sources": [
         "vikipedi-tr-ataturk-38564203",
-        "nutuk-en-1929-s523-657"
+        "nutuk-en-1929-s523-657",
+        "msb-kronoloji-1923-1938-p9b"
       ],
-      "$note": "Parti 9b."
+      "$note": "Parti 9b. K5 parti 9b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
       "id": "nutuk-1927-10",

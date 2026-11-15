@@ -66,7 +66,7 @@ Beş olay ve sitenin ilk iki rütbe/görev kaydı girdi. Senden gereken kararlar
 
 ## K5 yeniden taraması (2026-11-15)
 
-Kaynak: MSB «Atatürk Kronolojisi» 1919-1922 ve 1923-1938 bölümleri (resmî, yalnız olgu). Maddelerdeki Atatürk alıntıları alınmadı (SPEC §2.1). Ayrı kaynak kayıtları: `msb-kronoloji-1919-1922-p9b`, `msb-kronoloji-1923-1938-p9b`. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+Kaynak: MSB «Atatürk Kronolojisi» 1919-1922 ve 1923-1938 bölümleri (resmî, yalnız olgu). Maddelerdeki Atatürk alıntıları alınmadı (SPEC §2.1). Ayrı kaynak kayıtları: `msb-kronoloji-1919-1922-p9b`, `msb-kronoloji-1923-1938-p9b`. Durum: **onaylandı (2026-11-15)**, olaylar, İzmir ve Bilecik sitede.
 
 Seçim ölçütü: Atatürk'ün kendi eylemi ya da doğrudan onunla ilgili karar (idam kararı gibi). Antlaşmalar, İnönü muharebeleri, Saltanat'ın kaldırılması (önceki kararın), Lozan ve Ankara'nın başkent olması girmedi.
 
@@ -113,3 +113,5 @@ Seçim ölçütü: Atatürk'ün kendi eylemi ya da doğrudan onunla ilgili karar
 **Görev girmedi:**
 - TBMM Başkanlığı (24 Nisan 1920 →): bitiş tarihi resmî kaynakta yok. Önceki taramada Nutuk s. 657 bitiş sayılmıştı, ama o sayfa 29 Ekim 1923 akşamı Fethi Bey'i Meclis Reisi olarak anıyor; bu, devrin tarihini vermiyor.
 - Başkomutanlık ve Halk Fırkası Genel Başkanlığı: bitişleri kaynakta açık değil.
+
+**Kararlar (2026-11-15):** Parti onaylandı. Sakarya zaferi (13 Eylül 1921) olay olarak kalır. MSB, sitedeki dokuz olaya kaynak olarak eklendi.

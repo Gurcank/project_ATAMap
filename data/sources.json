@@ -1177,10 +1177,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1919-1922 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 9b (2026-11-15). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 24 Nisan 1920 - 4 Ekim 1922."
+      "$note": "K5 yeniden taraması, parti 9b (2026-11-15). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 24 Nisan 1920 - 4 Ekim 1922. Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9b)."
     },
     {
       "id": "msb-kronoloji-1923-1938-p9b",
@@ -1189,10 +1189,10 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
+      "verified": true,
       "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1923-1938 bölümü",
       "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
-      "$note": "K5 yeniden taraması, parti 9b (2026-11-15). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 14 Ocak - 29 Ekim 1923."
+      "$note": "K5 yeniden taraması, parti 9b (2026-11-15). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 14 Ocak - 29 Ekim 1923. Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9b)."
     },
     {
       "id": "wikidata-q35997-r2563887435",
@@ -1203,8 +1203,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 9b. P625: 38.41273, 27.13838; dayanak P143 Q837615."
+      "verified": true,
+      "$note": "K5 taraması, parti 9b. P625: 38.41273, 27.13838; dayanak P143 Q837615. Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9b)."
     },
     {
       "id": "wikidata-q208006-r2530466021",
@@ -1215,8 +1215,8 @@
       "rights": "acik-lisans",
       "licence": "CC0-1.0",
       "free": true,
-      "verified": false,
-      "$note": "K5 taraması, parti 9b. P625: 40.143056, 29.979167; dayanak İngilizce Vikipedi (P143 Q328)."
+      "verified": true,
+      "$note": "K5 taraması, parti 9b. P625: 40.143056, 29.979167; dayanak İngilizce Vikipedi (P143 Q328). Kullanıcı onayı: 2026-11-15 (K5 taraması, parti 9b)."
     }
   ]
 }

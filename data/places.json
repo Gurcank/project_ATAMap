@@ -593,6 +593,27 @@
           "$note": "MSB kronolojisi (resmî): 'Nablus'taki 7'nci Ordu Karargâhına'; Vikipedi 'Nablus'."
         }
       ]
+    },
+    {
+      "id": "havza",
+      "point": {
+        "lon": 35.666666666667,
+        "lat": 40.966666666667,
+        "sources": [
+          "wikidata-q2671132-r2527254326",
+          "osm-relation-1837366"
+        ],
+        "$note": "Wikidata: 40.966667, 35.666667. OpenStreetMap (relation 1837366): 40.966061, 35.665348. Fark yaklaşık 0,1 km."
+      },
+      "names": [
+        {
+          "name": "Havza",
+          "sources": [
+            "msb-kronoloji-1919-1922-p9a"
+          ],
+          "$note": "MSB kronolojisi (resmî): 'Samsun'dan Havza'ya gelmesi'."
+        }
+      ]
     }
   ]
 }

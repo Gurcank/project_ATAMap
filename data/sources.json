@@ -1121,6 +1121,54 @@
       "free": true,
       "verified": true,
       "$note": "K5 taraması, parti 8b. P625 iki değer; 'preferred' olan kullanıldı: 32.220833, 35.262778 (dayanak P143 Q24578999, Q1985727). Öbürü 32.221111, 35.260833 (İngilizce Vikipedi). Kullanıcı onayı: 2026-11-14 (K5 taraması, parti 8b)."
+    },
+    {
+      "id": "msb-kronoloji-1919-1922-p9a",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Atatürk Kronolojisi», 1919-1922 bölümü",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturk-kronolojisi",
+      "$note": "K5 yeniden taraması, parti 9a (2026-11-14). Resmî kaynak (A27), yalnız olgu; maddelerdeki alıntılar alınmadı. Parti onayına kadar beklesin diye ayrı kayıt. Maddeler 16 Mayıs 1919 - 23 Nisan 1920."
+    },
+    {
+      "id": "msb-askeri-gorevleri-p9a",
+      "institution": "T.C. Millî Savunma Bakanlığı",
+      "accessedAt": "2026-11-14",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "citation": "MSB Atatürk Sitesi, «Askerî Görevleri»",
+      "url": "https://ata.msb.gov.tr/Sayfa/SayfaGoster/askeri-gorevleri",
+      "$note": "K5 taraması, parti 9a (2026-11-14). Resmî kaynak (A27), yalnız olgu. Parti onayına kadar beklesin diye ayrı kayıt."
+    },
+    {
+      "id": "wikidata-q2671132-r2527254326",
+      "institution": "Wikidata",
+      "citation": "Wikidata, Q2671132 (Havza), P625 koordinat, revizyon 2527254326",
+      "url": "https://www.wikidata.org/wiki/Special:EntityData/Q2671132.json?revision=2527254326",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "CC0-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 9a. P625: 40.966667, 35.666667; dayanak İngilizce Vikipedi (P143 Q328)."
+    },
+    {
+      "id": "osm-relation-1837366",
+      "institution": "OpenStreetMap",
+      "citation": "OpenStreetMap katkıcıları, relation 1837366 («Havza»)",
+      "url": "https://www.openstreetmap.org/relation/1837366",
+      "accessedAt": "2026-11-14",
+      "rights": "acik-lisans",
+      "licence": "ODbL-1.0",
+      "free": true,
+      "verified": false,
+      "$note": "K5 taraması, parti 9a. Nominatim (2026-11-14): 40.9660605, 35.6653476 (idari sınırın noktası). Koordinatı teyit için; saklanan değer Wikidata'nınki."
     }
   ]
 }

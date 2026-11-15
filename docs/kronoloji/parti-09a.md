@@ -77,3 +77,36 @@ Nutuk'un 1929 İngilizce baskısı bu dönem için güçlü bir ikinci kaynak: s
 1. Partinin genel onayı.
 2. Amasya Genelgesi'nin 21-22 Haziran aralığı.
 3. Ankara'nın dönem adına iki kaynak eklenmesi.
+
+## K5 yeniden taraması (2026-11-14)
+
+Kaynaklar: MSB «Atatürk Kronolojisi» 1919-1922 bölümü ve «Askerî Görevleri» (resmî, yalnız olgu). Maddelerdeki Atatürk alıntıları alınmadı (SPEC §2.1). Ayrı kaynak kayıtları: `msb-kronoloji-1919-1922-p9a`, `msb-askeri-gorevleri-p9a`. Durum: **onay bekliyor**, kayıtlar `verified: false`.
+
+**Yeni olaylar:**
+
+| Tarih | Yer | Olay | Kaynak 1 | Kaynak 2 | Belirsizlik |
+|---|---|---|---|---|---|
+| 16 Mayıs 1919 | İstanbul | Bandırma Vapuru'yla İstanbul'dan ayrıldı | MSB | MSB, Vikipedi | Seyahat girmedi: İstanbul-Samsun düz çizgisi karadan geçer, deniz yolunun ara noktaları kaynakta yok |
+| 22 Mayıs 1919 | Samsun | Samsun'dan Sadarete rapor gönderdi | MSB | — | — |
+| 25 Mayıs 1919 | Havza | Havza'ya geldi | MSB | — | Samsun'dan çıkış tarihi yok |
+| 11-12 Haziran 1919 | Amasya | Amasya'ya geldi | MSB kronoloji ("11 veya 12") | MSB «Askerî Görevleri» (12) | Vikipedi 13 Haziran; resmî kaynağın günleri |
+| 21 Haziran 1919 | Amasya | İstanbul'daki tanınmış kişilere davet mektupları | MSB | — | — |
+| 9 Temmuz 1919 | — | İstifasını genelgeyle duyurdu | MSB | — | Nereden gönderildiği yazmıyor |
+| 7 Ağustos 1919 | Erzurum | Erzurum Kongresi sona erdi; Heyet-i Temsiliye Reisi seçildi | MSB | Vikipedi | — |
+| 9 Ağustos 1919 | — | İrade-i seniyeyle askerlikten çıkarıldı, nişanları geri alındı | MSB | — | İstanbul'daki bir karar; yer yok |
+| 2 Eylül 1919 | Sivas | Sivas'a geldi | MSB | — | — |
+| 11 Eylül 1919 | Sivas | Sivas Kongresi sona erdi; Müdafaa-i Hukuk Cemiyeti'nin kuruluş yazısı | MSB | Vikipedi | — |
+| 7 Ekim 1919 | — | Heyet-i Temsiliye adına beyanname | MSB | — | Nereden yazmıyor |
+| 18 Ekim 1919 | Amasya | Sivas'tan Amasya'ya geldi | MSB | — | — |
+| 20-22 Ekim 1919 | Amasya | Amasya Görüşmeleri (Salih Paşa ile) | MSB | — | — |
+| 7 Kasım 1919 | — | Erzurum mebusu seçildi | MSB | — | — |
+| 16 Mart 1920 | — | İstanbul'un işgali üzerine beyanname | MSB | — | Nereden yazmıyor |
+| 19 Mart 1920 | — | Ankara'da meclis için seçim genelgesi | MSB | — | Nereden yazmıyor |
+
+**Sitedeki olaylar:** MSB 19 Mayıs, 22 Haziran (genelge), 8/9 Temmuz (istifa telgrafı), 23 Temmuz, 4 Eylül, 27 Aralık 1919 ve 23 Nisan 1920 olaylarını aynı günlerle veriyor; 3 Temmuz (Erzurum'a varış) seyahatin varışıyla aynı. Onaydan sonra MSB bunlara kaynak olarak eklenecek.
+
+**Yeni yer: Havza.** Wikidata Q2671132 (40.966667, 35.666667), OpenStreetMap relation 1837366 (40.966061, 35.665348), fark ~0,1 km. Ad "Havza" (MSB).
+
+**Görev girmedi:** Heyet-i Temsiliye Reisliği (7 Ağustos 1919). Bitişi kaynakta açık değil.
+
+**Girmeyenler:** 14 Temmuz Albayrak gazetesi ilanı (Atatürk'ün kendi eylemi değil; Erzurum şubesinin başına geçmesi tarihsiz). Meclis-i Mebusan'ın açılması ve kapatılması, Misakımillî, İstanbul'un işgali Atatürk'ün kendi olayları değil.

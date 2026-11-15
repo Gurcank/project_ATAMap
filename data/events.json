@@ -1525,6 +1525,29 @@
       "$note": "K5 taraması, parti 8b. Atandığında İstanbul'da olduğu muhtemel ama kaynak yer yazmıyor; yer bağlanmadı."
     },
     {
+      "id": "bandirma-1919-05-16",
+      "date": {
+        "iso": "1919-05-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a",
+          "msb-askeri-gorevleri-p9a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB kronoloji, «Askerî Görevleri» ve Vikipedi: 16 Mayıs 1919."
+      },
+      "title": "Bandırma Vapuru'yla İstanbul'dan ayrıldı",
+      "text": "Anadolu'ya geçmek üzere Bandırma Vapuru ile İstanbul'dan ayrıldı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a",
+        "msb-askeri-gorevleri-p9a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 9a. Seyahat adayı (gemi, 19 Mayıs'ta Samsun), ama İstanbul-Samsun arasında düz çizgi karadan geçer; deniz yolunun kaynaklı ara noktaları yok, seyahat girmedi."
+    },
+    {
       "id": "samsun-1919-05-19",
       "date": {
         "iso": "1919-05-19",
@@ -1544,6 +1567,85 @@
         "nutuk-en-1929-s9"
       ],
       "$note": "Parti 9a."
+    },
+    {
+      "id": "sadarete-rapor-1919-05-22",
+      "date": {
+        "iso": "1919-05-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 22 Mayıs 1919."
+      },
+      "title": "Samsun’dan Sadarete rapor gönderdi",
+      "text": "Samsun'dan Sadarete bir rapor gönderdi.",
+      "placeId": "samsun",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a. Raporun metni MSB'de alıntılanıyor; alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "havzaya-gelis-1919-05-25",
+      "date": {
+        "iso": "1919-05-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 25 Mayıs 1919."
+      },
+      "title": "Havza'ya geldi",
+      "text": "Samsun'dan Havza'ya geldi.",
+      "placeId": "havza",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a. Samsun'dan çıkış tarihi yok; seyahat girmedi."
+    },
+    {
+      "id": "amasyaya-gelis-1919-06",
+      "date": {
+        "iso": "1919-06-11",
+        "isoEnd": "1919-06-12",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a",
+          "msb-askeri-gorevleri-p9a"
+        ],
+        "$note": "MSB kronoloji: '11 veya 12 Haziran 1919'. MSB «Askerî Görevleri»: 12 Haziran. Vikipedi 13 Haziran; resmî kaynağın günleri kullanıldı (A27)."
+      },
+      "title": "Amasya'ya geldi",
+      "text": "Havza'dan Amasya'ya geldi.",
+      "placeId": "amasya",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a",
+        "msb-askeri-gorevleri-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a."
+    },
+    {
+      "id": "istanbula-mektuplar-1919-06-21",
+      "date": {
+        "iso": "1919-06-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 21 Haziran 1919."
+      },
+      "title": "İstanbul'daki tanınmış kişilere mektup gönderdi",
+      "text": "Amasya'dan İstanbul'daki bazı tanınmış kişilere mektup göndererek onları Millî Mücadele'ye davet etti.",
+      "placeId": "amasya",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a."
     },
     {
       "id": "amasya-genelgesi-1919-06",
@@ -1611,6 +1713,24 @@
       "$note": "Parti 9a."
     },
     {
+      "id": "istifa-genelgesi-1919-07-09",
+      "date": {
+        "iso": "1919-07-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 9 Temmuz 1919."
+      },
+      "title": "İstifasını genelgeyle duyurdu",
+      "text": "Orduya, vilayetlere ve millete, resmî göreviyle birlikte askerlikten istifa ettiğini bir genelgeyle bildirdi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a. Genelgenin nereden gönderildiği MSB maddesinde yazmıyor; yer bağlanmadı. Metni MSB'de alıntılanıyor; alınmadı."
+    },
+    {
       "id": "erzurum-kongresi-1919-07-23",
       "date": {
         "iso": "1919-07-23",
@@ -1630,6 +1750,64 @@
         "nutuk-en-1929-s57"
       ],
       "$note": "Parti 9a."
+    },
+    {
+      "id": "erzurum-kongresi-sonu-1919-08-07",
+      "date": {
+        "iso": "1919-08-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 7 Ağustos 1919. Vikipedi: 7 Ağustos."
+      },
+      "title": "Erzurum Kongresi sona erdi",
+      "text": "Erzurum Kongresi onun kısa bir konuşmasıyla sona erdi; kongre onu Heyet-i Temsiliye Reisliğine seçti.",
+      "placeId": "erzurum",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 9a."
+    },
+    {
+      "id": "irade-i-seniye-1919-08-09",
+      "date": {
+        "iso": "1919-08-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 9 Ağustos 1919."
+      },
+      "title": "Askerlikten çıkarıldı",
+      "text": "Askerlikten çıkarılmasına, madalya ve nişanlarının geri alınmasına ve fahri yaverlik unvanının kaldırılmasına dair irade-i seniye çıktı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a. İstanbul'da çıkan bir karar; Atatürk'ün bulunduğu yer değil, yer bağlanmadı."
+    },
+    {
+      "id": "sivasa-gelis-1919-09-02",
+      "date": {
+        "iso": "1919-09-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 2 Eylül 1919."
+      },
+      "title": "Sivas'a geldi",
+      "text": "Sivas'a geldi ve büyük gösterilerle karşılandı.",
+      "placeId": "sivas",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a."
     },
     {
       "id": "sivas-kongresi-1919-09-04",
@@ -1653,6 +1831,102 @@
       "$note": "Parti 9a."
     },
     {
+      "id": "sivas-kongresi-sonu-1919-09-11",
+      "date": {
+        "iso": "1919-09-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a",
+          "vikipedi-tr-ataturk-38564203"
+        ],
+        "$note": "MSB: 11 Eylül 1919. Vikipedi: 11 Eylül."
+      },
+      "title": "Sivas Kongresi sona erdi",
+      "text": "Sivas Kongresi sona erdi; Anadolu ve Rumeli Müdafaa-i Hukuk Cemiyeti'nin kurulduğunu bildiren yazı onun imzasıyla Sivas vilayetine verildi.",
+      "placeId": "sivas",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a",
+        "vikipedi-tr-ataturk-38564203"
+      ],
+      "$note": "K5 taraması, parti 9a."
+    },
+    {
+      "id": "heyet-i-temsiliye-beyannamesi-1919-10-07",
+      "date": {
+        "iso": "1919-10-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 7 Ekim 1919."
+      },
+      "title": "Heyet-i Temsiliye adına beyanname yayımladı",
+      "text": "Heyet-i Temsiliye adına millete bir beyanname yayımladı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a. Nereden yayımlandığı yazmıyor; yer bağlanmadı. Metni MSB'de alıntılanıyor; alınmadı."
+    },
+    {
+      "id": "sivastan-amasyaya-1919-10-18",
+      "date": {
+        "iso": "1919-10-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 18 Ekim 1919."
+      },
+      "title": "Sivas'tan Amasya'ya geldi",
+      "text": "Sivas'tan Amasya'ya geldi.",
+      "placeId": "amasya",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a."
+    },
+    {
+      "id": "amasya-mulakati-1919-10",
+      "date": {
+        "iso": "1919-10-20",
+        "isoEnd": "1919-10-22",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: görüşmeler 20 Ekim 1919'da başladı, 22 Ekim'de sona erdi."
+      },
+      "title": "Amasya Görüşmeleri yapıldı",
+      "text": "Amasya'da, Rauf ve Bekir Sami Beylerle birlikte İstanbul Hükûmeti'nin Bahriye Nazırı Salih Paşa ile görüştü.",
+      "placeId": "amasya",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a."
+    },
+    {
+      "id": "erzurum-mebusu-1919-11-07",
+      "date": {
+        "iso": "1919-11-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 7 Kasım 1919."
+      },
+      "title": "Erzurum mebusu seçildi",
+      "text": "Osmanlı Meclis-i Mebusanı seçimlerinde Erzurum mebusu seçildi.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a. Seçimin yeri onun bulunduğu yer değil; yer bağlanmadı."
+    },
+    {
       "id": "ankara-1919-12-27",
       "date": {
         "iso": "1919-12-27",
@@ -1672,6 +1946,42 @@
         "nutuk-en-1929-s287"
       ],
       "$note": "Parti 9a."
+    },
+    {
+      "id": "istanbulun-isgali-beyannamesi-1920-03-16",
+      "date": {
+        "iso": "1920-03-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 16 Mart 1920."
+      },
+      "title": "İstanbul'un işgali üzerine beyanname yayımladı",
+      "text": "İstanbul'un İtilaf devletlerince resmen işgal edilmesi üzerine millete bir beyanname yayımladı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a. Nereden yayımlandığı yazmıyor; yer bağlanmadı. Metni MSB'de alıntılanıyor; alınmadı."
+    },
+    {
+      "id": "meclis-secimi-genelgesi-1920-03-19",
+      "date": {
+        "iso": "1920-03-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-kronoloji-1919-1922-p9a"
+        ],
+        "$note": "MSB: 19 Mart 1920."
+      },
+      "title": "Ankara'da meclis toplanması için genelge yayımladı",
+      "text": "Ankara'da olağanüstü yetkili bir meclis toplanması için acele seçim yapılmasını isteyen bir genelge yayımladı.",
+      "sources": [
+        "msb-kronoloji-1919-1922-p9a"
+      ],
+      "$note": "K5 taraması, parti 9a. Nereden gönderildiği yazmıyor; yer bağlanmadı. Metni MSB'de alıntılanıyor; alınmadı."
     },
     {
       "id": "tbmm-acilis-1920-04-23",

@@ -1,7 +1,7 @@
 # Nutuk'taki mektup ve telgraflar, parti 6 (s. 401-520, Eylül 1920 - Mayıs 1921)
 
 > Kaynak ve kurallar parti 1 ile aynı ([nutuk-belgeler-1.md](nutuk-belgeler-1.md)).
-> Durum: **onay bekliyor**, kayıtlar `verified: false`.
+> Durum: **onaylandı (2026-11-15)**, belgeler sitede.
 
 | Tarih | Tür | Nereden → nereye | Gönderen | Alıcı | Sayfa |
 |---|---|---|---|---|---|

@@ -1621,6 +1621,121 @@
       "$note": "Nutuk belgeleri, parti 4 (3-a: aynı gün olay yok, kısa adım)."
     },
     {
+      "id": "nutuk-1919-12-29-telgraf-harbiye-naziri-cemal-pasa-adim",
+      "date": {
+        "iso": "1919-12-29",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s300"
+        ],
+        "$note": "Nutuk s. 300."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Harbiye Nazırı Cemal Paşa (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s300"
+      ],
+      "documentIds": [
+        "nutuk-1919-12-29-telgraf-harbiye-naziri-cemal-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-12-30-telgraf-heyet-i-temsiliye-mustafa-kema-adim",
+      "date": {
+        "iso": "1919-12-30",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s293"
+        ],
+        "$note": "Nutuk s. 293."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Müdafaa-i Hukuk İstanbul teşkilatı (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s293"
+      ],
+      "documentIds": [
+        "nutuk-1919-12-30-telgraf-heyet-i-temsiliye-mustafa-kema"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-01-01-telgraf-harbiye-naziri-cemal-pasa-adim",
+      "date": {
+        "iso": "1920-01-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s293"
+        ],
+        "$note": "Nutuk s. 293."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Harbiye Nazırı Cemal Paşa.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s293"
+      ],
+      "documentIds": [
+        "nutuk-1920-01-01-telgraf-harbiye-naziri-cemal-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-01-05-telgraf-harbiye-naziri-cemal-pasa-adim",
+      "date": {
+        "iso": "1920-01-05",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s296"
+        ],
+        "$note": "Nutuk s. 296."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Harbiye Nazırı Cemal Paşa (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s296"
+      ],
+      "documentIds": [
+        "nutuk-1920-01-05-telgraf-harbiye-naziri-cemal-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-01-06-telgraf-harbiye-nezareti-adim",
+      "date": {
+        "iso": "1920-01-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s296"
+        ],
+        "$note": "Nutuk s. 296."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Harbiye Nezareti.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s296"
+      ],
+      "documentIds": [
+        "nutuk-1920-01-06-telgraf-harbiye-nezareti"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
       "id": "nutuk-1920-01-07-telgraf-heyet-i-temsiliye-mustafa-kema-adim",
       "date": {
         "iso": "1920-01-07",
@@ -1738,6 +1853,123 @@
       "$note": "Nutuk belgeleri, parti 4 (3-a: aynı gün olay yok, kısa adım)."
     },
     {
+      "id": "nutuk-1920-01-21-telgraf-harbiye-naziri-cemal-pasa-adim",
+      "date": {
+        "iso": "1920-01-21",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s312"
+        ],
+        "$note": "Nutuk s. 312."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Harbiye Nazırı Cemal Paşa.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s312"
+      ],
+      "documentIds": [
+        "nutuk-1920-01-21-telgraf-harbiye-naziri-cemal-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-01-22-telgraf-harbiye-naziri-cemal-pasa-adim",
+      "date": {
+        "iso": "1920-01-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s312"
+        ],
+        "$note": "Nutuk s. 312."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Harbiye Nazırı Cemal Paşa (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s312"
+      ],
+      "documentIds": [
+        "nutuk-1920-01-22-telgraf-harbiye-naziri-cemal-pasa",
+        "nutuk-1920-01-22-telgraf-rauf-bey-ve-mebuslar",
+        "nutuk-1920-01-22-telgraf-ankara-konya-sivas-ve-erzurum-"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-01-23-telgraf-heyet-i-temsiliye-mustafa-kema-adim",
+      "date": {
+        "iso": "1920-01-23",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s315"
+        ],
+        "$note": "Nutuk s. 315."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Harbiye Nazırı Cemal Paşa (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s315"
+      ],
+      "documentIds": [
+        "nutuk-1920-01-23-telgraf-heyet-i-temsiliye-mustafa-kema"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-01-27-telgraf-rauf-bey-adim",
+      "date": {
+        "iso": "1920-01-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s323"
+        ],
+        "$note": "Nutuk s. 323."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Rauf Bey.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s323"
+      ],
+      "documentIds": [
+        "nutuk-1920-01-27-telgraf-rauf-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-02-07-telgraf-heyet-i-temsiliye-mustafa-kema-adim",
+      "date": {
+        "iso": "1920-02-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s323"
+        ],
+        "$note": "Nutuk s. 323."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Rauf Bey (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s323"
+      ],
+      "documentIds": [
+        "nutuk-1920-02-07-telgraf-heyet-i-temsiliye-mustafa-kema"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
       "id": "nutuk-1920-02-19-mektup-rauf-bey-adim",
       "date": {
         "iso": "1920-02-19",
@@ -1756,9 +1988,220 @@
         "nutuk-en-1929-belge-s284"
       ],
       "documentIds": [
-        "nutuk-1920-02-19-mektup-rauf-bey"
+        "nutuk-1920-02-19-mektup-rauf-bey",
+        "nutuk-1920-02-19-telgraf-rauf-bey",
+        "nutuk-1920-02-19-telgraf-rauf-bey-2"
       ],
       "$note": "Nutuk belgeleri, parti 4 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-02-20-telgraf-rauf-bey-adim",
+      "date": {
+        "iso": "1920-02-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s332"
+        ],
+        "$note": "Nutuk s. 332."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Rauf Bey.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s332"
+      ],
+      "documentIds": [
+        "nutuk-1920-02-20-telgraf-rauf-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-02-21-telgraf-rauf-bey-harbiye-nezareti-yave-adim",
+      "date": {
+        "iso": "1920-02-21",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s330"
+        ],
+        "$note": "Nutuk s. 330."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Rauf Bey (Harbiye Nezareti yaveri Salih Bey eliyle) (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s330"
+      ],
+      "documentIds": [
+        "nutuk-1920-02-21-telgraf-rauf-bey-harbiye-nezareti-yave",
+        "nutuk-1920-02-21-telgraf-rauf-bey-harbiye-nezareti-yave-2"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-03-03-telgraf-ismet-pasa-adim",
+      "date": {
+        "iso": "1920-03-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s339"
+        ],
+        "$note": "Nutuk s. 339."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: İsmet Paşa.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s339"
+      ],
+      "documentIds": [
+        "nutuk-1920-03-03-telgraf-ismet-pasa",
+        "nutuk-1920-03-03-telgraf-rauf-bey-ve-kara-vasif-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-03-04-telgraf-heyet-i-temsiliye-mustafa-kema-adim",
+      "date": {
+        "iso": "1920-03-04",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s343"
+        ],
+        "$note": "Nutuk s. 343."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Padişah (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s343"
+      ],
+      "documentIds": [
+        "nutuk-1920-03-04-telgraf-heyet-i-temsiliye-mustafa-kema"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-03-06-telgraf-rauf-bey-adim",
+      "date": {
+        "iso": "1920-03-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s347"
+        ],
+        "$note": "Nutuk s. 347."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Rauf Bey.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s347"
+      ],
+      "documentIds": [
+        "nutuk-1920-03-06-telgraf-rauf-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-03-07-telgraf-cafer-tayyar-pasa-adim",
+      "date": {
+        "iso": "1920-03-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s351"
+        ],
+        "$note": "Nutuk s. 351."
+      },
+      "title": "Edirne'den telgraf geldi",
+      "text": "Edirne'den telgraf geldi. Gönderen: Cafer Tayyar Paşa.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s351"
+      ],
+      "documentIds": [
+        "nutuk-1920-03-07-telgraf-cafer-tayyar-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-03-08-telgraf-rauf-bey-adim",
+      "date": {
+        "iso": "1920-03-08",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s347"
+        ],
+        "$note": "Nutuk s. 347."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Rauf Bey.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s347"
+      ],
+      "documentIds": [
+        "nutuk-1920-03-08-telgraf-rauf-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-03-11-telgraf-rauf-bey-adim",
+      "date": {
+        "iso": "1920-03-11",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s352"
+        ],
+        "$note": "Nutuk s. 352."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Ankara'dan telgraf gönderdi. Alıcı: Rauf Bey (İstanbul).",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s352"
+      ],
+      "documentIds": [
+        "nutuk-1920-03-11-telgraf-rauf-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1920-03-29-telgraf-3-kolordu-komutani-selahattin--adim",
+      "date": {
+        "iso": "1920-03-29",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s367"
+        ],
+        "$note": "Nutuk s. 367."
+      },
+      "title": "Sivas'tan telgraf geldi",
+      "text": "Sivas'tan telgraf geldi. Gönderen: 3. Kolordu Komutanı Selahattin Bey.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s367"
+      ],
+      "documentIds": [
+        "nutuk-1920-03-29-telgraf-3-kolordu-komutani-selahattin-"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
     },
     {
       "id": "tbmm-nutuk-1920-04-24",
@@ -1837,6 +2280,29 @@
         "msb-kronoloji-1919-1922-p9b"
       ],
       "$note": "K5 taraması, parti 9b. İstanbul'daki bir karar; yer bağlanmadı."
+    },
+    {
+      "id": "nutuk-1920-06-24-mektup-nurettin-pasa-adim",
+      "date": {
+        "iso": "1920-06-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s394"
+        ],
+        "$note": "Nutuk s. 394."
+      },
+      "title": "Ankara'dan mektup geldi",
+      "text": "Ankara'dan mektup geldi. Gönderen: Nurettin Paşa.",
+      "placeId": "ankara",
+      "sources": [
+        "nutuk-en-1929-belge-s394"
+      ],
+      "documentIds": [
+        "nutuk-1920-06-24-mektup-nurettin-pasa"
+      ],
+      "$note": "Nutuk belgeleri, parti 5 (3-a: aynı gün olay yok, kısa adım)."
     },
     {
       "id": "tbmm-konusmasi-1920-07-08",
@@ -10900,7 +11366,11 @@
       "sources": [
         "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "K5 taraması, parti 9a. Nereden yayımlandığı yazmıyor; yer bağlanmadı. Metni MSB'de alıntılanıyor; alınmadı."
+      "$note": "K5 taraması, parti 9a. Nereden yayımlandığı yazmıyor; yer bağlanmadı. Metni MSB'de alıntılanıyor; alınmadı.",
+      "documentIds": [
+        "nutuk-1920-03-16-mektup-10-tumen-komutani-istanbul",
+        "nutuk-1920-03-16-telgraf-cepheler-komutanliklar-ve-muda"
+      ]
     },
     {
       "id": "meclis-secimi-genelgesi-1920-03-19",

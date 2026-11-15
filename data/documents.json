@@ -2962,6 +2962,676 @@
         "nutuk-en-1929-belge-s284"
       ],
       "$note": "Nutuk belgeleri, parti 4. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Rauf Bey, who was at that time in Constantinople, wrote me the following letter: Constantinople, 19th February, 1920. To His Excellency Mustapha Kemal Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-12-29-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-12-29",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s300"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 300. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s300"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'On the 29th December I sent him the following telegram in cipher: We have never recognised the removal of Ali Fuad Pasha from his command'; muhatap telgraf başına çağıran Harbiye Nazırı. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1919-12-30-telgraf-heyet-i-temsiliye-mustafa-kema",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1919-12-30",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s293"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 293. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "recipient": "Müdafaa-i Hukuk İstanbul teşkilatı",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s293"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In a telegram in cipher that we sent on the 30th December, we informed our organisation in Constantinople'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-01-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-01",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s293"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 293. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s293"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'the telegram he sent us, signed by himself, on the 1st January: To the Command of the XXth Army Corps, To His Excellency Mustapha Kemal Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-05-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-05",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s296"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 296. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s296"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I sent this short message in cipher: 5th January, 1920. To His Excellency Djemal Pasha, Minister of War. Reply'; 6 Ocak cevabı 'Reply to telegram of 5th January'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-06-telgraf-harbiye-nezareti",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s296"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 296. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Harbiye Nezareti",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s296"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Harbie, 6th January, 1920. To the Command of the XXth Army Corps, Angora. Reply to telegram of 5th January. To His Excellency Mustapha Kemal Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-21-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-21",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s312"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 312. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Harbiye Nazırı Cemal Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s312"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Telegram in cipher. Harbie, 21st January, 1920. … To the Command of the XXth Army Corps, Angora. To His Excellency Mustapha Kemal Pasha'; 'This telegram arrived on the 22nd January'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-22-telgraf-harbiye-naziri-cemal-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s312"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 312. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s312"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I immediately sent the following reply at 11.30 a.m. 22nd January. To His Excellency Djemal Pasha, Minister of War'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-22-telgraf-rauf-bey-ve-mebuslar",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s319"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 319. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Rauf Bey ve mebuslar",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s319"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I also approached Rauf Bey, Bekir Sami Bey, Djami Bey and all the other deputies in the following communication in cipher (22nd January)'; s. 321: 'The answer to the telegram I sent to the deputies'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-22-telgraf-ankara-konya-sivas-ve-erzurum-",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s321"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 321. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Ankara, Konya, Sivas ve Erzurum kolordu komutanları",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s321"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'I informed the officers commanding the Army Corps at Angora, Konia, Sivas and Erzerum of my resolution in a private telegram in cipher on the 22nd January'; çok alıcı. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-23-telgraf-heyet-i-temsiliye-mustafa-kema",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-23",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s315"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 315. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "recipient": "Harbiye Nazırı Cemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s315"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In reply to our telegram of 23rd January, Djemal Pasha stated that his resignation was inevitable'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-01-27-telgraf-rauf-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-01-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s323"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 323. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Rauf Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s323"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'A telegram in cipher, dated 27th January, in which Rauf Bey described the dilemma in which the Chamber was placed'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-02-07-telgraf-heyet-i-temsiliye-mustafa-kema",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-02-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s323"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 323. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "recipient": "Rauf Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s323"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In our telegram of the 7th February, we mentioned to Rauf Bey the following matters'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-02-19-telgraf-rauf-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-02-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s329"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 329. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Rauf Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s329"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In a telegram in cipher to Rauf Bey, which I sent on the 19th February' (taramada 'igth'). Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-02-19-telgraf-rauf-bey-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-02-19",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s330"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 330. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Rauf Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s330"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 21 Şubat cevabında: 'Reply to your telegram in cipher of 19th February, 1920'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-02-20-telgraf-rauf-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-02-20",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s332"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 332. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Rauf Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s332"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 21 Şubat cevabında: 'Reply to your telegram in cipher of 20th February'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-02-21-telgraf-rauf-bey-harbiye-nezareti-yave",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-02-21",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s330"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 330. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Rauf Bey (Harbiye Nezareti yaveri Salih Bey eliyle)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s330"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). '21st February. To Salih Bey, A. D. C. to the Ministry of War. For Rauf Bey. Reply to your telegram in cipher of 19th February, 1920'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-02-21-telgraf-rauf-bey-harbiye-nezareti-yave-2",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-02-21",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s332"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 332. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Rauf Bey (Harbiye Nezareti yaveri Salih Bey eliyle)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s332"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Telegram in cipher. 21st February. To Salih Bey A. D. C., Ministry of War. For Rauf Bey. Reply to your telegram in cipher of 20th February'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-03-telgraf-ismet-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s339"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 339. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "İsmet Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s339"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Ismet Pasha's telegram ran as follows: Harbie 3rd March, 1920. To His Excellency Mustapha Kemal Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-03-telgraf-rauf-bey-ve-kara-vasif-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s340"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 340. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Rauf Bey ve Kara Vasıf Bey",
+      "recipient": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s340"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Rauf Bey and Kara Vassif Bey who had told us about this resignation in a ciphered telegram, dated 3rd March, 1920'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-04-telgraf-heyet-i-temsiliye-mustafa-kema",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-04",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s343"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 343. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Heyet-i Temsiliye (Mustafa Kemal Paşa)",
+      "recipient": "Padişah",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s343"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'To the Sovereign we sent the following telegram: Angora 4th March, 1920'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-06-telgraf-rauf-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s347"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 347. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Rauf Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s347"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'This telegram was handed in at the Telegraph Office at Harbie on the 6th March, 1920, at 5.15 p.m.'; imza 'Rauf'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-07-telgraf-cafer-tayyar-pasa",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-07",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s351"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 351. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "edirne",
+      "toPlaceId": "ankara",
+      "sender": "Cafer Tayyar Paşa",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s351"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Djafer Tayar Pasha on his part complained … in a telegram in cipher on the 7th March'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-08-telgraf-rauf-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-08",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s347"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 347. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "Rauf Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s347"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'he sent us this message: Harbie, 8th March, 1920. To the Provisional Command of the XXth Army Corps. To His Excellency Mustapha Kemal Pasha'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-11-telgraf-rauf-bey",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-11",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s352"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 352. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "istanbul",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Rauf Bey",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s352"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In a second telegram, dated 11th March, I said to Rauf'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-16-mektup-10-tumen-komutani-istanbul",
+      "kind": "mektup",
+      "date": {
+        "iso": "1920-03-16",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s354"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 354. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "istanbul",
+      "toPlaceId": "ankara",
+      "sender": "10. Tümen Komutanı (İstanbul)",
+      "recipient": "20. Kolordu Komutanlığı",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s354"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'the command of the XXth Army Corps at Angora received a letter in cipher from the officer commanding the 10th Division in Stambul (No. 465'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-16-telgraf-cepheler-komutanliklar-ve-muda",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-16",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s357"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 357. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "sender": "Mustafa Kemal Paşa",
+      "recipient": "Cepheler, komutanlıklar ve Müdafaa-i Hukuk heyetleri (genelge)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s357"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Telegram. Urgent. Angora, 16th March, 1920'; alıcılar arasında İzmir cephesi ve Balıkesir'deki 61. Tümen. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-03-29-telgraf-3-kolordu-komutani-selahattin-",
+      "kind": "telgraf",
+      "date": {
+        "iso": "1920-03-29",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s367"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 367. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "sivas",
+      "toPlaceId": "ankara",
+      "sender": "3. Kolordu Komutanı Selahattin Bey",
+      "recipient": "Mustafa Kemal Paşa",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s367"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'In a telegram in cipher, dated the 29th March, that I received from Selaheddin Bey, commanding the IIIrd Army Corps'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
+    },
+    {
+      "id": "nutuk-1920-06-24-mektup-nurettin-pasa",
+      "kind": "mektup",
+      "date": {
+        "iso": "1920-06-24",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s394"
+        ],
+        "$note": "Nutuk (1929 İngilizce baskı) s. 394. Tarihli belge ya da konuşmacının kendi tarihli kaydı."
+      },
+      "fromPlaceId": "ankara",
+      "toPlaceId": "ankara",
+      "sender": "Nurettin Paşa",
+      "recipient": "TBMM Reisi (Mustafa Kemal Paşa)",
+      "originalScript": "arap",
+      "attributionDisputed": false,
+      "sources": [
+        "nutuk-en-1929-belge-s394"
+      ],
+      "$note": "Nutuk belgeleri, parti 5. Künye kartı (A30); metin gösterilmez: aslı Arap harfli, İngilizce baskı çeviri (SPEC §2.1). 'Railway Station, Angora, 24th June, 1920. To the Honourable President of the Grand National Assembly'; imza 'Nureddin'. Ad ve unvanlar İngilizce baskıdan aktarıldı ve çevrildi (kullanıcı kararı 2-a, resmî Türkçe metinle düzeltilecek)."
     }
   ]
 }

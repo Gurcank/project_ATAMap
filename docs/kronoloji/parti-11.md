@@ -1,7 +1,7 @@
 # Kronoloji, parti 11: MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi
 
 > Kapsam: MSB Atatürk Sitesi'nin «Millî Mücadele Dönemi» sayfası (1911-1922) ve Atatürk Ansiklopedisi'nden «Havza Genelgesi» maddesi.
-> Durum: **onay bekliyor.** 11 olay `verified: false`; onaya kadar derlemeye girmiyor.
+> Durum: **onaylandı (2026-11-15).** 11 olay sitede.
 > Araştırma tarihi: 2026-11-15. Kaynak kuralı: SPEC §2.2, A27 (resmî devlet kaynağı tek başına yeter, yalnız olgu alınır).
 
 ## Nasıl tarandı

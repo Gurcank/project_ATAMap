@@ -4293,8 +4293,8 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
-      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Resmî kaynak (A27), yalnız olgu; alıntılar alınmadı. Parti onayına kadar beklesin diye sınırlar partisindeki kayıttan ayrı."
+      "verified": true,
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Resmî kaynak (A27), yalnız olgu; alıntılar alınmadı. Parti onayına kadar beklesin diye sınırlar partisindeki kayıttan ayrı. Kullanıcı onayı: 2026-11-15 (parti 11)."
     },
     {
       "id": "ataturk-ansiklopedisi-768",
@@ -4305,8 +4305,8 @@
       "rights": "hakki-sakli-olgu",
       "official": true,
       "free": true,
-      "verified": false,
-      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Resmî kaynak (A27), yalnız olgu. Sayfa JavaScript ile yükleniyor, tarayıcıda okundu. Maddeye göre Mustafa Kemal Paşa 25 Mayıs - 12 Haziran 1919 arasında Havza'daydı."
+      "verified": true,
+      "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Resmî kaynak (A27), yalnız olgu. Sayfa JavaScript ile yükleniyor, tarayıcıda okundu. Maddeye göre Mustafa Kemal Paşa 25 Mayıs - 12 Haziran 1919 arasında Havza'daydı. Kullanıcı onayı: 2026-11-15 (parti 11)."
     }
   ]
 }

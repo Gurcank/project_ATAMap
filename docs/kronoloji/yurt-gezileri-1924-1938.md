@@ -1,7 +1,7 @@
 # Yurt gezileri, 1924-1938 toplu partisi
 
 > Kaynak: MSB Atatürk Sitesi, «[ATATÜRK´ün Yurt Gezileri](https://ata.msb.gov.tr/Sayfa/SayfaGoster/ataturkun-yurt-gezileri)», 1924-1938 (resmî, yalnız olgu). Ayrı kaynak kaydı: `msb-yurt-gezileri-1924-1938`.
-> Durum: **onay bekliyor**, kayıtlar `verified: false`. Kullanıcı isteğiyle (2026-11-15) yıl yıl değil, tek parti.
+> Durum: **onaylandı (2026-11-15)**, olaylar, seyahatler ve yerler sitede. Kullanıcı isteğiyle (2026-11-15) yıl yıl değil, tek parti.
 > Kural (A32): araç maddede yazıyorsa seyahat etabı girdi; yazmıyorsa yalnız olay. Rotalar "yaklaşık"; deniz etapları kavisli (A31).
 
 ## Özet

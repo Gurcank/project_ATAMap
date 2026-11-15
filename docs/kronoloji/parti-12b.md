@@ -1,7 +1,7 @@
 # Kronoloji, parti 12b: Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri
 
 > Kapsam: Atatürk Ansiklopedisi'nin altı maddesi: Birinci Dünya Savaşı'nda Mustafa Kemal, Çanakkale Cephesi'nde Mustafa Kemal, Sina ve Filistin Cephesi'nde Atatürk, Hareket Ordusu ve Kurmay Yüzbaşı Mustafa Kemal, Atatürk'ün Eğitim ve Öğretim Gördüğü Kurumlar, Atatürk'ün Selanik'teki Evi.
-> Durum: **onay bekliyor.** 20 olay ve 2 seyahat `verified: false`. Yeni yer yok.
+> Durum: **onaylandı (2026-11-15).** 20 olay ve 2 seyahat sitede. Bigalı kaydı gün düzeyine çekildi, ay düzeyli Halep kaydı kaldırıldı. Çelişkilerde sitedeki kayıtlar kaldı.
 > Araştırma tarihi: 2026-11-15. Kaynak kuralı: SPEC §2.2, A27 (resmî kaynak tek başına yeter, yalnız olgu).
 
 ## Tablo
@@ -40,7 +40,7 @@
 
 Deniz rotası Marmara'dan Boğaz'a kavisle iniyor ve "yaklaşık rota (deniz)" diye etiketli. Tren rotası düz çizgi. Geçici önizlemede ikisi de kontrol edildi.
 
-## Çelişkiler: sitedeki kayıt değişmedi, kararın sende
+## Çelişkiler: sitedeki kayıt değişmedi
 
 | Konu | Sitede (kaynak) | Ansiklopedi |
 |---|---|---|
@@ -50,14 +50,12 @@ Deniz rotası Marmara'dan Boğaz'a kavisle iniyor ve "yaklaşık rota (deniz)" d
 | **20 Eylül 1917 raporunun alıcısı** | Cemal Paşa (MSB) | Başkomutan Vekili Enver Paşa («Sina ve Filistin») |
 | **Anafartalar Grup Komutanlığı** | 8 Ağustos 1915 (MSB, Vikipedi, Liman von Sanders) | 9 Ağustos'ta görevine başladı («Çanakkale»). Atama 8, göreve başlama 9 olabilir; çelişki olmayabilir |
 
-Babasının ölümü en büyük fark (5 yıl). İki resmî kaynak birbirini tutmuyor.
+Babasının ölümü en büyük fark (5 yıl). **Karar (2026-11-15):** 1888 kaldı. Diğer çelişkilerde de sitedeki kayıtlar değişmedi.
 
-## Onayda yapılabilecek iyileştirmeler (izin verirsen)
+## Onayda yapılan iyileştirmeler (kullanıcı kararı, 2026-11-15)
 
-- **Bigalı:** Sitedeki "19. Tümen Bigalı'ya gönderildi" kaydı ay düzeyinde (Nisan 1915, MSB). Ansiklopedi günü veriyor: 21 Nisan 1915, karargâhını Bigalı'da kurdu. Kayıt gün düzeyine çekilebilir.
-- **Halep'ten dönüş, 1917:** Sitedeki ay düzeyli "Halep'ten İstanbul'a döndü" (Ekim 1917) kaydı, bu partideki iki gün düzeyli kayıtla (11 ve 15 Ekim) aynı olayı anlatıyor. Ay düzeyli kayıt kaldırılabilir.
-
-Şimdi yapmadım: onaylı bir kayda doğrulanmamış kaynak eklemek, o kaydı onaya kadar sitede gizler.
+- **Bigalı:** Sitedeki "19. Tümen Bigalı'ya gönderildi" kaydı ay düzeyinde (Nisan 1915, MSB). Ansiklopedi günü veriyor: 21 Nisan 1915, karargâhını Bigalı'da kurdu. **Yapıldı:** kayıt 21 Nisan 1915 oldu, kaynaklarına ansiklopedi eklendi.
+- **Halep'ten dönüş, 1917:** Sitedeki ay düzeyli "Halep'ten İstanbul'a döndü" (Ekim 1917) kaydı, bu partideki iki gün düzeyli kayıtla (11 ve 15 Ekim) aynı olayı anlatıyor. **Yapıldı:** ay düzeyli kayıt kaldırıldı. MSB de 15 Ekim dediği için 15 Ekim kaydına MSB kaynağı eklendi.
 
 ## Bilerek almadıklarım
 

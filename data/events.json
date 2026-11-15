@@ -11006,21 +11006,22 @@
     {
       "id": "bigali-1915-04",
       "date": {
-        "iso": "1915-04",
-        "precision": "month",
+        "iso": "1915-04-21",
+        "precision": "day",
         "approximate": false,
         "sources": [
-          "msb-kronoloji-1905-1918-p7"
+          "ataturk-ansiklopedisi-4084"
         ],
-        "$note": "MSB: Nisan 1915."
+        "$note": "MSB: Nisan 1915 (ay düzeyinde). Ansiklopedi «Çanakkale»: '21 Nisan 1915 tarihinde … 19'uncu Tümen, kısım kısım Bigalı'ya hareket etmiş ve Mustafa Kemal, Bigalı'ya karargâhını kurmuştur'."
       },
       "title": "19. Tümen Bigalı'ya gönderildi",
-      "text": "Komutasındaki 19. Tümen, 5. Ordu'nun genel ihtiyatı olarak Bigalı'ya gönderildi.",
+      "text": "Komutasındaki 19. Tümen, 5. Ordu'nun genel ihtiyatı olarak Bigalı'ya gönderildi; karargâhını Bigalı'da kurdu.",
       "placeId": "bigali",
       "sources": [
-        "msb-kronoloji-1905-1918-p7"
+        "msb-kronoloji-1905-1918-p7",
+        "ataturk-ansiklopedisi-4084"
       ],
-      "$note": "K5 taraması, parti 7."
+      "$note": "K5 taraması, parti 7. Parti 12b onayında (2026-11-15, kullanıcı kararı) gün düzeyine çekildi."
     },
     {
       "id": "canakkale-1915-04-25",
@@ -11612,24 +11613,6 @@
         "msb-askeri-gorevleri-p8a"
       ],
       "$note": "K5 taraması, parti 8a."
-    },
-    {
-      "id": "halepten-istanbula-1917-10",
-      "date": {
-        "iso": "1917-10",
-        "precision": "month",
-        "approximate": false,
-        "sources": [
-          "msb-kronoloji-1905-1918-p8a"
-        ],
-        "$note": "MSB: 15 Ekim 1917, ama aynı maddede 'bazı kaynaklarda ekim ortası veya ekim sonu' notu var; ay düzeyinde."
-      },
-      "title": "Halep'ten İstanbul'a döndü",
-      "text": "Halep'ten İstanbul'a döndü.",
-      "sources": [
-        "msb-kronoloji-1905-1918-p8a"
-      ],
-      "$note": "K5 taraması, parti 8a. Ayın içinde nerede olduğu belirsiz; yer bağlanmadı."
     },
     {
       "id": "genel-karargah-1917-11-07",
@@ -14394,7 +14377,7 @@
       "sources": [
         "ataturk-ansiklopedisi-291"
       ],
-      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Sitedeki ay düzeyli 'Halep'ten İstanbul'a döndü' (1917-10) kaydı değişmedi."
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Ay düzeyli 'Halep'ten İstanbul'a döndü' (1917-10) kaydı onayda kaldırıldı."
     },
     {
       "id": "istanbula-geldi-1917-10-15",
@@ -14403,17 +14386,19 @@
         "precision": "day",
         "approximate": false,
         "sources": [
-          "ataturk-ansiklopedisi-291"
+          "ataturk-ansiklopedisi-291",
+          "msb-kronoloji-1905-1918-p8a"
         ],
-        "$note": "Ansiklopedi: '15 Ekim 1917'de izinli olarak İstanbul'a geldi'."
+        "$note": "Ansiklopedi: '15 Ekim 1917'de izinli olarak İstanbul'a geldi'. MSB: 15 Ekim 1917 (maddede 'bazı kaynaklarda ekim ortası veya ekim sonu' notuyla)."
       },
       "title": "İzinli olarak İstanbul’a geldi",
       "text": "Halep’ten izinli olarak İstanbul’a geldi.",
       "placeId": "istanbul",
       "sources": [
-        "ataturk-ansiklopedisi-291"
+        "ataturk-ansiklopedisi-291",
+        "msb-kronoloji-1905-1918-p8a"
       ],
-      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Ay düzeyli 'Halep'ten İstanbul'a döndü' (1917-10, parti 8a) kaydının yerini aldı (kullanıcı kararı, 2026-11-15)."
     },
     {
       "id": "halepe-trenle-1918-08-22",

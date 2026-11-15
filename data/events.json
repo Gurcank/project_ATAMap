@@ -497,7 +497,7 @@
         ],
         "$note": "Nutuk s. 88."
       },
-      "title": "Genelge telgrafı gönderdi",
+      "title": "Telgraf gönderdi",
       "text": "Erzurum'dan telgraf gönderdi. Alıcı: 12. ve 20. Kolordu komutanları.",
       "placeId": "erzurum",
       "sources": [
@@ -718,6 +718,263 @@
         "nutuk-1919-09-15-telgraf-15-kolordu-komutani-kazim-kara"
       ],
       "$note": "Nutuk belgeleri, parti 2 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-09-16-telgraf-osman-bey-ve-ferit-bey-adim",
+      "date": {
+        "iso": "1919-09-16",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s145"
+        ],
+        "$note": "Nutuk s. 145."
+      },
+      "title": "Telgraf gönderdi",
+      "text": "Sivas'tan telgraf gönderdi. Alıcı: Osman Bey ve Ferit Bey.",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s145"
+      ],
+      "documentIds": [
+        "nutuk-1919-09-16-telgraf-osman-bey-ve-ferit-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-09-17-telgraf-15-kolordu-komutani-kazim-kara-adim",
+      "date": {
+        "iso": "1919-09-17",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s133"
+        ],
+        "$note": "Nutuk s. 133."
+      },
+      "title": "Erzurum'dan telgraf geldi",
+      "text": "Erzurum'dan telgraf geldi. Gönderen: 15. Kolordu Komutanı Kâzım Karabekir Paşa.",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s133"
+      ],
+      "documentIds": [
+        "nutuk-1919-09-17-telgraf-15-kolordu-komutani-kazim-kara"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-09-22-telgraf-heyet-i-temsiliye-mustafa-kema-adim",
+      "date": {
+        "iso": "1919-09-22",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s140"
+        ],
+        "$note": "Nutuk s. 140."
+      },
+      "title": "Erzurum'a telgraf gönderdi",
+      "text": "Sivas'tan telgraf gönderdi. Alıcı: 15. Kolordu Komutanı Kâzım Karabekir Paşa (Erzurum).",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s140"
+      ],
+      "documentIds": [
+        "nutuk-1919-09-22-telgraf-heyet-i-temsiliye-mustafa-kema"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-09-25-telgraf-20-kolordu-komutan-vekili-mahm-adim",
+      "date": {
+        "iso": "1919-09-25",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s150"
+        ],
+        "$note": "Nutuk s. 150."
+      },
+      "title": "Ankara'dan telgraf geldi",
+      "text": "Ankara'dan telgraf geldi. Gönderen: 20. Kolordu Komutan Vekili Mahmut Bey.",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s150"
+      ],
+      "documentIds": [
+        "nutuk-1919-09-25-telgraf-20-kolordu-komutan-vekili-mahm"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-09-27-telgraf-15-kolordu-komutani-kazim-kara-adim",
+      "date": {
+        "iso": "1919-09-27",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s140"
+        ],
+        "$note": "Nutuk s. 140."
+      },
+      "title": "Erzurum'dan telgraf geldi",
+      "text": "Erzurum'dan telgraf geldi. Gönderen: 15. Kolordu Komutanı Kâzım Karabekir Paşa.",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s140"
+      ],
+      "documentIds": [
+        "nutuk-1919-09-27-telgraf-15-kolordu-komutani-kazim-kara"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-10-02-telgraf-dahiliye-naziri-serif-pasa-adim",
+      "date": {
+        "iso": "1919-10-02",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s195"
+        ],
+        "$note": "Nutuk s. 195."
+      },
+      "title": "İstanbul'dan genelge telgrafı",
+      "text": "Gönderen: Dahiliye Nazırı Şerif Paşa. Alıcı: Valiler (genelge).",
+      "sources": [
+        "nutuk-en-1929-belge-s195"
+      ],
+      "documentIds": [
+        "nutuk-1919-10-02-telgraf-dahiliye-naziri-serif-pasa",
+        "nutuk-1919-10-02-telgraf-suat-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım). Mustafa Kemal Paşa ne gönderen ne alıcı; yer bağlanmadı."
+    },
+    {
+      "id": "nutuk-1919-10-03-telgraf-sadrazam-ali-riza-pasa-adim",
+      "date": {
+        "iso": "1919-10-03",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s167"
+        ],
+        "$note": "Nutuk s. 167."
+      },
+      "title": "İstanbul'a telgraf gönderdi",
+      "text": "Sivas'tan telgraf gönderdi. Alıcı: Sadrazam Ali Rıza Paşa (İstanbul).",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s167"
+      ],
+      "documentIds": [
+        "nutuk-1919-10-03-telgraf-sadrazam-ali-riza-pasa",
+        "nutuk-1919-10-03-telgraf-kolordu-komutanlari-ve-valiler",
+        "nutuk-1919-10-03-telgraf-valiler-kolordu-komutanlari-ve"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-10-04-telgraf-sadaret-adim",
+      "date": {
+        "iso": "1919-10-04",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s172"
+        ],
+        "$note": "Nutuk s. 172."
+      },
+      "title": "İstanbul'dan telgraf geldi",
+      "text": "İstanbul'dan telgraf geldi. Gönderen: Sadaret.",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s172"
+      ],
+      "documentIds": [
+        "nutuk-1919-10-04-telgraf-sadaret",
+        "nutuk-1919-10-04-telgraf-sadrazam-ve-nazirlar",
+        "nutuk-1919-10-04-telgraf-sadaret-2",
+        "nutuk-1919-10-04-telgraf-babiali-telgrafhanesi-muduru-h"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-10-06-telgraf-yunus-nadi-bey-adim",
+      "date": {
+        "iso": "1919-10-06",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s179"
+        ],
+        "$note": "Nutuk s. 179."
+      },
+      "title": "Telgraf gönderdi",
+      "text": "Sivas'tan telgraf gönderdi. Alıcı: Yunus Nadi Bey.",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s179"
+      ],
+      "documentIds": [
+        "nutuk-1919-10-06-telgraf-yunus-nadi-bey"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-10-08-telgraf-15-kolordu-komutani-kazim-kara-adim",
+      "date": {
+        "iso": "1919-10-08",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s184"
+        ],
+        "$note": "Nutuk s. 184."
+      },
+      "title": "Erzurum'dan telgraf geldi",
+      "text": "Erzurum'dan telgraf geldi. Gönderen: 15. Kolordu Komutanı Kâzım Karabekir Paşa.",
+      "placeId": "sivas",
+      "sources": [
+        "nutuk-en-1929-belge-s184"
+      ],
+      "documentIds": [
+        "nutuk-1919-10-08-telgraf-15-kolordu-komutani-kazim-kara"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
+    },
+    {
+      "id": "nutuk-1919-10-17-telgraf-15-kolordu-komutani-kazim-kara-adim",
+      "date": {
+        "iso": "1919-10-17",
+        "precision": "day",
+        "approximate": false,
+        "primaryDocument": true,
+        "sources": [
+          "nutuk-en-1929-belge-s140"
+        ],
+        "$note": "Nutuk s. 140."
+      },
+      "title": "Erzurum'dan telgraf geldi",
+      "text": "Erzurum'dan telgraf geldi. Gönderen: 15. Kolordu Komutanı Kâzım Karabekir Paşa.",
+      "sources": [
+        "nutuk-en-1929-belge-s140"
+      ],
+      "documentIds": [
+        "nutuk-1919-10-17-telgraf-15-kolordu-komutani-kazim-kara"
+      ],
+      "$note": "Nutuk belgeleri, parti 3 (3-a: aynı gün olay yok, kısa adım)."
     },
     {
       "id": "tbmm-nutuk-1920-04-24",
@@ -9752,7 +10009,13 @@
       "sources": [
         "msb-kronoloji-1919-1922-p9a"
       ],
-      "$note": "K5 taraması, parti 9a. Nereden yayımlandığı yazmıyor; yer bağlanmadı. Metni MSB'de alıntılanıyor; alınmadı."
+      "$note": "K5 taraması, parti 9a. Nereden yayımlandığı yazmıyor; yer bağlanmadı. Metni MSB'de alıntılanıyor; alınmadı.",
+      "documentIds": [
+        "nutuk-1919-10-07-telgraf-heyet-i-temsiliye-mustafa-kema",
+        "nutuk-1919-10-07-telgraf-harbiye-naziri-cemal-pasa",
+        "nutuk-1919-10-07-telgraf-harbiye-naziri-cemal-pasa-2",
+        "nutuk-1919-10-07-telgraf-harbiye-naziri-cemal-pasa-ve-a"
+      ]
     },
     {
       "id": "sivastan-amasyaya-1919-10-18",

@@ -1058,6 +1058,63 @@
       "$note": "Yurt gezileri, 1923."
     },
     {
+      "id": "yg-1924-02-09-selcuk-kusadasi-ve-soke-yi-gezdi",
+      "date": {
+        "iso": "1924-02-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-02-09."
+      },
+      "title": "Selçuk, Kuşadası ve Söke'yi gezdi",
+      "text": "İzmir'den Selçuk, Kuşadası ve Söke'ye gitti.",
+      "placeId": "soke",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-02-10-soke-den-izmir-e-dondu",
+      "date": {
+        "iso": "1924-02-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-02-10."
+      },
+      "title": "Söke'den İzmir'e döndü",
+      "text": "Söke'den İzmir'e döndü.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-02-22-izmir-den-ankara-ya-yola-cikti",
+      "date": {
+        "iso": "1924-02-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-02-22."
+      },
+      "title": "İzmir'den Ankara'ya yola çıktı",
+      "text": "İzmir'den Ankara'ya yola çıktı.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
       "id": "tbmm-acilis-1924-03-01",
       "date": {
         "iso": "1924-03-01",
@@ -1100,6 +1157,26 @@
       "$note": "K5 taraması, parti 10a. Bankanın kurulduğu yer Ankara; onun o gün nerede olduğu yazmıyor, yer bağlanmadı."
     },
     {
+      "id": "yg-1924-08-29-trenle-dumlupinar-a-gitti",
+      "date": {
+        "iso": "1924-08-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-08-29."
+      },
+      "title": "Trenle Dumlupınar'a gitti",
+      "text": "Trenle Ankara'dan ayrıldı; Eskişehir ve Afyon üzerinden Dumlupınar'a gitti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1924-08-29-trenle-dumlupinar-a-gitti-seyahat"
+    },
+    {
       "id": "mechul-asker-aniti-1924-08-30",
       "date": {
         "iso": "1924-08-30",
@@ -1116,6 +1193,352 @@
         "msb-kronoloji-1923-1938-p10a"
       ],
       "$note": "K5 taraması, parti 10a. Dumlupınar için iki bağımsız koordinat bulunamadı: Wikidata noktası (dayanaksız) OpenStreetMap'teki idari sınır noktasıyla birebir aynı. Yer bağlanmadı."
+    },
+    {
+      "id": "yg-1924-08-31-dumlupinar-dan-bursa-ya-geldi",
+      "date": {
+        "iso": "1924-08-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-08-31."
+      },
+      "title": "Dumlupınar'dan Bursa'ya geldi",
+      "text": "Dumlupınar'dan Afyon ve Eskişehir yoluyla Bursa'ya geldi; 11 Eylül'e kadar orada kaldı.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-09-11-bursa-dan-mudanya-ya-yola-cikti",
+      "date": {
+        "iso": "1924-09-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-09-11."
+      },
+      "title": "Bursa'dan Mudanya'ya yola çıktı",
+      "text": "Saat 16.30'da Bursa'dan Mudanya'ya yola çıktı.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-09-12-hamidiye-kruvazoru-yle-trabzon-a-gitti",
+      "date": {
+        "iso": "1924-09-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-09-12."
+      },
+      "title": "Hamidiye Kruvazörü'yle Trabzon'a gitti",
+      "text": "Hamidiye Kruvazörü'yle Mudanya'dan ayrıldı; İstanbul'dan geçip Karadeniz'e çıktı ve 15 Eylül'de Trabzon'a vardı.",
+      "placeId": "mudanya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1924-09-12-hamidiye-kruvazoru-yle-trabzon-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1924-09-17-hamidiye-kruvazoru-yle-rize-ye-gitti",
+      "date": {
+        "iso": "1924-09-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-09-17."
+      },
+      "title": "Hamidiye Kruvazörü'yle Rize'ye gitti",
+      "text": "Öğleden sonra Hamidiye Kruvazörü'yle Trabzon'dan ayrıldı, saat 18.00'de Rize'ye geldi.",
+      "placeId": "trabzon",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1924-09-17-hamidiye-kruvazoru-yle-rize-ye-gitti-seyahat"
+    },
+    {
+      "id": "yg-1924-09-18-hamidiye-kruvazoru-yle-giresun-a-gitti",
+      "date": {
+        "iso": "1924-09-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-09-18."
+      },
+      "title": "Hamidiye Kruvazörü'yle Giresun'a gitti",
+      "text": "Saat 14.30'da Hamidiye Kruvazörü'yle Rize'den Giresun'a hareket etti; ertesi gün Giresun'a geldi.",
+      "placeId": "rize",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1924-09-18-hamidiye-kruvazoru-yle-giresun-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1924-09-19-giresun-ve-ordu-ya-ugradi",
+      "date": {
+        "iso": "1924-09-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-09-19."
+      },
+      "title": "Giresun ve Ordu'ya uğradı",
+      "text": "Giresun'a geldi, öğleden sonra Ordu'ya vardı, akşam Samsun'a hareket etti.",
+      "placeId": "ordu",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-09-20-samsun-a-geldi",
+      "date": {
+        "iso": "1924-09-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-09-20."
+      },
+      "title": "Samsun'a geldi",
+      "text": "Samsun'a geldi; 24 Eylül'e kadar orada kaldı.",
+      "placeId": "samsun",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-09-24-otomobille-erzurum-a-gitti",
+      "date": {
+        "iso": "1924-09-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-09-24."
+      },
+      "title": "Otomobille Erzurum'a gitti",
+      "text": "Otomobille Samsun'dan ayrıldı; Havza, Amasya, Tokat, Sivas, Zara, Suşehri ve Erzincan üzerinden 30 Eylül'de Erzurum'a vardı.",
+      "placeId": "samsun",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1924-09-24-otomobille-erzurum-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1924-10-04-sarikamis-a-gitti",
+      "date": {
+        "iso": "1924-10-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-04."
+      },
+      "title": "Sarıkamış'a gitti",
+      "text": "Erzurum'dan ayrıldı, saat 18.00'de Sarıkamış'a geldi.",
+      "placeId": "sarikamis",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-06-kars-a-gitti",
+      "date": {
+        "iso": "1924-10-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-06."
+      },
+      "title": "Kars'a gitti",
+      "text": "Sabah Sarıkamış'tan ayrıldı, öğlen Kars'a geldi; akşam yeniden Sarıkamış'a hareket etti.",
+      "placeId": "kars",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-08-erzurum-a-dondu",
+      "date": {
+        "iso": "1924-10-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-08."
+      },
+      "title": "Erzurum'a döndü",
+      "text": "Sarıkamış'tan ayrıldı, öğleden sonra Erzurum'a döndü.",
+      "placeId": "erzurum",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-10-ankara-ya-donus-yoluna-cikti",
+      "date": {
+        "iso": "1924-10-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-10."
+      },
+      "title": "Ankara'ya dönüş yoluna çıktı",
+      "text": "Ankara'ya dönmek için Erzurum'dan ayrıldı; Tercan üzerinden akşam Erzincan'a geldi.",
+      "placeId": "erzincan",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-11-sebinkarahisar-a-geldi",
+      "date": {
+        "iso": "1924-10-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-11."
+      },
+      "title": "Şebinkarahisar'a geldi",
+      "text": "Erzincan'dan ayrıldı, gece Şebinkarahisar'a geldi.",
+      "placeId": "sebinkarahisar",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-12-sivas-a-geldi",
+      "date": {
+        "iso": "1924-10-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-12."
+      },
+      "title": "Sivas'a geldi",
+      "text": "Şebinkarahisar'dan ayrıldı, saat 20.00'de Sivas'a geldi.",
+      "placeId": "sivas",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-13-kayseri-ye-geldi",
+      "date": {
+        "iso": "1924-10-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-13."
+      },
+      "title": "Kayseri'ye geldi",
+      "text": "Sivas'tan Kayseri'ye geldi; 15 Ekim'e kadar orada kaldı.",
+      "placeId": "kayseri",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-15-yozgat-a-geldi",
+      "date": {
+        "iso": "1924-10-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-15."
+      },
+      "title": "Yozgat'a geldi",
+      "text": "Kayseri'den Yozgat'a geldi; 17 Ekim'e kadar orada kaldı.",
+      "placeId": "yozgat",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-17-kirsehir-e-geldi",
+      "date": {
+        "iso": "1924-10-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-17."
+      },
+      "title": "Kırşehir'e geldi",
+      "text": "Yozgat'tan ayrıldı, saat 17.00'de Kırşehir'e geldi.",
+      "placeId": "kirsehir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1924-10-18-ankara-ya-dondu",
+      "date": {
+        "iso": "1924-10-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1924-10-18."
+      },
+      "title": "Ankara'ya döndü",
+      "text": "Kırşehir'den ayrıldı, saat 13.00'te Ankara'ya geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
     },
     {
       "id": "tbmm-acilis-1924-11-01-msb",
@@ -1137,6 +1560,160 @@
       "$note": "K5 taraması, parti 10a. Bu yılın açış konuşması sitede TBMM tutanağından ayrı bir kayıt olarak yok. Maddedeki alıntı alınmadı (SPEC §2.1)."
     },
     {
+      "id": "yg-1925-01-01-trenle-konya-ya-gitti",
+      "date": {
+        "iso": "1925-01-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-01-01."
+      },
+      "title": "Trenle Konya'ya gitti",
+      "text": "Saat 17.00'de trenle Ankara'dan Konya'ya hareket etti; 3-13 Ocak arasında Konya'daydı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1925-01-01-trenle-konya-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1925-01-13-adana-dan-trenle-dortyol-a-gitti",
+      "date": {
+        "iso": "1925-01-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-01-13."
+      },
+      "title": "Adana'dan trenle Dörtyol'a gitti",
+      "text": "Konya'dan Adana'ya geldi, akşam trenle Dörtyol'a hareket etti.",
+      "placeId": "adana",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1925-01-13-adana-dan-trenle-dortyol-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1925-01-17-dortyol-dan-adana-ya-dondu",
+      "date": {
+        "iso": "1925-01-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-01-17."
+      },
+      "title": "Dörtyol'dan Adana'ya döndü",
+      "text": "Dörtyol'dan Adana'ya döndü.",
+      "placeId": "adana",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-01-20-tarsus-uzerinden-mersin-e-geldi",
+      "date": {
+        "iso": "1925-01-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-01-20."
+      },
+      "title": "Tarsus üzerinden Mersin'e geldi",
+      "text": "Adana'dan Tarsus'a, oradan Mersin'e geldi.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-01-27-silifke-ye-geldi",
+      "date": {
+        "iso": "1925-01-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-01-27."
+      },
+      "title": "Silifke'ye geldi",
+      "text": "Mersin'den Silifke'ye geldi.",
+      "placeId": "silifke",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-01-28-tasucu-na-geldi",
+      "date": {
+        "iso": "1925-01-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-01-28."
+      },
+      "title": "Taşucu'na geldi",
+      "text": "Silifke'den Taşucu'na geldi.",
+      "placeId": "tasucu",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-01-29-mersin-e-dondu",
+      "date": {
+        "iso": "1925-01-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-01-29."
+      },
+      "title": "Mersin'e döndü",
+      "text": "Taşucu'ndan Tekir köyüne gitti, sonra Mersin'e döndü.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-02-02-ankara-ya-dondu",
+      "date": {
+        "iso": "1925-02-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-02-02."
+      },
+      "title": "Ankara'ya döndü",
+      "text": "Mersin'den Ankara'ya döndü.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
       "id": "latife-hanimdan-ayrilik-1925-08-05",
       "date": {
         "iso": "1925-08-05",
@@ -1153,6 +1730,45 @@
         "msb-kronoloji-1923-1938-p10a"
       ],
       "$note": "K5 taraması, parti 10a. Yer yazmıyor."
+    },
+    {
+      "id": "yg-1925-08-23-otomobille-kastamonu-ya-gitti",
+      "date": {
+        "iso": "1925-08-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-08-23."
+      },
+      "title": "Otomobille Kastamonu'ya gitti",
+      "text": "Sabah otomobille Ankara'dan ayrıldı; öğlen Çankırı'ya, akşam Kastamonu'ya geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1925-08-23-otomobille-kastamonu-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1925-08-25-kastamonu-dan-inebolu-ya-gitti",
+      "date": {
+        "iso": "1925-08-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-08-25."
+      },
+      "title": "Kastamonu'dan İnebolu'ya gitti",
+      "text": "Öğleye doğru Kastamonu'dan İnebolu'ya hareket etti; 28 Ağustos'a kadar İnebolu'daydı.",
+      "placeId": "inebolu",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
     },
     {
       "id": "inebolu-1925-08-28",
@@ -1172,6 +1788,238 @@
         "msb-kronoloji-1923-1938-p10a"
       ],
       "$note": "K5 taraması, parti 10a."
+    },
+    {
+      "id": "yg-1925-08-28-kastamonu-ya-dondu",
+      "date": {
+        "iso": "1925-08-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-08-28."
+      },
+      "title": "Kastamonu'ya döndü",
+      "text": "Sabah İnebolu'dan ayrıldı, Devrekani üzerinden Kastamonu'ya döndü; ardından Taşköprü'ye gitti.",
+      "placeId": "kastamonu",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-08-31-kastamonu-dan-ankara-ya-yola-cikti",
+      "date": {
+        "iso": "1925-08-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-08-31."
+      },
+      "title": "Kastamonu'dan Ankara'ya yola çıktı",
+      "text": "Kastamonu'dan Ankara'ya hareket etti, yolda Çankırı'ya uğradı.",
+      "placeId": "kastamonu",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-09-20-trenle-izmit-e-gitti",
+      "date": {
+        "iso": "1925-09-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-09-20."
+      },
+      "title": "Trenle İzmit'e gitti",
+      "text": "Ankara'dan trenle İzmit'e hareket etti; ertesi gün İzmit'e geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1925-09-20-trenle-izmit-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1925-09-22-resitpasa-vapuru-yla-mudanya-ya-gecti",
+      "date": {
+        "iso": "1925-09-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-09-22."
+      },
+      "title": "Reşitpaşa Vapuru'yla Mudanya'ya geçti",
+      "text": "Reşitpaşa Vapuru'yla İzmit'ten Mudanya'ya geldi, oradan Bursa'ya geçti.",
+      "placeId": "izmit",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1925-09-22-resitpasa-vapuru-yla-mudanya-ya-gecti-seyahat"
+    },
+    {
+      "id": "yg-1925-09-29-mudanya-ya-gidip-dondu",
+      "date": {
+        "iso": "1925-09-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-09-29."
+      },
+      "title": "Mudanya'ya gidip döndü",
+      "text": "Bursa'dan Mudanya'ya gitti, ertesi gün Bursa'ya döndü.",
+      "placeId": "mudanya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-10-04-gemlik-e-gitti",
+      "date": {
+        "iso": "1925-10-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-10-04."
+      },
+      "title": "Gemlik'e gitti",
+      "text": "Bursa'da kaldığı günlerde Gemlik'e gitti.",
+      "placeId": "gemlik",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-10-08-balikesir-e-geldi",
+      "date": {
+        "iso": "1925-10-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-10-08."
+      },
+      "title": "Balıkesir'e geldi",
+      "text": "Bursa'dan Balıkesir'e hareket etti; 10 Ekim'e kadar orada kaldı.",
+      "placeId": "balikesir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-10-10-akhisar-uzerinden-manisa-ya-geldi",
+      "date": {
+        "iso": "1925-10-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-10-10."
+      },
+      "title": "Akhisar üzerinden Manisa'ya geldi",
+      "text": "Balıkesir'den Akhisar'a, oradan Manisa'ya geçti.",
+      "placeId": "manisa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-10-11-manisa-dan-izmir-e-geldi",
+      "date": {
+        "iso": "1925-10-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-10-11."
+      },
+      "title": "Manisa'dan İzmir'e geldi",
+      "text": "Manisa'dan İzmir'e geldi.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-10-12-ordu-manevralarini-izledi",
+      "date": {
+        "iso": "1925-10-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-10-12."
+      },
+      "title": "Ordu manevralarını izledi",
+      "text": "Kemalpaşa yakınlarındaki sonbahar ordu manevralarını izledi; akşam İzmir'e döndü.",
+      "placeId": "kemalpasa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1925-10-16-trenle-konya-ya-gitti",
+      "date": {
+        "iso": "1925-10-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-10-16."
+      },
+      "title": "Trenle Konya'ya gitti",
+      "text": "İzmir'den trenle Konya'ya hareket etti; saat 17.00'de Uşak'a, ertesi gün saat 11.00'de Konya'ya geldi.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1925-10-16-trenle-konya-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1925-10-20-trenle-afyon-uzerinden-ankara-ya-dondu",
+      "date": {
+        "iso": "1925-10-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1925-10-20."
+      },
+      "title": "Trenle Afyon üzerinden Ankara'ya döndü",
+      "text": "Akşam trenle Konya'dan Afyon'a hareket etti; ertesi gün öğleden sonra trenle Afyon'dan Ankara'ya yola çıktı.",
+      "placeId": "konya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1925-10-20-trenle-afyon-uzerinden-ankara-ya-dondu-seyahat"
     },
     {
       "id": "tbmm-acilis-1925-11-01",
@@ -1217,6 +2065,201 @@
       "$note": "K5 taraması, parti 10a. Maddedeki alıntı alınmadı (SPEC §2.1)."
     },
     {
+      "id": "yg-1926-05-07-trenle-konya-ya-gitti",
+      "date": {
+        "iso": "1926-05-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-05-07."
+      },
+      "title": "Trenle Konya'ya gitti",
+      "text": "Ankara'dan trenle Konya'ya hareket etti; ertesi gün Konya'ya geldi ve Tarsus'a geçti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1926-05-07-trenle-konya-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1926-05-09-tarsus-ta-bulundu",
+      "date": {
+        "iso": "1926-05-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-05-09."
+      },
+      "title": "Tarsus'ta bulundu",
+      "text": "Tarsus'ta bulundu.",
+      "placeId": "tarsus",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1926-05-10-mersin-e-geldi",
+      "date": {
+        "iso": "1926-05-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-05-10."
+      },
+      "title": "Mersin'e geldi",
+      "text": "Tarsus'tan ayrıldı, saat 22.00'de Mersin'e geldi.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1926-05-11-ertugrul-yati-yla-silifke-ye-gitti",
+      "date": {
+        "iso": "1926-05-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-05-11."
+      },
+      "title": "Ertuğrul Yatı'yla Silifke'ye gitti",
+      "text": "Mersin'den Ertuğrul Yatı'yla Silifke'ye hareket etti; 12-13 Mayıs'ta Silifke ve Tekir köyündeydi.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1926-05-11-ertugrul-yati-yla-silifke-ye-gitti-seyahat"
+    },
+    {
+      "id": "yg-1926-05-14-silifke-den-mersin-e-dondu",
+      "date": {
+        "iso": "1926-05-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-05-14."
+      },
+      "title": "Silifke'den Mersin'e döndü",
+      "text": "Saat 9.00'da Silifke'den Mersin'e geldi.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1926-05-16-adana-dan-dortyol-a-gecti",
+      "date": {
+        "iso": "1926-05-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-05-16."
+      },
+      "title": "Adana'dan Dörtyol'a geçti",
+      "text": "Mersin'den Adana'ya geldi, akşamüzeri Dörtyol'a hareket etti.",
+      "placeId": "adana",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1926-05-18-konya-ya-geldi",
+      "date": {
+        "iso": "1926-05-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-05-18."
+      },
+      "title": "Konya'ya geldi",
+      "text": "Konya'ya geldi.",
+      "placeId": "konya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1926-05-20-trenle-bozuyuk-e-otomobille-bilecik-e-gi",
+      "date": {
+        "iso": "1926-05-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-05-20."
+      },
+      "title": "Trenle Bozüyük'e, otomobille Bilecik'e gitti",
+      "text": "Saat 10.00'da Konya'dan trenle Bozüyük'e, öğleden sonra otomobille Bilecik'e geldi; akşamüzeri Bursa'ya hareket etti.",
+      "placeId": "konya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1926-05-20-trenle-bozuyuk-e-otomobille-bilecik-e-gi-seyahat"
+    },
+    {
+      "id": "yg-1926-06-04-otomobille-mudanya-ya-gitti",
+      "date": {
+        "iso": "1926-06-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-06-04."
+      },
+      "title": "Otomobille Mudanya'ya gitti",
+      "text": "Otomobille Bursa'dan Mudanya'ya geldi.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1926-06-04-otomobille-mudanya-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1926-06-13-karadeniz-vapuru-yla-bandirma-ya-gecti",
+      "date": {
+        "iso": "1926-06-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-06-13."
+      },
+      "title": "Karadeniz Vapuru'yla Bandırma'ya geçti",
+      "text": "Sabah Bursa'dan Mudanya'ya, oradan Karadeniz Vapuru'yla Bandırma'ya geldi; akşam Balıkesir'e geçti.",
+      "placeId": "mudanya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1926-06-13-karadeniz-vapuru-yla-bandirma-ya-gecti-seyahat"
+    },
+    {
       "id": "izmir-suikasti-1926-06",
       "date": {
         "iso": "1926-06-14",
@@ -1236,6 +2279,44 @@
       "$note": "K5 taraması, parti 10a. Tutuklamanın yeri İzmir; onun o gün nerede olduğu yazmıyor, yer bağlanmadı."
     },
     {
+      "id": "yg-1926-06-15-balikesir-den-izmir-e-yola-cikti",
+      "date": {
+        "iso": "1926-06-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-06-15."
+      },
+      "title": "Balıkesir'den İzmir'e yola çıktı",
+      "text": "Saat 19.00'da Balıkesir'den İzmir'e hareket etti.",
+      "placeId": "balikesir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1926-06-16-soma-ve-manisa-uzerinden-izmir-e-geldi",
+      "date": {
+        "iso": "1926-06-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-06-16."
+      },
+      "title": "Soma ve Manisa üzerinden İzmir'e geldi",
+      "text": "Soma'ya, ardından Manisa'ya ve Menemen'e uğrayarak İzmir'e geldi; 30 Haziran'a kadar orada kaldı.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
       "id": "suikast-demeci-1926-06-18",
       "date": {
         "iso": "1926-06-18",
@@ -1252,6 +2333,64 @@
         "msb-kronoloji-1923-1938-p10a"
       ],
       "$note": "K5 taraması, parti 10a. Yer yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "yg-1926-06-30-urla-uzerinden-cesme-ye-gitti",
+      "date": {
+        "iso": "1926-06-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-06-30."
+      },
+      "title": "Urla üzerinden Çeşme'ye gitti",
+      "text": "İzmir'den Çeşme'ye giderken Urla'da konakladı; 8 Temmuz'a kadar Çeşme'deydi.",
+      "placeId": "cesme",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1926-07-08-cesme-den-izmir-e-dondu",
+      "date": {
+        "iso": "1926-07-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-07-08."
+      },
+      "title": "Çeşme'den İzmir'e döndü",
+      "text": "Çeşme'den İzmir'e döndü.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1926-07-09-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1926-07-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1926-07-09."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "İzmir'den trenle Ankara'ya hareket etti.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1926-07-09-trenle-ankara-ya-dondu-seyahat"
     },
     {
       "id": "tbmm-acilis-1926-11-01",
@@ -1296,6 +2435,26 @@
       "$note": "K5 taraması, parti 10a. Yer yazmıyor. Wikidata P410'daki Mareşal rütbesinin bitişiyle (30 Haziran 1927, MSB yayını dayanaklı) aynı gün."
     },
     {
+      "id": "yg-1927-06-30-trenle-ve-ertugrul-yati-yla-istanbul-a-g",
+      "date": {
+        "iso": "1927-06-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1927-06-30."
+      },
+      "title": "Trenle ve Ertuğrul Yatı'yla İstanbul'a gitti",
+      "text": "Trenle Ankara'dan ayrıldı; ertesi gün İzmit'te Ertuğrul Yatı'na binip akşamüzeri İstanbul'a geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1927-06-30-trenle-ve-ertugrul-yati-yla-istanbul-a-g-seyahat"
+    },
+    {
       "id": "istanbula-ilk-gelis-1927-07-01",
       "date": {
         "iso": "1927-07-01",
@@ -1313,6 +2472,64 @@
         "msb-kronoloji-1923-1938-p10a"
       ],
       "$note": "K5 taraması, parti 10a."
+    },
+    {
+      "id": "yg-1927-07-15-mudanya-uzerinden-bursa-ya-gidip-dondu",
+      "date": {
+        "iso": "1927-07-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1927-07-15."
+      },
+      "title": "Mudanya üzerinden Bursa'ya gidip döndü",
+      "text": "İstanbul'dan Mudanya üzerinden Bursa'ya geldi, gece İstanbul'a döndü.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1927-09-30-ankara-motoru-yla-mudanya-ya-otomobille-",
+      "date": {
+        "iso": "1927-09-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1927-09-30."
+      },
+      "title": "Ankara Motoru'yla Mudanya'ya, otomobille Bursa'ya gitti",
+      "text": "Saat 10.00'da Ankara Motoru'yla İstanbul'dan Mudanya'ya, oradan otomobille Bursa'ya gitti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1927-09-30-ankara-motoru-yla-mudanya-ya-otomobille--seyahat"
+    },
+    {
+      "id": "yg-1927-10-09-bursa-dan-ankara-ya-dondu",
+      "date": {
+        "iso": "1927-10-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1927-10-09."
+      },
+      "title": "Bursa'dan Ankara'ya döndü",
+      "text": "Bursa'dan Ankara'ya hareket etti.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
     },
     {
       "id": "tbmm-nutuk-1927-11-01",
@@ -1339,6 +2556,26 @@
       "$note": " K5 parti 10a (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "yg-1928-06-04-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1928-06-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-06-04."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Trenle Ankara'dan İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1928-06-04-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
       "id": "sarayburnu-1928-08",
       "date": {
         "iso": "1928-08-09",
@@ -1357,6 +2594,221 @@
         "msb-kronoloji-1923-1938-p10a"
       ],
       "$note": "K5 taraması, parti 10a. Maddedeki alıntı alınmadı (SPEC §2.1)."
+    },
+    {
+      "id": "yg-1928-08-23-ertugrul-yati-yla-tekirdag-a-gidip-dondu",
+      "date": {
+        "iso": "1928-08-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-08-23."
+      },
+      "title": "Ertuğrul Yatı'yla Tekirdağ'a gidip döndü",
+      "text": "Ertuğrul Yatı'yla Tekirdağ'a gitti ve aynı gün İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1928-08-23-ertugrul-yati-yla-tekirdag-a-gidip-dondu-seyahat"
+    },
+    {
+      "id": "yg-1928-08-27-sogutlu-yati-yla-mudanya-ya-otomobille-b",
+      "date": {
+        "iso": "1928-08-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-08-27."
+      },
+      "title": "Söğütlü Yatı'yla Mudanya'ya, otomobille Bursa'ya gitti",
+      "text": "Söğütlü Yatı'yla İstanbul'dan Mudanya'ya, oradan otomobille Bursa'ya gitti; akşam Mudanya üzerinden İstanbul'a hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1928-08-27-sogutlu-yati-yla-mudanya-ya-otomobille-b-seyahat"
+    },
+    {
+      "id": "yg-1928-08-28-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1928-08-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-08-28."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Ertuğrul Yatı'yla Mudanya'dan İstanbul'a döndü.",
+      "placeId": "mudanya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1928-08-28-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1928-09-01-ertugrul-yati-yla-canakkale-ye-gitti",
+      "date": {
+        "iso": "1928-09-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-09-01."
+      },
+      "title": "Ertuğrul Yatı'yla Çanakkale'ye gitti",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Çanakkale'ye geldi; Maydos'a geçerek Arıburnu, Conkbayırı ve Anafartalar'ı gezdi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1928-09-01-ertugrul-yati-yla-canakkale-ye-gitti-seyahat"
+    },
+    {
+      "id": "yg-1928-09-02-ertugrul-yati-yla-gelibolu-ya-gitti",
+      "date": {
+        "iso": "1928-09-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-09-02."
+      },
+      "title": "Ertuğrul Yatı'yla Gelibolu'ya gitti",
+      "text": "Ertuğrul Yatı'yla Çanakkale'den Gelibolu'ya geldi.",
+      "placeId": "canakkale",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1928-09-02-ertugrul-yati-yla-gelibolu-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1928-09-03-canakkale-den-istanbul-a-dondu",
+      "date": {
+        "iso": "1928-09-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-09-03."
+      },
+      "title": "Çanakkale'den İstanbul'a döndü",
+      "text": "Çanakkale'den İstanbul'a döndü.",
+      "placeId": "canakkale",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1928-09-14-izmir-vapuru-yla-karadeniz-e-acildi",
+      "date": {
+        "iso": "1928-09-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-09-14."
+      },
+      "title": "İzmir Vapuru'yla Karadeniz'e açıldı",
+      "text": "İzmir Vapuru'yla İstanbul'dan Karadeniz'e hareket etti; ertesi gün Sinop'taydı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1928-09-14-izmir-vapuru-yla-karadeniz-e-acildi-seyahat"
+    },
+    {
+      "id": "yg-1928-09-15-sinop-tan-samsun-a-yola-cikti",
+      "date": {
+        "iso": "1928-09-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-09-15."
+      },
+      "title": "Sinop'tan Samsun'a yola çıktı",
+      "text": "Sinop'ta bulundu, gece Samsun'a hareket etti; 16-18 Eylül'de Samsun'daydı.",
+      "placeId": "sinop",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1928-09-18-amasya-ve-turhal-uzerinden-tokat-a-gitti",
+      "date": {
+        "iso": "1928-09-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-09-18."
+      },
+      "title": "Amasya ve Turhal üzerinden Tokat'a gitti",
+      "text": "Amasya'ya uğradı, Turhal yoluyla Tokat'a geçti.",
+      "placeId": "tokat",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1928-09-19-sivas-a-geldi",
+      "date": {
+        "iso": "1928-09-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-09-19."
+      },
+      "title": "Sivas'a geldi",
+      "text": "Sivas'ta bulundu.",
+      "placeId": "sivas",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1928-09-20-kayseri-ye-geldi",
+      "date": {
+        "iso": "1928-09-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1928-09-20."
+      },
+      "title": "Kayseri'ye geldi",
+      "text": "Kayseri'de bulundu; ertesi günden itibaren Ankara'daydı.",
+      "placeId": "kayseri",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
     },
     {
       "id": "tbmm-nutuk-1928-11-01",
@@ -1401,6 +2853,203 @@
       "$note": "K5 taraması, parti 10b. Yer yazmıyor."
     },
     {
+      "id": "yg-1929-08-05-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1929-08-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-08-05."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Trenle Ankara'dan İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1929-08-05-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1929-08-21-ertugrul-yati-yla-yalova-ya-oradan-bursa",
+      "date": {
+        "iso": "1929-08-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-08-21."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya, oradan Bursa'ya gitti",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya gitti, oradan Bursa'ya geçti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1929-08-21-ertugrul-yati-yla-yalova-ya-oradan-bursa-seyahat"
+    },
+    {
+      "id": "yg-1929-08-22-bursa-dan-yalova-uzerinden-istanbul-a-do",
+      "date": {
+        "iso": "1929-08-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-08-22."
+      },
+      "title": "Bursa'dan Yalova üzerinden İstanbul'a döndü",
+      "text": "Bursa'dan Yalova'ya geldi, akşam İstanbul'a döndü.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1929-08-24-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1929-08-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-08-24."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1929-08-24-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1929-08-26-yalova-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1929-08-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-08-26."
+      },
+      "title": "Yalova'dan İstanbul'a döndü",
+      "text": "Yalova'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1929-08-28-ertugrul-yati-yla-yalova-ya-gidip-dondu",
+      "date": {
+        "iso": "1929-08-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-08-28."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gidip döndü",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya gitti ve aynı gün döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1929-08-28-ertugrul-yati-yla-yalova-ya-gidip-dondu-seyahat"
+    },
+    {
+      "id": "yg-1929-09-03-ertugrul-yati-yla-yalova-ya-gidip-dondu",
+      "date": {
+        "iso": "1929-09-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-09-03."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gidip döndü",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya geçti, gece İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1929-09-03-ertugrul-yati-yla-yalova-ya-gidip-dondu-seyahat"
+    },
+    {
+      "id": "yg-1929-09-12-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1929-09-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-09-12."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya gitti; 18 Eylül'e kadar orada kaldı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1929-09-12-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1929-09-18-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1929-09-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-09-18."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Gece Ertuğrul Yatı'yla Yalova'dan İstanbul'a döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1929-09-18-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1929-09-30-istanbul-dan-ankara-ya-yola-cikti",
+      "date": {
+        "iso": "1929-09-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-09-30."
+      },
+      "title": "İstanbul'dan Ankara'ya yola çıktı",
+      "text": "İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
       "id": "tbmm-acilis-1929-11-01",
       "date": {
         "iso": "1929-11-01",
@@ -1423,6 +3072,337 @@
         "tbmm-nutuk-1929-11-01"
       ],
       "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
+    },
+    {
+      "id": "yg-1929-12-07-yalova-ya-gitmek-icin-yola-cikti",
+      "date": {
+        "iso": "1929-12-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-12-07."
+      },
+      "title": "Yalova'ya gitmek için yola çıktı",
+      "text": "Yalova'ya gitmek üzere Ankara'dan Derince'ye hareket etti; ertesi gün Yalova'ya geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1929-12-15-marmara-vapuru-ve-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1929-12-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1929-12-15."
+      },
+      "title": "Marmara Vapuru ve trenle Ankara'ya döndü",
+      "text": "Yalova'dan Marmara Vapuru'yla Derince'ye geldi, oradan trenle Ankara'ya hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1929-12-15-marmara-vapuru-ve-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1930-02-26-ankara-dan-izmir-e-yola-cikti",
+      "date": {
+        "iso": "1930-02-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-02-26."
+      },
+      "title": "Ankara'dan İzmir'e yola çıktı",
+      "text": "Ankara'dan İzmir'e hareket etti; 27 Şubat-5 Mart arasında İzmir'deydi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-03-05-trenle-isparta-ya-gitti",
+      "date": {
+        "iso": "1930-03-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-03-05."
+      },
+      "title": "Trenle Isparta'ya gitti",
+      "text": "İzmir'den trenle Antalya yönüne hareket etti; ertesi gün öğleye doğru Isparta'ya geldi.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-03-05-trenle-isparta-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1930-03-06-burdur-uzerinden-antalya-ya-geldi",
+      "date": {
+        "iso": "1930-03-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-03-06."
+      },
+      "title": "Burdur üzerinden Antalya'ya geldi",
+      "text": "Isparta'dan Burdur'a, oradan Antalya'ya geçti; 12 Mart'a kadar Antalya'daydı.",
+      "placeId": "antalya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-03-12-otomobille-burdur-a-gitti",
+      "date": {
+        "iso": "1930-03-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-03-12."
+      },
+      "title": "Otomobille Burdur'a gitti",
+      "text": "Sabah otomobille Antalya'dan ayrıldı, öğleyin Burdur'a geldi; öğleden sonra Ankara'ya hareket etti.",
+      "placeId": "antalya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-03-12-otomobille-burdur-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1930-06-09-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1930-06-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-06-09."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle İstanbul'a hareket etti; 11 Haziran'da İstanbul'a geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-06-09-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1930-06-12-ertugrul-yati-yla-yalova-ya-gidip-dondu",
+      "date": {
+        "iso": "1930-06-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-06-12."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gidip döndü",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya gitti, akşam İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-06-12-ertugrul-yati-yla-yalova-ya-gidip-dondu-seyahat"
+    },
+    {
+      "id": "yg-1930-06-17-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1930-06-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-06-17."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya gitti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-06-17-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1930-06-20-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1930-06-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-06-20."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Ertuğrul Yatı'yla Yalova'dan İstanbul'a döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-06-20-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1930-06-30-istanbul-dan-yalova-ya-geldi",
+      "date": {
+        "iso": "1930-06-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-06-30."
+      },
+      "title": "İstanbul'dan Yalova'ya geldi",
+      "text": "İstanbul'dan Yalova'ya geldi; 11 Temmuz'a kadar orada kaldı.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-07-11-yalova-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1930-07-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-07-11."
+      },
+      "title": "Yalova'dan İstanbul'a döndü",
+      "text": "Yalova'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-07-12-yalova-ya-gitti",
+      "date": {
+        "iso": "1930-07-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-07-12."
+      },
+      "title": "Yalova'ya gitti",
+      "text": "İstanbul'dan Yalova'ya gitti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-07-29-ertugrul-yati-yla-istanbul-a-gitti",
+      "date": {
+        "iso": "1930-07-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-07-29."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a gitti",
+      "text": "Ertuğrul Yatı'yla Yalova'dan İstanbul'a hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-07-29-ertugrul-yati-yla-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1930-08-01-yalova-ya-gitti",
+      "date": {
+        "iso": "1930-08-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-08-01."
+      },
+      "title": "Yalova'ya gitti",
+      "text": "İstanbul'dan Yalova'ya gitti; 5 Eylül'e kadar orada kaldı.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-09-05-yalova-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1930-09-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-09-05."
+      },
+      "title": "Yalova'dan İstanbul'a döndü",
+      "text": "Yalova'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-09-19-istanbul-dan-ankara-ya-yola-cikti",
+      "date": {
+        "iso": "1930-09-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-09-19."
+      },
+      "title": "İstanbul'dan Ankara'ya yola çıktı",
+      "text": "İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
     },
     {
       "id": "tbmm-acilis-1930-11-01",
@@ -1449,6 +3429,510 @@
       "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "yg-1930-11-17-trenle-kayseri-ye-gitti",
+      "date": {
+        "iso": "1930-11-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-11-17."
+      },
+      "title": "Trenle Kayseri'ye gitti",
+      "text": "Trenle Ankara'dan Kayseri'ye hareket etti; 18 Kasım'da Kayseri'deydi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-11-17-trenle-kayseri-ye-gitti-seyahat"
+    },
+    {
+      "id": "yg-1930-11-19-trenle-sivas-a-gitti",
+      "date": {
+        "iso": "1930-11-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-11-19."
+      },
+      "title": "Trenle Sivas'a gitti",
+      "text": "Saat 14.30'da trenle Kayseri'den Sivas'a hareket etti; 20 Kasım'da Sivas'taydı.",
+      "placeId": "kayseri",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-11-19-trenle-sivas-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1930-11-21-tokat-ta-bulundu",
+      "date": {
+        "iso": "1930-11-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-11-21."
+      },
+      "title": "Tokat'ta bulundu",
+      "text": "Tokat'ta bulundu.",
+      "placeId": "tokat",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-11-22-turhal-ve-amasya-uzerinden-samsun-a-geld",
+      "date": {
+        "iso": "1930-11-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-11-22."
+      },
+      "title": "Turhal ve Amasya üzerinden Samsun'a geldi",
+      "text": "Turhal ve Amasya'dan geçip saat 21.00'de Samsun'a geldi.",
+      "placeId": "samsun",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-11-24-carsamba-ya-gidip-dondu",
+      "date": {
+        "iso": "1930-11-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-11-24."
+      },
+      "title": "Çarşamba'ya gidip döndü",
+      "text": "Çarşamba'ya gitti, akşam Samsun'a döndü.",
+      "placeId": "carsamba",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-11-26-ege-vapuru-yla-trabzon-a-gitti",
+      "date": {
+        "iso": "1930-11-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-11-26."
+      },
+      "title": "Ege Vapuru'yla Trabzon'a gitti",
+      "text": "Gece Ege Vapuru'yla Samsun'dan Trabzon'a hareket etti; 27-29 Kasım'da Trabzon'daydı.",
+      "placeId": "samsun",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-11-26-ege-vapuru-yla-trabzon-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1930-11-29-ege-vapuru-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1930-11-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-11-29."
+      },
+      "title": "Ege Vapuru'yla İstanbul'a döndü",
+      "text": "Ege Vapuru'yla Trabzon'dan ayrıldı; 1 Aralık'ta İstanbul'a geldi.",
+      "placeId": "trabzon",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1930-11-29-ege-vapuru-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1930-12-04-yalova-ya-gidip-dondu",
+      "date": {
+        "iso": "1930-12-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-12-04."
+      },
+      "title": "Yalova'ya gidip döndü",
+      "text": "İstanbul'dan Yalova'ya gitti, akşam İstanbul'a döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-12-19-trakya-gezisine-cikti",
+      "date": {
+        "iso": "1930-12-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-12-19."
+      },
+      "title": "Trakya gezisine çıktı",
+      "text": "Akşam İstanbul'dan Trakya'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-12-20-alpullu-uzerinden-kirklareli-ne-geldi",
+      "date": {
+        "iso": "1930-12-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-12-20."
+      },
+      "title": "Alpullu üzerinden Kırklareli'ne geldi",
+      "text": "Öğleye doğru Alpullu'ya, saat 15.00'te Kırklareli'ne geldi.",
+      "placeId": "kirklareli",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-12-21-corlu-uzerinden-edirne-ye-geldi",
+      "date": {
+        "iso": "1930-12-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-12-21."
+      },
+      "title": "Çorlu üzerinden Edirne'ye geldi",
+      "text": "Kırklareli'nden ayrıldı, Çorlu'ya uğrayıp saat 17.30'da Edirne'ye geldi; 25 Aralık'a kadar orada kaldı.",
+      "placeId": "edirne",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1930-12-25-edirne-den-istanbul-a-dondu",
+      "date": {
+        "iso": "1930-12-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1930-12-25."
+      },
+      "title": "Edirne'den İstanbul'a döndü",
+      "text": "Öğleden sonra Edirne'den ayrıldı, Havsa ve Babaeski'ye uğrayıp akşam İstanbul'a döndü.",
+      "placeId": "edirne",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-01-03-ege-vapuru-yla-mudanya-ya-otomobille-bur",
+      "date": {
+        "iso": "1931-01-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-01-03."
+      },
+      "title": "Ege Vapuru'yla Mudanya'ya, otomobille Bursa'ya gitti",
+      "text": "Gece Ege Vapuru'yla İstanbul'dan Mudanya'ya hareket etti; ertesi gün Mudanya'dan otomobille Bursa'ya geçti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-01-03-ege-vapuru-yla-mudanya-ya-otomobille-bur-seyahat"
+    },
+    {
+      "id": "yg-1931-01-05-ege-vapuru-ve-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1931-01-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-01-05."
+      },
+      "title": "Ege Vapuru ve trenle Ankara'ya döndü",
+      "text": "Bursa'dan Mudanya'ya geldi; gece Ege Vapuru'yla Derince'ye, oradan trenle Ankara'ya hareket etti.",
+      "placeId": "mudanya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-01-05-ege-vapuru-ve-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1931-01-25-trenle-izmir-e-gitti",
+      "date": {
+        "iso": "1931-01-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-01-25."
+      },
+      "title": "Trenle İzmir'e gitti",
+      "text": "Akşam trenle Ankara'dan ayrıldı; Eskişehir, Kütahya ve Afyon'dan geçti, Uşak'ta şeker fabrikasını gezip İzmir'e hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-01-25-trenle-izmir-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1931-01-30-kemalpasa-ve-armutlu-ya-gidip-dondu",
+      "date": {
+        "iso": "1931-01-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-01-30."
+      },
+      "title": "Kemalpaşa ve Armutlu'ya gidip döndü",
+      "text": "İzmir'den Kemalpaşa'ya ve Armutlu köyüne gitti, akşam İzmir'e döndü.",
+      "placeId": "kemalpasa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-02-03-aydin-da-bulundu",
+      "date": {
+        "iso": "1931-02-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-02-03."
+      },
+      "title": "Aydın'da bulundu",
+      "text": "Aydın'da bulundu.",
+      "placeId": "aydin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-02-04-nazilli-uzerinden-denizli-ye-geldi",
+      "date": {
+        "iso": "1931-02-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-02-04."
+      },
+      "title": "Nazilli üzerinden Denizli'ye geldi",
+      "text": "Aydın'dan Nazilli'ye, oradan Denizli'ye geldi.",
+      "placeId": "denizli",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-02-05-denizli-den-izmir-e-dondu",
+      "date": {
+        "iso": "1931-02-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-02-05."
+      },
+      "title": "Denizli'den İzmir'e döndü",
+      "text": "Denizli'den İzmir'e döndü.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-02-06-trenle-balikesir-e-gitti",
+      "date": {
+        "iso": "1931-02-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-02-06."
+      },
+      "title": "Trenle Balıkesir'e gitti",
+      "text": "Akşam trenle İzmir'den Balıkesir'e hareket etti; 7 Şubat'ta Balıkesir'deydi.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-02-06-trenle-balikesir-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1931-02-08-ege-vapuru-yla-akdeniz-kiyilarina-gitti",
+      "date": {
+        "iso": "1931-02-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-02-08."
+      },
+      "title": "Ege Vapuru'yla Akdeniz kıyılarına gitti",
+      "text": "Balıkesir'den İzmir'e döndü, Ege Vapuru'yla Antalya'ya ve Taşucu'na gitti; Silifke'yi görüp Mersin'e geçti, oradan trenle Malatya'ya hareket etti.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-02-08-ege-vapuru-yla-akdeniz-kiyilarina-gitti-seyahat"
+    },
+    {
+      "id": "yg-1931-02-14-trenle-dortyol-a-gitti",
+      "date": {
+        "iso": "1931-02-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-02-14."
+      },
+      "title": "Trenle Dörtyol'a gitti",
+      "text": "Gece trenle Malatya'dan Dörtyol'a hareket etti; ertesi gün Dörtyol'a geldi.",
+      "placeId": "malatya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-02-14-trenle-dortyol-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1931-02-15-dortyol-dan-adana-ya-gecti",
+      "date": {
+        "iso": "1931-02-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-02-15."
+      },
+      "title": "Dörtyol'dan Adana'ya geçti",
+      "text": "Dörtyol'a geldi, akşamüzeri Adana'ya hareket etti.",
+      "placeId": "dortyol",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-02-17-adana-dan-konya-ya-yola-cikti",
+      "date": {
+        "iso": "1931-02-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-02-17."
+      },
+      "title": "Adana'dan Konya'ya yola çıktı",
+      "text": "Adana'dan Konya'ya hareket etti; 18 Şubat-1 Mart arasında Konya'daydı.",
+      "placeId": "adana",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-03-01-konya-dan-afyon-a-yola-cikti",
+      "date": {
+        "iso": "1931-03-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-03-01."
+      },
+      "title": "Konya'dan Afyon'a yola çıktı",
+      "text": "Konya'dan Afyon'a hareket etti.",
+      "placeId": "konya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-03-02-afyon-dan-ankara-ya-yola-cikti",
+      "date": {
+        "iso": "1931-03-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-03-02."
+      },
+      "title": "Afyon'dan Ankara'ya yola çıktı",
+      "text": "Afyon'a geldi, aynı akşam Ankara'ya hareket etti.",
+      "placeId": "afyon",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
       "id": "tarih-cemiyeti-1931-04-12",
       "date": {
         "iso": "1931-04-12",
@@ -1465,6 +3949,24 @@
         "msb-kronoloji-1923-1938-p10b"
       ],
       "$note": "K5 taraması, parti 10b. Yer yazmıyor."
+    },
+    {
+      "id": "yg-1931-05-02-trenle-sakarya-ya-gidip-dondu",
+      "date": {
+        "iso": "1931-05-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-05-02."
+      },
+      "title": "Trenle Sakarya'ya gidip döndü",
+      "text": "Ankara'dan trenle Sakarya'ya gidip döndü.",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
     },
     {
       "id": "ucuncu-cumhurbaskanligi-1931-05-04",
@@ -1504,6 +4006,202 @@
       "$note": "K5 taraması, parti 10b. Maddedeki alıntı alınmadı (SPEC §2.1)."
     },
     {
+      "id": "yg-1931-07-20-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1931-07-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-07-20."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Trenle Ankara'dan İstanbul'a hareket etti; Eskişehir'den geçip 21 Temmuz'da İstanbul'a geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-07-20-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1931-07-22-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1931-07-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-07-22."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "İstanbul'dan Ertuğrul Yatı'yla Yalova'ya gitti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-07-22-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1931-08-07-bursa-ya-gidip-uludag-i-inceledi",
+      "date": {
+        "iso": "1931-08-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-08-07."
+      },
+      "title": "Bursa'ya gidip Uludağ'ı inceledi",
+      "text": "Yalova'dan Bursa'ya geldi, Uludağ'da incelemelerde bulundu; Mudanya'dan İstanbul'a hareket etti.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-08-08-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1931-08-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-08-08."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "İstanbul'a döndü; akşam Ertuğrul Yatı'yla Yalova'ya gitti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-08-08-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1931-08-25-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1931-08-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-08-25."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Ertuğrul Yatı'yla Yalova'dan İstanbul'a döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-08-25-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1931-08-26-ertugrul-yati-yla-zonguldak-a-gidip-dond",
+      "date": {
+        "iso": "1931-08-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-08-26."
+      },
+      "title": "Ertuğrul Yatı'yla Zonguldak'a gidip döndü",
+      "text": "İstanbul'dan Ertuğrul Yatı'yla Zonguldak'a gitti, aynı gün akşamüzeri İstanbul'a hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-08-26-ertugrul-yati-yla-zonguldak-a-gidip-dond-seyahat"
+    },
+    {
+      "id": "yg-1931-08-31-yalova-ya-gitti",
+      "date": {
+        "iso": "1931-08-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-08-31."
+      },
+      "title": "Yalova'ya gitti",
+      "text": "Akşam İstanbul'dan Yalova'ya hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-09-06-ertugrul-yati-yla-buyukada-ya-gidip-dond",
+      "date": {
+        "iso": "1931-09-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-09-06."
+      },
+      "title": "Ertuğrul Yatı'yla Büyükada'ya gidip döndü",
+      "text": "Ertuğrul Yatı'yla Yalova'dan Büyükada'ya gitti, yeniden Yalova'ya döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1931-09-06-ertugrul-yati-yla-buyukada-ya-gidip-dond-seyahat"
+    },
+    {
+      "id": "yg-1931-09-08-yalova-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1931-09-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-09-08."
+      },
+      "title": "Yalova'dan İstanbul'a döndü",
+      "text": "Sabah Yalova'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1931-09-25-istanbul-dan-ankara-ya-yola-cikti",
+      "date": {
+        "iso": "1931-09-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1931-09-25."
+      },
+      "title": "İstanbul'dan Ankara'ya yola çıktı",
+      "text": "Akşam İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
       "id": "tbmm-acilis-1931-11-01",
       "date": {
         "iso": "1931-11-01",
@@ -1528,6 +4226,65 @@
       "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "yg-1932-01-11-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1932-01-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-01-11."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam Ankara'dan trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1932-01-11-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1932-03-04-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1932-03-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-03-04."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "İstanbul'dan trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1932-03-04-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1932-06-27-cubuk-a-gitti",
+      "date": {
+        "iso": "1932-06-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-06-27."
+      },
+      "title": "Çubuk'a gitti",
+      "text": "Ankara'da kaldığı günlerde Çubuk'a gitti.",
+      "placeId": "cubuk",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
       "id": "dil-cemiyeti-1932-07-12",
       "date": {
         "iso": "1932-07-12",
@@ -1544,6 +4301,144 @@
         "msb-kronoloji-1923-1938-p10b"
       ],
       "$note": "K5 taraması, parti 10b. Yer yazmıyor."
+    },
+    {
+      "id": "yg-1932-07-15-trenle-derince-ye-ertugrul-yati-yla-yalo",
+      "date": {
+        "iso": "1932-07-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-07-15."
+      },
+      "title": "Trenle Derince'ye, Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Saat 19.30'da trenle Ankara'dan Derince'ye hareket etti; ertesi gün Ertuğrul Yatı'yla Yalova'ya geçti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1932-07-15-trenle-derince-ye-ertugrul-yati-yla-yalo-seyahat"
+    },
+    {
+      "id": "yg-1932-07-22-cinarcik-a-geldi",
+      "date": {
+        "iso": "1932-07-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-07-22."
+      },
+      "title": "Çınarcık'a geldi",
+      "text": "Çınarcık'a geldi; 24 Temmuz'a kadar orada kaldı.",
+      "placeId": "cinarcik",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1932-07-24-sakarya-motoru-yla-buyukada-ya-gidip-don",
+      "date": {
+        "iso": "1932-07-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-07-24."
+      },
+      "title": "Sakarya Motoru'yla Büyükada'ya gidip döndü",
+      "text": "Sakarya Motoru'yla Yalova'dan Büyükada'ya geçti, yeniden Yalova'ya döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1932-07-24-sakarya-motoru-yla-buyukada-ya-gidip-don-seyahat"
+    },
+    {
+      "id": "yg-1932-07-31-yalova-dan-istanbul-a-yola-cikti",
+      "date": {
+        "iso": "1932-07-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-07-31."
+      },
+      "title": "Yalova'dan İstanbul'a yola çıktı",
+      "text": "Yalova'dan İstanbul'a hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1932-08-04-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1932-08-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-08-04."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Ertuğrul Yatı'yla Yalova'ya hareket etti, saat 20.00'de Yalova'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1932-08-04-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1932-08-31-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1932-08-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-08-31."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Ertuğrul Yatı'yla Yalova'dan İstanbul'a hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1932-08-31-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1932-10-22-ertugrul-yati-ve-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1932-10-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1932-10-22."
+      },
+      "title": "Ertuğrul Yatı ve trenle Ankara'ya döndü",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Derince'ye geldi, oradan trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1932-10-22-ertugrul-yati-ve-trenle-ankara-ya-dondu-seyahat"
     },
     {
       "id": "tbmm-acilis-1932-11-01",
@@ -1570,6 +4465,656 @@
       "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "yg-1933-01-15-tren-ve-gulcemal-vapuru-yla-bursa-ya-git",
+      "date": {
+        "iso": "1933-01-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-15."
+      },
+      "title": "Tren ve Gülcemal Vapuru'yla Bursa'ya gitti",
+      "text": "Gece trenle Ankara'dan Eskişehir'e, oradan trenle Derince'ye gitti; Gülcemal Vapuru'yla Mudanya'ya geçip Bursa'ya vardı.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-01-15-tren-ve-gulcemal-vapuru-yla-bursa-ya-git-seyahat"
+    },
+    {
+      "id": "yg-1933-01-20-gulcemal-vapuru-yla-bandirma-ya-gitti",
+      "date": {
+        "iso": "1933-01-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-20."
+      },
+      "title": "Gülcemal Vapuru'yla Bandırma'ya gitti",
+      "text": "Bursa'dan Gemlik'e geldi, akşam Gülcemal Vapuru'yla Bandırma'ya hareket etti.",
+      "placeId": "gemlik",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-01-20-gulcemal-vapuru-yla-bandirma-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-01-21-bandirma-dan-balikesir-e-geldi",
+      "date": {
+        "iso": "1933-01-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-21."
+      },
+      "title": "Bandırma'dan Balıkesir'e geldi",
+      "text": "Bandırma'dan Balıkesir'e geldi.",
+      "placeId": "balikesir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-01-22-trenle-kutahya-ya-gitti",
+      "date": {
+        "iso": "1933-01-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-22."
+      },
+      "title": "Trenle Kütahya'ya gitti",
+      "text": "Gece yarısı Balıkesir'den trenle Kütahya'ya hareket etti; 23 Ocak'ta Kütahya'daydı.",
+      "placeId": "balikesir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-01-22-trenle-kutahya-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-01-24-trenle-afyon-a-gitti",
+      "date": {
+        "iso": "1933-01-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-24."
+      },
+      "title": "Trenle Afyon'a gitti",
+      "text": "Akşama doğru Kütahya'dan trenle ayrıldı, gece Afyon'a geldi; Konya yönüne hareket etti.",
+      "placeId": "kutahya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-01-24-trenle-afyon-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-01-25-konya-uzerinden-adana-ya-geldi",
+      "date": {
+        "iso": "1933-01-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-25."
+      },
+      "title": "Konya üzerinden Adana'ya geldi",
+      "text": "Konya üzerinden Adana'ya geldi.",
+      "placeId": "adana",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-01-26-trenle-narli-ya-otomobille-gaziantep-e-g",
+      "date": {
+        "iso": "1933-01-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-26."
+      },
+      "title": "Trenle Narlı'ya, otomobille Gaziantep'e gitti",
+      "text": "Adana'dan trenle Narlı'ya, oradan otomobille Gaziantep'e gitti.",
+      "placeId": "adana",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-01-26-trenle-narli-ya-otomobille-gaziantep-e-g-seyahat"
+    },
+    {
+      "id": "yg-1933-01-27-narli-dan-trenle-adana-ya-dondu",
+      "date": {
+        "iso": "1933-01-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-27."
+      },
+      "title": "Narlı'dan trenle Adana'ya döndü",
+      "text": "Gaziantep'ten Narlı'ya geldi, oradan trenle Adana'ya hareket etti.",
+      "placeId": "narli",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-01-27-narli-dan-trenle-adana-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1933-01-28-gulcemal-vapuru-yla-antalya-ya-oradan-iz",
+      "date": {
+        "iso": "1933-01-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-01-28."
+      },
+      "title": "Gülcemal Vapuru'yla Antalya'ya, oradan İzmir'e gitti",
+      "text": "Adana'dan Mersin'e geçti; Gülcemal Vapuru'yla Antalya'ya, Fethiye ve Marmaris koylarına girerek İzmir'e gitti.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-01-28-gulcemal-vapuru-yla-antalya-ya-oradan-iz-seyahat"
+    },
+    {
+      "id": "yg-1933-02-04-trenle-afyon-a-otomobille-bursa-ya-gitti",
+      "date": {
+        "iso": "1933-02-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-02-04."
+      },
+      "title": "Trenle Afyon'a, otomobille Bursa'ya gitti",
+      "text": "İzmir'den trenle Afyon'a geldi, oradan Bilecik'e geçti; ertesi sabah Bilecik'ten otomobille Bursa'ya gitti.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-02-04-trenle-afyon-a-otomobille-bursa-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-02-06-gulcemal-vapuru-yla-istanbul-a-gitti",
+      "date": {
+        "iso": "1933-02-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-02-06."
+      },
+      "title": "Gülcemal Vapuru'yla İstanbul'a gitti",
+      "text": "Bursa'dan Mudanya'ya, oradan Gülcemal Vapuru'yla İstanbul'a geçti.",
+      "placeId": "mudanya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-02-06-gulcemal-vapuru-yla-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-02-26-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1933-02-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-02-26."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-02-26-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1933-06-29-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1933-06-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-06-29."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle Ankara'dan İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-06-29-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-07-04-yalova-ya-gitti",
+      "date": {
+        "iso": "1933-07-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-07-04."
+      },
+      "title": "Yalova'ya gitti",
+      "text": "İstanbul'da kaldığı günlerde Yalova'ya gitti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-07-14-ertugrul-yati-yla-canakkale-ye-gitti",
+      "date": {
+        "iso": "1933-07-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-07-14."
+      },
+      "title": "Ertuğrul Yatı'yla Çanakkale'ye gitti",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Çanakkale'ye gitti, oradan Yalova'ya geçti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-07-14-ertugrul-yati-yla-canakkale-ye-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-07-15-yalova-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1933-07-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-07-15."
+      },
+      "title": "Yalova'dan İstanbul'a döndü",
+      "text": "Akşam Yalova'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-07-18-yalova-ya-gitti",
+      "date": {
+        "iso": "1933-07-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-07-18."
+      },
+      "title": "Yalova'ya gitti",
+      "text": "İstanbul'dan Yalova'ya gitti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-07-24-motorla-karamursel-e-gitti",
+      "date": {
+        "iso": "1933-07-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-07-24."
+      },
+      "title": "Motorla Karamürsel'e gitti",
+      "text": "Motorla Karamürsel'e geldi, oradan İstanbul'a döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-07-24-motorla-karamursel-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-07-25-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1933-07-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-07-25."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Akşam Ertuğrul Yatı'yla İstanbul'dan Yalova'ya geçti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-07-25-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-07-27-adatepe-torpidosu-yla-istanbul-a-gitti",
+      "date": {
+        "iso": "1933-07-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-07-27."
+      },
+      "title": "Adatepe Torpidosu'yla İstanbul'a gitti",
+      "text": "Adatepe Torpidosu'yla Yalova'dan İstanbul'a geldi, akşam yeniden Yalova'ya geçti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-07-27-adatepe-torpidosu-yla-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-07-31-ankara-motoru-yla-istanbul-a-gidip-dondu",
+      "date": {
+        "iso": "1933-07-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-07-31."
+      },
+      "title": "Ankara Motoru'yla İstanbul'a gidip döndü",
+      "text": "Akşamüzeri Ankara Motoru'yla Yalova'dan İstanbul'a geldi, akşam yeniden Yalova'ya döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-07-31-ankara-motoru-yla-istanbul-a-gidip-dondu-seyahat"
+    },
+    {
+      "id": "yg-1933-08-12-ertugrul-yati-yla-istanbul-a-gidip-dondu",
+      "date": {
+        "iso": "1933-08-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-08-12."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a gidip döndü",
+      "text": "Ertuğrul Yatı'yla Yalova'dan İstanbul'a gidip döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-08-12-ertugrul-yati-yla-istanbul-a-gidip-dondu-seyahat"
+    },
+    {
+      "id": "yg-1933-08-17-yalova-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1933-08-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-08-17."
+      },
+      "title": "Yalova'dan İstanbul'a döndü",
+      "text": "Yalova'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-08-19-yalova-ya-gidip-dondu",
+      "date": {
+        "iso": "1933-08-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-08-19."
+      },
+      "title": "Yalova'ya gidip döndü",
+      "text": "Sabah İstanbul'dan Yalova'ya gitti, akşam döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-08-23-yalova-ya-geldi",
+      "date": {
+        "iso": "1933-08-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-08-23."
+      },
+      "title": "Yalova'ya geldi",
+      "text": "İstanbul'dan Yalova'ya geldi; 5 Eylül'e kadar orada kaldı.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-09-01-buyukada-ya-gidip-dondu",
+      "date": {
+        "iso": "1933-09-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-09-01."
+      },
+      "title": "Büyükada'ya gidip döndü",
+      "text": "Büyükada'ya geldi, gece yeniden Yalova'ya döndü.",
+      "placeId": "buyukada",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-09-03-heybeliada-ya-gidip-dondu",
+      "date": {
+        "iso": "1933-09-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-09-03."
+      },
+      "title": "Heybeliada'ya gidip döndü",
+      "text": "Heybeliada'ya geldi, gece yeniden Yalova'ya döndü.",
+      "placeId": "heybeliada",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1933-09-06-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1933-09-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-09-06."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Ertuğrul Yatı'yla Yalova'dan İstanbul'a hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-09-06-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1933-09-07-trenle-ankara-ya-gitti",
+      "date": {
+        "iso": "1933-09-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-09-07."
+      },
+      "title": "Trenle Ankara'ya gitti",
+      "text": "Akşam trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-09-07-trenle-ankara-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-09-11-trenle-istanbul-a-dondu",
+      "date": {
+        "iso": "1933-09-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-09-11."
+      },
+      "title": "Trenle İstanbul'a döndü",
+      "text": "Akşam trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-09-11-trenle-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1933-09-29-istanbul-motoru-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1933-09-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-09-29."
+      },
+      "title": "İstanbul Motoru'yla Yalova'ya gitti",
+      "text": "Gece İstanbul Motoru'yla İstanbul'dan Yalova'ya gitti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-09-29-istanbul-motoru-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1933-09-30-istanbul-motoru-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1933-09-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-09-30."
+      },
+      "title": "İstanbul Motoru'yla İstanbul'a döndü",
+      "text": "Akşam İstanbul Motoru'yla Yalova'dan İstanbul'a geldi.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-09-30-istanbul-motoru-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1933-10-09-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1933-10-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1933-10-09."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1933-10-09-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
       "id": "tbmm-acilis-1933-11-01",
       "date": {
         "iso": "1933-11-01",
@@ -1594,6 +5139,727 @@
       "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "yg-1934-02-01-otomobille-kirsehir-e-gitti",
+      "date": {
+        "iso": "1934-02-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-02-01."
+      },
+      "title": "Otomobille Kırşehir'e gitti",
+      "text": "Ankara'dan otomobille Kırşehir'e geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-02-01-otomobille-kirsehir-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-02-02-yerkoy-e-geldi",
+      "date": {
+        "iso": "1934-02-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-02-02."
+      },
+      "title": "Yerköy'e geldi",
+      "text": "Kırşehir'den ayrıldı, akşam Yerköy'e geldi.",
+      "placeId": "yerkoy",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-02-03-yozgat-a-gidip-yerkoy-e-dondu",
+      "date": {
+        "iso": "1934-02-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-02-03."
+      },
+      "title": "Yozgat'a gidip Yerköy'e döndü",
+      "text": "Yerköy'den Yozgat'a geldi, gece Yerköy'e döndü.",
+      "placeId": "yozgat",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-02-04-trenle-kayseri-ye-gitti",
+      "date": {
+        "iso": "1934-02-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-02-04."
+      },
+      "title": "Trenle Kayseri'ye gitti",
+      "text": "Yerköy'den Kayseri'ye hareket etti; yolda Şefaatli ve Boğazköy'de trenden inerek halkla konuştu, akşamüzeri Kayseri'ye geldi.",
+      "placeId": "yerkoy",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-02-04-trenle-kayseri-ye-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-02-05-nigde-ye-geldi",
+      "date": {
+        "iso": "1934-02-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-02-05."
+      },
+      "title": "Niğde'ye geldi",
+      "text": "Öğleden sonra Kayseri'den ayrıldı, saat 20.30'da Niğde'ye geldi.",
+      "placeId": "nigde",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-02-06-nigde-den-konya-ya-geldi",
+      "date": {
+        "iso": "1934-02-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-02-06."
+      },
+      "title": "Niğde'den Konya'ya geldi",
+      "text": "Niğde'den Konya'ya geldi.",
+      "placeId": "konya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-02-07-konya-dan-ankara-ya-dondu",
+      "date": {
+        "iso": "1934-02-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-02-07."
+      },
+      "title": "Konya'dan Ankara'ya döndü",
+      "text": "Konya'dan Ankara'ya geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-04-07-trenle-izmir-yonune-gitti",
+      "date": {
+        "iso": "1934-04-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-07."
+      },
+      "title": "Trenle İzmir yönüne gitti",
+      "text": "Akşam trenle Ankara'dan İzmir yönüne hareket etti; Uşak ve Salihli'de askerî birlikleri teftiş edip 8 Nisan akşamı Manisa'ya geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-04-07-trenle-izmir-yonune-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-04-09-menemen-ve-foca-da-teftis-edip-izmir-e-g",
+      "date": {
+        "iso": "1934-04-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-09."
+      },
+      "title": "Menemen ve Foça'da teftiş edip İzmir'e geldi",
+      "text": "Manisa'dan ayrıldı; Muradiye, Menemen ve Foça çevresindeki birlikleri teftiş etti, saat 19.30'da İzmir'e geldi.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-04-10-gaziemir-seydikoy-ve-kusadasi-nda-denetl",
+      "date": {
+        "iso": "1934-04-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-10."
+      },
+      "title": "Gaziemir, Seydiköy ve Kuşadası'nda denetledi",
+      "text": "İzmir'den Gaziemir'e ve Seydiköy'e gidip birlikleri denetledi, Selçuk üzerinden Kuşadası'na geçti.",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938. Kuşadası için iki bağımsız koordinat bulunamadı (Wikidata ile OpenStreetMap noktası aynı)."
+    },
+    {
+      "id": "yg-1934-04-11-resadiye-seferihisar-ve-bornova-da-denet",
+      "date": {
+        "iso": "1934-04-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-11."
+      },
+      "title": "Reşadiye, Seferihisar ve Bornova'da denetledi",
+      "text": "İzmir'den Reşadiye, Seferihisar ve Bornova'ya gidip birlikleri denetledi, İzmir'e döndü.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-04-13-bergama-dikili-ve-ayvalik-uzerinden-edre",
+      "date": {
+        "iso": "1934-04-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-13."
+      },
+      "title": "Bergama, Dikili ve Ayvalık üzerinden Edremit'e geldi",
+      "text": "İzmir'den ayrıldı; Bergama, Dikili ve Ayvalık'ta incelemelerde bulunup akşam Edremit'e geldi.",
+      "placeId": "edremit",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-04-14-ezine-uzerinden-canakkale-ye-geldi",
+      "date": {
+        "iso": "1934-04-14",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-14."
+      },
+      "title": "Ezine üzerinden Çanakkale'ye geldi",
+      "text": "Edremit'ten ayrıldı; Küçükkuyu, Ayvalık ve Ezine üzerinden Çanakkale'ye geldi.",
+      "placeId": "canakkale",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-04-15-balya-uzerinden-balikesir-e-geldi",
+      "date": {
+        "iso": "1934-04-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-15."
+      },
+      "title": "Balya üzerinden Balıkesir'e geldi",
+      "text": "Çanakkale'den ayrıldı, Balya üzerinden Balıkesir'e geldi ve birlikleri denetledi.",
+      "placeId": "balikesir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-04-16-trenle-eskisehir-e-gitti",
+      "date": {
+        "iso": "1934-04-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-16."
+      },
+      "title": "Trenle Eskişehir'e gitti",
+      "text": "Balıkesir'den trenle Eskişehir'e geldi, ardından Ankara'ya hareket etti.",
+      "placeId": "balikesir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-04-16-trenle-eskisehir-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-04-30-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1934-04-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-04-30."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Ankara'dan trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-04-30-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-05-02-kalamis-vapuru-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1934-05-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-05-02."
+      },
+      "title": "Kalamış Vapuru'yla Yalova'ya gitti",
+      "text": "Kalamış Vapuru'yla Yalova'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-05-02-kalamis-vapuru-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-05-04-bursa-ya-gidip-yalova-ya-dondu",
+      "date": {
+        "iso": "1934-05-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-05-04."
+      },
+      "title": "Bursa'ya gidip Yalova'ya döndü",
+      "text": "Yalova'dan Bursa'ya gitti, yeniden Yalova'ya döndü.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-05-05-vapur-ve-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1934-05-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-05-05."
+      },
+      "title": "Vapur ve trenle Ankara'ya döndü",
+      "text": "Yalova'dan vapurla Derince'ye geldi, oradan trenle Ankara'ya hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-05-05-vapur-ve-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1934-06-20-trenle-eskisehir-e-gitti",
+      "date": {
+        "iso": "1934-06-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-06-20."
+      },
+      "title": "Trenle Eskişehir'e gitti",
+      "text": "Ankara'dan trenle Eskişehir'e hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-06-20-trenle-eskisehir-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-06-21-eskisehir-ve-afyon-da-askeri-kurumlari-g",
+      "date": {
+        "iso": "1934-06-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-06-21."
+      },
+      "title": "Eskişehir ve Afyon'da askerî kurumları gezdi",
+      "text": "Eskişehir'de Hava Meydanı Mektebi'ni, Afyon'da Kolordu Karargâhı'nı gezdi; Uşak yönüne hareket etti.",
+      "placeId": "afyon",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-06-22-usak-ta-denetleyip-izmir-e-geldi",
+      "date": {
+        "iso": "1934-06-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-06-22."
+      },
+      "title": "Uşak'ta denetleyip İzmir'e geldi",
+      "text": "Uşak'ta topçu birliğini denetledi, Manisa üzerinden İzmir'e geldi.",
+      "placeId": "izmir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-06-24-menemen-de-denetleyip-balikesir-e-geldi",
+      "date": {
+        "iso": "1934-06-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-06-24."
+      },
+      "title": "Menemen'de denetleyip Balıkesir'e geldi",
+      "text": "Menemen'de piyade alayını denetledi, Soma üzerinden Balıkesir'e geldi.",
+      "placeId": "balikesir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-06-25-gulcemal-vapuru-yla-istanbul-a-gitti",
+      "date": {
+        "iso": "1934-06-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-06-25."
+      },
+      "title": "Gülcemal Vapuru'yla İstanbul'a gitti",
+      "text": "Balıkesir'den Çanakkale'ye geldi, oradan Gülcemal Vapuru'yla İstanbul'a hareket etti.",
+      "placeId": "canakkale",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-06-25-gulcemal-vapuru-yla-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-06-29-buyukada-ya-gidip-dondu",
+      "date": {
+        "iso": "1934-06-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-06-29."
+      },
+      "title": "Büyükada'ya gidip döndü",
+      "text": "Büyükada'ya gitti, İstanbul'a döndü.",
+      "placeId": "buyukada",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-07-03-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1934-07-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-07-03."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-07-03-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-07-07-ertugrul-yati-ve-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1934-07-07",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-07-07."
+      },
+      "title": "Ertuğrul Yatı ve trenle Ankara'ya döndü",
+      "text": "Ertuğrul Yatı'yla Yalova'dan Derince'ye geldi, oradan trenle Ankara'ya hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-07-07-ertugrul-yati-ve-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1934-07-16-otomobille-kizilcahamam-a-gitti",
+      "date": {
+        "iso": "1934-07-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-07-16."
+      },
+      "title": "Otomobille Kızılcahamam'a gitti",
+      "text": "Otomobille Kızılcahamam'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-07-16-otomobille-kizilcahamam-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-07-17-gerede-uzerinden-bolu-ya-geldi",
+      "date": {
+        "iso": "1934-07-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-07-17."
+      },
+      "title": "Gerede üzerinden Bolu'ya geldi",
+      "text": "Gerede üzerinden Bolu'ya geldi.",
+      "placeId": "bolu",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-07-18-adapazari-ndan-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1934-07-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-07-18."
+      },
+      "title": "Adapazarı'ndan trenle İstanbul'a gitti",
+      "text": "Bolu'dan ayrıldı, Düzce ve Hendek üzerinden Adapazarı'na geldi; gece yarısına doğru trenle İstanbul'a hareket etti.",
+      "placeId": "adapazari",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-07-18-adapazari-ndan-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-07-20-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1934-07-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-07-20."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Ertuğrul Yatı'yla İstanbul'dan Yalova'ya gitti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-07-20-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-07-30-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1934-07-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-07-30."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Ertuğrul Yatı'yla Yalova'dan İstanbul'a döndü.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-07-30-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1934-07-31-ertugrul-yati-yla-canakkale-onlerine-git",
+      "date": {
+        "iso": "1934-07-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-07-31."
+      },
+      "title": "Ertuğrul Yatı'yla Çanakkale önlerine gitti",
+      "text": "Akşam Ertuğrul Yatı'yla Çanakkale'ye hareket etti; ertesi gün karaya çıkmadan Yalova'ya döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-07-31-ertugrul-yati-yla-canakkale-onlerine-git-seyahat"
+    },
+    {
+      "id": "yg-1934-08-11-yalova-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1934-08-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-08-11."
+      },
+      "title": "Yalova'dan İstanbul'a döndü",
+      "text": "Yalova'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1934-08-28-motorla-buyukada-ya-ertugrul-yati-yla-ya",
+      "date": {
+        "iso": "1934-08-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-08-28."
+      },
+      "title": "Motorla Büyükada'ya, Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Akşam motorla Büyükada Yat Kulübü'ne geldi, gece Ertuğrul Yatı'yla Yalova'ya gitti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-08-28-motorla-buyukada-ya-ertugrul-yati-yla-ya-seyahat"
+    },
+    {
+      "id": "yg-1934-08-30-ertugrul-yati-yla-tuzla-ya-gitti",
+      "date": {
+        "iso": "1934-08-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-08-30."
+      },
+      "title": "Ertuğrul Yatı'yla Tuzla'ya gitti",
+      "text": "Ertuğrul Yatı'yla Yalova'dan Tuzla'ya hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-08-30-ertugrul-yati-yla-tuzla-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1934-09-20-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1934-09-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1934-09-20."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam İstanbul'dan trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1934-09-20-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
       "id": "tbmm-acilis-1934-11-01",
       "date": {
         "iso": "1934-11-01",
@@ -1616,6 +5882,124 @@
         "tbmm-nutuk-1934-11-01"
       ],
       "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
+    },
+    {
+      "id": "yg-1935-01-21-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1935-01-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-01-21."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle Ankara'dan İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-01-21-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1935-02-16-ege-vapuru-ve-zafer-destroyeri-yle-alany",
+      "date": {
+        "iso": "1935-02-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-02-16."
+      },
+      "title": "Ege Vapuru ve Zafer Destroyeri'yle Alanya'ya gitti",
+      "text": "Ege Vapuru'yla İstanbul'dan Ege'ye doğru yola çıktı; ertesi gün Zafer Destroyeri'ne geçerek Alanya'ya yöneldi, 18 Şubat sabahı Alanya'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-02-16-ege-vapuru-ve-zafer-destroyeri-yle-alany-seyahat"
+    },
+    {
+      "id": "yg-1935-02-18-alanya-dan-antalya-ya-geldi",
+      "date": {
+        "iso": "1935-02-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-02-18."
+      },
+      "title": "Alanya'dan Antalya'ya geldi",
+      "text": "Alanya'dan Antalya'ya hareket etti, saat 13.30'da Antalya'ya geldi.",
+      "placeId": "antalya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1935-02-19-ege-vapuru-yla-akdeniz-ve-ege-kiyilarind",
+      "date": {
+        "iso": "1935-02-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-02-19."
+      },
+      "title": "Ege Vapuru'yla Akdeniz ve Ege kıyılarından İstanbul'a döndü",
+      "text": "Ege Vapuru'yla Antalya'dan Taşucu'na, Mersin'e, Fethiye'ye ve Marmaris'e gitti; Çanakkale'den geçerek 25 Şubat gecesi İstanbul'a geldi.",
+      "placeId": "antalya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-02-19-ege-vapuru-yla-akdeniz-ve-ege-kiyilarind-seyahat"
+    },
+    {
+      "id": "yg-1935-02-20-tasucu-ndan-silifke-ye-gidip-dondu",
+      "date": {
+        "iso": "1935-02-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-02-20."
+      },
+      "title": "Taşucu'ndan Silifke'ye gidip döndü",
+      "text": "Taşucu'na geldi, Silifke'ye gidip yeniden Taşucu'na döndü.",
+      "placeId": "silifke",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1935-02-27-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1935-02-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-02-27."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-02-27-trenle-ankara-ya-dondu-seyahat"
     },
     {
       "id": "dorduncu-cumhurbaskanligi-1935-03-01",
@@ -1690,6 +6074,222 @@
       "$note": "K5 taraması, parti 10b. Yer yazmıyor. Maddedeki alıntı alınmadı (SPEC §2.1)."
     },
     {
+      "id": "yg-1935-05-17-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1935-05-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-05-17."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-05-17-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1935-05-23-kalamis-vapuru-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1935-05-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-05-23."
+      },
+      "title": "Kalamış Vapuru'yla Yalova'ya gitti",
+      "text": "Akşam Kalamış Vapuru'yla Yalova'ya gitti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-05-23-kalamis-vapuru-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1935-05-25-buyukada-ya-geldi",
+      "date": {
+        "iso": "1935-05-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-05-25."
+      },
+      "title": "Büyükada'ya geldi",
+      "text": "Akşam Yalova'dan Büyükada'ya geldi, geceyi Yat Kulübü'nde geçirdi.",
+      "placeId": "buyukada",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1935-05-26-buyukada-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1935-05-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-05-26."
+      },
+      "title": "Büyükada'dan İstanbul'a döndü",
+      "text": "Akşam Büyükada'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1935-06-03-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1935-06-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-06-03."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-06-03-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1935-06-16-cubuk-a-gitti",
+      "date": {
+        "iso": "1935-06-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-06-16."
+      },
+      "title": "Çubuk'a gitti",
+      "text": "Ankara'da kaldığı günlerde Çubuk'a gitti.",
+      "placeId": "cubuk",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1935-06-27-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1935-06-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-06-27."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-06-27-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1935-07-10-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1935-07-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-07-10."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Ertuğrul Yatı'yla Yalova'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-07-10-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1935-07-15-yalova-dan-bursa-ya-geldi",
+      "date": {
+        "iso": "1935-07-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-07-15."
+      },
+      "title": "Yalova'dan Bursa'ya geldi",
+      "text": "Yalova'dan Bursa'ya geldi.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1935-07-17-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1935-07-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-07-17."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Bursa'dan Mudanya'ya geldi, oradan Ertuğrul Yatı'yla İstanbul'a döndü.",
+      "placeId": "mudanya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-07-17-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1935-09-21-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1935-09-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1935-09-21."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1935-09-21-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
       "id": "tbmm-acilis-1935-11-01",
       "date": {
         "iso": "1935-11-01",
@@ -1733,6 +6333,384 @@
       "$note": "K5 taraması, parti 10b."
     },
     {
+      "id": "yg-1936-02-08-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1936-02-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-02-08."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle Ankara'dan İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-02-08-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1936-03-02-yalova-ya-gitti",
+      "date": {
+        "iso": "1936-03-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-03-02."
+      },
+      "title": "Yalova'ya gitti",
+      "text": "İstanbul'da kaldığı günlerde Yalova'ya gitti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1936-03-10-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1936-03-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-03-10."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-03-10-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1936-05-16-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1936-05-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-05-16."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-05-16-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1936-05-31-sakarya-motoru-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1936-05-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-05-31."
+      },
+      "title": "Sakarya Motoru'yla Yalova'ya gitti",
+      "text": "Akşamüzeri Sakarya Motoru'yla Florya'dan Yalova'ya geçti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-05-31-sakarya-motoru-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1936-06-01-sakarya-motoru-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1936-06-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-06-01."
+      },
+      "title": "Sakarya Motoru'yla İstanbul'a döndü",
+      "text": "Akşamüzeri Sakarya Motoru'yla Yalova'dan İstanbul'a hareket etti.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-06-01-sakarya-motoru-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1936-06-03-otomobille-corlu-ya-gidip-trenle-dondu",
+      "date": {
+        "iso": "1936-06-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-06-03."
+      },
+      "title": "Otomobille Çorlu'ya gidip trenle döndü",
+      "text": "Otomobille Çorlu ve Muratlı'ya gitti, gece Çorlu'dan trenle İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-06-03-otomobille-corlu-ya-gidip-trenle-dondu-seyahat"
+    },
+    {
+      "id": "yg-1936-06-06-vapurla-mudanya-ya-otomobille-bursa-ya-g",
+      "date": {
+        "iso": "1936-06-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-06-06."
+      },
+      "title": "Vapurla Mudanya'ya, otomobille Bursa'ya gitti",
+      "text": "Vapurla Mudanya'ya geldi, oradan otomobille Bursa'ya geçti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-06-06-vapurla-mudanya-ya-otomobille-bursa-ya-g-seyahat"
+    },
+    {
+      "id": "yg-1936-06-08-bursa-dan-istanbul-uzerinden-trenle-anka",
+      "date": {
+        "iso": "1936-06-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-06-08."
+      },
+      "title": "Bursa'dan İstanbul üzerinden trenle Ankara'ya döndü",
+      "text": "Bursa'dan Mudanya'ya, oradan İstanbul'a geçti ve trenle Ankara'ya hareket etti; ertesi gün Eskişehir'e uğrayıp saat 19.45'te Ankara'ya geldi.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-06-08-bursa-dan-istanbul-uzerinden-trenle-anka-seyahat"
+    },
+    {
+      "id": "yg-1936-06-15-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1936-06-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-06-15."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-06-15-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1936-07-11-buyukada-da-kaldi",
+      "date": {
+        "iso": "1936-07-11",
+        "isoEnd": "1936-07-12",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-07-11."
+      },
+      "title": "Büyükada'da kaldı",
+      "text": "11-12 Temmuz'da Büyükada'da kaldı.",
+      "placeId": "buyukada",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1936-07-28-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1936-07-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-07-28."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-07-28-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1936-08-02-trenle-derince-ye-oradan-istanbul-a-gitt",
+      "date": {
+        "iso": "1936-08-02",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-08-02."
+      },
+      "title": "Trenle Derince'ye, oradan İstanbul'a gitti",
+      "text": "Akşam trenle İstanbul'a hareket etti; ertesi gün Derince'ye gelip İstanbul'a geçti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-08-02-trenle-derince-ye-oradan-istanbul-a-gitt-seyahat"
+    },
+    {
+      "id": "yg-1936-08-10-ertugrul-yati-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1936-08-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-08-10."
+      },
+      "title": "Ertuğrul Yatı'yla Yalova'ya gitti",
+      "text": "Ertuğrul Yatı'yla Yalova'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-08-10-ertugrul-yati-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1936-08-16-ertugrul-yati-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1936-08-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-08-16."
+      },
+      "title": "Ertuğrul Yatı'yla İstanbul'a döndü",
+      "text": "Ertuğrul Yatı'yla İstanbul'a geldi.",
+      "placeId": "yalova",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-08-16-ertugrul-yati-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1936-09-20-heybeliada-ya-gidip-dondu",
+      "date": {
+        "iso": "1936-09-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-09-20."
+      },
+      "title": "Heybeliada'ya gidip döndü",
+      "text": "Heybeliada'ya gidip döndü.",
+      "placeId": "heybeliada",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1936-09-27-motorla-buyukada-ya-gitti",
+      "date": {
+        "iso": "1936-09-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-09-27."
+      },
+      "title": "Motorla Büyükada'ya gitti",
+      "text": "Akşamüzeri motorla Büyükada Yat Kulübü'ne geldi ve orada kaldı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-09-27-motorla-buyukada-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1936-09-28-sakarya-motoru-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1936-09-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-09-28."
+      },
+      "title": "Sakarya Motoru'yla İstanbul'a döndü",
+      "text": "Akşamüzeri Sakarya Motoru'yla İstanbul'a döndü.",
+      "placeId": "buyukada",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-09-28-sakarya-motoru-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1936-10-06-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1936-10-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-10-06."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-10-06-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
       "id": "tbmm-acilis-1936-11-01",
       "date": {
         "iso": "1936-11-01",
@@ -1757,6 +6735,145 @@
       "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "yg-1936-12-30-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1936-12-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1936-12-30."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1936-12-30-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-01-05-trenle-eskisehir-uzerinden-konya-ya-gitt",
+      "date": {
+        "iso": "1937-01-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-01-05."
+      },
+      "title": "Trenle Eskişehir üzerinden Konya'ya gitti",
+      "text": "İstanbul'dan trenle hareket etti; Eskişehir'de Başbakan ve Mareşal Fevzi Çakmak ile görüştü, 7 Ocak'ta Konya'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-01-05-trenle-eskisehir-uzerinden-konya-ya-gitt-seyahat"
+    },
+    {
+      "id": "yg-1937-01-08-ulukisla-ve-kayseri-uzerinden-ankara-ya-",
+      "date": {
+        "iso": "1937-01-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-01-08."
+      },
+      "title": "Ulukışla ve Kayseri üzerinden Ankara'ya geldi",
+      "text": "Konya'dan Ulukışla-Kayseri yoluyla Ankara'ya geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1937-01-09-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1937-01-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-01-09."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Saat 16.00'da trenle İstanbul'a hareket etti, Eskişehir'de trenden inip orduevini ziyaret etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-01-09-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-03-09-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1937-03-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-03-09."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-03-09-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1937-06-04-trenle-istanbul-a-gitti",
+      "date": {
+        "iso": "1937-06-04",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-06-04."
+      },
+      "title": "Trenle İstanbul'a gitti",
+      "text": "Akşam trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-06-04-trenle-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-06-08-izmir-vapuru-yla-trabzon-a-gitti",
+      "date": {
+        "iso": "1937-06-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-06-08."
+      },
+      "title": "İzmir Vapuru'yla Trabzon'a gitti",
+      "text": "Saat 17.00'de İzmir Vapuru'yla Trabzon'a hareket etti; 10-12 Haziran'da Trabzon'daydı.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-06-08-izmir-vapuru-yla-trabzon-a-gitti-seyahat"
+    },
+    {
       "id": "ciftlik-bagisi-1937-06-11",
       "date": {
         "iso": "1937-06-11",
@@ -1773,6 +6890,301 @@
         "msb-kronoloji-1923-1938-p10b"
       ],
       "$note": "K5 taraması, parti 10b. Nereden gönderildiği yazmıyor."
+    },
+    {
+      "id": "yg-1937-06-12-izmir-vapuru-yla-istanbul-a-dondu",
+      "date": {
+        "iso": "1937-06-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-06-12."
+      },
+      "title": "İzmir Vapuru'yla İstanbul'a döndü",
+      "text": "Sabah İzmir Vapuru'yla İstanbul'a hareket etti.",
+      "placeId": "trabzon",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-06-12-izmir-vapuru-yla-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1937-06-19-sakarya-motoru-yla-yalova-ya-gitti",
+      "date": {
+        "iso": "1937-06-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-06-19."
+      },
+      "title": "Sakarya Motoru'yla Yalova'ya gitti",
+      "text": "Sakarya Motoru'yla Yalova'ya geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-06-19-sakarya-motoru-yla-yalova-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-06-25-yalova-dan-istanbul-a-dondu",
+      "date": {
+        "iso": "1937-06-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-06-25."
+      },
+      "title": "Yalova'dan İstanbul'a döndü",
+      "text": "Yalova'dan İstanbul'a döndü.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1937-08-16-trenle-cerkezkoy-e-gitti",
+      "date": {
+        "iso": "1937-08-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-08-16."
+      },
+      "title": "Trenle Çerkezköy'e gitti",
+      "text": "Trenle Çerkezköy'e hareket etti, geceyi Çerkezköy'de trende geçirdi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-08-16-trenle-cerkezkoy-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-08-17-trakya-manevralarini-izledi",
+      "date": {
+        "iso": "1937-08-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-08-17."
+      },
+      "title": "Trakya manevralarını izledi",
+      "text": "Çerkezköy yakınlarındaki askerî manevraları izledi, Lüleburgaz ve Çorlu'daki askerî kurumları gezdi; gece Çorlu'dan trenle İstanbul'a döndü.",
+      "placeId": "cerkezkoy",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-08-17-trakya-manevralarini-izledi-seyahat"
+    },
+    {
+      "id": "yg-1937-08-18-trenle-yeniden-cerkezkoy-e-gitti",
+      "date": {
+        "iso": "1937-08-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-08-18."
+      },
+      "title": "Trenle yeniden Çerkezköy'e gitti",
+      "text": "Saat 20.00'de trenle yeniden Çerkezköy'e hareket etti, saat 23.00'te Çerkezköy'e geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-08-18-trenle-yeniden-cerkezkoy-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-08-19-manevralari-izleyip-saray-a-gitti",
+      "date": {
+        "iso": "1937-08-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-08-19."
+      },
+      "title": "Manevraları izleyip Saray'a gitti",
+      "text": "Çerkezköy yakınlarındaki manevraları izledi, Saray'a gitti.",
+      "placeId": "saray",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1937-08-20-trenle-istanbul-a-dondu",
+      "date": {
+        "iso": "1937-08-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-08-20."
+      },
+      "title": "Trenle İstanbul'a döndü",
+      "text": "Öğleden önce manevraları izledi, öğleden sonra Çerkezköy'den trenle İstanbul'a döndü.",
+      "placeId": "cerkezkoy",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-08-20-trenle-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1937-09-16-trenle-ankara-ya-gitti",
+      "date": {
+        "iso": "1937-09-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-09-16."
+      },
+      "title": "Trenle Ankara'ya gitti",
+      "text": "Akşam trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-09-16-trenle-ankara-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-09-18-trenle-istanbul-a-dondu",
+      "date": {
+        "iso": "1937-09-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-09-18."
+      },
+      "title": "Trenle İstanbul'a döndü",
+      "text": "Akşam trenle İstanbul'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-09-18-trenle-istanbul-a-dondu-seyahat"
+    },
+    {
+      "id": "yg-1937-10-03-ertugrul-yati-ve-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1937-10-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-10-03."
+      },
+      "title": "Ertuğrul Yatı ve trenle Ankara'ya döndü",
+      "text": "Ertuğrul Yatı'yla Yalova önlerinden Derince'ye geçti, saat 19.00'da Derince'den trenle Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-10-03-ertugrul-yati-ve-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1937-10-08-trenle-aydin-a-gitti",
+      "date": {
+        "iso": "1937-10-08",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-10-08."
+      },
+      "title": "Trenle Aydın'a gitti",
+      "text": "Öğleden sonra trenle Aydın'a hareket etti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-10-08-trenle-aydin-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-10-09-nazilli-uzerinden-soke-ye-geldi",
+      "date": {
+        "iso": "1937-10-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-10-09."
+      },
+      "title": "Nazilli üzerinden Söke'ye geldi",
+      "text": "Saat 14.00'te Nazilli'ye, saat 20.00'de Söke'ye geldi.",
+      "placeId": "soke",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1937-10-10-soke-ve-camlik-ta-manevralari-izledi",
+      "date": {
+        "iso": "1937-10-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-10-10."
+      },
+      "title": "Söke ve Çamlık'ta manevraları izledi",
+      "text": "Söke bölgesinde manevraları izledi, Kuşadası yoluyla Çamlık'a geçip tatbikatı izledi; geceyi trende geçirdi.",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938. Çamlık için koordinat aranmadı; Kuşadası iki kaynaklı değil."
+    },
+    {
+      "id": "yg-1937-10-12-aydin-dan-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1937-10-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-10-12."
+      },
+      "title": "Aydın'dan trenle Ankara'ya döndü",
+      "text": "Aydın'dan trenle Ankara'ya hareket etti.",
+      "placeId": "aydin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-10-12-aydin-dan-trenle-ankara-ya-dondu-seyahat"
     },
     {
       "id": "tbmm-acilis-1937-11-01",
@@ -1799,6 +7211,184 @@
       "$note": " K5 parti 10b (2026-11-15): MSB kronolojisi aynı günü veriyor, kaynak olarak eklendi."
     },
     {
+      "id": "yg-1937-11-12-trenle-dogu-gezisine-cikti",
+      "date": {
+        "iso": "1937-11-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-11-12."
+      },
+      "title": "Trenle Doğu gezisine çıktı",
+      "text": "Trenle Doğu gezisine çıktı; Sivas, Çetinkaya ve Malatya üzerinden 15 Kasım'da Ergani Bakır Ocağı'nı inceleyip Diyarbakır'a geldi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-11-12-trenle-dogu-gezisine-cikti-seyahat"
+    },
+    {
+      "id": "yg-1937-11-16-trenle-elazig-a-gitti",
+      "date": {
+        "iso": "1937-11-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-11-16."
+      },
+      "title": "Trenle Elazığ'a gitti",
+      "text": "Saat 18.45'te Diyarbakır'dan trenle Elazığ'a hareket etti, gece Elazığ'a geldi.",
+      "placeId": "diyarbakir",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-11-16-trenle-elazig-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-11-17-pertek-e-gidip-elazig-a-dondu",
+      "date": {
+        "iso": "1937-11-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-11-17."
+      },
+      "title": "Pertek'e gidip Elazığ'a döndü",
+      "text": "Tunceli'nin Pertek kazasına geçti, saat 19.00'da Elazığ'a döndü.",
+      "placeId": "pertek",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1937-11-18-trenle-narli-uzerinden-adana-ya-gitti",
+      "date": {
+        "iso": "1937-11-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-11-18."
+      },
+      "title": "Trenle Narlı üzerinden Adana'ya gitti",
+      "text": "Elazığ'dan ayrıldı, Narlı İstasyonu'nda trenden inip halkla sohbet etti; Adana'ya hareket etti, ertesi sabah Adana'ya geldi.",
+      "placeId": "elazig",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-11-18-trenle-narli-uzerinden-adana-ya-gitti-seyahat"
+    },
+    {
+      "id": "yg-1937-11-19-mersin-den-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1937-11-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1937-11-19."
+      },
+      "title": "Mersin'den trenle Ankara'ya döndü",
+      "text": "Adana'dan Mersin'e geçti; saat 17.00'de Konya'ya hareket etti, ertesi gün Afyon ve Eskişehir üzerinden Ankara'ya yöneldi.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1937-11-19-mersin-den-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
+      "id": "yg-1938-01-20-trenle-derince-ye-akay-vapuru-yla-yalova",
+      "date": {
+        "iso": "1938-01-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1938-01-20."
+      },
+      "title": "Trenle Derince'ye, Akay Vapuru'yla Yalova'ya gitti",
+      "text": "Akşam trenle Ankara'dan Derince'ye hareket etti; ertesi gün İzmit üzerinden Derince'ye gelip Akay Vapuru'yla Yalova'ya geçti.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1938-01-20-trenle-derince-ye-akay-vapuru-yla-yalova-seyahat"
+    },
+    {
+      "id": "yg-1938-02-01-gemlik-uzerinden-bursa-ya-geldi",
+      "date": {
+        "iso": "1938-02-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1938-02-01."
+      },
+      "title": "Gemlik üzerinden Bursa'ya geldi",
+      "text": "Öğleden sonra Yalova'dan Bursa'ya hareket etti, yolda Gemlik'e uğradı, saat 16.30'da Bursa'ya geldi.",
+      "placeId": "bursa",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938."
+    },
+    {
+      "id": "yg-1938-02-03-ege-vapuru-yla-istanbul-a-gitti",
+      "date": {
+        "iso": "1938-02-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1938-02-03."
+      },
+      "title": "Ege Vapuru'yla İstanbul'a gitti",
+      "text": "Öğleden sonra Bursa'dan Mudanya'ya, oradan Ege Vapuru'yla İstanbul'a geldi.",
+      "placeId": "mudanya",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1938-02-03-ege-vapuru-yla-istanbul-a-gitti-seyahat"
+    },
+    {
+      "id": "yg-1938-02-24-trenle-ankara-ya-dondu",
+      "date": {
+        "iso": "1938-02-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1938-02-24."
+      },
+      "title": "Trenle Ankara'ya döndü",
+      "text": "Akşam trenle İstanbul'dan Ankara'ya hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1938-02-24-trenle-ankara-ya-dondu-seyahat"
+    },
+    {
       "id": "hastalik-bildirisi-1938-03-30",
       "date": {
         "iso": "1938-03-30",
@@ -1815,6 +7405,46 @@
         "msb-kronoloji-1923-1938-p10b"
       ],
       "$note": "K5 taraması, parti 10b. Yer yazmıyor. Profesörün adı MSB'deki yazımla ('Fissenger')."
+    },
+    {
+      "id": "yg-1938-05-19-trenle-mersin-e-gitti",
+      "date": {
+        "iso": "1938-05-19",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1938-05-19."
+      },
+      "title": "Trenle Mersin'e gitti",
+      "text": "Saat 17.00'de trenle Ankara'dan Mersin'e hareket etti; 20-24 Mayıs'ta Mersin'deydi.",
+      "placeId": "ankara",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1938-05-19-trenle-mersin-e-gitti-seyahat"
+    },
+    {
+      "id": "yg-1938-05-24-trenle-tarsus-ve-adana-uzerinden-ankara-",
+      "date": {
+        "iso": "1938-05-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1938-05-24."
+      },
+      "title": "Trenle Tarsus ve Adana üzerinden Ankara'ya döndü",
+      "text": "Saat 13.00'te trenle Mersin'den ayrıldı; Tarsus'a, saat 16.30'da Adana'ya geldi, akşam trenle Ankara'ya hareket etti.",
+      "placeId": "mersin",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1938-05-24-trenle-tarsus-ve-adana-uzerinden-ankara--seyahat"
     },
     {
       "id": "istanbula-son-gelis-1938-05-27",
@@ -1834,6 +7464,26 @@
         "msb-kronoloji-1923-1938-p10b"
       ],
       "$note": "K5 taraması, parti 10b."
+    },
+    {
+      "id": "yg-1938-06-24-savarona-yati-yla-erdek-e-gidip-dondu",
+      "date": {
+        "iso": "1938-06-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "msb-yurt-gezileri-1924-1938"
+        ],
+        "$note": "MSB «Yurt Gezileri»: 1938-06-24."
+      },
+      "title": "Savarona Yatı'yla Erdek'e gidip döndü",
+      "text": "Akşamüzeri Savarona Yatı'yla İstanbul'dan Erdek'e geldi, gece saat 21.30'da İstanbul'a hareket etti.",
+      "placeId": "istanbul",
+      "sources": [
+        "msb-yurt-gezileri-1924-1938"
+      ],
+      "$note": "Yurt gezileri, 1924-1938.",
+      "journeyId": "yg-1938-06-24-savarona-yati-yla-erdek-e-gidip-dondu-seyahat"
     },
     {
       "id": "vasiyet-1938-09-05",

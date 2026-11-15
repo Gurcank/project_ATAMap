@@ -994,6 +994,1329 @@
           "$note": "MSB «Yurt Gezileri» (resmî): 'Kütahya'."
         }
       ]
+    },
+    {
+      "id": "soke",
+      "point": {
+        "lon": 27.40614,
+        "lat": 37.7482,
+        "sources": [
+          "wikidata-q1012854-r2527247871",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.748200, 27.406140. Natural Earth 10m simple (ne_id 1159135125): 37.751221, 27.410254. Fark yaklaşık 0,49 km."
+      },
+      "names": [
+        {
+          "name": "Söke",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Söke'."
+        }
+      ]
+    },
+    {
+      "id": "mudanya",
+      "point": {
+        "lon": 28.88388888888889,
+        "lat": 40.375277777777775,
+        "sources": [
+          "wikidata-q856171-r2562977922",
+          "osm-relation-1273953"
+        ],
+        "$note": "Wikidata: 40.375278, 28.883889. OpenStreetMap (relation 1273953): 40.375258, 28.883793. Fark yaklaşık 0,01 km. İki nokta 100 m'den yakın; Wikidata'nın OSM'den aktarılmış olma ihtimali var."
+      },
+      "names": [
+        {
+          "name": "Mudanya",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Mudanya'."
+        }
+      ]
+    },
+    {
+      "id": "trabzon",
+      "point": {
+        "lon": 39.7225,
+        "lat": 41.005,
+        "sources": [
+          "wikidata-q45301-r2558857244",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 41.005000, 39.722500. Natural Earth 10m simple (ne_id 1159146377): 40.979991, 39.719994. Fark yaklaşık 2,79 km."
+      },
+      "names": [
+        {
+          "name": "Trabzon",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Trabzon'."
+        }
+      ]
+    },
+    {
+      "id": "rize",
+      "point": {
+        "lon": 40.5199142,
+        "lat": 41.0248249,
+        "sources": [
+          "wikidata-q201101-r2553981671",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 41.024825, 40.519914. Natural Earth 10m simple (ne_id 1159127485): 41.020841, 40.521857. Fark yaklaşık 0,47 km."
+      },
+      "names": [
+        {
+          "name": "Rize",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Rize'."
+        }
+      ]
+    },
+    {
+      "id": "giresun",
+      "point": {
+        "lon": 38.416666666667,
+        "lat": 40.9,
+        "sources": [
+          "wikidata-q201095-r2557920775",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.900000, 38.416667. Natural Earth 10m simple (ne_id 1159113515): 40.913001, 38.390005. Fark yaklaşık 2,67 km."
+      },
+      "names": [
+        {
+          "name": "Giresun",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Giresun'."
+        }
+      ]
+    },
+    {
+      "id": "ordu",
+      "point": {
+        "lon": 37.883333333333,
+        "lat": 40.983333333333,
+        "sources": [
+          "wikidata-q184539-r2540141730",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.983333, 37.883333. Natural Earth 10m simple (ne_id 1159135201): 41.000429, 37.869926. Fark yaklaşık 2,21 km."
+      },
+      "names": [
+        {
+          "name": "Ordu",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Ordu'."
+        }
+      ]
+    },
+    {
+      "id": "tokat",
+      "point": {
+        "lon": 36.554166666667,
+        "lat": 40.309722222222,
+        "sources": [
+          "wikidata-q183651-r2558724728",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.309722, 36.554167. Natural Earth 10m simple (ne_id 1159113547): 40.305996, 36.563004. Fark yaklaşık 0,86 km."
+      },
+      "names": [
+        {
+          "name": "Tokat",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Tokat'."
+        }
+      ]
+    },
+    {
+      "id": "zara",
+      "point": {
+        "lon": 37.753055555556,
+        "lat": 39.895,
+        "sources": [
+          "wikidata-q147630-r2568950146",
+          "osm-relation-1493364"
+        ],
+        "$note": "Wikidata: 39.895000, 37.753056. OpenStreetMap (relation 1493364): 39.897201, 37.759073. Fark yaklaşık 0,57 km."
+      },
+      "names": [
+        {
+          "name": "Zara",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Zara'."
+        }
+      ]
+    },
+    {
+      "id": "susehri",
+      "point": {
+        "lon": 38.094166666666666,
+        "lat": 40.16583333333333,
+        "sources": [
+          "wikidata-q1004566-r2569630571",
+          "osm-relation-1502459"
+        ],
+        "$note": "Wikidata: 40.165833, 38.094167. OpenStreetMap (relation 1502459): 40.162734, 38.085566. Fark yaklaşık 0,81 km."
+      },
+      "names": [
+        {
+          "name": "Suşehri",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Suşehri'."
+        }
+      ]
+    },
+    {
+      "id": "erzincan",
+      "point": {
+        "lon": 39.491388888889,
+        "lat": 39.746388888889,
+        "sources": [
+          "wikidata-q136217-r2557917406",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 39.746389, 39.491389. Natural Earth 10m simple (ne_id 1159135219): 39.752650, 39.492773. Fark yaklaşık 0,71 km."
+      },
+      "names": [
+        {
+          "name": "Erzincan",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Erzincan'."
+        }
+      ]
+    },
+    {
+      "id": "sarikamis",
+      "point": {
+        "lon": 42.573,
+        "lat": 40.3381,
+        "sources": [
+          "wikidata-q844542-r2569261758",
+          "osm-relation-1838394"
+        ],
+        "$note": "Wikidata: 40.338100, 42.573000. OpenStreetMap (relation 1838394): 40.333740, 42.589468. Fark yaklaşık 1,48 km."
+      },
+      "names": [
+        {
+          "name": "Sarıkamış",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Sarıkamış'."
+        }
+      ]
+    },
+    {
+      "id": "kars",
+      "point": {
+        "lon": 43.09583333333333,
+        "lat": 40.60777777777778,
+        "sources": [
+          "wikidata-q127063-r2559624899",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.607778, 43.095833. Natural Earth 10m simple (ne_id 1159135355): 40.608463, 43.097462. Fark yaklaşık 0,16 km."
+      },
+      "names": [
+        {
+          "name": "Kars",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Kars'."
+        }
+      ]
+    },
+    {
+      "id": "sebinkarahisar",
+      "point": {
+        "lon": 38.416666666667,
+        "lat": 40.283333333333,
+        "sources": [
+          "wikidata-q388662-r2569182285",
+          "osm-relation-1806620"
+        ],
+        "$note": "Wikidata: 40.283333, 38.416667. OpenStreetMap (relation 1806620): 40.288601, 38.423612. Fark yaklaşık 0,83 km."
+      },
+      "names": [
+        {
+          "name": "Şebinkarahisar",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Şebinkarahisar'."
+        }
+      ]
+    },
+    {
+      "id": "kayseri",
+      "point": {
+        "lon": 35.4875,
+        "lat": 38.7225,
+        "sources": [
+          "wikidata-q48338-r2560442536",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 38.722500, 35.487500. Natural Earth 10m simple (ne_id 1159147721): 38.734960, 35.490020. Fark yaklaşık 1,4 km."
+      },
+      "names": [
+        {
+          "name": "Kayseri",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Kayseri'."
+        }
+      ]
+    },
+    {
+      "id": "yozgat",
+      "point": {
+        "lon": 34.808333333333,
+        "lat": 39.820833333333,
+        "sources": [
+          "wikidata-q210292-r2530466385",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 39.820833, 34.808333. Natural Earth 10m simple (ne_id 1159113661): 39.817998, 34.814997. Fark yaklaşık 0,65 km."
+      },
+      "names": [
+        {
+          "name": "Yozgat",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Yozgat'."
+        }
+      ]
+    },
+    {
+      "id": "kirsehir",
+      "point": {
+        "lon": 34.160685,
+        "lat": 39.145965,
+        "sources": [
+          "wikidata-q1945209-r2530339691",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 39.145965, 34.160685. Natural Earth 10m simple (ne_id 1159113471): 39.141999, 34.171003. Fark yaklaşık 0,99 km."
+      },
+      "names": [
+        {
+          "name": "Kırşehir",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Kırşehir'."
+        }
+      ]
+    },
+    {
+      "id": "dortyol",
+      "point": {
+        "lon": 36.210798,
+        "lat": 36.82576,
+        "sources": [
+          "wikidata-q988324-r2569259871",
+          "osm-relation-1240902"
+        ],
+        "$note": "Wikidata: 36.825760, 36.210798. OpenStreetMap (relation 1240902): 36.835312, 36.227408. Fark yaklaşık 1,82 km."
+      },
+      "names": [
+        {
+          "name": "Dörtyol",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Dörtyol'."
+        }
+      ]
+    },
+    {
+      "id": "silifke",
+      "point": {
+        "lon": 33.92611111111111,
+        "lat": 36.37833333333333,
+        "sources": [
+          "wikidata-q650630-r2569624231",
+          "osm-relation-1442334"
+        ],
+        "$note": "Wikidata: 36.378333, 33.926111. OpenStreetMap (relation 1442334): 36.377817, 33.926037. Fark yaklaşık 0,06 km. İki nokta 100 m'den yakın; Wikidata'nın OSM'den aktarılmış olma ihtimali var."
+      },
+      "names": [
+        {
+          "name": "Silifke",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Silifke'."
+        }
+      ]
+    },
+    {
+      "id": "tasucu",
+      "point": {
+        "lon": 33.88114,
+        "lat": 36.31785,
+        "sources": [
+          "wikidata-q6085729-r2455083480",
+          "osm-node-1167786424"
+        ],
+        "$note": "Wikidata: 36.317850, 33.881140. OpenStreetMap (node 1167786424): 36.319646, 33.881303. Fark yaklaşık 0,2 km."
+      },
+      "names": [
+        {
+          "name": "Taşucu",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Taşucu'."
+        }
+      ]
+    },
+    {
+      "id": "kastamonu",
+      "point": {
+        "lon": 33.783333333333,
+        "lat": 41.383333333333,
+        "sources": [
+          "wikidata-q155915-r2540141978",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 41.383333, 33.783333. Natural Earth 10m simple (ne_id 1159113441): 41.389002, 33.783003. Fark yaklaşık 0,63 km."
+      },
+      "names": [
+        {
+          "name": "Kastamonu",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Kastamonu'."
+        }
+      ]
+    },
+    {
+      "id": "cankiri",
+      "point": {
+        "lon": 33.617506,
+        "lat": 40.602998,
+        "sources": [
+          "wikidata-q2739668-r2530360264",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.602998, 33.617506. Natural Earth 10m simple (ne_id 1159113633): 40.607001, 33.621004. Fark yaklaşık 0,53 km."
+      },
+      "names": [
+        {
+          "name": "Çankırı",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Çankırı'."
+        }
+      ]
+    },
+    {
+      "id": "gemlik",
+      "point": {
+        "lon": 29.14943,
+        "lat": 40.4351,
+        "sources": [
+          "wikidata-q2392065-r2530340421",
+          "osm-relation-1273958"
+        ],
+        "$note": "Wikidata: 40.435100, 29.149430. OpenStreetMap (relation 1273958): 40.430165, 29.157070. Fark yaklaşık 0,85 km."
+      },
+      "names": [
+        {
+          "name": "Gemlik",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Gemlik'."
+        }
+      ]
+    },
+    {
+      "id": "kemalpasa",
+      "point": {
+        "lon": 27.41552,
+        "lat": 38.42943,
+        "sources": [
+          "wikidata-q1014125-r2569582185",
+          "osm-relation-1269520"
+        ],
+        "$note": "Wikidata: 38.429430, 27.415520. OpenStreetMap (relation 1269520): 38.427567, 27.416428. Fark yaklaşık 0,22 km."
+      },
+      "names": [
+        {
+          "name": "Kemalpaşa",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Kemalpaşa'."
+        }
+      ]
+    },
+    {
+      "id": "bozuyuk",
+      "point": {
+        "lon": 30.051111111111,
+        "lat": 39.918055555556,
+        "sources": [
+          "wikidata-q49101408-r2530340609",
+          "osm-relation-1238965"
+        ],
+        "$note": "Wikidata: 39.918056, 30.051111. OpenStreetMap (relation 1238965): 39.906776, 30.034621. Fark yaklaşık 1,88 km."
+      },
+      "names": [
+        {
+          "name": "Bozüyük",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Bozüyük'."
+        }
+      ]
+    },
+    {
+      "id": "bandirma",
+      "point": {
+        "lon": 27.9725,
+        "lat": 40.354166666667,
+        "sources": [
+          "wikidata-q214651-r2558228270",
+          "osm-relation-1820912"
+        ],
+        "$note": "Wikidata: 40.354167, 27.972500. OpenStreetMap (relation 1820912): 40.355471, 27.969760. Fark yaklaşık 0,27 km."
+      },
+      "names": [
+        {
+          "name": "Bandırma",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Bandırma'."
+        }
+      ]
+    },
+    {
+      "id": "cesme",
+      "point": {
+        "lon": 26.3739,
+        "lat": 38.30162,
+        "sources": [
+          "wikidata-q217720-r2569142774",
+          "osm-relation-1268454"
+        ],
+        "$note": "Wikidata: 38.301620, 26.373900. OpenStreetMap (relation 1268454): 38.324404, 26.302960. Fark yaklaşık 6,69 km."
+      },
+      "names": [
+        {
+          "name": "Çeşme",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Çeşme'."
+        }
+      ]
+    },
+    {
+      "id": "canakkale",
+      "point": {
+        "lon": 26.4,
+        "lat": 40.15,
+        "sources": [
+          "wikidata-q199712-r2565825463",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.150000, 26.400000. Natural Earth 10m simple (ne_id 1159135133): 40.145933, 26.406388. Fark yaklaşık 0,71 km."
+      },
+      "names": [
+        {
+          "name": "Çanakkale",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Çanakkale'."
+        }
+      ]
+    },
+    {
+      "id": "gelibolu",
+      "point": {
+        "lon": 26.670277777777777,
+        "lat": 40.41388888888889,
+        "sources": [
+          "wikidata-q216907-r2568957352",
+          "osm-relation-1815220"
+        ],
+        "$note": "Wikidata: 40.413889, 26.670278. OpenStreetMap (relation 1815220): 40.405406, 26.672254. Fark yaklaşık 0,96 km."
+      },
+      "names": [
+        {
+          "name": "Gelibolu",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Gelibolu'."
+        }
+      ]
+    },
+    {
+      "id": "sinop",
+      "point": {
+        "lon": 35.14805555555556,
+        "lat": 42.025555555555556,
+        "sources": [
+          "wikidata-q2598233-r2530339821",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 42.025556, 35.148056. Natural Earth 10m simple (ne_id 1159113529): 42.022998, 35.153002. Fark yaklaşık 0,5 km."
+      },
+      "names": [
+        {
+          "name": "Sinop",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Sinop'."
+        }
+      ]
+    },
+    {
+      "id": "yalova",
+      "point": {
+        "lon": 29.275,
+        "lat": 40.655555555556,
+        "sources": [
+          "wikidata-q205942-r2562839576",
+          "osm-relation-1840933"
+        ],
+        "$note": "Wikidata: 40.655556, 29.275000. OpenStreetMap (relation 1840933): 40.658253, 29.269992. Fark yaklaşık 0,52 km."
+      },
+      "names": [
+        {
+          "name": "Yalova",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Yalova'."
+        }
+      ]
+    },
+    {
+      "id": "derince",
+      "point": {
+        "lon": 29.823055555556,
+        "lat": 40.753888888889,
+        "sources": [
+          "wikidata-q2000455-r2569612054",
+          "osm-relation-1211495"
+        ],
+        "$note": "Wikidata: 40.753889, 29.823056. OpenStreetMap (relation 1211495): 40.757449, 29.830763. Fark yaklaşık 0,76 km."
+      },
+      "names": [
+        {
+          "name": "Derince",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Derince'."
+        }
+      ]
+    },
+    {
+      "id": "isparta",
+      "point": {
+        "lon": 30.55,
+        "lat": 37.766666666667,
+        "sources": [
+          "wikidata-q171031-r2555335376",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.766667, 30.550000. Natural Earth 10m simple (ne_id 1159127405): 37.769980, 30.529961. Fark yaklaşık 1,8 km."
+      },
+      "names": [
+        {
+          "name": "Isparta",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Isparta'."
+        }
+      ]
+    },
+    {
+      "id": "antalya",
+      "point": {
+        "lon": 30.69556,
+        "lat": 36.90812,
+        "sources": [
+          "wikidata-q6487-r2566529648",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 36.908120, 30.695560. Natural Earth 10m simple (ne_id 1159147717): 36.891928, 30.698030. Fark yaklaşık 1,81 km."
+      },
+      "names": [
+        {
+          "name": "Antalya",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Antalya'."
+        }
+      ]
+    },
+    {
+      "id": "burdur",
+      "point": {
+        "lon": 30.286666666666665,
+        "lat": 37.71861111111111,
+        "sources": [
+          "wikidata-q2198994-r2488506398",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.718611, 30.286667. Natural Earth 10m simple (ne_id 1159113457): 37.716660, 30.283335. Fark yaklaşık 0,36 km."
+      },
+      "names": [
+        {
+          "name": "Burdur",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Burdur'."
+        }
+      ]
+    },
+    {
+      "id": "carsamba",
+      "point": {
+        "lon": 36.72611111111111,
+        "lat": 41.198055555555555,
+        "sources": [
+          "wikidata-q272649-r2569105552",
+          "osm-relation-1837374"
+        ],
+        "$note": "Wikidata: 41.198056, 36.726111. OpenStreetMap (relation 1837374): 41.198291, 36.727020. Fark yaklaşık 0,08 km. İki nokta 100 m'den yakın; Wikidata'nın OSM'den aktarılmış olma ihtimali var."
+      },
+      "names": [
+        {
+          "name": "Çarşamba",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Çarşamba'."
+        }
+      ]
+    },
+    {
+      "id": "kirklareli",
+      "point": {
+        "lon": 27.225277777778,
+        "lat": 41.734722222222,
+        "sources": [
+          "wikidata-q206903-r2555523516",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 41.734722, 27.225278. Natural Earth 10m simple (ne_id 1159113387): 41.742999, 27.226000. Fark yaklaşık 0,92 km."
+      },
+      "names": [
+        {
+          "name": "Kırklareli",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Kırklareli'."
+        }
+      ]
+    },
+    {
+      "id": "aydin",
+      "point": {
+        "lon": 27.845277777778,
+        "lat": 37.848055555556,
+        "sources": [
+          "wikidata-q170457-r2568125274",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.848056, 27.845278. Natural Earth 10m simple (ne_id 1159127383): 37.849975, 27.850021. Fark yaklaşık 0,47 km."
+      },
+      "names": [
+        {
+          "name": "Aydın",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Aydın'."
+        }
+      ]
+    },
+    {
+      "id": "denizli",
+      "point": {
+        "lon": 29.09638888888889,
+        "lat": 37.78333333333333,
+        "sources": [
+          "wikidata-q170967-r2530459164",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.783333, 29.096389. Natural Earth 10m simple (ne_id 1159135161): 37.770393, 29.080023. Fark yaklaşık 2,03 km."
+      },
+      "names": [
+        {
+          "name": "Denizli",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Denizli'."
+        }
+      ]
+    },
+    {
+      "id": "malatya",
+      "point": {
+        "lon": 38.3094,
+        "lat": 38.35062,
+        "sources": [
+          "wikidata-q165995-r2557344812",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 38.350620, 38.309400. Natural Earth 10m simple (ne_id 1159135175): 38.370434, 38.300029. Fark yaklaşık 2,35 km."
+      },
+      "names": [
+        {
+          "name": "Malatya",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Malatya'."
+        }
+      ]
+    },
+    {
+      "id": "zonguldak",
+      "point": {
+        "lon": 31.783333333333,
+        "lat": 41.45,
+        "sources": [
+          "wikidata-q187895-r2530462415",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 41.450000, 31.783333. Natural Earth 10m simple (ne_id 1159135327): 41.430377, 31.780013. Fark yaklaşık 2,2 km."
+      },
+      "names": [
+        {
+          "name": "Zonguldak",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Zonguldak'."
+        }
+      ]
+    },
+    {
+      "id": "buyukada",
+      "point": {
+        "lon": 29.12,
+        "lat": 40.857777777778,
+        "sources": [
+          "wikidata-q989883-r2470785885",
+          "osm-relation-7590784"
+        ],
+        "$note": "Wikidata: 40.857778, 29.120000. OpenStreetMap (relation 7590784): 40.856355, 29.119037. Fark yaklaşık 0,18 km."
+      },
+      "names": [
+        {
+          "name": "Büyükada",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Büyükada'."
+        }
+      ]
+    },
+    {
+      "id": "cubuk",
+      "point": {
+        "lon": 33.03277777777778,
+        "lat": 40.23888888888889,
+        "sources": [
+          "wikidata-q2868524-r2550832479",
+          "osm-relation-1667201"
+        ],
+        "$note": "Wikidata: 40.238889, 33.032778. OpenStreetMap (relation 1667201): 40.238896, 33.028947. Fark yaklaşık 0,33 km."
+      },
+      "names": [
+        {
+          "name": "Çubuk",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Çubuk'."
+        }
+      ]
+    },
+    {
+      "id": "cinarcik",
+      "point": {
+        "lon": 29.120277777778,
+        "lat": 40.642222222222,
+        "sources": [
+          "wikidata-q2249559-r2557561095",
+          "osm-relation-1840935"
+        ],
+        "$note": "Wikidata: 40.642222, 29.120278. OpenStreetMap (relation 1840935): 40.643400, 29.119302. Fark yaklaşık 0,15 km."
+      },
+      "names": [
+        {
+          "name": "Çınarcık",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Çınarcık'."
+        }
+      ]
+    },
+    {
+      "id": "karamursel",
+      "point": {
+        "lon": 29.615555555556,
+        "lat": 40.691388888889,
+        "sources": [
+          "wikidata-q2248693-r2569651160",
+          "osm-relation-1211489"
+        ],
+        "$note": "Wikidata: 40.691389, 29.615556. OpenStreetMap (relation 1211489): 40.691250, 29.616586. Fark yaklaşık 0,09 km. İki nokta 100 m'den yakın; Wikidata'nın OSM'den aktarılmış olma ihtimali var."
+      },
+      "names": [
+        {
+          "name": "Karamürsel",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Karamürsel'."
+        }
+      ]
+    },
+    {
+      "id": "heybeliada",
+      "point": {
+        "lon": 29.089444444444446,
+        "lat": 40.875,
+        "sources": [
+          "wikidata-q253317-r2522639633",
+          "osm-way-23004626"
+        ],
+        "$note": "Wikidata: 40.875000, 29.089444. OpenStreetMap (way 23004626): 40.876260, 29.091033. Fark yaklaşık 0,19 km."
+      },
+      "names": [
+        {
+          "name": "Heybeliada",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Heybeliada'."
+        }
+      ]
+    },
+    {
+      "id": "narli",
+      "point": {
+        "lon": 37.140277777778,
+        "lat": 37.391666666667,
+        "sources": [
+          "wikidata-q2564973-r2557558213",
+          "osm-node-625821735"
+        ],
+        "$note": "Wikidata: 37.391667, 37.140278. OpenStreetMap (node 625821735): 37.393403, 37.140572. Fark yaklaşık 0,19 km."
+      },
+      "names": [
+        {
+          "name": "Narlı",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Narlı'."
+        }
+      ]
+    },
+    {
+      "id": "gaziantep",
+      "point": {
+        "lon": 37.37916666666667,
+        "lat": 37.062777777777775,
+        "sources": [
+          "wikidata-q93338-r2548522607",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.062778, 37.379167. Natural Earth 10m simple (ne_id 1159147849): 37.076930, 37.383048. Fark yaklaşık 1,61 km."
+      },
+      "names": [
+        {
+          "name": "Gaziantep",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Gaziantep'."
+        }
+      ]
+    },
+    {
+      "id": "yerkoy",
+      "point": {
+        "lon": 34.4672,
+        "lat": 39.6381,
+        "sources": [
+          "wikidata-q1012911-r2527247888",
+          "osm-relation-1240430"
+        ],
+        "$note": "Wikidata: 39.638100, 34.467200. OpenStreetMap (relation 1240430): 39.641377, 34.468365. Fark yaklaşık 0,38 km."
+      },
+      "names": [
+        {
+          "name": "Yerköy",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Yerköy'."
+        }
+      ]
+    },
+    {
+      "id": "nigde",
+      "point": {
+        "lon": 34.677836,
+        "lat": 37.967577,
+        "sources": [
+          "wikidata-q2184900-r2539136686",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 37.967577, 34.677836. Natural Earth 10m simple (ne_id 1159113643): 37.976004, 34.694002. Fark yaklaşık 1,7 km."
+      },
+      "names": [
+        {
+          "name": "Niğde",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Niğde'."
+        }
+      ]
+    },
+    {
+      "id": "bolu",
+      "point": {
+        "lon": 31.61111111111111,
+        "lat": 40.73361111111111,
+        "sources": [
+          "wikidata-q2680945-r2530342109",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.733611, 31.611111. Natural Earth 10m simple (ne_id 1159135151): 40.736259, 31.606122. Fark yaklaşık 0,51 km."
+      },
+      "names": [
+        {
+          "name": "Bolu",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Bolu'."
+        }
+      ]
+    },
+    {
+      "id": "kizilcahamam",
+      "point": {
+        "lon": 32.653055555555554,
+        "lat": 40.47027777777778,
+        "sources": [
+          "wikidata-q1020663-r2557561513",
+          "osm-relation-1811128"
+        ],
+        "$note": "Wikidata: 40.470278, 32.653056. OpenStreetMap (relation 1811128): 40.470095, 32.652856. Fark yaklaşık 0,03 km. İki nokta 100 m'den yakın; Wikidata'nın OSM'den aktarılmış olma ihtimali var."
+      },
+      "names": [
+        {
+          "name": "Kızılcahamam",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Kızılcahamam'."
+        }
+      ]
+    },
+    {
+      "id": "adapazari",
+      "point": {
+        "lon": 30.39986,
+        "lat": 40.78343,
+        "sources": [
+          "wikidata-q1966518-r2530342150",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 40.783430, 30.399860. Natural Earth 10m simple (ne_id 1159146375): 40.799976, 30.415032. Fark yaklaşık 2,24 km."
+      },
+      "names": [
+        {
+          "name": "Adapazarı",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Adapazarı'."
+        }
+      ]
+    },
+    {
+      "id": "tuzla",
+      "point": {
+        "lon": 29.3469,
+        "lat": 40.88177,
+        "sources": [
+          "wikidata-q938548-r2569263863",
+          "osm-relation-1276010"
+        ],
+        "$note": "Wikidata: 40.881770, 29.346900. OpenStreetMap (relation 1276010): 40.816173, 29.303419. Fark yaklaşık 8,16 km."
+      },
+      "names": [
+        {
+          "name": "Tuzla",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Tuzla'."
+        }
+      ]
+    },
+    {
+      "id": "alanya",
+      "point": {
+        "lon": 31.999722222222,
+        "lat": 36.543611111111,
+        "sources": [
+          "wikidata-q171810-r2528683100",
+          "osm-relation-1726977"
+        ],
+        "$note": "Wikidata: 36.543611, 31.999722. OpenStreetMap (relation 1726977): 36.543668, 32.001939. Fark yaklaşık 0,2 km."
+      },
+      "names": [
+        {
+          "name": "Alanya",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Alanya'."
+        }
+      ]
+    },
+    {
+      "id": "fethiye",
+      "point": {
+        "lon": 29.114166666667,
+        "lat": 36.620555555556,
+        "sources": [
+          "wikidata-q207998-r2534417498",
+          "osm-relation-1827656"
+        ],
+        "$note": "Wikidata: 36.620556, 29.114167. OpenStreetMap (relation 1827656): 36.622115, 29.115338. Fark yaklaşık 0,2 km."
+      },
+      "names": [
+        {
+          "name": "Fethiye",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Fethiye'."
+        }
+      ]
+    },
+    {
+      "id": "marmaris",
+      "point": {
+        "lon": 28.266111111111112,
+        "lat": 36.853611111111114,
+        "sources": [
+          "wikidata-q4285705-r2561084579",
+          "osm-relation-1827293"
+        ],
+        "$note": "Wikidata: 36.853611, 28.266111. OpenStreetMap (relation 1827293): 36.852255, 28.274266. Fark yaklaşık 0,74 km."
+      },
+      "names": [
+        {
+          "name": "Marmaris",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Marmaris'."
+        }
+      ]
+    },
+    {
+      "id": "corlu",
+      "point": {
+        "lon": 27.802777777778,
+        "lat": 41.159722222222,
+        "sources": [
+          "wikidata-q214655-r2555593190",
+          "osm-relation-1771127"
+        ],
+        "$note": "Wikidata: 41.159722, 27.802778. OpenStreetMap (relation 1771127): 41.159087, 27.804107. Fark yaklaşık 0,13 km."
+      },
+      "names": [
+        {
+          "name": "Çorlu",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Çorlu'."
+        }
+      ]
+    },
+    {
+      "id": "cerkezkoy",
+      "point": {
+        "lon": 28.004166666666666,
+        "lat": 41.288888888888884,
+        "sources": [
+          "wikidata-q272800-r2569065796",
+          "osm-relation-1771126"
+        ],
+        "$note": "Wikidata: 41.288889, 28.004167. OpenStreetMap (relation 1771126): 41.286248, 27.999468. Fark yaklaşık 0,49 km."
+      },
+      "names": [
+        {
+          "name": "Çerkezköy",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Çerkezköy'."
+        }
+      ]
+    },
+    {
+      "id": "ergani",
+      "point": {
+        "lon": 39.761666666667,
+        "lat": 38.269166666667,
+        "sources": [
+          "wikidata-q945363-r2569489201",
+          "osm-relation-1354885"
+        ],
+        "$note": "Wikidata: 38.269167, 39.761667. OpenStreetMap (relation 1354885): 38.268976, 39.760922. Fark yaklaşık 0,07 km. İki nokta 100 m'den yakın; Wikidata'nın OSM'den aktarılmış olma ihtimali var."
+      },
+      "names": [
+        {
+          "name": "Ergani",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Ergani'."
+        }
+      ]
+    },
+    {
+      "id": "elazig",
+      "point": {
+        "lon": 39.22472222222222,
+        "lat": 38.67472222222222,
+        "sources": [
+          "wikidata-q2963425-r2530341210",
+          "naturalearth-ne10m-populated-places-simple"
+        ],
+        "$note": "Wikidata: 38.674722, 39.224722. Natural Earth 10m simple (ne_id 1159127441): 38.679976, 39.229998. Fark yaklaşık 0,74 km."
+      },
+      "names": [
+        {
+          "name": "Elazığ",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Elazığ'."
+        }
+      ]
+    },
+    {
+      "id": "erdek",
+      "point": {
+        "lon": 27.793055555556,
+        "lat": 40.398611111111,
+        "sources": [
+          "wikidata-q177298-r2558228295",
+          "osm-relation-1814782"
+        ],
+        "$note": "Wikidata: 40.398611, 27.793056. OpenStreetMap (relation 1814782): 40.397435, 27.790987. Fark yaklaşık 0,22 km."
+      },
+      "names": [
+        {
+          "name": "Erdek",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Erdek'."
+        }
+      ]
+    },
+    {
+      "id": "pertek",
+      "point": {
+        "lon": 39.325,
+        "lat": 38.8675,
+        "sources": [
+          "wikidata-q2540906-r2530341649",
+          "osm-relation-1829328"
+        ],
+        "$note": "Wikidata: 38.867500, 39.325000. OpenStreetMap (relation 1829328): 38.865556, 39.327653. Fark yaklaşık 0,32 km."
+      },
+      "names": [
+        {
+          "name": "Pertek",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Pertek'."
+        }
+      ]
+    },
+    {
+      "id": "saray",
+      "point": {
+        "lon": 27.920555555556,
+        "lat": 41.442777777778,
+        "sources": [
+          "wikidata-q1011256-r2569286732",
+          "osm-relation-1771124"
+        ],
+        "$note": "Wikidata: 41.442778, 27.920556. OpenStreetMap (relation 1771124): 41.442679, 27.921399. Fark yaklaşık 0,07 km. İki nokta 100 m'den yakın; Wikidata'nın OSM'den aktarılmış olma ihtimali var."
+      },
+      "names": [
+        {
+          "name": "Saray",
+          "sources": [
+            "msb-yurt-gezileri-1924-1938"
+          ],
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Saray'."
+        }
+      ]
     }
   ]
 }

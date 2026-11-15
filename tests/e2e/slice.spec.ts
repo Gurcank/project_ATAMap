@@ -157,7 +157,8 @@ test('mode selector: years skip', async ({ page }) => {
   const mode = page.getByLabel('Adım birimi');
   await mode.selectOption('yil');
   // Year mode lands on the first event of the year, never later than where we were.
-  await expect(page).toHaveURL(/#adim=zubeyde-hanim-1923-01-14/);
+  // Two events share 14 January 1923; either may come first, the date is what matters.
+  await expect(page.getByText('14 Ocak 1923')).toBeVisible();
   await page.getByRole('button', { name: 'Sonraki' }).click();
   // The first event of 1924, whichever it is: its date line ends in 1924.
   await expect(page.getByText(/^\d{1,2} \p{L}+ 1924$/u)).toBeVisible();

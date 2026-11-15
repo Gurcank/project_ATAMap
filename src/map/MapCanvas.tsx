@@ -1,7 +1,7 @@
 // SVG map (ADR-03): base layers in one <g transform> that d3-zoom moves (no re-projection while
 // panning); place labels and document markers sit outside it and are re-positioned from the same
 // transform, so their text and 44 px hit targets keep a constant size at any zoom.
-import { geoPath } from 'd3-geo';
+import { geoContains, geoPath } from 'd3-geo';
 import { interpolateZoom } from 'd3-interpolate';
 import { select } from 'd3-selection';
 import { zoom as d3zoom, zoomIdentity, zoomTransform, type ZoomBehavior } from 'd3-zoom';
@@ -25,6 +25,13 @@ import { TransmissionLayer } from './TransmissionLayer.tsx';
 import styles from './MapCanvas.module.css';
 import { createProjection } from './projection.ts';
 import { regionOutline } from './region.ts';
+
+/**
+ * Land test for bowing sea routes (A31). The embedded 110m drawing is used on purpose: it is always
+ * there, so a route keeps the same curve whichever base level is on screen.
+ */
+const onLand = (point: [number, number]) =>
+  fallbackBase.land.features.some((f) => geoContains(f, point));
 
 /** Zoom the camera settles at for a step, and the widest the user may zoom out/in. */
 const STEP_ZOOM = 2.6;
@@ -298,6 +305,7 @@ export function MapCanvas() {
                 reduced={reduced}
                 width={size.w}
                 height={size.h}
+                onLand={onLand}
               />
             )}
             <TransmissionLayer

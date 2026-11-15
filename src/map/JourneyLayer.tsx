@@ -8,7 +8,15 @@
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'preact/hooks';
 import type { Journey, PlaceName } from '../schema/index.ts';
 import { VEHICLE_LABEL, VEHICLE_PATH } from './vehicles.ts';
-import { densify, geodesic, placeAlong, toPathData, type LonLat, type XY } from './along.ts';
+import {
+  densify,
+  geodesic,
+  placeAlong,
+  seaArc,
+  toPathData,
+  type LonLat,
+  type XY,
+} from './along.ts';
 import styles from './JourneyLayer.module.css';
 
 interface Props {
@@ -21,6 +29,8 @@ interface Props {
   reduced: boolean;
   width: number;
   height: number;
+  /** Whether a lon/lat point is on land; sea legs are bowed away from it (A31). */
+  onLand?: ((point: LonLat) => boolean) | undefined;
 }
 
 const MIN_MS = 1500;
@@ -30,7 +40,16 @@ const MS_PER_PX = 2.5;
 const lonLat = (place: PlaceName | undefined): LonLat | null =>
   place ? [place.point.lon, place.point.lat] : null;
 
-export function JourneyLayer({ journey, places, project, stepKey, reduced, width, height }: Props) {
+export function JourneyLayer({
+  journey,
+  places,
+  project,
+  stepKey,
+  reduced,
+  width,
+  height,
+  onLand,
+}: Props) {
   const routes = useRef<(SVGPathElement | null)[]>([]);
   const reveals = useRef<(SVGPathElement | null)[]>([]);
   const glyphs = useRef<(SVGGElement | null)[]>([]);
@@ -48,14 +67,36 @@ export function JourneyLayer({ journey, places, project, stepKey, reduced, width
           documented && documented.length >= 2
             ? densify(documented)
             : from && to
-              ? geodesic(from, to)
+              ? leg.vehicle === 'gemi' && onLand
+                ? seaArc(from, to, onLand)
+                : geodesic(from, to)
               : [];
         return { leg, points };
       }),
-    [journey, places],
+    [journey, places, onLand],
   );
 
   const screen = legs.map(({ points }) => points.map(project).filter((p): p is XY => p !== null));
+
+  // One "yaklaşık rota" label per kind (land, sea), on the longest such leg: a label on every leg
+  // of a many-stop journey piles up into an unreadable stack.
+  const labelled = new Set<number>();
+  for (const sea of [false, true]) {
+    let best = -1;
+    let bestSpan = -1;
+    legs.forEach(({ leg }, i) => {
+      if (leg.routeKind !== 'yaklasik' || (leg.vehicle === 'gemi') !== sea) return;
+      const pts = screen[i] ?? [];
+      const first = pts[0];
+      const last = pts[pts.length - 1];
+      const span = first && last ? Math.hypot(last[0] - first[0], last[1] - first[1]) : 0;
+      if (span > bestSpan) {
+        best = i;
+        bestSpan = span;
+      }
+    });
+    if (best >= 0) labelled.add(best);
+  }
 
   const park = () => {
     const { leg, p } = stand.current;
@@ -158,9 +199,9 @@ export function JourneyLayer({ journey, places, project, stepKey, reduced, width
               d={toPathData(points)}
               mask={`url(#reveal-${journey.id}-${i})`}
             />
-            {approximate && mid && (
+            {approximate && labelled.has(i) && mid && (
               <text class={styles.label} x={mid[0]} y={mid[1] - 18} text-anchor="middle">
-                yaklaşık rota
+                {leg.vehicle === 'gemi' ? 'yaklaşık rota (deniz)' : 'yaklaşık rota'}
               </text>
             )}
             <g

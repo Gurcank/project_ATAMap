@@ -25,6 +25,56 @@ export function densify(points: LonLat[], stepsPerSegment = 12): LonLat[] {
   return out;
 }
 
+/**
+ * An undocumented sea route (A31): a straight line between two ports often crosses land, so the
+ * route is bowed into a quadratic curve. Of a few candidate bows the one that keeps the most of
+ * the route off `land` wins; ties go to the flatter curve. When even the best bow leaves much of
+ * the route on land (a voyage round a coast no single curve can follow), the plain great circle is
+ * drawn instead: a wide sweep would mislead more than a short cut. Nothing here is stored as data:
+ * the curve is a drawing, labelled "yaklaşık rota (deniz)".
+ */
+export function seaArc(
+  a: LonLat,
+  b: LonLat,
+  onLand: (point: LonLat) => boolean,
+  steps = 48,
+): LonLat[] {
+  const dx = b[0] - a[0];
+  const dy = b[1] - a[1];
+  const bows = [0, 0.15, -0.15, 0.3, -0.3, 0.45, -0.45, 0.6, -0.6];
+  const curve = (k: number): LonLat[] => {
+    // Control point: the midpoint pushed sideways by k times the chord length.
+    const cx = (a[0] + b[0]) / 2 - dy * k;
+    const cy = (a[1] + b[1]) / 2 + dx * k;
+    return Array.from({ length: steps + 1 }, (_, i) => {
+      const t = i / steps;
+      const u = 1 - t;
+      return [
+        u * u * a[0] + 2 * u * t * cx + t * t * b[0],
+        u * u * a[1] + 2 * u * t * cy + t * t * b[1],
+      ];
+    });
+  };
+  // Ports sit on the coast: the first and last stretch is ignored when counting land.
+  const edge = Math.ceil(steps * 0.1);
+  const counted = steps + 1 - 2 * edge;
+  let best = curve(0);
+  let bestLand = Infinity;
+  for (const k of bows) {
+    const points = curve(k);
+    const land = points.slice(edge, points.length - edge).filter(onLand).length;
+    if (land < bestLand) {
+      best = points;
+      bestLand = land;
+    }
+    if (land === 0) break;
+  }
+  return bestLand > counted * MAX_LAND_SHARE ? geodesic(a, b, steps) : best;
+}
+
+/** A sea curve may cross at most this share of land; past it the straight route is drawn. */
+const MAX_LAND_SHARE = 0.25;
+
 export const toPathData = (points: XY[]) =>
   points.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x.toFixed(1)} ${y.toFixed(1)}`).join('');
 

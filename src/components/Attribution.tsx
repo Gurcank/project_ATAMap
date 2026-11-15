@@ -23,8 +23,8 @@ export function Attribution() {
       <a href="https://www.openstreetmap.org/copyright" rel="license noopener">
         © OpenStreetMap katkıcıları
       </a>{' '}
-      (ODbL). Metinler: T.B.M.M. Zabıt Cerideleri. Telgraf ve mektup
-      künyeleri: Nutuk, 1929 İngilizce baskı.
+      (ODbL). Metinler: T.B.M.M. Zabıt Cerideleri. Telgraf ve mektup künyeleri: Nutuk, 1929
+      İngilizce baskı.
     </p>
   );
 }

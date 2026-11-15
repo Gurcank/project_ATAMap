@@ -7764,6 +7764,83 @@
         }
       ],
       "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "tekirdag-maydos-1915",
+      "title": "Tekirdağ’dan Maydos’a",
+      "sources": [
+        "ataturk-ansiklopedisi-4084"
+      ],
+      "legs": [
+        {
+          "fromPlaceId": "tekirdag",
+          "toPlaceId": "maydos",
+          "vehicle": "gemi",
+          "departure": {
+            "iso": "1915-02-24",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-4084"
+            ],
+            "$note": "Ansiklopedi: '24 Şubat 1915 günü Tekirdağ'dan hareket eden Yarbay Mustafa Kemal, 57'nci Alay ile birlikte Reşit Paşa Vapuru ile'."
+          },
+          "arrival": {
+            "iso": "1915-02-25",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-4084",
+              "msb-kronoloji-1905-1918-p7"
+            ],
+            "$note": "Ansiklopedi: '25 Şubat sabahı Eceabat'a ulaşmıştır'. Eceabat'ın o günkü adı Maydos (sitedeki yer kaydı). MSB: tümen karargâhı 25 Şubat'ta Maydos'a."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "ataturk-ansiklopedisi-4084"
+          ],
+          "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Araç: Reşit Paşa Vapuru."
+        }
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+    },
+    {
+      "id": "istanbul-halep-1918",
+      "title": "İstanbul’dan Halep’e",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "legs": [
+        {
+          "fromPlaceId": "istanbul",
+          "toPlaceId": "halep",
+          "vehicle": "tren",
+          "departure": {
+            "iso": "1918-08-22",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-291"
+            ],
+            "$note": "Ansiklopedi: 'İstanbul'dan 22 Ağustos'ta trenle yola çıktı'; yıl paragraftan (Ağustos 1918, ordu komutanlığına yeniden atanma)."
+          },
+          "arrival": {
+            "iso": "1918-08-27",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-291"
+            ],
+            "$note": "Ansiklopedi: '27 Ağustos'ta Halep'e ulaştı'."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "ataturk-ansiklopedisi-291"
+          ],
+          "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+        }
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
     }
   ]
 }

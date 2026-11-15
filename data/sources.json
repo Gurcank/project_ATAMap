@@ -4487,6 +4487,54 @@
       "free": true,
       "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Nominatim (2026-11-15): 38.9389329, 33.5438843. Teyit için; saklanan değer Wikidata. Kullanıcı onayı: 2026-11-15 (parti 12a).",
       "verified": true
+    },
+    {
+      "id": "ataturk-ansiklopedisi-291",
+      "institution": "Atatürk Araştırma Merkezi Başkanlığı",
+      "citation": "Atatürk Ansiklopedisi, «Sina ve Filistin Cephesi’nde Atatürk» (Nasır Yüceer, 27 Şubat 2021)",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/291",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Resmî kaynak (A27), yalnız olgu; alıntılar alınmadı. Sayfa JavaScript ile yükleniyor, tarayıcıda okundu."
+    },
+    {
+      "id": "ataturk-ansiklopedisi-617",
+      "institution": "Atatürk Araştırma Merkezi Başkanlığı",
+      "citation": "Atatürk Ansiklopedisi, «Hareket Ordusu ve Kurmay Yüzbaşı Mustafa Kemal» (Zekeriya Türkmen, 9 Şubat 2021)",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/617",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Resmî kaynak (A27), yalnız olgu; alıntılar alınmadı. Sayfa JavaScript ile yükleniyor, tarayıcıda okundu."
+    },
+    {
+      "id": "ataturk-ansiklopedisi-875",
+      "institution": "Atatürk Araştırma Merkezi Başkanlığı",
+      "citation": "Atatürk Ansiklopedisi, «Atatürk’ün Eğitim ve Öğretim Gördüğü Kurumlar» (Ali Güler, 30 Aralık 2020)",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/875",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Resmî kaynak (A27), yalnız olgu; alıntılar alınmadı. Sayfa JavaScript ile yükleniyor, tarayıcıda okundu."
+    },
+    {
+      "id": "ataturk-ansiklopedisi-4084",
+      "institution": "Atatürk Araştırma Merkezi Başkanlığı",
+      "citation": "Atatürk Ansiklopedisi, «Çanakkale Cephesi’nde Mustafa Kemal (ATATÜRK)» (Murat Karataş, 21 Eylül 2022)",
+      "url": "https://ataturkansiklopedisi.gov.tr/detay/4084",
+      "accessedAt": "2026-11-15",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": false,
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Resmî kaynak (A27), yalnız olgu; alıntılar alınmadı. Sayfa JavaScript ile yükleniyor, tarayıcıda okundu."
     }
   ]
 }

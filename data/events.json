@@ -14152,6 +14152,381 @@
         "ataturk-ansiklopedisi-4929"
       ],
       "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Beyannamedeki sözler alınmadı."
+    },
+    {
+      "id": "semsi-efendi-okulu-1887-06",
+      "date": {
+        "iso": "1887-06",
+        "precision": "month",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-875"
+        ],
+        "$note": "Ansiklopedi: 'Küçük Mustafa, 1887 yılı Haziran ayında İlkokula başlayacaktır'; 'Şemsi Efendi, küçük Mustafa okuluna kaydolduğu zaman (1887)'."
+      },
+      "title": "Şemsi Efendi Okulu’na başladı",
+      "text": "Selanik’te Şemsi Efendi’nin yeni usulle eğitim yapan ilkokuluna başladı.",
+      "placeId": "selanik",
+      "sources": [
+        "ataturk-ansiklopedisi-875"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. MSB kronolojisi 1886'da ilk öğrenimine (önce mahalle mektebi, sonra Şemsi Efendi Okulu) başladığını yazıyor; sitedeki 1886 kaydı değişmedi."
+    },
+    {
+      "id": "ordu-emri-1-1909-04-21",
+      "date": {
+        "iso": "1909-04-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-617"
+        ],
+        "$note": "Ansiklopedi: '21 Nisan 1909 günü Kurmay Yüzbaşı Mustafa Kemal'in imzasıyla 1 numaralı ordu emri yayımlandı'."
+      },
+      "title": "Hareket Ordusu’nun 1 numaralı emrini yayımladı",
+      "text": "Hareket Ordusu’nun 1 numaralı ordu emri onun imzasıyla yayımlandı.",
+      "sources": [
+        "ataturk-ansiklopedisi-617"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "davutpasa-kislasi-1909-04-23",
+      "date": {
+        "iso": "1909-04-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-617"
+        ],
+        "$note": "Ansiklopedi: 'Kurmay Yüzbaşı Mustafa Kemal 23 Nisan günü Davutpaşa kışlasını denetimi altına aldı'."
+      },
+      "title": "Davutpaşa Kışlası’nı denetim altına aldı",
+      "text": "İstanbul’da Davutpaşa Kışlası’nı denetim altına aldı.",
+      "placeId": "istanbul",
+      "sources": [
+        "ataturk-ansiklopedisi-617"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer: Davutpaşa Kışlası İstanbul'da."
+    },
+    {
+      "id": "gulhane-1909-05-15",
+      "date": {
+        "iso": "1909-05-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-617"
+        ],
+        "$note": "Ansiklopedi: '2 Mayıs 1325/15 Mayıs 1909 tarihinde rahatsızlanarak Gülhane Hastanesine yatmıştır' (kendi not defterine göre)."
+      },
+      "title": "Gülhane Hastanesi’ne yattı",
+      "text": "Rahatsızlanarak İstanbul’da Gülhane Hastanesi’ne yattı.",
+      "placeId": "istanbul",
+      "sources": [
+        "ataturk-ansiklopedisi-617"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer: Gülhane Hastanesi İstanbul'da."
+    },
+    {
+      "id": "gulhane-taburcu-1909-05-18",
+      "date": {
+        "iso": "1909-05-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-617"
+        ],
+        "$note": "Ansiklopedi: '5 Mayıs 1325/18 Mayıs 1909 tarihinde taburcu olmuştur'."
+      },
+      "title": "Gülhane Hastanesi’nden çıktı",
+      "text": "Üç gün kaldığı Gülhane Hastanesi’nden taburcu oldu.",
+      "placeId": "istanbul",
+      "sources": [
+        "ataturk-ansiklopedisi-617"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+    },
+    {
+      "id": "tekirdagdan-vapurla-1915-02-24",
+      "date": {
+        "iso": "1915-02-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4084"
+        ],
+        "$note": "Ansiklopedi: '24 Şubat 1915 günü Tekirdağ'dan hareket eden Yarbay Mustafa Kemal, 57'nci Alay ile birlikte Reşit Paşa Vapuru ile'."
+      },
+      "title": "57. Alay’la vapurla Tekirdağ’dan ayrıldı",
+      "text": "57. Alay’la birlikte Reşit Paşa Vapuru’na binerek Tekirdağ’dan ayrıldı; ertesi sabah Maydos’a (Eceabat) vardı.",
+      "placeId": "tekirdag",
+      "sources": [
+        "ataturk-ansiklopedisi-4084"
+      ],
+      "journeyId": "tekirdag-maydos-1915",
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+    },
+    {
+      "id": "maydos-mintika-1915-03-24",
+      "date": {
+        "iso": "1915-03-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4084"
+        ],
+        "$note": "Ansiklopedi: '24 Mart 1915 tarihinde 9'uncu Tümen Komutanı Halil Sami Bey'in Eceabat'a gelmesinden sonra Maydos Mıntıka Komutanlığı görevi son bulan Mustafa Kemal'."
+      },
+      "title": "Maydos Mıntıka Komutanlığı sona erdi",
+      "text": "9. Tümen Komutanı Halil Sami Bey’in gelişiyle Maydos Mıntıka Komutanlığı sona erdi; yalnız kendi tümeninin başında Maydos’ta tatbikatlara devam etti.",
+      "placeId": "maydos",
+      "sources": [
+        "ataturk-ansiklopedisi-4084"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+    },
+    {
+      "id": "kannengiesser-1915-05-01",
+      "date": {
+        "iso": "1915-05-01",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4084"
+        ],
+        "$note": "Ansiklopedi: '1 Mayıs 1915 tarihinde Türk askerinin geri çekilmesini öneren Alman Albay Kannengiesser'e karşı çıkan Mustafa Kemal'."
+      },
+      "title": "Geri çekilme önerisine karşı çıktı",
+      "text": "Türk birliklerinin geri çekilmesini öneren Alman Albay Kannengiesser’e karşı çıktı; her geri çekilmenin bütün birliklerin düzenini bozacağını söyledi.",
+      "sources": [
+        "ataturk-ansiklopedisi-4084"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı. Aynı günkü taarruz emrindeki sözler alınmadı."
+    },
+    {
+      "id": "siper-numaralari-1915-05-29",
+      "date": {
+        "iso": "1915-05-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4084"
+        ],
+        "$note": "Ansiklopedi: '29 Mayıs 1915 tarihinde gönderdiği bir emirde, avcı hendekleri ve geri kısımlara; hatta siperlere birer numara verilmesini önermiştir'."
+      },
+      "title": "Siperlere numara verilmesini istedi",
+      "text": "Gönderdiği emirde karışıklığı gidermek için avcı hendeklerine ve siperlere numara verilmesini istedi.",
+      "sources": [
+        "ataturk-ansiklopedisi-4084"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "kirectepe-1915-08-16",
+      "date": {
+        "iso": "1915-08-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4084"
+        ],
+        "$note": "Ansiklopedi: 'Anafartalar Grup Komutanı Albay Mustafa Kemal, 16 Ağustos saat 10.00 civarı durumu bizzat yerinde görmek için Turşun bölgesine hareket etmiştir'."
+      },
+      "title": "Kireçtepe’ye bizzat müdahale etti",
+      "text": "Kireçtepe sırtlarındaki tehlikeli taarruzlar üzerine durumu yerinde görmek için Turşun bölgesine gitti.",
+      "sources": [
+        "ataturk-ansiklopedisi-4084"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Kireçtepe ve Turşun için yer kaydı yok; yer bağlanmadı."
+    },
+    {
+      "id": "yedinci-ordu-kabul-1917-07-03",
+      "date": {
+        "iso": "1917-07-03",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: 'Diyarbakır'da bulunan 2. Ordu Komutanı Mustafa Kemal Paşa'ya 3 Temmuz 1917 tarihinde Başkomutan Vekili Enver Paşa'dan «zata mahsus» şifreli bir telgraf gelir'."
+      },
+      "title": "7. Ordu Komutanlığı teklifini kabul etti",
+      "text": "Enver Paşa’dan gelen şifreli telgrafla kendisine önerilen 7. Ordu Komutanlığı’nı kayıtsız şartsız kabul ettiğini bildirdi.",
+      "placeId": "diyarbakir",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Telgraf ve cevaptaki sözler alınmadı."
+    },
+    {
+      "id": "sina-cephesi-istegi-1917-09-24",
+      "date": {
+        "iso": "1917-09-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: 'Mustafa Kemal Paşa, 24 Eylül'de Sina Cephesi Komutanlığı'nın kendisine verilmesini veya görevden affedilmesini istedi'."
+      },
+      "title": "Sina Cephesi’ni ya da görevden affını istedi",
+      "text": "Sina Cephesi Komutanlığı’nın kendisine verilmesini ya da görevden affedilmesini istedi.",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "halepten-istanbula-1917-10-11",
+      "date": {
+        "iso": "1917-10-11",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: 'Yerine Kolordu Komutanı Ali Fuat Paşa'yı vekil tayin ederek 11 Ekim'de Halep'ten hareket ederek'."
+      },
+      "title": "Halep’ten İstanbul’a yola çıktı",
+      "text": "Yerine Ali Fuat Paşa’yı vekil bırakarak izinli olarak Halep’ten ayrıldı.",
+      "placeId": "halep",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Sitedeki ay düzeyli 'Halep'ten İstanbul'a döndü' (1917-10) kaydı değişmedi."
+    },
+    {
+      "id": "istanbula-geldi-1917-10-15",
+      "date": {
+        "iso": "1917-10-15",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: '15 Ekim 1917'de izinli olarak İstanbul'a geldi'."
+      },
+      "title": "İzinli olarak İstanbul’a geldi",
+      "text": "Halep’ten izinli olarak İstanbul’a geldi.",
+      "placeId": "istanbul",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+    },
+    {
+      "id": "halepe-trenle-1918-08-22",
+      "date": {
+        "iso": "1918-08-22",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: 'Ordu komutanlığına atanan Mustafa Kemal Paşa İstanbul'dan 22 Ağustos'ta trenle yola çıktı'."
+      },
+      "title": "Halep’e gitmek için trenle yola çıktı",
+      "text": "Yeniden 7. Ordu Komutanlığına atanınca İstanbul’dan trenle yola çıktı.",
+      "placeId": "istanbul",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "journeyId": "istanbul-halep-1918",
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+    },
+    {
+      "id": "halepe-geldi-1918-08-27",
+      "date": {
+        "iso": "1918-08-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: '27 Ağustos'ta Halep'e ulaştı'."
+      },
+      "title": "Halep’e geldi",
+      "text": "Trenle Halep’e ulaştı.",
+      "placeId": "halep",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri."
+    },
+    {
+      "id": "rayak-komutanligi-1918-09-28",
+      "date": {
+        "iso": "1918-09-28",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: '27 Eylül'de karargâhıyla birlikte Deraa'dan ayrılan Mustafa Kemal Paşa'ya, 28 Eylül'de, Rayak bölgesi komutanlığı görevi verildi'."
+      },
+      "title": "Rayak bölgesi komutanlığı verildi",
+      "text": "Karargâhıyla Deraa’dan çekilirken kendisine Rayak bölgesinin komutanlığı verildi.",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Deraa ve Rayak için yer kaydı yok; yer bağlanmadı."
+    },
+    {
+      "id": "rayak-1918-09-30",
+      "date": {
+        "iso": "1918-09-30",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: '30 Eylül'de Rayak'a gelip dağınık birlikleri derleyip toparlayarak yeniden düzenledi'."
+      },
+      "title": "Rayak’ta dağınık birlikleri toparladı",
+      "text": "Rayak’a geldi ve dağınık birlikleri toplayıp yeniden düzenledi.",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Rayak için yer kaydı yok; yer bağlanmadı."
+    },
+    {
+      "id": "iskenderun-gizli-emir-1918-11-05",
+      "date": {
+        "iso": "1918-11-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: '5 Kasım tarihinde maiyetindeki birlik komutanlarına verdiği gizli emrinde gerekirse silahla karşı koyabileceklerini de bildirmişti'."
+      },
+      "title": "İskenderun için gizli emir verdi",
+      "text": "Emrindeki birlik komutanlarına, İngilizler İskenderun’a asker çıkarırsa gerekirse silahla karşı konulacağını bildiren gizli bir emir verdi.",
+      "placeId": "adana",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer: 31 Ekim'de Adana'da Ordular Grubu'nun komutasını aldı, 10-11 Kasım'da Adana'dan ayrıldı (sitedeki kayıtlar)."
+    },
+    {
+      "id": "izzet-pasaya-telgraf-1918-11-06",
+      "date": {
+        "iso": "1918-11-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-291"
+        ],
+        "$note": "Ansiklopedi: '6 Kasım'da Ahmet İzzet Paşa'ya çektiği telgrafla İstanbul'un bu yaklaşımına itiraz eden Mustafa Kemal Paşa'."
+      },
+      "title": "Sadrazam İzzet Paşa’ya İskenderun telgrafı çekti",
+      "text": "Sadrazam Ahmet İzzet Paşa’ya çektiği telgrafta İskenderun’un direnmeden teslim edilmesine itiraz etti.",
+      "placeId": "adana",
+      "sources": [
+        "ataturk-ansiklopedisi-291"
+      ],
+      "$note": "Parti 12b (2026-11-15): Atatürk Ansiklopedisi, askerlik ve öğrenim maddeleri. Yer: 31 Ekim'de Adana'da Ordular Grubu'nun komutasını aldı, 10-11 Kasım'da Adana'dan ayrıldı (sitedeki kayıtlar)."
     }
   ]
 }

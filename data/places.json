@@ -2340,6 +2340,69 @@
         }
       ],
       "modernName": "Lausanne"
+    },
+    {
+      "id": "aksehir",
+      "point": {
+        "lon": 31.416388888889,
+        "lat": 38.359166666667,
+        "sources": [
+          "wikidata-q169974-r2568911704",
+          "osm-relation-1250956"
+        ],
+        "$note": "Wikidata: 38.359166666667, 31.416388888889. OpenStreetMap (relation 1250956): 38.3588503, 31.4201959. Fark yaklaşık 0,33 km."
+      },
+      "names": [
+        {
+          "name": "Akşehir",
+          "sources": [
+            "ataturk-ansiklopedisi-4929"
+          ],
+          "$note": "Atatürk Ansiklopedisi «Büyük Taarruz» (resmî): 'Akşehir'."
+        }
+      ]
+    },
+    {
+      "id": "suhut",
+      "point": {
+        "lon": 30.543888888889,
+        "lat": 38.5325,
+        "sources": [
+          "wikidata-q2095388-r2530340574",
+          "osm-relation-1263754"
+        ],
+        "$note": "Wikidata: 38.5325, 30.543888888889. OpenStreetMap (relation 1263754): 38.5339612, 30.5461288. Fark yaklaşık 0,25 km."
+      },
+      "names": [
+        {
+          "name": "Şuhut",
+          "sources": [
+            "ataturk-ansiklopedisi-4929"
+          ],
+          "$note": "Atatürk Ansiklopedisi «Büyük Taarruz» (resmî): 'Şuhut'."
+        }
+      ]
+    },
+    {
+      "id": "esme",
+      "point": {
+        "lon": 28.966666666667,
+        "lat": 38.4,
+        "sources": [
+          "wikidata-q1004540-r2569630548",
+          "osm-relation-1609670"
+        ],
+        "$note": "Wikidata: 38.4, 28.966666666667. OpenStreetMap (relation 1609670): 38.3998673, 28.9670144. Fark yaklaşık 0,03 km. İki nokta 100 m'den yakın; bağımsızlık notu (parti 9 ile aynı işaret)."
+      },
+      "names": [
+        {
+          "name": "Eşme",
+          "sources": [
+            "ataturk-ansiklopedisi-4929"
+          ],
+          "$note": "Atatürk Ansiklopedisi «Büyük Taarruz» (resmî): 'Eşme'."
+        }
+      ]
     }
   ]
 }

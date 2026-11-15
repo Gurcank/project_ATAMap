@@ -7547,6 +7547,223 @@
         "msb-yurt-gezileri-1924-1938"
       ],
       "$note": "Yurt gezileri, 1924-1938. Araç maddede yazıyor (A32)."
+    },
+    {
+      "id": "erzurum-sivas-1919",
+      "title": "Erzurum’dan Sivas’a",
+      "sources": [
+        "ataturk-ansiklopedisi-294"
+      ],
+      "legs": [
+        {
+          "fromPlaceId": "erzurum",
+          "toPlaceId": "sivas",
+          "vehicle": "otomobil",
+          "departure": {
+            "iso": "1919-08-29",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-milli-mucadele-donemi-p11",
+              "ataturk-ansiklopedisi-294"
+            ],
+            "$note": "MSB «Millî Mücadele Dönemi»: '29 Ağustos 1919'da Erzurum'dan ayrılarak'. Ansiklopedi: '29 Ağustos 1919'da Sivas'a gitmek üzere yola çıktı'."
+          },
+          "arrival": {
+            "iso": "1919-09-02",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-kronoloji-1919-1922-p9a",
+              "ataturk-ansiklopedisi-294"
+            ],
+            "$note": "Ansiklopedi: '2 Eylül'de Sivas'a gelen Mustafa Kemal Paşa'nın otomobili şehre girince'."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "ataturk-ansiklopedisi-294"
+          ],
+          "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Araç: ansiklopedi, Sivas'a otomobille girdiğini yazıyor. Ara duraklar kaynakta yok; rota yaklaşık."
+        }
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "sivas-ankara-1919",
+      "title": "Sivas’tan Ankara’ya",
+      "sources": [
+        "ataturk-ansiklopedisi-385"
+      ],
+      "legs": [
+        {
+          "fromPlaceId": "sivas",
+          "toPlaceId": "kirsehir",
+          "vehicle": "otomobil",
+          "departure": {
+            "iso": "1919-12-18",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-385"
+            ],
+            "$note": "Ansiklopedi: '18 Aralık 1919 günü Sivas'tan Ankara'ya gitmek üzere ayrıldı'."
+          },
+          "arrival": {
+            "iso": "1919-12-24",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-385"
+            ],
+            "$note": "Ansiklopedi: 'Hacı Bektaş'tan Mucur'a, oradan da 24 Aralık'ta Kırşehir'e geldi'."
+          },
+          "path": [
+            {
+              "lon": 37.016666666667,
+              "lat": 39.75,
+              "sources": [
+                "wikidata-q107401-r2560607580",
+                "naturalearth-ne10m-populated-places-simple"
+              ]
+            },
+            {
+              "lon": 35.4875,
+              "lat": 38.7225,
+              "sources": [
+                "wikidata-q48338-r2560442536",
+                "naturalearth-ne10m-populated-places-simple"
+              ]
+            },
+            {
+              "lon": 34.160685,
+              "lat": 39.145965,
+              "sources": [
+                "wikidata-q1945209-r2530339691",
+                "naturalearth-ne10m-populated-places-simple"
+              ]
+            }
+          ],
+          "routeKind": "yaklasik",
+          "sources": [
+            "ataturk-ansiklopedisi-385"
+          ],
+          "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Araç: 'Heyette üç otomobil bulunmaktaydı. Birinci otomobilde Mustafa Kemal Paşa'. Güzergâh Kayseri üzerinden; Hacıbektaş ve Mucur için yer kaydı yok, rota yalnız Kayseri'den geçirildi."
+        },
+        {
+          "fromPlaceId": "kirsehir",
+          "toPlaceId": "ankara",
+          "vehicle": "otomobil",
+          "departure": {
+            "iso": "1919-12-24",
+            "isoEnd": "1919-12-25",
+            "precision": "range",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-385"
+            ],
+            "$note": "Ansiklopedi: 24 Aralık'ta Kırşehir'e geldiler, '25 Aralık'ı Kaman'da' geçirdiler; Kırşehir'den ayrılış günü 24 ya da 25."
+          },
+          "arrival": {
+            "iso": "1919-12-27",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-385",
+              "msb-kronoloji-1919-1922-p9a"
+            ],
+            "$note": "Ansiklopedi: '27 Aralık'ta Ankara'ya geldiler'."
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "ataturk-ansiklopedisi-385"
+          ],
+          "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Kaman ve Behnan köyü için yer kaydı yok."
+        }
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "ankara-aksehir-1922",
+      "title": "Ankara’dan Akşehir’e",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "legs": [
+        {
+          "fromPlaceId": "ankara",
+          "toPlaceId": "konya",
+          "vehicle": "otomobil",
+          "departure": {
+            "iso": "1922-08-17",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-4929"
+            ],
+            "$note": "Ansiklopedi: '17 Ağustos'ta TBMM Başkanlığını İkinci Başkan Adnan Bey'e devreden Başkomutan, gece otomobille Tuz Çölü (Şereflikoçhisar) üzerinden Konya'ya hareket etti'."
+          },
+          "path": [
+            {
+              "lon": 32.83869,
+              "lat": 39.93576,
+              "sources": [
+                "wikidata-q3640",
+                "naturalearth-ne110m-populated-places"
+              ]
+            },
+            {
+              "lon": 33.548055555556,
+              "lat": 38.954444444444,
+              "sources": [
+                "wikidata-q49110627-r2530339917",
+                "osm-relation-1713916"
+              ],
+              "$note": "Şereflikoçhisar (Tuz Çölü), ansiklopedideki güzergâh."
+            },
+            {
+              "lon": 32.49213888888889,
+              "lat": 37.872769444444444,
+              "sources": [
+                "wikidata-q79857-r2555596554",
+                "naturalearth-ne10m-populated-places-simple"
+              ]
+            }
+          ],
+          "routeKind": "yaklasik",
+          "sources": [
+            "ataturk-ansiklopedisi-4929"
+          ],
+          "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Konya'ya varış günü kaynakta yok. MSB «Millî Mücadele Dönemi» '19 Ağustos 1922'de Ankara'dan Akşehir'e' diyor; çelişki parti belgesinde."
+        },
+        {
+          "fromPlaceId": "konya",
+          "toPlaceId": "aksehir",
+          "vehicle": "tren",
+          "departure": {
+            "iso": "1922-08-20",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-4929"
+            ],
+            "$note": "Ansiklopedi: '20 Ağustos 1922, Konya'dan hareket eden bir trenle öğleden sonra saat 16.00'da Akşehir'de'."
+          },
+          "arrival": {
+            "iso": "1922-08-20",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "ataturk-ansiklopedisi-4929"
+            ]
+          },
+          "routeKind": "yaklasik",
+          "sources": [
+            "ataturk-ansiklopedisi-4929"
+          ],
+          "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+        }
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
     }
   ]
 }

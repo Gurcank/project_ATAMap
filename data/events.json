@@ -13678,6 +13678,497 @@
         "msb-milli-mucadele-donemi-p11"
       ],
       "$note": "Parti 11 (2026-11-15): MSB «Millî Mücadele Dönemi» ve Atatürk Ansiklopedisi. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "amasya-ilk-konusma-1919-06-12",
+      "date": {
+        "iso": "1919-06-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-210"
+        ],
+        "$note": "Ansiklopedi: '12 Haziran 1919 günü Amasyalılara hitaben ilk konuşmasında'."
+      },
+      "title": "Amasya’da halka ilk konuşmasını yaptı",
+      "text": "Amasya halkına ilk konuşmasını yaptı; on gün sonra Amasya Genelgesi’nde açıklayacağı düşünceleri dile getirdi.",
+      "placeId": "amasya",
+      "sources": [
+        "ataturk-ansiklopedisi-210"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "haberlesme-genelgesi-1919-07-05",
+      "date": {
+        "iso": "1919-07-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-673"
+        ],
+        "$note": "Ansiklopedi: 'kullanmakta olduğu yetkiyle 5 Temmuz'da bütün komutanlara bir tamim göndererek önemli haberleşme merkezlerini kontrol altında tutmak için'."
+      },
+      "title": "Komutanlara haberleşme genelgesi gönderdi",
+      "text": "Bütün komutanlara gönderdiği genelgeyle önemli haberleşme merkezlerinin denetim altında tutulmasını istedi.",
+      "placeId": "erzurum",
+      "sources": [
+        "ataturk-ansiklopedisi-673"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer: 3 Temmuz'da Erzurum'a vardı, 29 Ağustos'ta ayrıldı (sitedeki seyahat kayıtları)."
+    },
+    {
+      "id": "rawlinson-gorusmesi-1919-07-09",
+      "date": {
+        "iso": "1919-07-09",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-673"
+        ],
+        "$note": "Ansiklopedi: '9 Temmuz günü Mustafa Kemal Paşa'yı evde ziyaret ederek'."
+      },
+      "title": "İngiliz subayı Rawlinson’la görüştü",
+      "text": "İngiliz subayı Rawlinson onu kaldığı evde ziyaret etti ve toplanacak kongreyi sordu.",
+      "placeId": "erzurum",
+      "sources": [
+        "ataturk-ansiklopedisi-673"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer: 3 Temmuz'da Erzurum'a vardı, 29 Ağustos'ta ayrıldı (sitedeki seyahat kayıtları)."
+    },
+    {
+      "id": "heyet-i-faale-1919-07-10",
+      "date": {
+        "iso": "1919-07-10",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-673"
+        ],
+        "$note": "Ansiklopedi: 'Mustafa Kemal başkanlığındaki ilk Heyet-i Faale toplantısı 10 Temmuz'da Müstahkem Mevki Karargâhında yapılmıştır'."
+      },
+      "title": "İlk Heyet-i Faale toplantısına başkanlık etti",
+      "text": "Erzurum Müstahkem Mevki Karargâhı’ndaki ilk Heyet-i Faale toplantısına başkanlık etti.",
+      "placeId": "erzurum",
+      "sources": [
+        "ataturk-ansiklopedisi-673"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "rawlinson-gorusmesi-1919-08-06",
+      "date": {
+        "iso": "1919-08-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-673"
+        ],
+        "$note": "Ansiklopedi: '6 Ağustos günü Rawlinson … Mustafa Kemal Paşa, Kazım Karabekir Paşa ve Rauf Bey ile tekrar görüşmeler yaparak'."
+      },
+      "title": "Rawlinson’la yeniden görüştü",
+      "text": "Kazım Karabekir Paşa ve Rauf Bey’le birlikte İngiliz subayı Rawlinson’la ikinci kez görüştü.",
+      "placeId": "erzurum",
+      "sources": [
+        "ataturk-ansiklopedisi-673"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer: 3 Temmuz'da Erzurum'a vardı, 29 Ağustos'ta ayrıldı (sitedeki seyahat kayıtları)."
+    },
+    {
+      "id": "sivas-ankara-1919-12-18",
+      "date": {
+        "iso": "1919-12-18",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-385"
+        ],
+        "$note": "Ansiklopedi: '18 Aralık 1919 günü Sivas'tan Ankara'ya gitmek üzere ayrıldı'."
+      },
+      "title": "Sivas’tan Ankara’ya doğru yola çıktı",
+      "text": "Heyet-i Temsiliye ile birlikte üç otomobille Sivas’tan ayrıldı; Kayseri ve Kırşehir üzerinden Ankara’ya gidecekti.",
+      "placeId": "sivas",
+      "sources": [
+        "ataturk-ansiklopedisi-385"
+      ],
+      "journeyId": "sivas-ankara-1919",
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "kirsehire-geldi-1919-12-24",
+      "date": {
+        "iso": "1919-12-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-385"
+        ],
+        "$note": "Ansiklopedi: 'oradan da 24 Aralık'ta Kırşehir'e geldi'."
+      },
+      "title": "Kırşehir’e geldi",
+      "text": "Hacıbektaş ve Mucur’dan geçerek Kırşehir’e geldi.",
+      "placeId": "kirsehir",
+      "sources": [
+        "ataturk-ansiklopedisi-385"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "refet-pasaya-telgraf-1921-08-26",
+      "date": {
+        "iso": "1921-08-26",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-216"
+        ],
+        "$note": "Ansiklopedi: 'Millî Savunma Bakanı Refet Paşa'ya 26 Ağustos akşamı gönderdiği telgrafta'."
+      },
+      "title": "Refet Paşa’ya telgraf gönderdi",
+      "text": "Millî Savunma Bakanı Refet Paşa’ya, muharebelerin Ankara’ya kadar uzanabileceğini ve Meclisle hükümetin hazırlıklı olması gerektiğini bildirdi.",
+      "sources": [
+        "ataturk-ansiklopedisi-216"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "sakarya-karsi-taarruz-1921-09-06",
+      "date": {
+        "iso": "1921-09-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-859"
+        ],
+        "$note": "Ansiklopedi: '6 Eylül günü … karşı taarruzu başlatmış'."
+      },
+      "title": "Sakarya’da karşı taarruzu başlattı",
+      "text": "Düşman taarruzunun doruğa ulaştığını görerek karşı taarruzu başlattı.",
+      "sources": [
+        "ataturk-ansiklopedisi-859"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "genel-seferberlik-1921-09-13",
+      "date": {
+        "iso": "1921-09-13",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929",
+          "ataturk-ansiklopedisi-859"
+        ],
+        "$note": "Ansiklopedi «Büyük Taarruz»: '13 Eylül tarihinde … Genel Seferberlik ilan edildiğini bakanlıklara ve Genelkurmay Başkanlığı'na bildirdi'. «Gazilik»: aynı gün ayrı bir telgrafla genel seferberlik."
+      },
+      "title": "Genel seferberliği bildirdi",
+      "text": "Bakanlıklara ve Genelkurmay Başkanlığına, 14-15 Eylül gece yarısından itibaren bütün yurtta genel seferberlik ilan edildiğini bildirdi.",
+      "sources": [
+        "ataturk-ansiklopedisi-4929",
+        "ataturk-ansiklopedisi-859"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "orduya-tesekkur-1921-09-20",
+      "date": {
+        "iso": "1921-09-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-859"
+        ],
+        "$note": "Ansiklopedi: '20 Eylül 1921'de orduya verdiği beyannamede'."
+      },
+      "title": "Orduya teşekkür beyannamesi yayımladı",
+      "text": "Sakarya’daki kahramanlıkları için komutanlara, subaylara ve erlere ayrı ayrı teşekkür eden bir beyanname yayımladı.",
+      "sources": [
+        "ataturk-ansiklopedisi-859"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı. Beyannamedeki sözler alınmadı."
+    },
+    {
+      "id": "1901-dogumlular-1922-02-16",
+      "date": {
+        "iso": "1922-02-16",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '16 Şubat 1922'de, 1901 doğumluların hemen muayenelerinin yapılarak askere alınmasını emretti'."
+      },
+      "title": "1901 doğumluların askere alınmasını emretti",
+      "text": "1901 doğumluların hemen muayene edilerek askere alınmasını emretti.",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "tbmm-gizli-celse-1922-05-06",
+      "date": {
+        "iso": "1922-05-06",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '6 Mayıs 1922'de gizli celse olarak toplanan Mecliste temel konu Paşa'nın Başkomutanlık Kanunu hakkındaki açıklamaları'."
+      },
+      "title": "Gizli celsede Başkomutanlık Kanunu’nu açıkladı",
+      "text": "Meclisin gizli celsesinde Başkomutanlık Kanunu hakkında açıklama yaptı ve önceki toplantıdaki eleştirileri cevapladı.",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer kaynakta yazmıyor; yer bağlanmadı."
+    },
+    {
+      "id": "aksehire-gitti-1922-07-23",
+      "date": {
+        "iso": "1922-07-23",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '23 Temmuz'da Ankara'dan ayrılarak aynı günün akşamı Batı Cephesi Karargâhı'nın bulunduğu Akşehir'e gitti'."
+      },
+      "title": "Batı Cephesi Karargâhı’na, Akşehir’e gitti",
+      "text": "Ankara’dan ayrıldı ve aynı akşam Batı Cephesi Karargâhı’nın bulunduğu Akşehir’e vardı.",
+      "placeId": "aksehir",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Araç kaynakta yazmıyor, seyahat kaydı açılmadı (A32)."
+    },
+    {
+      "id": "townshend-gorusmesi-1922-07-24",
+      "date": {
+        "iso": "1922-07-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '24 Temmuz'da Konya'ya giden ve Townshend'le görüşen Mustafa Kemal Paşa'."
+      },
+      "title": "Konya’da General Townshend’le görüştü",
+      "text": "Konya’ya gitti ve İngiliz Generali Townshend’le görüştü.",
+      "placeId": "konya",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "aksehire-dondu-1922-07-27",
+      "date": {
+        "iso": "1922-07-27",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '27 Temmuz'da tekrar Akşehir'e döndü'."
+      },
+      "title": "Akşehir’e döndü",
+      "text": "Konya’dan Akşehir’e döndü; Genelkurmay Başkanı Fevzi Paşa da Akşehir’e gelmişti.",
+      "placeId": "aksehir",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "taarruz-karari-1922-07-28",
+      "date": {
+        "iso": "1922-07-27",
+        "isoEnd": "1922-07-28",
+        "precision": "range",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '27-28 Temmuz gecesi, Mustafa Kemal, İsmet ve Fevzi Paşalar yaptıkları görüşmeler sonunda … 15 Ağustos'a kadar, hazırlıkların tamamlanması kararlaştırıldı'."
+      },
+      "title": "Taarruz hazırlıklarının süresi kararlaştırıldı",
+      "text": "İsmet ve Fevzi Paşalarla gece yaptığı görüşmede, taarruz hazırlıklarının 15 Ağustos’a kadar tamamlanması kararlaştırıldı.",
+      "placeId": "aksehir",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer: Fevzi Paşa'nın Akşehir'e geldiği aynı paragrafta."
+    },
+    {
+      "id": "ankaradan-konyaya-1922-08-17",
+      "date": {
+        "iso": "1922-08-17",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '17 Ağustos'ta TBMM Başkanlığını İkinci Başkan Adnan Bey'e devreden Başkomutan, gece otomobille Tuz Çölü (Şereflikoçhisar) üzerinden Konya'ya hareket etti'."
+      },
+      "title": "Gizlice Konya’ya hareket etti",
+      "text": "TBMM Başkanlığını İkinci Başkan Adnan Bey’e bıraktı ve gece otomobille Tuz Çölü üzerinden Konya’ya hareket etti; yolculuğunu yakınları dışında herkesten gizledi.",
+      "placeId": "ankara",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "journeyId": "ankara-aksehir-1922",
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Çelişki: MSB «Millî Mücadele Dönemi» 19 Ağustos diyor (parti belgesi)."
+    },
+    {
+      "id": "aksehirde-savas-oyunu-1922-08-20",
+      "date": {
+        "iso": "1922-08-20",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '20 Ağustos 1922, Konya'dan hareket eden bir trenle öğleden sonra saat 16.00'da Akşehir'de Batı Cephesi Karargâhındaydı'."
+      },
+      "title": "Akşehir’de taarruz emrini verdi",
+      "text": "Trenle Akşehir’e geldi; ordu komutanlarına taarruzu harita üzerinde anlattı ve 26 Ağustos sabahı için taarruz emri verdi.",
+      "placeId": "aksehir",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "200-bin-lira-1922-08-21",
+      "date": {
+        "iso": "1922-08-21",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '21 Ağustos 1922'de Başkomutan Maliye ve Müdafaai Milliye Vekaleti'ne gönderdiği bir şifre yazı ile … 200.000 lira daha gönderilmesini'."
+      },
+      "title": "Batı Cephesi için 200.000 lira istedi",
+      "text": "Maliye ve Müdafaa-i Milliye vekâletlerinden, Batı Cephesi’ne erzak için 200.000 lira daha gönderilmesini istedi.",
+      "placeId": "aksehir",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Yer: karargâh 20-24 Ağustos arasında Akşehir'de (aynı madde)."
+    },
+    {
+      "id": "karargah-suhut-1922-08-24",
+      "date": {
+        "iso": "1922-08-24",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '24 Ağustos 1922'de Mustafa Kemal Paşa'nın Başkomutanlık karargâhı … Akşehir'den, I. Ordu Karargahı'nın bulunduğu, Şuhut'a getirildi'."
+      },
+      "title": "Karargâhıyla Şuhut’a geçti",
+      "text": "Başkomutanlık, Genelkurmay ve Batı Cephesi karargâhları Akşehir’den 1. Ordu Karargâhı’nın bulunduğu Şuhut’a taşındı.",
+      "placeId": "suhut",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "kocatepe-1922-08-25",
+      "date": {
+        "iso": "1922-08-25",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '25 Ağustos'ta ise Şuhut'tan savaşı yöneteceği Kocatepe'nin güney batısındaki Çadırlı Ordugâha geçti. Daha sonra Kocatepe'ye çıkarak'."
+      },
+      "title": "Kocatepe’ye çıktı",
+      "text": "Şuhut’tan Kocatepe’nin güneybatısındaki Çadırlı Ordugâh’a geçti, ardından Kocatepe’ye çıkarak cepheyi gözden geçirdi.",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Kocatepe için yer kaydı yok; yer bağlanmadı."
+    },
+    {
+      "id": "karargah-afyon-1922-08-29",
+      "date": {
+        "iso": "1922-08-29",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '29 Ağustos 1922 günü Başkomutanlık, Genelkurmay Başkanlığı ve Batı cephesi Karargâhları Afyon'da'; '29/30 Ağustos 1922 gecesi Afyonkarahisar Belediye Dairesinde'."
+      },
+      "title": "Karargâhıyla Afyon’a geçti",
+      "text": "Karargâhlar Afyon’a taşındı; gece Belediye Dairesi’nde orduların durumunu harita üzerinde inceledi ve Fevzi ve İsmet Paşaları çağırttı.",
+      "placeId": "afyon",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri."
+    },
+    {
+      "id": "calkoy-1922-08-31",
+      "date": {
+        "iso": "1922-08-31",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '31 Ağustos sabahı Çalköy'de Mustafa Kemal Paşa, Fevzi ve İsmet Paşalarla buluşarak'."
+      },
+      "title": "Çalköy’de Fevzi ve İsmet Paşalarla buluştu",
+      "text": "Çalköy’de Fevzi ve İsmet Paşalarla buluşup genel durumu gözden geçirdi.",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Çalköy için yer kaydı yok; yer bağlanmadı."
+    },
+    {
+      "id": "esme-baris-teklifi-1922-09-05",
+      "date": {
+        "iso": "1922-09-05",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '5 Eylül'de Eşme'de bulunan Mustafa Kemal Paşa'ya iletildi. Mustafa Kemal Paşa'nın aynı gün hükümete verdiği cevapta'."
+      },
+      "title": "Eşme’de barış teklifine cevap verdi",
+      "text": "İtilaf devletlerinin barış teklifi Eşme’de kendisine ulaştı; aynı gün hükümete cevabında, ateşkesin ancak Trakya için konuşulabileceğini bildirdi.",
+      "placeId": "esme",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Cevaptaki sözler alınmadı."
+    },
+    {
+      "id": "millete-beyanname-1922-09-12",
+      "date": {
+        "iso": "1922-09-12",
+        "precision": "day",
+        "approximate": false,
+        "sources": [
+          "ataturk-ansiklopedisi-4929"
+        ],
+        "$note": "Ansiklopedi: '12 Eylül 1922'de İzmir'den «Millete Beyanname» yayınladı'."
+      },
+      "title": "İzmir’den Millete Beyanname yayımladı",
+      "text": "İzmir’den millete bir beyanname yayımladı.",
+      "placeId": "izmir",
+      "sources": [
+        "ataturk-ansiklopedisi-4929"
+      ],
+      "$note": "Parti 12a (2026-11-15): Atatürk Ansiklopedisi, Millî Mücadele maddeleri. Beyannamedeki sözler alınmadı."
     }
   ]
 }

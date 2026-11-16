@@ -2,18 +2,27 @@
   pointer-events: none;
 }
 
+/* One group per border: the fade (M5) runs on the group, so line and hatching fade together. */
 .border {
+  animation: border-in var(--dur-border) var(--ease-ink) both;
+}
+
+.line {
   fill: none;
   stroke: var(--border-line);
   stroke-width: 1.6;
   stroke-linejoin: round;
   vector-effect: non-scaling-stroke;
-  animation: border-in var(--dur-border) var(--ease-ink) both;
 }
 
 /* Approximate or occupied: diagonal hatching inside the outline (SPEC §3.1, A14). The pattern is
-   defined once in MapCanvas as #hatch. */
-.hatched {
+   defined once in MapCanvas as #hatch; the group carries .hatched, the fill path draws it. */
+.fill {
+  fill: none;
+  stroke: none;
+}
+
+.hatched .fill {
   fill: url(#hatch);
 }
 

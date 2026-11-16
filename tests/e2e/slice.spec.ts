@@ -381,6 +381,27 @@ test('no accessibility violations (axe)', async ({ page }) => {
   expect(withDialog.violations.map((v) => `${v.id}: ${v.help}`)).toEqual([]);
 });
 
+test('place names on a many-stop journey do not overlap (2026-11-16)', async ({ page }) => {
+  // Ankara, Sivas, Malatya, Ergani, Diyarbakır: Malatya and Ergani used to collide at 768.
+  await open(page, '/#adim=yg-1937-11-12-trenle-dogu-gezisine-cikti');
+  const names = page.locator('svg text');
+  await expect(names.filter({ hasText: 'Ergani' })).toHaveCount(1);
+  const boxes = await names.evaluateAll((els) =>
+    els.map((el) => {
+      const b = el.getBoundingClientRect();
+      return { t: el.textContent, x0: b.left, y0: b.top, x1: b.right, y1: b.bottom };
+    }),
+  );
+  for (let i = 0; i < boxes.length; i++) {
+    for (let j = i + 1; j < boxes.length; j++) {
+      const a = boxes[i]!;
+      const b = boxes[j]!;
+      const hit = a.x0 < b.x1 && b.x0 < a.x1 && a.y0 < b.y1 && b.y0 < a.y1;
+      expect(hit, `${a.t} / ${b.t}`).toBe(false);
+    }
+  }
+});
+
 test('period borders follow the step date (SPEC A33, A34)', async ({ page }) => {
   const border = (id: string) => page.locator(`[data-border-id="${id}"]`);
   // 1881: CShapes starts in 1886, so no border is drawn yet.

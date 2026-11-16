@@ -3,14 +3,15 @@
 //   M1  the route is revealed like ink: a mask path whose dash offset runs 1 -> 0 (pathLength="1")
 //   M2  the vehicle follows the revealed part of the route, leg by leg
 // A route that is not documented (routeKind 'yaklasik') is a faint dashed great-circle arc with
-// the label "yaklaşık rota" (A8). Under reduced motion the route is complete and the vehicle
-// stands at the end (SPEC §5.3).
+// the label "yaklaşık rota" (A8), placed where it covers no place name (labels.ts). Under reduced
+// motion the route is complete and the vehicle stands still halfway along the journey (A32).
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'preact/hooks';
 import type { Journey, PlaceName } from '../schema/index.ts';
 import { VEHICLE_LABEL, VEHICLE_PATH } from './vehicles.ts';
 import {
   densify,
   geodesic,
+  halfway,
   placeAlong,
   seaArc,
   toPathData,
@@ -18,6 +19,8 @@ import {
   type XY,
 } from './along.ts';
 import styles from './JourneyLayer.module.css';
+import { placeAlong as spotAlong, type Box, type Spot } from './labels.ts';
+import { textWidth, tokenPx } from './measure.ts';
 
 interface Props {
   journey: Journey;
@@ -31,7 +34,12 @@ interface Props {
   height: number;
   /** Whether a lon/lat point is on land; sea legs are bowed away from it (A31). */
   onLand?: ((point: LonLat) => boolean) | undefined;
+  /** Screen boxes the route label must not cover: place dots, names and document markers. */
+  avoid?: Box[] | undefined;
 }
+
+/** Where along a leg the route label may go, best first. */
+const LABEL_STOPS = [0.5, 0.38, 0.62, 0.25, 0.75];
 
 const MIN_MS = 1500;
 const MAX_MS = 6000;
@@ -49,6 +57,7 @@ export function JourneyLayer({
   width,
   height,
   onLand,
+  avoid = [],
 }: Props) {
   const routes = useRef<(SVGPathElement | null)[]>([]);
   const reveals = useRef<(SVGPathElement | null)[]>([]);
@@ -78,24 +87,53 @@ export function JourneyLayer({
 
   const screen = legs.map(({ points }) => points.map(project).filter((p): p is XY => p !== null));
 
-  // One "yaklaşık rota" label per kind (land, sea), on the longest such leg: a label on every leg
-  // of a many-stop journey piles up into an unreadable stack.
-  const labelled = new Set<number>();
+  // One "yaklaşık rota" label per kind (land, sea): a label on every leg of a many-stop journey
+  // piles up into an unreadable stack. It goes on the longest such leg where it covers nothing,
+  // trying shorter legs of the same kind before accepting an overlap.
+  const labelSpots = new Map<number, Spot>();
+  const taken = [...avoid];
+  const labelSize = width > 0 ? tokenPx('--text-14') : 14;
   for (const sea of [false, true]) {
-    let best = -1;
-    let bestSpan = -1;
-    legs.forEach(({ leg }, i) => {
-      if (leg.routeKind !== 'yaklasik' || (leg.vehicle === 'gemi') !== sea) return;
-      const pts = screen[i] ?? [];
-      const first = pts[0];
-      const last = pts[pts.length - 1];
-      const span = first && last ? Math.hypot(last[0] - first[0], last[1] - first[1]) : 0;
-      if (span > bestSpan) {
-        best = i;
-        bestSpan = span;
-      }
-    });
-    if (best >= 0) labelled.add(best);
+    const kind = legs
+      .map(({ leg }, i) => ({ leg, i, pts: screen[i] ?? [] }))
+      .filter(({ leg }) => leg.routeKind === 'yaklasik' && (leg.vehicle === 'gemi') === sea)
+      .map((l) => {
+        const first = l.pts[0];
+        const last = l.pts[l.pts.length - 1];
+        return {
+          ...l,
+          span: first && last ? Math.hypot(last[0] - first[0], last[1] - first[1]) : 0,
+        };
+      })
+      .sort((x, y) => y.span - x.span);
+    const head = kind[0];
+    if (!head) continue;
+    const text = sea ? 'yaklaşık rota (deniz)' : 'yaklaşık rota';
+    const labelWidth = textWidth(text, '--text-14', true);
+    const bounds = { x0: 0, y0: 0, x1: width, y1: height };
+    let chosen: { i: number; spot: Spot } | undefined;
+    for (const { i, pts } of kind) {
+      const stops = LABEL_STOPS.flatMap((f) => {
+        const pt = pts[Math.round(f * (pts.length - 1))];
+        return pt ? [pt] : [];
+      });
+      const spot = spotAlong(stops, labelWidth, labelSize, taken, bounds);
+      if (!spot) continue;
+      const clear = taken.every(
+        (o) =>
+          spot.box.x1 <= o.x0 || o.x1 <= spot.box.x0 || spot.box.y1 <= o.y0 || o.y1 <= spot.box.y0,
+      );
+      if (!chosen || clear) chosen = { i, spot };
+      if (clear) break;
+    }
+    if (!chosen) {
+      const mid = head.pts[Math.floor(head.pts.length / 2)];
+      if (mid) chosen = { i: head.i, spot: spotAlong([mid], labelWidth, labelSize, [])! };
+    }
+    if (chosen) {
+      labelSpots.set(chosen.i, chosen.spot);
+      taken.push(chosen.spot.box);
+    }
   }
 
   const park = () => {
@@ -113,14 +151,13 @@ export function JourneyLayer({
   useLayoutEffect(park);
 
   useEffect(() => {
-    const last = legs.length - 1;
+    const lengths = routes.current.map((r) => r?.getTotalLength() ?? 0);
+    const sum = lengths.reduce((a, b) => a + b, 0);
     if (reduced) {
-      stand.current = { leg: last, p: 1 };
+      stand.current = halfway(lengths, sum);
       park();
       return;
     }
-    const lengths = routes.current.map((r) => r?.getTotalLength() ?? 0);
-    const sum = lengths.reduce((a, b) => a + b, 0);
     const total = Math.min(MAX_MS, Math.max(MIN_MS, MIN_MS + sum * MS_PER_PX));
     let at = 0;
     const timeline = lengths.map((len) => {
@@ -187,7 +224,7 @@ export function JourneyLayer({
       </defs>
       {legs.map(({ leg }, i) => {
         const points = screen[i] ?? [];
-        const mid = points[Math.floor(points.length / 2)];
+        const label = labelSpots.get(i);
         const approximate = leg.routeKind === 'yaklasik';
         return (
           <g key={i}>
@@ -199,8 +236,8 @@ export function JourneyLayer({
               d={toPathData(points)}
               mask={`url(#reveal-${journey.id}-${i})`}
             />
-            {approximate && labelled.has(i) && mid && (
-              <text class={styles.label} x={mid[0]} y={mid[1] - 18} text-anchor="middle">
+            {approximate && label && (
+              <text class={styles.label} x={label.x} y={label.y} text-anchor={label.anchor}>
                 {leg.vehicle === 'gemi' ? 'yaklaşık rota (deniz)' : 'yaklaşık rota'}
               </text>
             )}

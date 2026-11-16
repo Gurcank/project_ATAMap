@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { seaArc, type LonLat } from '../../src/map/along.ts';
+import { halfway, seaArc, type LonLat } from '../../src/map/along.ts';
 
 // A made-up peninsula between the two ports: a box of land straddling the straight line.
 const peninsula = ([lon, lat]: LonLat) => lon > 31 && lon < 35 && lat > 40.6 && lat < 41.4;
@@ -30,5 +30,17 @@ describe('seaArc (A31)', () => {
     const route = seaArc([29, 41], [36, 41], peninsula);
     expect(route[0]).toEqual([29, 41]);
     expect(route.at(-1)).toEqual([36, 41]);
+  });
+});
+
+describe('halfway (A32, reduced motion)', () => {
+  it('stands in the leg that holds half the total length', () => {
+    // Legs of 100, 300 and 100 px: half of 500 is 250, i.e. 150 px into the second leg.
+    expect(halfway([100, 300, 100], 500)).toEqual({ leg: 1, p: 0.5 });
+  });
+
+  it('copes with a journey of one leg and with zero length', () => {
+    expect(halfway([80], 80)).toEqual({ leg: 0, p: 0.5 });
+    expect(halfway([0, 0, 0], 0)).toEqual({ leg: 1, p: 0.5 });
   });
 });

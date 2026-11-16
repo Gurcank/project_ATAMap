@@ -111,3 +111,15 @@ export function placeAlong(
     `translate(${a.x.toFixed(1)} ${a.y.toFixed(1)}) rotate(${angle.toFixed(1)}) scale(${mirror ? -GLYPH_SCALE : GLYPH_SCALE} ${GLYPH_SCALE})`,
   );
 }
+
+/** The leg and the share of it at half the journey's drawn length (A32, reduced motion). */
+export function halfway(lengths: number[], sum: number): { leg: number; p: number } {
+  if (sum <= 0) return { leg: Math.floor((lengths.length - 1) / 2), p: 0.5 };
+  let left = sum / 2;
+  for (let i = 0; i < lengths.length; i++) {
+    const len = lengths[i] ?? 0;
+    if (left <= len) return { leg: i, p: len > 0 ? left / len : 0 };
+    left -= len;
+  }
+  return { leg: lengths.length - 1, p: 1 };
+}

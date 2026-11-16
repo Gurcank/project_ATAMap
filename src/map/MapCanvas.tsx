@@ -21,6 +21,8 @@ import { DETAIL_ZOOM, fallbackBase, fetchBase, type Base } from './baseData.ts';
 import { BorderLayer } from './BorderLayer.tsx';
 import { DocumentMarker } from './DocumentMarker.tsx';
 import { JourneyLayer } from './JourneyLayer.tsx';
+import { dotBox, placeLabels, type Box } from './labels.ts';
+import { clearTextCache, textWidth, tokenPx } from './measure.ts';
 import { TransmissionLayer } from './TransmissionLayer.tsx';
 import styles from './MapCanvas.module.css';
 import { createProjection } from './projection.ts';
@@ -41,6 +43,8 @@ const MAX_ZOOM = 14;
 const COMPACT_WIDTH = 768;
 const MARKER_SPACING = 48;
 const MARKER_LIFT = 38;
+/** Half the 44 px hit target of a document marker: names keep off it. */
+const MARKER_HALF = 22;
 /** Thinner than this, the measured band is not trusted and the fixed ratios are used. */
 const MIN_BAND = 120;
 
@@ -73,6 +77,14 @@ export function MapCanvas() {
   const [size, setSize] = useState<Size>({ w: 0, h: 0 });
   const [transform, setTransform] = useState(zoomIdentity);
   const [base, setBase] = useState<Base>(fallbackBase);
+  // Bumped once the web fonts are in: label widths were measured with the narrower fallback.
+  const [, setFontsReady] = useState(0);
+  useEffect(() => {
+    void document.fonts?.ready.then(() => {
+      clearTextCache();
+      setFontsReady((n) => n + 1);
+    });
+  }, []);
   const camera = useRef(0);
   // True while the map is being panned, zoomed or flown: the water lines are skipped then, since
   // five wide strokes of the whole coast cost too much per frame (T6: 59 -> 27 fps at 375 px).
@@ -274,6 +286,46 @@ export function MapCanvas() {
   docs.forEach((d) =>
     markerGroups.set(d.fromPlaceId, [...(markerGroups.get(d.fromPlaceId) ?? []), d]),
   );
+  const markers = [...markerGroups].flatMap(([placeId, group]) => {
+    const at = dotAt(placeId);
+    if (!at) return [];
+    return group.map((doc, i) => ({
+      doc,
+      x: at[0] + (i - (group.length - 1) / 2) * MARKER_SPACING,
+      y: at[1] - MARKER_LIFT,
+    }));
+  });
+
+  // Names go around their dots without covering each other, the markers or the screen edge; the
+  // step's own place is placed first (it is first in `labelled`).
+  const labelSize = size.w > 0 ? tokenPx('--text-16') : 16;
+  const markerBoxes: Box[] = markers.map(({ x, y }) => ({
+    x0: x - MARKER_HALF,
+    y0: y - MARKER_HALF,
+    x1: x + MARKER_HALF,
+    y1: y + MARKER_HALF,
+  }));
+  const dots = labelled.flatMap((p) => {
+    const at = dotAt(p.id);
+    return at ? [{ place: p, x: at[0], y: at[1] }] : [];
+  });
+  const spots = placeLabels(
+    dots.map(({ place: p, x, y }) => ({
+      id: p.id,
+      x,
+      y,
+      width: textWidth(p.names[0]?.name ?? '', '--text-16'),
+      size: labelSize,
+    })),
+    markerBoxes,
+    { x0: 0, y0: 0, x1: size.w, y1: size.h },
+  );
+  // The route label keeps off every dot, name and marker drawn here.
+  const routeAvoid: Box[] = [
+    ...markerBoxes,
+    ...dots.map(({ x, y }) => dotBox(x, y)),
+    ...[...spots.values()].map((s) => s.box),
+  ];
 
   return (
     <div class={styles.wrap} ref={wrap}>
@@ -327,6 +379,7 @@ export function MapCanvas() {
                 width={size.w}
                 height={size.h}
                 onLand={onLand}
+                avoid={routeAvoid}
               />
             )}
             <TransmissionLayer
@@ -336,30 +389,28 @@ export function MapCanvas() {
               stepKey={event?.id ?? ''}
               reduced={reduced}
             />
-            {labelled.map((p) => {
-              const at = dotAt(p.id);
-              return at ? (
-                <g key={p.id} transform={`translate(${at[0]} ${at[1]})`}>
-                  <circle class={styles.dot} r="4" />
-                  <text class={styles.label} x="10" y="5">
-                    {p.names[0]?.name}
-                  </text>
+            {dots.map(({ place: p, x, y }) => {
+              const spot = spots.get(p.id);
+              return (
+                <g key={p.id}>
+                  <circle class={styles.dot} cx={x} cy={y} r="4" />
+                  {spot && (
+                    <text class={styles.label} x={spot.x} y={spot.y} text-anchor={spot.anchor}>
+                      {p.names[0]?.name}
+                    </text>
+                  )}
                 </g>
-              ) : null;
+              );
             })}
-            {[...markerGroups].flatMap(([placeId, group]) => {
-              const at = dotAt(placeId);
-              if (!at) return [];
-              return group.map((doc, i) => (
-                <DocumentMarker
-                  key={doc.id}
-                  doc={doc}
-                  x={at[0] + (i - (group.length - 1) / 2) * MARKER_SPACING}
-                  y={at[1] - MARKER_LIFT}
-                  active={openDocumentId.value === doc.id}
-                />
-              ));
-            })}
+            {markers.map(({ doc, x, y }) => (
+              <DocumentMarker
+                key={doc.id}
+                doc={doc}
+                x={x}
+                y={y}
+                active={openDocumentId.value === doc.id}
+              />
+            ))}
           </g>
         )}
       </svg>

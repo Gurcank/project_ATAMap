@@ -28,6 +28,16 @@ export function rewindForD3(fc: Collection): void {
   }
 }
 
+/** The polygons of a collection as ring lists (Polygon and MultiPolygon features). */
+export function polygonsOf(fc: Collection): [number, number][][][] {
+  return fc.features.flatMap((f) => {
+    if (f.geometry?.type === 'Polygon') return [f.geometry.coordinates as [number, number][][]];
+    if (f.geometry?.type === 'MultiPolygon')
+      return f.geometry.coordinates as [number, number][][][];
+    return [];
+  });
+}
+
 /** Accepts a Feature, FeatureCollection or bare Polygon/MultiPolygon; returns a collection. */
 export function asCollection(value: unknown): Collection {
   const v = value as { type?: string; features?: FeatureLike[]; geometry?: Geometry };

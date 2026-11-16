@@ -21,6 +21,7 @@
 | 2026-11-14 | §9.2 A24-A26 | Durum kartuşu yerleşimi, doğum tarihi 19 Mayıs 1881, eşzamanlı görevler | Kullanıcı kararları (2026-11-14) |
 | 2026-11-14 | §9.2 A28, K3 | Rütbe adları resmî kaynağın (MSB) bugünkü adlarıyla yazılır (Teğmen, Yarbay, Albay, Tümgeneral…); K3'teki "dönem adıyla" ifadesi rütbeler için bu kararla değişti | Kullanıcı kararı (2026-11-14), K5 yeniden taramasının 3. partisi |
 | 2026-11-15 | §3.5, §3.6, §4, §4.3, §5.2, §9.2 A29-A32 | Yerleşim değişti (durum sol üstte, belge sağda açılan panelde); Nutuk telgrafları künye kartı; deniz rotası kavisli; araç animasyonu. Uygulama sırası: Yurt Gezileri seyahatleri, araç animasyonu, CShapes sınırları, Nutuk telgrafları, yerleşim, kalan resmî kaynaklar | Kullanıcı kararları (2026-11-15), [kapsam raporu](docs/kapsam-raporu-2026-11-15.md) |
+| 2026-11-16 | §3.2, §5.3 | Harita etiketleri noktanın çevresinde boş yere yerleşir, "yaklaşık rota" etiketi yer adlarını örtmez; dönem sınırı yalnız kara sınırlarında çizilir (CShapes kıyısı altlığın kıyısıyla çift çizgi oluşturuyordu); §5.3'teki araç konumu A32 ile uyumlu hâle getirildi | Kullanıcının harita sorunları onayı (2026-11-16) |
 | 2026-11-15 | §3.5, §3.6, §4, §4.1, §4.3, §5.2 M7, §9.2 A29 | A29 uygulandı: sol üstte tek sütun (durum, künye, atıf); belge sağ kenarda, 768'den itibaren modal olmayan okuma paneli; 375 biçimi; 375'te kamera adımı sol üst sütunla alt şerit arasındaki banda yerleştirir | Kullanıcı kararı A29 ve 375 önerisinin onayı (2026-11-15) |
 | 2026-11-15 | §9.2 A33, §5.2 M5 | Dönem sınırları CShapes 2.0 ile bağlandı; kurallar A33'te | Kullanıcı kararları (2026-11-15) |
 | 2026-11-14 | §2.2, §6, §9.2 A19, A27 | Resmî ve güvenilir devlet kaynağı tek başına yeter; hakları saklı resmî yayınlardan yalnız olgu alınır (`official`, `rights: 'hakki-sakli-olgu'`); kural 2, 5 ve 11 güncellendi; ipucu listesinden devlet siteleri çıktı | Kullanıcı kararı K5 (2026-11-14): bütün devlet kurumları, geriye dönük uygulanır |
@@ -237,7 +238,7 @@ Açık (A1): mod değişince konumun nasıl korunacağı, okuma süresi formül�
 | M8 | Kamera | Her adım | Harita yeni olayın konumuna yumuşak geçer; seyahatte rotanın tamamını sığdırır | 0,8-1,5 s |
 
 ### 5.3 Hareket azaltma (`prefers-reduced-motion: reduce`)
-M1-M4 son hâlleriyle anında gösterilir (rota tam çizili, araç varış noktasında). M5-M7 yalnız saydamlık geçişi (≤ 150 ms). M8 animasyonsuz atlama. Otomatik mod çalışır, ama geçişler anlıktır.
+M1-M4 son hâlleriyle anında gösterilir (rota tam çizili; araç, A32 gereği yolculuğun ortasında sabit *(2026-11-16; önceki: "varış noktasında")*). M5-M7 yalnız saydamlık geçişi (≤ 150 ms). M8 animasyonsuz atlama. Otomatik mod çalışır, ama geçişler anlıktır.
 
 ---
 

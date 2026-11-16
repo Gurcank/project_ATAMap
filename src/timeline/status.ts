@@ -63,17 +63,35 @@ export function activeTenures(
   return { rank, duties };
 }
 
-/** The period name in force on the date; null when none, or more than one, surely applies. */
+/**
+ * The period name in force on the date; null when none, or more than one, surely applies.
+ * A name without validFrom/validTo is the place's undated name (no sourced period name): it is used
+ * only where no dated name could apply (2026-11-16, Elazığ: "Elâziz" only for the November 1937
+ * trip, the undated "Elazığ" elsewhere).
+ */
 export function placeNameAt(place: PlaceName, date: DateValue): string | null {
   const step = daySpan(date);
-  const valid = place.names.filter((n) =>
-    surelyWithin(step, {
+  const dated = place.names.filter((n) => n.validFrom || n.validTo);
+  const undated = place.names.filter((n) => !n.validFrom && !n.validTo);
+  const bounds = (n: PlaceName['names'][number]) => ({
+    // Surely: from the latest possible start to the earliest possible end.
+    sure: {
       from: n.validFrom ? daySpan(n.validFrom).to : '',
       to: n.validTo ? daySpan(n.validTo).from : null,
       toExclusive: false,
-    }),
-  );
-  return valid.length === 1 ? valid[0]!.name : null;
+    },
+    // Possibly: from the earliest possible start to the latest possible end.
+    from: n.validFrom ? daySpan(n.validFrom).from : '',
+    to: n.validTo ? daySpan(n.validTo).to : null,
+  });
+  const sure = dated.filter((n) => surelyWithin(step, bounds(n).sure));
+  if (sure.length > 0) return sure.length === 1 ? sure[0]!.name : null;
+  const maybe = dated.some((n) => {
+    const { from, to } = bounds(n);
+    return step.to >= from && (to === null || step.from <= to);
+  });
+  if (maybe) return null;
+  return undated.length === 1 ? undated[0]!.name : null;
 }
 
 export function statusAt(

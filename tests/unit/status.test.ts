@@ -123,6 +123,36 @@ describe('placeNameAt', () => {
   });
 });
 
+describe('placeNameAt with an undated name', () => {
+  // KURGU: the undated name stands where no period name is sourced; a dated name covers one span.
+  const place: PlaceName = {
+    id: 'kurgu-sehir-2',
+    point: { lon: 30, lat: 40, sources: ['k1', 'k2'] },
+    names: [
+      { name: 'KURGU Bugünkü Ad', sources: ['k1'] },
+      {
+        name: 'KURGU Dönem Adı',
+        validFrom: d('1937-11-16'),
+        validTo: d('1937-12-10'),
+        sources: ['k1'],
+      },
+    ],
+  };
+
+  it('uses the dated name inside its span', () => {
+    expect(placeNameAt(place, d('1937-11-17'))).toBe('KURGU Dönem Adı');
+  });
+
+  it('falls back to the undated name outside it', () => {
+    expect(placeNameAt(place, d('1919-09-08'))).toBe('KURGU Bugünkü Ad');
+    expect(placeNameAt(place, d('1938-01-01'))).toBe('KURGU Bugünkü Ad');
+  });
+
+  it('gives no name when the date may or may not fall inside the span', () => {
+    expect(placeNameAt(place, d('1937-11', 'month'))).toBeNull();
+  });
+});
+
 describe('statusAt', () => {
   it('leaves out every field it has no data for', () => {
     const status = statusAt({ tenures: [], place: null }, d('1900-01-01'));

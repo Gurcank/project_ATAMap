@@ -27,6 +27,7 @@ import { TransmissionLayer } from './TransmissionLayer.tsx';
 import styles from './MapCanvas.module.css';
 import { createProjection } from './projection.ts';
 import { regionOutline } from './region.ts';
+import { placeNameAt } from '../timeline/status.ts';
 
 /**
  * Land test for bowing sea routes (A31). The embedded 110m drawing is used on purpose: it is always
@@ -305,6 +306,9 @@ export function MapCanvas() {
     x1: x + MARKER_HALF,
     y1: y + MARKER_HALF,
   }));
+  // The name in force on the step's date (Elâziz in November 1937), else the place's first name.
+  const nameOf = (p: (typeof labelled)[number]) =>
+    (event ? placeNameAt(p, event.date) : null) ?? p.names[0]?.name ?? '';
   const dots = labelled.flatMap((p) => {
     const at = dotAt(p.id);
     return at ? [{ place: p, x: at[0], y: at[1] }] : [];
@@ -314,7 +318,7 @@ export function MapCanvas() {
       id: p.id,
       x,
       y,
-      width: textWidth(p.names[0]?.name ?? '', '--text-16'),
+      width: textWidth(nameOf(p), '--text-16'),
       size: labelSize,
     })),
     markerBoxes,
@@ -396,7 +400,7 @@ export function MapCanvas() {
                   <circle class={styles.dot} cx={x} cy={y} r="4" />
                   {spot && (
                     <text class={styles.label} x={spot.x} y={spot.y} text-anchor={spot.anchor}>
-                      {p.names[0]?.name}
+                      {nameOf(p)}
                     </text>
                   )}
                 </g>
@@ -416,7 +420,7 @@ export function MapCanvas() {
       </svg>
       {/* The step's place and documents in words, for screen readers (the map is a picture). */}
       <p class="visually-hidden" aria-live="polite">
-        {event && place ? `${place.names[0]?.name}: ${event.title}` : ''}
+        {event && place ? `${nameOf(place)}: ${event.title}` : ''}
       </p>
     </div>
   );

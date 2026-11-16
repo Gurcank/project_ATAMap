@@ -2251,7 +2251,48 @@
           "sources": [
             "msb-yurt-gezileri-1924-1938"
           ],
-          "$note": "MSB «Yurt Gezileri» (resmî): 'Elazığ'."
+          "$note": "MSB «Yurt Gezileri» (resmî): 'Elazığ'. Tarihsiz ad: dönem adı kaynaklı olmayan tarihlerde gösterilir (1919 dahil; kullanıcı kararı 2026-11-16, 'şimdilik Elazığ kalsın')."
+        },
+        {
+          "name": "Elâziz",
+          "validFrom": {
+            "iso": "1937-11-16",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "msb-yurt-gezileri-1924-1938"
+            ],
+            "$note": "Başlangıç kaynaklı DEĞİL: Elâziz adının ne zaman başladığı bilinmiyor. Kullanıcı kararı (2026-11-16): ad yalnız kararnameden önceki Kasım 1937 gezisinde gösterilir; tarih, MSB «Yurt Gezileri»ne göre o gezinin ilk günü (16 Kasım 1937, Diyarbakır'dan Elâziz'e)."
+          },
+          "validTo": {
+            "iso": "1937-12-10",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "resmi-gazete-3785"
+            ],
+            "$note": "Resmî Gazete 3785: 10/12/1937 tarihli 7806 sayılı kararname."
+          },
+          "sources": [
+            "resmi-gazete-3785"
+          ],
+          "$note": "Elazığ dönem adı (2026-11-16). Kararname, beldenin değişiklikten önceki adını 'Elâziz' olarak yazıyor."
+        },
+        {
+          "name": "Elazığ",
+          "validFrom": {
+            "iso": "1937-12-10",
+            "precision": "day",
+            "approximate": false,
+            "sources": [
+              "resmi-gazete-3785"
+            ],
+            "$note": "Resmî Gazete 3785: 10/12/1937 tarihli 7806 sayılı kararname."
+          },
+          "sources": [
+            "resmi-gazete-3785"
+          ],
+          "$note": "Elazığ dönem adı (2026-11-16). Kararnameyle verilen ad."
         }
       ]
     },

@@ -10598,13 +10598,14 @@
         ],
         "$note": "MSB «Yurt Gezileri»: 1937-11-16."
       },
-      "title": "Trenle Elazığ'a gitti",
-      "text": "Saat 18.45'te Diyarbakır'dan trenle Elazığ'a hareket etti, gece Elazığ'a geldi.",
+      "title": "Trenle Elâziz'e gitti",
+      "text": "Saat 18.45'te Diyarbakır'dan trenle Elâziz'e hareket etti, gece Elâziz'e geldi.",
       "placeId": "diyarbakir",
       "sources": [
-        "msb-yurt-gezileri-1924-1938"
+        "msb-yurt-gezileri-1924-1938",
+        "resmi-gazete-3785"
       ],
-      "$note": "Yurt gezileri, 1924-1938.",
+      "$note": "Yurt gezileri, 1924-1938. Ad: o günlerde beldenin adı 'Elâziz' (Resmî Gazete 3785, 10/12/1937 kararnamesinden önce); MSB metni bugünkü adı yazıyor. Kullanıcı kararı (2026-11-16).",
       "journeyId": "yg-1937-11-16-trenle-elazig-a-gitti-seyahat"
     },
     {
@@ -10618,13 +10619,14 @@
         ],
         "$note": "MSB «Yurt Gezileri»: 1937-11-17."
       },
-      "title": "Pertek'e gidip Elazığ'a döndü",
-      "text": "Tunceli'nin Pertek kazasına geçti, saat 19.00'da Elazığ'a döndü.",
+      "title": "Pertek'e gidip Elâziz'e döndü",
+      "text": "Tunceli'nin Pertek kazasına geçti, saat 19.00'da Elâziz'e döndü.",
       "placeId": "pertek",
       "sources": [
-        "msb-yurt-gezileri-1924-1938"
+        "msb-yurt-gezileri-1924-1938",
+        "resmi-gazete-3785"
       ],
-      "$note": "Yurt gezileri, 1924-1938."
+      "$note": "Yurt gezileri, 1924-1938. Ad: o günlerde beldenin adı 'Elâziz' (Resmî Gazete 3785, 10/12/1937 kararnamesinden önce); MSB metni bugünkü adı yazıyor. Kullanıcı kararı (2026-11-16)."
     },
     {
       "id": "yg-1937-11-18-trenle-narli-uzerinden-adana-ya-gitti",
@@ -10638,12 +10640,13 @@
         "$note": "MSB «Yurt Gezileri»: 1937-11-18."
       },
       "title": "Trenle Narlı üzerinden Adana'ya gitti",
-      "text": "Elazığ'dan ayrıldı, Narlı İstasyonu'nda trenden inip halkla sohbet etti; Adana'ya hareket etti, ertesi sabah Adana'ya geldi.",
+      "text": "Elâziz'den ayrıldı, Narlı İstasyonu'nda trenden inip halkla sohbet etti; Adana'ya hareket etti, ertesi sabah Adana'ya geldi.",
       "placeId": "elazig",
       "sources": [
-        "msb-yurt-gezileri-1924-1938"
+        "msb-yurt-gezileri-1924-1938",
+        "resmi-gazete-3785"
       ],
-      "$note": "Yurt gezileri, 1924-1938.",
+      "$note": "Yurt gezileri, 1924-1938. Ad: o günlerde beldenin adı 'Elâziz' (Resmî Gazete 3785, 10/12/1937 kararnamesinden önce); MSB metni bugünkü adı yazıyor. Kullanıcı kararı (2026-11-16).",
       "journeyId": "yg-1937-11-18-trenle-narli-uzerinden-adana-ya-gitti-seyahat"
     },
     {

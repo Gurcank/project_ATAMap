@@ -1,6 +1,6 @@
 # Elazığ'ın dönem adı
 
-> Durum: **onay bekliyor.** Yeni kaynak `resmi-gazete-3785` `verified: false`. Onaya kadar Elazığ yer kaydı ve ona bağlı 6 kayıt derlemeye girmiyor (kural 1).
+> Durum: **onaylandı (2026-11-16).** Kasım 1937 olay metinleri de 'Elâziz' oldu.
 > Araştırma tarihi: 2026-11-16.
 
 ## Bulgu
@@ -36,5 +36,5 @@
 
 ## Açık
 
-- **Kasım 1937 olay metinleri:** MSB'nin yazımıyla "Elazığ" diyor ("Trenle Elazığ'a gitti", "Elazığ'dan ayrıldı"). Harita ve durum kartuşu "Elâziz" gösterirken metinler bugünkü adı kullanıyor.
+- ~~Kasım 1937 olay metinleri~~ **Yapıldı (kullanıcı kararı, 2026-11-16):** üç olayın başlık ve metninde ad "Elâziz" oldu; kaynaklarına Resmî Gazete 3785 eklendi.
 - **Elâziz'in başladığı tarih:** Kaynak bulunursa geçerlilik geriye uzatılabilir.

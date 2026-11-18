@@ -21,6 +21,8 @@ interface Props {
 const TABLE_REACH = 3;
 const WOOD_TILE = 384;
 const PAPER_TILE = 1024;
+/** Spread of each shadow layer, in roll radii: wider layers are fainter (opacity in CSS). */
+const SHADOW_STEPS = [1.6, 1, 0.5];
 
 export function SheetDefs({ sheet, k }: Props) {
   return (
@@ -47,10 +49,6 @@ export function SheetDefs({ sheet, k }: Props) {
       <clipPath id="frame-clip">
         <path d={sheet.frame} />
       </clipPath>
-      {/* Soft shadow of the sheet on the wood; computed once per drawn frame, not per pan frame. */}
-      <filter id="sheet-shadow" x="-10%" y="-10%" width="120%" height="130%">
-        <feGaussianBlur stdDeviation={sheet.roll * 0.6} />
-      </filter>
       <radialGradient id="lamp" cx="50%" cy="22%" r="65%">
         <stop offset="0" class={styles.lampCore} />
         <stop offset="1" class={styles.lampEdge} />
@@ -98,14 +96,19 @@ export function SheetUnder({ sheet }: Props) {
         width={w + 2 * reach}
         height={h + 2 * reach}
       />
-      <rect
-        class={styles.shadow}
-        x={paper.x0 - roll}
-        y={paper.y0 + roll * 0.6}
-        width={w + 2 * roll}
-        height={h + roll * 0.6}
-        filter="url(#sheet-shadow)"
-      />
+      {/* Soft shadow of the sheet on the wood, as a few faint stacked rounded rects. A blur filter
+          looked the same but cost a third of a second per redraw at close zoom (2026-11-18). */}
+      {SHADOW_STEPS.map((f) => (
+        <rect
+          key={f}
+          class={styles.shadow}
+          x={paper.x0 - roll * f}
+          y={paper.y0 + roll * (0.6 - f * 0.4)}
+          width={w + 2 * roll * f}
+          height={h + roll * (0.6 + f * 0.8)}
+          rx={roll * f}
+        />
+      ))}
       <rect class={styles.paper} x={paper.x0} y={paper.y0} width={w} height={h} />
     </g>
   );

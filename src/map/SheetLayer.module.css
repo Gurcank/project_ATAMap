@@ -11,9 +11,10 @@
   fill: url(#wood);
 }
 
+/* Three stacked layers; each is faint, together they darken towards the sheet's edge. */
 .shadow {
   fill: var(--paper-shadow);
-  opacity: 0.55;
+  opacity: 0.18;
 }
 
 .paper {

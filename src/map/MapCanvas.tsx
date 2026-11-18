@@ -10,7 +10,7 @@ import { geoContains, geoPath } from 'd3-geo';
 import { interpolateZoom } from 'd3-interpolate';
 import { select } from 'd3-selection';
 import { zoom as d3zoom, zoomIdentity, zoomTransform, type ZoomBehavior } from 'd3-zoom';
-import { useEffect, useMemo, useRef, useState } from 'preact/hooks';
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'preact/hooks';
 import { cameraDuration, reducedMotion } from '../motion/motionPolicy.ts';
 import {
   activeBorders,
@@ -58,6 +58,12 @@ const MAX_DRIFT_OUT = 1.2;
 /** The base layer is drawn this share of the screen past each edge, so panning and a moderate
  *  zoom-out show drawn map at once instead of blank edges until the redraw (2026-11-18). */
 const OVERSCAN = 0.3;
+/** The coast is cut to the drawn area plus this share of it on each side; it is rebuilt only when
+ *  the camera leaves that box or the zoom changes by more than CLIP_ZOOM_RANGE. */
+const CLIP_MARGIN = 0.5;
+const CLIP_ZOOM_RANGE = 1.5;
+
+type ClipBox = [number, number, number, number];
 /** Below this width the cartouches form one strip over the lower half (SPEC §4.3). */
 const COMPACT_WIDTH = 768;
 const MARKER_SPACING = 48;
@@ -148,12 +154,46 @@ export function MapCanvas() {
     () => (size.w > 0 ? createProjection(size.w, size.h) : null),
     [size.w, size.h],
   );
+  // The coast is cut to what the camera can show (2026-11-18). Drawing the whole coastline cost a
+  // redraw up to a second at close zoom (the water lines are four wide strokes of every point,
+  // ~100k with the 10m data); only the part in view is drawn now. Clip edges fall outside the
+  // drawn layer, so they never show.
+  const pad = { x: Math.round(size.w * OVERSCAN), y: Math.round(size.h * OVERSCAN) };
+  const clipCache = useRef<{ box: ClipBox; k: number } | null>(null);
+  const clipBox = useMemo((): ClipBox => {
+    const x0 = (-pad.x - committed.x) / committed.k;
+    const y0 = (-pad.y - committed.y) / committed.k;
+    const x1 = (size.w + pad.x - committed.x) / committed.k;
+    const y1 = (size.h + pad.y - committed.y) / committed.k;
+    const prev = clipCache.current;
+    const ratio = prev ? committed.k / prev.k : 0;
+    if (
+      prev &&
+      ratio < CLIP_ZOOM_RANGE &&
+      ratio > 1 / CLIP_ZOOM_RANGE &&
+      x0 >= prev.box[0] &&
+      y0 >= prev.box[1] &&
+      x1 <= prev.box[2] &&
+      y1 <= prev.box[3]
+    ) {
+      return prev.box;
+    }
+    const mx = (x1 - x0) * CLIP_MARGIN;
+    const my = (y1 - y0) * CLIP_MARGIN;
+    const box: ClipBox = [x0 - mx, y0 - my, x1 + mx, y1 + my];
+    clipCache.current = { box, k: committed.k };
+    return box;
+  }, [committed, size.w, size.h, pad.x, pad.y]);
   const paths = useMemo(() => {
-    if (!projection) return null;
-    const path = geoPath(projection);
+    if (size.w === 0) return null;
+    const clipped = createProjection(size.w, size.h).clipExtent([
+      [clipBox[0], clipBox[1]],
+      [clipBox[2], clipBox[3]],
+    ]);
+    const path = geoPath(clipped);
     const d = (fc: Base['land']) => fc.features.map((f) => path(f) ?? '').join('');
     return { land: d(base.land), lakes: d(base.lakes) };
-  }, [projection, base]);
+  }, [size.w, size.h, base, clipBox]);
   const sheet = useMemo(() => (projection ? buildSheet(projection) : null), [projection]);
   const minZoom = sheet
     ? Math.min(
@@ -206,8 +246,9 @@ export function MapCanvas() {
   // While moving, the base layer is only moved and scaled from where it was drawn. The layer is
   // drawn `pad` px wider on each side (overscan) and shifted back by it: a map point drawn at
   // pad + c(p) in the layer must land on t(p) on screen.
-  const pad = { x: Math.round(size.w * OVERSCAN), y: Math.round(size.h * OVERSCAN) };
-  useEffect(() => {
+  // A layout effect, so the base layer moves in the same frame as the overlay's names and routes;
+  // a plain effect ran a frame late and the two slid against each other while panning.
+  useLayoutEffect(() => {
     const node = baseSvg.current;
     if (!node) return;
     const scale = transform.k / committed.k;

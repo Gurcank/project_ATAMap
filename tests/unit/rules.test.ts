@@ -1,4 +1,4 @@
-// SPEC §6 build rules 1-11: each has a rejected example in tests/fixtures (ARCHITECTURE §6.1).
+// SPEC §6 build rules 1-12: each has a rejected example in tests/fixtures (ARCHITECTURE §6.1).
 import { describe, expect, it } from 'vitest';
 import { applyRules } from '../../scripts/lib/rules.ts';
 import { DateValue, DocumentRecord, EventRecord, SourceRecord } from '../../src/schema/index.ts';
@@ -12,6 +12,25 @@ describe('applyRules', () => {
     expect(kept.documents).toHaveLength(2);
     expect(kept.tenures).toHaveLength(3);
     expect(kept.person).not.toBeNull();
+    expect(kept.glossary).toHaveLength(1);
+  });
+
+  it('accepts one official source for a glossary meaning (rule 12, K5)', () => {
+    const ds = validDataset();
+    ds.sources.push({
+      id: 'k-sozluk',
+      institution: 'KURGU Kurumu',
+      citation: 'KURGU sözlük',
+      accessedAt: '2026-01-01',
+      rights: 'hakki-sakli-olgu',
+      official: true,
+      free: true,
+      verified: true,
+    });
+    ds.glossary![0]!.sources = ['k-sozluk'];
+    const { violations, kept } = applyRules(ds);
+    expect(violations).toEqual([]);
+    expect(kept.glossary).toHaveLength(1);
   });
 
   it.each(rejectedCases)('$name', ({ rule, fatal, id, mutate }) => {

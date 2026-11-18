@@ -123,6 +123,16 @@ export function validDataset(): Dataset {
         sources: ['k1', 'k2'],
       },
     ],
+    // Rule 12: two independent sources for a meaning; the wording is approved (verified).
+    glossary: [
+      {
+        id: 'kurgu-terim',
+        terms: ['kurgulak'],
+        meaning: 'KURGU açıklama.',
+        sources: ['k1', 'k2'],
+        verified: true,
+      },
+    ],
     // Wikipedia plus one non-Wikipedia source: the most rule 10 allows.
     person: {
       birth: { iso: '1880-05-19', precision: 'day', approximate: false, sources: ['k2', 'k4'] },
@@ -139,7 +149,7 @@ export function validDataset(): Dataset {
 export interface RejectedCase {
   name: string;
   /** SPEC §6 rule number, or 'bütünlük'. */
-  rule: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 'bütünlük';
+  rule: 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 'bütünlük';
   /** Rules 1-2 drop the record; the rest fail the build. */
   fatal: boolean;
   /** Id the violation must name. */
@@ -362,6 +372,33 @@ export const rejectedCases: RejectedCase[] = [
     id: 'source:k2',
     mutate: (ds) => {
       ds.sources.find((s) => s.id === 'k2')!.url = 'https://www.isteataturk.com/kurgu';
+    },
+  },
+  {
+    name: 'kural 12: sözlük anlamı tek, resmî olmayan kaynağa dayanıyor',
+    rule: 5,
+    fatal: true,
+    id: 'glossary:kurgu-terim',
+    mutate: (ds) => {
+      ds.glossary![0]!.sources = ['k1'];
+    },
+  },
+  {
+    name: 'kural 12: aynı terim iki sözlük kaydında',
+    rule: 12,
+    fatal: true,
+    id: 'glossary:kurgu-terim-2',
+    mutate: (ds) => {
+      ds.glossary!.push({ ...ds.glossary![0]!, id: 'kurgu-terim-2', terms: ['Kurgulak'] });
+    },
+  },
+  {
+    name: 'kural 12: kullanıcı onayı beklenen açıklama siteye girmez',
+    rule: 1,
+    fatal: false,
+    id: 'glossary:kurgu-terim',
+    mutate: (ds) => {
+      ds.glossary![0]!.verified = false;
     },
   },
   {

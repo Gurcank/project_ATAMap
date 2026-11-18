@@ -1,7 +1,8 @@
-// SPEC §6 build rules 1-11 and referential integrity (ARCHITECTURE ADR-07, ADR-15).
+// SPEC §6 build rules 1-12 and referential integrity (ARCHITECTURE ADR-07, ADR-15).
 // Pure: no file access, so tests/unit/rules.test.ts can feed it fixtures.
 //   Rules 1-2 drop the record and report it (not fatal).
-//   Rules 3-11 and broken references are fatal: the build must exit non-zero.
+//   Rules 3-12 and broken references are fatal: the build must exit non-zero, except that a
+//   glossary entry the user has not approved yet (verified: false) is dropped like rule 1.
 import { createHash } from 'node:crypto';
 import type {
   BorderChange,
@@ -9,6 +10,7 @@ import type {
   DocumentRecord,
   EventRecord,
   GeoPoint,
+  GlossaryEntry,
   Journey,
   Person,
   PlaceName,
@@ -33,12 +35,14 @@ export interface Dataset {
   borders: BorderChange[];
   places: PlaceName[];
   tenures: Tenure[];
+  /** data/glossary.json (2026-11-17); empty when the file is absent. */
+  glossary?: GlossaryEntry[];
   /** data/person.json; null when the file is absent. */
   person: Person | null;
   reference: Map<string, ReferenceEntry>;
 }
 
-export type RuleId = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 'bütünlük' | 'uyarı';
+export type RuleId = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 'bütünlük' | 'uyarı';
 
 export interface Violation {
   rule: RuleId;
@@ -53,7 +57,8 @@ export interface RuleResult {
   violations: Violation[];
 }
 
-type Kind = 'event' | 'document' | 'journey' | 'border' | 'place' | 'tenure' | 'person';
+type Kind =
+  'event' | 'document' | 'journey' | 'border' | 'place' | 'tenure' | 'person' | 'glossary';
 
 /** Sites that are hints only and never a source (SPEC §2.2, rule 11; terms in SOURCES §2.7). */
 // State sites (ata.msb.gov.tr, atam.gov.tr, ataturkansiklopedisi.gov.tr) left this list on
@@ -140,6 +145,9 @@ function sourceIdsOf(kind: Kind, rec: unknown): string[] {
     }
     case 'person':
       date((rec as Person).birth);
+      break;
+    case 'glossary':
+      add((rec as GlossaryEntry).sources);
       break;
   }
   return [...ids];
@@ -314,6 +322,26 @@ export function applyRules(ds: Dataset): RuleResult {
 
   if (ds.person) checkDate('person:birth', 'birth', ds.person.birth);
 
+  // Rule 12 (2026-11-17): a glossary meaning rests on one official source or two independent
+  // ones (same test as rule 5), and a word belongs to one entry only.
+  const glossary = ds.glossary ?? [];
+  duplicateCheck(
+    'glossary',
+    glossary.map((g) => g.id),
+  );
+  const termOwner = new Map<string, string>();
+  for (const g of glossary) {
+    checkSources(`glossary:${g.id}`, 'sources', g.sources, 2);
+    for (const term of g.terms) {
+      const key = term.toLocaleLowerCase('tr');
+      const owner = termOwner.get(key);
+      if (owner && owner !== g.id) {
+        fail(12, `glossary:${g.id}`, `"${term}" terimi "${owner}" kaydında da var`);
+      }
+      termOwner.set(key, g.id);
+    }
+  }
+
   // Rule 9: tenure intervals.
   for (const t of ds.tenures) {
     const id = `tenure:${t.id}`;
@@ -415,6 +443,7 @@ export function applyRules(ds: Dataset): RuleResult {
   ds.places.forEach((p) => checkRefs('place', 'place', p));
   ds.tenures.forEach((t) => checkRefs('tenure', 'tenure', t));
   if (ds.person) checkRefs('person', 'person', { ...ds.person, id: 'birth' });
+  glossary.forEach((g) => checkRefs('glossary', 'glossary', g));
 
   // Rules 1-2: drop records whose sources are unverified or copyrighted. A record that depends on a
   // dropped record is dropped too (a document leaves its event's list, an event loses its place...).
@@ -468,6 +497,11 @@ export function applyRules(ds: Dataset): RuleResult {
   const borders = screen('border', 'border', ds.borders);
   const places = screen('place', 'place', ds.places);
   const tenures = screen('tenure', 'tenure', ds.tenures);
+  const approvedGlossary = screen('glossary', 'glossary', glossary).filter((g) => {
+    if (g.verified) return true;
+    drop(1, `glossary:${g.id}`, 'açıklama kullanıcı onayı bekliyor (verified: false); çıktıda yok');
+    return false;
+  });
   const person =
     ds.person && screen('person', 'person', [{ ...ds.person, id: 'birth' }]).length > 0
       ? ds.person
@@ -516,7 +550,17 @@ export function applyRules(ds: Dataset): RuleResult {
   });
 
   return {
-    kept: { sources: ds.sources, events, documents, journeys, borders, places, tenures, person },
+    kept: {
+      sources: ds.sources,
+      events,
+      documents,
+      journeys,
+      borders,
+      places,
+      tenures,
+      glossary: approvedGlossary,
+      person,
+    },
     violations,
   };
 }

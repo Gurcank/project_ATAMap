@@ -36,7 +36,8 @@ async function valuesOf(page: Page, label: string): Promise<string[]> {
     .evaluate((dl, wanted) => {
       const out: string[] = [];
       let inside = false;
-      for (const el of Array.from(dl.children)) {
+      // Pairs may be grouped in divs (a dl allows it), so walk dt/dd in document order.
+      for (const el of Array.from(dl.querySelectorAll('dt, dd'))) {
         if (el.tagName === 'DT') inside = el.textContent === wanted;
         else if (inside) out.push((el.textContent ?? '').trim());
       }
@@ -79,20 +80,24 @@ test('a field without data is left out', async ({ page }, info) => {
   await expect(terms(page)).toHaveText(['Yaş', 'Rütbe', 'Yer']);
 });
 
-test('top left: status, then site name, then attribution, without overlap (A29)', async ({
+test('credits sit bottom right; Kaynakça opens them and Esc closes (2026-11-17)', async ({
   page,
 }) => {
   await open(page, 'kurgu-telgraf');
   const viewport = page.viewportSize()!;
-  const attribution = await box(page.getByText(/^Altlık: Natural Earth/));
-  const kunye = await box(page.locator('.site-kunye'));
-  const cartouche = await box(status(page));
-  expect(cartouche.x).toBeLessThan(viewport.width / 2);
-  expect(cartouche.y + cartouche.height).toBeLessThanOrEqual(kunye.y);
-  expect(kunye.y + kunye.height).toBeLessThanOrEqual(attribution.y + 4); // padding overlap only
-  expect(overlaps(kunye, cartouche)).toBe(false);
-  expect(overlaps(attribution, cartouche)).toBe(false);
-  expect(Math.abs(kunye.x - cartouche.x)).toBeLessThanOrEqual(1);
+  const button = page.getByRole('button', { name: 'Kaynakça', exact: true });
+  const b = await box(button);
+  expect(b.x).toBeGreaterThan(viewport.width / 2);
+  expect(b.y).toBeGreaterThan(viewport.height / 2);
+  const credits = page.getByText(/^Altlık: Natural Earth/);
+  await expect(credits).toBeHidden();
+  await button.click();
+  await expect(button).toHaveAttribute('aria-expanded', 'true');
+  await expect(credits).toBeVisible();
+  expect(overlaps(await box(credits), await box(status(page)))).toBe(false);
+  await page.keyboard.press('Escape');
+  await expect(credits).toBeHidden();
+  await expect(button).toBeFocused();
 });
 
 test.describe('375: toggle', () => {
@@ -138,7 +143,8 @@ test('768 and 1280: the cartouche is always open, no toggle', async ({ page }, i
   await expect(toggle(page)).toBeHidden();
   await expect(status(page).locator('dl')).toBeVisible();
   const b = await box(status(page).locator('dl'));
-  expect(b.width).toBe(info.project.name === 'tablet-768' ? 18 * 16 : 20 * 16);
+  // SPEC §4.3 (A41, 2026-11-17): 14rem at 768, 15rem at 1280.
+  expect(b.width).toBe(info.project.name === 'tablet-768' ? 14 * 16 : 15 * 16);
 });
 
 type AxePage = ConstructorParameters<typeof AxeBuilder>[0]['page'];

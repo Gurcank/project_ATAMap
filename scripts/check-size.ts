@@ -16,11 +16,19 @@ const BUDGET = {
   fallbackBase: 120 * KB,
   baseMap: 400 * KB,
   documentsTotal: 500 * KB,
+  /** Paper and wood photos of the scene (2026-11-17), all images in dist/assets together. */
+  textures: 250 * KB,
 };
 
 // Which budget each shipped family counts against (ADR-12). A family missing here fails the check.
-const INITIAL_FONT_PREFIXES = ['old-standard-tt', 'alegreya-sans'];
-const DOCUMENT_FONT_PREFIXES = ['eb-garamond', 'courier-prime'];
+// Courier Prime moved to the opening fonts on 2026-11-17: the field-file panels type their headings.
+const INITIAL_FONT_PREFIXES = [
+  'old-standard-tt',
+  'alegreya-sans',
+  'im-fell-english',
+  'courier-prime',
+];
+const DOCUMENT_FONT_PREFIXES = ['eb-garamond'];
 
 interface ManifestChunk {
   file: string;
@@ -55,11 +63,11 @@ const initialJs = [...initial].filter((f) => f.endsWith('.js')).reduce((sum, f) 
 
 const assets = readdirSync(join(DIST, 'assets'));
 const woff2 = assets.filter((f) => f.endsWith('.woff2'));
-const fontSize = (f: string) => readFileSync(join(DIST, 'assets', f)).length;
+const fileSize = (f: string) => readFileSync(join(DIST, 'assets', f)).length;
 const sumFonts = (prefixes: string[]) =>
   woff2
     .filter((f) => prefixes.some((p) => f.startsWith(p)))
-    .reduce((sum, f) => sum + fontSize(f), 0);
+    .reduce((sum, f) => sum + fileSize(f), 0);
 const initialFonts = sumFonts(INITIAL_FONT_PREFIXES);
 const documentFonts = sumFonts(DOCUMENT_FONT_PREFIXES);
 const unbudgetedFonts = woff2.filter(
@@ -79,6 +87,10 @@ console.log(
   `Belge fontları (ilk A4'te): ${fmt(documentFonts)}  sınır ${fmt(BUDGET.documentFonts)}`,
 );
 if (documentFonts > BUDGET.documentFonts) failures.push('Belge font bütçesi aşıldı');
+const images = assets.filter((f) => /.(webp|png|jpe?g|avif)$/.test(f));
+const imageBytes = images.reduce((sum, f) => sum + fileSize(f), 0);
+console.log(`Dokular (${images.length} görsel): ${fmt(imageBytes)}  sınır ${fmt(BUDGET.textures)}`);
+if (imageBytes > BUDGET.textures) failures.push('Doku bütçesi aşıldı');
 if (unbudgetedFonts.length > 0) {
   failures.push(`Bütçesi tanımlanmamış font dosyası: ${unbudgetedFonts.join(', ')}`);
 }

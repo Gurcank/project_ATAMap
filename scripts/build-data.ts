@@ -1,6 +1,7 @@
 // data/*.json -> public/data/ (ARCHITECTURE ADR-07).
-// Validates structure with Zod, applies SPEC §6 rules 1-11, then writes:
-//   public/data/steps.json            events, places, journeys, borders, tenures, birth, cited sources
+// Validates structure with Zod, applies SPEC §6 rules 1-12, then writes:
+//   public/data/steps.json            events, places, journeys, borders, tenures, birth, glossary,
+//                                     cited sources
 //   public/data/documents/<year>.json documents of that year, cited sources
 // Exits non-zero on any fatal violation, so Vercel stops before publishing.
 import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs';
@@ -10,6 +11,7 @@ import {
   BordersFile,
   DocumentsFile,
   EventsFile,
+  GlossaryFile,
   JourneysFile,
   PersonFile,
   PlacesFile,
@@ -71,6 +73,7 @@ const dataset: Dataset = {
   borders: load('borders.json', 'borders', BordersFile as never),
   places: load('places.json', 'places', PlacesFile as never),
   tenures: load('tenures.json', 'tenures', TenuresFile as never),
+  glossary: load('glossary.json', 'glossary', GlossaryFile as never),
   person: loadPerson(),
   reference,
 };
@@ -146,6 +149,15 @@ const steps = {
   borders,
   tenures,
   ...(kept.person ? { birth: kept.person.birth } : {}),
+  // Only what the hover card shows: the words, their meaning and the sources' ids.
+  glossary: (kept.glossary ?? []).map(({ id, terms, exclude, meaning, today, sources }) => ({
+    id,
+    terms,
+    ...(exclude ? { exclude } : {}),
+    meaning,
+    ...(today ? { today } : {}),
+    sources,
+  })),
 };
 writeFileSync(
   join(OUT, 'steps.json'),
@@ -168,5 +180,6 @@ const dropped = violations.filter((v) => !v.fatal && v.rule !== 'uyarı').length
 console.log(
   `build-data: ${events.length} olay, ${kept.documents.length} belge (${byYear.size} yıl dosyası), ` +
     `${kept.places.length} yer, ${journeys.length} seyahat, ${borders.length} sınır, ` +
-    `${tenures.length} rütbe/görev, doğum ${kept.person ? 'var' : 'yok'}; ${dropped} kayıt elendi.`,
+    `${tenures.length} rütbe/görev, ${steps.glossary.length} sözlük terimi, doğum ${kept.person ? 'var' : 'yok'}; ` +
+    `${dropped} kayıt elendi.`,
 );

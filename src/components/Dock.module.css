@@ -8,9 +8,9 @@
 .dock {
   position: absolute;
   z-index: 2;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  left: var(--table-margin);
+  right: var(--table-margin);
+  bottom: var(--table-strip); /* just above the wooden strip with the credits */
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas:
@@ -31,6 +31,7 @@
 .dock .controls {
   background: none;
   border: 0;
+  outline: none;
   box-shadow: none;
   padding: 0;
 }
@@ -57,32 +58,40 @@
 
 @media (min-width: 48rem) {
   .dock {
-    grid-template-columns: auto 1fr 20rem;
+    grid-template-columns: auto 1fr 16rem;
     grid-template-areas:
       'controls controls controls'
       'year . event';
     column-gap: var(--space-16);
     row-gap: var(--space-16);
     align-items: end;
+    bottom: var(--table-strip);
     max-height: none;
     overflow: visible;
-    padding: 0 var(--space-24) var(--space-24);
+    /* Close to the bottom edge (2026-11-17): the cards sit just above the wooden strip. */
+    padding: 0 var(--space-24) var(--space-12);
     background: none;
     border: 0;
+    outline: none;
     box-shadow: none;
     pointer-events: none; /* the map stays draggable between the cartouches */
   }
 
-  .dock .year,
+  /* The year is printed on the map without a frame (YearCartouche.module.css). */
+  .dock .year {
+    pointer-events: auto;
+  }
+
   .dock .event,
   .dock .controls {
     pointer-events: auto;
-    background: var(--paper);
-    border: var(--rule-width) solid var(--ink);
-    box-shadow:
-      inset 0 0 0 var(--rule-gap) var(--paper),
-      inset 0 0 0 calc(var(--rule-gap) + var(--rule-width)) var(--ink);
-    padding: var(--space-16) var(--space-24);
+    background: var(--card-fill);
+    background-blend-mode: multiply;
+    border: var(--rule-width) solid var(--card-edge);
+    border-radius: 2px;
+    outline: none;
+    box-shadow: var(--card-shadow);
+    padding: var(--space-12) var(--space-16);
   }
 
   .dock .event {
@@ -97,23 +106,30 @@
 
   .dock .controls {
     justify-self: center;
+    width: min(100%, 40rem);
+    padding: var(--space-8) var(--space-12);
+    background:
+      var(--texture-paper) center / 32rem,
+      var(--kraft);
+    background-blend-mode: multiply;
   }
 }
 
-/* 1280: the three sit in one row but not on one baseline: year lowest, event highest (SPEC §3.5). */
+/* 1280: the three sit in one row, all close to the bottom edge; the event card a step higher so the
+   row still does not share one baseline (SPEC §3.5). */
 @media (min-width: 80rem) {
   .dock {
-    grid-template-columns: auto 1fr 22.5rem;
+    grid-template-columns: auto 1fr 18rem;
     grid-template-areas: 'year controls event';
-    padding: 0 var(--space-32) var(--space-24);
+    padding: 0 var(--gutter) var(--space-12);
   }
 
   .dock .controls {
     align-self: end;
-    margin-bottom: var(--space-24);
+    width: min(100%, 42rem);
   }
 
   .dock .event {
-    margin-bottom: var(--space-48);
+    margin-bottom: var(--space-12);
   }
 }

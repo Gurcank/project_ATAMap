@@ -1,22 +1,17 @@
 // Application state (ARCHITECTURE ADR-09): signals around the pure step engine in src/timeline/.
 import { computed, effect, signal } from '@preact/signals';
+import { buildMatcher } from '../format/glossary.ts';
 import { stepAnimationMs } from '../motion/motionPolicy.ts';
 import type { DocumentRecord } from '../schema/index.ts';
 import { activeBorderChanges } from '../timeline/borders.ts';
 import { statusAt, type Status } from '../timeline/status.ts';
-import {
-  buildSteps,
-  nextStepId,
-  prevStepId,
-  remapOnModeChange,
-  stepDuration,
-  type StepMode,
-} from '../timeline/steps.ts';
+import { buildSteps, nextStepId, prevStepId, stepDuration, type Speed } from '../timeline/steps.ts';
 import { dataState, loadYearDocuments, type PublicSource } from './data.ts';
 
-export const mode = signal<StepMode>('olay');
 export const currentId = signal<string | null>(null);
 export const autoplay = signal(false);
+/** Autoplay speed (2026-11-17): 1 or 2 times as fast. */
+export const speed = signal<Speed>(1);
 export const openDocumentId = signal<string | null>(null);
 /** SPEC §4.2 "Hata: altlık dosyası": the 50m file failed, the embedded 110m drawing stays. */
 export const baseLoadFailed = signal(false);
@@ -24,23 +19,26 @@ export const baseLoadFailed = signal(false);
 export const events = computed(() =>
   dataState.value.status === 'ready' ? dataState.value.data.events : [],
 );
-export const steps = computed(() => buildSteps(events.value, mode.value));
+export const steps = computed(() => buildSteps(events.value));
 export const currentEvent = computed(
   () => events.value.find((e) => e.id === currentId.value) ?? null,
 );
 export const currentIndex = computed(() => steps.value.findIndex((s) => s.id === currentId.value));
 export const canGoPrev = computed(() => prevStepId(steps.value, currentId.value) !== null);
 export const canGoNext = computed(() => nextStepId(steps.value, currentId.value) !== null);
-/** Modes that have at least one step; the selector disables the rest (no empty mode to land in). */
-export const modeHasSteps = computed(() => ({
-  olay: buildSteps(events.value, 'olay').length > 0,
-  seyahat: buildSteps(events.value, 'seyahat').length > 0,
-  yil: buildSteps(events.value, 'yil').length > 0,
-}));
 
 export const sources = computed<Record<string, PublicSource>>(() =>
   dataState.value.status === 'ready' ? dataState.value.data.sources : {},
 );
+/** Glossary entries by id, and the matcher that finds their words in a text. */
+export const glossaryById = computed(() => {
+  const list = dataState.value.status === 'ready' ? (dataState.value.data.glossary ?? []) : [];
+  return new Map(list.map((g) => [g.id, g]));
+});
+export const glossaryMatcher = computed(() => buildMatcher([...glossaryById.value.values()]));
+/** The one glossary card open at a time: the opening term's own key. */
+export const openGlossaryKey = signal<string | null>(null);
+
 export const placeById = computed(() => {
   const places = dataState.value.status === 'ready' ? dataState.value.data.places : [];
   return new Map(places.map((p) => [p.id, p]));
@@ -88,12 +86,13 @@ export function goPrev(): void {
   autoplay.value = false;
   goTo(prevStepId(steps.value, currentId.value));
 }
-export function setMode(next: StepMode): void {
-  if (next === mode.value || !modeHasSteps.value[next]) return;
+/** The chronology line picks a step by its position. */
+export function goToIndex(index: number): void {
   autoplay.value = false;
-  const id = remapOnModeChange(events.value, currentId.value, next);
-  mode.value = next;
-  goTo(id);
+  goTo(steps.value[index]?.id ?? null);
+}
+export function toggleSpeed(): void {
+  speed.value = speed.value === 1 ? 2 : 1;
 }
 export function toggleAutoplay(): void {
   if (autoplay.value) {
@@ -102,6 +101,7 @@ export function toggleAutoplay(): void {
   }
   // From the last step, "Otomatik" starts over rather than doing nothing.
   if (!canGoNext.value) goTo(steps.value[0]?.id ?? null);
+  timing = { stepId: '', since: 0 }; // the current step is timed afresh
   autoplay.value = true;
 }
 
@@ -134,19 +134,39 @@ window.addEventListener('hashchange', () => {
   }
 });
 
-// ---- Autoplay (A2, A3): advances after the reading time; never opens a document. ----
+// ---- Autoplay (A2, A3): advances after the animation and reading time; never opens a document. ----
+
+/**
+ * How long the current step's own animation runs. The map layers report it once they know (a
+ * route's length is only known on screen), so autoplay never moves on before the vehicle arrives.
+ */
+const reportedAnimation = signal<{ stepId: string; ms: number } | null>(null);
+export function reportStepAnimation(stepId: string, ms: number): void {
+  const current = reportedAnimation.peek();
+  if (current?.stepId === stepId && current.ms >= ms) return;
+  reportedAnimation.value = { stepId, ms };
+}
+
+/** When autoplay started timing the current step. */
+let timing = { stepId: '', since: 0 };
 
 effect(() => {
   if (!autoplay.value) return;
   const event = currentEvent.value;
   if (event === null) return;
+  if (timing.stepId !== event.id) timing = { stepId: event.id, since: performance.now() };
+  const reported = reportedAnimation.value;
+  const animation = reported?.stepId === event.id ? reported.ms : stepAnimationMs();
+  // A late report re-arms the timer; the time already spent on the step counts.
+  const remaining =
+    stepDuration(event, animation, speed.value) - (performance.now() - timing.since);
   const timer = setTimeout(
     () => {
       const next = nextStepId(steps.peek(), event.id);
       if (next === null) autoplay.value = false;
       else currentId.value = next;
     },
-    stepDuration(event, stepAnimationMs()),
+    Math.max(0, remaining),
   );
   return () => clearTimeout(timer);
 });

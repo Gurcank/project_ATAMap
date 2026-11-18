@@ -1,10 +1,37 @@
+/* The camera's window onto the table (2026-11-17): the whole screen above the fixed wooden strip
+   at the bottom. Table, sheet and print move inside it (SheetLayer, MapCanvas). */
 .wrap {
   position: absolute;
+  inset: 0 0 var(--table-strip);
+  overflow: hidden;
+  background: var(--table);
+}
+
+/* Drawn at the committed transform; moved by a CSS transform between redraws (composited). */
+.base {
+  position: absolute;
   inset: 0;
-  background: var(--sea);
+  display: block;
+  transform-origin: 0 0;
+  will-change: transform;
+  pointer-events: none;
+}
+
+/* The lens: darker towards the corners, warm in the middle. It stays on screen. */
+.vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 90% 85% at 50% 42%,
+    transparent 55%,
+    color-mix(in srgb, var(--tent-shade) 55%, transparent) 100%
+  );
+  pointer-events: none;
 }
 
 .svg {
+  position: absolute;
+  inset: 0;
   display: block;
   touch-action: none; /* d3-zoom handles pan and pinch */
   cursor: grab;

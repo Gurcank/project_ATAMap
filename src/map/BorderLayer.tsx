@@ -1,8 +1,12 @@
 // Period borders (SPEC §4 MapCanvas, §5.2 M5). One TopoJSON per BorderChange, fetched when it
-// becomes active. When a polity's active change switches, the old line fades out while the new one
+// becomes active. When a polity's active change switches, the old one fades out while the new one
 // fades in. A border that is approximate, or an occupation, is hatched instead of left empty.
-// The stroke follows the file's 'lines' (land borders only, build-borders.ts) when it has them, so
-// coasts are drawn once, by the base map; otherwise it follows the polygon outline.
+//
+// Drawn like a hand-coloured atlas (2026-11-17): the territory gets a pale wash and a stronger brush
+// stroke just inside its edge, on land borders and coasts alike. Both are clipped to the polity and
+// to the base map's land, so along the sea they follow the base coastline exactly (CShapes coasts do
+// not match it; stroking them doubled the coast, 2026-11-16). The thin ink line stays on the file's
+// 'lines' (land borders only, build-borders.ts) when it has them, else on the polygon outline.
 import type { FeatureCollection, Geometry } from 'geojson';
 import { geoPath, type GeoProjection } from 'd3-geo';
 import { useEffect, useMemo, useState } from 'preact/hooks';
@@ -94,6 +98,9 @@ export function BorderLayer({ borders, projection }: Props) {
         const hatched = border.geometryApproximate || border.kind === 'isgal';
         const draw = (fc: FeatureCollection<Geometry>) =>
           fc.features.map((f) => path(f) ?? '').join('');
+        const polity = draw(shape.polity);
+        const lines = shape.lines ? draw(shape.lines) : polity;
+        const clipId = `polity-${border.id}`;
         return (
           <g
             key={border.id}
@@ -101,8 +108,18 @@ export function BorderLayer({ borders, projection }: Props) {
             data-border-id={border.id}
             onAnimationEnd={leaving ? () => drop(border.id) : undefined}
           >
-            {hatched && <path class={styles.fill} d={draw(shape.polity)} />}
-            <path class={styles.line} d={draw(shape.lines ?? shape.polity)} />
+            <clipPath id={clipId}>
+              <path d={polity} />
+            </clipPath>
+            <g clip-path={`url(#${clipId})`}>
+              <g clip-path="url(#land-clip)">
+                <use href="#land-shape" class={styles.wash} />
+                <use href="#land-shape" class={styles.band} />
+              </g>
+              <path class={styles.band} d={lines} />
+            </g>
+            {hatched && <path class={styles.fill} d={polity} />}
+            <path class={styles.line} d={lines} />
           </g>
         );
       })}

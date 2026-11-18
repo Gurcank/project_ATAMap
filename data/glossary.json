@@ -1,0 +1,120 @@
+{
+  "$comment": "Eski kelimelerin açıklaması (2026-11-17, SPEC §6 GlossaryEntry, kural 12). meaning ve today bizim cümlelerimiz; anlam kaynaktan (resmî kaynak tek başına yeter, yoksa iki bağımsız kaynak). Kaynaktan cümle kopyalanmaz. Kullanıcı onaylayana kadar verified: false ve siteye girmez. Parti 1: verideki sıklığa göre; 13 kaydın hepsi kullanıcı tarafından onaylandı (2026-11-17).",
+  "glossary": [
+    {
+      "id": "redif",
+      "terms": ["redif"],
+      "meaning": "Osmanlı ordusunun son döneminde, askerliğini tamamlayınca yedek sayılan er. Redif tümenleri bu yedeklerden kurulan birliklerdi.",
+      "today": "Yedek asker",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK redif, 2. anlam. İkinci cümle ('redif tümenleri bu yedeklerden kurulan birliklerdi') TDK'da yok; olay metinlerindeki 'Redif Tümeni' adından çıkarım. Onaylanmazsa ikinci cümle silinir."
+    },
+    {
+      "id": "kolagasi",
+      "terms": ["kolağası"],
+      "meaning": "Osmanlı ordusunda yüzbaşının üstünde, binbaşının altında yer alan rütbe.",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK kolağası. Bugünkü karşılığı kaynakta yok, today yazılmadı."
+    },
+    {
+      "id": "musir",
+      "terms": ["müşîr", "müşir"],
+      "meaning": "Mareşal rütbesinin eski adı; en yüksek askerî rütbe.",
+      "today": "Mareşal",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK müşir (► mareşal) ve mareşal (1. anlam)."
+    },
+    {
+      "id": "reisicumhur",
+      "terms": ["reisicumhur", "reisicümhur"],
+      "meaning": "Cumhurbaşkanının eski adı.",
+      "today": "Cumhurbaşkanı",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK reisicumhur (► cumhurbaşkanı). 'Reisicümhur' yazımı verideki dönem yazımı."
+    },
+    {
+      "id": "mebus",
+      "terms": ["mebus"],
+      "exclude": ["mebusan"],
+      "meaning": "Milletvekilinin eski adı.",
+      "today": "Milletvekili",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK mebus (► milletvekili). 'Meclis-i Mebusan' ayrı bir terim; TDK'da yok, sonraki partide başka kaynakla."
+    },
+    {
+      "id": "rustiye",
+      "terms": ["rüştiye"],
+      "meaning": "Ortaokul düzeyinde eğitim veren eski okul.",
+      "today": "Ortaokul",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK rüştiye."
+    },
+    {
+      "id": "idadi",
+      "terms": ["idadi", "idadî"],
+      "meaning": "Lise düzeyinde eğitim veren eski okul.",
+      "today": "Lise",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK idadi."
+    },
+    {
+      "id": "harbiye",
+      "terms": ["harbiye"],
+      "meaning": "Subay yetiştiren askerî okulun eski adı.",
+      "today": "Harp Okulu",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK harbiye (2. anlam ► harp okulu) ve harp okulu. 'Harbiye Nazırı' ve 'Harbiye Nezareti' kendi kayıtlarında; daha uzun oldukları için önce onlar eşleşir."
+    },
+    {
+      "id": "harbiye-naziri",
+      "terms": ["Harbiye Nazırı"],
+      "meaning": "Savaş ve ordu işlerinden sorumlu bakan.",
+      "today": "Millî Savunma Bakanı",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK harbiye nazırı (1. anlam: millî savunma bakanı), harbiye (1. anlam: savaşla ilgili işler), nazır (► bakan)."
+    },
+    {
+      "id": "harbiye-nezareti",
+      "terms": ["Harbiye Nezareti"],
+      "meaning": "Savaş ve ordu işlerinden sorumlu bakanlık.",
+      "today": "Millî Savunma Bakanlığı",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK'da madde yok; harbiye nazırı (millî savunma bakanı) ve nezaret (4. anlam ► bakanlık) maddelerinden birleştirildi. Onay özellikle bu kayıt için gerekli."
+    },
+    {
+      "id": "mutasarrif",
+      "terms": ["mutasarrıf"],
+      "meaning": "Sancak denen yönetim biriminin yöneticisi. Sancak, ilden küçük ve ilçeden büyük bir birimdi.",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK mutasarrıf (2. anlam ► sancak beyi), sancak beyi, sancak (3. anlam). 'mutasarrıflık' da bu terimle eşleşir (yönetim birimi anlamında); kartın metni ikisine de uyuyor."
+    },
+    {
+      "id": "vilayet",
+      "terms": ["vilayet", "vilâyet"],
+      "meaning": "İlin eski adı; valilik anlamında da kullanılırdı.",
+      "today": "İl",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK vilayet (► il, ► valilik)."
+    },
+    {
+      "id": "zabit",
+      "terms": ["zabit"],
+      "meaning": "Teğmenden binbaşıya kadar rütbesi olan subay.",
+      "sources": ["tdk-guncel-turkce-sozluk"],
+      "verified": true,
+      "$note": "TDK zabit (1. anlam). Bir belge tam metninde geçiyor."
+    }
+  ]
+}

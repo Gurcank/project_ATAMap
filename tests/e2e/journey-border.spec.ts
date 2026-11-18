@@ -45,21 +45,29 @@ async function settled(page: Page) {
     if (now === last && now !== null) break;
     last = now;
   }
-  await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished)));
+  // Finite animations only: a vehicle's smoke loops while it moves and is cancelled on arrival.
+  await page.evaluate(() =>
+    Promise.all(
+      document
+        .getAnimations()
+        .filter((a) => a.effect?.getTiming().iterations !== Infinity)
+        .map((a) => a.finished.catch(() => undefined)),
+    ),
+  );
   await page.waitForTimeout(100);
 }
 
-test('seyahat mode is available and steps only between journey events', async ({ page }) => {
+test('the chronology line steps with the arrow keys and names the step', async ({ page }) => {
   await open(page, 'kurgu-olay-1');
-  const mode = page.getByLabel('Adım birimi');
-  await expect(mode.locator('option[value="seyahat"]')).not.toHaveAttribute('disabled', '');
-  await mode.selectOption('seyahat');
-  // Nothing before the journey: the first journey step is taken, never one that is earlier.
-  await expect(page.getByRole('heading', { level: 2 })).toHaveText('Kurgu yolculuk başladı');
-  await expect(page.getByRole('button', { name: 'Önceki' })).toBeDisabled();
-  await page.getByRole('button', { name: 'Sonraki' }).click();
-  await expect(page.getByRole('heading', { level: 2 })).toHaveText('Kurgu yolculuk sürdü');
-  await expect(page.getByRole('button', { name: 'Sonraki' })).toBeDisabled();
+  const line = page.getByRole('slider', { name: 'Kronoloji' });
+  const before = (await page.getByRole('heading', { level: 2 }).textContent()) ?? '';
+  await line.focus();
+  await page.keyboard.press('ArrowRight');
+  await expect(page.getByRole('heading', { level: 2 })).not.toHaveText(before);
+  const title = (await page.getByRole('heading', { level: 2 }).textContent()) ?? '';
+  expect(await line.getAttribute('aria-valuetext')).toContain(title);
+  await page.keyboard.press('ArrowLeft');
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(before);
 });
 
 test('journey step: whole route is drawn, vehicle ends on it, undocumented leg is labelled', async ({

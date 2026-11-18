@@ -1,6 +1,7 @@
 import { useLayoutEffect, useRef, useState } from 'preact/hooks';
 import { currentStatus, openDocumentId } from '../state/app.ts';
 import { isStatusEmpty, type Age } from '../timeline/status.ts';
+import { GlossaryText } from './GlossaryText.tsx';
 import styles from './StatusCartouche.module.css';
 
 const PANEL_ID = 'durum-paneli';
@@ -50,6 +51,7 @@ export function StatusCartouche() {
   }, [open]);
 
   if (status === null || isStatusEmpty(status)) return null;
+  const seen = new Set<string>(); // one marked word per entry in this card
 
   return (
     <section class={styles.status} aria-label="Durum" ref={root}>
@@ -71,34 +73,41 @@ export function StatusCartouche() {
         )}
         <span class={styles.chevron} aria-hidden="true" />
       </button>
-      <dl id={PANEL_ID} class={`cartouche ${styles.panel}`} hidden={!open}>
+      {/* A field-file form (2026-11-17): typed labels with dotted leaders, the age the one large
+          figure. Each pair is grouped in a div, which a dl allows. */}
+      <dl id={PANEL_ID} class={`cartouche paper-clip ${styles.panel}`} hidden={!open}>
         {status.age && (
-          <>
-            <dt>Yaş</dt>
+          <div class={styles.ageRow}>
+            <dt class={`typed ${styles.label}`}>Yaş</dt>
             <dd>
-              <AgeValue age={status.age} />
+              <span class={styles.ageNumber}>{ageText(status.age)}</span>
+              {status.age.min !== status.age.max && <span class={styles.badge}>yaklaşık</span>}
             </dd>
-          </>
+          </div>
         )}
         {status.rank !== null && (
-          <>
-            <dt>Rütbe</dt>
-            <dd>{status.rank}</dd>
-          </>
+          <div class={styles.rank}>
+            <dt class={`typed ${styles.label}`}>Rütbe</dt>
+            <dd>
+              <GlossaryText text={status.rank} seen={seen} />
+            </dd>
+          </div>
         )}
         {status.duties.length > 0 && (
-          <>
-            <dt>Görev</dt>
+          <div class={styles.duties}>
+            <dt class={`typed ${styles.label}`}>Görev</dt>
             {status.duties.map((duty) => (
-              <dd key={duty}>{duty}</dd>
+              <dd key={duty}>
+                <GlossaryText text={duty} seen={seen} />
+              </dd>
             ))}
-          </>
+          </div>
         )}
         {status.place !== null && (
-          <>
-            <dt>Yer</dt>
+          <div class={styles.place}>
+            <dt class={`typed ${styles.label}`}>Yer</dt>
             <dd>{status.place}</dd>
-          </>
+          </div>
         )}
       </dl>
     </section>

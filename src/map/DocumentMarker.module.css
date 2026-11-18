@@ -1,3 +1,8 @@
+/*
+ * Document markers as objects on the map (2026-11-17): paper body, ink detail, a shadow on the
+ * sheet. Under the pointer or focus the object lifts 3 px and its shadow spreads and softens, so
+ * it reads as something that can be picked up. Shape and colour both tell the kinds apart.
+ */
 .marker {
   cursor: pointer;
   --marker-ink: var(--ink);
@@ -20,22 +25,76 @@
   fill: transparent;
 }
 
+.shadow {
+  fill: var(--paper-shadow);
+  opacity: 0.28;
+  transform-box: fill-box;
+  transform-origin: center;
+  transition:
+    transform var(--dur-hover) var(--ease-ink),
+    opacity var(--dur-hover) var(--ease-ink);
+}
+
+.object {
+  transition: transform var(--dur-hover) var(--ease-ink);
+}
+
 .glyph {
   fill: var(--paper);
   stroke: var(--marker-ink);
   stroke-width: 1.5;
   stroke-linejoin: round;
   vector-effect: non-scaling-stroke;
-  transition: fill var(--dur-reduced) linear;
+}
+
+.detail {
+  fill: none;
+  stroke: var(--marker-ink);
+  stroke-width: 1;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+/* The telegram form's printed band. */
+.band {
+  fill: var(--telegram);
 }
 
 .seal {
-  fill: var(--marker-ink);
+  fill: var(--seal);
+  stroke: var(--seal);
+  stroke-width: 0.6;
+  stroke-linejoin: round;
 }
 
-/* No full text (Arabic-script original): the glyph is drawn hollow, no fill (SPEC §4). */
-.hollow .glyph {
+/* No full text (Arabic-script original): drawn hollow, no paper fill and an open seal (SPEC §4). */
+.hollow .glyph,
+.hollow .band {
   fill: none;
+}
+
+.hollow .band {
+  stroke: var(--telegram);
+  stroke-width: 1;
+  vector-effect: non-scaling-stroke;
+}
+
+.hollow .seal {
+  fill: none;
+}
+
+.marker:hover .object,
+.marker:focus-visible .object,
+.active .object {
+  transform: translateY(-3px);
+}
+
+.marker:hover .shadow,
+.marker:focus-visible .shadow,
+.active .shadow {
+  transform: scale(1.25);
+  opacity: 0.18;
 }
 
 .marker:hover .glyph,

@@ -31,7 +31,7 @@ export function densify(points: LonLat[], stepsPerSegment = 12): LonLat[] {
  * the route off `land` wins; ties go to the flatter curve. When even the best bow leaves much of
  * the route on land (a voyage round a coast no single curve can follow), the plain great circle is
  * drawn instead: a wide sweep would mislead more than a short cut. Nothing here is stored as data:
- * the curve is a drawing, labelled "yaklaşık rota (deniz)".
+ * the curve is a drawing, labelled "yaklaşık rota" like any other approximate route.
  */
 export function seaArc(
   a: LonLat,
@@ -74,6 +74,33 @@ export function seaArc(
 
 /** A sea curve may cross at most this share of land; past it the straight route is drawn. */
 const MAX_LAND_SHARE = 0.25;
+
+/**
+ * A leg from a to b as a Catmull-Rom curve (2026-11-17): the tangent at each stop follows the stops
+ * on either side, so a many-stop journey runs through its places in one smooth line instead of a
+ * zigzag. The curve passes exactly through every stop; it is drawing only, no new coordinates.
+ */
+export function smoothLeg(
+  prev: XY | undefined,
+  a: XY,
+  b: XY,
+  next: XY | undefined,
+  samples = 24,
+): XY[] {
+  const before = prev ?? a;
+  const after = next ?? b;
+  // Control points one sixth of the neighbour span away (uniform Catmull-Rom as a cubic Bézier).
+  const c1: XY = [a[0] + (b[0] - before[0]) / 6, a[1] + (b[1] - before[1]) / 6];
+  const c2: XY = [b[0] - (after[0] - a[0]) / 6, b[1] - (after[1] - a[1]) / 6];
+  return Array.from({ length: samples + 1 }, (_, i) => {
+    const t = i / samples;
+    const u = 1 - t;
+    return [
+      u * u * u * a[0] + 3 * u * u * t * c1[0] + 3 * u * t * t * c2[0] + t * t * t * b[0],
+      u * u * u * a[1] + 3 * u * u * t * c1[1] + 3 * u * t * t * c2[1] + t * t * t * b[1],
+    ];
+  });
+}
 
 export const toPathData = (points: XY[]) =>
   points.map(([x, y], i) => `${i === 0 ? 'M' : 'L'}${x.toFixed(1)} ${y.toFixed(1)}`).join('');

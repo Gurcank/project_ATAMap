@@ -4619,6 +4619,18 @@
       "free": true,
       "verified": true,
       "$note": "Elazığ dönem adı (2026-11-16). Resmî ve tarihli birincil belge (A27), yalnız olgu. Kararname: 'Elâziz beldesi adının Elazığ olarak değiştirilmesi … İcra Vekilleri Heyetinin 10/12/1937 tarihli toplantısında … bu belde adının «Elazığ» olarak değiştirilmesi onanmıştır'; imza Reisicumhur K. Atatürk. PDF 2.624.496 bayt, sha256 bef6e62e10852409b51f9ad23b91ae218ae0196c962ae24b821dcf8053b25638 (kullanıcının izniyle indirildi, depoya konmadı). Kullanıcı onayı: 2026-11-16."
+    },
+    {
+      "id": "tdk-guncel-turkce-sozluk",
+      "institution": "Türk Dil Kurumu",
+      "citation": "TDK, «Güncel Türkçe Sözlük»",
+      "url": "https://sozluk.gov.tr/",
+      "accessedAt": "2026-11-17",
+      "rights": "hakki-sakli-olgu",
+      "official": true,
+      "free": true,
+      "verified": true,
+      "$note": "Sözlük terimleri (2026-11-17). Türk Dil Kurumu bir devlet kurumu (Atatürk Kültür, Dil ve Tarih Yüksek Kurumu); K5 gereği resmî kaynak, metni hakları saklı sayıldı: yalnız anlam (olgu) alındı, tanım cümleleri kopyalanmadı, açıklamalar kendi cümlelerimizle yazıldı. Okunan maddeler (sozluk.gov.tr/gts?ara=...): redif (2. anlam), kolağası, müşir (► mareşal), mareşal, reisicumhur (► cumhurbaşkanı), mebus (► milletvekili), rüştiye, idadi, harbiye (2. anlam ► harp okulu), harp okulu, harbiye nazırı, nezaret (4. anlam ► bakanlık), mutasarrıf (2. anlam ► sancak beyi), sancak beyi, sancak (3. anlam), vilayet, zabit. Kullanıcı onayı: 2026-11-17 (sözlük parti 1, 13 terim)."
     }
   ]
 }

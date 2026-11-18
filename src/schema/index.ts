@@ -185,6 +185,24 @@ export const Tenure = z.strictObject({
   $note: note,
 });
 
+/**
+ * An old word explained on hover (2026-11-17). `meaning` and `today` are our own sentences; the
+ * meaning comes from the sources (rule 12: one official source or two independent ones). Stays
+ * out of the site until the user approves the wording (`verified`).
+ */
+export const GlossaryEntry = z.strictObject({
+  id: z.string().min(1),
+  /** Base forms and period spellings, matched at a word start with Turkish suffixes allowed. */
+  terms: z.array(z.string().min(2)).min(1),
+  /** Phrases that start like a term but are something else (e.g. "mebusan" for "mebus"). */
+  exclude: z.array(z.string().min(2)).optional(),
+  meaning: z.string().min(1).max(200),
+  today: z.string().min(1).max(120).optional(),
+  sources: z.array(z.string()).min(1),
+  verified: z.boolean(),
+  $note: note,
+});
+
 export const Person = z.strictObject({
   birth: DateValue,
   $note: note,
@@ -203,6 +221,7 @@ export const JourneysFile = file('journeys', Journey);
 export const BordersFile = file('borders', BorderChange);
 export const PlacesFile = file('places', PlaceName);
 export const TenuresFile = file('tenures', Tenure);
+export const GlossaryFile = file('glossary', GlossaryEntry);
 // person.json holds one record, not a list.
 export const PersonFile = z.strictObject({ $comment: z.string().optional(), person: Person });
 
@@ -218,3 +237,4 @@ export type PlaceName = z.infer<typeof PlaceName>;
 export type Vehicle = z.infer<typeof Vehicle>;
 export type Tenure = z.infer<typeof Tenure>;
 export type Person = z.infer<typeof Person>;
+export type GlossaryEntry = z.infer<typeof GlossaryEntry>;

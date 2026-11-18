@@ -1,0 +1,213 @@
+/*
+ * Chronology dial (2026-11-17): a radio tuning scale. A bakelite bezel round a warm, lit dial face;
+ * year ticks and decade figures on the face; journeys as station dots; a red needle at the current
+ * step. The native range input lies over the face with an invisible thumb, so the needle is what
+ * the eye follows and the input does the work (drag, click, keys, screen readers).
+ */
+.timeline {
+  container-type: inline-size;
+  position: relative;
+  order: -1; /* 375: its own row across the strip, above the buttons */
+  flex: 1 1 100%;
+  min-width: 0;
+  height: calc(var(--hit-target-min) + var(--space-12));
+  padding: var(--space-4);
+  background: var(--bakelite);
+  border-radius: var(--space-8);
+  box-shadow:
+    inset 0 1px 0 color-mix(in srgb, var(--curl-light) 25%, transparent),
+    inset 0 -2px 3px color-mix(in srgb, var(--paper-shadow) 60%, transparent),
+    0 2px 4px color-mix(in srgb, var(--paper-shadow) 45%, transparent);
+}
+
+/* The face is lit from behind: warmest in the middle, where the bulb sits. */
+.face {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  background:
+    radial-gradient(
+      ellipse 70% 120% at 50% 60%,
+      color-mix(in srgb, var(--lamp) 55%, transparent),
+      transparent 75%
+    ),
+    var(--dial-face);
+  border-radius: var(--space-4);
+  box-shadow: inset 0 1px 3px color-mix(in srgb, var(--paper-shadow) 55%, transparent);
+}
+
+.scale {
+  position: absolute;
+  inset: 0 var(--space-8);
+  width: calc(100% - 2 * var(--space-8));
+  height: 100%;
+}
+
+.baseline,
+.year,
+.lustrum,
+.decade {
+  stroke: var(--ink);
+  vector-effect: non-scaling-stroke;
+}
+
+.baseline {
+  stroke-width: 1;
+}
+
+.year {
+  stroke-width: 0.6;
+  opacity: 0.7;
+}
+
+.lustrum {
+  stroke-width: 1;
+}
+
+.decade {
+  stroke-width: 1.4;
+}
+
+.station {
+  fill: var(--route);
+}
+
+/* The needle: a thin red wire across the whole face, with a faint glow where it catches the light. */
+.needle {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(var(--space-8) + var(--at, 0) * (100% - 2 * var(--space-8)));
+  width: 2px;
+  margin-left: -1px;
+  background: var(--seal);
+  box-shadow: 0 0 4px color-mix(in srgb, var(--seal) 60%, transparent);
+  transition: left var(--dur-press) ease-out;
+}
+
+.years {
+  position: absolute;
+  inset: var(--space-4) calc(var(--space-4) + var(--space-8)) auto;
+  height: var(--space-12);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-display);
+  font-size: var(--text-12);
+  line-height: 1;
+  color: var(--ink);
+  pointer-events: none;
+}
+
+.years li {
+  position: absolute;
+  left: calc(var(--at, 0) * 100%);
+  transform: translateX(-50%);
+  font-variant-numeric: oldstyle-nums;
+}
+
+.years li:first-child {
+  transform: none;
+}
+
+.years li:last-child {
+  transform: translateX(-100%);
+}
+
+/* Figures follow the dial's own width: a short dial names only the ends, a medium one adds 1900
+   and 1920, a long one every decade. The ticks still mark the decades left unnamed. */
+.major,
+.minor {
+  display: none;
+}
+
+@container (min-width: 15rem) {
+  .major {
+    display: block;
+  }
+}
+
+@container (min-width: 28rem) {
+  .minor {
+    display: block;
+  }
+}
+
+@media (min-width: 48rem) {
+  .timeline {
+    order: 0;
+    flex: 1 1 16rem;
+  }
+}
+
+/* The native control: covers the face, track and thumb invisible; the needle shows the value. */
+.range {
+  position: absolute;
+  inset: var(--space-4);
+  width: calc(100% - 2 * var(--space-4));
+  height: calc(100% - 2 * var(--space-4));
+  margin: 0;
+  padding: 0 var(--space-8);
+  background: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.range::-webkit-slider-runnable-track {
+  height: 100%;
+  background: none;
+}
+
+.range::-moz-range-track {
+  height: 100%;
+  background: none;
+}
+
+.range::-webkit-slider-thumb {
+  width: var(--space-16);
+  height: 100%;
+  background: none;
+  border: 0;
+  appearance: none;
+}
+
+.range::-moz-range-thumb {
+  width: var(--space-16);
+  height: 100%;
+  background: none;
+  border: 0;
+}
+
+.range:focus-visible {
+  outline: none;
+}
+
+.timeline:has(.range:focus-visible) {
+  outline: 2px solid var(--accent-text);
+  outline-offset: 2px;
+}
+
+/* Date and title of the step under the needle while dragging, kept inside the dial's width. */
+.bubble {
+  position: absolute;
+  bottom: calc(100% + var(--space-8));
+  left: clamp(6rem, calc(var(--at, 0) * 100%), calc(100% - 6rem));
+  width: max-content;
+  max-width: 12rem;
+  margin: 0;
+  padding: var(--space-4) var(--space-8);
+  transform: translateX(-50%);
+  font-size: var(--text-12);
+  line-height: 1.3;
+  color: var(--ink);
+  background: var(--paper);
+  border: var(--rule-width) solid var(--ink);
+  box-shadow: var(--card-shadow);
+  pointer-events: none;
+}
+
+.bubbleDate {
+  display: block;
+  font-family: var(--font-display);
+  color: var(--ink-muted);
+}

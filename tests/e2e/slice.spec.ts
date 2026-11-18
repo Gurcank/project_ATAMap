@@ -78,7 +78,8 @@ test('1920 step: map, year, event text, controls', async ({ page }, info) => {
     'Mustafa Kemal Paşa Meclise siyasi ahvali anlattı',
   );
   await expect(page.getByText('24 Nisan 1920')).toBeVisible();
-  await expect(page.getByText('1920', { exact: true })).toBeVisible();
+  // The year itself (a span); the chronology line's "1920" label is a list item.
+  await expect(page.locator('span', { hasText: /^1920$/ })).toBeVisible();
   await expect(page.getByRole('button', { name: 'Önceki' })).toBeEnabled();
   await expect(page.getByRole('button', { name: 'Sonraki' })).toBeEnabled();
   // The map label; the status cartouche also names the place (SPEC K3).
@@ -152,16 +153,20 @@ test('the last step disables Sonraki, a manual step stops autoplay', async ({ pa
   );
 });
 
-test('mode selector: years skip', async ({ page }) => {
+test('chronology line: End and Home jump to the ends, speed toggles', async ({ page }) => {
   await open(page, '/#adim=tbmm-nutuk-1923-08-13');
-  const mode = page.getByLabel('Adım birimi');
-  await mode.selectOption('yil');
-  // Year mode lands on the first event of the year, never later than where we were.
-  // Two events share 14 January 1923; either may come first, the date is what matters.
-  await expect(page.getByText('14 Ocak 1923')).toBeVisible();
-  await page.getByRole('button', { name: 'Sonraki' }).click();
-  // The first event of 1924, whichever it is: its date line ends in 1924.
-  await expect(page.getByText(/^\d{1,2} \p{L}+ 1924$/u)).toBeVisible();
+  const line = page.getByRole('slider', { name: 'Kronoloji' });
+  await line.focus();
+  await page.keyboard.press('End');
+  await expect(page).toHaveURL(/#adim=olum-1938-11-10/);
+  await expect(page.getByRole('button', { name: 'Sonraki' })).toBeDisabled();
+  await page.keyboard.press('Home');
+  await expect(page.getByRole('button', { name: 'Önceki' })).toBeDisabled();
+  const speed = page.getByRole('button', { name: 'Hız' });
+  await expect(speed).toHaveAttribute('aria-pressed', 'false');
+  await speed.click();
+  await expect(speed).toHaveAttribute('aria-pressed', 'true');
+  await expect(speed).toHaveText('2×');
 });
 
 test('the first real journey: Amasya to Erzurum by car, approximate route', async ({
@@ -170,8 +175,6 @@ test('the first real journey: Amasya to Erzurum by car, approximate route', asyn
   await open(page, '/#adim=amasya-erzurum-1919-06-26');
   await expect(page.getByRole('heading', { level: 2 })).toHaveText("Amasya'dan Erzurum'a gitti");
   await expect(page.getByText('yaklaşık rota')).toHaveCount(1);
-  const mode = page.getByLabel('Adım birimi');
-  await expect(mode.locator('option[value="seyahat"]')).not.toHaveAttribute('disabled', '');
   const status = page.getByRole('region', { name: 'Durum' });
   if (info.project.name === 'mobil-375') await status.getByRole('button').click();
   await expect(status.locator('dd')).toHaveText([
@@ -227,6 +230,8 @@ test('the last step: death at Dolmabahçe Palace', async ({ page }, info) => {
 test('a step without a place keeps the camera where it was', async ({ page }) => {
   await open(page, '/#adim=baskomutan-1921-08-05'); // Ankara
   const view = () => page.locator('svg g').first().getAttribute('transform');
+  // The base layer is redrawn shortly after the camera rests; read it once it has.
+  await page.waitForTimeout(1500);
   const before = await view();
   await page.getByRole('button', { name: 'Sonraki' }).click(); // 7-8 Aug 1921, no place
   await expect(page.getByRole('heading', { level: 2 })).toHaveText(
@@ -263,7 +268,15 @@ test('documents open in a reading panel on the right; modal only at 375 (SPEC A2
   await page.getByRole('button', { name: /^Konuşma:/ }).click();
   const dialog = page.getByRole('dialog');
   await expect(dialog).toBeVisible();
-  await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished)));
+  // Finite animations only: a vehicle's smoke loops while it moves and is cancelled on arrival.
+  await page.evaluate(() =>
+    Promise.all(
+      document
+        .getAnimations()
+        .filter((a) => a.effect?.getTiming().iterations !== Infinity)
+        .map((a) => a.finished.catch(() => undefined)),
+    ),
+  );
   const b = (await dialog.boundingBox())!;
   const rightGap = viewport.width - (b.x + b.width);
   if (info.project.name === 'mobil-375') {
@@ -273,14 +286,16 @@ test('documents open in a reading panel on the right; modal only at 375 (SPEC A2
   } else {
     await expect(dialog).toHaveAttribute('aria-modal', 'false');
     expect(rightGap).toBeGreaterThan(0);
-    expect(rightGap).toBeLessThanOrEqual(33);
+    // Inside the sheet: the table margin plus, at 1280, the rolled edge (2026-11-17).
+    expect(rightGap).toBeLessThanOrEqual(24 + 48 + 1);
     expect(b.x).toBeGreaterThan(viewport.width * 0.4);
     // The panel ends above the step controls, which stay whole.
     const controls = (await page.getByRole('group', { name: 'Adım kontrolleri' }).boundingBox())!;
     expect(b.y + b.height).toBeLessThanOrEqual(controls.y);
     // The map beside the panel stays visible and takes the pointer: the step controls still work.
     await expect(page.getByRole('region', { name: 'Durum' })).toBeVisible();
-    await page.getByRole('region', { name: 'Durum' }).locator('dl').click();
+    // A typed label, not a value: values may hold glossary words, whose card Esc closes first.
+    await page.getByRole('region', { name: 'Durum' }).locator('dt').first().click();
     await expect(dialog).toBeVisible();
     // Esc closes the panel even when focus has left it.
     await page.keyboard.press('Escape');
@@ -310,7 +325,15 @@ test('an Arabic-script original opens a citation card, not an A4 sheet', async (
   await expect(dialog.getByText('Aslı Arap harfli; tam metin gösterilmiyor.')).toBeVisible();
   await expect(dialog.getByText(/belgede: 24\.4\.1336/)).toBeVisible();
   // The shot shows the settled card, not the slide-in (M7).
-  await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished)));
+  // Finite animations only: a vehicle's smoke loops while it moves and is cancelled on arrival.
+  await page.evaluate(() =>
+    Promise.all(
+      document
+        .getAnimations()
+        .filter((a) => a.effect?.getTiming().iterations !== Infinity)
+        .map((a) => a.finished.catch(() => undefined)),
+    ),
+  );
   await shot(page, info, 'kunye-karti');
   await dialog.getByRole('button', { name: 'Kapat' }).click();
   await expect(dialog).toBeHidden();
@@ -321,7 +344,8 @@ test('touch targets are at least 44 x 44 px (SPEC §4)', async ({ page }) => {
   const targets = [
     page.getByRole('button', { name: 'Sonraki' }),
     page.getByRole('button', { name: 'Otomatik' }),
-    page.getByLabel('Adım birimi'),
+    page.getByRole('button', { name: 'Hız' }),
+    page.getByRole('slider', { name: 'Kronoloji' }),
   ];
   for (const t of targets) {
     const box = await t.boundingBox();
@@ -361,9 +385,16 @@ test('reduced motion: the camera jumps, no waiting for an animation (SPEC §5.3)
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto(FIRST);
   await expect(page.getByRole('heading', { level: 2 }).first()).toBeVisible();
+  // The scale is computed, so it may land a hair off 2.6 (2.5999999999999996).
   await expect
-    .poll(() => page.locator('svg g').first().getAttribute('transform'), { timeout: 1500 })
-    .toMatch(/scale\(2\.6/);
+    .poll(
+      async () => {
+        const t = (await page.locator('svg g').first().getAttribute('transform')) ?? '';
+        return Number(/scale\(([\d.]+)/.exec(t)?.[1] ?? 0);
+      },
+      { timeout: 1500 },
+    )
+    .toBeCloseTo(2.6, 5);
 });
 
 type AxePage = ConstructorParameters<typeof AxeBuilder>[0]['page'];
@@ -376,7 +407,15 @@ test('no accessibility violations (axe)', async ({ page }) => {
   await page.getByRole('button', { name: /^Konuşma:/ }).click();
   await expect(page.getByRole('dialog')).toBeVisible();
   // Contrast is measured on the settled sheet, not mid-animation (M7 fades it in).
-  await page.evaluate(() => Promise.all(document.getAnimations().map((a) => a.finished)));
+  // Finite animations only: a vehicle's smoke loops while it moves and is cancelled on arrival.
+  await page.evaluate(() =>
+    Promise.all(
+      document
+        .getAnimations()
+        .filter((a) => a.effect?.getTiming().iterations !== Infinity)
+        .map((a) => a.finished.catch(() => undefined)),
+    ),
+  );
   const withDialog = await axe(page);
   expect(withDialog.violations.map((v) => `${v.id}: ${v.help}`)).toEqual([]);
 });

@@ -1,9 +1,21 @@
 /*
  * Self-hosted OFL fonts (ADR-12). Only woff2, only the latin + latin-ext subsets, 7 cuts.
  * Turkish needs both: ı (U+0131) is in latin, ğ ş İ (U+011F, U+015F, U+0130) are in latin-ext.
- * A face is downloaded only when text in that family/style renders, so the document fonts
- * (EB Garamond, Courier Prime) arrive on the first A4 opening without extra code.
+ * A face is downloaded only when text in that family/style renders. EB Garamond arrives on the
+ * first A4 opening; Courier Prime loads at once since 2026-11-17 (typed headings on the panels).
  */
+
+/* ---- IM Fell English: 400, digits only (year indicator, 2026-11-17). The family has no Turkish
+   glyphs, so the range is limited to 0-9 and nothing else can ever fall into it. ---- */
+@font-face {
+  font-family: 'IM Fell English';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  /* Cut to the ten digits by scripts/subset-fonts.ts (3.3 KB instead of 60 KB). */
+  src: url('../assets/fonts/im-fell-english-digits.woff2') format('woff2');
+  unicode-range: U+0030-0039;
+}
 
 /* ---- Old Standard TT: 400, 400 italic (map labels, year, headings; italic = water names) ---- */
 @font-face {

@@ -9,7 +9,6 @@ export function LoadingShell() {
           <span />
           <span />
         </div>
-        <p class="site-kunye">ATAMap</p>
       </div>
       <div class="loading" role="status">
         <div>

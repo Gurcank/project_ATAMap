@@ -11,6 +11,7 @@ import type { PublicSource } from '../state/data.ts';
 import { documentsState, openDocument } from '../state/app.ts';
 import { closeSheet, openedByHover, pointerEnteredSheet, pointerLeft } from '../state/sheet.ts';
 import styles from './DocumentSheet.module.css';
+import { GlossaryText } from './GlossaryText.tsx';
 
 const FOCUSABLE = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
@@ -78,6 +79,9 @@ export function DocumentSheet() {
   const showOriginal =
     doc.date.original !== undefined && !doc.date.original.includes(doc.date.iso.slice(0, 4));
   const titleId = `sheet-title-${doc.id}`;
+  // One marked word per entry in the whole sheet. The full text is shown character for character;
+  // only the rendering wraps words (SPEC §2.1 exception, 2026-11-17).
+  const seen = new Set<string>();
 
   const onKeyDown = (e: KeyboardEvent) => {
     if (e.key === 'Escape') {
@@ -105,7 +109,7 @@ export function DocumentSheet() {
       {modal && <div class={styles.backdrop} onClick={closeSheet} aria-hidden="true" />}
       <div
         ref={root}
-        class={`${styles.sheet} ${hasText ? styles.a4 : styles.card} ${
+        class={`paper-clip ${styles.sheet} ${hasText ? styles.a4 : styles.card} ${
           doc.kind === 'telgraf' ? styles.telegram : ''
         }`}
         role="dialog"
@@ -116,7 +120,7 @@ export function DocumentSheet() {
         onPointerEnter={pointerEnteredSheet}
         onPointerLeave={() => pointerLeft()}
       >
-        <button type="button" class={styles.close} onClick={closeSheet}>
+        <button type="button" class={`board-button ${styles.close}`} onClick={closeSheet}>
           Kapat
         </button>
         {doc.attributionDisputed && <p class={styles.badge}>Atfı tartışmalı</p>}
@@ -127,14 +131,21 @@ export function DocumentSheet() {
           {formatDate(doc.date)}
           {showOriginal && <span> (belgede: {doc.date.original})</span>}
           <br />
-          {doc.sender}
-          {doc.recipient && <span> → {doc.recipient}</span>}
+          <GlossaryText text={doc.sender} seen={seen} />
+          {doc.recipient && (
+            <span>
+              {' → '}
+              <GlossaryText text={doc.recipient} seen={seen} />
+            </span>
+          )}
         </p>
 
         {hasText ? (
           <div class={styles.body} tabIndex={0}>
             {doc.fullText?.split('\n\n').map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
+              <p key={i}>
+                <GlossaryText text={paragraph} seen={seen} />
+              </p>
             ))}
           </div>
         ) : (

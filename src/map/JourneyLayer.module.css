@@ -41,10 +41,86 @@
   paint-order: stroke;
 }
 
-.vehicle path {
+.body {
   fill: var(--paper);
+  fill-rule: evenodd;
   stroke: var(--route);
   stroke-width: 1.5;
   stroke-linejoin: round;
   stroke-linecap: round;
+}
+
+/* Trail (2026-11-17): hidden until the vehicle moves (data-moving, set in JourneyLayer.park). Puffs
+   of smoke or dust drift back and up and fade, one after another; the wake shimmers. They point
+   the way the vehicle is going. */
+/* Only a moving vehicle has a trail, and only then do the loops run: an idle, hidden loop would
+   still count as a running animation. */
+.puff,
+.wake {
+  visibility: hidden;
+}
+
+.vehicle[data-moving] .puff,
+.vehicle[data-moving] .wake {
+  visibility: visible;
+}
+
+.puff {
+  fill: var(--paper);
+  stroke: var(--ink-muted);
+  stroke-width: 0.6;
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.vehicle[data-moving] .puff {
+  animation: puff var(--dur-puff) linear infinite;
+}
+
+.vehicle[data-moving] .puff:nth-of-type(2) {
+  animation-delay: calc(var(--dur-puff) / -3);
+}
+
+.vehicle[data-moving] .puff:nth-of-type(3) {
+  animation-delay: calc(var(--dur-puff) / -1.5);
+}
+
+.wake {
+  fill: none;
+  stroke: var(--ink-muted);
+  stroke-width: 0.8;
+  stroke-linecap: round;
+}
+
+.vehicle[data-moving] .wake {
+  animation: wake var(--dur-wake) ease-in-out infinite alternate;
+}
+
+@keyframes puff {
+  from {
+    opacity: 0.8;
+    transform: translate(0, 0) scale(0.6);
+  }
+  to {
+    opacity: 0;
+    transform: translate(-9px, -5px) scale(1.8);
+  }
+}
+
+@keyframes wake {
+  from {
+    opacity: 0.25;
+  }
+  to {
+    opacity: 0.7;
+  }
+}
+
+/* §5.3: nothing loops. JourneyLayer never sets data-moving here either. */
+@media (prefers-reduced-motion: reduce) {
+  .vehicle[data-moving] .puff,
+  .vehicle[data-moving] .wake {
+    animation: none;
+  }
 }

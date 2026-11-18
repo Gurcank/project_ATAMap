@@ -15,6 +15,23 @@
   vector-effect: non-scaling-stroke;
 }
 
+/* Hand colouring (2026-11-17): a pale wash over the territory and a wider, stronger stroke whose
+   outer half the clip removes, leaving a brush band inside the edge. */
+.wash {
+  fill: var(--territory-wash);
+  fill-opacity: 0.22;
+  stroke: none;
+}
+
+.band {
+  fill: none;
+  stroke: var(--territory-band);
+  stroke-opacity: 0.4;
+  stroke-width: 10;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
 /* Approximate or occupied: diagonal hatching inside the outline (SPEC §3.1, A14). The pattern is
    defined once in MapCanvas as #hatch; the group carries .hatched, the fill path draws it. */
 .fill {

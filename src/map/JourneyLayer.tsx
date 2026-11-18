@@ -7,13 +7,14 @@
 // motion the route is complete and the vehicle stands still halfway along the journey (A32).
 import { useEffect, useLayoutEffect, useMemo, useRef } from 'preact/hooks';
 import type { Journey, PlaceName } from '../schema/index.ts';
-import { VEHICLE_LABEL, VEHICLE_PATH } from './vehicles.ts';
+import { VEHICLE_LABEL, VEHICLE_PATH, VEHICLE_TRAIL } from './vehicles.ts';
 import {
   densify,
   geodesic,
   halfway,
   placeAlong,
   seaArc,
+  smoothLeg,
   toPathData,
   type LonLat,
   type XY,
@@ -36,7 +37,11 @@ interface Props {
   onLand?: ((point: LonLat) => boolean) | undefined;
   /** Screen boxes the route label must not cover: place dots, names and document markers. */
   avoid?: Box[] | undefined;
+  /** Told how long the route takes to draw, so autoplay waits for the arrival (A2). */
+  onAnimation?: ((ms: number) => void) | undefined;
 }
+
+const ROUTE_LABEL = 'yaklaşık rota';
 
 /** Where along a leg the route label may go, best first. */
 const LABEL_STOPS = [0.5, 0.38, 0.62, 0.25, 0.75];
@@ -58,6 +63,7 @@ export function JourneyLayer({
   height,
   onLand,
   avoid = [],
+  onAnimation,
 }: Props) {
   const routes = useRef<(SVGPathElement | null)[]>([]);
   const reveals = useRef<(SVGPathElement | null)[]>([]);
@@ -80,23 +86,39 @@ export function JourneyLayer({
                 ? seaArc(from, to, onLand)
                 : geodesic(from, to)
               : [];
-        return { leg, points };
+        return { leg, points, documented: Boolean(documented && documented.length >= 2) };
       }),
     [journey, places, onLand],
   );
 
-  const screen = legs.map(({ points }) => points.map(project).filter((p): p is XY => p !== null));
+  // Undocumented land legs are drawn as one smooth curve through the stops; documented paths and
+  // sea arcs keep their own shape.
+  const projected = legs.map(({ points }) =>
+    points.map(project).filter((p): p is XY => p !== null),
+  );
+  const curved = (i: number) => {
+    const spec = legs[i];
+    return spec !== undefined && !spec.documented && spec.leg.vehicle !== 'gemi';
+  };
+  const screen = projected.map((pts, i) => {
+    const a = pts[0];
+    const b = pts[pts.length - 1];
+    if (!curved(i) || !a || !b) return pts;
+    const prev = projected[i - 1]?.[0];
+    const next = projected[i + 1]?.at(-1);
+    return smoothLeg(prev, a, b, next);
+  });
 
-  // One "yaklaşık rota" label per kind (land, sea): a label on every leg of a many-stop journey
-  // piles up into an unreadable stack. It goes on the longest such leg where it covers nothing,
-  // trying shorter legs of the same kind before accepting an overlap.
+  // One "yaklaşık rota" label per journey, land or sea alike (2026-11-17): a label on every leg
+  // piles up into an unreadable stack. It goes on the longest approximate leg where it covers
+  // nothing, trying shorter legs before accepting an overlap.
   const labelSpots = new Map<number, Spot>();
   const taken = [...avoid];
   const labelSize = width > 0 ? tokenPx('--text-14') : 14;
-  for (const sea of [false, true]) {
+  {
     const kind = legs
       .map(({ leg }, i) => ({ leg, i, pts: screen[i] ?? [] }))
-      .filter(({ leg }) => leg.routeKind === 'yaklasik' && (leg.vehicle === 'gemi') === sea)
+      .filter(({ leg }) => leg.routeKind === 'yaklasik')
       .map((l) => {
         const first = l.pts[0];
         const last = l.pts[l.pts.length - 1];
@@ -107,9 +129,7 @@ export function JourneyLayer({
       })
       .sort((x, y) => y.span - x.span);
     const head = kind[0];
-    if (!head) continue;
-    const text = sea ? 'yaklaşık rota (deniz)' : 'yaklaşık rota';
-    const labelWidth = textWidth(text, '--text-14', true);
+    const labelWidth = textWidth(ROUTE_LABEL, '--text-14', true);
     const bounds = { x0: 0, y0: 0, x1: width, y1: height };
     let chosen: { i: number; spot: Spot } | undefined;
     for (const { i, pts } of kind) {
@@ -126,7 +146,7 @@ export function JourneyLayer({
       if (!chosen || clear) chosen = { i, spot };
       if (clear) break;
     }
-    if (!chosen) {
+    if (!chosen && head) {
       const mid = head.pts[Math.floor(head.pts.length / 2)];
       if (mid) chosen = { i: head.i, spot: spotAlong([mid], labelWidth, labelSize, [])! };
     }
@@ -138,17 +158,28 @@ export function JourneyLayer({
 
   const park = () => {
     const { leg, p } = stand.current;
-    glyphs.current.forEach((g, i) =>
-      g?.setAttribute('visibility', i === leg ? 'visible' : 'hidden'),
-    );
+    glyphs.current.forEach((g, i) => {
+      g?.setAttribute('visibility', i === leg ? 'visible' : 'hidden');
+      // Smoke, dust and wake only while the vehicle is on its way (never under reduced motion).
+      g?.toggleAttribute('data-moving', i === leg && !reduced && p > 0 && p < 1);
+    });
     const route = routes.current[leg];
     const glyph = glyphs.current[leg];
     const spec = legs[leg];
     if (route && glyph && spec) placeAlong(route, glyph, p, spec.leg.vehicle);
   };
 
-  // Every render re-projects the paths, so the vehicle is put back on its (new) route.
-  useLayoutEffect(park);
+  // Every render re-projects the paths, so the vehicle is put back on its (new) route, and the
+  // dashes carry on from one leg to the next instead of restarting at every stop.
+  useLayoutEffect(() => {
+    park();
+    let along = 0;
+    routes.current.forEach((r) => {
+      if (!r) return;
+      r.style.setProperty('stroke-dashoffset', String(-along));
+      along += r.getTotalLength();
+    });
+  });
 
   useEffect(() => {
     const lengths = routes.current.map((r) => r?.getTotalLength() ?? 0);
@@ -159,6 +190,7 @@ export function JourneyLayer({
       return;
     }
     const total = Math.min(MAX_MS, Math.max(MIN_MS, MIN_MS + sum * MS_PER_PX));
+    onAnimation?.(total);
     let at = 0;
     const timeline = lengths.map((len) => {
       const duration = sum > 0 ? (total * len) / sum : total / legs.length;
@@ -238,7 +270,7 @@ export function JourneyLayer({
             />
             {approximate && label && (
               <text class={styles.label} x={label.x} y={label.y} text-anchor={label.anchor}>
-                {leg.vehicle === 'gemi' ? 'yaklaşık rota (deniz)' : 'yaklaşık rota'}
+                {ROUTE_LABEL}
               </text>
             )}
             <g
@@ -249,7 +281,13 @@ export function JourneyLayer({
               visibility="hidden"
             >
               <title>{VEHICLE_LABEL[leg.vehicle]}</title>
-              <path d={VEHICLE_PATH[leg.vehicle]} />
+              {VEHICLE_TRAIL[leg.vehicle].wake && (
+                <path class={styles.wake} d={VEHICLE_TRAIL[leg.vehicle].wake} />
+              )}
+              {VEHICLE_TRAIL[leg.vehicle].puffs.map(([x, y], k) => (
+                <circle key={k} class={styles.puff} cx={x} cy={y} r="1.6" />
+              ))}
+              <path class={styles.body} d={VEHICLE_PATH[leg.vehicle]} />
             </g>
           </g>
         );

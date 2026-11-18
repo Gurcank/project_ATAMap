@@ -9,6 +9,7 @@ import type {
   PlaceName,
   Tenure,
 } from '../schema/index.ts';
+import type { GlossaryTerm } from '../format/glossary.ts';
 
 export interface PublicSource {
   institution: string;
@@ -27,6 +28,8 @@ export interface StepsData {
   /** Status cartouche (ADR-15). birth is absent when no sourced birth date passed the build. */
   tenures: Tenure[];
   birth?: DateValue;
+  /** Old words explained on hover (2026-11-17); only entries the user approved. */
+  glossary?: GlossaryTerm[];
   sources: Record<string, PublicSource>;
 }
 

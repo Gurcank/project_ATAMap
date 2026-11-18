@@ -17,8 +17,36 @@
   --telegram: #7a2e12;
   --letter: #8b6a2e;
 
+  /* ---- Scene: the map lies on a field table in a tent, lit by a lamp (SPEC §3.1, 2026-11-17) ---- */
+  --table: #3b2616; /* under the wood photo while it loads */
+  --tent-shade: #120a04; /* dusk at the edges of the screen, beyond the lamp */
+  --lamp: #ffd88a; /* warm light falling on the middle of the sheet */
+  --shade: #6b4a26; /* the sheet darkening towards its corners (multiplied) */
+  --curl-dark: #7a5f3a; /* underside of a rolled edge */
+  --curl-light: #fff6e0; /* highlight along the top of a roll */
+  --paper-shadow: #140a03; /* contact shadows; used through color-mix with transparency */
+  --card-edge: #a88b5c; /* the cut edge of cardboard, seen as thickness under a control */
+  --territory-wash: #c97f4a; /* hand-applied colour over Ottoman / Turkish land (low opacity) */
+  --territory-band: #a4532a; /* stronger brush stroke just inside that territory's edge */
+  --seal: #8e2a1c; /* wax seal on a letter marker; the chronology dial needle */
+  --manila: #e8d6a8; /* field-file card (panels); ink 11.38, ink-muted 6.39, accent-text 4.72 */
+  --kraft: #d9bf8a; /* the darker board behind the step controls; ink 9.16, ink-muted 5.15 */
+  --clip-metal: #9a8556; /* brass paper clip and drawing pin on the cards */
+  --bakelite: #2e1c10; /* bezel of the chronology dial, like an old radio */
+  --dial-face: #f2dfae; /* the lit face of the dial */
+
+  /* ---- Textures (CC0, SOURCES §5.1): paper grain is multiplied over the map and cards ---- */
+  --texture-paper: url('../assets/textures/paper.webp');
+  --texture-wood: url('../assets/textures/wood.webp');
+  /* The camera sees the whole screen (2026-11-17); only the table's front edge, a fixed wooden
+     strip, runs along the bottom and carries the credits. UI keeps a gutter off the screen edge. */
+  --table-margin: 0px;
+  --table-strip: calc(var(--space-24) + var(--space-4));
+  --gutter: var(--space-16);
+
   /* ---- Typefaces (SPEC §3.3, ADR-12) ---- */
-  --font-display: 'Old Standard TT', 'Times New Roman', serif; /* map labels, year, headings */
+  --font-display: 'Old Standard TT', 'Times New Roman', serif; /* map labels, headings */
+  --font-year: 'IM Fell English', 'Old Standard TT', serif; /* year digits: letterpress figures */
   --font-ui: 'Alegreya Sans', 'Segoe UI', system-ui, sans-serif; /* UI and event text */
   --font-letter: 'EB Garamond', Garamond, 'Times New Roman', serif; /* letter/speech full text */
   --font-telegram: 'Courier Prime', 'Courier New', monospace; /* telegram full text */
@@ -64,6 +92,11 @@
   --dur-border: 600ms; /* M5 */
   --dur-year: 400ms; /* M6 */
   --dur-sheet: 200ms; /* M7 */
+  --dur-press: 90ms; /* a cardboard control pressed in and released */
+  --dur-hover: 160ms; /* a marker lifting off the map under the pointer */
+  --dur-arrive: 500ms; /* a seal pressed / a telegram ring at the recipient, after M3 / M4 */
+  --dur-puff: 1400ms; /* one puff of smoke or dust behind a moving vehicle (loops) */
+  --dur-wake: 900ms; /* a ship wake shimmering behind it (loops) */
   --dur-reduced: 150ms; /* §5.3 opacity-only fallback */
   --ease-ink: cubic-bezier(0.33, 0, 0.2, 1);
 
@@ -73,6 +106,18 @@
    */
 }
 
+@media (min-width: 48rem) {
+  :root {
+    --gutter: var(--space-24);
+  }
+}
+
+@media (min-width: 80rem) {
+  :root {
+    --gutter: var(--space-32);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   :root {
     --dur-letter: 0ms;
@@ -80,5 +125,8 @@
     --dur-border: var(--dur-reduced);
     --dur-year: var(--dur-reduced);
     --dur-sheet: var(--dur-reduced);
+    --dur-press: 0ms;
+    --dur-hover: 0ms;
+    --dur-arrive: 0ms;
   }
 }

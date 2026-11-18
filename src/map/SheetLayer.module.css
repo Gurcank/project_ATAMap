@@ -1,0 +1,132 @@
+/*
+ * The sheet on the table (SheetLayer.tsx). Colours come from the scene tokens; strokes keep their
+ * width at any zoom like the coastline (non-scaling), shapes and textures travel with the map.
+ */
+.under,
+.over {
+  pointer-events: none;
+}
+
+.table {
+  fill: url(#wood);
+}
+
+.shadow {
+  fill: var(--paper-shadow);
+  opacity: 0.55;
+}
+
+.paper {
+  fill: var(--paper);
+}
+
+.graticule {
+  fill: none;
+  stroke: var(--ink-muted);
+  stroke-width: 0.6;
+  opacity: 0.35;
+  vector-effect: non-scaling-stroke;
+}
+
+/* Atlas neatline: two ink lines with the alternating degree bar between them. */
+.zebra {
+  fill: var(--ink);
+}
+
+.neatline,
+.neatlineInner {
+  fill: none;
+  stroke: var(--ink);
+  vector-effect: non-scaling-stroke;
+}
+
+.neatline {
+  stroke-width: 1.4;
+}
+
+.neatlineInner {
+  stroke-width: 0.8;
+}
+
+.figures {
+  font-family: var(--font-display);
+  font-style: italic;
+  fill: var(--ink-muted);
+}
+
+/* Paper fibre over everything printed on the sheet. */
+.grain {
+  fill: url(#paper-grain);
+  mix-blend-mode: multiply;
+}
+
+.lamp {
+  fill: url(#lamp);
+  mix-blend-mode: soft-light;
+}
+
+.lampCore {
+  stop-color: var(--lamp);
+  stop-opacity: 0.55;
+}
+
+.lampEdge {
+  stop-color: var(--lamp);
+  stop-opacity: 0;
+}
+
+.lift {
+  mix-blend-mode: multiply;
+}
+
+.liftDark {
+  stop-color: var(--curl-dark);
+  stop-opacity: 0.35;
+}
+
+.liftClear {
+  stop-color: var(--curl-dark);
+  stop-opacity: 0;
+}
+
+.roll {
+  stroke: var(--curl-dark);
+  stroke-width: 0.6;
+  vector-effect: non-scaling-stroke;
+}
+
+.rollUnder {
+  stop-color: var(--paper-shadow);
+  stop-opacity: 0.85;
+}
+
+.rollDark {
+  stop-color: var(--curl-dark);
+}
+
+.rollCrest {
+  stop-color: var(--curl-light);
+}
+
+.rollPaper {
+  stop-color: var(--paper);
+}
+
+.rollFold {
+  stop-color: var(--panel);
+}
+
+.rollEnd {
+  fill: var(--panel);
+  stroke: var(--curl-dark);
+  stroke-width: 0.8;
+  vector-effect: non-scaling-stroke;
+}
+
+.rollSpiral {
+  fill: none;
+  stroke: var(--curl-dark);
+  stroke-width: 0.6;
+  opacity: 0.7;
+  vector-effect: non-scaling-stroke;
+}

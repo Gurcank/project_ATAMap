@@ -1,61 +1,72 @@
+/*
+ * Bottom-centre controls (2026-11-17): a row of cardboard buttons and the chronology line.
+ *   < 48rem   the line on its own row across the strip, the buttons under it
+ *   >= 48rem  buttons on the left, the line filling the rest, the position at the end
+ */
 .controls {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  gap: var(--space-8) var(--space-16);
+}
+
+.buttons {
+  display: flex;
   gap: var(--space-8);
 }
 
-.button,
-.select {
-  min-width: var(--hit-target-min);
-  min-height: var(--hit-target-min);
-  /* 375 px: four controls and the counter share one row (SPEC §4.3). */
-  padding: 0 var(--space-8);
-  font-family: var(--font-ui);
-  font-size: var(--text-14);
-  color: var(--ink);
-  background: var(--paper);
-  border: var(--rule-width) solid var(--ink);
-  cursor: pointer;
+/* Square buttons; the cardboard look is the shared .board-button (global.css). */
+.button {
+  width: var(--hit-target-min);
+  height: var(--hit-target-min);
+  padding: 0;
+  font-family: var(--font-display);
 }
 
-.button:hover:not(:disabled),
-.select:hover {
-  background: var(--panel);
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
 }
 
-/* First/last step: the button stays but is visibly dimmed (SPEC §4.2). */
-.button:disabled {
-  color: var(--ink-muted);
-  border-color: var(--ink-muted);
-  cursor: default;
-  opacity: 0.55;
+/* Play is the main control: a little wider, and its icon turns to the accent while running. */
+.play {
+  width: calc(var(--hit-target-min) + var(--space-12));
 }
 
-.on {
+.play[aria-pressed='true'] {
   color: var(--accent-text);
-  background: var(--panel);
-  border-width: 2px;
 }
 
-.mode {
-  display: inline-flex;
-}
-
-.position {
-  margin-left: auto;
+.speed {
   font-size: var(--text-14);
+  font-variant-numeric: oldstyle-nums;
+}
+
+.speed[aria-pressed='true'] {
+  color: var(--accent-text);
+}
+
+/* From 768 up; at 375 the chronology line shows the position and the credits use this place. */
+.position {
+  display: none;
+  font-size: var(--text-12);
+  font-variant-numeric: tabular-nums;
   color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+.controls {
+  justify-content: space-between;
 }
 
 @media (min-width: 48rem) {
-  .button,
-  .select {
-    padding: 0 var(--space-12);
-    font-size: var(--text-16);
+  .controls {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
   }
 
   .position {
-    margin-left: var(--space-4);
+    display: inline;
   }
 }

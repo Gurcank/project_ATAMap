@@ -1,26 +1,35 @@
+/*
+ * The year, printed on the map rather than framed (2026-11-17): IM Fell English letterpress figures
+ * in ink, multiplied into the paper so the grain shows through like a real impression. A faint
+ * paper halo keeps it legible over coastlines. Bottom left of the dock from 768 up.
+ */
 .year {
   display: flex;
   align-items: baseline;
   gap: var(--space-8);
-  overflow: hidden; /* the sliding digits stay inside the frame */
-  font-family: var(--font-display);
-  font-variant-numeric: oldstyle-nums;
-  line-height: 1;
+  overflow: hidden; /* the sliding digits stay inside their line */
+  line-height: 0.9;
 }
 
 .digits {
   display: inline-block;
+  font-family: var(--font-year);
   font-size: var(--text-39);
+  letter-spacing: 0.02em;
+  color: var(--ink);
+  text-shadow:
+    0 0 0.15em var(--land),
+    0 0 0.35em var(--land);
+  mix-blend-mode: multiply;
   animation: slide-in var(--dur-year) var(--ease-ink);
 }
 
-/* "yaklaşık" is a badge in --ink-muted, not part of the number (SPEC §2.3). */
+/* "yaklaşık" stays small and muted, beside the number, never part of it (SPEC §2.3). */
 .badge {
-  font-family: var(--font-ui);
-  font-size: var(--text-12);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: var(--text-14);
   color: var(--ink-muted);
-  border: var(--rule-width) solid var(--ink-muted);
-  padding: 0 var(--space-4);
 }
 
 @keyframes slide-in {

@@ -1,6 +1,11 @@
-// SVG map (ADR-03): base layers in one <g transform> that d3-zoom moves (no re-projection while
-// panning); place labels and document markers sit outside it and are re-positioned from the same
-// transform, so their text and 44 px hit targets keep a constant size at any zoom.
+// SVG map (ADR-03), in two layers:
+//   base     the table, the sheet and the print, in map space, drawn at a committed transform. While
+//            the camera moves, this layer is only moved and scaled by a CSS transform (composited,
+//            no repaint), so the coast's water lines stay on screen; it is redrawn sharp once the
+//            camera rests, or sooner when the scale has drifted far (2026-11-17).
+//   overlay  routes, dispatches, place names and document markers in screen space, re-positioned
+//            from the live transform, so text and 44 px hit targets keep their size. d3-zoom listens
+//            on this layer.
 import { geoContains, geoPath } from 'd3-geo';
 import { interpolateZoom } from 'd3-interpolate';
 import { select } from 'd3-selection';
@@ -16,6 +21,7 @@ import {
   documentsState,
   openDocumentId,
   placeById,
+  reportStepAnimation,
 } from '../state/app.ts';
 import { DETAIL_ZOOM, fallbackBase, fetchBase, type Base } from './baseData.ts';
 import { BorderLayer } from './BorderLayer.tsx';
@@ -26,7 +32,8 @@ import { clearTextCache, textWidth, tokenPx } from './measure.ts';
 import { TransmissionLayer } from './TransmissionLayer.tsx';
 import styles from './MapCanvas.module.css';
 import { createProjection } from './projection.ts';
-import { regionOutline } from './region.ts';
+import { buildSheet } from './sheet.ts';
+import { SheetDefs, SheetOver, SheetUnder } from './SheetLayer.tsx';
 import { placeNameAt } from '../timeline/status.ts';
 
 /**
@@ -36,10 +43,16 @@ import { placeNameAt } from '../timeline/status.ts';
 const onLand = (point: [number, number]) =>
   fallbackBase.land.features.some((f) => geoContains(f, point));
 
-/** Zoom the camera settles at for a step, and the widest the user may zoom out/in. */
+/** Zoom the camera settles at for a step, and the closest the user may zoom in. */
 const STEP_ZOOM = 2.6;
-const MIN_ZOOM = 1;
 const MAX_ZOOM = 14;
+/** Furthest out: the whole sheet and a strip of table around it fit the screen. */
+const SHEET_FIT = 0.92;
+/** Table the camera may show beyond the sheet, as a share of the screen. */
+const TABLE_VIEW = 0.15;
+/** Redraw the base layer this long after the camera stops, or at once past this scale drift. */
+const COMMIT_DELAY = 140;
+const MAX_DRIFT = 1.6;
 /** Below this width the cartouches form one strip over the lower half (SPEC §4.3). */
 const COMPACT_WIDTH = 768;
 const MARKER_SPACING = 48;
@@ -74,6 +87,7 @@ function compactBand(node: SVGSVGElement): { top: number; bottom: number } | nul
 export function MapCanvas() {
   const wrap = useRef<HTMLDivElement>(null);
   const svg = useRef<SVGSVGElement>(null);
+  const baseSvg = useRef<SVGSVGElement>(null);
   const behavior = useRef<ZoomBehavior<SVGSVGElement, unknown> | null>(null);
   const [size, setSize] = useState<Size>({ w: 0, h: 0 });
   const [transform, setTransform] = useState(zoomIdentity);
@@ -87,9 +101,9 @@ export function MapCanvas() {
     });
   }, []);
   const camera = useRef(0);
-  // True while the map is being panned, zoomed or flown: the water lines are skipped then, since
-  // five wide strokes of the whole coast cost too much per frame (T6: 59 -> 27 fps at 375 px).
-  const [moving, setMoving] = useState(false);
+  // The transform the base layer is drawn at; the live `transform` differs from it while moving.
+  const [committed, setCommitted] = useState(zoomIdentity);
+  const committedRef = useRef(zoomIdentity);
   const settle = useRef<ReturnType<typeof setTimeout> | undefined>(undefined);
 
   // Size follows the container (no fixed viewBox: the projection is fitted to the real pixels).
@@ -135,19 +149,30 @@ export function MapCanvas() {
     const d = (fc: Base['land']) => fc.features.map((f) => path(f) ?? '').join('');
     return { land: d(base.land), lakes: d(base.lakes) };
   }, [projection, base]);
+  const sheet = useMemo(() => (projection ? buildSheet(projection) : null), [projection]);
+  const minZoom = sheet
+    ? Math.min(
+        (size.w * SHEET_FIT) / (sheet.paper.x1 - sheet.paper.x0),
+        (size.h * SHEET_FIT) / (sheet.paper.y1 - sheet.paper.y0),
+      )
+    : 1;
 
   // d3-zoom behaviour: created once, its extent follows the size.
   useEffect(() => {
     const node = svg.current;
     if (!node) return;
-    const z = d3zoom<SVGSVGElement, unknown>()
-      .scaleExtent([MIN_ZOOM, MAX_ZOOM])
-      .on('zoom', (event) => {
-        setTransform(event.transform);
-        setMoving(true);
-        clearTimeout(settle.current);
-        settle.current = setTimeout(() => setMoving(false), 180);
-      });
+    const commit = (t: typeof zoomIdentity) => {
+      committedRef.current = t;
+      setCommitted(t);
+    };
+    const z = d3zoom<SVGSVGElement, unknown>().on('zoom', (event) => {
+      const t = event.transform as typeof zoomIdentity;
+      setTransform(t);
+      clearTimeout(settle.current);
+      const drift = t.k / committedRef.current.k;
+      if (drift > MAX_DRIFT || drift < 1 / MAX_DRIFT) commit(t);
+      else settle.current = setTimeout(() => commit(t), COMMIT_DELAY);
+    });
     behavior.current = z;
     select(node).call(z);
     return () => {
@@ -155,22 +180,33 @@ export function MapCanvas() {
       behavior.current = null;
     };
   }, []);
-  // Panning is limited to the clipped base map: past it there is only blank sea.
+  // The camera stays over the sheet, with a little table showing past its edges at most.
   useEffect(() => {
     const z = behavior.current;
-    if (!z || !projection) return;
-    const [[x0, y0], [x1, y1]] = geoPath(projection).bounds({
-      type: 'MultiPoint',
-      coordinates: regionOutline(),
-    });
-    z.extent([
-      [0, 0],
-      [size.w, size.h],
-    ]).translateExtent([
-      [x0, y0],
-      [x1, y1],
-    ]);
-  }, [projection, size.w, size.h]);
+    if (!z || !sheet) return;
+    const { x0, y0, x1, y1 } = sheet.paper;
+    const padX = (size.w * TABLE_VIEW) / minZoom;
+    const padY = (size.h * TABLE_VIEW) / minZoom;
+    z.scaleExtent([minZoom, MAX_ZOOM])
+      .extent([
+        [0, 0],
+        [size.w, size.h],
+      ])
+      .translateExtent([
+        [x0 - padX, y0 - padY],
+        [x1 + padX, y1 + padY],
+      ]);
+  }, [sheet, minZoom, size.w, size.h]);
+
+  // While moving, the base layer is only moved and scaled from where it was drawn.
+  useEffect(() => {
+    const node = baseSvg.current;
+    if (!node) return;
+    const scale = transform.k / committed.k;
+    const dx = transform.x - scale * committed.x;
+    const dy = transform.y - scale * committed.y;
+    node.style.setProperty('transform', `translate(${dx}px, ${dy}px) scale(${scale})`);
+  }, [transform, committed]);
 
   const place = currentPlace.value;
   const event = currentEvent.value;
@@ -241,7 +277,7 @@ export function MapCanvas() {
     const boxW = focus.x1 - focus.x0;
     const boxH = focus.y1 - focus.y0;
     const fit = Math.min((size.w * 0.8) / Math.max(boxW, 1), (visibleH * 0.9) / Math.max(boxH, 1));
-    const k = Math.max(MIN_ZOOM, Math.min(STEP_ZOOM, fit));
+    const k = Math.max(minZoom, Math.min(STEP_ZOOM, fit));
     const cx = (focus.x0 + focus.x1) / 2;
     const cy = (focus.y0 + focus.y1) / 2;
     const from = zoomTransform(node);
@@ -271,7 +307,7 @@ export function MapCanvas() {
     };
     camera.current = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(camera.current);
-  }, [focus, size.w, size.h]);
+  }, [focus, size.w, size.h, minZoom]);
 
   const project = (c: [number, number]): [number, number] | null => {
     const xy = projection?.(c);
@@ -333,16 +369,16 @@ export function MapCanvas() {
 
   return (
     <div class={styles.wrap} ref={wrap}>
-      <svg
-        ref={svg}
-        class={styles.svg}
-        width={size.w}
-        height={size.h}
-        role="group"
-        aria-label="Harita: dönem altlığı üzerinde olayın yeri"
-      >
+      <svg ref={baseSvg} class={styles.base} width={size.w} height={size.h} aria-hidden="true">
         <defs>
           {paths && <path id="land-shape" class={styles.shape} d={paths.land} />}
+          {/* Land only: the territory colour and its coastal brush stroke stop at the base map's
+              own coast, so they never double the coastline (BorderLayer). */}
+          {paths && (
+            <clipPath id="land-clip">
+              <use href="#land-shape" />
+            </clipPath>
+          )}
           {/* Hatching for approximate or occupied borders (SPEC §3.1, A14). */}
           <pattern
             id="hatch"
@@ -353,24 +389,41 @@ export function MapCanvas() {
           >
             <path class={styles.hatch} d="M0 0V7" />
           </pattern>
+          {sheet && <SheetDefs sheet={sheet} k={committed.k} />}
         </defs>
-        <rect class={styles.sea} width={size.w} height={size.h} />
-        {paths && projection && (
-          <g class={styles.viewport} transform={transform.toString()}>
-            {/* Engraver's water lines: two thin strokes parallel to every coast (SPEC §3.2). */}
-            {!moving && (
-              <>
-                <use href="#land-shape" class={styles.waterOuterInk} />
-                <use href="#land-shape" class={styles.waterOuterSea} />
-                <use href="#land-shape" class={styles.waterInnerInk} />
-                <use href="#land-shape" class={styles.waterInnerSea} />
-              </>
-            )}
-            <use href="#land-shape" class={styles.land} />
-            <path class={styles.lakes} d={paths.lakes} />
-            <BorderLayer borders={activeBorders.value} projection={projection} />
+        {paths && projection && sheet && (
+          <g transform={committed.toString()}>
+            <SheetUnder sheet={sheet} k={committed.k} />
+            {/* The print, inside the atlas neatline. */}
+            <g clip-path="url(#frame-clip)">
+              <rect
+                class={styles.sea}
+                x={sheet.frameBox.x0}
+                y={sheet.frameBox.y0}
+                width={sheet.frameBox.x1 - sheet.frameBox.x0}
+                height={sheet.frameBox.y1 - sheet.frameBox.y0}
+              />
+              {/* Engraver's water lines: two thin strokes parallel to every coast (SPEC §3.2). */}
+              <use href="#land-shape" class={styles.waterOuterInk} />
+              <use href="#land-shape" class={styles.waterOuterSea} />
+              <use href="#land-shape" class={styles.waterInnerInk} />
+              <use href="#land-shape" class={styles.waterInnerSea} />
+              <use href="#land-shape" class={styles.land} />
+              <path class={styles.lakes} d={paths.lakes} />
+              <BorderLayer borders={activeBorders.value} projection={projection} />
+            </g>
+            <SheetOver sheet={sheet} k={committed.k} />
           </g>
         )}
+      </svg>
+      <svg
+        ref={svg}
+        class={styles.svg}
+        width={size.w}
+        height={size.h}
+        role="group"
+        aria-label="Harita: dönem altlığı üzerinde olayın yeri"
+      >
         {projection && (
           <g class={styles.overlay}>
             {journey && (
@@ -384,6 +437,7 @@ export function MapCanvas() {
                 height={size.h}
                 onLand={onLand}
                 avoid={routeAvoid}
+                onAnimation={(ms) => event && reportStepAnimation(event.id, ms)}
               />
             )}
             <TransmissionLayer
@@ -392,6 +446,7 @@ export function MapCanvas() {
               project={project}
               stepKey={event?.id ?? ''}
               reduced={reduced}
+              onAnimation={(ms) => event && reportStepAnimation(event.id, ms)}
             />
             {dots.map(({ place: p, x, y }) => {
               const spot = spots.get(p.id);
@@ -418,6 +473,8 @@ export function MapCanvas() {
           </g>
         )}
       </svg>
+      {/* The camera's own vignette: it stays on screen while the table moves under it. */}
+      <div class={styles.vignette} aria-hidden="true" />
       {/* The step's place and documents in words, for screen readers (the map is a picture). */}
       <p class="visually-hidden" aria-live="polite">
         {event && place ? `${nameOf(place)}: ${event.title}` : ''}

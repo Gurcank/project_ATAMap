@@ -28,7 +28,8 @@
     "e2e": "playwright test",
     "check:tokens": "node scripts/check-tokens.ts",
     "check:size": "node scripts/check-size.ts",
-    "check": "npm run typecheck && npm run lint && npm run check:tokens && npm run test && vite build && npm run check:size"
+    "check": "npm run typecheck && npm run lint && npm run check:tokens && npm run test && vite build && npm run check:size",
+    "build:fonts": "node scripts/subset-fonts.ts"
   },
   "dependencies": {
     "@fontsource/alegreya-sans": "5.3.0",
@@ -47,6 +48,7 @@
     "@axe-core/playwright": "4.13.0",
     "@babel/core": "7.29.7",
     "@eslint/js": "10.0.1",
+    "@fontsource/im-fell-english": "5.3.0",
     "@playwright/test": "1.64.0",
     "@preact/preset-vite": "2.10.6",
     "@types/d3-geo": "3.1.1",
@@ -63,6 +65,7 @@
     "mapshaper": "0.7.85",
     "pdfjs-dist": "6.4.299",
     "prettier": "3.9.10",
+    "subset-font": "2.9.0",
     "topojson-server": "3.0.1",
     "typescript": "6.0.3",
     "typescript-eslint": "8.71.2",

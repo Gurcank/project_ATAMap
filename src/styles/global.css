@@ -10,8 +10,16 @@ body {
   height: 100%;
 }
 
+/* The tent: a worn field table under the lamp, darker towards the screen edges (SPEC §3.1). */
 body {
-  background: var(--paper);
+  background:
+    radial-gradient(
+      ellipse 120% 90% at 50% 35%,
+      transparent 40%,
+      color-mix(in srgb, var(--tent-shade) 80%, transparent) 100%
+    ),
+    var(--texture-wood) 0 0 / 24rem repeat,
+    var(--table);
   color: var(--ink);
   font-family: var(--font-ui);
   font-size: var(--text-16);
@@ -31,16 +39,121 @@ body {
 }
 
 /*
- * Shared cartouche frame: flat paper fill, 1 px double rule with a 4 px gap, no drop shadow
- * (SPEC §3.1, §3.4). The inner rule is drawn with inset box-shadows, which stay flat.
+ * Shared card (2026-11-17, SPEC A36): a field-file card of manila stock lying on the map, a thin cut
+ * edge and a soft contact shadow, no printed frame. Headings are typed (.typed). The custom
+ * properties let the dock repeat the look on its children from 768 up without copying values.
  */
+:root {
+  --card-fill: var(--texture-paper) center / 32rem, var(--manila);
+  --card-shadow:
+    0 1px 1px color-mix(in srgb, var(--paper-shadow) 30%, transparent),
+    0 0.5rem 1.25rem -0.5rem color-mix(in srgb, var(--paper-shadow) 55%, transparent);
+}
+
 .cartouche {
-  background: var(--paper);
-  border: var(--rule-width) solid var(--ink);
-  box-shadow:
-    inset 0 0 0 var(--rule-gap) var(--paper),
-    inset 0 0 0 calc(var(--rule-gap) + var(--rule-width)) var(--ink);
+  position: relative;
+  background: var(--card-fill);
+  background-blend-mode: multiply;
+  border: var(--rule-width) solid var(--card-edge);
+  border-radius: 2px;
+  box-shadow: var(--card-shadow);
   padding: var(--space-16) var(--space-24);
+}
+
+/* Typewritten heading or label, as on an army form. */
+.typed {
+  font-family: var(--font-telegram);
+  font-size: var(--text-12);
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* A brass paper clip over the card's top edge (shape as a mask, colour from the token). */
+.paper-clip::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: calc(-1 * var(--space-12));
+  left: var(--space-16);
+  width: 0.75rem;
+  height: 2.25rem;
+  background: var(--clip-metal);
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 40'%3E%3Cpath d='M5 14V6.5a2.5 2.5 0 0 1 5 0V30a4.5 4.5 0 0 1-9 0V4.5a3.5 3.5 0 0 1 7 0' fill='none' stroke='black' stroke-width='1.7' stroke-linecap='round'/%3E%3C/svg%3E")
+    center / contain no-repeat;
+  filter: drop-shadow(0 1px 1px color-mix(in srgb, var(--paper-shadow) 60%, transparent));
+  pointer-events: none;
+}
+
+/* A drawing pin through the card's top edge. */
+.drawing-pin::before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: calc(-1 * var(--space-4));
+  left: 50%;
+  width: var(--space-12);
+  height: var(--space-12);
+  margin-left: calc(-1 * var(--space-4) - 2px);
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 35% 35%,
+    var(--curl-light) 0 15%,
+    var(--clip-metal) 45%,
+    var(--curl-dark) 100%
+  );
+  box-shadow: 1px 2px 2px color-mix(in srgb, var(--paper-shadow) 55%, transparent);
+  pointer-events: none;
+}
+
+/*
+ * Cardboard control (2026-11-17): thick card whose cut edge shows as a band under the face;
+ * pressing pushes the face down onto it. Used by the step controls and the reading panel.
+ */
+.board-button {
+  display: inline-grid;
+  place-items: center;
+  min-width: var(--hit-target-min);
+  min-height: var(--hit-target-min);
+  padding: 0 var(--space-12);
+  font-family: var(--font-ui);
+  font-size: var(--text-16);
+  color: var(--ink);
+  background: var(--card-fill);
+  background-blend-mode: multiply;
+  border: var(--rule-width) solid var(--ink-muted);
+  border-radius: 3px;
+  box-shadow:
+    0 3px 0 var(--card-edge),
+    0 3px 0 var(--rule-width) var(--ink-muted),
+    0 0.5rem 0.75rem -0.375rem color-mix(in srgb, var(--paper-shadow) 70%, transparent);
+  cursor: pointer;
+  transition:
+    transform var(--dur-press) ease-out,
+    box-shadow var(--dur-press) ease-out;
+}
+
+.board-button:hover:not(:disabled) {
+  background:
+    var(--texture-paper) center / 32rem,
+    var(--panel);
+  background-blend-mode: multiply;
+}
+
+.board-button:active:not(:disabled),
+.board-button[aria-pressed='true'] {
+  transform: translateY(2px);
+  box-shadow:
+    0 1px 0 var(--card-edge),
+    0 1px 0 var(--rule-width) var(--ink-muted),
+    0 0.25rem 0.375rem -0.25rem color-mix(in srgb, var(--paper-shadow) 70%, transparent);
+}
+
+/* First/last step: the control stays but is visibly dimmed (SPEC §4.2). */
+.board-button:disabled {
+  color: var(--ink-muted);
+  cursor: default;
+  opacity: 0.5;
 }
 
 .visually-hidden {
@@ -55,7 +168,7 @@ body {
 /* ---- First-load state (SPEC §4.2): same markup in index.html and LoadingShell ---- */
 .loading {
   position: absolute;
-  inset: 0;
+  inset: var(--table-margin);
   display: grid;
   place-items: center;
   background: var(--paper);
@@ -92,19 +205,18 @@ body {
   }
 }
 
-/* Top-left column (SPEC §3.5, A29): status cartouche, site name, attribution. Stacked in one flow so
-   the lower two follow the cartouche whatever its height (two to six rows). Same width as the
-   cartouche from 768 up. The gaps between the items let the map take the pointer. */
+/* Top-left column (SPEC §3.5, A29): the status card (the site name and credits moved to the
+   bottom-right strip, 2026-11-17). The column lets the map take the pointer around the card. */
 .corner {
   position: absolute;
   z-index: 2; /* over the map and the full-bleed loading layer, under the document panel */
-  top: var(--space-16);
-  left: var(--space-16);
+  top: calc(var(--table-margin) + var(--space-8));
+  left: calc(var(--table-margin) + var(--space-8));
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: var(--space-8);
-  width: min(20rem, calc(100% - 2 * var(--space-16)));
+  width: min(20rem, calc(100% - 2 * (var(--table-margin) + var(--space-8))));
   pointer-events: none;
 }
 
@@ -114,24 +226,17 @@ body {
 
 @media (min-width: 48rem) {
   .corner {
-    top: var(--space-24);
-    left: var(--space-24);
-    width: 18rem;
+    top: calc(var(--table-margin) + var(--space-16));
+    left: calc(var(--table-margin) + var(--space-16));
+    width: 14rem;
   }
 }
 
 @media (min-width: 80rem) {
   .corner {
-    left: var(--space-32);
-    width: 20rem;
+    left: calc(var(--table-margin) + var(--gutter));
+    width: 15rem;
   }
-}
-
-.site-kunye {
-  margin: 0;
-  font-family: var(--font-display);
-  font-size: var(--text-14);
-  color: var(--ink-muted);
 }
 
 /* First-load frame of the status cartouche, 768 and up (SPEC §4.2). At 375 the toggle's place stays

@@ -5,7 +5,7 @@
  *   768   a panel on the right edge, no backdrop. A4 runs from the top gutter down to just above
  *         the step controls (--panel-floor, measured in DocumentSheet.tsx) so they stay whole; the
  *         card is as tall as its content, at the top.
- *   1280  the A4 panel takes the A4 width for its height (1 : 1.414) up to 36rem.
+ *   1280  the A4 panel takes the A4 width for its height (1 : 1.414) up to 30rem.
  */
 .backdrop {
   position: fixed;
@@ -23,37 +23,46 @@
   flex-direction: column;
   padding: var(--space-48) var(--space-24) var(--space-24);
   overflow: hidden;
-  background: var(--paper);
+  /* The same paper as the map and cards, lying on the sheet with a deeper shadow (2026-11-17). */
+  background:
+    var(--texture-paper) center / 32rem,
+    var(--paper);
+  background-blend-mode: multiply;
   color: var(--ink);
   border: var(--rule-width) solid var(--ink);
+  outline: var(--rule-width) solid var(--ink);
+  outline-offset: calc(-1 * (var(--rule-gap) + 2 * var(--rule-width)));
   box-shadow:
-    inset 0 0 0 var(--rule-gap) var(--paper),
-    inset 0 0 0 calc(var(--rule-gap) + var(--rule-width)) var(--ink);
+    0 1px 2px color-mix(in srgb, var(--paper-shadow) 35%, transparent),
+    0 1rem 2.5rem -0.75rem color-mix(in srgb, var(--paper-shadow) 75%, transparent);
   font-family: var(--font-letter);
   animation: sheet-in var(--dur-sheet) var(--ease-ink);
 }
 
+/* Focus lands on the panel itself; its printed frame already shows where it is. */
 .sheet:focus-visible {
-  outline: none;
+  outline: var(--rule-width) solid var(--ink);
 }
 
 .telegram {
   font-family: var(--font-telegram);
 }
 
+/* A telegram form's printed heading: the title between two rules, in spaced capitals. */
+.telegram .title {
+  padding: var(--space-4) 0;
+  border-block: var(--rule-width) solid var(--telegram);
+  font-family: var(--font-display);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--telegram);
+}
+
+/* The cardboard look is the shared .board-button (global.css). */
 .close {
   position: absolute;
-  top: var(--space-8);
-  right: var(--space-8);
-  min-width: var(--hit-target-min);
-  min-height: var(--hit-target-min);
-  padding: 0 var(--space-12);
-  font-family: var(--font-ui);
-  font-size: var(--text-16);
-  color: var(--ink);
-  background: var(--paper);
-  border: var(--rule-width) solid var(--ink);
-  cursor: pointer;
+  top: var(--space-12);
+  right: var(--space-12);
 }
 
 .badge {
@@ -169,10 +178,15 @@
   }
 
   .sheet {
-    inset: var(--space-24) var(--space-24)
+    inset: calc(var(--table-margin) + var(--space-16)) calc(var(--table-margin) + var(--space-16))
       calc(var(--panel-floor, var(--space-8)) + var(--space-16)) auto;
-    width: min(26rem, 55vw);
+    width: min(22rem, 55vw);
     animation-name: sheet-in;
+  }
+
+  /* The full text keeps a reading width; only the citation card got narrower (2026-11-17). */
+  .a4 {
+    width: min(26rem, 55vw);
   }
 
   .card {
@@ -182,10 +196,15 @@
 
 @media (min-width: 80rem) {
   .sheet {
-    right: var(--space-32);
+    right: calc(var(--table-margin) + var(--gutter));
   }
 
   .a4 {
-    width: min(calc((100dvh - 2 * var(--space-24)) / 1.414), 36rem);
+    width: min(calc((100dvh - 2 * var(--space-24)) / 1.414), 30rem);
   }
+}
+
+/* The panel clips its overflow, so its paper clip sits just inside the top edge. */
+.sheet::before {
+  top: var(--space-4);
 }

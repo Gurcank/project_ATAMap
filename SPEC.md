@@ -8,6 +8,12 @@
 
 | Tarih | Yer | Değişiklik | Gerekçe |
 |---|---|---|---|
+| 2026-11-18 | §3.1, §3.3, §3.5, §4, §4.3, §9.2 A31, A35, A36, A42-A45 | Kamera masanın üstünde gezer: kâğıt, doku, lamba ışığı ve masa haritayla birlikte hareket eder; basılı harita derece işaretli atlas çerçevesiyle (konik projeksiyonda yelpaze biçimi) biter; rulolar kâğıdın kendi kenarında, gerçekçi gölgeli. Kıyı su çizgileri kaydırırken de görünür. Rotalar duraklardan geçen yumuşak eğri, seyahat başına tek "yaklaşık rota" etiketi ("(deniz)" kalktı). Kronoloji radyo frekans kadranı; alt paneller alt kenara yakın. Paneller askerî evrak fişi (manila, ataş/raptiye, daktilo başlık, form satırları). "ATAMap · Kaynakça" ekranın altındaki sabit ahşap şeritte. IM Fell yalnız rakamlara kırpıldı (3,3 KB), Courier Prime açılışta yüklenir | Kullanıcı istekleri ve plan onayı (2026-11-17) |
+| 2026-11-17 | §4.3, §9.2 A41 | Paneller yaklaşık dörtte bir küçüldü: durum 15rem/14rem, olay 18rem/16rem, kontroller 30rem, künye kartı 22rem, A4 en çok 30rem; olay metni 14 px, başlık 16 px, yaş 31 px. Düğmeler 44 px kaldı (dokunma hedefi). Kısa kronoloji çizgisinde yalnız 1881 ve 1938 yazılır | Kullanıcı: "panellerin boyutu çok büyük"; ölçüler onaylandı (2026-11-17) |
+| 2026-11-17 | §3.1, §3.2, §3.3, §3.5, §4, §4.3, §5.2 M1-M4, M6 | Görsel yenileme: harita askerî çadırda masaya serilmiş eski bir harita (ahşap masa payı, kıvrık sağ-sol kenar, lamba ışığı, kâğıt dokusu); ışık ve gölge serbest (önceki: "gölge yok, gradient yok"). Paneller tek kâğıt-fiş dili; yıl çerçevesiz, IM Fell English rakamlarla; kontroller ikonlu mukavva düğme + kronoloji çizgisi + hız (1×/2×); kaynakça sağ altta "Kaynakça" düğmesinin arkasında, olay kartında "Kaynakça (n)"; harita işaretleri gölgeli nesne; telgraf direkli hat ve varış halkası, mektup mühür basma, araçlara duman/toz/dümen suyu | Kullanıcı kararları (2026-11-17), A35-A40 |
+| 2026-11-17 | §5.1, §9.2 A2 | Adım birimleri (Olay/Seyahat/Yıl) kaldırıldı, her olay bir adım; A2 formülü: (animasyon + okuma) / hız, okuma 30 ms/karakter, 1,5-5 s; seyahatte araç varmadan geçilmez | Kullanıcı kararı A37 (2026-11-17) |
+| 2026-11-17 | §4 MapCanvas, 2026-11-16 kaydı | Dönem sınırı kıyılarda da görünür: toprağa el boyası, sınırın içine boya şeridi; kıyıda şerit altlığın kendi kıyı çizgisini izler (çift çizgi olmaz) | Kullanıcı kararı A38 (2026-11-17) |
+| 2026-11-17 | §2.1, §2.3, §4, §6 (`GlossaryEntry`, kural 12) | Eski kelime sözlüğü: üzerine gelince açılan kart, belge tam metinlerinde de (metin değişmez); anlam resmî kaynaktan ya da 2 bağımsız kaynaktan, açıklama bizim cümlemiz, kullanıcı onayına kadar `verified: false` | Kullanıcı kararları A39-A40 (2026-11-17) |
 | 2026-10-27 | §4.2, §10 adım 10 | "altlık karoları" → "altlık dosyası" | Karo kullanılmıyor; altlık TopoJSON dosyaları ([ARCHITECTURE](ARCHITECTURE.md) ADR-05) |
 | 2026-10-27 | §6 giriş notu | Şemanın kesin hâli ve ek alanlar belirtildi | ARCHITECTURE ADR-07, ADR-08 |
 | 2026-10-27 | §7 altlık satırı | "İlk görünüm karoları" → "İlk görünüm altlığı (50m)" | ADR-05 |
@@ -56,6 +62,7 @@
 - **Telifli sayılanlar:** yeni transkripsiyonlar, günümüz Türkçesine sadeleştirmeler, editör katkıları, araştırmacı kitapları, fotoğraflar, stilize "Atatürk imzası" çizimi.
 - **Sonuç:** Aslı Arap harfli belgelerin (Harf İnkılabı öncesi) yayımlanmış transkripsiyonları telifli sayılır. Kendi transkripsiyonumuzu yapmak da yasak (§2 tablo). Bu nedenle bu belgeler **tam metinsiz** gösterilir: tarih, yer, gönderen, alıcı ve künye görünür (§4.2 "künye kartı").
 - Bu karar, Faz 1'deki "öncelik: günümüz Türkçesi > eski Türkçe > Osmanlıca" kuralını **kaldırır**.
+- **Sözlük istisnası (2026-11-17, A39):** Belge metni değiştirilmez. Metindeki eski bir kelimenin altı noktalı çizilebilir; açıklaması metnin dışında, üzerine gelince açılan ayrı bir kartta durur. Açıklama bizim cümlemizdir (§2.3 bütçesi), anlamı kaynaktan gelir (§6 kural 12). Metin karakter karakter aynı kaldığı için bu, metne editör notu eklemek sayılmaz.
 - **Veri lisansları ayrı tutulur:** CShapes 2.0 (CC BY-NC-SA 4.0) ücretsizdir ve ticari olmayan kullanıma atıfla izin verir. Bu proje ticari değil (§1 bütçe), bu yüzden sınır geometrisi için kullanılır. Türettiğimiz sınır dosyaları da CC BY-NC-SA 4.0 ile yayımlanır.
 
 ### 2.2 Tarih ve yer doğrulama kuralı (kullanıcı kararı, 2026-10-27)
@@ -92,6 +99,7 @@
 | Belge metni (A4) | Sınırsız (kaynak ne ise) | Birebir kural; A4 içinde kaydırma |
 | Künye satırı | ≤ 2 satır | Kurum, yayın, cilt/sayfa, belge no |
 | Buton/araç ipucu | ≤ 3 kelime | "Önceki", "Sonraki", "Otomatik" |
+| Sözlük kartı *(2026-11-17)* | Anlam ≤ 200 karakter (≤ 2 cümle), "Bugün" ≤ 120 karakter | Kart kelimenin yanında açılır; kısa kalmalı |
 | Durum kartuşu alanları (rütbe, görev/unvan, yer) | Kaynakta yazıldığı gibi, kısaltılmaz *(2026-11-14)* | 768 ve üstünde satır kaydırır; 375'te açılır panelde tam görünür |
 
 ---
@@ -99,7 +107,7 @@
 ## 3. Tasarım yönü
 
 ### 3.1 Konsept
-**"Masada açık duran, elle renklendirilmiş bir 19. yüzyıl atlası."** Harita sararmış kâğıttır. Sınırlar ince el boyası çizgilerle, rotalar mürekkeple çizilir. Arayüz öğeleri (yıl, kontroller, olay metni) haritanın köşelerine yapıştırılmış **kartuşlar** gibi durur: düz kâğıt dolgu, ince çift çerçeve çizgisi, gölge yok. Modern UI kalıpları (cam efekti, yuvarlak kart gölgesi, gradient) **kullanılmaz**.
+**"Askerî bir çadırda, masaya serilmiş, elle renklendirilmiş eski bir harita."** *(2026-11-17, A35; önceki: "masada açık duran 19. yüzyıl atlası", gölge ve gradient yok)* Harita sararmış kâğıttır ve ekranda sabit durur; kaydırınca ve yakınlaşınca içindeki çizim hareket eder. Kâğıdın çevresinde ince bir ahşap masa payı görünür, sağ ve sol kenarları kıvrıktır, üstten sarı bir lamba ışığı düşer, köşelere doğru kararır. Kâğıt dokusu gerçek fotoğraftan (CC0) gelir. Sınırlar el boyası şeritlerle, rotalar mürekkeple çizilir. Arayüz öğeleri haritanın üstüne konmuş **kâğıt fişler** gibi durur: aynı kâğıt, ince çift baskı çerçevesi, yumuşak temas gölgesi. Düğmeler kalın mukavva gibidir: kesik kenarı kalınlık olarak görünür, basınca içeri çöker. Işık ve gölge bu sahneyi kurmak için kullanılır; cam efekti ve süs gradyanı **kullanılmaz**.
 
 ### 3.2 Palet
 
@@ -117,18 +125,23 @@ Kontrast oranları WCAG 2.x formülüyle hesaplandı (2026-10-26).
 | `--route` | `#B4561A` | Seyahat rotası, aktif araç | Paletteki tek doygun turuncu: hareketin rengi | land 3.21 (grafik ✓; **metin için kullanılmaz**) |
 | `--accent-text` | `#9A3F14` | Turuncu vurgulu metin (aktif mod adı vb.) | `--route`'un metinde AA geçen koyu karşılığı | paper 5.54 ✓ |
 | `--telegram` | `#7A2E12` | Telgraf işareti ve hattı | Koyu pas: mektuptan ayrışır, sınır çizgisiyle karışmaz | paper 7.70 |
-| `--letter` | `#8B6A2E` | Mektup işareti (mühür) | Okra/mum mühür tonu | paper 4.08 (grafik ✓) |
+| `--letter` | `#8B6A2E` | Mektup işareti ve yayı | Okra tonu | paper 4.08 (grafik ✓) |
+| `--seal` *(2026-11-17)* | `#8E2A1C` | Mektubun mum mührü | Kırmızı mum; telgraf pasından daha kırmızı, sepya içinde kalır | paper 6.86 (grafik ✓) |
+| `--territory-wash` *(2026-11-17)* | `#C97F4A`, %22 örtücülük | Osmanlı/Türkiye toprağının el boyası | Atlaslarda devlet toprağını ayıran soluk boya | dolgu; metin taşımaz |
+| `--territory-band` *(2026-11-17)* | `#A4532A`, %40 örtücülük | Sınırın içindeki boya şeridi (kara ve kıyı) | Boyanın kenarda koyulaşması | land 3.57 tam örtücülükte (grafik ✓) |
+| Sahne tonları *(2026-11-17)* | tokens.css: `--table`, `--tent-shade`, `--lamp`, `--shade`, `--curl-dark`, `--curl-light`, `--paper-shadow`, `--card-edge` | Masa, çadır loşluğu, lamba, kâğıt kararması, kıvrık kenar, gölgeler, mukavva kenarı | Işığı ve maddeyi kuran tonlar; hepsi sepya-kahve ailesinde | metin taşımaz |
 
-**Kurallar:** Ham hex yalnız token tanımında yazılır. Tek vurgu rengi `--route`. Sepya dışı renk yok; telgraf ve mektup ayrımı renk + **biçim** (ikon şekli) ile yapılır, yalnız renkle yapılmaz. Karanlık tema **yok** (§8). Kâğıt zaten "ışık"tır.
+**Kurallar:** Ham hex yalnız token tanımında yazılır. Tek vurgu rengi `--route`. Sepya dışı renk yok (mum mührü kırmızısı sepya içinde kalan tek sıcak ton, 2026-11-17); telgraf ve mektup ayrımı renk + **biçim** (ikon şekli) ile yapılır, yalnız renkle yapılmaz. Karanlık tema **yok** (§8). Kâğıt zaten "ışık"tır.
 
 ### 3.3 Tipografi
 
 | Rol | Font | Lisans | Gerekçe |
 |---|---|---|---|
-| Harita etiketleri, yıl göstergesi, başlıklar | **Old Standard TT** (normal + italik) | OFL | 19. yüzyıl sonu Avrupa kitap ve atlas baskısındaki modern-yüz (Didone) karakteri; dönemle uyumlu. İtalik su adları için kullanılır (atlas geleneği) |
+| Yıl göstergesi *(2026-11-17, A36; 2026-11-18: dosya rakamlara kırpıldı, 3,3 KB)* | **IM Fell English** (yalnız rakamlar, `unicode-range: U+0030-0039`) | OFL | 18-19. yüzyıl kurşun dizgi rakamları; mürekkep baskısı gibi hafif düzensiz. Türkçe glifi yok, bu yüzden yalnız rakamlarda kullanılır |
+| Harita etiketleri, başlıklar | **Old Standard TT** (normal + italik) | OFL | 19. yüzyıl sonu Avrupa kitap ve atlas baskısındaki modern-yüz (Didone) karakteri; dönemle uyumlu. İtalik su adları için kullanılır (atlas geleneği) |
 | Arayüz ve olay metni | **Alegreya Sans** | OFL | Hümanist sans: küçük puntoda okunur, Old Standard'ın sertliğini yumuşatır, kâğıt dokusunda "dijital" durmaz |
 | Mektup ve konuşma tam metni (A4) | **EB Garamond** | OFL | Uzun metin için klasik kitap yüzü; dönem kitap dizgisini çağrıştırır |
-| Telgraf tam metni (A4) | **Courier Prime** | OFL | Daktilo/telgraf formu hissi; mektuptan ilk bakışta ayrılır. Dönemsel yorumdur; onaylandı (A15, 2026-10-27) |
+| Telgraf tam metni (A4); panel başlık ve etiketleri *(2026-11-18, A45)* | **Courier Prime** | OFL | Daktilo/telgraf formu hissi; mektuptan ilk bakışta ayrılır. Dönemsel yorumdur; onaylandı (A15, 2026-10-27) |
 
 - Elenen: IM Fell English / DW Pica. Google Fonts metadata'sında yalnız `latin` alt kümesi var; Türkçe glif desteği yok sayıldı (SOURCES §5).
 - Tip ölçeği (1.25 oranlı, 16 px taban): 12 · 14 · 16 · 20 · 25 · 31 · 39 · 49 · 61 · 96 (yalnız yıl göstergesi, masaüstü).
@@ -141,13 +154,13 @@ Gerekçe: Kartuş çerçeveleri 1 px çift çizgi + 4 px ara kullanır, bu yüzd
 
 ### 3.5 Yerleşim konsepti
 - Tam ekran harita (`100dvh`). Arayüz yalnız alt kenarda, **asimetrik** üç kartuş:
-  - **Sol alt — Yıl:** büyük, dekoratif, haritanın "lejantı" gibi. Görsel ağırlık burada.
-  - **Orta alt — Kontroller:** küçük ve dar; önceki/sonraki + mod seçici + otomatik.
+  - **Sol alt — Yıl:** büyük, çerçevesiz; haritaya basılmış mürekkep rakam *(2026-11-17)*. Görsel ağırlık burada.
+  - **Orta alt — Kontroller:** mukavva ikon düğmeler (önceki, oynat/duraklat, sonraki, hız) ve kronoloji çizgisi *(2026-11-17; önceki: mod seçici)*.
   - **Sağ alt — Olay:** okunacak metin; en geniş kartuş.
 - Üç kartuş eşit genişlikte **değildir**, aynı taban çizgisine de oturmaz: yıl kartuşu en alçak, olay kartuşu en yüksek.
 - Sol üstte tek bir sütun durur *(2026-11-15, A29; önceki: künye sol üstte, durum sağ üstte; daha önce "Üst kenar boş")*:
   - **Durum:** yaş, rütbe, görev/unvan, bulunduğu yer. Yıl kartuşundan küçük ve görsel olarak hafif. Haritanın kendisi başlık olmayı sürdürür.
-  - Altında sitenin adı küçük bir künye olarak (yazı karakteriyle, logo yok), onun altında atıf satırı. İkisi kartuşun yüksekliğine göre aşağı akar.
+  - *(2026-11-17)* Sitenin adı ve atıflar sol üstten **sağ alt köşeye** taşındı: web haritalarındaki gibi tek satır "ATAMap · Kaynakça"; "Kaynakça" tıklanınca bütün atıflar yukarı doğru açılır.
 - **Sağ kenar — Okuma paneli:** mektup, telgraf ve konuşma işaretine gelince ya da dokununca açılır, belge kapanınca kaybolur (A29).
 
 ### 3.6 Akılda kalacak tek öğe
@@ -167,11 +180,13 @@ Tek ekran. Bileşenler:
 | `JourneyLayer` | Rota çizgisi + araç | Araç SVG'si rota üzerinde ilerler |
 | `DocumentSheet` (A4) | Tam metin + künye + rozetler | `role="dialog"`, en-boy 1:1.414. Yalnız aslı Latin harfli belgelerde |
 | `CitationCard` (künye kartı) | Tam metni gösterilemeyen belge: tür, tarih, gönderen, alıcı, künye + "Aslı Arap harfli; tam metin gösterilmiyor" notu | A4 ile aynı etkileşim, kartpostal boyutu. Gerekçe §2.1 |
-| `YearCartouche` (sol alt) | Yıl + "yaklaşık" rozeti | Yıl değişiminde rakam geçiş animasyonu |
-| `StepControls` (orta alt) | Önceki / Sonraki, adım birimi seçici (olay/seyahat/yıl), Otomatik | Klavye: ← → adım, Boşluk otomatik |
-| `EventCartouche` (sağ alt) | Olay başlığı + metni + kaynak bağlantısı | `aria-live="polite"` |
+| `YearCartouche` (sol alt) | Yıl + "yaklaşık" | Çerçevesiz, IM Fell English *(2026-11-17)*. Yıl değişiminde rakam geçiş animasyonu |
+| `StepControls` (orta alt) | Önceki / Oynat-Duraklat / Sonraki, Hız (1×/2×) *(2026-11-17)* | Mukavva ikon düğmeler; erişilebilir adları "Önceki", "Otomatik" (`aria-pressed`), "Sonraki", "Hız". Klavye: ← → adım, Boşluk otomatik |
+| `Timeline` (orta alt) *(2026-11-17)* | Kronoloji çizgisi: 1881-1938 gerçek zaman ölçeğinde, atlas ölçek çubuğu gibi; seyahatler üstte çentik | Yerel `<input type="range">` (gün başına bir değer), en yakın adıma oturur; sürüklerken tarih + başlık önizlemesi, bırakınca adım alınır. ← → bir adım, Page Up/Down yaklaşık bir yıl, Home/End uçlar |
+| `EventCartouche` (sağ alt) | Olay başlığı + metni; kaynaklar "Kaynakça (n)" açılır düğmesinin arkasında *(2026-11-17)* | `aria-live="polite"`; bağlantılar yeni sekmede |
+| `GlossaryText` *(2026-11-17)* | Eski kelimenin altı noktalı; üzerine gelince (150 ms) anlam + "Bugün" + kaynak kartı | Olay, durum ve belge panellerinde; panelde her terim bir kez işaretlenir. Dokununca/Enter açar, `Esc` kapatır, odak kelimeye döner |
 | `StatusCartouche` (sol üst, A29) *(2026-11-14)* | Yaş (+ "yaklaşık"), rütbe, görev/unvan, bulunduğu yer | Kartuş dili (§3.1). Verisi olmayan alan satırıyla birlikte gizlenir; dört alan da boşsa kartuş çizilmez. Birden çok görev geçerliyse hepsi başlama sırasıyla (A26). `aria-live` yok: adım değişimini `EventCartouche` zaten duyuruyor, ikinci canlı bölge duyuruyu ikiye katlar. `<section aria-label="Durum">` + `<dl>`. Animasyon yok: değerler adımla anında değişir |
-| `Attribution` | Altlık ve veri atıfları | Lisanslar gerektirdiği için zorunlu (SOURCES §3, §5) |
+| `Attribution` | Altlık ve veri atıfları | Lisanslar gerektirdiği için zorunlu (SOURCES §3, §5). Sağ alt köşede "ATAMap · Kaynakça"; tıklanınca açılır *(2026-11-17)* |
 
 ### 4.1 Etkileşim
 - **Masaüstü:** İşaretin üzerine gelince A4 açılır (hover niyeti: 150 ms). İmleç işaretten A4'e geçebilir. A4 açıkken içinde kaydırılabilir. İmleç ikisinden de çıkınca 300 ms sonra kapanır. `Esc` kapatır.
@@ -202,14 +217,16 @@ Tek ekran. Bileşenler:
 | Genişlik | Yerleşim |
 |---|---|
 | **375** | Kartuşlar tek bir alt şeritte birleşir: üst satırda yıl (39 px) + olay başlığı, altında olay metni (en fazla 5 satır; uzunsa "devamı" ile açılır), en altta kontroller (her biri ≥ 44 px). Mod seçici açılır menü olur. A4 sağdan kayan tam ekran sayfa olarak açılır, künye kartı alttan. Sol üstte yalnız yaşı gösteren durum düğmesi (≥ 44×44 px, `aria-expanded`; yaş yoksa etiket "Durum"); altında künye ve atıf (genişlik en çok 20rem). Dokununca dört alan haritanın, künyenin ve atıfın üstünde açılır; düğme, dışarıya dokunma veya `Esc` kapatır, odak düğmeye döner. Kamera adımı sol üst sütunla alt şerit arasındaki boş bandın ortasına yerleştirir *(2026-11-15, A29)*. Haritanın görünen alanı ≥ ekran yüksekliğinin %55'i (durum düğmesi kapalıyken ölçülür) |
-| **768** | Yıl sol alt, olay sağ alt (genişlik 320); kontroller ikisinin üstünde ortada. Durum kartuşu sol üstte, genişlik 18rem; künye ve atıf aynı genişlikte altında. Okuma paneli sağ kenarda, üstten alta (künye kartı içeriği kadar), genişlik `min(26rem, 55vw)` *(2026-11-15, A29)* |
-| **1280** | §3.5 tam asimetrik yerleşim. Durum kartuşu sol üstte, genişlik 20rem. Yıl 96 px. Olay kartuşu 360 px. A4 paneli sağ kenarda, ekran yüksekliğinde, A4 oranında genişlik (en çok 36rem) *(2026-11-15, A29)* |
+| **768** | Yıl sol alt, olay sağ alt (genişlik 16rem = 256 px); kontroller ikisinin üstünde ortada (en çok 30rem). Durum kartuşu sol üstte, genişlik 14rem; künye ve atıf sağ alt köşede. Okuma paneli sağ kenarda: künye kartı `min(22rem, 55vw)`, A4 `min(26rem, 55vw)` *(2026-11-17, A41; önceki: olay 320 px, durum 18rem, panel 26rem)* |
+| **1280** | §3.5 tam asimetrik yerleşim. Durum kartuşu sol üstte, genişlik 15rem (240 px). Yıl 96 px. Olay kartuşu 18rem (288 px). Kontroller en çok 30rem (480 px). A4 paneli sağ kenarda, ekran yüksekliğinde, A4 oranında genişlik (en çok 30rem) *(2026-11-17, A41; önceki: durum 20rem, olay 360 px, kontroller 38rem, A4 36rem)* |
 
 ---
 
 ## 5. Modlar ve animasyon envanteri
 
 ### 5.1 Modlar (verilmiş karar + açık karar)
+
+> **2026-11-17 (A37):** Adım birimleri kaldırıldı; her olay bir adımdır. Adım seçmek için kronoloji çizgisi kullanılır. Aşağıdaki Olay/Seyahat/Yıl maddeleri ve A4, A5 tarihçe için korunuyor.
 - **Adım** = bir olay. Kullanıcı adım birimini değiştirebilir:
   - **Olay:** her kayıt bir adım.
   - **Seyahat:** yalnız `Journey` kayıtları arasında atlar.
@@ -229,9 +246,9 @@ Açık (A1): mod değişince konumun nasıl korunacağı, okuma süresi formül�
 | # | Animasyon | Tetikleyici | Davranış | Süre (öneri) |
 |---|---|---|---|---|
 | M1 | Seyahat rotası çizimi | Seyahat adımı | Rota mürekkep gibi baştan sona çizilir (`--route`). Kaynakta güzergâh yoksa büyük daire yayı, daha soluk ve kesik çizilir, "yaklaşık rota" etiketi alır (A8) | Mesafeyle orantılı, 1,5-6 s |
-| M2 | Araç hareketi | M1 ile eşzamanlı | Aracın SVG'si rota üzerinde ilerler, yöne göre döner/aynalanır. Araçlar: **at, tren, gemi, otomobil, uçak**. Sade, stilize, gravür/siluet tarzı | M1 ile aynı |
-| M3 | Mektup gönderimi | Mektup adımı | Mühürlü zarf ikonu çıkış noktasından varış noktasına yay çizerek gider, varışta mühür izi kalır | 1,2 s |
-| M4 | Telgraf gönderimi | Telgraf adımı | İki nokta arasında ince düz hat çizilir, üzerinde nokta-çizgi darbesi ilerler | 0,8 s |
+| M2 | Araç hareketi | M1 ile eşzamanlı | Aracın SVG'si rota üzerinde ilerler, yöne göre döner/aynalanır. Araçlar: **at (binicili), tren, gemi, otomobil, uçak**. Sade, stilize, gravür/siluet tarzı. Yoldayken trende duman, atta toz, otomobilde egzoz, gemide duman ve dümen suyu; yönü gösterdikleri için var, varınca durur *(2026-11-17)* | M1 ile aynı |
+| M3 | Mektup gönderimi | Mektup adımı | Mühürlü zarf yay boyunca, yöne göre dönerek uçar; varışta zarf solar, alıcıda mum mührü büyükçe inip oturarak "basılır" ve kalır *(2026-11-17)* | 1,2 s + 0,5 s |
+| M4 | Telgraf gönderimi | Telgraf adımı | İki nokta arasına direkli tel çekilir, üzerinde sinyal ilerler; varışta alıcıdan bir halka yayılır *(2026-11-17)* | 0,8 s + 0,5 s |
 | M5 | Sınır değişimi | Adım tarihi bir `BorderChange` sınırını geçince | Eski çizgi solar, yeni çizgi belirir; değişen alan kısa süre taranır. İşgal bölgeleri kalıcı çapraz tarama ile gösterilir; sınırı kaba olanlar "yaklaşık" etiketlidir (A14) | 0,6 s |
 | M6 | Yıl göstergesi | Yıl değişince | Rakamlar dikey kayarak değişir | 0,4 s |
 | M7 | A4 açılışı | Hover/dokunma/Enter | Kâğıt sağ kenardan kayarak açılır; 375'te künye kartı alttan kayar *(2026-11-15, A29)*. Hareket azaltmada yalnız solma | 0,2 s |
@@ -390,6 +407,7 @@ interface Tenure {        // data/tenures.json
 9. `Tenure`: `start ≤ end`; `gorev` için `end` zorunlu; iki `rutbe` aralığı çakışmaz. Tarihleri kural 5'e tabidir. Kaynakta bulunmayan aralık yazılmaz. *(2026-11-14)*
 10. Vikipedi (`*.wikipedia.org`) kaynağı: URL'de `oldid` zorunlu, `rights: 'acik-lisans'`, `licence` dolu. Bir `DateValue` ya da `GeoPoint`'te en çok bir Vikipedi kaynağı bulunur. Kaynaklardan biri ötekinin `basedOn` listesindeyse ikisi bağımsız sayılmaz ve kural 5'te tek kaynak sayılır. *(2026-11-14)*
 11. URL'si yalnız ipucu olan bir siteye (§2.2 listesi) giden kaynak derlemeyi başarısız kılar. *(2026-11-14)*
+12. `GlossaryEntry` (data/glossary.json): anlamın kaynakları kural 5 ve 10'a tabidir (tek resmî kaynak ya da 2 bağımsız kaynak); bir terim (Türkçe küçük harfle) yalnız bir kayıtta bulunur; `verified === false` olan kayıt dışarıda kalır (kullanıcı açıklamayı onaylayana kadar). Alanlar: `id`, `terms` (temel biçim ve dönem yazımları), `exclude?` (aynı harflerle başlayan başka ifadeler), `meaning` (≤ 200), `today?` (≤ 120), `sources`, `verified`. *(2026-11-17)*
 
 ---
 
@@ -444,7 +462,7 @@ interface Tenure {        // data/tenures.json
 
 | # | Konu | Karar |
 |---|---|---|
-| A2 | Otomatik modda adım süresi | Animasyon süresi + olay metni uzunluğuna göre okuma süresi |
+| A2 | Otomatik modda adım süresi | Animasyon süresi + olay metni uzunluğuna göre okuma süresi. *Güncelleme 2026-11-17 (A37):* (animasyon + okuma) / hız; okuma 30 ms/karakter, en az 1,5 en çok 5 s; animasyon adımın gerçek süresi (seyahatte rotanın çizilmesi, mektup/telgrafta varış dahil); hız 1× ya da 2× |
 | A3 | Otomatik mod belge açar mı? | Açmaz; işaret vurgulanır, otomatik mod durmaz |
 | A4 | Yıl modunda kayıtsız yıllar | Atlanır |
 | A5 | Seyahat modunda seyahat dışı olaylar | Atlanır; işaretleri haritada kalır ve açılabilir |
@@ -473,9 +491,20 @@ interface Tenure {        // data/tenures.json
 | A27 | Resmî kaynak (K5, 2026-11-14) | Resmî ve güvenilir bir devlet kaynağı tek başına yeter: TBMM, Resmî Gazete ve mevzuat, Millî Savunma Bakanlığı (ata.msb.gov.tr dahil), Atatürk Araştırma Merkezi (atam.gov.tr ve Atatürk Ansiklopedisi dahil), Devlet Arşivleri Başkanlığı, Kara Harp Okulu, Türk Tarih Kurumu (Belleten dahil). Hakları saklı olanlardan yalnız olgu alınır. Çelişen kaynaklar varsa kayıt yine `doğrulanmadı` olur. Kural geriye dönük uygulanır: 1-10. partilerin adayları yeniden taranır |
 | A29 | Yerleşim (2026-11-15) | Sol üstte durum kartuşu; künye ve atıf satırı onun altında. Orta altta zaman düğmeleri. Mektup ve telgraf açılınca **sağda bir okuma paneli** açılır; panel sabit değildir, belge kapanınca kaybolur. A24'teki "sağ üst" ve §3.6'daki "gönderildiği şehrin yanında açılan A4" bu kararla değişti. 375 biçimi (onaylandı, 2026-11-15): sol üstte yaş düğmesi, altında künye ve atıf; belge sağdan tam ekran, künye kartı alttan; 768'den itibaren panel modal değil |
 | A30 | Nutuk'taki mektup ve telgraflar (2026-11-15) | Kimden, kime, ne zaman, nereden nereye: künye kartı olarak girer, haritada gönderildiği yerden alıcıya yay çizer. İçerik gösterilmez (aslı Arap harfli, İngilizce baskı çeviri; §2.1). Nutuk'un sayfa numarası kartta gösterilmez; doğrulama için kaynak kaydında kalır |
-| A31 | Deniz yolculukları (2026-11-15) | Düz çizgi karadan geçtiği için rota denize doğru kavisli çizilir ve "yaklaşık rota (deniz)" diye etiketlenir. Kavis çizim sırasında hesaplanır; yeni koordinat kaydedilmez (kural 3) |
+| A31 | Deniz yolculukları (2026-11-15) | Düz çizgi karadan geçtiği için rota denize doğru kavisli çizilir. Kavis çizim sırasında hesaplanır; yeni koordinat kaydedilmez (kural 3). *Güncelleme 2026-11-18 (A43):* etiket her seyahatte tek ve yalnız "yaklaşık rota"; "(deniz)" yazılmaz |
 | A32 | Seyahat araçları (2026-11-15) | Seyahat sırasında aracın simgesi (vapur, tren, at, otomobil, uçak) rota üzerinde ilerler. Hareket azaltmada simge rotanın ortasında sabit durur. Araç kaynakta yazmıyorsa etap girmez |
 | A33 | Dönem sınırları (2026-11-15) | Yalnız Osmanlı/Türkiye sınırı çizilir (komşular çizilmez). 1881-1885 için sınır yok (CShapes 1886'da başlar). 30 Mayıs - 29 Eylül 1913 arası sınır gösterilmez (Midye-Enez hattının kaynaklı çizimi yok; CShapes Edirne'yi yanlış gösteriyor). 1923-1938 Türkiye sınırı = CShapes bugünkü Türkiye eksi Hatay (1921 Ankara Antlaşması - 1939). Sevr ve işgal bölgeleri çizilmez. Tarihler resmî kaynaktan (MSB), geometri CShapes'ten |
+| A35 | Sahne (2026-11-17) | Askerî çadırda masaya serilmiş eski harita: ince ahşap masa payı, kıvrık sağ-sol kenar, lamba ışığı, köşelerde kararma; renkler sepya kalır ama zenginleşir (kâğıt dokusu, Osmanlı/Türkiye toprağına el boyası). Dokular CC0 fotoğraf (SOURCES §5.1) |
+| A36 | Yıl ve paneller (2026-11-17) | Yıl çerçevesiz, IM Fell English rakamlar. Bütün paneller tek kâğıt-fiş dili; atıflar sağ altta "Kaynakça" düğmesinin arkasında; olay kartının kaynakları "Kaynakça (n)" içinde |
+| A37 | Kontroller (2026-11-17) | Olay/Seyahat/Yıl birimleri kaldırıldı. Mukavva ikon düğmeler + kronoloji çizgisi + hız (1×/2×); otomatik mod genel olarak kısaldı (A2) |
+| A38 | Kıyı sınırı (2026-11-17) | Dönem sınırı kıyılarda da görünür; çift çizgiyi önlemek için kıyıda altlığın kıyı çizgisi boyanır (2026-11-16 kararı bu yönüyle değişti) |
+| A39 | Sözlük kapsamı (2026-11-17) | Eski kelime açıklaması olay, durum ve **belge tam metinlerinde** çıkar; metin değişmez, açıklama ayrı kartta (§2.1 istisnası) |
+| A40 | Sözlük kaynağı (2026-11-17) | Anlam tek resmî devlet kaynağına (ör. TDK Güncel Türkçe Sözlük) ya da iki bağımsız telifsiz kaynağa dayanır; açıklama bizim cümlemiz; kullanıcı onaylayana kadar `verified: false` |
+| A42 | Kamera ve kâğıt (2026-11-18) | Kâğıt ve baskı birlikte hareket eder; kamera masanın üstünde gezer. Uzaklaşınca kâğıdın kenarı, rulolar ve masa görünür; yakınlaşınca ekranı kâğıt kaplar. Basılı harita, eski atlaslardaki gibi çift çizgili, derece çubuklu bir çerçeveyle biter (boylam rakamları 10°, enlem 5°); çerçevenin dışında boş kâğıt payı. Ekranın köşelerindeki kararma kamera vinyeti olarak sabit |
+| A43 | Rotalar (2026-11-18) | Belgelenmemiş kara bacakları duraklardan geçen tek parça yumuşak eğri (çizim; yeni koordinat yok); kesik çizgi bacaklar boyunca kesintisiz; seyahat başına tek "yaklaşık rota" etiketi |
+| A44 | Kronoloji kadranı (2026-11-18) | Radyo frekans kadranı: bakalit çerçeve, arkadan aydınlatılmış yüz, her yıla çentik, her 10 yıla rakam, seyahatler istasyon noktası, kırmızı ibre. Kontroller 1280'de en çok 42rem, 768'de 40rem; alt paneller alt kenara 12 px |
+| A45 | Paneller ve künye (2026-11-18) | Askerî evrak fişi: manila kâğıt, durum kartında ataş, olay kartında raptiye, daktilo (Courier Prime) başlık ve etiketler, durum kartında noktalı form satırları. Okuma paneli belgenin kendisi olduğu için kâğıt kalır, ataşla tutulur. "ATAMap · Kaynakça" ekranın altındaki sabit ahşap şeritte (masanın ön kenarı) |
+| A41 | Panel boyutları (2026-11-17) | §4.3'teki küçültülmüş genişlikler ve yazı boyutları; düğmeler 44 px'in altına inmez |
 | A34 | İlk sınırın başlangıç tarihi (2026-11-15) | 1886-1912 Osmanlı sınırı CShapes'in kapsama başlangıcından (1886) itibaren gösterilir. Bu tarih bir olay değildir; `conventional: true` işaretlenir ve geometrinin kendi kaynağı (CShapes) tek kaynak olarak kabul edilir. İstisna yalnız bu tür bir sınır kaydı içindir (kural 5, kullanıcı kararı) |
 
 ---

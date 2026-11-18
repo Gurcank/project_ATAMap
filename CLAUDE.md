@@ -8,7 +8,7 @@ Atatürk'ün 1881-1938 hayatı; mektup, telgraf, konuşma ve seyahatleri dönem 
 ## Mutlak kurallar
 
 1. **Bütçe sıfır.** Ücretli paket, servis, font, veri, API anahtarı yok. Dış ağ isteği yok (CSP `default-src 'self'`).
-2. **Telifli içerik yok.** Belge tam metni yalnız aslı Latin harfli, Atatürk'ün kendi metni ise ve kaynaktan birebir. Transkripsiyon, sadeleştirme, çeviri, özet, editör notu yazma veya ekleme (SPEC §2.1).
+2. **Telifli içerik yok.** Belge tam metni yalnız aslı Latin harfli, Atatürk'ün kendi metni ise ve kaynaktan birebir. Transkripsiyon, sadeleştirme, çeviri, özet, editör notu yazma veya ekleme (SPEC §2.1). Tek istisna sözlük kartı (SPEC A39): metin karakter karakter aynı kalır, eski kelimenin açıklaması metnin dışında, üzerine gelince açılan ayrı bir kartta durur.
 3. **Veri uydurma.** Tarih, yer, olay, koordinat, kaynak künyesi asla tahminle yazılmaz. Her tarih ve yer için ≥ 2 bağımsız telifsiz kaynak, tarihli birincil belge ya da tek bir resmî devlet kaynağı (SPEC §2.2, A27). Test için gereken kayıtlar `tests/fixtures/` altında ve açıkça kurgu olarak işaretli.
 4. **Dil yalnız Türkçe.** Arayüzde İngilizce kelime yok. Kod, tanımlayıcı ve yorumlar İngilizce olabilir.
 5. **Ham renk yalnız `src/styles/tokens.css`'te.** Başka her yerde `var(--…)`. `npm run check:tokens` denetler.

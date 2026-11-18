@@ -6,22 +6,30 @@
   line-height: 1.25;
 }
 
+/* Date as an engraved caption under the title, a short rule before it. */
 .date {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-8);
   margin: 0 0 var(--space-4);
-  font-size: var(--text-14);
   color: var(--ink-muted);
 }
 
+.date::before {
+  content: '';
+  align-self: center;
+  width: var(--space-16);
+  height: var(--rule-width);
+  background: currentColor;
+}
+
 .badge {
-  margin-left: var(--space-8);
-  padding: 0 var(--space-4);
-  font-size: var(--text-12);
-  border: var(--rule-width) solid var(--ink-muted);
+  font-style: italic;
 }
 
 .text {
   margin: 0;
-  font-size: var(--text-16);
+  font-size: var(--text-14);
   line-height: 1.4;
   /* 375 px: at most 5 lines, "Devamı" opens the rest (SPEC §4.3). */
   display: -webkit-box;
@@ -48,12 +56,54 @@
   cursor: pointer;
 }
 
+/* "Kaynakça (n)": small, at the foot of the card; the list opens under it. The hit area reaches
+   44 px tall without making the line itself big. */
+/* 375: a slim line right under the text; from 768 a rule sets it off as the card's foot. */
+.sourcesToggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  margin-top: var(--space-4);
+  padding: 0;
+  color: var(--ink);
+  background: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.sourcesToggle::before {
+  content: '';
+  position: absolute;
+  inset: calc(-1 * var(--space-12)) 0;
+}
+
+.chevron {
+  width: var(--space-8);
+  height: var(--space-8);
+  border-right: var(--rule-width) solid currentColor;
+  border-bottom: var(--rule-width) solid currentColor;
+  transform: translateY(-25%) rotate(45deg);
+}
+
+.sourcesToggle[aria-expanded='true'] .chevron {
+  transform: translateY(25%) rotate(225deg);
+}
+
 .sources {
-  margin: var(--space-8) 0 0;
+  margin: var(--space-4) 0 0;
   padding: 0;
   list-style: none;
   font-size: var(--text-12);
   color: var(--ink-muted);
+}
+
+.sources[hidden] {
+  display: none;
+}
+
+.sources li + li {
+  margin-top: var(--space-4);
 }
 
 .sources a {
@@ -77,8 +127,18 @@
 }
 
 @media (min-width: 48rem) {
+  .date {
+    margin: var(--space-4) 0 var(--space-8);
+  }
+
+  .sourcesToggle {
+    margin-top: var(--space-12);
+    padding: var(--space-4) 0;
+    border-top: var(--rule-width) solid var(--ink-muted);
+  }
+
   .title {
-    font-size: var(--text-20);
+    font-size: var(--text-16);
     margin-bottom: var(--space-4);
   }
 

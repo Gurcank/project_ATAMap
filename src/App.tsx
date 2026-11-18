@@ -25,10 +25,10 @@ function onKeyDown(e: KeyboardEvent) {
   }
   const target = e.target instanceof Element ? e.target : null;
   if (e.key === 'ArrowRight') {
-    if (target?.closest('select')) return;
+    if (target?.closest('select, input')) return; // the chronology line moves itself
     goNext();
   } else if (e.key === 'ArrowLeft') {
-    if (target?.closest('select')) return;
+    if (target?.closest('select, input')) return;
     goPrev();
   } else if (e.key === ' ') {
     if (target?.closest(OWN_KEYS)) return;
@@ -49,11 +49,9 @@ export function App() {
 
   return (
     <main>
-      {/* Top left (A29): status first, the site name and attribution follow it. */}
+      {/* Top left (A29): the status card. The site name and credits sit bottom right. */}
       <div class="corner" data-map-edge="top">
         {state.status === 'ready' && <StatusCartouche />}
-        <p class="site-kunye">ATAMap</p>
-        <Attribution />
       </div>
       {state.status === 'error' ? (
         // SPEC §4.2 "Hata: veri JSON": the map stays an empty sheet of paper.
@@ -76,6 +74,7 @@ export function App() {
           <DocumentSheet />
         </>
       )}
+      <Attribution />
     </main>
   );
 }

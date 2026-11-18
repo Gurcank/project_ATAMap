@@ -210,7 +210,18 @@ Aşağıdaki dönemler ve değişiklikler iki açık veri setinde de ya hiç yok
 | Alegreya Sans | [google/fonts ofl/alegreyasans](https://github.com/google/fonts/tree/main/ofl/alegreyasans) | OFL | latin-ext |
 | EB Garamond | [google/fonts ofl/ebgaramond](https://github.com/google/fonts/tree/main/ofl/ebgaramond) | OFL | latin-ext |
 | Courier Prime | [google/fonts ofl/courierprime](https://github.com/google/fonts/tree/main/ofl/courierprime) | OFL | latin-ext |
-| (elendi) IM Fell English / DW Pica | [Google Fonts metadata](https://fonts.google.com/metadata/fonts) | — | Yalnız `latin` alt kümesi; ğ/ş/İ desteği yok sayılır → kullanılmaz |
+| IM Fell English *(2026-11-17: yalnız yıl rakamları)* | [npm @fontsource/im-fell-english](https://www.npmjs.com/package/@fontsource/im-fell-english) | OFL-1.1 (paket içindeki LICENSE) | Yalnız `latin` alt kümesi; ğ/ş/İ yok. Bu yüzden `unicode-range: U+0030-0039` ile yalnız rakamlarda kullanılır (SPEC A36). 2026-11-18: dosya `subset-font` ile 10 rakama kırpıldı (OFL kırpılmış kopya dağıtmaya izin verir; lisans metni pakette). DW Pica hâlâ elendi |
+
+### 5.1 Dokular (2026-11-17, SPEC A35)
+
+Kullanıcının izniyle indirildi (2026-11-17), tarayıcı canvas'ında küçültülüp WebP'ye çevrildi; yalnız sonuç dosyalar depoda (`src/assets/textures/`). CC0 atıf istemez; nezaketen "Kaynakça"da anılır.
+
+| Dosya | Kaynak | Lisans | İndirilen | Depodaki |
+|---|---|---|---|---|
+| `wood.webp` (masa) | Poly Haven, «Wood Table Worn» ([polyhaven.com/a/wood_table_worn](https://polyhaven.com/a/wood_table_worn)); `wood_table_worn_diff_1k.jpg` | CC0 ([polyhaven.com/license](https://polyhaven.com/license)) | 761.543 bayt, sha256 `092ab3465a6a24b24d092ea86865f332c3bd239b8eb2fd664b70357082031a3f` | 384×384, 5,5 KB |
+| `paper.webp` (kâğıt) | ambientCG, «Paper 003» ([ambientcg.com/view?id=Paper003](https://ambientcg.com/view?id=Paper003)); `Paper003_1K-JPG.zip` içinden `Paper003_1K-JPG_Color.jpg` | CC0 ([ambientcg.com/license](https://docs.ambientcg.com/license/)) | zip 2.545.301 bayt, sha256 `90b44da4c960ba044b37c26713c50ef1986687a522f1bbe847aeb9b471409040` | 1024×1024, 7,4 KB |
+
+Lisans sayfaları bu oturumda açılıp okunmadı; iki sitenin de bütün varlıklarını CC0 yayımladığı bilgisi API ve sayfa açıklamalarına dayanıyor. **Doğrulanmadı**: kullanıcı bağlantıları açıp teyit etmeli.
 
 Alt küme bilgisi [fonts.google.com/metadata/fonts](https://fonts.google.com/metadata/fonts) üzerinden alındı. `latin-ext` alt kümesinin Türkçe glifleri içerdiği bilinen bir durum, ancak her font için glif glif **doğrulanmadı**. Kurulumda "ğĞıİşŞçÇöÖüÜ" ile test edilecek.
 

@@ -8,36 +8,137 @@
   stroke-dashoffset: 0;
 }
 
-/* Telegram: a thin, straight, rust-coloured line (SPEC §3.2 --telegram). */
+/* ---- Telegram (M4): a rust wire on poles, a signal running along it, a ring on arrival ---- */
 .telegram .line {
   stroke: var(--telegram);
   stroke-width: 1.25;
 }
 
-.telegram .glyph circle {
-  fill: var(--telegram);
+.poles {
+  fill: none;
+  stroke: var(--telegram);
+  stroke-width: 1;
+  stroke-linecap: round;
+  opacity: 0.7;
+  animation: fade-in var(--dur-telegram) linear both;
 }
 
-/* Letter: an arc in the seal colour, with a stamp where it lands. */
+.halo {
+  fill: var(--telegram);
+  opacity: 0.2;
+}
+
+.spark {
+  fill: var(--telegram);
+  stroke: var(--paper);
+  stroke-width: 1;
+}
+
+.ring {
+  fill: none;
+  stroke: var(--telegram);
+  stroke-width: 1.5;
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: ring-out var(--dur-arrive) var(--ease-ink) var(--dur-telegram) both;
+}
+
+/* ---- Letter (M3): an envelope on an arc in the seal colour, a wax seal pressed on arrival ---- */
 .letter .line {
   stroke: var(--letter);
   stroke-width: 1.5;
   stroke-dasharray: 1;
 }
 
-.letter .glyph path {
+.envelope {
   fill: var(--paper);
   stroke: var(--letter);
   stroke-width: 1.25;
   stroke-linejoin: round;
 }
 
+.flap {
+  fill: none;
+  stroke: var(--letter);
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+
 .seal {
-  fill: var(--letter);
+  fill: var(--seal);
+}
+
+/* The envelope settles once it lands, leaving the seal. */
+.letter .glyph {
+  animation: fade-out var(--dur-arrive) linear var(--dur-letter) both;
 }
 
 .stamp {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: press var(--dur-arrive) var(--ease-ink) var(--dur-letter) both;
+}
+
+.stampRing {
   fill: none;
-  stroke: var(--letter);
-  stroke-width: 2;
+  stroke: var(--seal);
+  stroke-width: 1;
+  opacity: 0.6;
+}
+
+.stampWax {
+  fill: var(--seal);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+/* A ring that grows from the recipient and fades: the message has arrived. */
+@keyframes ring-out {
+  from {
+    opacity: 0.9;
+    transform: scale(0.6);
+  }
+  to {
+    opacity: 0;
+    transform: scale(3);
+  }
+}
+
+/* The seal comes down a little too large and settles, as if pressed into wax. */
+@keyframes press {
+  from {
+    opacity: 0;
+    transform: scale(1.6);
+  }
+  60% {
+    opacity: 1;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* §5.3: end states only. The ring is a passing effect, so it is not shown at all. */
+@media (prefers-reduced-motion: reduce) {
+  .ring {
+    animation: none;
+  }
+
+  .letter .glyph {
+    animation: none;
+    opacity: 0;
+  }
 }

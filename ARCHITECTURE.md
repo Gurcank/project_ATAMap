@@ -8,6 +8,8 @@
 
 | Tarih | Yer | Değişiklik |
 |---|---|---|
+| 2026-11-18 | ADR-03, ADR-12, §2.2, §2.3, §5 | Harita iki katman: altlık (masa, kâğıt, baskı; harita koordinatlarında, sabitlenmiş dönüşümle çizilir, kamera hareket ederken yalnız CSS transform ile taşınır, durunca yeniden çizilir) ve üst katman (rota, işaret, ad; ekran koordinatı). Kâğıt geometrisi `src/map/sheet.ts`, çizimi `src/map/SheetLayer.tsx`. IM Fell `scripts/subset-fonts.ts` ile rakamlara kırpıldı (`subset-font` 2.9.0, dev); `@fontsource/im-fell-english` dev bağımlılığına geçti. Courier Prime açılış font bütçesine sayılır. Açılış fontları 224,5 KB |
+| 2026-11-17 | §2.2, §5, ADR-07, ADR-09, ADR-10, ADR-11 | Görsel yenileme (SPEC A35-A40): `@fontsource/im-fell-english` 5.3.0 (yalnız rakam aralığı); CC0 dokular `src/assets/textures/` (WebP, toplam 12,7 KB) ve `check-size` doku bütçesi 250 KB; adım birimleri kalktı (`buildSteps` yalnız tarih sırası); otomatik mod adımın gerçek animasyon süresini harita katmanlarından alır (`reportStepAnimation`); yeni süre token'ları `--dur-press`, `--dur-hover`, `--dur-arrive`, `--dur-puff`, `--dur-wake`; `GlossaryEntry` ve kural 12 (`data/glossary.json` → `steps.json` içinde `glossary`) |
 | 2026-11-14 | ADR-07, §6.1 | Resmî kaynak (SPEC K5, A27): `SourceRef.official`, `rights: 'hakki-sakli-olgu'`; kural 2 bu kaynakları elemez, kural 5 tek resmî kaynağı kabul eder, kural 11'in listesi devlet dışı sitelere indi |
 | 2026-11-14 | ADR-15 | `DateValue.conventional` (SPEC A25 güncellemesi): doğum tarihi kabul edilen tarih olarak işaretli; yaş hesabı bu tarihi olduğu gibi kullanır |
 | 2026-11-14 | ADR-15, §4, §6.1 | Durum kartuşu (SPEC K3): `Tenure` ve `Person` kayıtları, `src/timeline/status.ts` saf hesap, derleme kuralları 9-11 (SPEC K4: Vikipedi ve ipucu siteler) |
@@ -74,6 +76,8 @@ Bütçe sıfır (SPEC §1): Aşağıdaki her paket, veri ve hizmet ücretsizdir.
 | @fontsource/courier-prime | **5.3.0** | 2026-07-19 | — | OFL-1.1 | font dosyası |
 
 ### 2.3 Derleme ve geliştirme paketleri
+
+*2026-11-18:* `@fontsource/im-fell-english` **5.3.0** (OFL-1.1, 2026-07-19) buraya taşındı: tarayıcıya giden dosya artık `src/assets/fonts/im-fell-english-digits.woff2` (3,3 KB), paket yalnız kaynak. `subset-font` **2.9.0** (BSD-3-Clause, 2026-09-20; harfbuzzjs ile) bu kırpmayı yapar: `npm run build:fonts`.
 
 | Paket | Sürüm | Yayım | En yeni (neden değil) | Lisans |
 |---|---|---|---|---|
@@ -470,11 +474,11 @@ SPEC §7 önerisinin kesin hâli. Ölçüm `scripts/check-size.ts` (boyut) ve Li
 | Yakın zoom altlığı (10m) | ≤ 400 KB gzip / dosya | Aşarsa bölünür (ADR-05) |
 | Sınır dosyası | ≤ 150 KB gzip / tarih | Yalnız aktif + sonraki önden |
 | Belge metinleri | ≤ 500 KB gzip toplam | Yıla göre parçalı |
-| Açılış fontları (Old Standard TT + Alegreya Sans) | ≤ 250 KB (SPEC §7) | Ölçülen 190,6 KB ✓ |
-| Belge fontları (EB Garamond + Courier Prime) | ≤ 200 KB, ilk A4 açılışında (SPEC §7) | Ölçülen 178,7 KB ✓ (ADR-12) |
+| Açılış fontları (Old Standard TT + Alegreya Sans + IM Fell rakamları + Courier Prime) | ≤ 250 KB (SPEC §7) | Ölçülen 224,5 KB ✓ (2026-11-18; IM Fell rakamlara kırpıldı, Courier Prime panellerde açılışta) |
+| Belge fontları (EB Garamond) | ≤ 200 KB, ilk A4 açılışında (SPEC §7) | Ölçülen 148,1 KB ✓ (2026-11-18; Courier Prime açılış fontlarına geçti) |
 | Araç SVG'leri | ≤ 4 KB / adet, ≤ 20 KB toplam | Satır içi |
 | İşaret ikonları | ≤ 8 KB toplam | |
-| Kâğıt dokusu | ≤ 30 KB | `feTurbulence` tercih edilir (0 KB dosya) |
+| Dokular (kâğıt + ahşap, CC0 fotoğraf) | ≤ 250 KB toplam (`check-size`) | 2026-11-17: WebP, ölçülen 12,7 KB (kâğıt 7,4 + ahşap 5,5); kullanıcı fotoğraf dokuyu seçti (SPEC A35) |
 | LCP | ≤ 2,5 s | 4G, orta mobil profil (Lighthouse) |
 | Adım geçişi | ana iş parçacığı bloğu ≤ 50 ms | Performance paneli, 4× CPU yavaşlatma |
 | CLS | ≤ 0,1 | Statik iskelet sayesinde |

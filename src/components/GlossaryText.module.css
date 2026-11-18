@@ -1,0 +1,82 @@
+/*
+ * Glossary words and their card (2026-11-17). The word keeps the text's own font and size and is
+ * marked only by a dotted underline, as reference works mark a gloss. The card is a small slip of
+ * the same paper as the panels, fixed on screen next to the word.
+ */
+.term {
+  display: inline;
+  padding: 0;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+  color: inherit;
+  text-align: inherit;
+  background: none;
+  border: 0;
+  text-decoration: underline dotted;
+  text-decoration-color: var(--ink-muted);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  cursor: help;
+}
+
+.term:hover,
+.term[aria-expanded='true'] {
+  text-decoration-style: solid;
+  text-decoration-color: var(--accent-text);
+}
+
+.card {
+  position: fixed;
+  z-index: 6; /* over the reading panel and the credits */
+  top: var(--y, 0);
+  left: var(--x, 0);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  width: min(18rem, calc(100vw - 2 * var(--space-8)));
+  padding: var(--space-12) var(--space-16);
+  font-family: var(--font-ui);
+  font-size: var(--text-14);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  text-align: left;
+  text-transform: none;
+  color: var(--ink);
+  background: var(--card-fill);
+  background-blend-mode: multiply;
+  border: var(--rule-width) solid var(--ink);
+  outline: var(--rule-width) solid var(--ink);
+  outline-offset: calc(-1 * (var(--rule-gap) + 2 * var(--rule-width)));
+  box-shadow: var(--card-shadow);
+}
+
+.head {
+  font-family: var(--font-display);
+  font-size: var(--text-16);
+  font-style: italic;
+}
+
+.today {
+  padding-top: var(--space-4);
+  border-top: var(--rule-width) solid var(--ink-muted);
+}
+
+.todayLabel {
+  font-family: var(--font-display);
+  color: var(--ink-muted);
+}
+
+.sources {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  font-size: var(--text-12);
+  color: var(--ink-muted);
+}
+
+.source a {
+  color: inherit;
+}

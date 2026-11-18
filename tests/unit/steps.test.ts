@@ -1,11 +1,12 @@
 import { describe, expect, it } from 'vitest';
 import { formatDate, yearOf } from '../../src/format/date.ts';
 import {
+  MAX_READING_MS,
   MIN_READING_MS,
+  READING_MS_PER_CHAR,
   buildSteps,
   nextStepId,
   prevStepId,
-  remapOnModeChange,
   stepDuration,
   type TimelineEvent,
 } from '../../src/timeline/steps.ts';
@@ -26,28 +27,22 @@ const events = [
 ];
 
 describe('buildSteps', () => {
-  it('olay: every event in date order', () => {
-    expect(buildSteps(events, 'olay').map((e) => e.id)).toEqual(['a', 'b', 'c', 'd', 'e']);
-  });
-  it('seyahat: only events with a journey', () => {
-    expect(buildSteps(events, 'seyahat').map((e) => e.id)).toEqual(['a', 'b', 'e']);
-  });
-  it('yil: first event of each year, empty years skipped', () => {
-    expect(buildSteps(events, 'yil').map((e) => e.id)).toEqual(['a', 'd', 'e']);
+  it('every event in date order', () => {
+    expect(buildSteps(events).map((e) => e.id)).toEqual(['a', 'b', 'c', 'd', 'e']);
   });
   it('orders by id when dates are equal', () => {
     const tied = [ev('z', '1900-01-01'), ev('y', '1900-01-01')];
-    expect(buildSteps(tied, 'olay').map((e) => e.id)).toEqual(['y', 'z']);
+    expect(buildSteps(tied).map((e) => e.id)).toEqual(['y', 'z']);
   });
   it('does not mutate its input', () => {
     const copy = [...events];
-    buildSteps(events, 'olay');
+    buildSteps(events);
     expect(events).toEqual(copy);
   });
 });
 
 describe('next / prev', () => {
-  const steps = buildSteps(events, 'olay');
+  const steps = buildSteps(events);
   it('walks forward and backward', () => {
     expect(nextStepId(steps, 'b')).toBe('c');
     expect(prevStepId(steps, 'b')).toBe('a');
@@ -62,28 +57,17 @@ describe('next / prev', () => {
   });
 });
 
-describe('remapOnModeChange (A1, first rule)', () => {
-  it('keeps the latest step not later than the current event', () => {
-    expect(remapOnModeChange(events, 'c', 'seyahat')).toBe('b');
-    expect(remapOnModeChange(events, 'd', 'yil')).toBe('d');
-    expect(remapOnModeChange(events, 'c', 'yil')).toBe('a');
-  });
-  it('falls back to the first step when all are later', () => {
-    const later = [ev('x', '1900-01-01'), ev('y', '1910-01-01', 'j')];
-    expect(remapOnModeChange(later, 'x', 'seyahat')).toBe('y');
-  });
-  it('returns null when the mode has no steps', () => {
-    expect(remapOnModeChange([ev('x', '1900-01-01')], 'x', 'seyahat')).toBeNull();
-  });
-  it('starts at the first step when nothing is current', () => {
-    expect(remapOnModeChange(events, null, 'olay')).toBe('a');
-  });
-});
-
 describe('stepDuration (A2)', () => {
-  it('adds a reading time with a floor', () => {
+  it('adds a reading time with a floor and a ceiling', () => {
     expect(stepDuration({ text: 'kısa' }, 800)).toBe(800 + MIN_READING_MS);
-    expect(stepDuration({ text: 'x'.repeat(240) }, 800)).toBe(800 + 240 * 55);
+    expect(stepDuration({ text: 'x'.repeat(100) }, 800)).toBe(800 + 100 * READING_MS_PER_CHAR);
+    expect(stepDuration({ text: 'x'.repeat(1000) }, 800)).toBe(800 + MAX_READING_MS);
+  });
+  it('waits for the whole animation, whatever its length', () => {
+    expect(stepDuration({ text: 'kısa' }, 6000)).toBe(6000 + MIN_READING_MS);
+  });
+  it('the second speed halves the whole step', () => {
+    expect(stepDuration({ text: 'x'.repeat(100) }, 800, 2)).toBe((800 + 3000) / 2);
   });
 });
 

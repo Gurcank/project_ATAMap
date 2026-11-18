@@ -1,7 +1,6 @@
 /*
- * The year, printed on the map rather than framed (2026-11-17): IM Fell English letterpress figures
- * in ink, multiplied into the paper so the grain shows through like a real impression. A faint
- * paper halo keeps it legible over coastlines. Bottom left of the dock from 768 up.
+ * The year (2026-11-18): IM Fell English letterpress figures in ink, nothing else; no halo or blend
+ * behind the digits. Bottom left of the dock from 768 up.
  */
 .year {
   display: flex;
@@ -17,10 +16,6 @@
   font-size: var(--text-39);
   letter-spacing: 0.02em;
   color: var(--ink);
-  text-shadow:
-    0 0 0.15em var(--land),
-    0 0 0.35em var(--land);
-  mix-blend-mode: multiply;
   animation: slide-in var(--dur-year) var(--ease-ink);
 }
 

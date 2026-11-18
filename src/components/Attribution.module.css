@@ -1,21 +1,31 @@
 /*
- * Credit line on the table (2026-11-17): the wooden strip along the bottom of the screen, under the
- * sheet, right-aligned, in paper-coloured letters on the wood. "Kaynakça" opens the full credits
- * upwards on a paper slip.
+ * Credit line (2026-11-18): plain small text in the bottom-right corner, no box and no pattern
+ * behind it; a thin paper-coloured halo round the letters keeps it legible over the map. At 375 it
+ * sits in the bottom strip, to the right of the step buttons; from 768 up under the cards.
+ * "Kaynakça" opens the full credits upwards on a paper slip.
  */
 .strip {
   position: absolute;
   z-index: 3; /* over the dock, so its panel can open over the event card */
-  right: var(--gutter);
-  bottom: 0;
+  right: var(--space-16);
+  bottom: calc(var(--space-16) + var(--space-12));
   display: flex;
   align-items: center;
   gap: var(--space-4);
-  height: var(--table-strip);
   font-family: var(--font-ui);
   font-size: var(--text-12);
   line-height: 1;
-  color: var(--paper);
+  color: var(--ink);
+  text-shadow:
+    0 0 2px var(--paper),
+    0 0 4px var(--paper);
+}
+
+@media (min-width: 48rem) {
+  .strip {
+    right: var(--gutter);
+    bottom: var(--space-4);
+  }
 }
 
 .name {
@@ -33,7 +43,7 @@
   position: relative;
   padding: var(--space-4) var(--space-8);
   font: inherit;
-  color: var(--paper);
+  color: var(--ink);
   text-decoration: underline;
   text-underline-offset: 0.2em;
   background: none;
@@ -48,7 +58,7 @@
 }
 
 .toggle[aria-expanded='true'] {
-  color: var(--lamp);
+  color: var(--accent-text);
 }
 
 .panel {
@@ -62,6 +72,7 @@
   font-size: var(--text-12);
   line-height: 1.4;
   color: var(--ink-muted);
+  text-shadow: none;
 }
 
 .panel[hidden] {

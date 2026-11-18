@@ -38,10 +38,10 @@
   /* ---- Textures (CC0, SOURCES §5.1): paper grain is multiplied over the map and cards ---- */
   --texture-paper: url('../assets/textures/paper.webp');
   --texture-wood: url('../assets/textures/wood.webp');
-  /* The camera sees the whole screen (2026-11-17); only the table's front edge, a fixed wooden
-     strip, runs along the bottom and carries the credits. UI keeps a gutter off the screen edge. */
+  /* The camera sees the whole screen (2026-11-17); UI keeps a gutter off the screen edge.
+     --credit-line is the room the credits take along the bottom from 768 up (2026-11-18). */
   --table-margin: 0px;
-  --table-strip: calc(var(--space-24) + var(--space-4));
+  --credit-line: calc(var(--space-24) + var(--space-4));
   --gutter: var(--space-16);
 
   /* ---- Typefaces (SPEC §3.3, ADR-12) ---- */

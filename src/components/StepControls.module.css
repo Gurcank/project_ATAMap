@@ -43,7 +43,7 @@
   font-variant-numeric: oldstyle-nums;
 }
 
-.speed[aria-pressed='true'] {
+.speed[data-fast] {
   color: var(--accent-text);
 }
 

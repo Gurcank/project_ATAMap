@@ -10,7 +10,7 @@
   z-index: 2;
   left: var(--table-margin);
   right: var(--table-margin);
-  bottom: var(--table-strip); /* just above the wooden strip with the credits */
+  bottom: var(--table-margin);
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas:
@@ -65,11 +65,11 @@
     column-gap: var(--space-16);
     row-gap: var(--space-16);
     align-items: end;
-    bottom: var(--table-strip);
+    bottom: var(--table-margin);
     max-height: none;
     overflow: visible;
-    /* Close to the bottom edge (2026-11-17): the cards sit just above the wooden strip. */
-    padding: 0 var(--space-24) var(--space-12);
+    /* Close to the bottom edge; the credits line runs under the cards (2026-11-18). */
+    padding: 0 var(--space-24) var(--credit-line);
     background: none;
     border: 0;
     outline: none;
@@ -121,7 +121,7 @@
   .dock {
     grid-template-columns: auto 1fr 18rem;
     grid-template-areas: 'year controls event';
-    padding: 0 var(--gutter) var(--space-12);
+    padding: 0 var(--gutter) var(--credit-line);
   }
 
   .dock .controls {

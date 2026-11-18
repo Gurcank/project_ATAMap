@@ -66,8 +66,9 @@ describe('stepDuration (A2)', () => {
   it('waits for the whole animation, whatever its length', () => {
     expect(stepDuration({ text: 'kısa' }, 6000)).toBe(6000 + MIN_READING_MS);
   });
-  it('the second speed halves the whole step', () => {
+  it('faster speeds divide the whole step', () => {
     expect(stepDuration({ text: 'x'.repeat(100) }, 800, 2)).toBe((800 + 3000) / 2);
+    expect(stepDuration({ text: 'x'.repeat(100) }, 800, 4)).toBe((800 + 3000) / 4);
   });
 });
 

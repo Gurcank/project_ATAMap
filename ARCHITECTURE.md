@@ -8,6 +8,7 @@
 
 | Tarih | Yer | Değişiklik |
 |---|---|---|
+| 2026-11-18 | ADR-03, ADR-09 | Altlık katmanı her yönde ekranın %30'u kadar geniş çizilir; uzaklaşmada ölçek %20 küçülünce hemen yeniden çizilir (yakınlaşmada %60). Adım URL'ye yazılmaz (SPEC A46): `#adim=` yalnız açılışta okunur, sonra temizlenir. Kronolojide işaretçi büyüteci kendi işler, yerleşik kaydırıcı klavye ve ekran okuyucu için kalır |
 | 2026-11-18 | ADR-03, ADR-12, §2.2, §2.3, §5 | Harita iki katman: altlık (masa, kâğıt, baskı; harita koordinatlarında, sabitlenmiş dönüşümle çizilir, kamera hareket ederken yalnız CSS transform ile taşınır, durunca yeniden çizilir) ve üst katman (rota, işaret, ad; ekran koordinatı). Kâğıt geometrisi `src/map/sheet.ts`, çizimi `src/map/SheetLayer.tsx`. IM Fell `scripts/subset-fonts.ts` ile rakamlara kırpıldı (`subset-font` 2.9.0, dev); `@fontsource/im-fell-english` dev bağımlılığına geçti. Courier Prime açılış font bütçesine sayılır. Açılış fontları 224,5 KB |
 | 2026-11-17 | §2.2, §5, ADR-07, ADR-09, ADR-10, ADR-11 | Görsel yenileme (SPEC A35-A40): `@fontsource/im-fell-english` 5.3.0 (yalnız rakam aralığı); CC0 dokular `src/assets/textures/` (WebP, toplam 12,7 KB) ve `check-size` doku bütçesi 250 KB; adım birimleri kalktı (`buildSteps` yalnız tarih sırası); otomatik mod adımın gerçek animasyon süresini harita katmanlarından alır (`reportStepAnimation`); yeni süre token'ları `--dur-press`, `--dur-hover`, `--dur-arrive`, `--dur-puff`, `--dur-wake`; `GlossaryEntry` ve kural 12 (`data/glossary.json` → `steps.json` içinde `glossary`) |
 | 2026-11-14 | ADR-07, §6.1 | Resmî kaynak (SPEC K5, A27): `SourceRef.official`, `rights: 'hakki-sakli-olgu'`; kural 2 bu kaynakları elemez, kural 5 tek resmî kaynağı kabul eder, kural 11'in listesi devlet dışı sitelere indi |
@@ -283,7 +284,7 @@ Her karar: **Bağlam / Alternatifler / Sonuç / Ödünleşim**, ardından karar�
 - Durum makinesi kütüphanesi (XState vb.): Güçlü; boyut ve öğrenme maliyeti.
 - DOM'dan bağımsız saf TypeScript modülü + signals.
 
-**Sonuç:** `src/timeline/` saf fonksiyonlar: `buildSteps(data, mode)`, `next/prev(state)`, `stepDuration(step)` (A2: animasyon süresi + metin uzunluğuna bağlı okuma süresi), `remapOnModeChange(state, newMode)` (A1). Durum `@preact/signals` ile tutulur: `currentStepId`, `mode`, `autoplay`, `openDocumentId`. Aktif adım URL'ye yansır: `#adim=<eventId>` (geri tuşu ve E2E testleri adıma doğrudan başlar).
+**Sonuç:** `src/timeline/` saf fonksiyonlar: `buildSteps(data, mode)`, `next/prev(state)`, `stepDuration(step)` (A2: animasyon süresi + metin uzunluğuna bağlı okuma süresi), `remapOnModeChange(state, newMode)` (A1). Durum `@preact/signals` ile tutulur: `currentStepId`, `mode`, `autoplay`, `openDocumentId`. Aktif adım URL'ye yansır: `#adim=<eventId>` (geri tuşu ve E2E testleri adıma doğrudan başlar). *2026-11-18 (SPEC A46):* adım artık URL'ye yazılmaz; `#adim=` yalnız açılışta okunur ve sonra temizlenir, E2E testleri yine adıma doğrudan başlar.
 
 **Ödünleşim:** URL karması paylaşım butonu değildir (SPEC §8 paylaşım kapsam dışı); yalnız adres çubuğunda görünür. Tarayıcı geçmişi her adımda dolmasın diye `history.replaceState` kullanılır, yani geri tuşu adım adım geri gitmez.
 

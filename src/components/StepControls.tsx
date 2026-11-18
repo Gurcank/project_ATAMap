@@ -14,6 +14,9 @@ import dock from './Dock.module.css';
 import styles from './StepControls.module.css';
 import { Timeline } from './Timeline.tsx';
 
+/** What each speed means, for the tooltip. */
+const SPEED_TITLE = { 1: 'Normal hız', 2: 'İki kat hızlı', 4: 'Dört kat hızlı' } as const;
+
 /** Icons drawn on a 20-unit grid, in ink; one path each. */
 const ICON = {
   prev: 'M5 4h2v12H5zM16 4v12L8 10z',
@@ -78,9 +81,9 @@ export function StepControls() {
         <button
           type="button"
           class={`board-button ${styles.button} ${styles.speed}`}
-          aria-label="Hız"
-          aria-pressed={speed.value === 2}
-          title={speed.value === 2 ? 'İki kat hızlı' : 'Normal hız'}
+          aria-label={`Hız: ${speed.value}×`}
+          title={SPEED_TITLE[speed.value]}
+          data-fast={speed.value > 1 || undefined}
           onClick={toggleSpeed}
         >
           {speed.value}×

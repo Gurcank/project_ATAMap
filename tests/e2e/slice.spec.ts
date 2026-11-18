@@ -114,22 +114,29 @@ test('map keeps at least 55 % of the height at 375 (SPEC §4.3)', async ({ page 
   expect(dock && viewport && dock.y / viewport.height).toBeGreaterThanOrEqual(0.55);
 });
 
-test('next / previous buttons and the URL', async ({ page }) => {
+test('next / previous buttons; the address stays the plain site link', async ({ page }) => {
   await open(page, FIRST);
+  // An old #adim link opens its step, then the address is cleared (2026-11-18).
+  await expect(page).not.toHaveURL(/#adim=/);
   await page.getByRole('button', { name: 'Sonraki' }).click();
   await expect(page.getByRole('heading', { level: 2 })).toHaveText('TBMM Başkanı seçildi');
-  await expect(page).toHaveURL(/#adim=tbmm-reisi-1920-04-24/);
+  await expect(page).not.toHaveURL(/#/);
   await expect(page.getByRole('button', { name: 'Önceki' })).toBeEnabled();
   await page.getByRole('button', { name: 'Önceki' }).click();
-  await expect(page).toHaveURL(/#adim=tbmm-nutuk-1920-04-24/);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(
+    'Mustafa Kemal Paşa Meclise siyasi ahvali anlattı',
+  );
+  await expect(page).not.toHaveURL(/#/);
 });
 
 test('arrow keys step, Space starts and stops autoplay', async ({ page }) => {
   await open(page, FIRST);
   await page.keyboard.press('ArrowRight');
-  await expect(page).toHaveURL(/#adim=tbmm-reisi-1920-04-24/);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText('TBMM Başkanı seçildi');
   await page.keyboard.press('ArrowLeft');
-  await expect(page).toHaveURL(/#adim=tbmm-nutuk-1920-04-24/);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText(
+    'Mustafa Kemal Paşa Meclise siyasi ahvali anlattı',
+  );
   const auto = page.getByRole('button', { name: 'Otomatik' });
   await page.keyboard.press(' ');
   await expect(auto).toHaveAttribute('aria-pressed', 'true');
@@ -153,20 +160,24 @@ test('the last step disables Sonraki, a manual step stops autoplay', async ({ pa
   );
 });
 
-test('chronology line: End and Home jump to the ends, speed toggles', async ({ page }) => {
+test('chronology line: End and Home jump to the ends, speed cycles 1x 2x 4x', async ({ page }) => {
   await open(page, '/#adim=tbmm-nutuk-1923-08-13');
   const line = page.getByRole('slider', { name: 'Kronoloji' });
   await line.focus();
   await page.keyboard.press('End');
-  await expect(page).toHaveURL(/#adim=olum-1938-11-10/);
+  await expect(page.getByRole('heading', { level: 2 })).toHaveText("Dolmabahçe Sarayı'nda öldü");
   await expect(page.getByRole('button', { name: 'Sonraki' })).toBeDisabled();
   await page.keyboard.press('Home');
   await expect(page.getByRole('button', { name: 'Önceki' })).toBeDisabled();
-  const speed = page.getByRole('button', { name: 'Hız' });
-  await expect(speed).toHaveAttribute('aria-pressed', 'false');
+  const speed = page.getByRole('button', { name: /^Hız/ });
+  await expect(speed).toHaveText('1×');
   await speed.click();
-  await expect(speed).toHaveAttribute('aria-pressed', 'true');
   await expect(speed).toHaveText('2×');
+  await speed.click();
+  await expect(speed).toHaveText('4×');
+  await expect(speed).toHaveAccessibleName('Hız: 4×');
+  await speed.click();
+  await expect(speed).toHaveText('1×');
 });
 
 test('the first real journey: Amasya to Erzurum by car, approximate route', async ({
@@ -344,7 +355,7 @@ test('touch targets are at least 44 x 44 px (SPEC §4)', async ({ page }) => {
   const targets = [
     page.getByRole('button', { name: 'Sonraki' }),
     page.getByRole('button', { name: 'Otomatik' }),
-    page.getByRole('button', { name: 'Hız' }),
+    page.getByRole('button', { name: /^Hız/ }),
     page.getByRole('slider', { name: 'Kronoloji' }),
   ];
   for (const t of targets) {

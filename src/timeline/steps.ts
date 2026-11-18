@@ -39,7 +39,7 @@ export function prevStepId(steps: readonly TimelineEvent[], id: string | null): 
 export const READING_MS_PER_CHAR = 30;
 export const MIN_READING_MS = 1500;
 export const MAX_READING_MS = 5000;
-export const SPEEDS = [1, 2] as const;
+export const SPEEDS = [1, 2, 4] as const;
 export type Speed = (typeof SPEEDS)[number];
 
 export function stepDuration(

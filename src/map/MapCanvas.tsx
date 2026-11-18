@@ -50,9 +50,14 @@ const MAX_ZOOM = 14;
 const SHEET_FIT = 0.92;
 /** Table the camera may show beyond the sheet, as a share of the screen. */
 const TABLE_VIEW = 0.15;
-/** Redraw the base layer this long after the camera stops, or at once past this scale drift. */
+/** Redraw the base layer this long after the camera stops, or at once past these scale drifts:
+ *  zooming in only blurs the drawing, zooming out uncovers undrawn edges, so out redraws sooner. */
 const COMMIT_DELAY = 140;
-const MAX_DRIFT = 1.6;
+const MAX_DRIFT_IN = 1.6;
+const MAX_DRIFT_OUT = 1.2;
+/** The base layer is drawn this share of the screen past each edge, so panning and a moderate
+ *  zoom-out show drawn map at once instead of blank edges until the redraw (2026-11-18). */
+const OVERSCAN = 0.3;
 /** Below this width the cartouches form one strip over the lower half (SPEC §4.3). */
 const COMPACT_WIDTH = 768;
 const MARKER_SPACING = 48;
@@ -170,7 +175,7 @@ export function MapCanvas() {
       setTransform(t);
       clearTimeout(settle.current);
       const drift = t.k / committedRef.current.k;
-      if (drift > MAX_DRIFT || drift < 1 / MAX_DRIFT) commit(t);
+      if (drift > MAX_DRIFT_IN || drift < 1 / MAX_DRIFT_OUT) commit(t);
       else settle.current = setTimeout(() => commit(t), COMMIT_DELAY);
     });
     behavior.current = z;
@@ -198,15 +203,18 @@ export function MapCanvas() {
       ]);
   }, [sheet, minZoom, size.w, size.h]);
 
-  // While moving, the base layer is only moved and scaled from where it was drawn.
+  // While moving, the base layer is only moved and scaled from where it was drawn. The layer is
+  // drawn `pad` px wider on each side (overscan) and shifted back by it: a map point drawn at
+  // pad + c(p) in the layer must land on t(p) on screen.
+  const pad = { x: Math.round(size.w * OVERSCAN), y: Math.round(size.h * OVERSCAN) };
   useEffect(() => {
     const node = baseSvg.current;
     if (!node) return;
     const scale = transform.k / committed.k;
-    const dx = transform.x - scale * committed.x;
-    const dy = transform.y - scale * committed.y;
+    const dx = transform.x - scale * committed.x - scale * pad.x;
+    const dy = transform.y - scale * committed.y - scale * pad.y;
     node.style.setProperty('transform', `translate(${dx}px, ${dy}px) scale(${scale})`);
-  }, [transform, committed]);
+  }, [transform, committed, pad.x, pad.y]);
 
   const place = currentPlace.value;
   const event = currentEvent.value;
@@ -369,7 +377,13 @@ export function MapCanvas() {
 
   return (
     <div class={styles.wrap} ref={wrap}>
-      <svg ref={baseSvg} class={styles.base} width={size.w} height={size.h} aria-hidden="true">
+      <svg
+        ref={baseSvg}
+        class={styles.base}
+        width={size.w + 2 * pad.x}
+        height={size.h + 2 * pad.y}
+        aria-hidden="true"
+      >
         <defs>
           {paths && <path id="land-shape" class={styles.shape} d={paths.land} />}
           {/* Land only: the territory colour and its coastal brush stroke stop at the base map's
@@ -392,7 +406,7 @@ export function MapCanvas() {
           {sheet && <SheetDefs sheet={sheet} k={committed.k} />}
         </defs>
         {paths && projection && sheet && (
-          <g transform={committed.toString()}>
+          <g transform={`translate(${pad.x} ${pad.y}) ${committed.toString()}`}>
             <SheetUnder sheet={sheet} k={committed.k} />
             {/* The print, inside the atlas neatline. */}
             <g clip-path="url(#frame-clip)">

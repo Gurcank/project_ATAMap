@@ -5,12 +5,19 @@ import { stepAnimationMs } from '../motion/motionPolicy.ts';
 import type { DocumentRecord } from '../schema/index.ts';
 import { activeBorderChanges } from '../timeline/borders.ts';
 import { statusAt, type Status } from '../timeline/status.ts';
-import { buildSteps, nextStepId, prevStepId, stepDuration, type Speed } from '../timeline/steps.ts';
+import {
+  SPEEDS,
+  buildSteps,
+  nextStepId,
+  prevStepId,
+  stepDuration,
+  type Speed,
+} from '../timeline/steps.ts';
 import { dataState, loadYearDocuments, type PublicSource } from './data.ts';
 
 export const currentId = signal<string | null>(null);
 export const autoplay = signal(false);
-/** Autoplay speed (2026-11-17): 1 or 2 times as fast. */
+/** Autoplay speed: 1, 2 or 4 times as fast (2026-11-18). */
 export const speed = signal<Speed>(1);
 export const openDocumentId = signal<string | null>(null);
 /** SPEC §4.2 "Hata: altlık dosyası": the 50m file failed, the embedded 110m drawing stays. */
@@ -91,8 +98,9 @@ export function goToIndex(index: number): void {
   autoplay.value = false;
   goTo(steps.value[index]?.id ?? null);
 }
+/** 1x -> 2x -> 4x -> 1x. */
 export function toggleSpeed(): void {
-  speed.value = speed.value === 1 ? 2 : 1;
+  speed.value = SPEEDS[(SPEEDS.indexOf(speed.value) + 1) % SPEEDS.length] ?? 1;
 }
 export function toggleAutoplay(): void {
   if (autoplay.value) {
@@ -105,19 +113,13 @@ export function toggleAutoplay(): void {
   autoplay.value = true;
 }
 
-// ---- URL: #adim=<eventId> (ADR-09). replaceState, so Back does not walk the steps. ----
+// ---- URL (2026-11-18): the address stays the plain site link while the steps change. An old link
+// with #adim=<eventId> still opens that step (ADR-09), after which the hash is cleared so the
+// address no longer names a step the map has moved away from. replaceState: Back is untouched. ----
 
 const HASH_KEY = 'adim';
 const idFromHash = () => new URLSearchParams(location.hash.slice(1)).get(HASH_KEY);
-
-effect(() => {
-  const id = currentId.value;
-  if (id === null) return;
-  const params = new URLSearchParams(location.hash.slice(1));
-  if (params.get(HASH_KEY) === id) return;
-  params.set(HASH_KEY, id);
-  history.replaceState(null, '', `#${params.toString()}`);
-});
+const clearHash = () => history.replaceState(null, '', location.pathname + location.search);
 
 // Pick the first step once the data arrives; a valid #adim wins.
 effect(() => {
@@ -125,6 +127,7 @@ effect(() => {
   const fromHash = idFromHash();
   const known = events.value.some((e) => e.id === fromHash);
   currentId.value = known ? fromHash : (steps.value[0]?.id ?? null);
+  if (fromHash !== null) clearHash();
 });
 
 window.addEventListener('hashchange', () => {
@@ -132,6 +135,7 @@ window.addEventListener('hashchange', () => {
   if (id !== null && id !== currentId.value && events.value.some((e) => e.id === id)) {
     currentId.value = id;
   }
+  if (id !== null) clearHash();
 });
 
 // ---- Autoplay (A2, A3): advances after the animation and reading time; never opens a document. ----

@@ -1,8 +1,8 @@
-/* The camera's window onto the table (2026-11-17): the whole screen above the fixed wooden strip
-   at the bottom. Table, sheet and print move inside it (SheetLayer, MapCanvas). */
+/* The camera's window onto the table: the whole screen (2026-11-18, no fixed strip any more).
+   Table, sheet and print move inside it (SheetLayer, MapCanvas). */
 .wrap {
   position: absolute;
-  inset: 0 0 var(--table-strip);
+  inset: 0;
   overflow: hidden;
   background: var(--table);
 }
